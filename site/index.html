@@ -1,0 +1,324 @@
+<title>SHM Subtopic Tests</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500&display=swap">
+<link rel="stylesheet" href="katex/katex.min.css">
+<style>
+/* Layout: single reading column (max 760px); picker = list of subtopic rows, test = one question card with a status strip above it */
+:root{
+  --bg:#f5f7f8; --surface:#ffffff; --ink:#152232; --muted:#5b6876; --line:#dbe1e6;
+  --accent:#0f6b78; --accent-soft:#e2f0f1; --accent-ink:#ffffff;
+  --good:#1f7a3f; --good-soft:#e3f3e8; --bad:#b3261e; --bad-soft:#fbe7e5; --warn:#9a5b00; --warn-soft:#fdf0d9;
+  --plate:#ffffff;
+  --display:"Bricolage Grotesque",ui-sans-serif,system-ui,sans-serif;
+  --body:"IBM Plex Sans",ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,"SFMono-Regular",Menlo,monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0f161d; --surface:#17212b; --ink:#e4eaef; --muted:#97a4b0; --line:#2a3743;
+  --accent:#4fb8c4; --accent-soft:#16343a; --accent-ink:#06191c;
+  --good:#5cc983; --good-soft:#15301f; --bad:#f08a80; --bad-soft:#3a1c1a; --warn:#e7b25a; --warn-soft:#352813;
+  --plate:#f3f5f6; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0f161d; --surface:#17212b; --ink:#e4eaef; --muted:#97a4b0; --line:#2a3743;
+  --accent:#4fb8c4; --accent-soft:#16343a; --accent-ink:#06191c;
+  --good:#5cc983; --good-soft:#15301f; --bad:#f08a80; --bad-soft:#3a1c1a; --warn:#e7b25a; --warn-soft:#352813;
+  --plate:#f3f5f6; color-scheme:dark}
+
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font:16px/1.6 var(--body);}
+.wrap{max-width:760px;margin:0 auto;padding-block:28px 64px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));display:flex;flex-direction:column;gap:22px}
+h1,h2{font-family:var(--display);line-height:1.15;text-wrap:balance;margin:0}
+h1{font-size:clamp(1.7rem,4.5vw,2.3rem);letter-spacing:-.01em}
+h2{font-size:1.25rem}
+.eyebrow{font:500 .75rem/1 var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--accent)}
+.lede{color:var(--muted);margin:0}
+.given{display:inline-flex;gap:8px;align-items:center;font-size:.9rem;color:var(--muted);border:1px dashed var(--line);border-radius:6px;padding:4px 10px;width:fit-content}
+button{font:inherit;color:inherit;cursor:pointer}
+button:focus-visible,input:focus-visible,label:focus-within{outline:2px solid var(--accent);outline-offset:2px}
+
+/* filters */
+.filters{display:flex;flex-wrap:wrap;gap:8px 18px;align-items:center;font-size:.92rem}
+.filters .lbl{font:500 .72rem/1 var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.chk{display:inline-flex;gap:6px;align-items:center;border-radius:4px}
+.chk input{accent-color:var(--accent);width:16px;height:16px}
+
+/* subtopic list */
+.subs{display:flex;flex-direction:column;border-top:1px solid var(--line)}
+.sub{display:grid;grid-template-columns:5.2rem 1fr auto;gap:4px 14px;align-items:center;text-align:left;background:none;border:0;border-bottom:1px solid var(--line);padding:14px 6px;transition:background .15s}
+.sub:hover{background:var(--surface)}
+.sub .code{font:500 .8rem var(--mono);color:var(--muted);font-variant-numeric:tabular-nums}
+.sub .name{font-weight:600;min-width:0}
+.sub .mix{grid-column:2;font-size:.85rem;color:var(--muted)}
+.sub .go{grid-row:1 / span 2;grid-column:3;display:flex;flex-direction:column;align-items:flex-end;gap:2px}
+.sub .count{font:600 1.05rem var(--display);font-variant-numeric:tabular-nums}
+.sub .last{font:500 .72rem var(--mono);color:var(--good)}
+.sub[disabled]{opacity:.45;cursor:not-allowed}
+@media (max-width:520px){.sub{grid-template-columns:1fr auto}.sub .code{grid-column:1}.sub .name,.sub .mix{grid-column:1}.sub .go{grid-row:1 / span 3;grid-column:2}}
+
+/* test view */
+.bar{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:8px}
+.link{background:none;border:0;padding:4px 0;color:var(--accent);font-weight:500}
+.prog{font:500 .85rem var(--mono);color:var(--muted);font-variant-numeric:tabular-nums}
+.dots{display:flex;flex-wrap:wrap;gap:5px}
+.dot{width:24px;height:24px;border-radius:50%;border:1.5px solid var(--line);background:var(--surface);font:500 .62rem var(--mono);color:var(--muted);display:grid;place-items:center;padding:0}
+.dot.cur{border-color:var(--accent);color:var(--accent);box-shadow:0 0 0 2px var(--accent-soft)}
+.dot.correct{background:var(--good);border-color:var(--good);color:var(--bg)}
+.dot.wrong{background:var(--bad);border-color:var(--bad);color:var(--bg)}
+.dot.seen{background:var(--warn-soft);border-color:var(--warn);color:var(--warn)}
+
+.card{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:22px clamp(16px,4vw,28px);display:flex;flex-direction:column;gap:16px}
+.meta{display:flex;flex-wrap:wrap;gap:6px;align-items:center}
+.qn{font:700 1.1rem var(--display);margin-right:4px}
+.chip{font:500 .72rem/1 var(--mono);padding:5px 8px;border-radius:4px;background:var(--accent-soft);color:var(--accent);letter-spacing:.02em}
+.chip.lv2{background:var(--warn-soft);color:var(--warn)}
+.chip.lv3{background:var(--bad-soft);color:var(--bad)}
+.chip.plain{background:transparent;border:1px solid var(--line);color:var(--muted)}
+.qtext p{margin:0 0 .7em}.qtext p:last-child{margin:0}
+.fig{background:var(--plate);border-radius:6px;padding:10px;width:fit-content;max-width:100%}
+.fig img{display:block;max-height:240px;max-width:100%;width:auto;height:auto;object-fit:contain}
+.katex{font-size:1.08em}
+.katex-display{overflow-x:auto;overflow-y:hidden}
+
+.opts{display:grid;gap:10px;list-style:none;margin:0;padding:0}
+.opts.imgs{grid-template-columns:repeat(auto-fit,minmax(min(100%,230px),1fr))}
+.opt{display:flex;gap:12px;align-items:flex-start;width:100%;text-align:left;background:var(--bg);border:1.5px solid var(--line);border-radius:8px;padding:11px 14px;transition:border-color .15s,background .15s;min-width:0}
+.opt:hover:not([disabled]){border-color:var(--accent)}
+.opt .k{flex:none;width:26px;height:26px;border-radius:50%;display:grid;place-items:center;font:600 .8rem var(--mono);border:1.5px solid currentColor;color:var(--muted)}
+.opt .v{min-width:0;overflow-x:auto;padding-top:1px}
+.opt .v img{background:var(--plate);border-radius:4px;max-height:130px;display:block}
+.opt[disabled]{cursor:default}
+.opt.right{border-color:var(--good);background:var(--good-soft)}.opt.right .k{color:var(--good)}
+.opt.picked-wrong{border-color:var(--bad);background:var(--bad-soft)}.opt.picked-wrong .k{color:var(--bad)}
+
+.numrow{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+.numrow input{font:500 1.05rem var(--mono);width:9rem;padding:9px 12px;border:1.5px solid var(--line);border-radius:8px;background:var(--bg);color:var(--ink)}
+.btn{border:0;border-radius:8px;padding:10px 18px;font-weight:600;background:var(--accent);color:var(--accent-ink)}
+.btn.ghost{background:transparent;border:1.5px solid var(--line);color:var(--ink)}
+.btn[disabled]{opacity:.4;cursor:not-allowed}
+
+.fb{border-radius:8px;padding:12px 14px;display:flex;flex-direction:column;gap:6px}
+.fb.good{background:var(--good-soft)}.fb.bad{background:var(--bad-soft)}.fb.info{background:var(--accent-soft)}
+.fb strong{font-family:var(--display)}
+.fb.good strong{color:var(--good)}.fb.bad strong{color:var(--bad)}.fb.info strong{color:var(--accent)}
+.aside{border-left:3px solid var(--warn);padding:4px 0 4px 12px}
+.aside .t{font:500 .72rem var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--warn)}
+.extras{display:flex;flex-wrap:wrap;gap:8px}
+.nav{display:flex;justify-content:space-between;gap:10px}
+.keys{font-size:.8rem;color:var(--muted);text-align:center}
+kbd{font:500 .75rem var(--mono);border:1px solid var(--line);border-radius:3px;padding:0 4px}
+
+/* summary */
+.score{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap}
+.score .big{font:700 3.2rem/1 var(--display);font-variant-numeric:tabular-nums}
+.score .of{color:var(--muted)}
+.rows{display:flex;flex-direction:column;border-top:1px solid var(--line)}
+.row{display:grid;grid-template-columns:3.2rem 1fr auto;gap:12px;align-items:center;padding:10px 4px;border:0;border-bottom:1px solid var(--line);background:none;text-align:left}
+.row:hover{background:var(--surface)}
+.row .n{font:500 .85rem var(--mono);color:var(--muted)}
+.row .s{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-size:.92rem}
+.st{font:500 .72rem var(--mono);padding:4px 7px;border-radius:4px}
+.st.correct{background:var(--good-soft);color:var(--good)}.st.wrong{background:var(--bad-soft);color:var(--bad)}.st.skip{background:var(--bg);color:var(--muted);border:1px solid var(--line)}.st.seen{background:var(--warn-soft);color:var(--warn)}
+.actions{display:flex;flex-wrap:wrap;gap:10px}
+.err{color:var(--bad)}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+
+<main class="wrap" id="app"><p class="lede">Loading questions…</p></main>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.11/katex.min.js"></script>
+<script>
+const CHAPTER = "17SHM";
+const app = document.getElementById("app");
+const S = { data:null, view:"pick", sub:null, queue:[], i:0, res:{}, types:new Set(["mcq","numerical","subjective"]), shuffle:false, show:{} };
+const TYPE_LABEL = { mcq:"MCQ", numerical:"numerical", subjective:"subjective" };
+const store = {
+  get(k){ try { return JSON.parse(localStorage.getItem(k)); } catch(e){ return null; } },
+  set(k,v){ try { localStorage.setItem(k, JSON.stringify(v)); } catch(e){} }
+};
+
+// Markdown-lite + KaTeX: paragraphs, inline $..$, display $$..$$; <sup>/<sub> come from our own data.
+function md(s){
+  if (!s) return "";
+  const math = [];
+  s = s.replace(/\$\$([\s\S]+?)\$\$|\$([^$]+?)\$/g, (m, d, i) => {
+    let html;
+    try { html = katex.renderToString(d || i, { displayMode: !!d, throwOnError: false, strict: "ignore" }); }
+    catch(e){ html = `<code>${d || i}</code>`; }
+    math.push(html); return `\u0000${math.length - 1}\u0000`;
+  });
+  s = s.split(/\n\n+/).map(p => `<p>${p.trim()}</p>`).join("");
+  return s.replace(/\u0000(\d+)\u0000/g, (_, n) => math[n]);
+}
+const esc = s => String(s).replace(/[&<>"]/g, c => ({ "&":"&amp;", "<":"&lt;", ">":"&gt;", '"':"&quot;" }[c]));
+
+fetch(`data/${CHAPTER}.json`).then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
+  .then(d => { S.data = d; render(); })
+  .catch(e => { app.innerHTML = `<p class="err">The question file could not be loaded (${esc(e.message)}). Reload the page to try again.</p>`; });
+
+function pool(code){ return S.data.questions.filter(q => q.subtopic === code && S.types.has(q.type)); }
+
+function render(){
+  if (S.view === "pick") renderPick();
+  else if (S.view === "test") renderTest();
+  else renderSummary();
+}
+
+function renderPick(){
+  const d = S.data;
+  const subs = d.subtopics.map(s => {
+    const all = d.questions.filter(q => q.subtopic === s.code);
+    const mix = ["mcq","numerical","subjective"].map(t => [t, all.filter(q => q.type === t).length]).filter(([,n]) => n).map(([t,n]) => `${n} ${TYPE_LABEL[t]}`).join(" · ");
+    const n = pool(s.code).length;
+    const last = store.get(`last:${s.code}`);
+    return `<button class="sub" data-sub="${s.code}" ${n ? "" : "disabled"}>
+      <span class="code">${s.code}</span><span class="name">${esc(s.name)}</span>
+      <span class="mix">${mix}</span>
+      <span class="go"><span class="count">${n} Q</span>${last ? `<span class="last">last ${last.score}/${last.total}</span>` : ""}</span>
+    </button>`;
+  }).join("");
+  app.innerHTML = `
+    <header style="display:flex;flex-direction:column;gap:10px">
+      <span class="eyebrow">Physics · Chapter ${esc(d.chapter)}</span>
+      <h1>${esc(d.title)}</h1>
+      <p class="lede">Pick a subtopic. Questions come one at a time; you get feedback as soon as you answer.</p>
+      ${d.note ? `<span class="given">Given: ${md(d.note).replace(/<\/?p>/g,"").replace(/\*/g,"")}</span>` : ""}
+    </header>
+    <div class="filters" role="group" aria-label="Question types">
+      <span class="lbl">Include</span>
+      ${["mcq","numerical","subjective"].map(t => `<label class="chk"><input type="checkbox" id="t-${t}" data-type="${t}" ${S.types.has(t) ? "checked" : ""}> ${TYPE_LABEL[t] === "MCQ" ? "MCQ" : TYPE_LABEL[t][0].toUpperCase() + TYPE_LABEL[t].slice(1)}</label>`).join("")}
+      <label class="chk"><input type="checkbox" id="shuffle" ${S.shuffle ? "checked" : ""}> Shuffle order</label>
+    </div>
+    <nav class="subs" aria-label="Subtopics">${subs}</nav>`;
+  app.querySelectorAll("[data-type]").forEach(c => c.onchange = () => { c.checked ? S.types.add(c.dataset.type) : S.types.delete(c.dataset.type); renderPick(); });
+  app.querySelector("#shuffle").onchange = e => S.shuffle = e.target.checked;
+  app.querySelectorAll(".sub").forEach(b => b.onclick = () => start(b.dataset.sub));
+}
+
+function start(code, onlyIds){
+  S.sub = S.data.subtopics.find(s => s.code === code);
+  let qs = pool(code);
+  if (onlyIds) qs = S.data.questions.filter(q => onlyIds.includes(q.id));
+  if (S.shuffle) qs = qs.map(q => [Math.random(), q]).sort((a,b) => a[0]-b[0]).map(x => x[1]);
+  S.queue = qs; S.i = 0; S.res = {}; S.show = {}; S.view = "test";
+  render(); window.scrollTo(0,0);
+}
+
+function statusClass(r){ if (!r) return ""; return r.status === "correct" ? "correct" : r.status === "wrong" ? "wrong" : "seen"; }
+
+function renderTest(){
+  const q = S.queue[S.i], r = S.res[q.id], sh = S.show[q.id] || {};
+  const done = !!r;
+  const dots = S.queue.map((x, k) => `<button class="dot ${statusClass(S.res[x.id])} ${k === S.i ? "cur" : ""}" data-go="${k}" aria-label="Question ${k+1}">${x.number}</button>`).join("");
+  const figs = q.figures.map(f => `<div class="fig"><img src="data/${f}" alt="Figure for question ${q.number}"></div>`).join("");
+
+  let body = "";
+  if (q.type === "mcq") {
+    const imgOpts = Object.values(q.options).some(v => v && v.image);
+    body = `<ul class="opts ${imgOpts ? "imgs" : ""}">` + Object.entries(q.options).map(([k, v]) => {
+      let cls = "";
+      if (done) { if (k === q.answer) cls = "right"; else if (k === r.chosen) cls = "picked-wrong"; }
+      const val = v.image ? `<img src="data/${v.image}" alt="Option ${k} graph">` : md(v).replace(/^<p>|<\/p>$/g, "");
+      return `<li><button class="opt ${cls}" data-opt="${k}" ${done ? "disabled" : ""}><span class="k">${k}</span><span class="v">${val}</span></button></li>`;
+    }).join("") + `</ul>`;
+  } else if (q.type === "numerical") {
+    body = `<form class="numrow" id="numform"><label for="num-${q.id}" class="chip plain">Your answer</label>
+      <input id="num-${q.id}" inputmode="decimal" autocomplete="off" ${done ? `value="${esc(r.chosen)}" disabled` : ""}>
+      <button class="btn" ${done ? "disabled" : ""}>Check</button></form>`;
+  } else {
+    body = done || sh.answer ? "" : `<div class="extras"><button class="btn" id="reveal">Show answer</button></div>`;
+  }
+
+  let fb = "";
+  if (q.type === "subjective" && (sh.answer || done)) {
+    fb = `<div class="fb info"><strong>Answer</strong><div class="qtext">${md(q.answer)}</div>
+      ${done ? `<span>You marked this as <b>${r.status === "correct" ? "got it" : "missed it"}</b>.</span>` :
+      `<div class="extras"><span style="align-self:center">How did you do?</span><button class="btn ghost" data-self="correct">I got it</button><button class="btn ghost" data-self="wrong">I missed it</button></div>`}</div>`;
+  } else if (done) {
+    const ok = r.status === "correct";
+    fb = `<div class="fb ${ok ? "good" : "bad"}"><strong>${ok ? "Correct" : "Not quite"}</strong>
+      <span>${ok ? "" : q.type === "mcq" ? `The answer is <b>${q.answer}</b>.` : `The answer is <b>${esc(q.answer)}</b>.`}</span></div>`;
+  }
+  const hint = q.hint ? (sh.hint ? `<div class="aside"><div class="t">Hint</div><div class="qtext">${md(q.hint)}</div></div>` : `<button class="btn ghost" id="hintbtn">Show hint</button>`) : "";
+  const further = q.think_further && done ? `<div class="aside"><div class="t">Think further</div><div class="qtext">${md(q.think_further)}</div></div>` : "";
+  const last = S.i === S.queue.length - 1;
+
+  app.innerHTML = `
+    <div class="bar"><button class="link" id="back">&larr; All subtopics</button><span class="prog">${S.i+1} / ${S.queue.length}</span></div>
+    <div style="display:flex;flex-direction:column;gap:10px"><span class="eyebrow">${S.sub.code}</span><h2>${esc(S.sub.name)}</h2></div>
+    <div class="dots">${dots}</div>
+    <article class="card">
+      <div class="meta"><span class="qn">Q${q.number}</span>
+        <span class="chip lv${q.level}">Level ${q.level}</span>
+        ${q.type !== "mcq" ? `<span class="chip plain">${TYPE_LABEL[q.type]}</span>` : ""}
+        ${q.source ? `<span class="chip plain">${esc(q.source)}</span>` : ""}</div>
+      ${figs}
+      <div class="qtext">${md(q.question)}</div>
+      ${body}${fb}${further}
+      ${hint && !done ? `<div class="extras">${hint}</div>` : (q.hint && done ? `<div class="aside"><div class="t">Hint</div><div class="qtext">${md(q.hint)}</div></div>` : "")}
+    </article>
+    <div class="nav"><button class="btn ghost" id="prev" ${S.i ? "" : "disabled"}>Previous</button>
+      <button class="btn" id="next">${last ? "Finish" : done ? "Next" : "Skip"}</button></div>
+    <p class="keys">Keys: <kbd>A</kbd>&ndash;<kbd>D</kbd> to answer, <kbd>&rarr;</kbd> next, <kbd>&larr;</kbd> previous</p>`;
+
+  app.querySelector("#back").onclick = () => { S.view = "pick"; render(); };
+  app.querySelectorAll("[data-go]").forEach(b => b.onclick = () => { S.i = +b.dataset.go; render(); });
+  app.querySelectorAll("[data-opt]").forEach(b => b.onclick = () => answer(q, b.dataset.opt));
+  const nf = app.querySelector("#numform");
+  if (nf) nf.onsubmit = e => { e.preventDefault(); const v = nf.querySelector("input").value.trim(); if (v) answer(q, v); };
+  const rv = app.querySelector("#reveal"); if (rv) rv.onclick = () => { S.show[q.id] = { ...sh, answer:true }; render(); };
+  app.querySelectorAll("[data-self]").forEach(b => b.onclick = () => { S.res[q.id] = { status:b.dataset.self, chosen:null }; render(); });
+  const hb = app.querySelector("#hintbtn"); if (hb) hb.onclick = () => { S.show[q.id] = { ...sh, hint:true }; render(); };
+  app.querySelector("#prev").onclick = () => { if (S.i) { S.i--; render(); } };
+  app.querySelector("#next").onclick = next;
+  const inp = app.querySelector("#numform input:not([disabled])"); if (inp) inp.focus({ preventScroll:true });
+}
+
+function answer(q, chosen){
+  let ok;
+  if (q.type === "mcq") ok = chosen === q.answer;
+  else { const a = parseFloat(q.answer), b = parseFloat(chosen); ok = !isNaN(b) && Math.abs(a - b) <= Math.max(1e-9, Math.abs(a) * 0.01); }
+  S.res[q.id] = { status: ok ? "correct" : "wrong", chosen };
+  render();
+}
+function next(){
+  if (S.i < S.queue.length - 1) { S.i++; render(); window.scrollTo({ top:0 }); }
+  else { S.view = "summary"; render(); window.scrollTo(0,0); }
+}
+
+function renderSummary(){
+  const qs = S.queue, got = qs.filter(q => S.res[q.id]?.status === "correct").length;
+  const attempted = qs.filter(q => S.res[q.id]).length;
+  const wrongIds = qs.filter(q => S.res[q.id]?.status !== "correct").map(q => q.id);
+  if (qs.length === S.data.questions.filter(q => q.subtopic === S.sub.code && S.types.has(q.type)).length)
+    store.set(`last:${S.sub.code}`, { score:got, total:qs.length });
+  const rows = qs.map((q, k) => {
+    const r = S.res[q.id];
+    const [cls, lbl] = !r ? ["skip","skipped"] : r.status === "correct" ? ["correct","correct"] : ["wrong","incorrect"];
+    const plain = q.question.replace(/\$[^$]*\$/g, "…").replace(/<[^>]+>/g, "");
+    return `<button class="row" data-go="${k}"><span class="n">Q${q.number}</span><span class="s">${esc(plain)}</span><span class="st ${cls}">${lbl}</span></button>`;
+  }).join("");
+  app.innerHTML = `
+    <div class="bar"><button class="link" id="back">&larr; All subtopics</button></div>
+    <div style="display:flex;flex-direction:column;gap:10px"><span class="eyebrow">${S.sub.code} · Result</span><h2>${esc(S.sub.name)}</h2></div>
+    <div class="score"><span class="big">${got}</span><span class="of">of ${qs.length} correct · ${attempted} attempted · ${qs.length - attempted} skipped</span></div>
+    <div class="actions">
+      ${wrongIds.length ? `<button class="btn" id="retry">Retry the ${wrongIds.length} you missed</button>` : ""}
+      <button class="btn ghost" id="again">Start this subtopic again</button>
+    </div>
+    <div class="rows">${rows}</div>`;
+  app.querySelector("#back").onclick = () => { S.view = "pick"; render(); };
+  app.querySelector("#again").onclick = () => start(S.sub.code);
+  const rt = app.querySelector("#retry"); if (rt) rt.onclick = () => start(S.sub.code, wrongIds);
+  app.querySelectorAll("[data-go]").forEach(b => b.onclick = () => { S.view = "test"; S.i = +b.dataset.go; render(); });
+}
+
+document.addEventListener("keydown", e => {
+  if (S.view !== "test" || e.target.tagName === "INPUT" || e.metaKey || e.ctrlKey || e.altKey) return;
+  const q = S.queue[S.i];
+  const k = e.key.toUpperCase();
+  if (q.type === "mcq" && "ABCD".includes(k) && k.length === 1 && !S.res[q.id]) answer(q, k);
+  else if (e.key === "ArrowRight") next();
+  else if (e.key === "ArrowLeft" && S.i) { S.i--; render(); }
+});
+</script>

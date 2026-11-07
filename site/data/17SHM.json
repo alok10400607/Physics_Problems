@@ -1,0 +1,1578 @@
+{
+  "chapter": "17SHM",
+  "title": "Oscillations: Simple Harmonic Motion",
+  "note": "Take g = 10 m/s² unless stated otherwise.",
+  "subtopics": [
+    {
+      "code": "17SHM.01",
+      "name": "SHM Equation, Phase & Reference Circle",
+      "count": 17
+    },
+    {
+      "code": "17SHM.02",
+      "name": "Velocity & Acceleration in SHM; Graphs",
+      "count": 12
+    },
+    {
+      "code": "17SHM.03",
+      "name": "Energy in SHM",
+      "count": 5
+    },
+    {
+      "code": "17SHM.04",
+      "name": "Spring–Mass Systems",
+      "count": 21
+    },
+    {
+      "code": "17SHM.05",
+      "name": "Simple Pendulum",
+      "count": 12
+    },
+    {
+      "code": "17SHM.06",
+      "name": "Physical, Compound & Torsional Pendulums",
+      "count": 3
+    },
+    {
+      "code": "17SHM.07",
+      "name": "Other SHM Systems",
+      "count": 3
+    },
+    {
+      "code": "17SHM.08",
+      "name": "Superposition, Damped & Forced Oscillations",
+      "count": 11
+    }
+  ],
+  "questions": [
+    {
+      "id": "17SHM-Q001",
+      "number": 1,
+      "chapter": "17SHM",
+      "subtopic": "17SHM.01",
+      "type": "mcq",
+      "level": 1,
+      "source": "JEE Main 2014, 12 Apr (Online)",
+      "question": "Which of the following expressions of force corresponds to simple harmonic motion along a straight line, where x is the displacement and a, b, c are positive constants?",
+      "figures": [],
+      "options": {
+        "A": "– bx",
+        "B": "a – bx + cx<sup>2</sup>",
+        "C": "a + bx – cx<sup>2</sup>",
+        "D": "bx<sup>2</sup>"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "17SHM-Q002",
+      "number": 2,
+      "chapter": "17SHM",
+      "subtopic": "17SHM.01",
+      "type": "mcq",
+      "level": 1,
+      "source": "AIEEE 2005",
+      "question": "A simple harmonic motion is represented by equation $\\frac{d^{2}x}{{dt}^{2}} + \\alpha x = 0$. What will be the time period of this motion?",
+      "figures": [],
+      "options": {
+        "A": "$\\frac{2\\pi}{\\alpha}$",
+        "B": "$\\frac{2\\pi}{\\sqrt{\\alpha}}$",
+        "C": "$2\\pi\\alpha$",
+        "D": "$2\\pi\\sqrt{\\alpha}$"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "17SHM-Q003",
+      "number": 3,
+      "chapter": "17SHM",
+      "subtopic": "17SHM.01",
+      "type": "mcq",
+      "level": 1,
+      "source": "AIEEE 2005",
+      "question": "The function $\\sin^{2}(\\omega t)$ represents:",
+      "figures": [],
+      "options": {
+        "A": "a periodic, but not simple harmonic, motion with a period $\\frac{2\\pi}{\\omega}$",
+        "B": "a periodic, but not simple harmonic, motion with a period $\\frac{\\pi}{\\omega}$",
+        "C": "a simple harmonic motion with a period $\\frac{2\\pi}{\\omega}$",
+        "D": "a simple harmonic motion with a period $\\frac{\\pi}{\\omega}$"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "17SHM-Q004",
+      "number": 4,
+      "chapter": "17SHM",
+      "subtopic": "17SHM.01",
+      "type": "mcq",
+      "level": 1,
+      "source": "JEE Main 2014, 19 Apr (Online)",
+      "question": "A body is in simple harmonic motion with time period half second (T = 0.5 s) and amplitude one cm (A = 1 cm). Find the average velocity in the interval in which it moves from equilibrium position to half of its amplitude.",
+      "figures": [],
+      "options": {
+        "A": "6 cm/s",
+        "B": "4 cm/s",
+        "C": "12 cm/s",
+        "D": "16 cm/s"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "17SHM-Q005",
+      "number": 5,
+      "chapter": "17SHM",
+      "subtopic": "17SHM.01",
+      "type": "subjective",
+      "level": 1,
+      "source": null,
+      "question": "A particle executes SHM given by the equation $x = A\\sin (\\frac{2\\pi}{T}t + \\phi)$. It is at position $- \\sqrt{3}A/2$ at time t = 0 and moving away from the mean position. Find the phase constant and the time taken by the particle to reach the mean position.",
+      "figures": [],
+      "answer": "$\\frac{4\\pi}{3}$, T/3"
+    },
+    {
+      "id": "17SHM-Q006",
+      "number": 6,
+      "chapter": "17SHM",
+      "subtopic": "17SHM.01",
+      "type": "mcq",
+      "level": 1,
+      "source": null,
+      "question": "A particle is performing SHM along $x$-axis with origin as the mean position and time period of T and amplitude of A. What will be the minimum time between two successive appearances of the particle at $+ \\frac{A}{2}?$",
+      "figures": [],
+      "options": {
+        "A": "$T/4$",
+        "B": "$T/3$",
+        "C": "$T/2$",
+        "D": "$T$"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "17SHM-Q007",
+      "number": 7,
+      "chapter": "17SHM",
+      "subtopic": "17SHM.01",
+      "type": "mcq",
+      "level": 1,
+      "source": null,
+      "question": "A simple harmonic motion is represented by the equation $y = A\\sin (12\\pi t + \\frac{7\\pi}{6})$. Find the time when it reaches $+ A$ for the first time.",
+      "figures": [],
+      "options": {
+        "A": "$\\frac{1}{12}\\ s$",
+        "B": "$\\frac{7}{72}\\ s$",
+        "C": "$\\frac{1}{36}\\ s$",
+        "D": "$\\frac{1}{9}\\ s$"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "17SHM-Q008",
+      "number": 8,
+      "chapter": "17SHM",
+      "subtopic": "17SHM.01",
+      "type": "mcq",
+      "level": 1,
+      "source": null,
+      "question": "A particle of mass m moves on the x-axis according to the equation, x = 2 + 4 sin 4πt. Choose the INCORRECT option:",
+      "figures": [],
+      "options": {
+        "A": "The particle is undergoing SHM with x = 2 as the mean position",
+        "B": "The amplitude of its oscillations will be 4 units",
+        "C": "The number of times the particle is at x = 0 in 1 second is 2.",
+        "D": "The particle reaches x = 0 for the first time at t = $\\frac{7}{24}$s."
+      },
+      "answer": "C"
+    },
+    {
+      "id": "17SHM-Q009",
+      "number": 9,
+      "chapter": "17SHM",
+      "subtopic": "17SHM.01",
+      "type": "numerical",
+      "level": 1,
+      "source": "JEE Main 2021, 26 Feb, Shift 2",
+      "question": "Time period of a simple pendulum is T. The time taken to complete 5/8 oscillations starting from the mean position is $\\frac{\\alpha}{\\beta}\\ T$. The value of α is:",
+      "figures": [],
+      "answer": "7"
+    },
+    {
+      "id": "17SHM-Q010",
+      "number": 10,
+      "chapter": "17SHM",
+      "subtopic": "17SHM.01",
+      "type": "mcq",
+      "level": 1,
+      "source": null,
+      "question": "A particle is undergoing SHM with origin as the mean position. Its positions were recorded at $t = 0$ and $t = \\frac{1}{6}s$ as shown in the figure. Assuming the motion to be unidirectional during the interval, the equation of the motion will be:",
+      "figures": [
+        "figures/17SHM-Q010-fig1.png"
+      ],
+      "options": {
+        "A": "$x = 0.06\\sin (2\\pi t + \\frac{5\\pi}{6})$",
+        "B": "$x = 0.06\\sin (4\\pi t + \\frac{5\\pi}{6})$",
+        "C": "$x = 0.06\\sin (2\\pi t + \\frac{7\\pi}{6})$",
+        "D": "$x = 0.06\\sin (4\\pi t + \\frac{7\\pi}{6})$"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "17SHM-Q011",
+      "number": 11,
+      "chapter": "17SHM",
+      "subtopic": "17SHM.01",
+      "type": "mcq",
+      "level": 1,
+      "source": null,
+      "question": "The time taken by a particle performing SHM to pass from point A to B where its velocities are same is 2 seconds. After another 2 seconds it returns to B. The time period of oscillation is (in seconds):",
+      "figures": [],
+      "options": {
+        "A": "2",
+        "B": "8",
+        "C": "6",
+        "D": "4"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "17SHM-Q012",
+      "number": 12,
+      "chapter": "17SHM",
+      "subtopic": "17SHM.01",
+      "type": "numerical",
+      "level": 1,
+      "source": null,
+      "question": "Two particles have time periods T and 5T/4. They start SHM at the same time from mean position. After how many oscillations of the particle with the smaller time period will they again be at the mean position and moving in the same direction?",
+      "figures": [],
+      "answer": "5"
+    },
+    {
+      "id": "17SHM-Q013",
+      "number": 13,
+      "chapter": "17SHM",
+      "subtopic": "17SHM.01",
+      "type": "mcq",
+      "level": 1,
+      "source": "JEE Main 2016, 9 Apr (Online)",
+      "question": "Two particles are performing simple harmonic motion in a straight line about the same equilibrium point. The amplitude and time period for both particles are same and equal to A and T, respectively. At time t=0 one particle has displacement A while the other one has displacement – A/2 and they are moving towards each other. If they cross each other at time t, then t is:",
+      "figures": [],
+      "options": {
+        "A": "T/6",
+        "B": "5T/6",
+        "C": "T/3",
+        "D": "T/4"
+      },
+      "answer": "A",
+      "think_further": "What will be the maximum separation between the two particles? Answer: $\\sqrt{3}A$"
+    },
+    {
+      "id": "17SHM-Q014",
+      "number": 14,
+      "chapter": "17SHM",
+      "subtopic": "17SHM.01",
+      "type": "mcq",
+      "level": 1,
+      "source": null,
+      "question": "Two particles execute SHM of same amplitude and frequency along the same straight line. They pass one another when going in opposite directions, and each time their displacement is half of their amplitude. The phase difference between them is",
+      "figures": [],
+      "options": {
+        "A": "30°",
+        "B": "60°",
+        "C": "90°",
+        "D": "120°"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "17SHM-Q015",
+      "number": 15,
+      "chapter": "17SHM",
+      "subtopic": "17SHM.01",
+      "type": "mcq",
+      "level": 1,
+      "source": "AIEEE 2011",
+      "question": "Two particles are executing simple harmonic motion of the same amplitude A and frequency ω along the x-axis. Their mean positions are separated by distance $X_{0}\\ (X_{0} > A)$. If the maximum separation between them is ($X_{0} + A$), the phase difference between their motion is:",
+      "figures": [],
+      "options": {
+        "A": "$\\pi/3$",
+        "B": "$\\pi/4$",
+        "C": "$\\pi/6$",
+        "D": "$\\pi/2$"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "17SHM-Q016",
+      "number": 16,
+      "chapter": "17SHM",
+      "subtopic": "17SHM.01",
+      "type": "mcq",
+      "level": 2,
+      "source": "JEE Main 2018, 16 Apr (Online)",
+      "question": "A particle executes simple harmonic motion and is located at x=a, b and c at times t<sub>0</sub>, 2t<sub>0</sub> and 3t<sub>0</sub> respectively. The frequency of the oscillation is:",
+      "figures": [],
+      "options": {
+        "A": "$\\frac{1}{2\\pi t_{0}}\\cos^{- 1}(\\frac{a + c}{2b})$",
+        "B": "$\\frac{1}{2\\pi t_{0}}\\cos^{- 1}(\\frac{a + b}{2c})$",
+        "C": "$\\frac{1}{2\\pi t_{0}}\\cos^{- 1}(\\frac{2a + 3c}{b})$",
+        "D": "$\\frac{1}{2\\pi t_{0}}\\cos^{- 1}(\\frac{a + 2b}{3c})$"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "17SHM-Q017",
+      "number": 17,
+      "chapter": "17SHM",
+      "subtopic": "17SHM.01",
+      "type": "mcq",
+      "level": 2,
+      "source": "JEE Main 2014 (Offline)",
+      "question": "A particle moves with simple harmonic motion in a straight line. In the first τ s after starting from rest it travels a distance a, and in the next τ s it travels 2a in the same direction. Then:",
+      "figures": [],
+      "options": {
+        "A": "Amplitude of motion is 3a",
+        "B": "Time period of oscillations is 8τ",
+        "C": "Amplitude of motion is 4a",
+        "D": "Time period of oscillations is 6τ"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "17SHM-Q018",
+      "number": 18,
+      "chapter": "17SHM",
+      "subtopic": "17SHM.02",
+      "type": "mcq",
+      "level": 1,
+      "source": "AIEEE 2007",
+      "question": "The displacement of an object attached to a spring and executing simple harmonic motion is given by $x = 2 \\times 10^{- 2}\\cos \\pi t\\ $m. The time at which the maximum speed first occurs is:",
+      "figures": [],
+      "options": {
+        "A": "0.5 s",
+        "B": "0.75 s",
+        "C": "0.125 s",
+        "D": "0.25 s"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "17SHM-Q019",
+      "number": 19,
+      "chapter": "17SHM",
+      "subtopic": "17SHM.02",
+      "type": "mcq",
+      "level": 1,
+      "source": null,
+      "question": "For a particle performing SHM, the maximum speed is $v_{0}$. Find the average speed of the particle during the interval it completes one full oscillation:",
+      "figures": [],
+      "options": {
+        "A": "$v_{0}/2$",
+        "B": "$v_{0}/\\pi$",
+        "C": "${2v}_{0}/\\pi$",
+        "D": "$v_{0}/\\sqrt{2}$"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "17SHM-Q020",
+      "number": 20,
+      "chapter": "17SHM",
+      "subtopic": "17SHM.02",
+      "type": "mcq",
+      "level": 1,
+      "source": "AIEEE 2005",
+      "question": "Two simple harmonic motions are represented by the equations $y_{1} = 0.1\\sin (100\\pi t + \\frac{\\pi}{3})$ and $y_{2} = 0.1\\cos (100\\pi t)$. The phase difference of the velocity of particle 1 with respect to the velocity of particle 2 is:",
+      "figures": [],
+      "options": {
+        "A": "$- \\frac{\\pi}{6}$",
+        "B": "$\\frac{\\pi}{3}$",
+        "C": "$- \\frac{\\pi}{3}$",
+        "D": "$\\frac{\\pi}{6}$"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "17SHM-Q021",
+      "number": 21,
+      "chapter": "17SHM",
+      "subtopic": "17SHM.02",
+      "type": "mcq",
+      "level": 1,
+      "source": null,
+      "question": "A particle of mass 1 kg is undergoing SHM, for which the graph of force against displacement (from the mean position) is as shown. Its time period, in seconds, is:",
+      "figures": [
+        "figures/17SHM-Q021-fig1.png"
+      ],
+      "options": {
+        "A": "$\\frac{2\\pi}{3}$",
+        "B": "$\\frac{\\pi}{3}$",
+        "C": "$\\frac{\\pi}{2}$",
+        "D": "$\\frac{2\\pi}{9}$"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "17SHM-Q022",
+      "number": 22,
+      "chapter": "17SHM",
+      "subtopic": "17SHM.02",
+      "type": "mcq",
+      "level": 1,
+      "source": "AIEEE 2006",
+      "question": "The maximum velocity of a particle, executing simple harmonic motion with an amplitude 7 mm, is 4.4 m/s. The period of oscillation is:",
+      "figures": [],
+      "options": {
+        "A": "0.01 s",
+        "B": "10 s",
+        "C": "0.1 s",
+        "D": "100 s"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "17SHM-Q023",
+      "number": 23,
+      "chapter": "17SHM",
+      "subtopic": "17SHM.02",
+      "type": "mcq",
+      "level": 1,
+      "source": "AIEEE 2009",
+      "question": "If x, v and a denote the displacement, the velocity and the acceleration of a particle executing simple harmonic motion of time period T, then, which of the following does not change with time?",
+      "figures": [],
+      "options": {
+        "A": "$a^{2}T^{2} + 4\\pi^{2}v^{2}$",
+        "B": "$\\frac{aT}{x}$",
+        "C": "$aT + 2\\pi v$",
+        "D": "$\\frac{aT}{v}$"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "17SHM-Q024",
+      "number": 24,
+      "chapter": "17SHM",
+      "subtopic": "17SHM.02",
+      "type": "mcq",
+      "level": 1,
+      "source": "JEE Main 2019, 10 Jan, Shift 2",
+      "question": "A particle executes simple harmonic motion with an amplitude of 5 cm. When the particle is at 4 cm from the mean position, the magnitude of its velocity in SI units is equal to that of its acceleration. Then, its periodic time in seconds is:",
+      "figures": [],
+      "options": {
+        "A": "7π/3",
+        "B": "3π/8",
+        "C": "4π/3",
+        "D": "8π/3"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "17SHM-Q025",
+      "number": 25,
+      "chapter": "17SHM",
+      "subtopic": "17SHM.02",
+      "type": "mcq",
+      "level": 1,
+      "source": "AIEEE 2007",
+      "question": "A point mass oscillates along the x-axis according to the law $x = x_{0}\\cos (\\omega t - \\frac{\\pi}{4})$. If the acceleration of the particle is written as $a = A\\cos (\\omega t + \\delta)$, then:",
+      "figures": [],
+      "options": {
+        "A": "$A = x_{0};\\ \\delta = - \\frac{\\pi}{4}$",
+        "B": "$A = x_{0}\\omega^{2};\\ \\delta = \\frac{\\pi}{4}$",
+        "C": "$A = x_{0}\\omega^{2};\\ \\delta = - \\frac{\\pi}{4}$",
+        "D": "$A = x_{0}\\omega^{2};\\ \\delta = \\frac{3\\pi}{4}$"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "17SHM-Q026",
+      "number": 26,
+      "chapter": "17SHM",
+      "subtopic": "17SHM.02",
+      "type": "numerical",
+      "level": 1,
+      "source": "JEE Main 2021, 21 Jul, Shift 2",
+      "question": "A particle executes SHM represented by displacement function as $x(t) = A\\sin (\\omega t + \\varphi)$. If the position and velocity of the particle at t = 0 are 2 cm and 2ω cm/s respectively, then its amplitude is $x\\sqrt{2}$ cm, where the value of x is:",
+      "figures": [],
+      "answer": "2"
+    },
+    {
+      "id": "17SHM-Q027",
+      "number": 27,
+      "chapter": "17SHM",
+      "subtopic": "17SHM.02",
+      "type": "mcq",
+      "level": 1,
+      "source": "JEE Main 2017, 8 Apr (Online)",
+      "question": "The ratio of maximum acceleration to maximum velocity in a simple harmonic motion is 10 $s^{- 1}$. At t = 0 the displacement is 5 m and the initial phase is π/4. What is the maximum acceleration?",
+      "figures": [],
+      "options": {
+        "A": "500 m/s<sup>2</sup>",
+        "B": "750$\\sqrt{2}$ m/s<sup>2</sup>",
+        "C": "750 m/s<sup>2</sup>",
+        "D": "500$\\sqrt{2}$ m/s<sup>2</sup>"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "17SHM-Q028",
+      "number": 28,
+      "chapter": "17SHM",
+      "subtopic": "17SHM.02",
+      "type": "mcq",
+      "level": 1,
+      "source": "JEE Main 2016, 10 Apr (Online)",
+      "question": "In an engine the piston undergoes vertical simple harmonic motion with amplitude 7 cm. A washer rests on top of the piston and moves with it. The motor speed is slowly increased. The frequency of the piston at which the washer no longer stays in contact with the piston, is close to?",
+      "figures": [],
+      "options": {
+        "A": "0.1 Hz",
+        "B": "1.2 Hz",
+        "C": "0.7 Hz",
+        "D": "1.9 Hz"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "17SHM-Q029",
+      "number": 29,
+      "chapter": "17SHM",
+      "subtopic": "17SHM.02",
+      "type": "mcq",
+      "level": 2,
+      "source": "JEE Main 2016 (Offline)",
+      "question": "A particle performs simple harmonic motion with amplitude A. Its speed is trebled at the instant that it is at a distance 2A/3 from equilibrium position. The new amplitude of the motion is:",
+      "figures": [],
+      "options": {
+        "A": "$\\frac{\\sqrt{43}}{3}A$",
+        "B": "3A",
+        "C": "A$\\sqrt{3}$",
+        "D": "7A/3"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "17SHM-Q030",
+      "number": 30,
+      "chapter": "17SHM",
+      "subtopic": "17SHM.03",
+      "type": "mcq",
+      "level": 1,
+      "source": "JEE Main 2019, 9 Jan, Shift 2",
+      "question": "A particle is executing simple harmonic motion (SHM) of amplitude A, along the x-axis, about x = 0. When its potential energy (PE) equals kinetic energy (KE), the position of the particle will be:",
+      "figures": [],
+      "options": {
+        "A": "A/2",
+        "B": "A/2$\\sqrt{2}$",
+        "C": "A/$\\sqrt{2}$",
+        "D": "A"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "17SHM-Q031",
+      "number": 31,
+      "chapter": "17SHM",
+      "subtopic": "17SHM.03",
+      "type": "mcq",
+      "level": 1,
+      "source": "AIEEE 2006",
+      "question": "Starting from the origin a body oscillates simple harmonically with a period of 2 s. After what time will its kinetic energy be 75% of the total energy?",
+      "figures": [],
+      "options": {
+        "A": "$\\frac{1}{6}\\ s$",
+        "B": "$\\frac{1}{4}\\ s$",
+        "C": "$\\frac{1}{3}\\ s$",
+        "D": "$\\frac{1}{12}\\ s$"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "17SHM-Q032",
+      "number": 32,
+      "chapter": "17SHM",
+      "subtopic": "17SHM.03",
+      "type": "mcq",
+      "level": 1,
+      "source": "JEE Main 2019, 11 Jan, Shift 1",
+      "question": "A particle undergoing simple harmonic motion has time dependent displacement given by $x(t) = A\\ \\sin (\\frac{\\pi t}{90})$. The ratio of kinetic to potential energy of this particle at t = 210 s will be:",
+      "figures": [],
+      "options": {
+        "A": "2",
+        "B": "1/9",
+        "C": "1/3",
+        "D": "1"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "17SHM-Q033",
+      "number": 33,
+      "chapter": "17SHM",
+      "subtopic": "17SHM.03",
+      "type": "mcq",
+      "level": 1,
+      "source": "JEE Main 2017 (Offline)",
+      "question": "A particle is executing simple harmonic motion with a time period T. At time t=0, it is at its position of equilibrium. The kinetic energy–time graph of the particle will look like:",
+      "figures": [],
+      "options": {
+        "A": {
+          "image": "figures/17SHM-Q033-optA.png"
+        },
+        "B": {
+          "image": "figures/17SHM-Q033-optB.png"
+        },
+        "C": {
+          "image": "figures/17SHM-Q033-optC.png"
+        },
+        "D": {
+          "image": "figures/17SHM-Q033-optD.png"
+        }
+      },
+      "answer": "C"
+    },
+    {
+      "id": "17SHM-Q034",
+      "number": 34,
+      "chapter": "17SHM",
+      "subtopic": "17SHM.03",
+      "type": "mcq",
+      "level": 1,
+      "source": "JEE Main 2020, 2 Sep, Shift 2",
+      "question": "The graph shows the variation of displacement of a particle executing S.H.M. with time. We infer from this graph that",
+      "figures": [
+        "figures/17SHM-Q034-fig1.png"
+      ],
+      "options": {
+        "A": "The force is zero at time $\\frac{3T}{4}$",
+        "B": "The velocity is maximum at time $\\frac{T}{2}$",
+        "C": "The acceleration is maximum at time $T$",
+        "D": "The P.E. is equal to total energy at time $\\frac{T}{2}$"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "17SHM-Q035",
+      "number": 35,
+      "chapter": "17SHM",
+      "subtopic": "17SHM.04",
+      "type": "mcq",
+      "level": 1,
+      "source": "JEE Main 2017, 8 Apr (Online)",
+      "question": "A 1 kg block attached to a spring vibrates with a frequency of 1 Hz on a frictionless horizontal table. Two springs identical to the original spring are attached in parallel to an 8 kg block placed on the same table. The frequency of vibration of the 8 kg block is:",
+      "figures": [],
+      "options": {
+        "A": "2 Hz",
+        "B": "¼ Hz",
+        "C": "1/2$\\sqrt{2}$ Hz",
+        "D": "½ Hz"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "17SHM-Q036",
+      "number": 36,
+      "chapter": "17SHM",
+      "subtopic": "17SHM.04",
+      "type": "mcq",
+      "level": 1,
+      "source": null,
+      "question": "Two identical springs of spring constant K are connected in series and parallel combinations. A mass m is suspended from them. The ratio of their frequencies of vertical oscillations will be",
+      "figures": [],
+      "options": {
+        "A": "2 : 1",
+        "B": "1 : 4",
+        "C": "1 : 2",
+        "D": "4 : 1"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "17SHM-Q037",
+      "number": 37,
+      "chapter": "17SHM",
+      "subtopic": "17SHM.04",
+      "type": "mcq",
+      "level": 1,
+      "source": "JEE Main 2021, 25 Feb, Shift 2",
+      "question": "Two identical springs of spring constant 2k are attached to a block of mass m and to fixed supports. When the mass is displaced from the position of equilibrium, it executes SHM. The time period of the oscillation is?",
+      "figures": [
+        "figures/17SHM-Q037-fig1.png"
+      ],
+      "options": {
+        "A": "$2\\pi\\sqrt{m/2k}$",
+        "B": "$2\\pi\\sqrt{m/k}$",
+        "C": "$\\pi\\sqrt{m/k}$",
+        "D": "$\\pi\\sqrt{m/2k}$"
+      },
+      "answer": "C",
+      "think_further": "What would be the time period if the springs were not attached to the block? Answer: $2\\pi\\sqrt{m/2k}$"
+    },
+    {
+      "id": "17SHM-Q038",
+      "number": 38,
+      "chapter": "17SHM",
+      "subtopic": "17SHM.04",
+      "type": "mcq",
+      "level": 1,
+      "source": "JEE Main 2021, 17 Mar, Shift 2",
+      "question": "Two particles A and B of equal masses are suspended from two massless springs of spring constants $k_{1}$ and $k_{2}$ respectively. If the maximum velocities during oscillations are equal, the ratio of amplitude of A and B is:",
+      "figures": [],
+      "options": {
+        "A": "$\\frac{k_{2}}{k_{1}}$",
+        "B": "$\\frac{k_{1}}{k_{2}}$",
+        "C": "$\\sqrt{\\frac{k_{1}}{k_{2}}}$",
+        "D": "$\\sqrt{\\frac{k_{2}}{k_{1}}}$"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "17SHM-Q039",
+      "number": 39,
+      "chapter": "17SHM",
+      "subtopic": "17SHM.04",
+      "type": "mcq",
+      "level": 1,
+      "source": "JEE Main 2021, 24 Feb, Shift 2",
+      "question": "On a smooth inclined plane, a body of mass m is attached between two springs. The other ends of the springs are fixed to firm supports. If each spring has force constant k, the period of oscillation of the body (assuming the springs as massless) is:",
+      "figures": [
+        "figures/17SHM-Q039-fig1.png"
+      ],
+      "options": {
+        "A": "$2\\pi\\sqrt{\\frac{m}{2k}}$",
+        "B": "$2\\pi\\sqrt{\\frac{m}{2k\\sin \\theta}}$",
+        "C": "$2\\pi\\sqrt{\\frac{m}{2k\\cos \\theta}}$",
+        "D": "$2\\pi\\sqrt{\\frac{2m}{k}}$"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "17SHM-Q040",
+      "number": 40,
+      "chapter": "17SHM",
+      "subtopic": "17SHM.04",
+      "type": "mcq",
+      "level": 1,
+      "source": "JEE Main 2019, 9 Jan, Shift 1",
+      "question": "A block of mass m, lying on a smooth horizontal surface, is attached to a spring (of negligible mass) of spring constant k. The other end of the spring is fixed, as shown in the figure. The block is initially at rest in its equilibrium position. If now the block is pulled with a constant force F, the maximum speed of the block is:",
+      "figures": [
+        "figures/17SHM-Q040-fig1.png"
+      ],
+      "options": {
+        "A": "$\\ \\frac{\\pi F}{\\sqrt{mk}}$",
+        "B": "$\\frac{2F}{\\sqrt{mk}}$",
+        "C": "$\\frac{F}{\\sqrt{mk}}$",
+        "D": "$\\frac{F}{\\pi\\sqrt{mk}}$"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "17SHM-Q041",
+      "number": 41,
+      "chapter": "17SHM",
+      "subtopic": "17SHM.04",
+      "type": "mcq",
+      "level": 1,
+      "source": null,
+      "question": "A block P of mass m is placed on a horizontal frictionless plane. A second block Q of the same mass m is placed on it and is connected to a spring of spring constant k, the two blocks are pulled by a distance A. Block Q oscillates without slipping. What is the maximum value of frictional force between the two blocks?",
+      "figures": [
+        "figures/17SHM-Q041-fig1.png"
+      ],
+      "options": {
+        "A": "$kA$",
+        "B": "$\\frac{kA}{2}$",
+        "C": "$2kA$",
+        "D": "$\\frac{kA}{4}$"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "17SHM-Q042",
+      "number": 42,
+      "chapter": "17SHM",
+      "subtopic": "17SHM.04",
+      "type": "mcq",
+      "level": 1,
+      "source": "JEE Main 2014, 9 Apr (Online)",
+      "question": "Two bodies of masses 1 kg and 4 kg are connected to a vertical spring, as shown in the figure. The smaller mass executes simple harmonic motion of angular frequency 25 rad/s, and amplitude 1.6 cm while the bigger mass remains stationary on the ground. The maximum force exerted by the system on the floor is:",
+      "figures": [
+        "figures/17SHM-Q042-fig1.png"
+      ],
+      "options": {
+        "A": "20 N",
+        "B": "10 N",
+        "C": "40 N",
+        "D": "60 N"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "17SHM-Q043",
+      "number": 43,
+      "chapter": "17SHM",
+      "subtopic": "17SHM.04",
+      "type": "mcq",
+      "level": 1,
+      "source": "JEE Main 2018 (Offline)",
+      "question": "A silver atom in a solid oscillates in simple harmonic motion in some direction with a frequency of 10<sup>12</sup> Hz. What is the force constant of the bonds connecting one atom with the other? (molar mass of silver = 108 g/mol, Avogadro number = 6.02 × 10<sup>23</sup> mol<sup>−1</sup>)",
+      "figures": [],
+      "options": {
+        "A": "5.5 N/m",
+        "B": "6.4 N/m",
+        "C": "7.1 N/m",
+        "D": "2.2 N/m"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "17SHM-Q044",
+      "number": 44,
+      "chapter": "17SHM",
+      "subtopic": "17SHM.04",
+      "type": "numerical",
+      "level": 1,
+      "source": null,
+      "question": "Time period of a spring block system of mass m and spring constant k is T. Three identical springs are connected to the block as shown with one spring vertical and other two at 30° with the horizontal. If the block m is given small displacement in the vertical direction, then the time period of oscillations is $\\sqrt{\\frac{2}{n}}T\\ $. The value of n is:",
+      "figures": [
+        "figures/17SHM-Q044-fig1.png"
+      ],
+      "answer": "3"
+    },
+    {
+      "id": "17SHM-Q045",
+      "number": 45,
+      "chapter": "17SHM",
+      "subtopic": "17SHM.04",
+      "type": "numerical",
+      "level": 1,
+      "source": "JEE Main 2021, 25 Jul, Shift 1",
+      "question": "Two blocks A and B of masses 200 g and 800 g are attached with a system of springs. Springs are kept in a stretched condition when the system is released. The horizontal surface is assumed to be frictionless. The angular frequency will be ….. rad/s when k = 20 N/m.",
+      "figures": [
+        "figures/17SHM-Q045-fig1.png"
+      ],
+      "answer": "10"
+    },
+    {
+      "id": "17SHM-Q046",
+      "number": 46,
+      "chapter": "17SHM",
+      "subtopic": "17SHM.04",
+      "type": "mcq",
+      "level": 1,
+      "source": "JEE Main 2015, 10 Apr (Online)",
+      "question": "A block of mass m = 0.1 kg is connected to a spring of unknown spring constant k. It is compressed to a distance x from rest. After approaching half the distance (x/2) from equilibrium position, it hits another block and comes to rest momentarily, while the other block moves with a velocity 3 m/s. The total initial energy of the spring is:",
+      "figures": [],
+      "options": {
+        "A": "0.3 J",
+        "B": "0.6 J",
+        "C": "1.5 J",
+        "D": "0.8 J"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "17SHM-Q047",
+      "number": 47,
+      "chapter": "17SHM",
+      "subtopic": "17SHM.04",
+      "type": "mcq",
+      "level": 1,
+      "source": null,
+      "question": "A mass m is undergoing linear SHM with amplitude A and frequency f in a spring-mass system. Suddenly, half of the mass comes to rest at the moment it is crossing the mean position, then the amplitude of remaining mass becomes kA. Find k?",
+      "figures": [],
+      "options": {
+        "A": "$2$",
+        "B": "4",
+        "C": "$\\sqrt{2}$",
+        "D": "$1/\\sqrt{2}$"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "17SHM-Q048",
+      "number": 48,
+      "chapter": "17SHM",
+      "subtopic": "17SHM.04",
+      "type": "mcq",
+      "level": 2,
+      "source": null,
+      "question": "The system shown is at equilibrium in a vertical position. The thread connecting the blocks is cut, the block of mass m<sub>2</sub> falls and $m_{1}$ begins to perform SHM. Choose INCORRECT statement:",
+      "figures": [
+        "figures/17SHM-Q048-fig1.png"
+      ],
+      "options": {
+        "A": "The amplitude of oscillation will be $\\frac{m_{2}g}{k}$",
+        "B": "The time period will be $2\\pi\\sqrt{\\frac{m_{1}}{k}}$",
+        "C": "If $m_{1} > m_{2}$, then the spring will always be in elongated state",
+        "D": "If $m_{1} > m_{2}$, then the spring will get compressed as well during SHM"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "17SHM-Q049",
+      "number": 49,
+      "chapter": "17SHM",
+      "subtopic": "17SHM.04",
+      "type": "mcq",
+      "level": 2,
+      "source": null,
+      "question": "The mass M shown in the figure oscillates in simple harmonic motion with amplitude A. The amplitude of the point P is:",
+      "figures": [
+        "figures/17SHM-Q049-fig1.png"
+      ],
+      "options": {
+        "A": "$\\frac{k_{1}A}{k_{2}}$",
+        "B": "$\\frac{k_{2}A}{k_{1}}$",
+        "C": "$\\frac{k_{1}A}{k_{1} + k_{2}}$",
+        "D": "$\\frac{k_{2}A}{k_{1} + k_{2}}$"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "17SHM-Q050",
+      "number": 50,
+      "chapter": "17SHM",
+      "subtopic": "17SHM.04",
+      "type": "subjective",
+      "level": 2,
+      "source": null,
+      "question": "Two particles of mass 3m and m are connected to the ends of a spring of spring constant k. The spring is compressed by A, and the system is placed on a smooth horizontal surface. Find the time period of oscillation of two masses and their amplitudes.",
+      "figures": [
+        "figures/17SHM-Q050-fig1.png"
+      ],
+      "answer": "$2\\pi\\sqrt{3m/4k}$; A/4 and 3A/4"
+    },
+    {
+      "id": "17SHM-Q051",
+      "number": 51,
+      "chapter": "17SHM",
+      "subtopic": "17SHM.04",
+      "type": "subjective",
+      "level": 2,
+      "source": null,
+      "question": "A mass $m$ is oscillating on a smooth horizontal surface with an amplitude of A as shown. At the instant it is passing through the mean position, a blob of wax of mass $m$ is dropped on the block (it sticks to mass almost immediately).\n\n(i) Find the new amplitude of oscillation.\n\n(ii) If the blob of wax was dropped when the block was at x = +A/2, what would the new amplitude have been?\n\n(iii) If the blob were dropped at x = +A, what would the new amplitude be? (The three cases are independent.)",
+      "figures": [
+        "figures/17SHM-Q051-fig1.png"
+      ],
+      "answer": "(i) $A/\\sqrt{2}$; (ii) $\\sqrt{\\frac{5}{8}}A$; (iii) $A$"
+    },
+    {
+      "id": "17SHM-Q052",
+      "number": 52,
+      "chapter": "17SHM",
+      "subtopic": "17SHM.04",
+      "type": "mcq",
+      "level": 2,
+      "source": null,
+      "question": "What will be the time period of oscillation of mass M, if it is displaced vertically from the mean position?",
+      "figures": [
+        "figures/17SHM-Q052-fig1.png"
+      ],
+      "options": {
+        "A": "$2\\pi\\sqrt{M/k}$",
+        "B": "$2\\pi\\sqrt{2M/k}$",
+        "C": "$2\\pi\\sqrt{4M/k}$",
+        "D": "$2\\pi\\sqrt{M/4k}$"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "17SHM-Q053",
+      "number": 53,
+      "chapter": "17SHM",
+      "subtopic": "17SHM.04",
+      "type": "subjective",
+      "level": 3,
+      "source": null,
+      "question": "Two small blocks, each of mass M, are placed one on top of the other on a vertical spring of spring constant k, as shown. The two masses are not joined together. From the position of rest, the spring was pressed by further distance A and released:\n\n(i) Find the angular frequency of oscillation if two particles move together\n\n(ii) What will be the minimum and maximum contact force between the two particles\n\n(iii) What should be the minimum value of ‘A’ if the two particles lose contact at some stage of motion?",
+      "figures": [
+        "figures/17SHM-Q053-fig1.png"
+      ],
+      "answer": "(i) $\\omega$= $\\sqrt{\\frac{k}{2M}}$; (ii) $M(g \\pm \\frac{kA}{2M})$; (iii) $\\geq \\frac{2Mg}{k}$"
+    },
+    {
+      "id": "17SHM-Q054",
+      "number": 54,
+      "chapter": "17SHM",
+      "subtopic": "17SHM.04",
+      "type": "mcq",
+      "level": 3,
+      "source": null,
+      "question": "A 2 kg block moving with 10 m/s strikes a spring of constant $\\pi^{2}$ N/m attached to a 2 kg block at rest kept on a smooth floor. The time for which the moving block remains in contact with the spring is:",
+      "figures": [
+        "figures/17SHM-Q054-fig1.png"
+      ],
+      "options": {
+        "A": "$\\sqrt{2}\\ s$",
+        "B": "$2\\sqrt{\\pi}\\ s$",
+        "C": "1 s",
+        "D": "2 s"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "17SHM-Q055",
+      "number": 55,
+      "chapter": "17SHM",
+      "subtopic": "17SHM.04",
+      "type": "mcq",
+      "level": 3,
+      "source": "JEE Main 2018, 16 Apr (Online)",
+      "question": "An oscillator of mass M is at rest in its equilibrium position in a potential energy U= ½ k(x – X)<sup>2</sup>. A particle of mass m comes from the right with speed u and collides completely inelastically with M and sticks to it. This process repeats every time the oscillator crosses its equilibrium position. The amplitude of oscillations after 13 collisions is : (M=10, m=5, u=1, k=1)",
+      "figures": [],
+      "options": {
+        "A": "1/$\\sqrt{3}$",
+        "B": "1 /2",
+        "C": "2/3",
+        "D": "$\\sqrt{\\frac{3}{5}}$"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "17SHM-Q056",
+      "number": 56,
+      "chapter": "17SHM",
+      "subtopic": "17SHM.05",
+      "type": "mcq",
+      "level": 1,
+      "source": "JEE Main 2015 (Offline)",
+      "question": "For a simple pendulum, a graph is plotted between its kinetic energy (KE) and potential energy (PE) against its displacement d. Which one of the following represents these correctly? (graphs are schematic and not drawn to scale)",
+      "figures": [],
+      "options": {
+        "A": {
+          "image": "figures/17SHM-Q056-optA.png"
+        },
+        "B": {
+          "image": "figures/17SHM-Q056-optB.png"
+        },
+        "C": {
+          "image": "figures/17SHM-Q056-optC.png"
+        },
+        "D": {
+          "image": "figures/17SHM-Q056-optD.png"
+        }
+      },
+      "answer": "B"
+    },
+    {
+      "id": "17SHM-Q057",
+      "number": 57,
+      "chapter": "17SHM",
+      "subtopic": "17SHM.05",
+      "type": "mcq",
+      "level": 1,
+      "source": null,
+      "question": "A sphere of radius *r* is kept on a concave mirror of radius of curvature *R.* The arrangement is kept on a horizontal table (the mirror surface is frictionless, so the sphere slides without rolling). If the sphere is displaced from its equilibrium position and released, it executes SHM. The period of oscillation will be:",
+      "figures": [],
+      "options": {
+        "A": "$2\\pi\\sqrt{\\frac{1.4(R\\  - \\ r)}{g}}$",
+        "B": "$2\\pi\\sqrt{\\frac{R\\  - \\ r}{g}}$",
+        "C": "$2\\pi\\sqrt{\\frac{rR}{a}}$",
+        "D": "$2\\pi\\sqrt{\\frac{R}{gr}}$"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "17SHM-Q058",
+      "number": 58,
+      "chapter": "17SHM",
+      "subtopic": "17SHM.05",
+      "type": "subjective",
+      "level": 1,
+      "source": null,
+      "question": "A particle of mass m is suspended by an ideal string of length L. It is placed in a moving container having a constant horizontal acceleration of a such that the string makes an angle of 30° with the vertical and it is at rest as viewed from the container. If it is given a slight tangential displacement, what will be the angular frequency of oscillation?",
+      "figures": [],
+      "answer": "$\\sqrt{\\frac{2g}{\\sqrt{3}L}}$"
+    },
+    {
+      "id": "17SHM-Q059",
+      "number": 59,
+      "chapter": "17SHM",
+      "subtopic": "17SHM.05",
+      "type": "mcq",
+      "level": 1,
+      "source": null,
+      "question": "The time period of a simple pendulum is $T_{1}$. The point of suspension moves vertically upwards according to $y = t^{2}$ (y in m, t in s). The new time period is $T_{2}$. Then $T_{1}^{2}$/$T_{2}^{2}$ is:",
+      "figures": [],
+      "options": {
+        "A": "4/5",
+        "B": "6/5",
+        "C": "5/6",
+        "D": "1"
+      },
+      "answer": "B",
+      "hint": "$a_{y} = 2;\\ g_{e} = (g + a) = 12$"
+    },
+    {
+      "id": "17SHM-Q060",
+      "number": 60,
+      "chapter": "17SHM",
+      "subtopic": "17SHM.05",
+      "type": "mcq",
+      "level": 1,
+      "source": "JEE Main 2019, 11 Jan, Shift 2",
+      "question": "A pendulum is executing simple harmonic motion and its maximum kinetic energy is K<sub>1</sub>. If the length of the pendulum is doubled and it performs simple harmonic motion with the same angular amplitude as in the first case, its maximum kinetic energy is K<sub>2</sub>. Then:",
+      "figures": [],
+      "options": {
+        "A": "K<sub>2</sub> = $\\frac{K_{1}}{4}$",
+        "B": "K<sub>2</sub> = $\\frac{K_{1}}{2}$",
+        "C": "K<sub>2</sub> = 2K<sub>1</sub>",
+        "D": "K<sub>2</sub> = K<sub>1</sub>"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "17SHM-Q061",
+      "number": 61,
+      "chapter": "17SHM",
+      "subtopic": "17SHM.05",
+      "type": "mcq",
+      "level": 1,
+      "source": "JEE Main 2021, 1 Sep, Shift 2",
+      "question": "A mass of 5 kg is connected to a spring. The potential energy curve of the SHM executed by the system is shown in the figure. A simple pendulum of length 4 m has the same period of oscillation as the spring system. What is the acceleration due to gravity on the planet where these experiments were performed?",
+      "figures": [
+        "figures/17SHM-Q061-fig1.png"
+      ],
+      "options": {
+        "A": "10 m/s<sup>2</sup>",
+        "B": "5 m/s<sup>2</sup>",
+        "C": "4 m/s<sup>2</sup>",
+        "D": "9.8 m/s<sup>2</sup>"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "17SHM-Q062",
+      "number": 62,
+      "chapter": "17SHM",
+      "subtopic": "17SHM.05",
+      "type": "mcq",
+      "level": 1,
+      "source": null,
+      "question": "A small bob attached to a light inextensible thread of length L has a periodic time T when allowed to oscillate as a simple pendulum. The thread is now suspended from a point O on a vertical rigid plate whose lower edge is 3L/4 below O (as in figure). If now the pendulum performs periodic oscillations in this arrangement, the periodic time will be:",
+      "figures": [
+        "figures/17SHM-Q062-fig1.png"
+      ],
+      "options": {
+        "A": "$\\frac{3T}{4}$",
+        "B": "$\\frac{T}{2}$",
+        "C": "$\\frac{T}{\\sqrt{2}}$",
+        "D": "$\\frac{3T}{2}$"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "17SHM-Q063",
+      "number": 63,
+      "chapter": "17SHM",
+      "subtopic": "17SHM.05",
+      "type": "mcq",
+      "level": 1,
+      "source": "JEE Main 2021, 31 Aug, Shift 2",
+      "question": "A bob of mass m, suspended by a thread of length L, undergoes SHM with time period T. If the bob is immersed in a liquid that has density ¼ times that of bob and the length of the thread is increased by one-third of its original length, then the time period of SHM will be:",
+      "figures": [],
+      "options": {
+        "A": "T",
+        "B": "3/2 T",
+        "C": "¾ T",
+        "D": "4/3 T"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "17SHM-Q064",
+      "number": 64,
+      "chapter": "17SHM",
+      "subtopic": "17SHM.05",
+      "type": "mcq",
+      "level": 2,
+      "source": null,
+      "question": "A simple pendulum fixed in a car has a time period of 4 seconds when the car is moving uniformly on a horizontal road. When the accelerator is pressed, the time period changes to 3.99 seconds. Making an approximate analysis, the acceleration of the car is:",
+      "figures": [],
+      "options": {
+        "A": "$g/100$",
+        "B": "$g/50$",
+        "C": "$g/20$",
+        "D": "$g/10$"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "17SHM-Q065",
+      "number": 65,
+      "chapter": "17SHM",
+      "subtopic": "17SHM.05",
+      "type": "mcq",
+      "level": 2,
+      "source": "JEE Main 2015 (Offline)",
+      "question": "A pendulum made of a uniform wire of cross-sectional area A has time period T. When an additional mass M is added to its bob, the time period changes to TM. If the Young's modulus of the material of the wire is Y then 1/Y is equal to: (g = gravitational acceleration)",
+      "figures": [],
+      "options": {
+        "A": "$\\left\\lbrack 1 - {(\\frac{T_{M}}{T})}^{2} \\right\\rbrack\\frac{A}{Mg}$",
+        "B": "$\\left\\lbrack 1 - {(\\frac{T}{T_{M}})}^{2} \\right\\rbrack\\frac{A}{Mg}$",
+        "C": "$\\left\\lbrack {(\\frac{T_{M}}{T})}^{2} - 1 \\right\\rbrack\\frac{A}{Mg}$",
+        "D": "$\\left\\lbrack {(\\frac{T_{M}}{T})}^{2} - 1 \\right\\rbrack\\frac{Mg}{A}$"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "17SHM-Q066",
+      "number": 66,
+      "chapter": "17SHM",
+      "subtopic": "17SHM.05",
+      "type": "mcq",
+      "level": 2,
+      "source": "JEE Main 2019, 11 Jan, Shift 2",
+      "question": "A simple pendulum of length 1 m is oscillating with an angular frequency 10 rad/s. The support of the pendulum starts oscillating up and down with a small angular frequency of 1 rad/s and an amplitude of 10<sup>–2</sup> m. The relative change in the angular frequency of the pendulum is best given by:",
+      "figures": [],
+      "options": {
+        "A": "10<sup>–3</sup> rad/s",
+        "B": "10<sup>–1</sup> rad/s",
+        "C": "1 rad/s",
+        "D": "10<sup>–5</sup> rad/s"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "17SHM-Q067",
+      "number": 67,
+      "chapter": "17SHM",
+      "subtopic": "17SHM.05",
+      "type": "mcq",
+      "level": 2,
+      "source": null,
+      "question": "A pendulum of length 10 cm is hung beside a wall that makes an angle of 3° with the vertical. It is pulled to position A, 6° from the vertical on the other side, and released. The collision of the bob with the wall is perfectly elastic. The time period of the pendulum will be:",
+      "figures": [
+        "figures/17SHM-Q067-fig1.png"
+      ],
+      "options": {
+        "A": "$\\pi/5$ s",
+        "B": "$2\\pi/15$ s",
+        "C": "$\\pi/6$ s",
+        "D": "the motion will not be periodic"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "17SHM-Q068",
+      "number": 68,
+      "chapter": "17SHM",
+      "subtopic": "17SHM.06",
+      "type": "mcq",
+      "level": 2,
+      "source": "JEE Main 2020, 5 Sep, Shift 2",
+      "question": "A ring is hung on a nail. It can oscillate without slipping or sliding:\n\n(i) in its plane with a time period of $T_{1}$\n\n(ii) back and forth in the direction perpendicular to its plane with a time period of $T_{2}$\n\nThe ratio $T_{1}/T_{2}$ will be:",
+      "figures": [],
+      "options": {
+        "A": "$2/\\sqrt{3}$",
+        "B": "2/3",
+        "C": "$3/\\sqrt{2}$",
+        "D": "$\\sqrt{2}/3$"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "17SHM-Q069",
+      "number": 69,
+      "chapter": "17SHM",
+      "subtopic": "17SHM.06",
+      "type": "mcq",
+      "level": 2,
+      "source": "JEE Main 2019, 12 Jan, Shift 2",
+      "question": "Two light identical springs of spring constant k are attached horizontally at the two ends of a uniform horizontal rod AB of length ℓ and mass m. The rod is pivoted at its centre 'O' and can rotate freely in a horizontal plane. The other ends of the two springs are fixed to rigid supports as shown in the figure. The rod is gently pushed through a small angle and released. The frequency of resulting oscillation is:",
+      "figures": [
+        "figures/17SHM-Q069-fig1.png"
+      ],
+      "options": {
+        "A": "$\\frac{1}{2\\pi}\\sqrt{\\frac{6k}{m}}$",
+        "B": "$\\frac{1}{2\\pi}\\sqrt{\\frac{2k}{m}}$",
+        "C": "$\\frac{1}{2\\pi}\\sqrt{\\frac{k}{m}}$",
+        "D": "$\\frac{1}{2\\pi}\\sqrt{\\frac{3k}{m}}$"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "17SHM-Q070",
+      "number": 70,
+      "chapter": "17SHM",
+      "subtopic": "17SHM.06",
+      "type": "mcq",
+      "level": 2,
+      "source": "JEE Main 2019, 9 Jan, Shift 2",
+      "question": "A rod of mass M and length 2L is suspended at its middle by a wire. It exhibits torsional oscillations. If two masses each of m are attached at distance L/2 from its centre on both sides, it reduces the oscillation frequency by 20%. The value of ratio m/M is close to:",
+      "figures": [],
+      "options": {
+        "A": "0.17",
+        "B": "0.37",
+        "C": "0.57",
+        "D": "0.77"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "17SHM-Q071",
+      "number": 71,
+      "chapter": "17SHM",
+      "subtopic": "17SHM.07",
+      "type": "mcq",
+      "level": 1,
+      "source": "AIEEE 2011",
+      "question": "A wooden cube (density of wood d) of side L floats in a liquid of density ρ with its upper and lower surfaces horizontal. If the cube is pushed slightly down and released, it performs simple harmonic motion of period T. Then T is equal to:",
+      "figures": [],
+      "options": {
+        "A": "$2\\pi\\sqrt{\\frac{L\\rho}{(\\rho - d)g}}$",
+        "B": "$2\\pi\\sqrt{\\frac{Ld}{\\rho g}}$",
+        "C": "$2\\pi\\sqrt{\\frac{L\\rho}{dg}}$",
+        "D": "$2\\pi\\sqrt{\\frac{Ld}{(\\rho - d)g}}$"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "17SHM-Q072",
+      "number": 72,
+      "chapter": "17SHM",
+      "subtopic": "17SHM.07",
+      "type": "mcq",
+      "level": 2,
+      "source": "JEE Main 2019, 10 Jan, Shift 2",
+      "question": "A cylindrical plastic bottle of negligible mass is filled with 310 mL of water and left floating in a pond with still water. If pressed downward slightly and released, it starts performing simple harmonic motion at angular frequency ω. If the radius of the bottle is 2.5 cm then ω is close to: (density of water = 10<sup>3</sup> kg/m<sup>3</sup>)",
+      "figures": [],
+      "options": {
+        "A": "5.00 rad/s",
+        "B": "1.25 rad/s",
+        "C": "7.95 rad/s",
+        "D": "2.50 rad/s"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "17SHM-Q073",
+      "number": 73,
+      "chapter": "17SHM",
+      "subtopic": "17SHM.07",
+      "type": "mcq",
+      "level": 2,
+      "source": "JEE Main 2021, 26 Feb, Shift 1",
+      "question": "Assume that a tunnel is dug along the chord of the earth at a perpendicular distance (R/2) from the earth’s centre, where R is the radius of earth. The wall of the tunnel is frictionless. If a particle is released in this tunnel, it will execute SHM with time period:",
+      "figures": [],
+      "options": {
+        "A": "$\\frac{2\\pi R}{g}$",
+        "B": "$\\frac{g}{2\\pi R}$",
+        "C": "$\\frac{1}{2\\pi}\\sqrt{g/R}$",
+        "D": "$2\\pi\\sqrt{R/g}$"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "17SHM-Q074",
+      "number": 74,
+      "chapter": "17SHM",
+      "subtopic": "17SHM.08",
+      "type": "mcq",
+      "level": 1,
+      "source": "JEE Main 2019, 12 Jan, Shift 1",
+      "question": "A simple harmonic motion is represented by $y = 5(\\sin 3\\pi t + \\sqrt{3}\\cos 3\\pi t)$ cm. The amplitude and time period of the motion are:",
+      "figures": [],
+      "options": {
+        "A": "5 cm; 3/2 s",
+        "B": "5 cm; 2/3 s",
+        "C": "10 cm; 3/2 s",
+        "D": "10 cm; 2/3 s"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "17SHM-Q075",
+      "number": 75,
+      "chapter": "17SHM",
+      "subtopic": "17SHM.08",
+      "type": "mcq",
+      "level": 1,
+      "source": "JEE Main 2015, 10 Apr (Online)",
+      "question": "x and y displacements of a particle are given as x(t) = a sin ωt and y(t) = a sin 2ωt. Its trajectory will look like:",
+      "figures": [],
+      "options": {
+        "A": {
+          "image": "figures/17SHM-Q075-optA.png"
+        },
+        "B": {
+          "image": "figures/17SHM-Q075-optB.png"
+        },
+        "C": {
+          "image": "figures/17SHM-Q075-optC.png"
+        },
+        "D": {
+          "image": "figures/17SHM-Q075-optD.png"
+        }
+      },
+      "answer": "A"
+    },
+    {
+      "id": "17SHM-Q076",
+      "number": 76,
+      "chapter": "17SHM",
+      "subtopic": "17SHM.08",
+      "type": "mcq",
+      "level": 1,
+      "source": "JEE Main 2014, 9 Apr (Online)",
+      "question": "A particle which is simultaneously subjected to two perpendicular simple harmonic motions represented by x=a<sub>1</sub> cos ωt and y = a<sub>2</sub> cos 2ωt traces a curve given by:",
+      "figures": [],
+      "options": {
+        "A": {
+          "image": "figures/17SHM-Q076-optA.png"
+        },
+        "B": {
+          "image": "figures/17SHM-Q076-optB.png"
+        },
+        "C": {
+          "image": "figures/17SHM-Q076-optC.png"
+        },
+        "D": {
+          "image": "figures/17SHM-Q076-optD.png"
+        }
+      },
+      "answer": "C"
+    },
+    {
+      "id": "17SHM-Q077",
+      "number": 77,
+      "chapter": "17SHM",
+      "subtopic": "17SHM.08",
+      "type": "mcq",
+      "level": 1,
+      "source": "JEE Main 2013 (Offline)",
+      "question": "The amplitude of a damped oscillator decreases to 0.9 times its original magnitude in 5 s. In another 10 s, it will decrease to $\\alpha$ times its original magnitude, where $\\alpha$ equals:",
+      "figures": [],
+      "options": {
+        "A": "0.7",
+        "B": "0.81",
+        "C": "0.729",
+        "D": "0.6"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "17SHM-Q078",
+      "number": 78,
+      "chapter": "17SHM",
+      "subtopic": "17SHM.08",
+      "type": "mcq",
+      "level": 1,
+      "source": "JEE Main 2017, 9 Apr (Online)",
+      "question": "A block of mass 0.1 kg is connected to an elastic spring of spring constant 640 N/m and oscillates in a damping medium of damping constant 10<sup>–2</sup> kg/s. The system dissipates its energy gradually. The time taken for its mechanical energy of vibration to drop to half of its initial value, is closest to:",
+      "figures": [],
+      "options": {
+        "A": "2 s",
+        "B": "5 s",
+        "C": "7 s",
+        "D": "3.5 s"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "17SHM-Q079",
+      "number": 79,
+      "chapter": "17SHM",
+      "subtopic": "17SHM.08",
+      "type": "mcq",
+      "level": 1,
+      "source": "AIEEE 2012",
+      "question": "If a simple pendulum has significant amplitude (up to a factor of 1/e of original) only in the period between t = 0 s to t = τ s, then $\\tau$ may be called the average life of the pendulum. When the spherical bob of the pendulum suffers a retardation (due to viscous drag) proportional to its velocity, with b as the constant of proportionality, the average lifetime of the pendulum is (assuming damping is small) in seconds:",
+      "figures": [],
+      "options": {
+        "A": "b",
+        "B": "1/b",
+        "C": "2/b",
+        "D": "0.693/b"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "17SHM-Q080",
+      "number": 80,
+      "chapter": "17SHM",
+      "subtopic": "17SHM.08",
+      "type": "mcq",
+      "level": 1,
+      "source": null,
+      "question": "When a periodic force F = 6 sin 40πt (newton) is applied to a particle vibrating as x = 10 sin 44πt (cm), then:",
+      "figures": [],
+      "options": {
+        "A": "The particle immediately starts vibrating at 20 Hz",
+        "B": "The particle keeps vibrating at 22 Hz",
+        "C": "After some time it vibrates at 20 Hz",
+        "D": "After some time it vibrates at 21 Hz"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "17SHM-Q081",
+      "number": 81,
+      "chapter": "17SHM",
+      "subtopic": "17SHM.08",
+      "type": "mcq",
+      "level": 1,
+      "source": "IIT-JEE 2011",
+      "question": "A point mass is subjected to two simultaneous sinusoidal displacements in the x-direction, x<sub>1</sub>(t) = A sin ωt and x<sub>2</sub>(t) = A sin$(\\omega t\\  + \\ \\frac{2\\pi}{3})$. Adding a third sinusoidal displacement x<sub>3</sub>(t) = B sin (ωt + φ) brings the mass to a complete rest. The values of B and φ are:",
+      "figures": [],
+      "options": {
+        "A": "$\\sqrt{2}A,\\ \\frac{3\\pi}{4}$",
+        "B": "$A,\\ \\frac{4\\pi}{3}$",
+        "C": "$\\sqrt{3}A,\\ \\frac{5\\pi}{6}$",
+        "D": "$A,\\ \\frac{\\pi}{3}$"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "17SHM-Q082",
+      "number": 82,
+      "chapter": "17SHM",
+      "subtopic": "17SHM.08",
+      "type": "mcq",
+      "level": 2,
+      "source": "JEE Main 2018, 15 Apr (Online)",
+      "question": "Two simple harmonic motions, as shown below, are at right angles. They are combined to form Lissajous figures.\n\nx(t) = A sin(at + δ) ; y(t) = B sin(bt)\n\nIdentify the correct match below.\n\n-----------------------------------------------------------------------\n\nParameter                               Curve\n\n--------------------------------------- -------------------------------\n\n-----------------------------------------------------------------------",
+      "figures": [],
+      "options": {
+        "A": "A ≠B; a = b; δ = 0                Parabola",
+        "B": "A =B; a = b; δ = π/2              Line",
+        "C": "A ≠B; a = b; δ = π/2              Ellipse",
+        "D": "A = B; a = 2b; δ = π/2            Circle"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "17SHM-Q083",
+      "number": 83,
+      "chapter": "17SHM",
+      "subtopic": "17SHM.08",
+      "type": "mcq",
+      "level": 2,
+      "source": "JEE Main 2014, 11 Apr (Online)",
+      "question": "The angular frequency of the damped oscillator is given by ω = $\\sqrt{\\frac{k}{m} - \\frac{r^{2}}{4m^{2}}}\\ $where k is the spring constant, m is the mass of the oscillator and r is the damping constant. If the ratio $\\frac{r^{2}}{mk}$ is 8%, the change in time period compared to the undamped oscillator is approximately:",
+      "figures": [],
+      "options": {
+        "A": "Decreases by 1%",
+        "B": "Increases by 8%",
+        "C": "Increases by 1%",
+        "D": "Decreases by 8%"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "17SHM-Q084",
+      "number": 84,
+      "chapter": "17SHM",
+      "subtopic": "17SHM.08",
+      "type": "mcq",
+      "level": 3,
+      "source": "JEE Main 2014, 9 Apr (Online)",
+      "question": "The amplitude of a simple pendulum, oscillating in air with a small spherical bob, decreases from 10 cm to 8 cm in 40 seconds. Assuming that Stokes’ law is valid, and ratio of the coefficient of viscosity of air to that of carbon dioxide is 1.3, the time in which amplitude of this pendulum will reduce from 10 cm to 5 cm in carbon dioxide will be close to (ln 5 = 1.601, ln 2 = 0.693).",
+      "figures": [],
+      "options": {
+        "A": "161 s",
+        "B": "208 s",
+        "C": "231 s",
+        "D": "142 s"
+      },
+      "answer": "A"
+    }
+  ]
+}
