@@ -2,13 +2,13 @@
 <html lang="en">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Physics Practice Tests</title>
-<meta name="claude:viewport-fit-sides" content="cover">
+<title>Physics Practice</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500&display=swap">
 <link rel="stylesheet" href="katex/katex.min.css">
 <style>
-/* Layout: single reading column (max 760px); picker = list of subtopic rows, test = one question card with a status strip above it */
+/* Layout: one reading column (max 780px). Home = chapter list by area; chapter = subtopic list;
+   subtopic = tabs (Practice, Custom test, Revision notes, Exemplars & animations); practice/test = one question card at a time */
 :root{
   --bg:#f5f7f8; --surface:#ffffff; --ink:#152232; --muted:#5b6876; --line:#dbe1e6;
   --accent:#0f6b78; --accent-soft:#e2f0f1; --accent-ink:#ffffff;
@@ -28,328 +28,435 @@
   --accent:#4fb8c4; --accent-soft:#16343a; --accent-ink:#06191c;
   --good:#5cc983; --good-soft:#15301f; --bad:#f08a80; --bad-soft:#3a1c1a; --warn:#e7b25a; --warn-soft:#352813;
   --plate:#f3f5f6; color-scheme:dark}
-
 *{box-sizing:border-box}
-body{background:var(--bg);color:var(--ink);font:16px/1.6 var(--body);}
-.wrap{max-width:760px;margin:0 auto;padding-block:28px 64px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));display:flex;flex-direction:column;gap:22px}
-h1,h2{font-family:var(--display);line-height:1.15;text-wrap:balance;margin:0}
-h1{font-size:clamp(1.7rem,4.5vw,2.3rem);letter-spacing:-.01em}
-h2{font-size:1.25rem}
-.eyebrow{font:500 .75rem/1 var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--accent)}
-.lede{color:var(--muted);margin:0}
-.given{display:inline-flex;gap:8px;align-items:center;font-size:.9rem;color:var(--muted);border:1px dashed var(--line);border-radius:6px;padding:4px 10px;width:fit-content}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 var(--body)}
+.preview{background:var(--warn-soft);color:var(--warn);font-size:.85rem;text-align:center;padding-block:6px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.top{border-bottom:1px solid var(--line);background:var(--surface)}
+.top .in{max-width:780px;margin:0 auto;padding-block:12px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));display:flex;align-items:center;justify-content:space-between;gap:12px}
+.brand{font:700 1.15rem var(--display);color:var(--ink);text-decoration:none;display:flex;align-items:center;gap:8px}
+.brand .mark{width:26px;height:26px;border-radius:6px;background:var(--accent);color:var(--accent-ink);display:grid;place-items:center;font:700 .85rem var(--mono)}
+.wrap{max-width:780px;margin:0 auto;padding-block:24px 64px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));display:flex;flex-direction:column;gap:22px}
+h1,h2,h3{font-family:var(--display);line-height:1.15;text-wrap:balance;margin:0}
+h1{font-size:clamp(1.65rem,4.6vw,2.3rem);letter-spacing:-.01em}
+h2{font-size:1.2rem}
+h3{font-size:.8rem;font-family:var(--mono);font-weight:500;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+p{margin:0}
+.lede{color:var(--muted)}
+.crumbs{display:flex;flex-wrap:wrap;gap:6px;font-size:.88rem;color:var(--muted)}
+.crumbs a{color:var(--accent);text-decoration:none}
+.crumbs a:hover{text-decoration:underline}
 button{font:inherit;color:inherit;cursor:pointer}
-button:focus-visible,input:focus-visible,label:focus-within{outline:2px solid var(--accent);outline-offset:2px}
+a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,label:focus-within{outline:2px solid var(--accent);outline-offset:2px}
 
-/* filters */
-.filters{display:flex;flex-wrap:wrap;gap:8px 18px;align-items:center;font-size:.92rem}
-.filters .lbl{font:500 .72rem/1 var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
-.chk{display:inline-flex;gap:6px;align-items:center;border-radius:4px}
-.chk input{accent-color:var(--accent);width:16px;height:16px}
+/* home */
+.steps{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+.step{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:12px 14px;display:flex;flex-direction:column;gap:4px;min-width:0}
+.step b{font:600 .95rem var(--display)}
+.step span{color:var(--muted);font-size:.88rem}
+@media (max-width:560px){.steps{grid-template-columns:1fr}}
+.group{display:flex;flex-direction:column;gap:8px}
+.list{display:flex;flex-direction:column;border-top:1px solid var(--line)}
+.row{display:grid;grid-template-columns:2.6rem minmax(0,1fr) auto;gap:4px 12px;align-items:center;padding:12px 6px;border-bottom:1px solid var(--line);color:var(--ink);text-decoration:none;transition:background .15s}
+a.row:hover{background:var(--surface)}
+.row .num{font:500 .82rem var(--mono);color:var(--muted);font-variant-numeric:tabular-nums}
+.row .name{font-weight:600;min-width:0}
+.row .sub{grid-column:2;font-size:.85rem;color:var(--muted);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.row .count{grid-row:1 / span 2;grid-column:3;font:600 .95rem var(--display);font-variant-numeric:tabular-nums;text-align:right;white-space:nowrap}
+.row .soon{grid-row:1 / span 2;grid-column:3;font-size:.8rem;color:var(--muted);border:1px dashed var(--line);border-radius:999px;padding:2px 9px;white-space:nowrap}
+.row.off .name{color:var(--muted);font-weight:500}
 
-/* subtopic list */
-.subs{display:flex;flex-direction:column;border-top:1px solid var(--line)}
-.chapters{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:6px}
-.chapters a{font-size:.85rem;color:var(--ink);text-decoration:none;border:1px solid var(--line);border-radius:999px;padding:4px 11px;background:var(--surface)}
-.chapters a.on{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}
-.chapters a:hover:not(.on){border-color:var(--accent)}
-.sub{display:grid;grid-template-columns:5.2rem 1fr auto;gap:4px 14px;align-items:center;text-align:left;background:none;border:0;border-bottom:1px solid var(--line);padding:14px 6px;transition:background .15s}
-.sub:hover{background:var(--surface)}
-.sub .code{font:500 .8rem var(--mono);color:var(--muted);font-variant-numeric:tabular-nums}
-.sub .name{font-weight:600;min-width:0}
-.sub .mix{grid-column:2;font-size:.85rem;color:var(--muted)}
-.sub .go{grid-row:1 / span 2;grid-column:3;display:flex;flex-direction:column;align-items:flex-end;gap:2px}
-.sub .count{font:600 1.05rem var(--display);font-variant-numeric:tabular-nums}
-.sub .last{font:500 .72rem var(--mono);color:var(--good)}
-.sub[disabled]{opacity:.45;cursor:not-allowed}
-@media (max-width:520px){.sub{grid-template-columns:1fr auto}.sub .code{grid-column:1}.sub .name,.sub .mix{grid-column:1}.sub .go{grid-row:1 / span 3;grid-column:2}}
+/* tabs */
+.tabs{display:flex;gap:4px;border-bottom:1px solid var(--line);overflow-x:auto;scrollbar-width:none}
+.tabs button{background:none;border:0;border-bottom:2.5px solid transparent;padding:10px 12px;font-weight:600;color:var(--muted);white-space:nowrap}
+.tabs button[aria-selected="true"]{color:var(--accent);border-bottom-color:var(--accent)}
+.panel{display:flex;flex-direction:column;gap:16px}
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.chip-btn{border:1.5px solid var(--line);background:var(--surface);border-radius:999px;padding:5px 12px;font-size:.88rem}
+.chip-btn[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}
+.field{display:flex;flex-direction:column;gap:6px}
+.field>span{font:500 .75rem var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.qlist{display:flex;flex-direction:column;border-top:1px solid var(--line)}
+.qrow{display:grid;grid-template-columns:2.6rem minmax(0,1fr) auto;gap:12px;align-items:center;padding:10px 6px;border:0;border-bottom:1px solid var(--line);background:none;text-align:left;width:100%}
+.qrow:hover{background:var(--surface)}
+.qrow .n{font:500 .82rem var(--mono);color:var(--muted)}
+.qrow .s{min-width:0;overflow:hidden;font-size:.93rem;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;line-height:1.45}
+.qrow .s .katex{font-size:1em}.qrow .s .katex-display{display:inline;margin:0}.qrow .s .katex-display>.katex{display:inline}
+.lvl{font:500 .72rem var(--mono);padding:3px 7px;border-radius:4px;white-space:nowrap;background:var(--accent-soft);color:var(--accent)}
+.lvl.m{background:var(--warn-soft);color:var(--warn)}.lvl.h{background:var(--bad-soft);color:var(--bad)}.lvl.u{background:transparent;border:1px solid var(--line);color:var(--muted)}
+.soonbox{background:var(--surface);border:1px dashed var(--line);border-radius:10px;padding:22px;display:flex;flex-direction:column;gap:6px}
+.soonbox b{font:600 1.05rem var(--display)}
+.soonbox span{color:var(--muted)}
 
-/* test view */
+/* question card */
 .bar{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:8px}
 .link{background:none;border:0;padding:4px 0;color:var(--accent);font-weight:500}
 .prog{font:500 .85rem var(--mono);color:var(--muted);font-variant-numeric:tabular-nums}
+.timer{font:600 .95rem var(--mono);font-variant-numeric:tabular-nums;padding:3px 10px;border-radius:6px;background:var(--accent-soft);color:var(--accent)}
+.timer.low{background:var(--bad-soft);color:var(--bad)}
 .dots{display:flex;flex-wrap:wrap;gap:5px}
-.dot{width:24px;height:24px;border-radius:50%;border:1.5px solid var(--line);background:var(--surface);font:500 .62rem var(--mono);color:var(--muted);display:grid;place-items:center;padding:0}
+.dot{width:26px;height:26px;border-radius:50%;border:1.5px solid var(--line);background:var(--surface);font:500 .66rem var(--mono);color:var(--muted);display:grid;place-items:center;padding:0}
 .dot.cur{border-color:var(--accent);color:var(--accent);box-shadow:0 0 0 2px var(--accent-soft)}
 .dot.correct{background:var(--good);border-color:var(--good);color:var(--bg)}
 .dot.wrong{background:var(--bad);border-color:var(--bad);color:var(--bg)}
-.dot.seen{background:var(--warn-soft);border-color:var(--warn);color:var(--warn)}
-
+.dot.seen,.dot.answered{background:var(--accent-soft);border-color:var(--accent);color:var(--accent)}
 .card{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:22px clamp(16px,4vw,28px);display:flex;flex-direction:column;gap:16px}
 .meta{display:flex;flex-wrap:wrap;gap:6px;align-items:center}
 .qn{font:700 1.1rem var(--display);margin-right:4px}
-.chip{font:500 .72rem/1 var(--mono);padding:5px 8px;border-radius:4px;background:var(--accent-soft);color:var(--accent);letter-spacing:.02em}
-.chip.lv2{background:var(--warn-soft);color:var(--warn)}
-.chip.lv3{background:var(--bad-soft);color:var(--bad)}
-.chip.plain{background:transparent;border:1px solid var(--line);color:var(--muted)}
+.tag{font:500 .72rem/1 var(--mono);padding:5px 8px;border-radius:4px;border:1px solid var(--line);color:var(--muted)}
 .qtext p{margin:0 0 .7em}.qtext p:last-child{margin:0}
 .qtext ul{margin:0 0 .7em;padding-left:1.2em;display:flex;flex-direction:column;gap:4px}.qtext ul:last-child{margin:0}
-.fig{display:block;background:var(--plate);border-radius:6px;padding:10px;width:fit-content;max-width:100%}
+.fig{display:block;background:var(--plate);border-radius:6px;padding:10px;width:fit-content;max-width:100%;margin:4px 0}
 .fig img{display:block;max-height:240px;max-width:100%;width:auto;height:auto;object-fit:contain}
-.qtext .fig{margin:4px 0}
-.opt .v .fig{padding:6px}.opt .v .fig img{max-height:130px}
-.sol{display:flex;flex-direction:column;gap:10px}
-.sol .aside{border-left-color:var(--accent)}.sol .aside .t{color:var(--accent)}
-.chip.id{background:transparent;border:1px solid var(--line);color:var(--ink)}
-.chip.st{background:var(--bg);color:var(--muted);border:1px dashed var(--line)}
 .katex{font-size:1.08em}
 .katex-display{overflow-x:auto;overflow-y:hidden}
-
 .opts{display:grid;gap:10px;list-style:none;margin:0;padding:0}
 .opts.imgs{grid-template-columns:repeat(auto-fit,minmax(min(100%,230px),1fr))}
 .opt{display:flex;gap:12px;align-items:flex-start;width:100%;text-align:left;background:var(--bg);border:1.5px solid var(--line);border-radius:8px;padding:11px 14px;transition:border-color .15s,background .15s;min-width:0}
 .opt:hover:not([disabled]){border-color:var(--accent)}
 .opt .k{flex:none;width:26px;height:26px;border-radius:50%;display:grid;place-items:center;font:600 .8rem var(--mono);border:1.5px solid currentColor;color:var(--muted)}
 .opt .v{min-width:0;overflow-x:auto;padding-top:1px}
-.opt .v img{background:var(--plate);border-radius:4px;max-height:130px;display:block}
+.opt .v .fig{padding:6px}.opt .v .fig img{max-height:130px}
 .opt[disabled]{cursor:default}
+.opt.picked{border-color:var(--accent);background:var(--accent-soft)}.opt.picked .k{color:var(--accent)}
 .opt.right{border-color:var(--good);background:var(--good-soft)}.opt.right .k{color:var(--good)}
 .opt.picked-wrong{border-color:var(--bad);background:var(--bad-soft)}.opt.picked-wrong .k{color:var(--bad)}
-
 .numrow{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
-.numrow input{font:500 1.05rem var(--mono);width:9rem;padding:9px 12px;border:1.5px solid var(--line);border-radius:8px;background:var(--bg);color:var(--ink)}
+.numrow input,select{font:500 1rem var(--body);padding:9px 12px;border:1.5px solid var(--line);border-radius:8px;background:var(--bg);color:var(--ink)}
+.numrow input{font-family:var(--mono);width:9rem}
 .btn{border:0;border-radius:8px;padding:10px 18px;font-weight:600;background:var(--accent);color:var(--accent-ink)}
 .btn.ghost{background:transparent;border:1.5px solid var(--line);color:var(--ink)}
 .btn[disabled]{opacity:.4;cursor:not-allowed}
-
 .fb{border-radius:8px;padding:12px 14px;display:flex;flex-direction:column;gap:6px}
 .fb.good{background:var(--good-soft)}.fb.bad{background:var(--bad-soft)}.fb.info{background:var(--accent-soft)}
 .fb strong{font-family:var(--display)}
 .fb.good strong{color:var(--good)}.fb.bad strong{color:var(--bad)}.fb.info strong{color:var(--accent)}
 .aside{border-left:3px solid var(--warn);padding:4px 0 4px 12px}
 .aside .t{font:500 .72rem var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--warn)}
+.sol .aside{border-left-color:var(--accent)}.sol .aside .t{color:var(--accent)}
+.sol{display:flex;flex-direction:column;gap:10px}
 .extras{display:flex;flex-wrap:wrap;gap:8px}
 .nav{display:flex;justify-content:space-between;gap:10px}
 .keys{font-size:.8rem;color:var(--muted);text-align:center}
 kbd{font:500 .75rem var(--mono);border:1px solid var(--line);border-radius:3px;padding:0 4px}
-
-/* summary */
 .score{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap}
 .score .big{font:700 3.2rem/1 var(--display);font-variant-numeric:tabular-nums}
 .score .of{color:var(--muted)}
-.rows{display:flex;flex-direction:column;border-top:1px solid var(--line)}
-.row{display:grid;grid-template-columns:3.2rem 1fr auto;gap:12px;align-items:center;padding:10px 4px;border:0;border-bottom:1px solid var(--line);background:none;text-align:left}
-.row:hover{background:var(--surface)}
-.row .n{font:500 .85rem var(--mono);color:var(--muted)}
-.row .s{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-size:.92rem}
-.st{font:500 .72rem var(--mono);padding:4px 7px;border-radius:4px}
-.st.correct{background:var(--good-soft);color:var(--good)}.st.wrong{background:var(--bad-soft);color:var(--bad)}.st.skip{background:var(--bg);color:var(--muted);border:1px solid var(--line)}.st.seen{background:var(--warn-soft);color:var(--warn)}
+.st{font:500 .72rem var(--mono);padding:4px 7px;border-radius:4px;white-space:nowrap}
+.st.correct{background:var(--good-soft);color:var(--good)}.st.wrong{background:var(--bad-soft);color:var(--bad)}.st.skip{background:var(--bg);color:var(--muted);border:1px solid var(--line)}
 .actions{display:flex;flex-wrap:wrap;gap:10px}
 .err{color:var(--bad)}
+.foot{color:var(--muted);font-size:.8rem;text-align:center}
 @media (prefers-reduced-motion:reduce){*{transition:none!important}}
 </style>
 
-<main class="wrap" id="app"><p class="lede">Loading questions…</p></main>
+<div class="preview" role="note">Preview: questions and solutions are still being reviewed.</div>
+<header class="top"><div class="in"><a class="brand" href="#home"><span class="mark">Φ</span>Physics Practice</a><span class="lede" style="font-size:.85rem">JEE Main · NEET</span></div></header>
+<main class="wrap" id="app"><p class="lede">Loading…</p></main>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.11/katex.min.js"></script>
 <script>
-let CHAPTER = null;
 const app = document.getElementById("app");
-const S = { data:null, view:"pick", sub:null, queue:[], i:0, res:{}, types:new Set(["mcq","numerical","subjective"]), shuffle:false, show:{} };
-const TYPE_LABEL = { mcq:"MCQ", numerical:"numerical", subjective:"subjective" };
-const store = {
-  get(k){ try { return JSON.parse(localStorage.getItem(k)); } catch(e){ return null; } },
-  set(k,v){ try { localStorage.setItem(k, JSON.stringify(v)); } catch(e){} }
-};
+const S = { catalog: null, chapters: {}, macros: {}, tab: "practice", levelFilter: "all", typeFilter: new Set(["mcq", "numerical", "subjective"]),
+            test: { n: 10, level: "all", timed: true }, run: null };
+const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+const LEVEL_NAME = l => !l ? "Not rated" : l <= 2 ? "Easy" : l <= 4 ? "Medium" : "Hard";
+const LEVEL_CLASS = l => !l ? "u" : l <= 2 ? "" : l <= 4 ? "m" : "h";
+const levelTag = l => `<span class="lvl ${LEVEL_CLASS(l)}">${l ? `Level ${l} · ${LEVEL_NAME(l)}` : "Not rated"}</span>`;
+const inLevel = (l, f) => f === "all" || (f === "easy" && l && l <= 2) || (f === "medium" && l >= 3 && l <= 4) || (f === "hard" && l >= 5) || (f === "none" && !l);
 
-// Markdown-lite + KaTeX: paragraphs, inline $..$, display $$..$$; <sup>/<sub> come from our own data.
 function md(s){
   if (!s) return "";
-  const math = [], imgs = [];
-  s = s.replace(/!\[([^\]]*)\]\(([^)\s]+)\)/g, (m, alt, src) => { imgs.push(`<span class="fig"><img src="${src}" alt="${esc(alt)}" loading="lazy"></span>`); return `\u0001${imgs.length - 1}\u0001`; });
+  const keep = [], hold = h => { keep.push(h); return `\u0000${keep.length - 1}\u0000`; };
+  s = String(s).replace(/!\[([^\]]*)\]\(([^)\s]+)\)/g, (m, alt, src) => hold(`<span class="fig"><img src="${esc(src)}" alt="${esc(alt)}" loading="lazy"></span>`));
   s = s.replace(/\$\$([\s\S]+?)\$\$|\$([^$]+?)\$/g, (m, d, i) => {
-    let html;
-    try { html = katex.renderToString(d || i, { displayMode: !!d, throwOnError: false, strict: "ignore", macros: { ...((S.data && S.data.macros) || {}) } }); }
-    catch(e){ html = `<code>${d || i}</code>`; }
-    math.push(html); return `\u0000${math.length - 1}\u0000`;
+    try { return hold(katex.renderToString(d || i, { displayMode: !!d, throwOnError: false, strict: "ignore", macros: { ...S.macros } })); }
+    catch (e) { return hold(`<code>${esc(d || i)}</code>`); }
   });
-  s = s.replace(/\*\*([^*]+)\*\*/g, "<strong>$1</strong>");
-  s = s.split(/\n\n+/).map(p => {
-    const lines = p.trim().split("\n");
-    return lines.every(l => /^- /.test(l)) ? `<ul>${lines.map(l => `<li>${l.slice(2)}</li>`).join("")}</ul>` : `<p>${p.trim()}</p>`;
-  }).join("");
-  return s.replace(/\u0000(\d+)\u0000/g, (_, n) => math[n]).replace(/\u0001(\d+)\u0001/g, (_, n) => imgs[n]);
+  s = s.replace(/<(?!\/?(sup|sub)>)/g, "&lt;").replace(/\*\*([^*]+)\*\*/g, "<strong>$1</strong>");
+  s = s.split(/\n\n+/).map(p => { const L = p.trim().split("\n"); return L.every(l => /^- /.test(l)) ? `<ul>${L.map(l => `<li>${l.slice(2)}</li>`).join("")}</ul>` : `<p>${p.trim()}</p>`; }).join("");
+  return s.replace(/\u0000(\d+)\u0000/g, (_, n) => keep[n]);
 }
-const esc = s => String(s).replace(/[&<>"]/g, c => ({ "&":"&amp;", "<":"&lt;", ">":"&gt;", '"':"&quot;" }[c]));
+const inline = s => md(s).replace(/^<p>|<\/p>$/g, "");
+const snippet = s => inline(String(s || "").replace(/!\[[^\]]*\]\([^)]*\)/g, "").replace(/\$\$([\s\S]+?)\$\$/g, (m, x) => "$" + x + "$").replace(/\n+/g, " ").trim().slice(0, 400));
+const plain = s => String(s || "").replace(/!\[[^\]]*\]\([^)]*\)/g, "[figure] ").replace(/\$[^$]*\$/g, "…").replace(/<[^>]+>/g, "").replace(/\*\*/g, "");
 
-function loadChapter(id){
-  CHAPTER = id;
-  return fetch(`data/${id}.json`).then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
-    .then(d => { S.data = d; S.view = "pick"; render(); window.scrollTo(0, 0); });
+// ---------- data ----------
+const getJSON = u => fetch(u).then(r => { if (!r.ok) throw new Error(r.status); return r.json(); });
+async function chapterData(code){
+  if (!S.chapters[code]) { S.chapters[code] = await getJSON(`data/ch/${code}.json`); S.macros = S.chapters[code].macros || {}; }
+  return S.chapters[code];
 }
-fetch("data/index.json").then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
-  .then(ix => { S.index = ix.sort((a, b) => a.id.localeCompare(b.id)); const want = location.hash.slice(1); return loadChapter((ix.find(c => c.id === want) || ix[0]).id); })
-  .catch(e => { app.innerHTML = `<p class="err">The question file could not be loaded (${esc(e.message)}). Reload the page to try again.</p>`; });
+const findChapter = code => S.catalog.chapters.find(c => c.code === code);
+const findSub = code => { const ch = findChapter(code.slice(0, 2)); return ch && ch.subtopics.find(s => s.code === code); };
 
-function pool(code){ return S.data.questions.filter(q => String(q.subtopic) === String(code) && S.types.has(q.type)); }
-
-function render(){
-  if (S.view === "pick") renderPick();
-  else if (S.view === "test") renderTest();
-  else renderSummary();
+// ---------- routing ----------
+function go(hash){ if (location.hash !== "#" + hash) location.hash = hash; else route(); }
+window.addEventListener("hashchange", route);
+async function route(){
+  stopTimer();
+  const h = location.hash.slice(1) || "home";
+  try {
+    if (!S.catalog) S.catalog = await getJSON("data/catalog.json");
+    let m;
+    if ((m = h.match(/^ch-(\d{2})$/))) return viewChapter(m[1]);
+    if ((m = h.match(/^st-(\d{4})$/))) return viewSubtopic(m[1]);
+    if (h === "run" && S.run) return S.run.done ? viewResult() : viewRun();
+    return viewHome();
+  } catch (e) {
+    app.innerHTML = `<p class="err">This page could not be loaded (${esc(e.message)}). Check your connection and reload.</p>`;
+  }
 }
+const toTop = () => window.scrollTo(0, 0);
 
-function renderPick(){
-  const d = S.data;
-  const subs = d.subtopics.map(s => {
-    const all = d.questions.filter(q => q.subtopic === s.code);
-    const mix = ["mcq","numerical","subjective"].map(t => [t, all.filter(q => q.type === t).length]).filter(([,n]) => n).map(([t,n]) => `${n} ${TYPE_LABEL[t]}`).join(" · ");
-    const n = pool(s.code).length;
-    const last = store.get(`last:${s.code}`);
-    return `<button class="sub" data-sub="${s.code}" ${n ? "" : "disabled"}>
-      <span class="code">${s.code}</span><span class="name">${esc(s.name)}</span>
-      <span class="mix">${mix}</span>
-      <span class="go"><span class="count">${n} Q</span>${last ? `<span class="last">last ${last.score}/${last.total}</span>` : ""}</span>
-    </button>`;
-  }).join("");
+// ---------- home ----------
+function viewHome(){
+  document.title = "Physics Practice";
+  const c = S.catalog, total = c.chapters.reduce((a, ch) => a + ch.count, 0);
+  const row = ch => ch.count
+    ? `<a class="row" href="#ch-${ch.code}"><span class="num">${ch.code}</span><span class="name">${esc(ch.name)}</span><span class="sub">${ch.subtopics.filter(s => s.count).length} of ${ch.subtopics.length} subtopics</span><span class="count">${ch.count}</span></a>`
+    : `<div class="row off"><span class="num">${ch.code}</span><span class="name">${esc(ch.name)}</span><span class="soon">Coming soon</span></div>`;
   app.innerHTML = `
-    <header style="display:flex;flex-direction:column;gap:10px">
-      ${S.index && S.index.length > 1 ? `<nav class="chapters" aria-label="Chapters">${S.index.map(c => `<a href="#${esc(c.id)}" class="${c.id === CHAPTER ? "on" : ""}" data-ch="${esc(c.id)}">${esc(c.id.slice(0, 2))} ${esc(c.title)}</a>`).join("")}</nav>` : ""}
-      <span class="eyebrow">Physics · Chapter ${esc(d.chapter.slice(0, 2))}</span>
-      <h1>${esc(d.title)}</h1>
-      <p class="lede">Pick a subtopic. Questions come one at a time; you get feedback as soon as you answer.</p>
-      ${d.note ? `<span class="given">Given: ${md(d.note).replace(/<\/?p>/g,"").replace(/\*/g,"")}</span>` : ""}
-    </header>
-    <div class="filters" role="group" aria-label="Question types">
-      <span class="lbl">Include</span>
-      ${["mcq","numerical","subjective"].map(t => `<label class="chk"><input type="checkbox" id="t-${t}" data-type="${t}" ${S.types.has(t) ? "checked" : ""}> ${TYPE_LABEL[t] === "MCQ" ? "MCQ" : TYPE_LABEL[t][0].toUpperCase() + TYPE_LABEL[t].slice(1)}</label>`).join("")}
-      <label class="chk"><input type="checkbox" id="shuffle" ${S.shuffle ? "checked" : ""}> Shuffle order</label>
-    </div>
-    <nav class="subs" aria-label="Subtopics">${subs}</nav>`;
-  app.querySelectorAll("[data-type]").forEach(c => c.onchange = () => { c.checked ? S.types.add(c.dataset.type) : S.types.delete(c.dataset.type); renderPick(); });
-  app.querySelector("#shuffle").onchange = e => S.shuffle = e.target.checked;
-  app.querySelectorAll("[data-ch]").forEach(a => a.onclick = e => { e.preventDefault(); if (a.dataset.ch !== CHAPTER) { try { history.replaceState(null, "", "#" + a.dataset.ch); } catch (_) { location.hash = a.dataset.ch; } loadChapter(a.dataset.ch); } });
-  app.querySelectorAll(".sub").forEach(b => b.onclick = () => start(b.dataset.sub));
+    <section style="display:flex;flex-direction:column;gap:12px">
+      <h1>Physics, one subtopic at a time</h1>
+      <p class="lede">Practice questions for JEE Main and NEET, sorted by subtopic and difficulty. Stuck? Take a hint, read the reasoning in plain words, or see the full worked solution.</p>
+    </section>
+    <section class="steps" aria-label="How it works">
+      <div class="step"><b>1 · Pick a chapter</b><span>${c.chapters.filter(x => x.count).length} chapters ready, ${total} questions so far.</span></div>
+      <div class="step"><b>2 · Pick a subtopic</b><span>Each subtopic has its own practice set.</span></div>
+      <div class="step"><b>3 · Practise or test</b><span>Instant feedback, or a timed test marked +4 / −1.</span></div>
+    </section>
+    ${c.groups.map(g => `<section class="group"><h3>${esc(g.name)}</h3><div class="list">${g.chapters.map(code => row(findChapter(code))).join("")}</div></section>`).join("")}
+    <p class="foot">Updated ${esc(c.built)}</p>`;
+  toTop();
 }
 
-function start(code, onlyIds){
-  S.sub = S.data.subtopics.find(s => String(s.code) === String(code));
-  let qs = pool(code);
-  if (onlyIds) qs = S.data.questions.filter(q => onlyIds.includes(q.id));
-  if (S.shuffle) qs = qs.map(q => [Math.random(), q]).sort((a,b) => a[0]-b[0]).map(x => x[1]);
-  S.queue = qs; S.i = 0; S.res = {}; S.show = {}; S.view = "test";
-  render(); window.scrollTo(0,0);
+// ---------- chapter ----------
+function viewChapter(code){
+  const ch = findChapter(code);
+  if (!ch) return viewHome();
+  document.title = `${ch.name} · Physics Practice`;
+  app.innerHTML = `
+    <nav class="crumbs" aria-label="You are here"><a href="#home">All chapters</a><span>›</span><span>Chapter ${ch.code}</span></nav>
+    <section style="display:flex;flex-direction:column;gap:8px"><h1>${esc(ch.name)}</h1>
+      <p class="lede">${ch.count ? `${ch.count} questions across ${ch.subtopics.filter(s => s.count).length} subtopics.` : "Questions for this chapter are coming soon."}</p></section>
+    <div class="list">${ch.subtopics.map((s, i) => s.count
+      ? `<a class="row" href="#st-${s.code}"><span class="num">${i + 1}</span><span class="name">${esc(s.name)}</span><span class="sub">${esc(s.covers)}</span><span class="count">${s.count} Q</span></a>`
+      : `<div class="row off"><span class="num">${i + 1}</span><span class="name">${esc(s.name)}</span><span class="sub">${esc(s.covers)}</span><span class="soon">Coming soon</span></div>`).join("")}</div>`;
+  toTop();
 }
 
-function statusClass(r){ if (!r) return ""; return r.status === "correct" ? "correct" : r.status === "wrong" ? "wrong" : "seen"; }
+// ---------- subtopic ----------
+async function viewSubtopic(code){
+  const sub = findSub(code); if (!sub) return viewHome();
+  const ch = findChapter(code.slice(0, 2));
+  if (!sub.count) return viewChapter(ch.code);
+  const data = await chapterData(ch.code);
+  const qs = data.subtopics[code] || [];
+  document.title = `${sub.name} · Physics Practice`;
+  const tabs = [["practice", "Practice"], ["test", "Custom test"], ["notes", "Revision notes"], ["labs", "Exemplars & animations"]];
+  const filtered = qs.filter(q => inLevel(q.level, S.levelFilter) && S.typeFilter.has(q.type));
+  const testable = qs.filter(q => q.type !== "subjective" && inLevel(q.level, S.test.level));
+  let panel = "";
+  if (S.tab === "practice") {
+    const lv = [["all", "All"], ["easy", "Easy (1–2)"], ["medium", "Medium (3–4)"], ["hard", "Hard (5–6)"], ["none", "Not rated"]]
+      .filter(([k]) => k === "all" || qs.some(q => inLevel(q.level, k)));
+    const ty = [["mcq", "Multiple choice"], ["numerical", "Numerical answer"], ["subjective", "Written"]].filter(([k]) => qs.some(q => q.type === k));
+    panel = `<p class="lede">Questions come one at a time. You see straight away whether you're right; hints and solutions are there when you need them.</p>
+      <div class="field"><span>Difficulty</span><div class="chips">${lv.map(([k, l]) => `<button class="chip-btn" data-lv="${k}" aria-pressed="${S.levelFilter === k}">${l}</button>`).join("")}</div></div>
+      ${ty.length > 1 ? `<div class="field"><span>Question type</span><div class="chips">${ty.map(([k, l]) => `<button class="chip-btn" data-ty="${k}" aria-pressed="${S.typeFilter.has(k)}">${l}</button>`).join("")}</div></div>` : ""}
+      <div class="actions"><button class="btn" id="startp" ${filtered.length ? "" : "disabled"}>Start practice · ${filtered.length} question${filtered.length === 1 ? "" : "s"}</button></div>
+      <div class="qlist">${filtered.map((q, i) => `<button class="qrow" data-start="${i}"><span class="n">Q${i + 1}</span><span class="s">${snippet(q.question)}</span>${levelTag(q.level)}</button>`).join("")}</div>`;
+  } else if (S.tab === "test") {
+    const counts = [5, 10, 15, 20, 30].filter(n => n < testable.length).concat([testable.length]);
+    const n = Math.min(S.test.n, testable.length);
+    panel = `<p class="lede">A timed test from this subtopic's multiple-choice and numerical questions, in random order. No feedback until you submit; then you see your score and every solution.</p>
+      <div class="field"><span>Difficulty</span><div class="chips">${[["all", "Any"], ["easy", "Easy"], ["medium", "Medium"], ["hard", "Hard"]].filter(([k]) => k === "all" || qs.some(q => q.type !== "subjective" && inLevel(q.level, k))).map(([k, l]) => `<button class="chip-btn" data-tl="${k}" aria-pressed="${S.test.level === k}">${l}</button>`).join("")}</div></div>
+      <label class="field"><span>Number of questions</span><select id="tn">${[...new Set(counts)].filter(x => x > 0).map(x => `<option ${x === n ? "selected" : ""}>${x}</option>`).join("")}</select></label>
+      <label class="field"><span>Time limit</span><select id="tt"><option value="1" ${S.test.timed ? "selected" : ""}>2 minutes per question</option><option value="0" ${S.test.timed ? "" : "selected"}>No time limit</option></select></label>
+      <p class="lede" style="font-size:.9rem">Marking: +4 for a correct answer, −1 for a wrong one, 0 if you skip.</p>
+      <div class="actions"><button class="btn" id="startt" ${testable.length ? "" : "disabled"}>Start test</button></div>`;
+  } else {
+    const what = S.tab === "notes" ? ["Revision notes", "Short, printable notes for this subtopic: key ideas, formulas and the traps examiners like."]
+      : ["Exemplars & animations", "Interactive pages that let you change a setting and watch the physics respond, plus animations of the key ideas."];
+    panel = `<div class="soonbox"><b>${what[0]}: coming soon</b><span>${what[1]}</span></div>`;
+  }
+  app.innerHTML = `
+    <nav class="crumbs" aria-label="You are here"><a href="#home">All chapters</a><span>›</span><a href="#ch-${ch.code}">${esc(ch.name)}</a></nav>
+    <section style="display:flex;flex-direction:column;gap:8px"><h1>${esc(sub.name)}</h1>${sub.covers ? `<p class="lede">${esc(sub.covers)}</p>` : ""}</section>
+    <div class="tabs" role="tablist">${tabs.map(([k, l]) => `<button role="tab" aria-selected="${S.tab === k}" data-tab="${k}">${l}</button>`).join("")}</div>
+    <section class="panel" role="tabpanel">${panel}</section>`;
+  app.querySelectorAll("[data-tab]").forEach(b => b.onclick = () => { S.tab = b.dataset.tab; viewSubtopic(code); });
+  app.querySelectorAll("[data-lv]").forEach(b => b.onclick = () => { S.levelFilter = b.dataset.lv; viewSubtopic(code); });
+  app.querySelectorAll("[data-ty]").forEach(b => b.onclick = () => { const t = b.dataset.ty; if (S.typeFilter.has(t) && S.typeFilter.size > 1) S.typeFilter.delete(t); else S.typeFilter.add(t); viewSubtopic(code); });
+  app.querySelectorAll("[data-tl]").forEach(b => b.onclick = () => { S.test.level = b.dataset.tl; viewSubtopic(code); });
+  const tn = app.querySelector("#tn"); if (tn) tn.onchange = () => S.test.n = +tn.value;
+  const tt = app.querySelector("#tt"); if (tt) tt.onchange = () => S.test.timed = tt.value === "1";
+  const sp = app.querySelector("#startp"); if (sp) sp.onclick = () => startRun("practice", code, filtered, 0);
+  app.querySelectorAll("[data-start]").forEach(b => b.onclick = () => startRun("practice", code, filtered, +b.dataset.start));
+  const st = app.querySelector("#startt"); if (st) st.onclick = () => {
+    const pool = testable.map(q => [Math.random(), q]).sort((a, b) => a[0] - b[0]).map(x => x[1]).slice(0, Math.min(S.test.n, testable.length));
+    startRun("test", code, pool, 0);
+  };
+}
 
-function renderTest(){
-  const q = S.queue[S.i], r = S.res[q.id], sh = S.show[q.id] || {};
-  const done = !!r;
-  const dots = S.queue.map((x, k) => `<button class="dot ${statusClass(S.res[x.id])} ${k === S.i ? "cur" : ""}" data-go="${k}" aria-label="Question ${k+1}">${x.number}</button>`).join("");
+// ---------- practice and test ----------
+function startRun(mode, code, qs, i){
+  S.run = { mode, code, qs, i, res: {}, show: {}, done: false, ends: mode === "test" && S.test.timed ? Date.now() + qs.length * 120000 : null };
+  go("run");
+}
+let tick = null;
+function stopTimer(){ if (tick) { clearInterval(tick); tick = null; } }
+function fmt(ms){ const s = Math.max(0, Math.round(ms / 1000)); return `${Math.floor(s / 60)}:${String(s % 60).padStart(2, "0")}`; }
+function startTimer(){
+  stopTimer();
+  const r = S.run; if (!r || !r.ends || r.done) return;
+  tick = setInterval(() => {
+    const left = r.ends - Date.now(), el = document.getElementById("timer");
+    if (el) { el.textContent = fmt(left); el.classList.toggle("low", left < 60000); }
+    if (left <= 0) { stopTimer(); finish(); }
+  }, 1000);
+}
+function isRight(q, val){
+  if (val == null || val === "") return null;
+  if (q.type === "mcq") return val === q.answer;
+  const a = parseFloat(q.answer), b = parseFloat(val);
+  return !isNaN(b) && Math.abs(a - b) <= Math.max(1e-9, Math.abs(a) * (q.tolerance || 0.01));
+}
+function dotClass(q){
+  const r = S.run.res[q.id]; if (!r) return "";
+  if (S.run.mode === "test" && !S.run.done) return "answered";
+  return r.status === "correct" ? "correct" : r.status === "wrong" ? "wrong" : "seen";
+}
 
+function viewRun(){
+  const r = S.run, q = r.qs[r.i], sub = findSub(r.code), test = r.mode === "test";
+  const res = r.res[q.id], sh = r.show[q.id] || {};
+  const done = !test && !!res, last = r.i === r.qs.length - 1;
+  document.title = `${test ? "Test" : "Practice"} · ${sub.name}`;
   let body = "";
   if (q.type === "mcq") {
     const imgOpts = Object.values(q.options).some(v => /^!\[/.test(v || ""));
-    body = `<ul class="opts ${imgOpts ? "imgs" : ""}">` + Object.entries(q.options).map(([k, v]) => {
+    body = `<ul class="opts ${imgOpts ? "imgs" : ""}">${Object.entries(q.options).map(([k, v]) => {
       let cls = "";
-      if (done) { if (k === q.answer) cls = "right"; else if (k === r.chosen) cls = "picked-wrong"; }
-      const val = md(v).replace(/^<p>|<\/p>$/g, "");
-      return `<li><button class="opt ${cls}" data-opt="${k}" ${done ? "disabled" : ""}><span class="k">${k}</span><span class="v">${val}</span></button></li>`;
-    }).join("") + `</ul>`;
+      if (done) { if (q.answer.split(",").includes(k)) cls = "right"; else if (k === res.chosen) cls = "picked-wrong"; }
+      else if (test && res && res.chosen === k) cls = "picked";
+      return `<li><button class="opt ${cls}" data-opt="${k}" ${done ? "disabled" : ""}><span class="k">${k}</span><span class="v">${inline(v)}</span></button></li>`;
+    }).join("")}</ul>`;
   } else if (q.type === "numerical") {
-    body = `<form class="numrow" id="numform"><label for="num-${q.id}" class="chip plain">Your answer</label>
-      <input id="num-${q.id}" inputmode="decimal" autocomplete="off" ${done ? `value="${esc(r.chosen)}" disabled` : ""}>
-      <button class="btn" ${done ? "disabled" : ""}>Check</button></form>`;
+    body = `<form class="numrow" id="numform"><label for="num">Your answer${q.unit ? ` (${esc(q.unit)})` : ""}</label>
+      <input id="num" inputmode="decimal" autocomplete="off" value="${esc(res ? res.chosen : "")}" ${done ? "disabled" : ""}>
+      <button class="btn" ${done ? "disabled" : ""}>${test ? "Save answer" : "Check"}</button></form>`;
   } else {
     body = done || sh.answer ? "" : `<div class="extras"><button class="btn" id="reveal">Show answer</button></div>`;
   }
-
   let fb = "";
   if (q.type === "subjective" && (sh.answer || done)) {
     fb = `<div class="fb info"><strong>Answer</strong><div class="qtext">${md(q.answer)}</div>
-      ${done ? `<span>You marked this as <b>${r.status === "correct" ? "got it" : "missed it"}</b>.</span>` :
+      ${done ? `<span>You marked this as <b>${res.status === "correct" ? "got it" : "missed it"}</b>.</span>` :
       `<div class="extras"><span style="align-self:center">How did you do?</span><button class="btn ghost" data-self="correct">I got it</button><button class="btn ghost" data-self="wrong">I missed it</button></div>`}</div>`;
   } else if (done) {
-    const ok = r.status === "correct";
-    fb = `<div class="fb ${ok ? "good" : "bad"}"><strong>${ok ? "Correct" : "Not quite"}</strong>
-      <span>${ok ? "" : q.type === "mcq" ? `The answer is <b>${q.answer}</b>.` : `The answer is <b>${esc(q.answer)}</b>.`}</span></div>`;
+    const ok = res.status === "correct";
+    fb = `<div class="fb ${ok ? "good" : "bad"}"><strong>${ok ? "Correct" : "Not quite"}</strong>${ok ? "" : `<span>The answer is <b>${esc(q.answer)}${q.unit ? " " + esc(q.unit) : ""}</b>.</span>`}</div>`;
+  } else if (test && res) {
+    fb = `<p class="lede" style="font-size:.9rem">Answer saved. You can change it until you submit.</p>`;
   }
-  const hints = q.hints || [], shownHints = done ? hints.length : (sh.hints || 0);
-  const hintHtml = hints.slice(0, shownHints).map((h, k) => `<div class="aside"><div class="t">Hint ${hints.length > 1 ? k + 1 : ""}</div><div class="qtext">${md(h)}</div></div>`).join("");
-  const hintBtn = !done && shownHints < hints.length ? `<div class="extras"><button class="btn ghost" id="hintbtn">${shownHints ? "Next hint" : "Show hint"}</button></div>` : "";
-  const levels = done ? [["worded", "Explained in words"], ["conventional", "Full solution"]].filter(([k]) => q[k]) : [];
-  const solHtml = levels.length ? `<div class="sol"><div class="extras">${levels.map(([k, l]) => `<button class="btn ${sh[k] ? "" : "ghost"}" data-level="${k}">${l}</button>`).join("")}</div>${levels.filter(([k]) => sh[k]).map(([k, l]) => `<div class="aside"><div class="t">${l}</div><div class="qtext">${md(q[k])}</div></div>`).join("")}${sh.conventional && q.mistakes && q.mistakes.length ? `<div class="aside"><div class="t">Common mistake${q.mistakes.length > 1 ? "s" : ""}</div><div class="qtext">${q.mistakes.map(m => md(m)).join("")}</div></div>` : ""}</div>` : "";
-  const further = q.extension && done ? `<div class="aside"><div class="t">Think further</div><div class="qtext">${md(q.extension)}</div></div>` : "";
-  const last = S.i === S.queue.length - 1;
-
+  const hints = q.hints || [], shown = done ? hints.length : (sh.hints || 0);
+  const hintHtml = test ? "" : hints.slice(0, shown).map((h, k) => `<div class="aside"><div class="t">Hint ${hints.length > 1 ? k + 1 : ""}</div><div class="qtext">${md(h)}</div></div>`).join("");
+  const hintBtn = !test && !done && shown < hints.length ? `<div class="extras"><button class="btn ghost" id="hintbtn">${shown ? "Next hint" : "Show a hint"}</button></div>` : "";
+  const sol = done ? solutionBlock(q, sh) : "";
   app.innerHTML = `
-    <div class="bar"><button class="link" id="back">&larr; All subtopics</button><span class="prog">${S.i+1} / ${S.queue.length}</span></div>
-    <div style="display:flex;flex-direction:column;gap:10px"><span class="eyebrow">${S.sub.code}</span><h2>${esc(S.sub.name)}</h2></div>
-    <div class="dots">${dots}</div>
+    <div class="bar"><button class="link" id="leave">‹ ${esc(sub.name)}</button>
+      <span style="display:flex;gap:10px;align-items:center">${r.ends ? `<span class="timer" id="timer" aria-label="Time left">${fmt(r.ends - Date.now())}</span>` : ""}<span class="prog">${r.i + 1} / ${r.qs.length}</span></span></div>
+    <div class="dots">${r.qs.map((x, k) => `<button class="dot ${dotClass(x)} ${k === r.i ? "cur" : ""}" data-go="${k}" aria-label="Question ${k + 1}">${k + 1}</button>`).join("")}</div>
     <article class="card">
-      <div class="meta"><span class="qn">Q${q.number}</span><span class="chip id">${q.id}</span>
-        ${q.level ? `<span class="chip lv${Math.min(q.level, 3)}">Level ${q.level}</span>` : ""}
-        ${q.type !== "mcq" ? `<span class="chip plain">${TYPE_LABEL[q.type]}</span>` : ""}
-        ${q.source ? `<span class="chip plain">${esc(q.source)}</span>` : ""}
-        <span class="chip st">${esc(q.status.replace("_", " "))}${q.solution_status ? " · solutions " + esc(q.solution_status.replace("_", " ")) : ""}</span></div>
+      <div class="meta"><span class="qn">Q${r.i + 1}</span>${levelTag(q.level)}${q.type === "numerical" ? `<span class="tag">numerical answer</span>` : q.type === "subjective" ? `<span class="tag">written</span>` : ""}${q.source ? `<span class="tag">${esc(q.source)}</span>` : ""}</div>
       <div class="qtext">${md(q.question)}</div>
-      ${body}${fb}${further}
-      ${hintHtml}${hintBtn}${solHtml}
+      ${body}${fb}${hintHtml}${hintBtn}${sol}
     </article>
-    <div class="nav"><button class="btn ghost" id="prev" ${S.i ? "" : "disabled"}>Previous</button>
-      <button class="btn" id="next">${last ? "Finish" : done ? "Next" : "Skip"}</button></div>
-    <p class="keys">Keys: <kbd>A</kbd>&ndash;<kbd>D</kbd> to answer, <kbd>&rarr;</kbd> next, <kbd>&larr;</kbd> previous</p>`;
-
-  app.querySelector("#back").onclick = () => { S.view = "pick"; render(); };
-  app.querySelectorAll("[data-go]").forEach(b => b.onclick = () => { S.i = +b.dataset.go; render(); });
+    <div class="nav"><button class="btn ghost" id="prev" ${r.i ? "" : "disabled"}>Previous</button>
+      ${test && last ? `<button class="btn" id="submit">Submit test</button>` : `<button class="btn" id="next">${last ? "Finish" : done || (test && res) ? "Next" : "Skip"}</button>`}</div>
+    ${test && !last ? `<div class="actions" style="justify-content:flex-end"><button class="btn ghost" id="submit">Submit test now</button></div>` : ""}
+    <p class="keys">Keys: <kbd>A</kbd>–<kbd>D</kbd> to answer, <kbd>→</kbd> next, <kbd>←</kbd> previous</p>`;
+  wireRun(q, sh);
+  startTimer();
+}
+function solutionBlock(q, sh){
+  const levels = [["worded", "Explained in words"], ["conventional", "Full solution"]].filter(([k]) => q[k]);
+  if (!levels.length && !q.extension) return "";
+  return `<div class="sol"><div class="extras">${levels.map(([k, l]) => `<button class="btn ${sh[k] ? "" : "ghost"}" data-level="${k}">${l}</button>`).join("")}</div>
+    ${levels.filter(([k]) => sh[k]).map(([k, l]) => `<div class="aside"><div class="t">${l}</div><div class="qtext">${md(q[k])}</div></div>`).join("")}
+    ${sh.conventional && q.mistakes && q.mistakes.length ? `<div class="aside"><div class="t">Common mistake${q.mistakes.length > 1 ? "s" : ""}</div><div class="qtext">${q.mistakes.map(m => md(m)).join("")}</div></div>` : ""}
+    ${q.extension ? `<div class="aside"><div class="t">Think further</div><div class="qtext">${md(q.extension)}</div></div>` : ""}</div>`;
+}
+function wireRun(q, sh){
+  const r = S.run, $ = s => app.querySelector(s);
+  $("#leave").onclick = () => { if (r.mode === "test" && !r.done && Object.keys(r.res).length && !confirmLeave()) return; S.run = null; go("st-" + r.code); };
+  app.querySelectorAll("[data-go]").forEach(b => b.onclick = () => { r.i = +b.dataset.go; viewRun(); });
   app.querySelectorAll("[data-opt]").forEach(b => b.onclick = () => answer(q, b.dataset.opt));
-  const nf = app.querySelector("#numform");
-  if (nf) nf.onsubmit = e => { e.preventDefault(); const v = nf.querySelector("input").value.trim(); if (v) answer(q, v); };
-  const rv = app.querySelector("#reveal"); if (rv) rv.onclick = () => { S.show[q.id] = { ...sh, answer:true }; render(); };
-  app.querySelectorAll("[data-self]").forEach(b => b.onclick = () => { S.res[q.id] = { status:b.dataset.self, chosen:null }; render(); });
-  const hb = app.querySelector("#hintbtn"); if (hb) hb.onclick = () => { S.show[q.id] = { ...sh, hints:(sh.hints || 0) + 1 }; render(); };
-  app.querySelectorAll("[data-level]").forEach(b => b.onclick = () => { const k = b.dataset.level; S.show[q.id] = { ...sh, [k]: !sh[k] }; render(); });
-  app.querySelector("#prev").onclick = () => { if (S.i) { S.i--; render(); } };
-  app.querySelector("#next").onclick = next;
-  const inp = app.querySelector("#numform input:not([disabled])"); if (inp) inp.focus({ preventScroll:true });
+  const nf = $("#numform"); if (nf) nf.onsubmit = e => { e.preventDefault(); const v = nf.querySelector("input").value.trim(); if (v) answer(q, v); };
+  const rv = $("#reveal"); if (rv) rv.onclick = () => { r.show[q.id] = { ...sh, answer: true }; viewRun(); };
+  app.querySelectorAll("[data-self]").forEach(b => b.onclick = () => { r.res[q.id] = { status: b.dataset.self, chosen: null }; viewRun(); });
+  const hb = $("#hintbtn"); if (hb) hb.onclick = () => { r.show[q.id] = { ...sh, hints: (sh.hints || 0) + 1 }; viewRun(); };
+  app.querySelectorAll("[data-level]").forEach(b => b.onclick = () => { const k = b.dataset.level; r.show[q.id] = { ...sh, [k]: !sh[k] }; viewRun(); });
+  $("#prev").onclick = () => { if (r.i) { r.i--; viewRun(); toTop(); } };
+  const nx = $("#next"); if (nx) nx.onclick = next;
+  app.querySelectorAll("#submit").forEach(b => b.onclick = () => finish());
+  const inp = app.querySelector("#numform input:not([disabled])"); if (inp && !r.res[q.id]) inp.focus({ preventScroll: true });
 }
-
+let leaveArmed = false;
+function confirmLeave(){
+  // two taps instead of a browser dialog
+  if (leaveArmed) return true;
+  leaveArmed = true; setTimeout(() => leaveArmed = false, 3000);
+  const b = document.getElementById("leave"); if (b) b.textContent = "Tap again to leave the test (answers are lost)";
+  return false;
+}
 function answer(q, chosen){
-  let ok;
-  if (q.type === "mcq") ok = chosen === q.answer;
-  else { const a = parseFloat(q.answer), b = parseFloat(chosen); ok = !isNaN(b) && Math.abs(a - b) <= Math.max(1e-9, Math.abs(a) * 0.01); }
-  S.res[q.id] = { status: ok ? "correct" : "wrong", chosen };
-  render();
+  const r = S.run;
+  if (r.mode === "test") { r.res[q.id] = { chosen, status: "answered" }; viewRun(); return; }
+  const ok = isRight(q, chosen);
+  r.res[q.id] = { status: ok ? "correct" : "wrong", chosen }; viewRun();
 }
-function next(){
-  if (S.i < S.queue.length - 1) { S.i++; render(); window.scrollTo({ top:0 }); }
-  else { S.view = "summary"; render(); window.scrollTo(0,0); }
+function next(){ const r = S.run; if (r.i < r.qs.length - 1) { r.i++; viewRun(); toTop(); } else finish(); }
+function finish(){
+  const r = S.run; stopTimer();
+  if (r.mode === "test") for (const q of r.qs) { const x = r.res[q.id]; if (x) x.status = isRight(q, x.chosen) ? "correct" : "wrong"; }
+  r.done = true; viewResult(); toTop();
 }
-
-function renderSummary(){
-  const qs = S.queue, got = qs.filter(q => S.res[q.id]?.status === "correct").length;
-  const attempted = qs.filter(q => S.res[q.id]).length;
-  const wrongIds = qs.filter(q => S.res[q.id]?.status !== "correct").map(q => q.id);
-  if (qs.length === S.data.questions.filter(q => q.subtopic === S.sub.code && S.types.has(q.type)).length)
-    store.set(`last:${S.sub.code}`, { score:got, total:qs.length });
-  const rows = qs.map((q, k) => {
-    const r = S.res[q.id];
-    const [cls, lbl] = !r ? ["skip","skipped"] : r.status === "correct" ? ["correct","correct"] : ["wrong","incorrect"];
-    const plain = q.question.replace(/!\[[^\]]*\]\([^)]*\)/g, "[figure] ").replace(/\$[^$]*\$/g, "…").replace(/<[^>]+>/g, "");
-    return `<button class="row" data-go="${k}"><span class="n">Q${q.number}</span><span class="s">${esc(plain)}</span><span class="st ${cls}">${lbl}</span></button>`;
-  }).join("");
+function viewResult(){
+  const r = S.run, sub = findSub(r.code), test = r.mode === "test";
+  const got = r.qs.filter(q => r.res[q.id]?.status === "correct").length;
+  const wrong = r.qs.filter(q => r.res[q.id]?.status === "wrong").length;
+  const skipped = r.qs.length - got - wrong;
+  const marks = got * 4 - wrong;
+  const missed = r.qs.filter(q => r.res[q.id]?.status !== "correct");
   app.innerHTML = `
-    <div class="bar"><button class="link" id="back">&larr; All subtopics</button></div>
-    <div style="display:flex;flex-direction:column;gap:10px"><span class="eyebrow">${S.sub.code} · Result</span><h2>${esc(S.sub.name)}</h2></div>
-    <div class="score"><span class="big">${got}</span><span class="of">of ${qs.length} correct · ${attempted} attempted · ${qs.length - attempted} skipped</span></div>
-    <div class="actions">
-      ${wrongIds.length ? `<button class="btn" id="retry">Retry the ${wrongIds.length} you missed</button>` : ""}
-      <button class="btn ghost" id="again">Start this subtopic again</button>
-    </div>
-    <div class="rows">${rows}</div>`;
-  app.querySelector("#back").onclick = () => { S.view = "pick"; render(); };
-  app.querySelector("#again").onclick = () => start(S.sub.code);
-  const rt = app.querySelector("#retry"); if (rt) rt.onclick = () => start(S.sub.code, wrongIds);
-  app.querySelectorAll("[data-go]").forEach(b => b.onclick = () => { S.view = "test"; S.i = +b.dataset.go; render(); });
+    <div class="bar"><button class="link" id="leave">‹ ${esc(sub.name)}</button></div>
+    <section style="display:flex;flex-direction:column;gap:10px"><h3>${test ? "Test result" : "Practice result"}</h3><h1>${esc(sub.name)}</h1></section>
+    <div class="score">${test ? `<span class="big">${marks}</span><span class="of">marks out of ${r.qs.length * 4} · ${got} correct · ${wrong} wrong · ${skipped} skipped</span>`
+      : `<span class="big">${got}</span><span class="of">of ${r.qs.length} correct · ${skipped} skipped</span>`}</div>
+    <div class="actions">${missed.length ? `<button class="btn" id="retry">Practise the ${missed.length} you missed</button>` : ""}<button class="btn ghost" id="back">Back to ${esc(sub.name)}</button></div>
+    <div class="qlist">${r.qs.map((q, k) => { const x = r.res[q.id]; const [c, l] = !x ? ["skip", "skipped"] : x.status === "correct" ? ["correct", "correct"] : ["wrong", "wrong"];
+      return `<button class="qrow" data-review="${k}"><span class="n">Q${k + 1}</span><span class="s">${snippet(q.question)}</span><span class="st ${c}">${l}</span></button>`; }).join("")}</div>
+    <p class="lede" style="font-size:.9rem">Tap a question to see the answer and its solutions.</p>`;
+  app.querySelector("#leave").onclick = app.querySelector("#back").onclick = () => { S.run = null; go("st-" + r.code); };
+  const rt = app.querySelector("#retry"); if (rt) rt.onclick = () => startRun("practice", r.code, missed, 0);
+  app.querySelectorAll("[data-review]").forEach(b => b.onclick = () => {
+    // reopen in practice mode, already answered, so feedback and solutions show
+    const k = +b.dataset.review;
+    S.run = { mode: "practice", code: r.code, qs: r.qs, i: k, show: {}, done: false, ends: null,
+              res: Object.fromEntries(r.qs.map(q => [q.id, r.res[q.id] || { status: "wrong", chosen: null }])) };
+    viewRun(); toTop();
+  });
 }
 
 document.addEventListener("keydown", e => {
-  if (S.view !== "test" || e.target.tagName === "INPUT" || e.metaKey || e.ctrlKey || e.altKey) return;
-  const q = S.queue[S.i];
-  const k = e.key.toUpperCase();
-  if (q.type === "mcq" && "ABCD".includes(k) && k.length === 1 && !S.res[q.id]) answer(q, k);
-  else if (e.key === "ArrowRight") next();
-  else if (e.key === "ArrowLeft" && S.i) { S.i--; render(); }
+  if (location.hash !== "#run" || !S.run || S.run.done || e.target.tagName === "INPUT" || e.target.tagName === "SELECT" || e.metaKey || e.ctrlKey || e.altKey) return;
+  const r = S.run, q = r.qs[r.i], k = e.key.toUpperCase();
+  if (q.type === "mcq" && k.length === 1 && "ABCD".includes(k) && (r.mode === "test" || !r.res[q.id])) answer(q, k);
+  else if (e.key === "ArrowRight" && r.i < r.qs.length - 1) { r.i++; viewRun(); }
+  else if (e.key === "ArrowLeft" && r.i) { r.i--; viewRun(); }
 });
+route();
 </script>

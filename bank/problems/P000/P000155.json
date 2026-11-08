@@ -16,7 +16,7 @@
   },
   "time_estimate_s": null,
   "passage_id": null,
-  "stem": "The position of a particle is given as y (m) =$- \\frac{2}{3}t^{2} +$`<!-- -->`{=html}4t + 2. Find the distance travelled in first 6 sec of its motion?",
+  "stem": "The position of a particle is given as y (m) =$- \\frac{2}{3}t^{2} +$\n\n4t + 2. Find the distance travelled in first 6 sec of its motion?",
   "options": {
     "A": "zero",
     "B": "4 m",

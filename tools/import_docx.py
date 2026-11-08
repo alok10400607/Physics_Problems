@@ -55,6 +55,7 @@ EXAM_RELEVANCE = {"JEE Main": "JEE Main", "AIEEE": "JEE Main", "IIT-JEE": "JEE A
 UNICODE_MATH = re.compile(r'[ρ√²³¹⁰⁴⁵⁶⁷⁸⁹⁻×−→≤≥≈∝πωθαβγλμσφΔΣΩ°]')
 
 def unescape(s):
+    s = re.sub(r'\s*`<!-- -->`\{=html\}\s*', '\n\n', s)          # pandoc's separator between adjacent lists
     return re.sub(r'\\([\[\]()*_$])', r'\1', s).strip()
 
 UNI_TEX = {"µ": "\\mu ", "μ": "\\mu ", "¼": "\\frac{1}{4}", "½": "\\frac{1}{2}", "¾": "\\frac{3}{4}",
