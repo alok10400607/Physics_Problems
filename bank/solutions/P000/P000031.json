@@ -1,7 +1,7 @@
 {
   "id": "P000031",
   "problem_version": 2,
-  "status": "ai_solved",
+  "status": "in_review",
   "hints": [
     "Starting from the origin, the displacement is $x = A\\sin\\omega t$. Write the kinetic energy as a fraction of the total energy.",
     "Kinetic energy is $E\\cos^2\\omega t$. Find the first time $\\cos^2\\omega t = \\frac{3}{4}$, with $\\omega = \\frac{2\\pi}{T}$."

@@ -1,7 +1,7 @@
 {
   "id": "P000033",
   "problem_version": 2,
-  "status": "ai_solved",
+  "status": "in_review",
   "hints": [
     "At $t = 0$ the particle is at equilibrium. Is its kinetic energy there a maximum or zero?",
     "Kinetic energy is zero at the extremes. How long after leaving equilibrium does the particle first reach an extreme?"

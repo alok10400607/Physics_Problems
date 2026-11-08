@@ -1,10 +1,10 @@
 {
   "id": "P000030",
   "problem_version": 2,
-  "status": "ai_solved",
+  "status": "in_review",
   "hints": [
-    "Write the kinetic and potential energy at position $x$ using the same spring constant $k$ and the amplitude $A$.",
-    "Set the two expressions equal and solve for $x$."
+    "Equal energies means $\\text{PE} = \\text{KE} = \\frac{1}{2}\\,\\text{TE}$, and the total energy equals the potential energy at the extreme: $\\text{TE} = \\text{PE}(A)$.",
+    "So $\\text{PE}(x) = \\frac{1}{2}\\,\\text{PE}(A)$."
   ],
   "worded": "In SHM the total energy stays fixed at $\\frac{1}{2}kA^2$. Potential energy grows with the square of the displacement, and kinetic energy is whatever is left of the total. The two are equal when each holds exactly half the total energy. Because potential energy depends on $x^2$, half the energy means $x^2$ is half of $A^2$, so the particle is $A/\\sqrt{2}$ from the mean position, about 71% of the way to the extreme. Answer: (C).",
   "conventional": "Potential energy: $U = \\frac{1}{2}kx^2$.\n\nKinetic energy: $K = E - U = \\frac{1}{2}k\\left(A^2 - x^2\\right)$.\n\nSetting $U = K$:\n\n$$\\begin{aligned} \\frac{1}{2}kx^2 &= \\frac{1}{2}k\\left(A^2 - x^2\\right) \\\\ 2x^2 &= A^2 \\\\ x &= \\pm\\frac{A}{\\sqrt{2}} \\end{aligned}$$\n\n**Answer:** (C) $\\frac{A}{\\sqrt{2}}$",

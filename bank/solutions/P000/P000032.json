@@ -1,7 +1,7 @@
 {
   "id": "P000032",
   "problem_version": 2,
-  "status": "ai_solved",
+  "status": "in_review",
   "hints": [
     "Find the phase $\\frac{\\pi t}{90}$ at $t = 210\\,\\text{s}$, and reduce it to an angle between $0$ and $2\\pi$.",
     "With $x = A\\sin\\theta$, the ratio of kinetic to potential energy is $\\frac{\\cos^2\\theta}{\\sin^2\\theta}$."

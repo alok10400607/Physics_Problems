@@ -1,7 +1,7 @@
 {
   "id": "P000034",
   "problem_version": 1,
-  "status": "ai_solved",
+  "status": "in_review",
   "hints": [
     "Read the displacement $y$ at each of the times named in the options.",
     "Force and acceleration are proportional to $-y$, potential energy to $y^2$, and the speed is greatest where $y = 0$."
