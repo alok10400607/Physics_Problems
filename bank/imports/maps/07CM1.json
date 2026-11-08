@@ -1,0 +1,11 @@
+{
+  "collection": "07CM1",
+  "title": "Circular Motion – I: Kinematics & Horizontal Plane",
+  "chapter_code": "07",
+  "sections": {
+    "Circular Motion Kinematics": "0705",
+    "Horizontal Circle: Centripetal Force & Rotating Frames": "0710",
+    "Conical Pendulum & Motion in Cones/Bowls": "0715",
+    "Vehicles on Flat & Banked Curves": "0720"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "collection": "03MSL",
+  "title": "Motion in a Straight Line",
+  "chapter_code": "03",
+  "sections": {
+    "Distance, Displacement, Speed & Velocity": "0305",
+    "Equations of Uniformly Accelerated Motion": "0310",
+    "Free Fall & Vertical Throw": "0315",
+    "Two-Body & Multi-Phase Motion": "0320",
+    "Variable Acceleration (Calculus)": "0325",
+    "Motion Graphs: x–t & v–t": "0330",
+    "Motion Graphs: a–t, v–x, a–x & Conversion": "0335",
+    "Relative Motion in 1D": "0340"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "collection": "08WPE",
+  "title": "Work, Energy & Power",
+  "chapter_code": "08",
+  "sections": {
+    "Work by a Constant Force": "0805",
+    "Work by Variable Force; Chains & Ropes": "0810",
+    "Spring Force: Work & Elastic PE": "0815",
+    "Work–Energy Theorem": "0820",
+    "Conservative Forces & Potential-Energy Curves": "0825",
+    "Conservation of Mechanical Energy": "0830",
+    "Power": "0835"
+  }
+}
