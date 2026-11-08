@@ -1,0 +1,57 @@
+{
+  "id": "P000173",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0335",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000173-stem-1)The acceleration – time graph of a particle moving along a straight line is shown. The initial velocity is 8 m/s. What is the velocity at $t = 4\\ sec?$",
+  "options": {
+    "A": "18 m/s",
+    "B": "10 m/s",
+    "C": "2 m/s",
+    "D": "-2 m/s"
+  },
+  "answer": {
+    "keys": [
+      "D"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "03MSL_v2",
+      "qno": 89
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000173-stem-1",
+      "role": "stem",
+      "file": "P000/P000173-stem-1.png",
+      "format": "png",
+      "width": 268,
+      "height": 225,
+      "alt": "Acceleration a in m/s² against time t in s: a straight line starting at −1 m/s² at t = 0 and sloping downwards at 37° below the horizontal until t = 4 s.",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
+  "rights": "unverified",
+  "content_hash": "47216695baddfd32",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

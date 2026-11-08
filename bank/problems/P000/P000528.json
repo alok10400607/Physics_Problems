@@ -1,0 +1,45 @@
+{
+  "id": "P000528",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0835",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "An engine pumps a liquid of density d continuously through a pipe of area of cross–section A. If the speed with which the liquid passes through a pipe is v, then the power being delivered to the liquid is",
+  "options": {
+    "A": "$Adv^{2}$",
+    "B": "$\\frac{1}{2}Adv^{2}$",
+    "C": "$\\frac{1}{2}Adv^{3}$",
+    "D": "$Adv^{3}$"
+  },
+  "answer": {
+    "keys": [
+      "D"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "08WPE_v2",
+      "qno": 89
+    }
+  ],
+  "assets": [],
+  "rights": "unverified",
+  "content_hash": "9224f963321d752f",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

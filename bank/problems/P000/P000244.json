@@ -1,0 +1,57 @@
+{
+  "id": "P000244",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0425",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": "L2",
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000244-stem-1) A particle is projected horizontally from a long inclined plane down the slope as shown. The inclined plane makes an angle $\\theta = 37{^\\circ}$ with the horizontal. Find the time taken by the particle to strike the inclined plane?",
+  "options": {
+    "A": "$\\frac{3u}{g}$",
+    "B": "$\\frac{3u}{4g}$",
+    "C": "$\\frac{3u}{2g}$",
+    "D": "$\\frac{4u}{3g}$"
+  },
+  "answer": {
+    "keys": [
+      "C"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "04MIP_v2",
+      "qno": 64
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000244-stem-1",
+      "role": "stem",
+      "file": "P000/P000244-stem-1.png",
+      "format": "png",
+      "width": 321,
+      "height": 187,
+      "alt": "A particle thrown horizontally with speed u from the top of an incline of angle θ = 37°, in the direction the incline slopes down.",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
+  "rights": "unverified",
+  "content_hash": "e2154b18ac33079b",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

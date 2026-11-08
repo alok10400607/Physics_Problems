@@ -1,0 +1,57 @@
+{
+  "id": "P000502",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0820",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000502-stem-1)",
+  "options": {
+    "A": "−4m, 4m",
+    "B": "−4m, 2m",
+    "C": "−4m, m",
+    "D": "−4m, m/2"
+  },
+  "answer": {
+    "keys": [
+      "D"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "08WPE_v2",
+      "qno": 63
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000502-stem-1",
+      "role": "stem",
+      "file": "P000/P000502-stem-1.png",
+      "format": "png",
+      "width": 422,
+      "height": 102,
+      "alt": "A block of mass m moving at 3 m/s on a plank of mass 4m resting on the ground; the friction coefficient between block and plank is μ = 0.2.",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
+  "rights": "unverified",
+  "content_hash": "8d7d16a8a1367039",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

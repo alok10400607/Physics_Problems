@@ -1,0 +1,45 @@
+{
+  "id": "P000521",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0835",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "Sand is falling on a conveyor belt at the rate of 5kg/s. The extra power required to keep the belt moving at 6 m/s is",
+  "options": {
+    "A": "30 W",
+    "B": "50 W",
+    "C": "90 W",
+    "D": "180 W"
+  },
+  "answer": {
+    "keys": [
+      "D"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "08WPE_v2",
+      "qno": 82
+    }
+  ],
+  "assets": [],
+  "rights": "unverified",
+  "content_hash": "c03ad9b5ccedce87",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

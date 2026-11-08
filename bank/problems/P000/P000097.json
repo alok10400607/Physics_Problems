@@ -1,0 +1,45 @@
+{
+  "id": "P000097",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0310",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A particle moving with uniform retardation covers a distance of 18 m, 14 m, and 10 m in successive seconds. How much further it will travel before coming to a stop.",
+  "options": {
+    "A": "6 m",
+    "B": "2 m",
+    "C": "10 m",
+    "D": "8 m"
+  },
+  "answer": {
+    "keys": [
+      "D"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "03MSL_v2",
+      "qno": 13
+    }
+  ],
+  "assets": [],
+  "rights": "unverified",
+  "content_hash": "552e69aa34cf8bc3",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

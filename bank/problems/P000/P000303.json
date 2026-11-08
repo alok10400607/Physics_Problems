@@ -1,0 +1,57 @@
+{
+  "id": "P000303",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0510",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000303-stem-1)A smooth sphere of mass 10 kg is supported on two edges as shown. Find the reactions at A and B respectively?",
+  "options": {
+    "A": "80 N, 20 N",
+    "B": "50 N, 50 N",
+    "C": "60 N, 80 N",
+    "D": "80 N, 60 N"
+  },
+  "answer": {
+    "keys": [
+      "D"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "05NLM_v1",
+      "qno": 20
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000303-stem-1",
+      "role": "stem",
+      "file": "P000/P000303-stem-1.png",
+      "format": "png",
+      "width": 384,
+      "height": 237,
+      "alt": "A cylinder of radius R = 5 m touching the ground at A and the edge B of a step; the figure marks vertical distances of 1 m and 3 m near the step.",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
+  "rights": "unverified",
+  "content_hash": "f9d5cf9abd1d3c80",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "P000325",
+  "problem_version": 1,
+  "status": "draft",
+  "hints": [],
+  "worded": null,
+  "conventional": "> ![](/tmp/import-p0oookqh/media/image33.png){width=\"2.7555555555555555in\" height=\"0.53125in\"}External forces (vertical forces not marked) if each block is considered as a system;\n\n>\n\n> If 1 kg and 4 kg block were to considered as one system, the internal forces will cancel out\n\n>\n\n> Here all block have equal acceleration = system acceleration $\\overrightarrow{a_{1}} = \\overrightarrow{a_{4}} = \\overrightarrow{a_{2}} = \\overrightarrow{a_{sys}}$",
+  "mistakes": [],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": null,
+    "date": "2026-11-08"
+  },
+  "reviewed_by": null
+}

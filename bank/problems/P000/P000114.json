@@ -1,0 +1,45 @@
+{
+  "id": "P000114",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0315",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A ball is thrown vertically up with a certain velocity from the top of a tower of height 40 m. At 4.5 m above the top of the tower its speed is exactly half of that it will have at 4.5 m below the top of the tower. Find the maximum height reached by the ball above the ground?",
+  "options": {
+    "A": "44.5 m",
+    "B": "47.5 m",
+    "C": "49 m",
+    "D": "54 m"
+  },
+  "answer": {
+    "keys": [
+      "B"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "03MSL_v2",
+      "qno": 30
+    }
+  ],
+  "assets": [],
+  "rights": "unverified",
+  "content_hash": "d6455d1fb8e27e38",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

@@ -1,0 +1,45 @@
+{
+  "id": "P000136",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0320",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A body is dropped from the top of a given tower of height h. At the same time a body is projected from the foot of the tower, in the same vertical line, with a velocity which would be just sufficient to take it to top of the tower. They will meet at a height?",
+  "options": {
+    "A": "h/2",
+    "B": "h/4",
+    "C": "h/3",
+    "D": "3h/4"
+  },
+  "answer": {
+    "keys": [
+      "D"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "03MSL_v2",
+      "qno": 52
+    }
+  ],
+  "assets": [],
+  "rights": "unverified",
+  "content_hash": "bde2e2cd616a2686",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

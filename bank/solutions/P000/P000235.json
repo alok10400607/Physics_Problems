@@ -1,0 +1,23 @@
+{
+  "id": "P000235",
+  "problem_version": 1,
+  "status": "draft",
+  "hints": [
+    "> The projectile rises by height H in time T;\n\n>\n\n> Hence the vertical distance it will fall from top point in time 2T: $4H$ which is equal to $H + h$"
+  ],
+  "worded": null,
+  "conventional": null,
+  "mistakes": [],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": null,
+    "date": "2026-11-08"
+  },
+  "reviewed_by": null
+}

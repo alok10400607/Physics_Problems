@@ -1,0 +1,68 @@
+{
+  "id": "P000454",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0810",
+  "concepts": [],
+  "exams": [
+    "JEE Main"
+  ],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000454-stem-1) Consider force $\\overrightarrow{F} = - x\\widehat{i} + y\\widehat{j}$. The work done by this force in moving a particle from A(1, 0) to B(0, 1) along the line segment is (all quantities are in SI units)",
+  "options": {
+    "A": "3/2",
+    "B": "2",
+    "C": "1",
+    "D": "½"
+  },
+  "answer": {
+    "keys": [
+      "C"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "08WPE_v2",
+      "qno": 15
+    },
+    {
+      "kind": "exam",
+      "exam": "JEE Main",
+      "date": "2020-01-09",
+      "shift": 1,
+      "mode": null,
+      "raw": "JEE Main 2020, 9 Jan, Shift 1",
+      "year": 2020
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000454-stem-1",
+      "role": "stem",
+      "file": "P000/P000454-stem-1.png",
+      "format": "png",
+      "width": 200,
+      "height": 200,
+      "alt": "Points A(1, 0) on the x-axis and B(0, 1) on the y-axis, joined by a straight line with an arrow pointing towards B.",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
+  "rights": "past-paper",
+  "content_hash": "f3d69d51abd9d16b",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

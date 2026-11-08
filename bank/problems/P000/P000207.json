@@ -1,0 +1,56 @@
+{
+  "id": "P000207",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0410",
+  "concepts": [],
+  "exams": [
+    "JEE Main"
+  ],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "Two particles are projected from the same point with the same speed u such that they have the same range R but different maximum heights $h_{1}$and $h_{2}$. Which of the following is correct:",
+  "options": {
+    "A": "$R^{2} = {4h}_{1}h_{2}$",
+    "B": "$R^{2} = {16h}_{1}h_{2}$",
+    "C": "$R^{2} = {2h}_{1}h_{2}$",
+    "D": "$R^{2} = h_{1}h_{2}$"
+  },
+  "answer": {
+    "keys": [
+      "B"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "04MIP_v2",
+      "qno": 27
+    },
+    {
+      "kind": "exam",
+      "exam": "JEE Main",
+      "date": "2019-04-12",
+      "shift": 2,
+      "mode": null,
+      "raw": "JEE Main 2019, 12 Apr, Shift 2",
+      "year": 2019
+    }
+  ],
+  "assets": [],
+  "rights": "past-paper",
+  "content_hash": "4fc3755968c3ffb9",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

@@ -1,0 +1,37 @@
+{
+  "id": "P000231",
+  "status": "imported",
+  "version": 1,
+  "type": "integer",
+  "topic_code": "0415",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": "L2",
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A ball rolls off the top of a staircase with a horizontal velocity of 4.5 m s<sup>–1</sup>. If the steps are 20 cm high and 30 cm broad, then the ball will strike the nth step then $n$?",
+  "answer": {
+    "value": 9
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "04MIP_v2",
+      "qno": 51
+    }
+  ],
+  "assets": [],
+  "rights": "unverified",
+  "content_hash": "c4d515ca98e267f2",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

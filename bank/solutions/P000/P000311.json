@@ -1,0 +1,21 @@
+{
+  "id": "P000311",
+  "problem_version": 1,
+  "status": "draft",
+  "hints": [],
+  "worded": null,
+  "conventional": "> ![](/tmp/import-p0oookqh/media/image26.png){width=\"1.1805555555555556in\" height=\"0.9638888888888889in\"}Key concept: The direction of contact force at Surface 2;\n\n>\n\n> Makes an angle of $16{^\\circ}$ downwards with the horizontal;\n\n>\n\n> Its angle with respect to Surface 1 is 53 which is easier;\n\n>\n\n> Hence, choosing axes as shown simplifies the solution;\n\n>\n\n> Reaction 1: $R\\widehat{j}$; Reaction 2: $- R^{'}\\cos 53{^\\circ}\\widehat{i} - R^{'}\\sin 53{^\\circ}\\widehat{j}$\n\n>\n\n> And weight: $- mg\\cos 37{^\\circ}\\widehat{i} + mg\\sin 37{^\\circ}\\widehat{j}$",
+  "mistakes": [],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": null,
+    "date": "2026-11-08"
+  },
+  "reviewed_by": null
+}

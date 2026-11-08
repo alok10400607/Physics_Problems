@@ -1,0 +1,37 @@
+{
+  "id": "P000459",
+  "status": "imported",
+  "version": 1,
+  "type": "integer",
+  "topic_code": "0810",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": "L2",
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A force F = $- y\\widehat{i}$ + $x\\widehat{j}$ acts on a particle as it moves in an anticlockwise circular motion in x-y plane. The centre of the circle is at the origin. If the work done by the force is 32$\\pi$ in one complete revolution. The radius of the path is",
+  "answer": {
+    "value": 4
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "08WPE_v2",
+      "qno": 20
+    }
+  ],
+  "assets": [],
+  "rights": "unverified",
+  "content_hash": "2298e4251ade9c37",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

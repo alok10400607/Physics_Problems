@@ -1,0 +1,45 @@
+{
+  "id": "P000496",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0820",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A body is moving up an inclined plane of angle $\\theta$ with an initial kinetic energy of E. The coefficient of friction between the plane and the body is μ. The work done against friction before the body comes to a stop is?",
+  "options": {
+    "A": "$\\frac{\\mu \\sin \\theta E}{\\mu \\cos \\theta + \\sin \\theta}$",
+    "B": "$\\frac{\\cos \\theta E}{\\mu \\cos \\theta + \\sin \\theta}$",
+    "C": "$\\frac{\\mu \\cos \\theta E}{\\cos \\theta + \\mu \\sin \\theta}$",
+    "D": "$\\ \\frac{\\mu \\cos \\theta E}{\\mu \\cos \\theta + \\sin \\theta}$"
+  },
+  "answer": {
+    "keys": [
+      "D"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "08WPE_v2",
+      "qno": 57
+    }
+  ],
+  "assets": [],
+  "rights": "unverified",
+  "content_hash": "396ddc0971bc6e97",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

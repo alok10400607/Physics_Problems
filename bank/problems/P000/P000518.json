@@ -1,0 +1,57 @@
+{
+  "id": "P000518",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0830",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": "L2",
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000518-stem-1) In the figure shown, the system is released from rest. Find the velocity of block A when block B has fallen a distance '$l$'. Assume all pulleys to be massless and frictionless.",
+  "options": {
+    "A": "$\\sqrt{gl/7}$",
+    "B": "$\\sqrt{gl/6}$",
+    "C": "$\\sqrt{2gl/5}$",
+    "D": "$\\sqrt{gl/5}$"
+  },
+  "answer": {
+    "keys": [
+      "D"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "08WPE_v2",
+      "qno": 79
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000518-stem-1",
+      "role": "stem",
+      "file": "P000/P000518-stem-1.png",
+      "format": "png",
+      "width": 202,
+      "height": 334,
+      "alt": "A fixed pulley with block A (mass m) hanging on one side. On the other side, a movable pulley, whose string is fixed to the floor, carries block B (mass m).",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
+  "rights": "unverified",
+  "content_hash": "0c46128f69db7e0c",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

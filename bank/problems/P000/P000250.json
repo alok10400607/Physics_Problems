@@ -1,0 +1,50 @@
+{
+  "id": "P000250",
+  "status": "imported",
+  "version": 1,
+  "type": "integer",
+  "topic_code": "0430",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000250-stem-1)Two particles are projected simultaneously as shown with B being vertically above A. What should be height of projection of particle B, if the two particles collide at C (just before they hit the ground).",
+  "answer": {
+    "value": 15,
+    "unit": "m"
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "04MIP_v2",
+      "qno": 70
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000250-stem-1",
+      "role": "stem",
+      "file": "P000/P000250-stem-1.png",
+      "format": "png",
+      "width": 208,
+      "height": 186,
+      "alt": "From A on the ground, a ball is projected at 10 m/s at 60° above the horizontal. From B, at height h directly above A, a ball is thrown horizontally at 5 m/s. Both dashed paths end at C on the ground.",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
+  "rights": "unverified",
+  "content_hash": "73f2fa05f7d7cfb3",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

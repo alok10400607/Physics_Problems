@@ -1,0 +1,45 @@
+{
+  "id": "P000274",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0440",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A river flows from East to West. Two boats start from the southern bank of the river simultaneously. The boat A rows towards $20{^\\circ}$ east of north, whereas boat B rows towards $20{^\\circ}$ west of north. Both boats have same speed in still water. Which of the two boats will reach the northern bank first? The width of river is uniform.",
+  "options": {
+    "A": "Boat A",
+    "B": "Boat B",
+    "C": "Both will reach at the same time",
+    "D": "will depend on speed of river flow"
+  },
+  "answer": {
+    "keys": [
+      "C"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "04MIP_v2",
+      "qno": 94
+    }
+  ],
+  "assets": [],
+  "rights": "unverified",
+  "content_hash": "3ab00d8799cefbf0",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

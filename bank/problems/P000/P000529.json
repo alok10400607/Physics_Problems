@@ -1,0 +1,56 @@
+{
+  "id": "P000529",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0835",
+  "concepts": [],
+  "exams": [
+    "NEET"
+  ],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "An engine pumps water through a hose pipe. Water passes through the pipe and leaves it with a velocity of 2 m/s. The mass per unit length of water in the pipe is 100 kg/m. What is the power of the engine?",
+  "options": {
+    "A": "800 W",
+    "B": "400 W",
+    "C": "200 W",
+    "D": "100 W"
+  },
+  "answer": {
+    "keys": [
+      "A"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "08WPE_v2",
+      "qno": 90
+    },
+    {
+      "kind": "exam",
+      "exam": "AIPMT",
+      "date": null,
+      "shift": null,
+      "mode": null,
+      "raw": "AIPMT 2010",
+      "year": 2010
+    }
+  ],
+  "assets": [],
+  "rights": "past-paper",
+  "content_hash": "50638754cd8e928c",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

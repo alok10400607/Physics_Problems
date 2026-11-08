@@ -1,0 +1,57 @@
+{
+  "id": "P000360",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0530",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": "L2",
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000360-stem-1) Figure shows two blocks, each of mass ‘m’. The system is released from rest. If magnitude of accelerations of blocks A and B soon after release are $a_{A}$ and $a_{B}\\ $respectively, then (the block B doesn’t take off the surface)",
+  "options": {
+    "A": "$a_{A}$ = $a_{B}\\cos \\theta$",
+    "B": "$a_{A}$ = $a_{B}\\sec \\theta$",
+    "C": "$a_{A}$ = $a_{B}$",
+    "D": "$a_{A}$ = $a_{B}\\sin \\theta$"
+  },
+  "answer": {
+    "keys": [
+      "A"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "05NLM_v1",
+      "qno": 77
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000360-stem-1",
+      "role": "stem",
+      "file": "P000/P000360-stem-1.png",
+      "format": "png",
+      "width": 283,
+      "height": 246,
+      "alt": "Block A hanging from a string over a fixed pulley on the ceiling; the string's other end is tied to block B on the floor, making angle θ with the horizontal.",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
+  "rights": "unverified",
+  "content_hash": "781fd10a2a5d1eb3",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

@@ -1,0 +1,56 @@
+{
+  "id": "P000377",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0540",
+  "concepts": [],
+  "exams": [
+    "JEE Main"
+  ],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A rocket is fired vertically from the earth with an acceleration of 2g, where g is the gravitational acceleration. On an inclined plane inside the rocket, making an angle θ with the horizontal, a point object of mass m is kept. The minimum coefficient of friction μ<sub>min</sub> between the mass and the inclined surface such that the mass does not move is :",
+  "options": {
+    "A": "tanθ",
+    "B": "2 tanθ",
+    "C": "3 tanθ",
+    "D": "tan2θ"
+  },
+  "answer": {
+    "keys": [
+      "A"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "05NLM_v1",
+      "qno": 94
+    },
+    {
+      "kind": "exam",
+      "exam": "JEE Main",
+      "date": "2016-04-09",
+      "shift": null,
+      "mode": "Online",
+      "raw": "JEE Main 2016, 9 Apr (Online)",
+      "year": 2016
+    }
+  ],
+  "assets": [],
+  "rights": "past-paper",
+  "content_hash": "c3a493ec3d40ff9f",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "P000132",
+  "problem_version": 1,
+  "status": "draft",
+  "hints": [
+    "> Acceleration is 10 m/s<sup>2</sup> upward during first 60 s resulting in displacement of 18,000 m and final velocity of 600 m/s. Thereafter, the acceleration will be 10 m/s<sup>2</sup> downward (like a projectile) resulting in further rise of $\\frac{600^{2}}{2 \\times 10}$"
+  ],
+  "worded": null,
+  "conventional": null,
+  "mistakes": [],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": null,
+    "date": "2026-11-08"
+  },
+  "reviewed_by": null
+}

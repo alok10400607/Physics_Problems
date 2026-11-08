@@ -1,0 +1,57 @@
+{
+  "id": "P000291",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0505",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000291-stem-1)A force time graph for the motion of a body is shown in the figure. The change in the momentum of the body between zero and 10 sec. is",
+  "options": {
+    "A": "zero",
+    "B": "4 kg m/s",
+    "C": "5 kg m/s",
+    "D": "3 kg m/s"
+  },
+  "answer": {
+    "keys": [
+      "D"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "05NLM_v1",
+      "qno": 8
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000291-stem-1",
+      "role": "stem",
+      "file": "P000/P000291-stem-1.png",
+      "format": "png",
+      "width": 350,
+      "height": 274,
+      "alt": "Force F in N against time t in s: rises in a straight line from 0 to 1 N at 8 s, then drops to −0.5 N and stays there until 10 s.",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
+  "rights": "unverified",
+  "content_hash": "261fb7a4e28b4eb1",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

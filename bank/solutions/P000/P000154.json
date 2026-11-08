@@ -1,0 +1,23 @@
+{
+  "id": "P000154",
+  "problem_version": 1,
+  "status": "draft",
+  "hints": [
+    "> $v(t) = 2t - 10$; the particle reverses its direction of motion at t = 5 s;\n\n>\n\n> $x(0) = 10,\\ x(5) = - 15\\ and\\ x(10) = 10$;"
+  ],
+  "worded": null,
+  "conventional": null,
+  "mistakes": [],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": null,
+    "date": "2026-11-08"
+  },
+  "reviewed_by": null
+}

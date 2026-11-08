@@ -1,0 +1,45 @@
+{
+  "id": "P000182",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0405",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "Velocity of a particle at time t = 0 is 2 m/s. A constant acceleration of 2 m/$s^{2}$ acts on the particle for 2 seconds at an angle of 60° with its initial velocity. Find the magnitude of velocity and displacement of particle at the end of t = 2 s.",
+  "options": {
+    "A": "$2\\sqrt{7}\\ m/s,\\ 2\\sqrt{3}m$",
+    "B": "$2\\sqrt{7}\\ m/s,\\ 4\\sqrt{3}m$",
+    "C": "$4\\sqrt{7}\\ m/s,\\ 2\\sqrt{3}m$",
+    "D": "$\\sqrt{7}\\ m/s,\\ 2\\sqrt{3}m$"
+  },
+  "answer": {
+    "keys": [
+      "B"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "04MIP_v2",
+      "qno": 2
+    }
+  ],
+  "assets": [],
+  "rights": "unverified",
+  "content_hash": "850db66e77809e73",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

@@ -1,0 +1,57 @@
+{
+  "id": "P000163",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0330",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000163-stem-1)A lift is going up. The variation in the speed of the lift is as given in the graph. What is the height to which the lift takes the passengers:",
+  "options": {
+    "A": "3.6 m",
+    "B": "28.8 m",
+    "C": "36.0 m",
+    "D": "Cannot be calculated from the above graph"
+  },
+  "answer": {
+    "keys": [
+      "C"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "03MSL_v2",
+      "qno": 79
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000163-stem-1",
+      "role": "stem",
+      "file": "P000/P000163-stem-1.png",
+      "format": "png",
+      "width": 203,
+      "height": 143,
+      "alt": "Velocity in m/s against time in s: rises from 0 to 3.6 m/s at 2 s, stays at 3.6 m/s until 10 s, then falls to 0 at 12 s.",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
+  "rights": "unverified",
+  "content_hash": "d78e7619d16b450c",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

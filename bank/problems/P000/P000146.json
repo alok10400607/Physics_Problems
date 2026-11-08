@@ -1,0 +1,45 @@
+{
+  "id": "P000146",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0325",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "Two cars P and Q start from a point at the same time in a straight line and their positions are represented by $x_{P} = at + bt^{2}$ and $x_{Q} = ft - t^{2}$. At what time do the cars have the same velocity?",
+  "options": {
+    "A": "$\\frac{a + f}{2(1 + b)}$",
+    "B": "$\\frac{f - a}{2(1 + b)}$",
+    "C": "$\\frac{a - f}{(1 + b)}$",
+    "D": "$\\frac{a + f}{2(b - 1)}$"
+  },
+  "answer": {
+    "keys": [
+      "B"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "03MSL_v2",
+      "qno": 62
+    }
+  ],
+  "assets": [],
+  "rights": "unverified",
+  "content_hash": "f4dd93ce8a48881d",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

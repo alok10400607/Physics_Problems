@@ -1,0 +1,56 @@
+{
+  "id": "P000465",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0815",
+  "concepts": [],
+  "exams": [
+    "NEET"
+  ],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A vertical spring with force constant k is fixed on a table. A ball of mass m at a height h above the free upper end of the spring falls vertically on the spring, so that the spring is compressed by a distance d. The sum of the work done by gravity and by the spring in the process is:",
+  "options": {
+    "A": "$mg(h + d) + \\frac{1}{2}\\ kd^{2}$",
+    "B": "$mg(h + d) - \\frac{1}{2}\\ kd^{2}$",
+    "C": "$mg(h - d) - \\frac{1}{2}\\ kd^{2}$",
+    "D": "$mg(h - d) + \\frac{1}{2}\\ kd^{2}$"
+  },
+  "answer": {
+    "keys": [
+      "B"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "08WPE_v2",
+      "qno": 26
+    },
+    {
+      "kind": "exam",
+      "exam": "AIIMS",
+      "date": null,
+      "shift": null,
+      "mode": null,
+      "raw": "AIIMS 2008",
+      "year": 2008
+    }
+  ],
+  "assets": [],
+  "rights": "past-paper",
+  "content_hash": "2b1be04551d30083",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

@@ -1,0 +1,45 @@
+{
+  "id": "P000441",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0805",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A uniform force of $3\\widehat{i} + \\widehat{j}$ newton acts on a particle of mass 2kg. The particle is displaced from position $2\\widehat{i} + \\widehat{k}$ meter to position (4$\\widehat{i} + 3\\widehat{j} - \\widehat{k})$ meter. The work done by the force on the particle is:",
+  "options": {
+    "A": "15 J",
+    "B": "9 J",
+    "C": "6 J",
+    "D": "13 J"
+  },
+  "answer": {
+    "keys": [
+      "B"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "08WPE_v2",
+      "qno": 2
+    }
+  ],
+  "assets": [],
+  "rights": "unverified",
+  "content_hash": "2c7651d36fcb1e48",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

@@ -1,0 +1,45 @@
+{
+  "id": "P000263",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0435",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A man at rest observes the rain falling vertically. When he walks at 4 km/h, he has to hold his umbrella at an angle of 53° from the vertical. What is the velocity of raindrops?",
+  "options": {
+    "A": "5 km/h",
+    "B": "4$\\sqrt{3}$ km/h",
+    "C": "4 km/h",
+    "D": "3 km/h"
+  },
+  "answer": {
+    "keys": [
+      "D"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "04MIP_v2",
+      "qno": 83
+    }
+  ],
+  "assets": [],
+  "rights": "unverified",
+  "content_hash": "18e75eb7eed2ddca",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

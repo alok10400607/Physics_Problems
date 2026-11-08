@@ -1,0 +1,23 @@
+{
+  "id": "P000122",
+  "problem_version": 1,
+  "status": "draft",
+  "hints": [
+    "> Let the time to finish the race be $T$: then $u_{1}T + \\frac{1}{2}\\alpha T^{2} = u_{2}T + \\frac{1}{2}\\beta T^{2} = R$"
+  ],
+  "worded": null,
+  "conventional": null,
+  "mistakes": [],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": null,
+    "date": "2026-11-08"
+  },
+  "reviewed_by": null
+}

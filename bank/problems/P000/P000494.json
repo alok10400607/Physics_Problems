@@ -1,0 +1,45 @@
+{
+  "id": "P000494",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0820",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A particle is projected vertically upwards with a speed of 16 m/s, after some time, when it again passes through the point of projection, its speed is found to be 8 m/s. It is known that the work done by air resistance is same during upward and downward motion. Then the maximum height attained by the particle is?",
+  "options": {
+    "A": "12.8 m",
+    "B": "10m",
+    "C": "9 m",
+    "D": "8m"
+  },
+  "answer": {
+    "keys": [
+      "D"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "08WPE_v2",
+      "qno": 55
+    }
+  ],
+  "assets": [],
+  "rights": "unverified",
+  "content_hash": "c5b42ab5ab824a6d",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

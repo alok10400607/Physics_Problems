@@ -1,0 +1,21 @@
+{
+  "id": "P000231",
+  "problem_version": 1,
+  "status": "draft",
+  "hints": [],
+  "worded": null,
+  "conventional": "> Time to fall n steps = $\\sqrt{\\frac{2(0.2n)}{10}} = 0.2\\sqrt{n}$; Horizontal distance travelled L = $4.5t = 0.9\\sqrt{n}$\n\n>\n\n> It will not clear the nth step if $L < 0.3n$ (the smallest integer value of n);\n\n>\n\n> OR will hit the edge of nth step if $L = 0.3n$",
+  "mistakes": [],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": null,
+    "date": "2026-11-08"
+  },
+  "reviewed_by": null
+}

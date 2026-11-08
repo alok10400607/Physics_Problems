@@ -1,0 +1,37 @@
+{
+  "id": "P000271",
+  "status": "imported",
+  "version": 1,
+  "type": "subjective",
+  "topic_code": "0440",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A boat can row at speed of 5 m/s in still water. It is crossing a 500 m wide river flowing with a speed of 3 m/s. Find:\n(i) Minimum time to cross the river and the corresponding drift\n(ii) Minimum time to cross the river and come back to the starting point\n(iii) Time to travel a distance of 500 m along the river and come back to the starting point.\n(iv) Direction in which boat should be rowed to reach the opposite point on the river\n(v) Time taken to cross the river if boat maintains its direction at $120{^\\circ}$ with the direction of river flow",
+  "answer": {
+    "text": "(i) 100 s, 300 m; (ii) 250 s; (iii) 312.5 s; (iv) $127{^\\circ}$with river flow direction; (v) $\\frac{200}{\\sqrt{3}}s$"
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "04MIP_v2",
+      "qno": 91
+    }
+  ],
+  "assets": [],
+  "rights": "unverified",
+  "content_hash": "21c1695c04aa6107",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "P000169",
+  "problem_version": 1,
+  "status": "draft",
+  "hints": [
+    "> Key Concept: 0 – 200 m, straight line $\\rightarrow$ $\\frac{dv}{dx}$ is constant; hence use $a = v\\frac{dv}{dx} = v \\times constant$\n\n>\n\n> Here v = 10 + 0.2x, so a = 0.2v = 2 + 0.04x: a straight line rising from 2 m/s² at x = 0 to 10 m/s² at x = 200 m; beyond 200 m, v is constant and a = 0."
+  ],
+  "worded": null,
+  "conventional": null,
+  "mistakes": [],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": null,
+    "date": "2026-11-08"
+  },
+  "reviewed_by": null
+}

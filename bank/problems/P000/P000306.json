@@ -1,0 +1,57 @@
+{
+  "id": "P000306",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0510",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000306-stem-1)A mass of 5 kg is suspended from the ceiling with the help of massless strings as shown. Find the tension in the string BC.",
+  "options": {
+    "A": "25 N",
+    "B": "25$\\sqrt{3}$ N",
+    "C": "50$\\sqrt{3}$ N",
+    "D": "25$\\sqrt{2}$ N"
+  },
+  "answer": {
+    "keys": [
+      "B"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "05NLM_v1",
+      "qno": 23
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000306-stem-1",
+      "role": "stem",
+      "file": "P000/P000306-stem-1.png",
+      "format": "png",
+      "width": 328,
+      "height": 205,
+      "alt": "A 5 kg block hanging from point C by two strings to the ceiling: CA at 30° and CB at 60° to the ceiling.",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
+  "rights": "unverified",
+  "content_hash": "e117df911ee28aed",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

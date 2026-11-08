@@ -1,0 +1,45 @@
+{
+  "id": "P000219",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0410",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": "L2",
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A particle is projected from the ground with an initial speed of $v$ at an angle θ with horizontal. The average velocity of the particle between its point of projection and highest point of trajectory is?",
+  "options": {
+    "A": "$\\frac{v}{2}\\sqrt{1 + \\cos^{2}\\theta}$",
+    "B": "$\\frac{v}{2}\\sqrt{1 + {3cos}^{2}\\theta}$",
+    "C": "$\\frac{v}{2}\\sqrt{1 + {3sin}^{2}\\theta}$",
+    "D": "$\\frac{v}{2}\\sqrt{1 + \\tan^{2}\\theta}$"
+  },
+  "answer": {
+    "keys": [
+      "B"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "04MIP_v2",
+      "qno": 39
+    }
+  ],
+  "assets": [],
+  "rights": "unverified",
+  "content_hash": "e237f57d371a4cba",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

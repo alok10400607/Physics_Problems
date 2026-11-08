@@ -1,0 +1,57 @@
+{
+  "id": "P000396",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0705",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000396-stem-1)Two moving particles P & Q are 10 m apart at any instant. Velocity of P is 8 m/s and that of Q is 6 m/s at 30° angle with the line joining P & Q. Calculate the angular velocity of P w.r.t. Q?",
+  "options": {
+    "A": "1 rad/s",
+    "B": "0.8 rad/s",
+    "C": "0.7 rad/sec",
+    "D": "0.5 rad/sec"
+  },
+  "answer": {
+    "keys": [
+      "C"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "07CM1_v2",
+      "qno": 18
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000396-stem-1",
+      "role": "stem",
+      "file": "P000/P000396-stem-1.png",
+      "format": "png",
+      "width": 175,
+      "height": 91,
+      "alt": "Points P and Q on a horizontal dashed line. A particle at P moves with velocity v_P at 30° below the line; a particle at Q moves with velocity v_Q up and to the left at 30° above the line.",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
+  "rights": "unverified",
+  "content_hash": "32d74925a8d0c03a",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

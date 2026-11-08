@@ -1,0 +1,57 @@
+{
+  "id": "P000324",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0520",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000324-stem-1)Force of 3 N acts on a system of two blocks of mass 2 kg and 1 kg as shown in figure. Contact force between the blocks is :",
+  "options": {
+    "A": "1 N",
+    "B": "2 N",
+    "C": "3 N",
+    "D": "0"
+  },
+  "answer": {
+    "keys": [
+      "A"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "05NLM_v1",
+      "qno": 41
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000324-stem-1",
+      "role": "stem",
+      "file": "P000/P000324-stem-1.png",
+      "format": "png",
+      "width": 298,
+      "height": 125,
+      "alt": "A 3 N force pushing a 2 kg block, which is in contact with a 1 kg block, on a horizontal surface.",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
+  "rights": "unverified",
+  "content_hash": "4a2f22133bbc530b",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

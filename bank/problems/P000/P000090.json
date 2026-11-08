@@ -1,0 +1,45 @@
+{
+  "id": "P000090",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0305",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A car moves from X to Y with a uniform speed $v_{u}\\ $and returns to X with a uniform speed $v_{d}$. The average speed for this round trip is:",
+  "options": {
+    "A": "$\\frac{v_{u} + v_{d}}{2}$",
+    "B": "$\\frac{2v_{u}v_{d}}{v_{u} + v_{d}}$",
+    "C": "$\\sqrt{v_{u}v_{d}}$",
+    "D": "$\\frac{v_{u}v_{d}}{v_{u} + v_{d}}$"
+  },
+  "answer": {
+    "keys": [
+      "B"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "03MSL_v2",
+      "qno": 6
+    }
+  ],
+  "assets": [],
+  "rights": "unverified",
+  "content_hash": "3c7d73e0b8b9404c",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

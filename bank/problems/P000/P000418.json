@@ -1,0 +1,57 @@
+{
+  "id": "P000418",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0710",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": "L2",
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000418-stem-1) A long horizontal rod has a bead which can slide along its length, and initially placed at a distance L from one end A of the rod. The rod is set into angular motion about A with constant angular acceleration α. If the coefficient of friction between the rod and bead is µ, and gravity is neglected, then the time after which the bead starts slipping is?",
+  "options": {
+    "A": "$2\\sqrt{\\mu/\\alpha}$",
+    "B": "$\\sqrt{2\\mu/\\alpha}$",
+    "C": "$\\sqrt{\\mu/2\\alpha}$",
+    "D": "$\\sqrt{\\mu/\\alpha}$"
+  },
+  "answer": {
+    "keys": [
+      "D"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "07CM1_v2",
+      "qno": 40
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000418-stem-1",
+      "role": "stem",
+      "file": "P000/P000418-stem-1.png",
+      "format": "png",
+      "width": 314,
+      "height": 149,
+      "alt": "A rod rotating about a vertical axis through its end A with angular acceleration α; a ring sits on the rod a distance L from A.",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
+  "rights": "unverified",
+  "content_hash": "c2a8eea5355726d1",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

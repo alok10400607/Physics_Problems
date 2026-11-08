@@ -1,0 +1,45 @@
+{
+  "id": "P000259",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0435",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "Airport Y is 400 km N of airport X. Wind blows from West at 60 km/h. Aircraft can maintain a speed of 500 km/h in still air. With respect to North at what angle the pilot should direct the aircraft so as to reach airport Y from X?",
+  "options": {
+    "A": "$\\cos^{- 1}\\frac{3}{25}$",
+    "B": "$\\sin^{- 1}\\frac{4}{25}$",
+    "C": "$\\tan^{- 1}\\frac{3}{\\sqrt{616}}$",
+    "D": "$\\tan^{- 1}\\frac{3}{25}$"
+  },
+  "answer": {
+    "keys": [
+      "C"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "04MIP_v2",
+      "qno": 79
+    }
+  ],
+  "assets": [],
+  "rights": "unverified",
+  "content_hash": "3d4de66f4511ee6e",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

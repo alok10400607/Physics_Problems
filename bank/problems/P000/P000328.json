@@ -1,0 +1,57 @@
+{
+  "id": "P000328",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0520",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000328-stem-1)The elevator shown in figure is descending with an acceleration of 2 m/s<sup>2</sup>. The mass of the block A = 0.5 kg. The force exerted by the block A on block B is",
+  "options": {
+    "A": "2 N",
+    "B": "4 N",
+    "C": "6 N",
+    "D": "8 N"
+  },
+  "answer": {
+    "keys": [
+      "B"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "05NLM_v1",
+      "qno": 45
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000328-stem-1",
+      "role": "stem",
+      "file": "P000/P000328-stem-1.png",
+      "format": "png",
+      "width": 556,
+      "height": 468,
+      "alt": "Block A resting on block B on the floor of a lift accelerating downwards at 2 m/s².",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
+  "rights": "unverified",
+  "content_hash": "469db020fc16b8dc",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

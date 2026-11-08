@@ -1,0 +1,56 @@
+{
+  "id": "P000482",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0820",
+  "concepts": [],
+  "exams": [
+    "JEE Main"
+  ],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A time dependent force F = 6t acts on a particle of mass 1 kg. If the particle starts from rest, the work done by the force during the first 1 s will be?",
+  "options": {
+    "A": "6 J",
+    "B": "3 J",
+    "C": "4 J",
+    "D": "4.5 J"
+  },
+  "answer": {
+    "keys": [
+      "D"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "08WPE_v2",
+      "qno": 43
+    },
+    {
+      "kind": "exam",
+      "exam": "JEE Main",
+      "date": null,
+      "shift": null,
+      "mode": "Offline",
+      "raw": "JEE Main 2017 (Offline)",
+      "year": 2017
+    }
+  ],
+  "assets": [],
+  "rights": "past-paper",
+  "content_hash": "980f8731265b915b",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

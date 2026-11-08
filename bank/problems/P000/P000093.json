@@ -1,0 +1,57 @@
+{
+  "id": "P000093",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0305",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": "L2",
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000093-stem-1) A man in a car at location Q on a straight highway is moving with speed v. He decides to reach a point P in a field at a distance d from the highway (point M) as shown in the figure. Speed of the car in the field is half of that on the highway. What should be the distance RM, so that the time taken to reach P is minimum?",
+  "options": {
+    "A": "d",
+    "B": "d/$\\sqrt{2}$",
+    "C": "d/2",
+    "D": "d/$\\sqrt{3}$"
+  },
+  "answer": {
+    "keys": [
+      "D"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "03MSL_v2",
+      "qno": 9
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000093-stem-1",
+      "role": "stem",
+      "file": "P000/P000093-stem-1.png",
+      "format": "png",
+      "width": 916,
+      "height": 444,
+      "alt": "Points Q, R and M lie along a horizontal strip, and point P is a distance d from M, perpendicular to the strip. A dashed path runs from Q along the strip to R, then straight from R to P; a dashed line also joins M and P.",
+      "origin": "docx",
+      "needs_redraw": false
+    }
+  ],
+  "rights": "unverified",
+  "content_hash": "58841905e8872650",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

@@ -1,0 +1,48 @@
+{
+  "id": "P000457",
+  "status": "imported",
+  "version": 1,
+  "type": "integer",
+  "topic_code": "0810",
+  "concepts": [],
+  "exams": [
+    "JEE Main"
+  ],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A uniform chain of length 3 m and mass 3 kg overhangs a smooth table with 2 m lying on the table. If k is the kinetic energy of the chain in joules as it completely slips off the table, then the value of k is:",
+  "answer": {
+    "value": 40
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "08WPE_v2",
+      "qno": 18
+    },
+    {
+      "kind": "exam",
+      "exam": "JEE Main",
+      "date": "2021-08-26",
+      "shift": 1,
+      "mode": null,
+      "raw": "JEE Main 2021, 26 Aug, Shift 1",
+      "year": 2021
+    }
+  ],
+  "assets": [],
+  "rights": "past-paper",
+  "content_hash": "c7d1ae347051f7b9",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

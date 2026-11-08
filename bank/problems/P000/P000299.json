@@ -1,0 +1,45 @@
+{
+  "id": "P000299",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0505",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": "L2",
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A flat plate moves normally with a speed $v_{1}$ towards a horizontal jet of water of uniform area of cross section. The jet of cross-section area of A discharges water at a speed $v_{2}$. The density of water is ρ. Assume that water splashes at right angles to the original motion. The magnitude of the force acting on the plate due to jet of water is",
+  "options": {
+    "A": "$\\rho A{v_{1}}^{2}$",
+    "B": "$\\rho Av_{2}{(v}_{1} + \\ v_{2})$",
+    "C": "$\\rho Av_{1}\\ v_{2}$",
+    "D": "$\\rho A{{(v}_{1} + \\ v_{2})}^{2}$"
+  },
+  "answer": {
+    "keys": [
+      "B"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "05NLM_v1",
+      "qno": 16
+    }
+  ],
+  "assets": [],
+  "rights": "unverified",
+  "content_hash": "4ef38801a418b458",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

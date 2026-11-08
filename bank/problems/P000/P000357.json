@@ -1,0 +1,68 @@
+{
+  "id": "P000357",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0530",
+  "concepts": [],
+  "exams": [
+    "JEE Main"
+  ],
+  "difficulty": {
+    "worksheet": "L2",
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000357-stem-1)  The boxes of mass 2 kg and 8 kg are connected by a massless string passing over smooth pulleys. Calculate the time taken by the box of mass 8 kg to strike the ground starting from rest.",
+  "options": {
+    "A": "0.34 s",
+    "B": "0.2 s",
+    "C": "0.25 s",
+    "D": "0.4 s"
+  },
+  "answer": {
+    "keys": [
+      "D"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "05NLM_v1",
+      "qno": 74
+    },
+    {
+      "kind": "exam",
+      "exam": "JEE Main",
+      "date": "2021-08-27",
+      "shift": 2,
+      "mode": null,
+      "raw": "JEE Main 2021, 27 Aug, Shift 2",
+      "year": 2021
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000357-stem-1",
+      "role": "stem",
+      "file": "P000/P000357-stem-1.png",
+      "format": "png",
+      "width": 187,
+      "height": 183,
+      "alt": "An 8 kg block on a movable pulley, 20 cm above the ground, and a 2 kg block on the ground, joined by a string over a fixed pulley on the ceiling.",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
+  "rights": "past-paper",
+  "content_hash": "a19e98095f8de797",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

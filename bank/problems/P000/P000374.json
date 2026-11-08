@@ -1,0 +1,45 @@
+{
+  "id": "P000374",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0540",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A piece of wire is bent in the shape of a parabola $y = kx^{2}$ (y-axis vertical) with a bead of mass m on it. The bead can slide on the wire without friction. It stays at the lowest point of the parabola when the wire is at rest. The wire is now accelerated parallel to the x-axis with a constant acceleration a. The distance of the new equilibrium position of the bead, where the bead can stay at rest with respect to the wire, from the y-axis is",
+  "options": {
+    "A": "$\\frac{a}{gk}$",
+    "B": "$\\frac{a}{2gk}$",
+    "C": "$\\frac{2a}{gk}$",
+    "D": "$\\frac{a}{4gk}$"
+  },
+  "answer": {
+    "keys": [
+      "B"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "05NLM_v1",
+      "qno": 91
+    }
+  ],
+  "assets": [],
+  "rights": "unverified",
+  "content_hash": "cc66877cab710abe",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

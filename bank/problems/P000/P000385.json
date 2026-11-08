@@ -1,0 +1,56 @@
+{
+  "id": "P000385",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0705",
+  "concepts": [],
+  "exams": [
+    "JEE Main"
+  ],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A clock has a continuous moving second’s hand of 0.1 m length. The magnitude of the acceleration of the tip of the hand (in ms<sup>-2</sup>) is of the order of:",
+  "options": {
+    "A": "$10^{- 3}$",
+    "B": "$10^{- 4}$",
+    "C": "$10^{- 2}$",
+    "D": "$10^{- 1}$"
+  },
+  "answer": {
+    "keys": [
+      "A"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "07CM1_v2",
+      "qno": 7
+    },
+    {
+      "kind": "exam",
+      "exam": "JEE Main",
+      "date": "2020-09-06",
+      "shift": 1,
+      "mode": null,
+      "raw": "JEE Main 2020, 6 Sep, Shift 1",
+      "year": 2020
+    }
+  ],
+  "assets": [],
+  "rights": "past-paper",
+  "content_hash": "bcc6c963791669b1",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

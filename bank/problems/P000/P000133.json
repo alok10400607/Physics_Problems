@@ -1,0 +1,48 @@
+{
+  "id": "P000133",
+  "status": "imported",
+  "version": 1,
+  "type": "subjective",
+  "topic_code": "0320",
+  "concepts": [],
+  "exams": [
+    "JEE Main"
+  ],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A helicopter is rising from the ground with an acceleration of g m/$s^{2}$ starting from rest. After it has risen to a height h, a particle is released from it. Take t = 0 at the instant the particle is released, find time t when it reaches the ground (in terms of h and g).",
+  "answer": {
+    "text": "$$(1 + \\sqrt{2})\\sqrt{\\frac{2h}{g}}$$"
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "03MSL_v2",
+      "qno": 49
+    },
+    {
+      "kind": "exam",
+      "exam": "JEE Main",
+      "date": "2020-09-05",
+      "shift": 1,
+      "mode": null,
+      "raw": "JEE Main 2020, 5 Sep, Shift 1",
+      "year": 2020
+    }
+  ],
+  "assets": [],
+  "rights": "past-paper",
+  "content_hash": "30acca406d4e5fbe",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

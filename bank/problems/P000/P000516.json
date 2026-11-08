@@ -1,0 +1,60 @@
+{
+  "id": "P000516",
+  "status": "imported",
+  "version": 1,
+  "type": "integer",
+  "topic_code": "0830",
+  "concepts": [],
+  "exams": [
+    "JEE Main"
+  ],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000516-stem-1) A particle (m = 1kg) slides down a frictionless track (AOC) starting from rest at point A (height 2m). After reaching C, the particle continues to move freely in air as projectile. When it reaches the highest point P (height 1m), the kinetic energy of the particle (in J) is:",
+  "answer": {
+    "value": 10
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "08WPE_v2",
+      "qno": 77
+    },
+    {
+      "kind": "exam",
+      "exam": "JEE Main",
+      "date": "2020-01-07",
+      "shift": 1,
+      "mode": null,
+      "raw": "JEE Main 2020, 7 Jan, Shift 1",
+      "year": 2020
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000516-stem-1",
+      "role": "stem",
+      "file": "P000/P000516-stem-1.png",
+      "format": "png",
+      "width": 157,
+      "height": 146,
+      "alt": "A track descending from A, 2 m above the lowest point O, then rising to a point P with a smaller hump at C; a dashed path shows a ball's motion.",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
+  "rights": "past-paper",
+  "content_hash": "c793eaa1bb02b99f",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

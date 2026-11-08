@@ -1,0 +1,45 @@
+{
+  "id": "P000179",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0340",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A lift having floor to ceiling distance of 2.7 m, starts ascending with a constant acceleration of 2 m/$s^{2}$. Two seconds after it starts, a bolt begins to fall from the ceiling. Find the free fall time of the bolt (time to strike the floor of the lift).",
+  "options": {
+    "A": "$\\sqrt{9/10}$ sec",
+    "B": "$\\sqrt{9/20}$ sec",
+    "C": "$\\sqrt{3/5}$ sec",
+    "D": "$\\sqrt{3/8}$ sec"
+  },
+  "answer": {
+    "keys": [
+      "B"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "03MSL_v2",
+      "qno": 95
+    }
+  ],
+  "assets": [],
+  "rights": "unverified",
+  "content_hash": "1af3bef662a126e5",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

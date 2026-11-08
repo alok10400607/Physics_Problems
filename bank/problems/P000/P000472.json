@@ -1,0 +1,57 @@
+{
+  "id": "P000472",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0815",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000472-stem-1)In the arrangement shown in the figure, the block A is released from rest when the spring is in its natural length. For the block B of mass m to leave contact with ground at some stage what should be the minimum mass of block A?",
+  "options": {
+    "A": "$2m$",
+    "B": "$m$",
+    "C": "$m/2$",
+    "D": "$m/3$"
+  },
+  "answer": {
+    "keys": [
+      "C"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "08WPE_v2",
+      "qno": 33
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000472-stem-1",
+      "role": "stem",
+      "file": "P000/P000472-stem-1.png",
+      "format": "png",
+      "width": 196,
+      "height": 300,
+      "alt": "Mass M (A) hanging on one side of a fixed pulley. On the other side, the string runs down through a spring of natural length l₀ to mass m (B) resting on the floor.",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
+  "rights": "unverified",
+  "content_hash": "177cce6f026f346c",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

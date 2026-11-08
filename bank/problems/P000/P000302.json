@@ -1,0 +1,57 @@
+{
+  "id": "P000302",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0510",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000302-stem-1)A mass of 10 kg is suspended by a rope of length 2.8 m from a ceiling. A horizontal force of 98 N is applied at the midpoint of the rope as shown in figure. The angle which the rope makes with the vertical in equilibrium is (g = 9.8)",
+  "options": {
+    "A": "30°",
+    "B": "60°",
+    "C": "45°",
+    "D": "90°"
+  },
+  "answer": {
+    "keys": [
+      "C"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "05NLM_v1",
+      "qno": 19
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000302-stem-1",
+      "role": "stem",
+      "file": "P000/P000302-stem-1.png",
+      "format": "png",
+      "width": 477,
+      "height": 326,
+      "alt": "Left: a 10 kg block hangs from the ceiling by a vertical string, with a 98 N horizontal force marked at the string's midpoint. Right: the same arrangement in equilibrium, with the upper part of the string at angle θ to the vertical.",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
+  "rights": "unverified",
+  "content_hash": "36b965ad7bb8b25f",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

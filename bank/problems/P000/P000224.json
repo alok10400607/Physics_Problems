@@ -1,0 +1,38 @@
+{
+  "id": "P000224",
+  "status": "imported",
+  "version": 1,
+  "type": "integer",
+  "topic_code": "0415",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A plane flying horizontally at 100 ms<sup>−1</sup> releases an object which reaches the ground in 10 s. At what angle with horizontal it hits the ground?",
+  "answer": {
+    "value": 45,
+    "unit": "°"
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "04MIP_v2",
+      "qno": 44
+    }
+  ],
+  "assets": [],
+  "rights": "unverified",
+  "content_hash": "021cac492fc08bc5",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

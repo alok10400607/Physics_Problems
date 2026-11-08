@@ -1,0 +1,57 @@
+{
+  "id": "P000361",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0530",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": "L2",
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000361-stem-1) A sphere is resting against a fixed vertical wall and an inclined plane as shown in the figure. If the inclined plane is given a horizontal velocity u as shown, then what will be the velocity of the sphere? (All surface are smooth)",
+  "options": {
+    "A": "$usec\\theta$",
+    "B": "$u\\tan \\theta$",
+    "C": "$u\\cos \\theta$",
+    "D": "$u\\sin \\theta$"
+  },
+  "answer": {
+    "keys": [
+      "B"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "05NLM_v1",
+      "qno": 78
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000361-stem-1",
+      "role": "stem",
+      "file": "P000/P000361-stem-1.png",
+      "format": "png",
+      "width": 344,
+      "height": 249,
+      "alt": "A sphere resting between a vertical wall and a wedge of angle θ on the floor; the wedge moves away from the wall with speed u.",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
+  "rights": "unverified",
+  "content_hash": "5f3197df052b11a8",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

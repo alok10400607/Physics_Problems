@@ -1,0 +1,56 @@
+{
+  "id": "P000089",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0305",
+  "concepts": [],
+  "exams": [
+    "NEET"
+  ],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A car runs at a constant speed on a circular track of radius 100 m, taking 62.8 seconds for every circular lap. The average velocity and average speed for each circular lap respectively is:",
+  "options": {
+    "A": "0,0",
+    "B": "0, 10 m/s",
+    "C": "10 m/s, 10 m/s",
+    "D": "10 m/s, 0"
+  },
+  "answer": {
+    "keys": [
+      "B"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "03MSL_v2",
+      "qno": 5
+    },
+    {
+      "kind": "exam",
+      "exam": "AIPMT",
+      "date": null,
+      "shift": null,
+      "mode": null,
+      "raw": "AIPMT 2006",
+      "year": 2006
+    }
+  ],
+  "assets": [],
+  "rights": "past-paper",
+  "content_hash": "64062922f865ddb8",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

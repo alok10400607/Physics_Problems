@@ -1,0 +1,57 @@
+{
+  "id": "P000517",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0830",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": "L2",
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000517-stem-1) A 10 kg block is pulled along a frictionless cylindrical surface of radius R = 10m. The applied force F is constant at 200N through a string passing over a smooth pulley Q of negligible size. P is the lowest point of the surface and OQ makes 60° with the vertical OP. If the block was initially at P, then what will be its kinetic energy when it reaches Q?",
+  "options": {
+    "A": "1500 J",
+    "B": "1800 J",
+    "C": "2000 J",
+    "D": "2500 J"
+  },
+  "answer": {
+    "keys": [
+      "A"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "08WPE_v2",
+      "qno": 78
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000517-stem-1",
+      "role": "stem",
+      "file": "P000/P000517-stem-1.png",
+      "format": "png",
+      "width": 237,
+      "height": 205,
+      "alt": "A mass m pulled along a circular arc of radius R by a horizontal force F, from P, directly below the centre, to Q, at 60° from the vertical.",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
+  "rights": "unverified",
+  "content_hash": "01d53e410a627635",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

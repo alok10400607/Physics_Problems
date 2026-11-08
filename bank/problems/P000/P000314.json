@@ -1,0 +1,45 @@
+{
+  "id": "P000314",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0515",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A particle of mass 2 kg moves with an initial velocity of $\\overrightarrow{v} = 4\\widehat{i} + 4\\widehat{j}\\ m/s$. A constant force of $\\overrightarrow{F} = - 20\\widehat{j}\\ N$ is applied on the particle. Initially, the particle was at (0, 0). The x-coordinate of the particle when its y-coordinate again becomes zero is given by",
+  "options": {
+    "A": "1.2 m",
+    "B": "4.8 m",
+    "C": "6.0 m",
+    "D": "3.2 m"
+  },
+  "answer": {
+    "keys": [
+      "D"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "05NLM_v1",
+      "qno": 31
+    }
+  ],
+  "assets": [],
+  "rights": "unverified",
+  "content_hash": "5629b73e7eb72810",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

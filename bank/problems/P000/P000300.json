@@ -1,0 +1,56 @@
+{
+  "id": "P000300",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0505",
+  "concepts": [],
+  "exams": [
+    "JEE Main"
+  ],
+  "difficulty": {
+    "worksheet": "L2",
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A liquid of density ρ is coming out of a hose pipe of radius a with horizontal speed v and hits a mesh. 50% of the liquid passes through the mesh unaffected. 25% loses all of its momentum and 25% comes back with the same speed. The resultant pressure on the mesh will be:",
+  "options": {
+    "A": "ρv<sup>2</sup>",
+    "B": "¾ ρv<sup>2</sup>",
+    "C": "½ ρv<sup>2</sup>",
+    "D": "¼ ρv<sup>2</sup>"
+  },
+  "answer": {
+    "keys": [
+      "B"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "05NLM_v1",
+      "qno": 17
+    },
+    {
+      "kind": "exam",
+      "exam": "JEE Main",
+      "date": "2019-01-11",
+      "shift": 1,
+      "mode": null,
+      "raw": "JEE Main 2019, 11 Jan, Shift 1",
+      "year": 2019
+    }
+  ],
+  "assets": [],
+  "rights": "past-paper",
+  "content_hash": "92dc2a4d67254be1",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

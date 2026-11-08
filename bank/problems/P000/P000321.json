@@ -1,0 +1,45 @@
+{
+  "id": "P000321",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0515",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "The apparent weight of a person inside a lift is W<sub>1</sub> when lift moves up with certain acceleration and is W<sub>2</sub> when lift moves down with same acceleration. The weight of person when lift moves up with constant speed is",
+  "options": {
+    "A": "$\\frac{W_{1}\\  + \\ W_{2}}{2}$",
+    "B": "$\\frac{W_{1}\\  - \\ W_{2}}{2}$",
+    "C": "2W<sub>1</sub>",
+    "D": "2W<sub>2</sub>"
+  },
+  "answer": {
+    "keys": [
+      "A"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "05NLM_v1",
+      "qno": 38
+    }
+  ],
+  "assets": [],
+  "rights": "unverified",
+  "content_hash": "c98b3e077a531217",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

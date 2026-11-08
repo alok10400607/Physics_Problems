@@ -1,0 +1,57 @@
+{
+  "id": "P000467",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0815",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000467-stem-1)A 2 kg block is connected with two springs of force constants k<sub>1</sub> = 100 N/m and k<sub>2</sub> = 300 N/m as shown in figure. The block is released from rest with the springs unstretched. The acceleration of the block in its lowest position is",
+  "options": {
+    "A": "$g$ upwards",
+    "B": "$g/2$ upwards",
+    "C": "$g/3$ upwards",
+    "D": "$g/4$ upwards"
+  },
+  "answer": {
+    "keys": [
+      "A"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "08WPE_v2",
+      "qno": 28
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000467-stem-1",
+      "role": "stem",
+      "file": "P000/P000467-stem-1.png",
+      "format": "png",
+      "width": 142,
+      "height": 283,
+      "alt": "A 2 kg block held between two vertical springs: k₁ above it, attached to the ceiling, and k₂ below it, attached to the floor.",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
+  "rights": "unverified",
+  "content_hash": "ce97dee49634079b",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

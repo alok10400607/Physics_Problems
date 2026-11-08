@@ -1,0 +1,49 @@
+{
+  "id": "P000448",
+  "status": "imported",
+  "version": 1,
+  "type": "subjective",
+  "topic_code": "0805",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000448-stem-1)A small block of mass m is kept on a rough wedge of inclination θ with the horizontal. The incline is fixed inside an elevator. The elevator goes up with a uniform velocity of v and the block does not slide. The work done by (i) the frictional force and (ii) the normal reaction on the block in time t is",
+  "answer": {
+    "text": "(i) mg sin²θ vt (ii) mg cos²θ vt"
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "08WPE_v2",
+      "qno": 9
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000448-stem-1",
+      "role": "stem",
+      "file": "P000/P000448-stem-1.png",
+      "format": "png",
+      "width": 192,
+      "height": 182,
+      "alt": "A lift moving up with velocity v, containing a fixed incline of angle θ with a block of mass m on it.",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
+  "rights": "unverified",
+  "content_hash": "b764c0672815aa07",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

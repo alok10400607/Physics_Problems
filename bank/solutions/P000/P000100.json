@@ -1,0 +1,21 @@
+{
+  "id": "P000100",
+  "problem_version": 1,
+  "status": "draft",
+  "hints": [],
+  "worded": null,
+  "conventional": "> ![](/tmp/import-bzoi1s3c/media/image32.png){width=\"2.7559055118110236in\" height=\"0.8858267716535433in\"}Method 1: Visualize motion in reverse order\n\n>\n\n> Starting from C\n\n>\n\n> Then time to travel C to B = time from B to A\n\n>\n\n> (as change in velocities are equal)\n\n>\n\n> Hence 3 cm = 3 times $x$\n\n>\n\n> Method 2: $v - t$ graph:\n\n>\n\n> Area of small triangle will be one fourth of area under triangle + trapezium",
+  "mistakes": [],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": null,
+    "date": "2026-11-08"
+  },
+  "reviewed_by": null
+}

@@ -1,0 +1,153 @@
+{
+  "id": "05NLM",
+  "kind": "worksheet",
+  "title": "Newton's Laws of Motion",
+  "chapter_code": "05",
+  "note": "Take g = 10 m/s² unless stated otherwise.",
+  "source_file": "05NLM_v1.docx",
+  "sections": [
+    {
+      "topic_code": "0505",
+      "title": "Newton's Laws, Momentum & Impulse",
+      "problems": [
+        "P000284",
+        "P000285",
+        "P000286",
+        "P000287",
+        "P000288",
+        "P000289",
+        "P000290",
+        "P000291",
+        "P000292",
+        "P000293",
+        "P000294",
+        "P000295",
+        "P000296",
+        "P000297",
+        "P000298",
+        "P000299",
+        "P000300"
+      ]
+    },
+    {
+      "topic_code": "0510",
+      "title": "Free-Body Diagrams & Equilibrium of a Particle",
+      "problems": [
+        "P000301",
+        "P000302",
+        "P000303",
+        "P000304",
+        "P000305",
+        "P000306",
+        "P000307",
+        "P000308",
+        "P000309",
+        "P000310",
+        "P000311",
+        "P000312",
+        "P000313"
+      ]
+    },
+    {
+      "topic_code": "0515",
+      "title": "Single Accelerated Body: Smooth Inclines & Lifts",
+      "problems": [
+        "P000314",
+        "P000315",
+        "P000316",
+        "P000317",
+        "P000318",
+        "P000319",
+        "P000320",
+        "P000321",
+        "P000322",
+        "P000323"
+      ]
+    },
+    {
+      "topic_code": "0520",
+      "title": "Connected Bodies: Contact Forces & String Tension",
+      "problems": [
+        "P000324",
+        "P000325",
+        "P000326",
+        "P000327",
+        "P000328",
+        "P000329",
+        "P000330",
+        "P000331",
+        "P000332"
+      ]
+    },
+    {
+      "topic_code": "0525",
+      "title": "Pulley Systems",
+      "problems": [
+        "P000333",
+        "P000334",
+        "P000335",
+        "P000336",
+        "P000337",
+        "P000338",
+        "P000339",
+        "P000340",
+        "P000341",
+        "P000342",
+        "P000343",
+        "P000344",
+        "P000345",
+        "P000346",
+        "P000347",
+        "P000348",
+        "P000349",
+        "P000350"
+      ]
+    },
+    {
+      "topic_code": "0530",
+      "title": "Constraint Relations",
+      "problems": [
+        "P000351",
+        "P000352",
+        "P000353",
+        "P000354",
+        "P000355",
+        "P000356",
+        "P000357",
+        "P000358",
+        "P000359",
+        "P000360",
+        "P000361",
+        "P000362"
+      ]
+    },
+    {
+      "topic_code": "0535",
+      "title": "Spring Forces & Sudden Changes",
+      "problems": [
+        "P000363",
+        "P000364",
+        "P000365",
+        "P000366",
+        "P000367",
+        "P000368",
+        "P000369",
+        "P000370",
+        "P000371",
+        "P000372"
+      ]
+    },
+    {
+      "topic_code": "0540",
+      "title": "Pseudo Forces in Accelerated Frames",
+      "problems": [
+        "P000373",
+        "P000374",
+        "P000375",
+        "P000376",
+        "P000377",
+        "P000378"
+      ]
+    }
+  ]
+}

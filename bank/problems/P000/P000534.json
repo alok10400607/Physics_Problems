@@ -1,0 +1,45 @@
+{
+  "id": "P000534",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0835",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": "L2",
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A car of weight W is on an inclined road that rises by 10 m over a distance of 1 km. The road applies a constant frictional force W/20 on the car. While moving uphill on the road at a speed of 10 m/s, the car needs power P. If it needs power P/2 while moving downhill at speed v then the value of v is:",
+  "options": {
+    "A": "10 m/s",
+    "B": "7.5 m/s",
+    "C": "6 m/s",
+    "D": "5 m/s"
+  },
+  "answer": {
+    "keys": [
+      "B"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "08WPE_v2",
+      "qno": 95
+    }
+  ],
+  "assets": [],
+  "rights": "unverified",
+  "content_hash": "503c4837a7baf618",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

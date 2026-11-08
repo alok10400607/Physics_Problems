@@ -1,0 +1,45 @@
+{
+  "id": "P000406",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0710",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A string of length 10 cm breaks if its tension exceeds 10 newton. A stone of mass 250 g tied to this string, is rotated in a horizontal circle. The maximum angular velocity of rotation can be?",
+  "options": {
+    "A": "20 rad/s",
+    "B": "40 rad/s",
+    "C": "100 rad/s",
+    "D": "200 rad/s"
+  },
+  "answer": {
+    "keys": [
+      "A"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "07CM1_v2",
+      "qno": 28
+    }
+  ],
+  "assets": [],
+  "rights": "unverified",
+  "content_hash": "f34a8d90d20cf7b8",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

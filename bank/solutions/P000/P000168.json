@@ -1,0 +1,23 @@
+{
+  "id": "P000168",
+  "problem_version": 1,
+  "status": "draft",
+  "hints": [
+    "Other three represent a vertical projectile with instantaneous rest at highest point. Option C has max slope at mid-point (implying maximum speed) which doesn’t match with the rest"
+  ],
+  "worded": null,
+  "conventional": null,
+  "mistakes": [],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": null,
+    "date": "2026-11-08"
+  },
+  "reviewed_by": null
+}

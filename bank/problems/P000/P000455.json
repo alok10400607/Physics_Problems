@@ -1,0 +1,57 @@
+{
+  "id": "P000455",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0810",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000455-stem-1)A uniform chain of length L and mass m is hanging down vertically from a hook fixed to the roof. The work done by an external agent in slowly hooking the other end of the chain to the hook, as shown, is",
+  "options": {
+    "A": "$\\frac{mgL}{2}$",
+    "B": "$\\frac{mgL}{4}$",
+    "C": "$- \\frac{mgL}{2}$",
+    "D": "Zero"
+  },
+  "answer": {
+    "keys": [
+      "B"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "08WPE_v2",
+      "qno": 16
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000455-stem-1",
+      "role": "stem",
+      "file": "P000/P000455-stem-1.png",
+      "format": "png",
+      "width": 606,
+      "height": 393,
+      "alt": "A chain of length L hanging from a ceiling; in a second picture the chain is folded so that the hanging part is L/2 long.",
+      "origin": "docx",
+      "needs_redraw": false
+    }
+  ],
+  "rights": "unverified",
+  "content_hash": "67aabd739dde5b25",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

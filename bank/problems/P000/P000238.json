@@ -1,0 +1,57 @@
+{
+  "id": "P000238",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0425",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000238-stem-1)Time taken by the projectile to reach from A to B is t. Then the distance AB is equal to?",
+  "options": {
+    "A": "$ut$",
+    "B": "$\\sqrt{2}ut$",
+    "C": "$\\sqrt{3}ut$",
+    "D": "$\\frac{ut}{\\sqrt{3}}$"
+  },
+  "answer": {
+    "keys": [
+      "D"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "04MIP_v2",
+      "qno": 58
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000238-stem-1",
+      "role": "stem",
+      "file": "P000/P000238-stem-1.png",
+      "format": "png",
+      "width": 894,
+      "height": 728,
+      "alt": "A projectile launched from A with speed u at 60° to the horizontal lands at B on an incline that rises at 30° from A; C is the point on the ground directly below B.",
+      "origin": "docx",
+      "needs_redraw": false
+    }
+  ],
+  "rights": "unverified",
+  "content_hash": "04c1c99df2b69b7d",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

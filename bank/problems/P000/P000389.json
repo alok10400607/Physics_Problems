@@ -1,0 +1,45 @@
+{
+  "id": "P000389",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0705",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "If angular velocity of a particle depends on the angle rotated θ as ω = $\\theta^{2} + 2\\theta$, then its angular acceleration α at θ = 1 rad is :",
+  "options": {
+    "A": "8 rad/$s^{2}$",
+    "B": "10 rad/$s^{2}$",
+    "C": "12 rad/$s^{2}$",
+    "D": "None of these"
+  },
+  "answer": {
+    "keys": [
+      "C"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "07CM1_v2",
+      "qno": 11
+    }
+  ],
+  "assets": [],
+  "rights": "unverified",
+  "content_hash": "3966adf0c8b2019f",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

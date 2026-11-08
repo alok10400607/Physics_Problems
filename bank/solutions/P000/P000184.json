@@ -1,0 +1,23 @@
+{
+  "id": "P000184",
+  "problem_version": 1,
+  "status": "draft",
+  "hints": [
+    "> $\\overrightarrow{v}(2) = 2\\widehat{i} + 6\\widehat{j} + 9\\widehat{k}$ $\\tan \\alpha(x - axis):\\frac{\\sqrt{v_{y}^{2} + v_{z}^{2}}}{v_{x}}$"
+  ],
+  "worded": null,
+  "conventional": null,
+  "mistakes": [],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": null,
+    "date": "2026-11-08"
+  },
+  "reviewed_by": null
+}

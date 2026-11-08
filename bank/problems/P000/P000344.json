@@ -1,0 +1,57 @@
+{
+  "id": "P000344",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0525",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000344-stem-1)Three blocks A, B and C are connected by inextensible strings, are placed on a fixed wedge of inclination 30°. The contact surfaces are frictionless and the pulleys are frictionless and massless. Then choose correct statements:",
+  "options": {
+    "A": "The acceleration of block A is $\\frac{3g}{8}$",
+    "B": "Tension in the string 1 is $\\frac{11g}{4}$",
+    "C": "Tension in the string 2 is $\\frac{5g}{2}$",
+    "D": "All are correct"
+  },
+  "answer": {
+    "keys": [
+      "D"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "05NLM_v1",
+      "qno": 61
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000344-stem-1",
+      "role": "stem",
+      "file": "P000/P000344-stem-1.png",
+      "format": "png",
+      "width": 394,
+      "height": 286,
+      "alt": "Block B (2 kg) on an incline of 30°. String 1 runs from B over a pulley at the top to a hanging block C (2 kg). String 2 runs from B down the incline, over a pulley at the bottom, to a hanging block A (4 kg).",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
+  "rights": "unverified",
+  "content_hash": "d7a5043bd58ad166",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

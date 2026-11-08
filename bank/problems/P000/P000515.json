@@ -1,0 +1,60 @@
+{
+  "id": "P000515",
+  "status": "imported",
+  "version": 1,
+  "type": "integer",
+  "topic_code": "0830",
+  "concepts": [],
+  "exams": [
+    "JEE Main"
+  ],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000515-stem-1) As shown in the figure, a particle of mass 10kg is placed at a point A, which is 10 m above the horizontal surface; point B is 5 m above it. When the particle is slightly displaced towards right, it starts moving and reaches the point B. The speed of the particle at B is x m/s. The value of x to the nearest integer is",
+  "answer": {
+    "value": 10
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "08WPE_v2",
+      "qno": 76
+    },
+    {
+      "kind": "exam",
+      "exam": "JEE Main",
+      "date": "2021-03-18",
+      "shift": 1,
+      "mode": null,
+      "raw": "JEE Main 2021, 18 Mar, Shift 1",
+      "year": 2021
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000515-stem-1",
+      "role": "stem",
+      "file": "P000/P000515-stem-1.png",
+      "format": "png",
+      "width": 264,
+      "height": 141,
+      "alt": "A curved track from A, 10 m above the ground, dipping to B, 5 m above the ground, and rising to C on a horizontal surface.",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
+  "rights": "past-paper",
+  "content_hash": "986e251674870b12",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

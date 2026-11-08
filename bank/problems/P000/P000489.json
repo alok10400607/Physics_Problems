@@ -1,0 +1,57 @@
+{
+  "id": "P000489",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0820",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000489-stem-1)With what minimum velocity $v_{0}$ should block be projected from left end A towards end B such that it reaches the other end B of conveyor belt which is moving with constant velocity v ? Friction coefficient between block and belt is μ.",
+  "options": {
+    "A": "$2v$",
+    "B": "$\\sqrt{2\\mu gL}$",
+    "C": "$\\sqrt{\\mu gL}$",
+    "D": "$2\\sqrt{\\mu gL}$"
+  },
+  "answer": {
+    "keys": [
+      "B"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "08WPE_v2",
+      "qno": 50
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000489-stem-1",
+      "role": "stem",
+      "file": "P000/P000489-stem-1.png",
+      "format": "png",
+      "width": 244,
+      "height": 115,
+      "alt": "A conveyor belt of length L between rollers A and B, with its top moving left at speed v. A block of mass m placed at A moves right at v₀; the friction coefficient is μ.",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
+  "rights": "unverified",
+  "content_hash": "ca6843acc1c1cca7",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

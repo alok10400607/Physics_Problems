@@ -1,0 +1,23 @@
+{
+  "id": "P000257",
+  "problem_version": 1,
+  "status": "draft",
+  "hints": [
+    "> First gum ball will fall at $x = 0$, vertically below the starting position of the boy\n\n>\n\n> The second ball will be dropped when boy has travelled 1 m and moving with a speed of 2 m/s. The gum ball will fall at a further horizontal distance of $2\\sqrt{\\frac{2 \\times 0.8}{10}}$ = 0.8 m"
+  ],
+  "worded": null,
+  "conventional": null,
+  "mistakes": [],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": null,
+    "date": "2026-11-08"
+  },
+  "reviewed_by": null
+}

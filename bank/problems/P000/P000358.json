@@ -1,0 +1,50 @@
+{
+  "id": "P000358",
+  "status": "imported",
+  "version": 1,
+  "type": "integer",
+  "topic_code": "0530",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": "L2",
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000358-stem-1) In the arrangement shown in the figure $A = 1\\ kg$, and $B = 2\\ kg$. For what value of mass of block C will the block A move with a constant velocity. The friction on horizontal surface is negligible.",
+  "answer": {
+    "value": 8,
+    "unit": "kg"
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "05NLM_v1",
+      "qno": 75
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000358-stem-1",
+      "role": "stem",
+      "file": "P000/P000358-stem-1.png",
+      "format": "png",
+      "width": 464,
+      "height": 365,
+      "alt": "Block C on a horizontal table, joined by a string over a pulley at the table's edge to a movable pulley P; blocks A and B hang on either side of P.",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
+  "rights": "unverified",
+  "content_hash": "3a0e40b5aa015659",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

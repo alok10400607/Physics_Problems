@@ -1,0 +1,49 @@
+{
+  "id": "P000170",
+  "status": "imported",
+  "version": 1,
+  "type": "subjective",
+  "topic_code": "0335",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000170-stem-1)The velocity – displacement graph of a particle moving along x–axis is shown. The particle starts at t = 0 from the origin.\nThe equation of velocity and acceleration as function of position is?",
+  "answer": {
+    "text": "$$v = - \\frac{x}{4} + 10;a = \\frac{x}{16} - 5/2$$"
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "03MSL_v2",
+      "qno": 86
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000170-stem-1",
+      "role": "stem",
+      "file": "P000/P000170-stem-1.png",
+      "format": "png",
+      "width": 280,
+      "height": 213,
+      "alt": "Velocity v in m/s against position x in m: a straight line falling from 10 m/s at x = 0 to 0 at x = 40 m.",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
+  "rights": "unverified",
+  "content_hash": "fa96bc492d58bcc7",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

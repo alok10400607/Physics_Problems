@@ -1,0 +1,23 @@
+{
+  "id": "P000341",
+  "problem_version": 1,
+  "status": "draft",
+  "hints": [
+    "> Tension in the string connected to the ceiling = total mass suspended$\\times (g + a)$"
+  ],
+  "worded": null,
+  "conventional": null,
+  "mistakes": [],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": null,
+    "date": "2026-11-08"
+  },
+  "reviewed_by": null
+}

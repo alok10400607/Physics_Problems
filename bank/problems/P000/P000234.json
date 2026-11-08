@@ -1,0 +1,45 @@
+{
+  "id": "P000234",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0420",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A projectile thrown with velocity v making an angle θ with the horizontal. It just crosses the top of two poles, each of identical height h, after 1 s and 3 s respectively. The time of flight of the projectile will be?",
+  "options": {
+    "A": "6 sec",
+    "B": "5 sec",
+    "C": "4 sec",
+    "D": "3.5 sec"
+  },
+  "answer": {
+    "keys": [
+      "C"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "04MIP_v2",
+      "qno": 54
+    }
+  ],
+  "assets": [],
+  "rights": "unverified",
+  "content_hash": "96e72cab6b5d3703",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

@@ -1,0 +1,57 @@
+{
+  "id": "P000345",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0525",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000345-stem-1)Two blocks A and B, each having a mass of ‘m’ are placed as shown in the figure. The friction is negligible everywhere. The system is released from rest. Find the time taken for block A to have a displacement of 1 m?",
+  "options": {
+    "A": "1 s",
+    "B": "$\\sqrt{2/3}\\ s$",
+    "C": "$\\sqrt{3/2}\\ s$",
+    "D": "$\\sqrt{2}\\ s$"
+  },
+  "answer": {
+    "keys": [
+      "B"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "05NLM_v1",
+      "qno": 62
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000345-stem-1",
+      "role": "stem",
+      "file": "P000/P000345-stem-1.png",
+      "format": "png",
+      "width": 328,
+      "height": 164,
+      "alt": "Block B on an incline of 37°, joined by a string that passes over a pulley at the top of the incline and another at its foot to block A on the horizontal floor.",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
+  "rights": "unverified",
+  "content_hash": "7ecfc0a361ada5a3",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

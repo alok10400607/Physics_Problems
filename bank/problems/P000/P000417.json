@@ -1,0 +1,105 @@
+{
+  "id": "P000417",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0710",
+  "concepts": [],
+  "exams": [
+    "JEE Main"
+  ],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A uniform rod of length L is being rotated in a horizontal plane with a constant angular speed about an axis passing through one of its ends. If the tension generated in the rod due to rotation is T(x) at a distance x from the axis, then which of the following graphs depict it most closely:",
+  "options": {
+    "A": "![](asset:P000417-opt-A)",
+    "B": "![](asset:P000417-opt-B)",
+    "C": "![](asset:P000417-opt-C)",
+    "D": "![](asset:P000417-opt-D)"
+  },
+  "answer": {
+    "keys": [
+      "D"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "07CM1_v2",
+      "qno": 39
+    },
+    {
+      "kind": "exam",
+      "exam": "JEE Main",
+      "date": "2019-04-12",
+      "shift": 1,
+      "mode": null,
+      "raw": "JEE Main 2019, 12 Apr, Shift 1",
+      "year": 2019
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000417-opt-A",
+      "role": "option",
+      "file": "P000/P000417-opt-A.png",
+      "format": "png",
+      "width": 225,
+      "height": 169,
+      "alt": "Tension T(x) against x: constant from x = 0 to x = l.",
+      "origin": "docx",
+      "needs_redraw": true,
+      "option_key": "A"
+    },
+    {
+      "id": "P000417-opt-B",
+      "role": "option",
+      "file": "P000/P000417-opt-B.png",
+      "format": "png",
+      "width": 226,
+      "height": 169,
+      "alt": "Tension T(x) against x: rising from zero at x = 0 in a curve that flattens towards x = l.",
+      "origin": "docx",
+      "needs_redraw": true,
+      "option_key": "B"
+    },
+    {
+      "id": "P000417-opt-C",
+      "role": "option",
+      "file": "P000/P000417-opt-C.png",
+      "format": "png",
+      "width": 225,
+      "height": 169,
+      "alt": "Tension T(x) against x: a straight line falling from its largest value at x = 0 to zero at x = l.",
+      "origin": "docx",
+      "needs_redraw": true,
+      "option_key": "C"
+    },
+    {
+      "id": "P000417-opt-D",
+      "role": "option",
+      "file": "P000/P000417-opt-D.png",
+      "format": "png",
+      "width": 224,
+      "height": 170,
+      "alt": "Tension T(x) against x: a curve falling from its largest value at x = 0, slowly at first and then more steeply, to zero at x = l.",
+      "origin": "docx",
+      "needs_redraw": true,
+      "option_key": "D"
+    }
+  ],
+  "rights": "past-paper",
+  "content_hash": "ff17787a0253520f",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

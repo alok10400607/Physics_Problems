@@ -1,0 +1,23 @@
+{
+  "id": "P000360",
+  "problem_version": 1,
+  "status": "draft",
+  "hints": [
+    "> (Constraint equa: $a_{A} = a_{B}\\cos \\theta + v_{B}( - \\sin \\theta\\frac{d\\theta}{dt})$ )"
+  ],
+  "worded": null,
+  "conventional": null,
+  "mistakes": [],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": null,
+    "date": "2026-11-08"
+  },
+  "reviewed_by": null
+}

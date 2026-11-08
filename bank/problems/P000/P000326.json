@@ -1,0 +1,57 @@
+{
+  "id": "P000326",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0520",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000326-stem-1)Two blocks of mass 10 kg each are connected by a string of mass 0.1 kg. The entire arrangement is placed on a smooth surface and pulled by applying an external horizontal force of 20.1 N as shown. Find the tension at the right and left end of the string?",
+  "options": {
+    "A": "10 N, 10 N",
+    "B": "11 N, 10 N",
+    "C": "10.1 N, 9.9 N",
+    "D": "10.1 N, 10 N"
+  },
+  "answer": {
+    "keys": [
+      "D"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "05NLM_v1",
+      "qno": 43
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000326-stem-1",
+      "role": "stem",
+      "file": "P000/P000326-stem-1.png",
+      "format": "png",
+      "width": 502,
+      "height": 99,
+      "alt": "Two 10 kg blocks joined by a 0.1 kg rope on a horizontal surface; a 20.1 N force pulls the right-hand block to the right.",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
+  "rights": "unverified",
+  "content_hash": "543a98ed7b0c2340",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

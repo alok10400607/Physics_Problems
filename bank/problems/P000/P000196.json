@@ -1,0 +1,38 @@
+{
+  "id": "P000196",
+  "status": "imported",
+  "version": 1,
+  "type": "integer",
+  "topic_code": "0410",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "The greatest height to which a man can throw a stone is h. The greatest distance to which he can throw will be:",
+  "answer": {
+    "value": 2,
+    "unit": "h"
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "04MIP_v2",
+      "qno": 16
+    }
+  ],
+  "assets": [],
+  "rights": "unverified",
+  "content_hash": "94c40ef5af5b3dd1",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

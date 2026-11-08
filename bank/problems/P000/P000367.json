@@ -1,0 +1,57 @@
+{
+  "id": "P000367",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0535",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000367-stem-1)The spring mass system shown in the figure is in equilibrium. If the mass m is pulled down by a distance mg/3k from the position of equilibrium and released, its instantaneous acceleration will be",
+  "options": {
+    "A": "g/3 upward",
+    "B": "2g/3 downward",
+    "C": "g/3 downward",
+    "D": "2g/3 upward"
+  },
+  "answer": {
+    "keys": [
+      "A"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "05NLM_v1",
+      "qno": 84
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000367-stem-1",
+      "role": "stem",
+      "file": "P000/P000367-stem-1.png",
+      "format": "png",
+      "width": 133,
+      "height": 252,
+      "alt": "A mass m hanging from the ceiling by a spring of constant k.",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
+  "rights": "unverified",
+  "content_hash": "fc44c770ab29a503",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

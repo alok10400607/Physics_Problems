@@ -1,0 +1,57 @@
+{
+  "id": "P000371",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0535",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000371-stem-1)System shown in figure is in equilibrium and at rest. The spring and string are massless. Now the string is cut. The acceleration of mass 2 m and m just after the string is cut will be?",
+  "options": {
+    "A": "g/2 upwards, g downwards",
+    "B": "g upwards, g/2 downwards",
+    "C": "g upwards, 2g downwards",
+    "D": "2g upwards, g downwards"
+  },
+  "answer": {
+    "keys": [
+      "A"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "05NLM_v1",
+      "qno": 88
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000371-stem-1",
+      "role": "stem",
+      "file": "P000/P000371-stem-1.png",
+      "format": "png",
+      "width": 149,
+      "height": 348,
+      "alt": "A block of mass 2m hanging from the ceiling by a spring, with a block of mass m hanging below it by a string that is about to be cut (scissors shown).",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
+  "rights": "unverified",
+  "content_hash": "3ca2e5ace799ab46",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

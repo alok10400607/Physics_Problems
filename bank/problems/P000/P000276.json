@@ -1,0 +1,48 @@
+{
+  "id": "P000276",
+  "status": "imported",
+  "version": 1,
+  "type": "integer",
+  "topic_code": "0440",
+  "concepts": [],
+  "exams": [
+    "JEE Main"
+  ],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A swimmer can swim with velocity of 12 km/h in still water. Water flowing in the river has a velocity of 6 km/h. The direction with respect to the direction of flow of river water he should swim in order to reach the point on the other bank just opposite to his starting point is … (in degrees to the nearest integer)?",
+  "answer": {
+    "value": 120
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "04MIP_v2",
+      "qno": 96
+    },
+    {
+      "kind": "exam",
+      "exam": "JEE Main",
+      "date": "2021-03-16",
+      "shift": 2,
+      "mode": null,
+      "raw": "JEE Main 2021, 16 Mar, Shift 2",
+      "year": 2021
+    }
+  ],
+  "assets": [],
+  "rights": "past-paper",
+  "content_hash": "b92542ce9875a444",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

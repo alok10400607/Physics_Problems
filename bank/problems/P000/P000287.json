@@ -1,0 +1,56 @@
+{
+  "id": "P000287",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0505",
+  "concepts": [],
+  "exams": [
+    "JEE Main"
+  ],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A particle of mass M originally at rest is subjected to a force whose direction is constant but magnitude varies with time according to relation $F = F_{0}\\left\\lbrack 1 - \\left( \\frac{t - T}{T} \\right)^{2} \\right\\rbrack$; where $F_{0}$ and T are constants. The force acts only for a time interval 2T. The velocity v of the particle after time 2T is:",
+  "options": {
+    "A": "$\\frac{2F_{0}T}{M}$",
+    "B": "$\\frac{F_{0}T}{2M}$",
+    "C": "$\\frac{{4F}_{0}T}{3M}$",
+    "D": "$\\frac{F_{0}T}{3M}$"
+  },
+  "answer": {
+    "keys": [
+      "C"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "05NLM_v1",
+      "qno": 4
+    },
+    {
+      "kind": "exam",
+      "exam": "JEE Main",
+      "date": "2021-07-27",
+      "shift": 2,
+      "mode": null,
+      "raw": "JEE Main 2021, 27 Jul, Shift 2",
+      "year": 2021
+    }
+  ],
+  "assets": [],
+  "rights": "past-paper",
+  "content_hash": "f118e7a6c1a3d3db",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

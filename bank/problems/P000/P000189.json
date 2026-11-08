@@ -1,0 +1,37 @@
+{
+  "id": "P000189",
+  "status": "imported",
+  "version": 1,
+  "type": "subjective",
+  "topic_code": "0405",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A particle starts from the origin at t = 0 with a velocity of $\\overrightarrow{u} = 8\\widehat{j}$ m/s and moves in the xy plane with a constant acceleration of $\\overrightarrow{a} = 4\\widehat{i} + 2\\widehat{j}$ m/s<sup>2</sup>. At the instant the particle’s x–coordinate is 32 m, what are (i) its y–coordinate and (ii) its speed?",
+  "answer": {
+    "text": "48 m; 16$\\sqrt{2}$ m/s"
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "04MIP_v2",
+      "qno": 9
+    }
+  ],
+  "assets": [],
+  "rights": "unverified",
+  "content_hash": "3161322fe4dbe5b0",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

@@ -1,0 +1,60 @@
+{
+  "id": "P000215",
+  "status": "imported",
+  "version": 1,
+  "type": "integer",
+  "topic_code": "0410",
+  "concepts": [],
+  "exams": [
+    "JEE Main"
+  ],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000215-stem-1) The projectile motion of a particle of mass 5 g is shown in the figure. The initial velocity of the particle is $5\\sqrt{2}$ m/s and the air resistance is assumed to be negligible. The magnitude of change in momentum between points P and Q is $x \\times 10^{- 2}\\ kg - m/s$. The value of x to the nearest integer is:",
+  "answer": {
+    "value": 5
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "04MIP_v2",
+      "qno": 35
+    },
+    {
+      "kind": "exam",
+      "exam": "JEE Main",
+      "date": "2021-03-18",
+      "shift": 2,
+      "mode": null,
+      "raw": "JEE Main 2021, 18 Mar, Shift 2",
+      "year": 2021
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000215-stem-1",
+      "role": "stem",
+      "file": "P000/P000215-stem-1.png",
+      "format": "png",
+      "width": 189,
+      "height": 107,
+      "alt": "A projectile launched from P at 45° with velocity V, following an arc to land at Q on the same level, with a horizontal line drawn just above the top of the arc.",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
+  "rights": "past-paper",
+  "content_hash": "87c1c28b73c0cae5",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

@@ -1,0 +1,45 @@
+{
+  "id": "P000301",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0510",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "Ten coins are placed on top of each other on a horizontal table. If the mass of each coin is 10 g and acceleration due to gravity is 10 m/s<sup>2</sup>. What is the magnitude and direction of the force on the bottom surface of the 7<sup>th</sup> coin (counted from the bottom)?",
+  "options": {
+    "A": "0.3 N downwards",
+    "B": "0.3 N upwards",
+    "C": "0.4 N downwards",
+    "D": "0.4 N upwards"
+  },
+  "answer": {
+    "keys": [
+      "D"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "05NLM_v1",
+      "qno": 18
+    }
+  ],
+  "assets": [],
+  "rights": "unverified",
+  "content_hash": "ea2ad861e383df81",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

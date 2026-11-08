@@ -1,0 +1,57 @@
+{
+  "id": "P000407",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0710",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000407-stem-1)A mass m rotating freely in a horizontal circle of radius 1 m on a frictionless smooth table supports a stationary mass 2 m, attached to the other end of the string passing through smooth hole O in table, hanging vertically. Find the angular velocity of rotation.",
+  "options": {
+    "A": "$\\sqrt{g}$",
+    "B": "$\\sqrt{2g}$",
+    "C": "$\\sqrt{g/2}$",
+    "D": "$\\sqrt{3g}$"
+  },
+  "answer": {
+    "keys": [
+      "B"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "07CM1_v2",
+      "qno": 29
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000407-stem-1",
+      "role": "stem",
+      "file": "P000/P000407-stem-1.png",
+      "format": "png",
+      "width": 295,
+      "height": 169,
+      "alt": "A mass m moving in a circle on a smooth horizontal table, tied by a string through a hole O at the centre to a mass 2m hanging below.",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
+  "rights": "unverified",
+  "content_hash": "fd54b36bda20c36a",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

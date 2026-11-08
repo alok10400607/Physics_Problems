@@ -1,0 +1,45 @@
+{
+  "id": "P000499",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0820",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A locomotive of mass m starts moving such that its velocity varies as $v = K\\sqrt{s}$ , where K is a constant and s is the distance traversed. The total work done by all forces acting on the locomotive during the first t seconds after the start of motion is",
+  "options": {
+    "A": "$\\frac{1}{8}$m$K^{4}t^{2}$",
+    "B": "$\\frac{1}{8}$m$K^{2}t^{2}$",
+    "C": "$\\frac{1}{4}$m$K^{2}t^{2}$",
+    "D": "$\\frac{1}{4}$m$K^{4}t^{2}$"
+  },
+  "answer": {
+    "keys": [
+      "A"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "08WPE_v2",
+      "qno": 60
+    }
+  ],
+  "assets": [],
+  "rights": "unverified",
+  "content_hash": "c51209aa9af7a27a",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

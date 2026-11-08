@@ -1,0 +1,56 @@
+{
+  "id": "P000147",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0325",
+  "concepts": [],
+  "exams": [
+    "NEET"
+  ],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A particle moving along x-axis has acceleration f, at time t, given by $f = f_{o}(1 - \\frac{t}{T})$, where $f_{0}$ and T are constants. The particle at t = 0 has zero velocity. At the instant when f = 0, the particle's velocity is?",
+  "options": {
+    "A": "½ $f_{0}T$",
+    "B": "$f_{0}T$",
+    "C": "$\\frac{1}{2}f_{0}T^{2}$",
+    "D": "$f_{0}T^{2}$"
+  },
+  "answer": {
+    "keys": [
+      "A"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "03MSL_v2",
+      "qno": 63
+    },
+    {
+      "kind": "exam",
+      "exam": "AIPMT",
+      "date": null,
+      "shift": null,
+      "mode": null,
+      "raw": "AIPMT 2007",
+      "year": 2007
+    }
+  ],
+  "assets": [],
+  "rights": "past-paper",
+  "content_hash": "68df4f3a02d4218e",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

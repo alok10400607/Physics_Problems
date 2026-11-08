@@ -1,0 +1,57 @@
+{
+  "id": "P000334",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0525",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000334-stem-1)Three equal weights A, B and C of mass 2 kg each are hanging on a string passing over a fixed pulley which is frictionless as shown in figure. The tension in the string connecting weight B and C is?",
+  "options": {
+    "A": "zero",
+    "B": "2g/3",
+    "C": "4g/3",
+    "D": "g/2"
+  },
+  "answer": {
+    "keys": [
+      "C"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "05NLM_v1",
+      "qno": 51
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000334-stem-1",
+      "role": "stem",
+      "file": "P000/P000334-stem-1.png",
+      "format": "png",
+      "width": 138,
+      "height": 302,
+      "alt": "A fixed pulley with block A hanging on one side, and block B with block C hanging below it on the other side.",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
+  "rights": "unverified",
+  "content_hash": "0fe80b69c97524a0",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

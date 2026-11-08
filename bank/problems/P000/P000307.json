@@ -1,0 +1,57 @@
+{
+  "id": "P000307",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0510",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000307-stem-1)In the following figure, the pulley $P_{1}$ is fixed and the pulley $P_{2}$ is movable. If $W_{1} = W_{2} = 100N$, what is the angle $AP_{2}P_{1}$?. The pulleys are frictionless and assume equilibrium.",
+  "options": {
+    "A": "30°",
+    "B": "60°",
+    "C": "90°",
+    "D": "120°"
+  },
+  "answer": {
+    "keys": [
+      "D"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "05NLM_v1",
+      "qno": 24
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000307-stem-1",
+      "role": "stem",
+      "file": "P000/P000307-stem-1.png",
+      "format": "png",
+      "width": 400,
+      "height": 223,
+      "alt": "A string fixed to a wall at A passes under a movable pulley P₂ carrying weight W₂, then over a fixed pulley P₁ on the ceiling, and holds weight W₁ at its other end.",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
+  "rights": "unverified",
+  "content_hash": "36e95b86d3439628",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

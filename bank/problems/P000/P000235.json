@@ -1,0 +1,37 @@
+{
+  "id": "P000235",
+  "status": "imported",
+  "version": 1,
+  "type": "integer",
+  "topic_code": "0420",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "If a projectile is fired from a height h with an inclination of θ from the horizontal. It takes time T to reach a maximum height of H measured from the point of projection. It takes further time 2T to hit the ground, Then ratio h/H ?",
+  "answer": {
+    "value": 3
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "04MIP_v2",
+      "qno": 55
+    }
+  ],
+  "assets": [],
+  "rights": "unverified",
+  "content_hash": "cac3f16d2a70c8db",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

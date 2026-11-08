@@ -1,0 +1,57 @@
+{
+  "id": "P000481",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0820",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000481-stem-1)A block of mass 2 kg is free to move along the x-axis. It is at rest and from t = 0 onwards it is subjected to a time-dependent force F(t) in the x-direction. The force F(t) varies with t as shown in the figure. The work done by the force in time interval of 4.5 s is?",
+  "options": {
+    "A": "9/4 J",
+    "B": "81/16J",
+    "C": "81/64 J",
+    "D": "9/8 J"
+  },
+  "answer": {
+    "keys": [
+      "C"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "08WPE_v2",
+      "qno": 42
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000481-stem-1",
+      "role": "stem",
+      "file": "P000/P000481-stem-1.png",
+      "format": "png",
+      "width": 358,
+      "height": 240,
+      "alt": "Force F against time t in s: a straight line falling from 2 N at t = 0, crossing zero at 3 s and continuing below the axis to 4.5 s.",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
+  "rights": "unverified",
+  "content_hash": "95d6722a5dccdbb4",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

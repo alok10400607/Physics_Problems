@@ -1,0 +1,45 @@
+{
+  "id": "P000322",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0515",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A man slides down a light rope whose breaking strength is $\\eta$ (\\<1) times his weight. What should be his minimum acceleration so that the rope does not break?",
+  "options": {
+    "A": "$g(1 - \\ \\eta$ )",
+    "B": "$\\eta g$",
+    "C": "$\\frac{g}{1 + \\ \\eta}$",
+    "D": "$\\frac{g}{1 - \\ \\eta}$"
+  },
+  "answer": {
+    "keys": [
+      "A"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "05NLM_v1",
+      "qno": 39
+    }
+  ],
+  "assets": [],
+  "rights": "unverified",
+  "content_hash": "4db6a8551fd1b48b",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

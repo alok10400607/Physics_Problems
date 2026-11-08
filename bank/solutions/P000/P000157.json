@@ -1,0 +1,21 @@
+{
+  "id": "P000157",
+  "problem_version": 1,
+  "status": "draft",
+  "hints": [],
+  "worded": null,
+  "conventional": "> Average velocity during a time interval = (Displacement / time)\n\n>\n\n> $\\frac{dv}{dt} = a_{0}(1 - \\frac{t}{T})$; on integration $v = a_{0}(t - \\frac{t^{2}}{2T})$\n\n>\n\n> Further integration $\\mathrm{\\Delta}x = a_{0}\\frac{T^{2}}{3}$",
+  "mistakes": [],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": null,
+    "date": "2026-11-08"
+  },
+  "reviewed_by": null
+}

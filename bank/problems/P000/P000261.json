@@ -1,0 +1,56 @@
+{
+  "id": "P000261",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0435",
+  "concepts": [],
+  "exams": [
+    "JEE Main"
+  ],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A butterfly is flying with a velocity $4\\sqrt{2}$ m/s in north-east direction. Wind is slowly blowing at 1 m/s from North to South. The resultant displacement of the butterfly in 3 s is:",
+  "options": {
+    "A": "3 m",
+    "B": "20 m",
+    "C": "$12\\sqrt{2}$ m",
+    "D": "15 m"
+  },
+  "answer": {
+    "keys": [
+      "D"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "04MIP_v2",
+      "qno": 81
+    },
+    {
+      "kind": "exam",
+      "exam": "JEE Main",
+      "date": "2021-07-20",
+      "shift": 1,
+      "mode": null,
+      "raw": "JEE Main 2021, 20 Jul, Shift 1",
+      "year": 2021
+    }
+  ],
+  "assets": [],
+  "rights": "past-paper",
+  "content_hash": "6bf147c6bb17528b",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

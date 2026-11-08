@@ -1,0 +1,60 @@
+{
+  "id": "P000464",
+  "status": "imported",
+  "version": 1,
+  "type": "integer",
+  "topic_code": "0815",
+  "concepts": [],
+  "exams": [
+    "JEE Main"
+  ],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000464-stem-1) In a spring gun having spring constant 100 N/m, a small ball B of mass 100 g is put in its barrel by compressing the spring through 0.05m. There should be a box placed at a distance d on the ground so that the ball falls into it. If the ball leaves the gun horizontally at a height of 2m above the ground, then the value of d in m is",
+  "answer": {
+    "value": 1
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "08WPE_v2",
+      "qno": 25
+    },
+    {
+      "kind": "exam",
+      "exam": "JEE Main",
+      "date": "2021-07-20",
+      "shift": 1,
+      "mode": null,
+      "raw": "JEE Main 2021, 20 Jul, Shift 1",
+      "year": 2021
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000464-stem-1",
+      "role": "stem",
+      "file": "P000/P000464-stem-1.png",
+      "format": "png",
+      "width": 122,
+      "height": 163,
+      "alt": "A spring gun mounted 2 m above the ground, with a ball held against its compressed spring.",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
+  "rights": "past-paper",
+  "content_hash": "2f11b5e2a19294ff",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

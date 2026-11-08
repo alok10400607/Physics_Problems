@@ -1,0 +1,23 @@
+{
+  "id": "P000182",
+  "problem_version": 1,
+  "status": "draft",
+  "hints": [
+    "> Let the initial velocity be $2\\widehat{i}$ then acceleration: $\\widehat{i} + \\sqrt{3}\\widehat{j}$\n\n>\n\n> Final velocity: $4\\widehat{i} + 2\\sqrt{3}\\widehat{j}$ Average velocity: 3$\\widehat{i} + \\sqrt{3}\\widehat{j}$"
+  ],
+  "worded": null,
+  "conventional": null,
+  "mistakes": [],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": null,
+    "date": "2026-11-08"
+  },
+  "reviewed_by": null
+}

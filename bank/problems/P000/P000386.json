@@ -1,0 +1,56 @@
+{
+  "id": "P000386",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0705",
+  "concepts": [],
+  "exams": [
+    "NEET"
+  ],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A particle starts with angular acceleration 2 rad/sec<sup>2</sup>. It turns through 100 rad in a certain interval of 5 s. Find the time at which this interval starts.",
+  "options": {
+    "A": "7.5 sec",
+    "B": "4.5 sec",
+    "C": "5 sec",
+    "D": "6 sec"
+  },
+  "answer": {
+    "keys": [
+      "A"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "07CM1_v2",
+      "qno": 8
+    },
+    {
+      "kind": "exam",
+      "exam": "AIIMS",
+      "date": null,
+      "shift": null,
+      "mode": null,
+      "raw": "AIIMS 2016",
+      "year": 2016
+    }
+  ],
+  "assets": [],
+  "rights": "past-paper",
+  "content_hash": "974e8097f47c2399",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

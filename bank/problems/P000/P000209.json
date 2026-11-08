@@ -1,0 +1,56 @@
+{
+  "id": "P000209",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0410",
+  "concepts": [],
+  "exams": [
+    "JEE Main"
+  ],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "The trajectory of a projectile in a vertical plane is y = $\\alpha x - \\beta x^{2}$, where α and β are constants and x & y are respectively the horizontal and vertical distance of the projectile from the point of projection. The angle of projection θ and the maximum height attained H are respectively given by:",
+  "options": {
+    "A": "$\\tan^{- 1}\\alpha,\\frac{4\\alpha^{2}}{\\beta}$",
+    "B": "$\\tan^{- 1}\\beta,\\frac{\\alpha^{2}}{2\\beta}$",
+    "C": "$\\tan^{- 1}(\\frac{\\alpha}{\\beta}),\\frac{\\alpha^{2}}{\\beta}$",
+    "D": "$\\tan^{- 1}\\alpha,\\frac{\\alpha^{2}}{4\\beta}$"
+  },
+  "answer": {
+    "keys": [
+      "D"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "04MIP_v2",
+      "qno": 29
+    },
+    {
+      "kind": "exam",
+      "exam": "JEE Main",
+      "date": "2021-02-26",
+      "shift": 2,
+      "mode": null,
+      "raw": "JEE Main 2021, 26 Feb, Shift 2",
+      "year": 2021
+    }
+  ],
+  "assets": [],
+  "rights": "past-paper",
+  "content_hash": "8908326b9c502180",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

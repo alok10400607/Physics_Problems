@@ -1,0 +1,56 @@
+{
+  "id": "P000434",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0720",
+  "concepts": [],
+  "exams": [
+    "JEE Main"
+  ],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A modern grand-prix racing car of mass m is travelling on a flat track in a circular arc of radius R with a speed v. If the coefficient of static friction between the tyres and the track is $\\mu_{s}$; then the magnitude of negative lift $f_{L}$ acting downwards on the car is:",
+  "options": {
+    "A": "$m\\left( \\frac{v^{2}}{\\mu_{s}R} + g \\right)$",
+    "B": "$m\\left( \\frac{v^{2}}{\\mu_{s}R} - g \\right)$",
+    "C": "$m\\left( g - \\frac{v^{2}}{\\mu_{s}R} \\right)$",
+    "D": "$- m\\left( \\frac{v^{2}}{\\mu_{s}R} + g \\right)$"
+  },
+  "answer": {
+    "keys": [
+      "B"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "07CM1_v2",
+      "qno": 56
+    },
+    {
+      "kind": "exam",
+      "exam": "JEE Main",
+      "date": "2021-03-17",
+      "shift": 1,
+      "mode": null,
+      "raw": "JEE Main 2021, 17 Mar, Shift 1",
+      "year": 2021
+    }
+  ],
+  "assets": [],
+  "rights": "past-paper",
+  "content_hash": "d754c22f625807ce",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

@@ -1,0 +1,56 @@
+{
+  "id": "P000206",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0410",
+  "concepts": [],
+  "exams": [
+    "JEE Main"
+  ],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "The ranges and heights of two projectiles projected with the same initial velocity at angles $42{^\\circ}$ and $48{^\\circ}$ with the horizontal are $R_{1}$, $R_{2}$ and $H_{1}$, $H_{2}$ respectively. Choose the correct option:",
+  "options": {
+    "A": "$R_{1} > R_{2}$ and $H_{1} = H_{2}$",
+    "B": "$R_{1} = R_{2}$ and $H_{1} < H_{2}$",
+    "C": "$R_{1} < R_{2}$ and $H_{1} < H_{2}$",
+    "D": "$R_{1} = R_{2}$ and $H_{1} = H_{2}$"
+  },
+  "answer": {
+    "keys": [
+      "B"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "04MIP_v2",
+      "qno": 26
+    },
+    {
+      "kind": "exam",
+      "exam": "JEE Main",
+      "date": "2021-09-01",
+      "shift": 2,
+      "mode": null,
+      "raw": "JEE Main 2021, 1 Sep, Shift 2",
+      "year": 2021
+    }
+  ],
+  "assets": [],
+  "rights": "past-paper",
+  "content_hash": "ecc82723c0bd7fae",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

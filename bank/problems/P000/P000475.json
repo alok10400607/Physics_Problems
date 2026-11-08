@@ -1,0 +1,57 @@
+{
+  "id": "P000475",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0815",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": "L2",
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000475-stem-1) A ring of mass m can slide over a smooth vertical rod. The ring is connected to a spring of force constant K = 4mg/R where 2R is the natural length of the spring. The other end of the spring is fixed to the ground at a horizontal distance 2R from the base of the rod. The mass is released at a height of 1.5R from ground. Find the velocity of the ring when it reaches the ground.",
+  "options": {
+    "A": "$2\\sqrt{gR}$",
+    "B": "$2\\sqrt{2gR}$",
+    "C": "$\\sqrt{2gR}$",
+    "D": "$\\sqrt{gR}$"
+  },
+  "answer": {
+    "keys": [
+      "A"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "08WPE_v2",
+      "qno": 36
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000475-stem-1",
+      "role": "stem",
+      "file": "P000/P000475-stem-1.png",
+      "format": "png",
+      "width": 334,
+      "height": 234,
+      "alt": "A ring on a vertical pole at height 3R/2, joined by a spring to point A on the ground, a horizontal distance 2R from the pole.",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
+  "rights": "unverified",
+  "content_hash": "1905d45285a15cbc",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

@@ -1,0 +1,45 @@
+{
+  "id": "P000107",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0315",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A ball is projected vertically upwards with a velocity of 25 m/s from the bottom of a tower. A boy standing at the top of the tower is unable to catch the ball as it passes him in the upward direction. He catches the ball when it passes him again 3 seconds later. Find the height of the tower?",
+  "options": {
+    "A": "15 m",
+    "B": "20 m",
+    "C": "22.5 m",
+    "D": "25 m"
+  },
+  "answer": {
+    "keys": [
+      "B"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "03MSL_v2",
+      "qno": 23
+    }
+  ],
+  "assets": [],
+  "rights": "unverified",
+  "content_hash": "22d8b623aa99fba8",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

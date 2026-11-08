@@ -1,0 +1,45 @@
+{
+  "id": "P000512",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0825",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A small object of mass m moves in a circular orbit under attractive central force $F = - kr^{3}\\widehat{r}$. The radius of the orbit is a. If the PE at the centre is zero, then the total mechanical energy of the object is?",
+  "options": {
+    "A": "$\\frac{ka^{4}}{4}$",
+    "B": "$\\frac{ka^{3}}{4}$",
+    "C": "$\\frac{3ka^{4}}{4}$",
+    "D": "$\\frac{3ka^{3}}{4}$"
+  },
+  "answer": {
+    "keys": [
+      "C"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "08WPE_v2",
+      "qno": 73
+    }
+  ],
+  "assets": [],
+  "rights": "unverified",
+  "content_hash": "c1f23c542f2cf4de",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

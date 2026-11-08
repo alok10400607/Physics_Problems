@@ -1,0 +1,56 @@
+{
+  "id": "P000319",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0515",
+  "concepts": [],
+  "exams": [
+    "JEE Main"
+  ],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A small ball of mass m is thrown upwards with velocity u from the ground. The ball experiences a resistive force $kmv^{2}$, where v is the speed. The maximum height attained by the ball is:",
+  "options": {
+    "A": "$\\frac{1}{k}\\tan^{- 1}{(\\frac{ku^{2}}{2g})}$",
+    "B": "$\\frac{1}{2k}\\tan^{- 1}{(\\frac{ku^{2}}{g})}$",
+    "C": "$\\frac{1}{2k}\\ \\ln (1 + \\frac{ku^{2}}{g})$",
+    "D": "$\\frac{1}{k}\\ \\ln (1 + \\frac{ku^{2}}{2g})$"
+  },
+  "answer": {
+    "keys": [
+      "C"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "05NLM_v1",
+      "qno": 36
+    },
+    {
+      "kind": "exam",
+      "exam": "JEE Main",
+      "date": "2020-09-04",
+      "shift": 2,
+      "mode": null,
+      "raw": "JEE Main 2020, 4 Sep, Shift 2",
+      "year": 2020
+    }
+  ],
+  "assets": [],
+  "rights": "past-paper",
+  "content_hash": "6dcee60af38d5d76",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

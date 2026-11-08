@@ -1,0 +1,68 @@
+{
+  "id": "P000336",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0525",
+  "concepts": [],
+  "exams": [
+    "NEET"
+  ],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000336-stem-1) If $m_{1}$ = $m_{2} =$`<!-- -->`{=html}1 kg, then find out distance travelled by $m_{1}$ in first ½ sec:. Friction is negligible.",
+  "options": {
+    "A": "0.650 m",
+    "B": "0.625 m",
+    "C": "0.725 m",
+    "D": "0.525 m"
+  },
+  "answer": {
+    "keys": [
+      "B"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "05NLM_v1",
+      "qno": 53
+    },
+    {
+      "kind": "exam",
+      "exam": "AIIMS",
+      "date": null,
+      "shift": null,
+      "mode": null,
+      "raw": "AIIMS 2016",
+      "year": 2016
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000336-stem-1",
+      "role": "stem",
+      "file": "P000/P000336-stem-1.png",
+      "format": "png",
+      "width": 294,
+      "height": 193,
+      "alt": "Mass m₁ on a horizontal table, joined by a string over a pulley at the table's edge to mass m₂ hanging vertically.",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
+  "rights": "past-paper",
+  "content_hash": "b274af5f84df7e34",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

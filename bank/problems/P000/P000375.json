@@ -1,0 +1,57 @@
+{
+  "id": "P000375",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0540",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000375-stem-1)A block ‘m’ is placed on a smooth inclined plane moving horizontally with an acceleration of ‘g’. If the inclined length AC = 1 m, find the time taken by the block to reach from A to C.",
+  "options": {
+    "A": "1 s",
+    "B": "1.41 s",
+    "C": "0.87 s",
+    "D": "0.7 s"
+  },
+  "answer": {
+    "keys": [
+      "A"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "05NLM_v1",
+      "qno": 92
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000375-stem-1",
+      "role": "stem",
+      "file": "P000/P000375-stem-1.png",
+      "format": "png",
+      "width": 369,
+      "height": 233,
+      "alt": "A right-angled wedge ABC with the right angle at B; the incline CA makes 37° with the base at A. A block of mass m is on the incline near A, and the arrow for g points horizontally to the right.",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
+  "rights": "unverified",
+  "content_hash": "e48c3cc14dc32757",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

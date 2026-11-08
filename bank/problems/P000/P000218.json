@@ -1,0 +1,45 @@
+{
+  "id": "P000218",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0410",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "The horizontal range and maximum height attained by a projectile are R = 90 m and H = 45 m respectively. If a constant horizontal acceleration a = g/10 is imparted to the projectile due to wind in the direction of its horizontal component of motion, then its horizontal range and maximum height will be?",
+  "options": {
+    "A": "99 m and 45 m",
+    "B": "99 m and 42 m",
+    "C": "108 m and 45 m",
+    "D": "116 m and 50 m"
+  },
+  "answer": {
+    "keys": [
+      "C"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "04MIP_v2",
+      "qno": 38
+    }
+  ],
+  "assets": [],
+  "rights": "unverified",
+  "content_hash": "0d3485a16e9bd745",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

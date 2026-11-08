@@ -1,0 +1,45 @@
+{
+  "id": "P000436",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0720",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A cyclist is moving on a circular track of radius 80 m with a velocity of 72 km/h. He has to lean from the vertical approximately through an angle:",
+  "options": {
+    "A": "$\\tan^{- 1}(1/4)$",
+    "B": "$\\tan^{- 1}(1)$",
+    "C": "$\\tan^{- 1}(1/2)$",
+    "D": "$\\tan^{- 1}(2)$"
+  },
+  "answer": {
+    "keys": [
+      "C"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "07CM1_v2",
+      "qno": 58
+    }
+  ],
+  "assets": [],
+  "rights": "unverified",
+  "content_hash": "fcf4d660783d8425",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

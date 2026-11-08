@@ -1,0 +1,23 @@
+{
+  "id": "P000086",
+  "problem_version": 1,
+  "status": "draft",
+  "hints": [
+    "> Horizontal component of displacement is equal to half the perimeter"
+  ],
+  "worded": null,
+  "conventional": null,
+  "mistakes": [],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": null,
+    "date": "2026-11-08"
+  },
+  "reviewed_by": null
+}

@@ -1,0 +1,71 @@
+{
+  "id": "P000167",
+  "status": "imported",
+  "version": 1,
+  "type": "subjective",
+  "topic_code": "0335",
+  "concepts": [],
+  "exams": [
+    "JEE Main"
+  ],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000167-stem-1) If the velocity–time graph has the shape AMB, what would be the shape of the corresponding acceleration–time graph?\n![](asset:P000167-stem-2)",
+  "answer": {
+    "text": "B"
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "03MSL_v2",
+      "qno": 83
+    },
+    {
+      "kind": "exam",
+      "exam": "JEE Main",
+      "date": "2021-02-24",
+      "shift": 1,
+      "mode": null,
+      "raw": "JEE Main 2021, 24 Feb, Shift 1",
+      "year": 2021
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000167-stem-1",
+      "role": "stem",
+      "file": "P000/P000167-stem-1.png",
+      "format": "png",
+      "width": 185,
+      "height": 107,
+      "alt": "Velocity against time: straight segments zig-zag between a high value at A and B and a low point M below the time axis, with vertical lines marking equal time intervals.",
+      "origin": "docx",
+      "needs_redraw": true
+    },
+    {
+      "id": "P000167-stem-2",
+      "role": "stem",
+      "file": "P000/P000167-stem-2.png",
+      "format": "png",
+      "width": 897,
+      "height": 93,
+      "alt": "Four acceleration–time graphs labelled A to D: A a square wave alternating above and below the axis; B a step that is negative, then positive; C a wave-shaped curve; D a triangle above the axis.",
+      "origin": "docx",
+      "needs_redraw": false
+    }
+  ],
+  "rights": "past-paper",
+  "content_hash": "a5c97f65df2640b4",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

@@ -1,0 +1,57 @@
+{
+  "id": "P000401",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0705",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": "L2",
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000401-stem-1) The two rods AB, BC shown in the given system are of equal length of 3 m. The end A is placed on a roller at the same horizontal plane as end C. If end A is moved with a uniform horizontal velocity of 3 m/s and both rods are at $45{^\\circ}$ with the horizontal, then what will be the instantaneous angular velocity of rod BC?",
+  "options": {
+    "A": "$\\sqrt{2}\\ rad/s$",
+    "B": "$\\frac{1}{\\sqrt{2}}\\ rad/s$",
+    "C": "$\\sqrt{3}\\ rad/s$",
+    "D": "$3\\sqrt{2}\\ rad/s$"
+  },
+  "answer": {
+    "keys": [
+      "B"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "07CM1_v2",
+      "qno": 23
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000401-stem-1",
+      "role": "stem",
+      "file": "P000/P000401-stem-1.png",
+      "format": "png",
+      "width": 500,
+      "height": 232,
+      "alt": "Two rods AB and BC hinged at B, each at 45° to the ground. End C is pivoted on the ground; end A is on a roller moving left at 3 m/s.",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
+  "rights": "unverified",
+  "content_hash": "e915e469a43b82f3",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

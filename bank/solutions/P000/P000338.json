@@ -1,0 +1,23 @@
+{
+  "id": "P000338",
+  "problem_version": 1,
+  "status": "draft",
+  "hints": [
+    "> Acceleration a = 2; Tension in string connected to 1 kg: $1 \\times (10 + 2) = 12N$\n\n>\n\n> ![](/tmp/import-p0oookqh/media/image49.png){width=\"2.3618055555555557in\" height=\"0.7909722222222222in\"}Net force on $L/4$ (of mass 1.5 kg) = 3 N; hence tension = (12 + 3) = 15 N"
+  ],
+  "worded": null,
+  "conventional": null,
+  "mistakes": [],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": null,
+    "date": "2026-11-08"
+  },
+  "reviewed_by": null
+}

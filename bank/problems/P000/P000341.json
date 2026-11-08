@@ -1,0 +1,57 @@
+{
+  "id": "P000341",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0525",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000341-stem-1)A man is raising himself and the crate on which he stands with an acceleration of 5 $ms^{- 2}$ by a massless rope-and-pulley arrangement. Mass of the man is 100 kg and that of the crate is 50 kg. The tension in the rope is?",
+  "options": {
+    "A": "2250 N",
+    "B": "1125 N",
+    "C": "750 N",
+    "D": "375 N"
+  },
+  "answer": {
+    "keys": [
+      "B"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "05NLM_v1",
+      "qno": 58
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000341-stem-1",
+      "role": "stem",
+      "file": "P000/P000341-stem-1.png",
+      "format": "png",
+      "width": 214,
+      "height": 282,
+      "alt": "A man inside a box hanging from a fixed pulley pulls the rope that holds the box; the box moves up with acceleration 5 m/s².",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
+  "rights": "unverified",
+  "content_hash": "f7af708bcc0bf0f8",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

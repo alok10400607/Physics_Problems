@@ -1,0 +1,23 @@
+{
+  "id": "P000336",
+  "problem_version": 1,
+  "status": "draft",
+  "hints": [
+    "> Two blocks will have equal magnitude of acceleration; equivalent 1-D motion with component of forces along the direction of motion: Net external force $m_{2}g$; hence $a = \\frac{m_{2}g}{m_{1} + m_{2}}$\n\n>\n\n> ![](/tmp/import-p0oookqh/media/image43.png){width=\"3.1496062992125986in\" height=\"0.8858267716535433in\"}"
+  ],
+  "worded": null,
+  "conventional": null,
+  "mistakes": [],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": null,
+    "date": "2026-11-08"
+  },
+  "reviewed_by": null
+}

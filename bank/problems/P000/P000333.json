@@ -1,0 +1,49 @@
+{
+  "id": "P000333",
+  "status": "imported",
+  "version": 1,
+  "type": "subjective",
+  "topic_code": "0525",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000333-stem-1)Two masses $m_{1}\\ and\\ m_{2}$ ($m_{1} < \\ m_{2}$) are suspended from an ideal pulley through massless string as shown in the figure. If the system is released from rest, then:\n(i) Magnitude of acceleration\n(ii) Tension in the string\n(iii) Tension in the string connected to ceiling",
+  "answer": {
+    "text": "(i) $\\frac{\\left( m_{2} - m_{1} \\right)g}{m_{1} + m_{2}}$ (ii) $\\frac{\\left( 2m_{1}m_{2} \\right)g}{m_{1} + m_{2}}$ (iii) $\\frac{\\left( 4m_{1}m_{2} \\right)g}{m_{1} + m_{2}}$"
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "05NLM_v1",
+      "qno": 50
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000333-stem-1",
+      "role": "stem",
+      "file": "P000/P000333-stem-1.png",
+      "format": "png",
+      "width": 703,
+      "height": 369,
+      "alt": "Left: masses m₁ and m₂ hanging on either side of a fixed pulley, with acceleration a along the string. Right: the equivalent straight-line picture, with m₁ and m₂ joined by a string, forces m₁g and m₂g pulling in opposite directions, and acceleration a.",
+      "origin": "docx",
+      "needs_redraw": false
+    }
+  ],
+  "rights": "unverified",
+  "content_hash": "9d88a27ee80595b9",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

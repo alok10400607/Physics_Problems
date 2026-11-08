@@ -1,0 +1,45 @@
+{
+  "id": "P000262",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0435",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A woman travelling N at 10 km/h finds that wind appears to blow from West. When woman trebles her speed, the wind appears to blow from NW. Find the velocity of the wind. Assume $\\widehat{i}\\ $along east and $\\widehat{j}$ along north.",
+  "options": {
+    "A": "$20\\widehat{i} + 10\\widehat{j}$",
+    "B": "$- 20\\widehat{i} + 10\\widehat{j}$",
+    "C": "$10\\widehat{i} + 10\\widehat{j}$",
+    "D": "$20\\widehat{i} - 10\\widehat{j}$"
+  },
+  "answer": {
+    "keys": [
+      "A"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "04MIP_v2",
+      "qno": 82
+    }
+  ],
+  "assets": [],
+  "rights": "unverified",
+  "content_hash": "2c8359336b4c6407",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

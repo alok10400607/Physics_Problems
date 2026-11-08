@@ -1,0 +1,56 @@
+{
+  "id": "P000480",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0820",
+  "concepts": [],
+  "exams": [
+    "NEET"
+  ],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A block of mass 10 kg, moving in x direction with a constant speed of 10 m/s, is subjected to a retarding force F = $0.1x$ J/m during its travel from x = 20 m to 30 m. Its final KE will be :",
+  "options": {
+    "A": "450 J",
+    "B": "275 J",
+    "C": "250 J",
+    "D": "475 J"
+  },
+  "answer": {
+    "keys": [
+      "D"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "08WPE_v2",
+      "qno": 41
+    },
+    {
+      "kind": "exam",
+      "exam": "AIPMT",
+      "date": null,
+      "shift": null,
+      "mode": null,
+      "raw": "AIPMT 2015",
+      "year": 2015
+    }
+  ],
+  "assets": [],
+  "rights": "past-paper",
+  "content_hash": "5285971141b4a5c7",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

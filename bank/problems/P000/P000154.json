@@ -1,0 +1,37 @@
+{
+  "id": "P000154",
+  "status": "imported",
+  "version": 1,
+  "type": "subjective",
+  "topic_code": "0325",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A particle moves along x–axis according to given position function x(t) = 10 + t<sup>2</sup> – 10t.\n(i) The average velocity of particle in time interval from t = 0 to t = 10 seconds, is?\n(ii) The average speed of particle in time interval from t = 0 to t = 10 seconds is?",
+  "answer": {
+    "text": "0, 5"
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "03MSL_v2",
+      "qno": 70
+    }
+  ],
+  "assets": [],
+  "rights": "unverified",
+  "content_hash": "c002f1745f2210bd",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

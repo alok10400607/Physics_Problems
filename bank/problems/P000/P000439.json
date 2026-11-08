@@ -1,0 +1,56 @@
+{
+  "id": "P000439",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0720",
+  "concepts": [],
+  "exams": [
+    "JEE Main"
+  ],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "The normal reaction N for a vehicle of 800 kg mass negotiating a turn on a $30{^\\circ}$ banked road at maximum possible speed without skidding is ……$\\times 10^{3}$ N. (Take g = 9.8 m/s² and $\\mu_{s} = 0.2)$",
+  "options": {
+    "A": "10.2",
+    "B": "7.2",
+    "C": "12.4",
+    "D": "6.96"
+  },
+  "answer": {
+    "keys": [
+      "A"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "07CM1_v2",
+      "qno": 61
+    },
+    {
+      "kind": "exam",
+      "exam": "JEE Main",
+      "date": "2021-07-20",
+      "shift": 1,
+      "mode": null,
+      "raw": "JEE Main 2021, 20 Jul, Shift 1",
+      "year": 2021
+    }
+  ],
+  "assets": [],
+  "rights": "past-paper",
+  "content_hash": "0e3ae0b9349454df",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

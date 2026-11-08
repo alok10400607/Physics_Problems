@@ -1,0 +1,23 @@
+{
+  "id": "P000370",
+  "problem_version": 1,
+  "status": "draft",
+  "hints": [
+    "> Spring force of mg will act down the slope on A and up the slope on B."
+  ],
+  "worded": null,
+  "conventional": null,
+  "mistakes": [],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": null,
+    "date": "2026-11-08"
+  },
+  "reviewed_by": null
+}

@@ -1,0 +1,57 @@
+{
+  "id": "P000495",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0820",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000495-stem-1)A small ball of mass m starts at a point A at height ‘h’ with speed v<sub>0</sub> and moves along a frictionless track AB as shown. The track BC has coefficient of friction μ. The ball comes to stop at C after travelling a distance L which is?",
+  "options": {
+    "A": "$\\frac{h}{2\\mu} + \\frac{v_{0}^{2}}{2\\mu g}$",
+    "B": "$\\frac{2h}{\\mu} + \\frac{v_{0}^{2}}{2\\mu g}$",
+    "C": "$\\frac{h}{\\mu} + \\frac{v_{0}^{2}}{2\\mu g}$",
+    "D": "$\\frac{h}{2\\mu} + \\frac{v_{0}^{2}}{\\mu g}$"
+  },
+  "answer": {
+    "keys": [
+      "C"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "08WPE_v2",
+      "qno": 56
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000495-stem-1",
+      "role": "stem",
+      "file": "P000/P000495-stem-1.png",
+      "format": "png",
+      "width": 288,
+      "height": 190,
+      "alt": "A block at A on a curved track that descends to B and continues as a straight horizontal section of length L from B to C; the height of A above the horizontal section is marked.",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
+  "rights": "unverified",
+  "content_hash": "6fdabb8a5e02e6de",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

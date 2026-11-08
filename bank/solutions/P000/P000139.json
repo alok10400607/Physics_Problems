@@ -1,0 +1,21 @@
+{
+  "id": "P000139",
+  "problem_version": 1,
+  "status": "draft",
+  "hints": [],
+  "worded": null,
+  "conventional": "> The speed gained by ball A will be equal to speed lost by B at any instant\n\n>\n\n> If speed of B at the instant of collision is u, then speed of A will be 2u\n\n>\n\n> Speed of projection of B = u + Speed lost (2u) = 3u\n\n>\n\n> Average speed of A: u and average speed of B is 2u hence B will travel 2/3 of the distance",
+  "mistakes": [],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": null,
+    "date": "2026-11-08"
+  },
+  "reviewed_by": null
+}

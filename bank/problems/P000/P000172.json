@@ -1,0 +1,57 @@
+{
+  "id": "P000172",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0335",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000172-stem-1)Acceleration–time graph of a particle moving in a straight line is shown in the figure. Velocity of a particle at time t = 0 is 2 m/s. Find velocity at the end of fourth second.",
+  "options": {
+    "A": "16 m/s",
+    "B": "8 m/s",
+    "C": "10 m/s",
+    "D": "4 m/s"
+  },
+  "answer": {
+    "keys": [
+      "C"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "03MSL_v2",
+      "qno": 88
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000172-stem-1",
+      "role": "stem",
+      "file": "P000/P000172-stem-1.png",
+      "format": "png",
+      "width": 264,
+      "height": 220,
+      "alt": "Acceleration a in m/s² against time t in s: rises in a straight line from 0 to 4 m/s² at 2 s, then falls back to 0 at 4 s.",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
+  "rights": "unverified",
+  "content_hash": "6a2abaf2d378e413",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

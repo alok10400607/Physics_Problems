@@ -1,0 +1,56 @@
+{
+  "id": "P000478",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0820",
+  "concepts": [],
+  "exams": [
+    "JEE Main"
+  ],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A force acts on a 2 kg object, so that its position is given as function of time as $x = 3t^{2} + 5$. What is the work done by this force in first 5 seconds?",
+  "options": {
+    "A": "850J",
+    "B": "900J",
+    "C": "950J",
+    "D": "875J"
+  },
+  "answer": {
+    "keys": [
+      "B"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "08WPE_v2",
+      "qno": 39
+    },
+    {
+      "kind": "exam",
+      "exam": "JEE Main",
+      "date": "2019-01-09",
+      "shift": 2,
+      "mode": null,
+      "raw": "JEE Main 2019, 9 Jan, Shift 2",
+      "year": 2019
+    }
+  ],
+  "assets": [],
+  "rights": "past-paper",
+  "content_hash": "042d19ccb9144d5a",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

@@ -1,0 +1,57 @@
+{
+  "id": "P000304",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0510",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000304-stem-1)A sphere of mass m is placed between two smooth incline as shown in figure. N<sub>A</sub> & N<sub>B</sub> be the normal reaction at A and B, then the values of N<sub>A</sub> & N<sub>B</sub> respectively:",
+  "options": {
+    "A": "$\\frac{mg}{2};\\frac{mg}{2}$",
+    "B": "$\\frac{mg}{2};\\frac{\\sqrt{3}mg}{2}$",
+    "C": "$\\frac{\\sqrt{3}mg}{2};\\frac{mg}{2}$",
+    "D": "$\\frac{mg}{\\sqrt{2}};\\frac{\\sqrt{3}mg}{2}$"
+  },
+  "answer": {
+    "keys": [
+      "B"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "05NLM_v1",
+      "qno": 21
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000304-stem-1",
+      "role": "stem",
+      "file": "P000/P000304-stem-1.png",
+      "format": "png",
+      "width": 324,
+      "height": 266,
+      "alt": "A sphere of radius R resting in a V-shaped groove between two smooth walls inclined at 60° and 30° to the horizontal, touching them at A and B.",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
+  "rights": "unverified",
+  "content_hash": "5dbe488e9eaaaea7",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

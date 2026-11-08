@@ -1,0 +1,57 @@
+{
+  "id": "P000242",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0425",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000242-stem-1)A small sphere is projected with a velocity of 3 ms<sup>−1</sup> in a direction 60° from the horizontal y-axis, on the smooth inclined plane. The motion of sphere takes place in the x-y plane.\nFind time when the x-coordinate is maximum?",
+  "options": {
+    "A": "$\\frac{\\sqrt{3}}{g}$",
+    "B": "$\\frac{2\\sqrt{3}}{g}$",
+    "C": "$\\frac{\\sqrt{3}}{2g}$",
+    "D": "$\\frac{3\\sqrt{3}}{g}$"
+  },
+  "answer": {
+    "keys": [
+      "D"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "04MIP_v2",
+      "qno": 62
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000242-stem-1",
+      "role": "stem",
+      "file": "P000/P000242-stem-1.png",
+      "format": "png",
+      "width": 429,
+      "height": 187,
+      "alt": "A smooth incline at 30° to the horizontal. A particle on its surface is launched at 60° to the line Y across the incline; X points up the slope.",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
+  "rights": "unverified",
+  "content_hash": "6e541dc3a071a91a",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

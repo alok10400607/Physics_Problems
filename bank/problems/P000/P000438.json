@@ -1,0 +1,56 @@
+{
+  "id": "P000438",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0720",
+  "concepts": [],
+  "exams": [
+    "NEET"
+  ],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A car is negotiating a curved road of radius R. The road is banked at an angle θ. the coefficient of friction between the tyres of the car and the road is $\\mu_{s}$. The maximum safe velocity on this road is:",
+  "options": {
+    "A": "$\\sqrt{gR^{2}\\frac{\\mu_{s} + \\tan \\theta}{1 - \\mu_{s}\\tan \\theta}}$",
+    "B": "$\\sqrt{gR\\frac{\\mu_{s} + \\tan \\theta}{1 - \\mu_{s}\\tan \\theta}}$",
+    "C": "$\\sqrt{\\frac{g}{R}\\frac{\\mu_{s} + \\tan \\theta}{1 - \\mu_{s}\\tan \\theta}}$",
+    "D": "$\\sqrt{(g{/R}^{2})\\frac{\\mu_{s} + \\tan \\theta}{1 - \\mu_{s}\\tan \\theta}}$"
+  },
+  "answer": {
+    "keys": [
+      "B"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "07CM1_v2",
+      "qno": 60
+    },
+    {
+      "kind": "exam",
+      "exam": "NEET",
+      "date": null,
+      "shift": null,
+      "mode": null,
+      "raw": "NEET 2016",
+      "year": 2016
+    }
+  ],
+  "assets": [],
+  "rights": "past-paper",
+  "content_hash": "2844f1c5f3a2c591",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

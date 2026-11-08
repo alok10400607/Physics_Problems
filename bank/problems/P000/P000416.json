@@ -1,0 +1,56 @@
+{
+  "id": "P000416",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0710",
+  "concepts": [],
+  "exams": [
+    "NEET"
+  ],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A tube of length L is filled completely with an incompressible liquid of mass M and closed at both the ends. The tube is then rotated in a horizontal plane about one of its ends with a uniform angular velocity $\\omega$. The force exerted by the liquid at the other end is:",
+  "options": {
+    "A": "$\\frac{1}{2}ML\\omega^{2}$",
+    "B": "$\\frac{1}{2}ML^{2}\\omega$",
+    "C": "$ML\\omega^{2}$",
+    "D": "$\\frac{1}{2}ML^{2}\\omega^{2}$"
+  },
+  "answer": {
+    "keys": [
+      "A"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "07CM1_v2",
+      "qno": 38
+    },
+    {
+      "kind": "exam",
+      "exam": "AIPMT",
+      "date": null,
+      "shift": null,
+      "mode": null,
+      "raw": "AIPMT 2006",
+      "year": 2006
+    }
+  ],
+  "assets": [],
+  "rights": "past-paper",
+  "content_hash": "93a1df2384fd6959",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

@@ -1,0 +1,66 @@
+{
+  "id": "P000380",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0705",
+  "concepts": [],
+  "exams": [
+    "JEE Main",
+    "NEET"
+  ],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A particle moves so that its position vector is given by $\\overrightarrow{r} = \\cos \\omega t\\widehat{x} + \\sin \\omega t\\widehat{y}$. Where ω is a constant. Which of the following is true?",
+  "options": {
+    "A": "Velocity and acceleration both are perpendicular to $\\overrightarrow{r}$.",
+    "B": "Velocity and acceleration both are parallel to $\\overrightarrow{r}$",
+    "C": "Velocity is perpendicular to $\\overrightarrow{r}$ and acceleration is directed towards the origin",
+    "D": "Velocity is perpendicular to $\\overrightarrow{r}$ and acceleration is directed away from the origin"
+  },
+  "answer": {
+    "keys": [
+      "C"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "07CM1_v2",
+      "qno": 2
+    },
+    {
+      "kind": "exam",
+      "exam": "JEE Main",
+      "date": "2020-01-08",
+      "shift": 2,
+      "mode": null,
+      "raw": "JEE Main 2020, 8 Jan, Shift 2",
+      "year": 2020
+    },
+    {
+      "kind": "exam",
+      "exam": "NEET",
+      "date": null,
+      "shift": null,
+      "mode": null,
+      "raw": "NEET 2016",
+      "year": 2016
+    }
+  ],
+  "assets": [],
+  "rights": "past-paper",
+  "content_hash": "385721c7f9599f86",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}
