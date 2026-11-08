@@ -56,7 +56,14 @@ Fix any error before going further. Then look at two or three imported questions
 
 ## 6. Pull request
 
-Commit everything (bank files, site data, the map, the worksheet). Push the branch, and open a PR with `gh pr create`. The PR body holds:
+Commit everything (bank files, site data, the map, the worksheet). Push the branch, and open the PR through the REST API (`gh pr create` uses GraphQL, which is blocked in these sessions):
+
+```bash
+gh api repos/<owner>/<repo>/pulls -X POST -f title="Import <collection> (<first id>–<last id>)" \
+  -f head="import/<collection>" -f base="main" -F body=@<body.md> --jq '.number, .html_url'
+```
+
+The PR body holds:
 - counts: problems created (ID range), by type and by topic
 - blocking items fixed before import, warnings, auto-fixes, duplicates and how they were handled
 - figures marked `needs_redraw`
