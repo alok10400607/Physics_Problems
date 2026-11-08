@@ -27,6 +27,29 @@ When someone writes `@claude` with a request:
 
 Keep replies short: what changed, what still needs the owner.
 
+## Review requests from the review page
+
+Issues titled `Review: P000123 …` come from the review page. Their body ends with a JSON block, which is the exact agreed result:
+
+```json
+{"kind": "change" | "approve", "id": "P000123", "base": "<fingerprint>", "reviewer": "<name>",
+ "approve": true, "expert_level": 3, "instructions": ["…"], "fields": {"hints": [...], "worded": "...", "conventional": "...", "mistakes": [...]}}
+```
+
+To apply one:
+1. **Branch.** `git checkout main && git pull`, then `git checkout -b review/<id>-<issue number>`.
+2. **Check the base.** Run `node tools/solution_fingerprint.js <id>`. If the result differs from `base`, the solution changed after the reviewer opened the page: change nothing, and reply on the issue asking them to reopen the latest review page.
+3. **Apply the text exactly.** Write each key in `fields` into the solution file as given, without rewording. A missing key means "keep as is". `kind: "approve"` has no fields.
+4. **Check before saving.**
+   - `node tools/check_bank.js` must pass.
+   - The answer in the full solution must agree with the key. If it doesn't, still open the PR, but say so at the top; never change the key.
+   - If the three levels no longer agree with each other, say which in the PR. Don't fix it.
+5. **Approve if asked.** If `approve` is true:
+   - The solution gets `status: "reviewed"` and `reviewed_by: {"name": <reviewer>, "date": <today>, "notes": <instructions joined>}`.
+   - The problem gets `status: "reviewed"`, and `difficulty.expert` = `expert_level` (or `difficulty.ai` if absent).
+   Otherwise set the solution's status to `ai_solved`.
+6. **Open the PR.** Run `node tools/build_site.js`, commit, push, and open a PR titled `Review <id>: <short summary>` whose body says `Closes #<issue>`. Reply on the issue with the PR link.
+
 ## Tools
 
 | Command | Does |

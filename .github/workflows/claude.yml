@@ -38,6 +38,10 @@ jobs:
           GH_TOKEN: ${{ github.token }}
         with:
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          # Reviewers without write access to this repository can trigger Claude once their GitHub
+          # usernames are listed here (comma-separated) AND the github_token line below is enabled:
+          # allowed_non_write_users: "reviewer1,reviewer2"
+          # github_token: ${{ secrets.GITHUB_TOKEN }}
           claude_args: |
             --max-turns 200
             --allowedTools "Bash,Read,Write,Edit,Glob,Grep"
