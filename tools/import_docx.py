@@ -49,19 +49,29 @@ note = " ".join(l.strip().strip("*") for l in preamble.splitlines() if l.strip()
 # ---------- helpers ----------
 IMG = re.compile(r'!\[[^\]]*\]\(([^)]+)\)(\{[^}]*\})?')
 TAG = re.compile(r'\\\[([^\]]+?)\\\]')
-SRC = re.compile(r'^(JEE Main|AIEEE|IIT-JEE|JEE Advanced|NEET|AIPMT)\s+(\d{4})(?:,\s*(\d{1,2})\s+([A-Z][a-z]{2}))?(?:,\s*Shift\s*(\d))?(?:\s*\((Online|Offline)\))?$')
+SRC = re.compile(r'^(JEE Main|AIEEE|IIT-JEE|JEE Advanced|NEET|AIPMT|AIIMS)(?:\s+(\d{4}))?(?:,\s*(\d{1,2})\s+([A-Z][a-z]{2}))?(?:,\s*Shift\s*(\d))?(?:\s*\(([A-Za-z -]+)\))?$')
 MONTHS = {m: i for i, m in enumerate("Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec".split(), 1)}
-EXAM_RELEVANCE = {"JEE Main": "JEE Main", "AIEEE": "JEE Main", "IIT-JEE": "JEE Advanced", "JEE Advanced": "JEE Advanced", "NEET": "NEET", "AIPMT": "NEET"}
+EXAM_RELEVANCE = {"JEE Main": "JEE Main", "AIEEE": "JEE Main", "IIT-JEE": "JEE Advanced", "JEE Advanced": "JEE Advanced", "NEET": "NEET", "AIPMT": "NEET", "AIIMS": "NEET"}
 UNICODE_MATH = re.compile(r'[ρ√²³¹⁰⁴⁵⁶⁷⁸⁹⁻×−→≤≥≈∝πωθαβγλμσφΔΣΩ°]')
 
 def unescape(s):
     return re.sub(r'\\([\[\]()*_$])', r'\1', s).strip()
+
+UNI_TEX = {"µ": "\\mu ", "μ": "\\mu ", "¼": "\\frac{1}{4}", "½": "\\frac{1}{2}", "¾": "\\frac{3}{4}",
+           "×": "\\times ", "−": "-", "°": "^{\\circ}", "π": "\\pi ", "θ": "\\theta ", "ω": "\\omega ",
+           "α": "\\alpha ", "β": "\\beta ", "λ": "\\lambda ", "Δ": "\\Delta ", "≤": "\\le ", "≥": "\\ge "}
+
+def unescape_text(s):
+    """Remove Markdown escapes outside equations (inside them the backslashes are LaTeX)."""
+    parts = re.split(r'(\$\$[\s\S]+?\$\$|\$[^$]+\$)', s)
+    return "".join(x if x.startswith("$") else re.sub(r'\\([\[\]()*_#>`~-])', r'\1', x) for x in parts).strip()
 
 def fix_math(s, where):
     def fx(m):
         inner = m.group(1)
         new = re.sub(r'(?<![\\a-zA-Z])(sin|cos|tan|cot|sec|cosec|ln|log)(?=[\s(\\{a-zA-Z0-9])', r'\\\1 ', inner)
         new = re.sub(r'(?<=[A-Za-z0-9])(?<!\\)(sin|cos|tan)(?=[(\\0-9])', r'\\\1 ', new)
+        for u, tex in UNI_TEX.items(): new = new.replace(u, tex)
         if new != inner: fixes.append(f"{where}: `{inner}` → `{new}`")
         return "$" + new + "$"
     return re.sub(r'\$([^$]+)\$', fx, s)
@@ -74,13 +84,20 @@ def style_scan(s, where):
         return True  # maths typed as plain text
     return False
 
-def parse_source(t):
+def parse_one(t):
     m = SRC.match(t.strip())
     if not m: return None
     exam, year, day, mon, shift, mode = m.groups()
+    if day and (not year or mon not in MONTHS): return None
     date = f"{year}-{MONTHS[mon]:02d}-{int(day):02d}" if day else None
-    return {"kind": "exam", "exam": exam, "year": int(year), "date": date,
-            "shift": int(shift) if shift else None, "mode": mode, "raw": t.strip()}
+    rec = {"kind": "exam", "exam": exam, "date": date, "shift": int(shift) if shift else None, "mode": mode, "raw": t.strip()}
+    if year: rec["year"] = int(year)
+    return rec
+
+def parse_source(t):
+    """One tag may hold several sources separated by ';'. Returns a list, or None if any part is not a source."""
+    parts = [parse_one(x) for x in t.split(";")]
+    return parts if all(parts) else None
 
 def norm(s):
     s = IMG.sub("", s); s = re.sub(r'asset:\S+', '', s)
@@ -92,6 +109,7 @@ def chash(stem, options):
 # ---------- answer key ----------
 answers = {}
 for line in akey.splitlines():
+    line = line.replace("**", "").replace("|", "  ")
     if not re.match(r'\s*Q\d+', line): continue
     for qn, val in re.findall(r'Q(\d+)\s+(.*?)(?=\s{2,}Q\d+|\s*$)', line.strip()):
         n = int(qn)
@@ -115,15 +133,20 @@ def finish(q):
     if not q: return
     n, where = q["n"], f"Q{q['n']}"
     text_lines, opt_lines = [], []
+    OPT = r'(?:\\\(|\()[A-F](?:\\\)|\))'
+    lines = []
     for ln in q["lines"]:
-        (opt_lines if re.match(r'\\\([A-F]\\\)', ln) else text_lines).append(ln)
+        m = re.match(r'^((?:!\[[^\]]*\]\([^)]*\)(?:\{[^}]*\})?\s*)+)(' + OPT + r'.*)$', ln)
+        lines += [m.group(1).strip(), m.group(2)] if m else [ln]
+    for ln in lines:
+        (opt_lines if re.match(OPT, ln) else text_lines).append(ln)
     text = "\n\n".join(text_lines)
     # tags
     level, srcs, pid = None, [], None
     for t in TAG.findall(text):
         if re.fullmatch(r'L[1-6]', t): level = t
         elif re.fullmatch(r'P\d{6}', t): pid = t
-        elif parse_source(t): srcs.append(parse_source(t))
+        elif parse_source(t): srcs.extend(parse_source(t))
         else: warn(f"{where}: unrecognised tag [{t}] left in the text")
     text = TAG.sub(lambda m: "" if (re.fullmatch(r'L[1-6]|P\d{6}', m.group(1)) or parse_source(m.group(1))) else m.group(0), text)
     # figures in the stem, kept in place
@@ -137,7 +160,10 @@ def finish(q):
     # options
     opts = {}
     if opt_lines:
-        parts = re.split(r'(?:\\\(|\()([A-F])(?:\\\)|\))\s', " ".join(opt_lines))
+        joined = " ".join(opt_lines)
+        fixed = re.sub(r'(?<![\w(\\$])([A-D])\)(?=\s)', r'(\1)', joined)
+        if fixed != joined: fixes.append(f"{where}: option label written without '(' (e.g. 'B)') read as '(B)'"); joined = fixed
+        parts = re.split(r'(?:\\\(|\()([A-F])(?:\\\)|\))\s*', joined)
         for k, v in zip(parts[1::2], parts[2::2]):
             m = IMG.search(v)
             if m:
@@ -145,12 +171,19 @@ def finish(q):
                 opts[k] = f"![](asset:{{ID}}-opt-{k})"
             else:
                 opts[k] = fix_math(unescape(v), f"{where} option {k}")
+    if opts and all(not v.strip() for v in opts.values()):
+        opts = {k: f"Graph ({k}) in the figure" for k in opts}
+        warn(f"{where}: the four options are labels on one combined figure; consider splitting it into one picture per option")
+    for k, v in opts.items():
+        if not v.strip(): block(f"{where}: option {k} is empty")
     # answer
     raw = answers.get(n)
     if raw is None: block(f"{where}: no entry in the Answer Key")
     if opts:
         if len(opts) != 4: block(f"{where}: has {len(opts)} options; MCQs need exactly 4")
-        keys = [k.strip() for k in (raw or "").split(",")]
+        compact = re.sub(r'[\s,;&$]|and', '', raw or "")
+        if raw and "$" in raw and re.fullmatch(r'[A-D]+', compact): fixes.append(f"{where}: answer '{raw}' typed in an equation read as {compact}")
+        keys = list(compact) if re.fullmatch(r'[A-D]+', compact) else [raw or ""]
         if raw is not None and not all(re.fullmatch(r'[A-D]', k) for k in keys):
             block(f"{where}: MCQ answer '{raw}' is not a letter A–D")
         qtype = "mcq_multi" if len(keys) > 1 else "mcq_single"
@@ -159,6 +192,10 @@ def finish(q):
         qtype, answer = "integer", {"value": int(raw)}
     elif raw is not None and re.fullmatch(r'-?\d*\.\d+', raw):
         qtype, answer = "numerical", {"value": float(raw), "tolerance": 0.01}
+    elif raw is not None and (mu := re.fullmatch(r'(-?\d+(?:\.\d+)?)\s*(m|cm|mm|km|s|ms|h|min|m/s|cm/s|km/h|m/s2|m/s²|m/s\^2|N|kN|J|kJ|W|kW|hp|kg|g|rad|rad/s|rad/s²|rev|Hz|°|%|N/m)', raw.strip())):
+        v = float(mu.group(1)); unit = mu.group(2).replace("m/s2", "m/s²").replace("m/s^2", "m/s²")
+        qtype, answer = ("integer" if v.is_integer() and "." not in mu.group(1) else "numerical"), {"value": int(v) if v.is_integer() and "." not in mu.group(1) else v, "unit": unit}
+        if qtype == "numerical": answer["tolerance"] = 0.01
     else:
         qtype, answer = "subjective", {"text": fix_math(raw or "", f"{where} answer")}
     if len(set(opts.values())) < len(opts): block(f"{where}: two options are identical")
@@ -170,9 +207,10 @@ def finish(q):
     # worksheet hints
     sol = {}
     for kind, lines in extra.get(n, {}).items():
-        txt = fix_math("\n\n".join(lines), f"{where} {kind}")
+        txt = fix_math(unescape_text("\n\n".join(lines)), f"{where} {kind}")
         if kind == "hint": sol.setdefault("hints", []).append(txt)
         elif kind in ("think further", "extension"): sol["extension"] = txt
+        elif kind in ("solution", "full solution", "worked solution"): sol["conventional"] = txt
         else: warn(f"{where}: solution entry '{kind}' kept as extension text"); sol["extension"] = txt
     questions.append({"n": n, "pid": pid, "section": section, "type": qtype, "stem": stem, "options": opts,
                       "answer": answer, "level": level, "sources": srcs, "figs": figs, "sol": sol})
@@ -231,6 +269,7 @@ for x in questions:
             f["path"], ext = png, "png"
         f["format"] = "jpg" if ext == "jpeg" else ext
         if Image and f["format"] in ("png", "jpg", "webp"):
+            subprocess.run([sys.executable, "-I", str(ROOT / "tools" / "trim_figures.py"), "--file", str(f["path"])], check=False, capture_output=True)
             with Image.open(f["path"]) as im: f["w"], f["h"] = im.size
             if f["w"] < 600: f["lowres"] = True
         else:
@@ -367,7 +406,7 @@ for x in questions:
         if x["sol"]:
             write_json(BANK / "solutions" / pid[:4] / f"{pid}.json",
                        {"id": pid, "problem_version": 1, "status": "draft", "hints": x["sol"].get("hints", []),
-                        "worded": None, "conventional": None, "mistakes": [], "distractors": {},
+                        "worded": None, "conventional": x["sol"].get("conventional"), "mistakes": [], "distractors": {},
                         "extension": x["sol"].get("extension"), "check": {"issues": []},
                         "generated_by": {"author": "worksheet", "model": None, "prompt_version": None, "date": TODAY},
                         "reviewed_by": None})

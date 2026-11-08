@@ -1,0 +1,57 @@
+{
+  "id": "P000504",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0820",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": "L3",
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000504-stem-1) A body of mass m is slowly hauled up the hill as shown by a force F of varying magnitude but always directed along the tangent to the trajectory. Find the work done by force F if coefficient of friction is μ.",
+  "options": {
+    "A": "$mgh - \\mu mgL$",
+    "B": "$- mgh + \\mu mgL$",
+    "C": "$mgh + \\mu mgL$",
+    "D": "$- (mgh + \\mu mgL)$"
+  },
+  "answer": {
+    "keys": [
+      "C"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "08WPE_v2",
+      "qno": 65
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000504-stem-1",
+      "role": "stem",
+      "file": "P000/P000504-stem-1.png",
+      "format": "png",
+      "width": 317,
+      "height": 177,
+      "alt": "A block of mass m pulled along a curved track from A to B by a force F along the track; B is at height h and horizontal distance L from A.",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
+  "rights": "unverified",
+  "content_hash": "019ec2baa5e8baa6",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

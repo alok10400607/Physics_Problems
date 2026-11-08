@@ -1,0 +1,45 @@
+{
+  "id": "P000282",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0440",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": "L2",
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A river is flowing towards East with speed which varies as distance from the bank as $(5 + 0.05y)$ m/s, where $y$ is the distance from the bank. A boat having speed of 10 m/s in still water is rowed, always aiming towards North, starting from the bank. Find the drift it will have by the time it is 100 m from the bank?",
+  "options": {
+    "A": "25 m",
+    "B": "30 m",
+    "C": "50 m",
+    "D": "75 m"
+  },
+  "answer": {
+    "keys": [
+      "D"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "04MIP_v2",
+      "qno": 102
+    }
+  ],
+  "assets": [],
+  "rights": "unverified",
+  "content_hash": "2b61a1755defffe9",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

@@ -1,0 +1,48 @@
+{
+  "id": "P000376",
+  "status": "imported",
+  "version": 1,
+  "type": "integer",
+  "topic_code": "0540",
+  "concepts": [],
+  "exams": [
+    "JEE Main"
+  ],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A car is moving on a plane inclined at $30{^\\circ}$ to the horizontal with an acceleration of 10 m$s^{- 2}$ parallel to the plane upwards. A bob is suspended by a string from the roof of the car. The angle in degrees which the string makes with the vertical is?",
+  "answer": {
+    "value": 30
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "05NLM_v1",
+      "qno": 93
+    },
+    {
+      "kind": "exam",
+      "exam": "JEE Main",
+      "date": "2021-08-31",
+      "shift": 1,
+      "mode": null,
+      "raw": "JEE Main 2021, 31 Aug, Shift 1",
+      "year": 2021
+    }
+  ],
+  "assets": [],
+  "rights": "past-paper",
+  "content_hash": "07dcb6db05cec472",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

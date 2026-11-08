@@ -1,0 +1,37 @@
+{
+  "id": "P000266",
+  "status": "imported",
+  "version": 1,
+  "type": "integer",
+  "topic_code": "0435",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "Two particles having position vectors $\\overrightarrow{r_{1}} = (3\\ \\widehat{i} + 5\\ \\widehat{j})$ and $\\overrightarrow{r_{2}} = ( - 5\\ \\widehat{i} - 3\\ \\widehat{j})$m are moving with velocities $\\overrightarrow{v_{1}} = (4\\ \\widehat{i} + 3\\ \\widehat{j})$m/s and $\\overrightarrow{v_{2}} = (a\\ \\widehat{i} + 7\\ \\widehat{j})$ m/s. If they collide after 2 sec, the value of ‘a’ is?",
+  "answer": {
+    "value": 8
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "04MIP_v2",
+      "qno": 86
+    }
+  ],
+  "assets": [],
+  "rights": "unverified",
+  "content_hash": "be1fd79d68f0b6a2",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

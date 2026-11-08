@@ -1,0 +1,45 @@
+{
+  "id": "P000138",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0320",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": "L2",
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A car starts from rest and moves with uniform acceleration ‘a’ on a straight road from time t = 0 to t = T. After that, a constant deceleration of ‘b’ brings it to rest. In this process the average speed of the car is",
+  "options": {
+    "A": "$\\frac{aT}{4}$",
+    "B": "$\\frac{3aT}{2}$",
+    "C": "$\\frac{aT}{2}$",
+    "D": "Will depend on ‘b’"
+  },
+  "answer": {
+    "keys": [
+      "C"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "03MSL_v2",
+      "qno": 54
+    }
+  ],
+  "assets": [],
+  "rights": "unverified",
+  "content_hash": "d13815291fe23cbb",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

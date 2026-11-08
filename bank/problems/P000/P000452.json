@@ -1,0 +1,48 @@
+{
+  "id": "P000452",
+  "status": "imported",
+  "version": 1,
+  "type": "integer",
+  "topic_code": "0810",
+  "concepts": [],
+  "exams": [
+    "JEE Main"
+  ],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A force $F = (5y + 20)\\widehat{j}$ N acts on a particle. The work done by this force when the particle is moved from y = 0 to y = 10m is ….. J.",
+  "answer": {
+    "value": 450
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "08WPE_v2",
+      "qno": 13
+    },
+    {
+      "kind": "exam",
+      "exam": "JEE Main",
+      "date": "2021-07-25",
+      "shift": 2,
+      "mode": null,
+      "raw": "JEE Main 2021, 25 Jul, Shift 2",
+      "year": 2021
+    }
+  ],
+  "assets": [],
+  "rights": "past-paper",
+  "content_hash": "50d64079c10c7460",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

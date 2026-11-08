@@ -1,0 +1,57 @@
+{
+  "id": "P000331",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0520",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000331-stem-1)Two blocks of mass 2 kg and 4 kg are released from rest over a smooth inclined plane of inclination 30° as shown in figure. What is the normal force between the two blocks?",
+  "options": {
+    "A": "20 N",
+    "B": "10 N",
+    "C": "5 N",
+    "D": "zero"
+  },
+  "answer": {
+    "keys": [
+      "D"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "05NLM_v1",
+      "qno": 48
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000331-stem-1",
+      "role": "stem",
+      "file": "P000/P000331-stem-1.png",
+      "format": "png",
+      "width": 321,
+      "height": 202,
+      "alt": "Two blocks in contact on an incline of 30°: A (2 kg) below B (4 kg).",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
+  "rights": "unverified",
+  "content_hash": "f16007c2b89331ef",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

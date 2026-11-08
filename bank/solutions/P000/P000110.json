@@ -1,0 +1,21 @@
+{
+  "id": "P000110",
+  "problem_version": 1,
+  "status": "draft",
+  "hints": [],
+  "worded": null,
+  "conventional": "> The stone comes to a momentary rest and reverses its direction of motion at time $v_{0}/g$.\n\n>\n\n> Hence distance travelled = distance travelled during upward motion ( t = 0 to t = $\\frac{v_{0}}{g})$ =$\\frac{v_{0}^{2}}{2g}$\n\n>\n\n> \\+ distance fallen between time $v_{0}/g$ and $\\frac{{4v}_{0}}{3g} =$( $\\frac{1}{2}g\\left( \\frac{v_{0}}{3g} \\right)^{2})$",
+  "mistakes": [],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": null,
+    "date": "2026-11-08"
+  },
+  "reviewed_by": null
+}

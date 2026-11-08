@@ -1,0 +1,23 @@
+{
+  "id": "P000258",
+  "problem_version": 1,
+  "status": "draft",
+  "hints": [
+    "> Let x, y, and z axis be along East, North and Up direction;\n\n>\n\n> Initial velocity of the bullet = $5\\widehat{i} + 10\\widehat{j}$; Considering motion in vertical dir: $v_{z} = 4$"
+  ],
+  "worded": null,
+  "conventional": null,
+  "mistakes": [],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": null,
+    "date": "2026-11-08"
+  },
+  "reviewed_by": null
+}

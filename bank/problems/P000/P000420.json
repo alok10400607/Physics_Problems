@@ -1,0 +1,49 @@
+{
+  "id": "P000420",
+  "status": "imported",
+  "version": 1,
+  "type": "subjective",
+  "topic_code": "0710",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": "L2",
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000420-stem-1) A table with smooth horizontal surface is rotating with angular velocity of ω. A groove is made on the surface along the radius and a particle of mass m is placed in the groove at a distance ‘a’ from the center. Find the radial speed of the particle when its distance from the center becomes L.",
+  "answer": {
+    "text": "$$v^{2} = \\omega^{2}(L^{2} - a^{2})$$"
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "07CM1_v2",
+      "qno": 42
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000420-stem-1",
+      "role": "stem",
+      "file": "P000/P000420-stem-1.png",
+      "format": "png",
+      "width": 517,
+      "height": 514,
+      "alt": "A horizontal disc rotating with angular speed ω, with two radial grooves at right angles and a particle in each; one particle is a distance a from the centre.",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
+  "rights": "unverified",
+  "content_hash": "f6a65d5903f97c26",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

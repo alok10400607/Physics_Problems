@@ -1,0 +1,23 @@
+{
+  "id": "P000369",
+  "problem_version": 1,
+  "status": "draft",
+  "hints": [
+    "> In a very short time interval after release, the blocks will have no time to move, the extension of the spring will be negligible and hence the spring force will be zero (same as at the time of release). The tension in string will be equal to tension in the spring and hence zero. The two objects will have instantaneous free fall."
+  ],
+  "worded": null,
+  "conventional": null,
+  "mistakes": [],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": null,
+    "date": "2026-11-08"
+  },
+  "reviewed_by": null
+}

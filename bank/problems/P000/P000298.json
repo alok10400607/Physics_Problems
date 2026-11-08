@@ -1,0 +1,60 @@
+{
+  "id": "P000298",
+  "status": "imported",
+  "version": 1,
+  "type": "subjective",
+  "topic_code": "0505",
+  "concepts": [],
+  "exams": [
+    "JEE Main"
+  ],
+  "difficulty": {
+    "worksheet": "L2",
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000298-stem-1)  A ball is thrown vertically up (taken as +z axis) from the ground. The correct momentum-height (p-h) diagram is:",
+  "answer": {
+    "text": "D"
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "05NLM_v1",
+      "qno": 15
+    },
+    {
+      "kind": "exam",
+      "exam": "JEE Main",
+      "date": "2019-04-09",
+      "shift": 1,
+      "mode": null,
+      "raw": "JEE Main 2019, 9 Apr, Shift 1",
+      "year": 2019
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000298-stem-1",
+      "role": "stem",
+      "file": "P000/P000298-stem-1.png",
+      "format": "png",
+      "width": 453,
+      "height": 106,
+      "alt": "Four graphs of momentum p against height h, labelled (A) to (D), each with arrows showing the direction of travel.",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
+  "rights": "past-paper",
+  "content_hash": "960f5d1ef21d2955",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

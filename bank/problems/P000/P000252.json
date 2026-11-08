@@ -1,0 +1,57 @@
+{
+  "id": "P000252",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0430",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "Two stones are thrown up simultaneously from the edge of a cliff 240 m high with initial speed of 10 m/s and 40 m/s respectively. Which of the following graph best represents the time variation of relative position of the second stone with respect to the first?\n![](asset:P000252-stem-1)\n(Assume stones do not rebound after hitting the ground and neglect air resistance). (The figures are schematic and not drawn to scale)",
+  "options": {
+    "A": "Graph (A) in the figure",
+    "B": "Graph (B) in the figure",
+    "C": "Graph (C) in the figure",
+    "D": "Graph (D) in the figure"
+  },
+  "answer": {
+    "keys": [
+      "C"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "04MIP_v2",
+      "qno": 72
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000252-stem-1",
+      "role": "stem",
+      "file": "P000/P000252-stem-1.png",
+      "format": "png",
+      "width": 260,
+      "height": 157,
+      "alt": "Graph of (y₂ − y₁) in m against time t in s: rises in a straight line from 0 to 240 m at 8 s, then curves down to 0 at 12 s.",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
+  "rights": "unverified",
+  "content_hash": "94e101243a210dc5",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

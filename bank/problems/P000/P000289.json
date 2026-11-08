@@ -1,0 +1,45 @@
+{
+  "id": "P000289",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0505",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A ball of mass '*m*' is projected from the ground with a speed '*u'* at an angle 'α' with the horizontal. During the period it remains in air, the rate of change of momentum:",
+  "options": {
+    "A": "decreases till it reaches highest point and then increases",
+    "B": "increases till it reaches highest point and then decreases",
+    "C": "decreases continuously",
+    "D": "remains constant"
+  },
+  "answer": {
+    "keys": [
+      "D"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "05NLM_v1",
+      "qno": 6
+    }
+  ],
+  "assets": [],
+  "rights": "unverified",
+  "content_hash": "3ba9cfda15d88b68",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

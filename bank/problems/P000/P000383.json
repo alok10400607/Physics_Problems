@@ -1,0 +1,68 @@
+{
+  "id": "P000383",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0705",
+  "concepts": [],
+  "exams": [
+    "JEE Main"
+  ],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000383-stem-1) Two particles A and B are moving on concentric circles of radii $R_{1}$ and $R_{2}$ with equal angular speed ω. At t = 0, their positions and the directions of motion are as shown in the figure. The relative velocity $\\overrightarrow{v_{A}} - \\ \\overrightarrow{v_{B}}$ at t = $\\pi/2\\omega$ is given by:",
+  "options": {
+    "A": "$\\omega(R_{1} + R_{2})\\widehat{i}$",
+    "B": "$- \\omega(R_{1} + R_{2})\\widehat{i}$",
+    "C": "$\\omega(R_{1} - R_{2})\\widehat{i}$",
+    "D": "$\\omega(R_{2} - R_{1})\\widehat{i}$"
+  },
+  "answer": {
+    "keys": [
+      "D"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "07CM1_v2",
+      "qno": 5
+    },
+    {
+      "kind": "exam",
+      "exam": "JEE Main",
+      "date": "2019-01-12",
+      "shift": 2,
+      "mode": null,
+      "raw": "JEE Main 2019, 12 Jan, Shift 2",
+      "year": 2019
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000383-stem-1",
+      "role": "stem",
+      "file": "P000/P000383-stem-1.png",
+      "format": "png",
+      "width": 177,
+      "height": 152,
+      "alt": "Two concentric circles of radii R₁ and R₂ about the origin. Particle A on the inner circle has velocity v_A upwards and particle B on the outer circle has velocity v_B downwards, both on the x-axis.",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
+  "rights": "past-paper",
+  "content_hash": "65019d4e856cf810",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

@@ -1,0 +1,38 @@
+{
+  "id": "P000094",
+  "status": "imported",
+  "version": 1,
+  "type": "integer",
+  "topic_code": "0305",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": "L2",
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "There is a room of size 2 m × 2 m and of height 3 m. An ant is at one corner of the room on the floor and it wants to reach the opposite corner on the roof. If the ant travels only along the vertical walls, find the minimum distance it has to travel to reach diagonally opposite corner?",
+  "answer": {
+    "value": 5,
+    "unit": "m"
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "03MSL_v2",
+      "qno": 10
+    }
+  ],
+  "assets": [],
+  "rights": "unverified",
+  "content_hash": "842faf27b5bf642b",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

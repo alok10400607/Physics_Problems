@@ -1,0 +1,45 @@
+{
+  "id": "P000410",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0710",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "One end of ideal spring of k= 100N/m and natural length of 0.5 m is fixed and other end is connected to a particle of mass 0.5 kg lying on a frictionless horizontal surface. If the mass is made to rotate in horizontal plane with angular velocity of 2 rad/sec, the elongation of the spring will be approximately be equal to?",
+  "options": {
+    "A": "1 cm",
+    "B": "4 cm",
+    "C": "10 cm",
+    "D": "20 cm"
+  },
+  "answer": {
+    "keys": [
+      "A"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "07CM1_v2",
+      "qno": 32
+    }
+  ],
+  "assets": [],
+  "rights": "unverified",
+  "content_hash": "d5e2665e342f44b7",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

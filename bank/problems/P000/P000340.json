@@ -1,0 +1,57 @@
+{
+  "id": "P000340",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0525",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000340-stem-1)What force must man exert on rope to keep platform in equilibrium?",
+  "options": {
+    "A": "500 N",
+    "B": "500/3 N",
+    "C": "900 N",
+    "D": "300 N"
+  },
+  "answer": {
+    "keys": [
+      "D"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "05NLM_v1",
+      "qno": 57
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000340-stem-1",
+      "role": "stem",
+      "file": "P000/P000340-stem-1.png",
+      "format": "png",
+      "width": 222,
+      "height": 261,
+      "alt": "A 50 kg man standing on a 40 kg platform pulls a rope that passes over pulleys attached to the ceiling and to the platform.",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
+  "rights": "unverified",
+  "content_hash": "c0628d1f37b678c1",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

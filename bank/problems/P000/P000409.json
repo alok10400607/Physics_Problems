@@ -1,0 +1,57 @@
+{
+  "id": "P000409",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0710",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000409-stem-1)Two different masses $M_{1} = 0.25kg$ and $M_{2} = 1kg$ are connected to two massless strings as shown in the figure. Both the masses rotate about a central fixed point with angular velocity 10 rad/s on a smooth horizontal plane. The ratio of tension $T_{1}$/$T_{2}$ in the string is?",
+  "options": {
+    "A": "1/8",
+    "B": "¼",
+    "C": "5/4",
+    "D": "9/8"
+  },
+  "answer": {
+    "keys": [
+      "D"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "07CM1_v2",
+      "qno": 31
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000409-stem-1",
+      "role": "stem",
+      "file": "P000/P000409-stem-1.png",
+      "format": "png",
+      "width": 254,
+      "height": 229,
+      "alt": "Two masses rotating about a centre: M₁ at 5 cm and M₂ at 10 cm, joined to the centre and to each other by strings with tensions T₁ and T₂.",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
+  "rights": "unverified",
+  "content_hash": "48379d93e055ab1e",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

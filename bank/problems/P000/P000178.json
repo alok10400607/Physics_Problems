@@ -1,0 +1,45 @@
+{
+  "id": "P000178",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0340",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A man in a balloon, throws a stone downwards with a speed of 4 m/s with respect to balloon. The balloon is moving upwards with a constant acceleration of 5 m/$s^{2}$ . What will the distance between the stone and the balloon after 2 seconds?",
+  "options": {
+    "A": "8 m",
+    "B": "18 m",
+    "C": "28 m",
+    "D": "38 m"
+  },
+  "answer": {
+    "keys": [
+      "D"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "03MSL_v2",
+      "qno": 94
+    }
+  ],
+  "assets": [],
+  "rights": "unverified",
+  "content_hash": "d42ebfdecc3dd6fd",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "P000244",
+  "problem_version": 1,
+  "status": "draft",
+  "hints": [
+    "Similar to Q59, the angle of projection for it to strike the plane horizontally $\\tan \\alpha = 2\\tan 37{^\\circ} = \\frac{3}{2}$\n\nHence $u_{y} = \\frac{3u}{2}$; time to strike the plane = $\\frac{u_{y}}{g}$"
+  ],
+  "worded": null,
+  "conventional": null,
+  "mistakes": [],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": null,
+    "date": "2026-11-08"
+  },
+  "reviewed_by": null
+}

@@ -1,0 +1,21 @@
+{
+  "id": "P000299",
+  "problem_version": 1,
+  "status": "draft",
+  "hints": [],
+  "worded": null,
+  "conventional": null,
+  "mistakes": [],
+  "distractors": {},
+  "extension": "> (If the water splashes along the surface of the plate, then the force will be? Answer: Option D)",
+  "check": {
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": null,
+    "date": "2026-11-08"
+  },
+  "reviewed_by": null
+}

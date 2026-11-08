@@ -1,0 +1,45 @@
+{
+  "id": "P000222",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0410",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": "L2",
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A boy throws a ball upwards with velocity v<sub>0</sub> = 20 m/s. The wind imparts a horizontal acceleration of 4 m/s<sup>2</sup> to the west. The angle θ with the vertical the ball must be thrown so that the ball returns to the boy’s hand is?",
+  "options": {
+    "A": "$\\tan^{- 1}5$",
+    "B": "$\\tan^{- 1}{(0.2)}$",
+    "C": "$\\tan^{- 1}{(0.4)}$",
+    "D": "$\\tan^{- 1}{(0.25)}$"
+  },
+  "answer": {
+    "keys": [
+      "C"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "04MIP_v2",
+      "qno": 42
+    }
+  ],
+  "assets": [],
+  "rights": "unverified",
+  "content_hash": "44d58fac6dce7cf9",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

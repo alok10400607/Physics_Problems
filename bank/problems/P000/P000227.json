@@ -1,0 +1,45 @@
+{
+  "id": "P000227",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0415",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "Two tall buildings are 30 m apart. The speed with which a ball must be thrown horizontally from a window 150 m above the ground in one building so that it enters a window 25 m above from the ground in the other building?",
+  "options": {
+    "A": "4 m/s",
+    "B": "6 m/s",
+    "C": "8 m/s",
+    "D": "9 m/s"
+  },
+  "answer": {
+    "keys": [
+      "B"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "04MIP_v2",
+      "qno": 47
+    }
+  ],
+  "assets": [],
+  "rights": "unverified",
+  "content_hash": "04d8a50872c6126b",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

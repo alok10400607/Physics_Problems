@@ -1,0 +1,23 @@
+{
+  "id": "P000208",
+  "problem_version": 1,
+  "status": "draft",
+  "hints": [
+    "> $t_{1} = \\frac{2u\\sin \\alpha}{g}$; $t_{2} = \\frac{2u\\sin (90 - \\alpha)}{g} = \\frac{2u\\cos \\alpha}{g}$ and $R = \\frac{2u\\sin \\alpha \\cos \\alpha}{g}$"
+  ],
+  "worded": null,
+  "conventional": null,
+  "mistakes": [],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": null,
+    "date": "2026-11-08"
+  },
+  "reviewed_by": null
+}

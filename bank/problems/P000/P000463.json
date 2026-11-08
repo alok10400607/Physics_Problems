@@ -1,0 +1,57 @@
+{
+  "id": "P000463",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0815",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000463-stem-1)A light pulley hangs from a spring of force constant k. Two blocks, each of mass m, hang from a light string passing over the pulley; the right block is tied to the floor by a string. The system is in equilibrium. The potential energy stored in the spring is",
+  "options": {
+    "A": "$\\frac{2m^{2}g^{2}}{k}$",
+    "B": "$\\frac{m^{2}g^{2}}{2k}$",
+    "C": "$\\frac{4m^{2}g^{2}}{k}$",
+    "D": "$\\frac{m^{2}g^{2}}{4k}$"
+  },
+  "answer": {
+    "keys": [
+      "A"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "08WPE_v2",
+      "qno": 24
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000463-stem-1",
+      "role": "stem",
+      "file": "P000/P000463-stem-1.png",
+      "format": "png",
+      "width": 125,
+      "height": 315,
+      "alt": "A pulley hanging from the ceiling by a spring of constant k, with equal masses m on either side; the right-hand mass rests on the floor.",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
+  "rights": "unverified",
+  "content_hash": "a58644bbcb9d441b",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

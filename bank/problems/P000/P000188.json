@@ -1,0 +1,45 @@
+{
+  "id": "P000188",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0405",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "The position vector of a particle is given as $\\overrightarrow{r} = \\left( t^{2} - 4t + 6 \\right)\\widehat{i} + (t^{2})\\widehat{j}$. The time ‘t’ when the velocity vector and acceleration vector become perpendicular to each other is?",
+  "options": {
+    "A": "1 sec",
+    "B": "1.5 sec",
+    "C": "2 sec",
+    "D": "never"
+  },
+  "answer": {
+    "keys": [
+      "A"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "04MIP_v2",
+      "qno": 8
+    }
+  ],
+  "assets": [],
+  "rights": "unverified",
+  "content_hash": "288e63876a2c9687",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

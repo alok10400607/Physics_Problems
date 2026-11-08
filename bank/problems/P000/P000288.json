@@ -1,0 +1,45 @@
+{
+  "id": "P000288",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0505",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A ball of mass '*m*' is projected from the ground with a speed '*u'* at an angle 'α' with the horizontal. The magnitude of the change in momentum of the ball over a time interval from beginning till it reaches the highest point?",
+  "options": {
+    "A": "$2mu\\sin \\alpha$",
+    "B": "$mu\\sin \\alpha$",
+    "C": "$mu\\cos \\alpha$",
+    "D": "$2mu\\cos \\alpha$"
+  },
+  "answer": {
+    "keys": [
+      "B"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "05NLM_v1",
+      "qno": 5
+    }
+  ],
+  "assets": [],
+  "rights": "unverified",
+  "content_hash": "3f490795445a3761",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

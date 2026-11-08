@@ -1,0 +1,45 @@
+{
+  "id": "P000519",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0835",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A car of mass 2000 kg is moving up a smooth inclined plane with a velocity of 72 km/h utilizing its full power. If the rated power of the engine is 8 kW, the gradient of the incline is",
+  "options": {
+    "A": "1 in 100",
+    "B": "1 in 50",
+    "C": "1 in 33",
+    "D": "1 in 25"
+  },
+  "answer": {
+    "keys": [
+      "B"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "08WPE_v2",
+      "qno": 80
+    }
+  ],
+  "assets": [],
+  "rights": "unverified",
+  "content_hash": "72a767d3b7e91310",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

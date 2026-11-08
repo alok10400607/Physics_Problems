@@ -1,0 +1,56 @@
+{
+  "id": "P000524",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0835",
+  "concepts": [],
+  "exams": [
+    "JEE Main"
+  ],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "An automobile of mass m accelerates from origin and initially at rest while the engine supplies constant power P. The position is given as function of time as:",
+  "options": {
+    "A": "$\\left( \\frac{9P}{8m} \\right)^{\\frac{1}{2}}t^{\\frac{3}{2}}$",
+    "B": "$\\left( \\frac{8P}{9m} \\right)^{\\frac{1}{2}}t^{\\frac{2}{3}}$",
+    "C": "$\\left( \\frac{9m}{8P} \\right)^{\\frac{1}{2}}t^{\\frac{3}{2}}$",
+    "D": "$\\left( \\frac{8P}{9m} \\right)^{\\frac{1}{2}}t^{\\frac{3}{2}}$"
+  },
+  "answer": {
+    "keys": [
+      "D"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "08WPE_v2",
+      "qno": 85
+    },
+    {
+      "kind": "exam",
+      "exam": "JEE Main",
+      "date": "2021-07-27",
+      "shift": 2,
+      "mode": null,
+      "raw": "JEE Main 2021, 27 Jul, Shift 2",
+      "year": 2021
+    }
+  ],
+  "assets": [],
+  "rights": "past-paper",
+  "content_hash": "3e27bee35aeaf97f",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

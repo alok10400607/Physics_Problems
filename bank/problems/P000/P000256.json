@@ -1,0 +1,49 @@
+{
+  "id": "P000256",
+  "status": "imported",
+  "version": 1,
+  "type": "subjective",
+  "topic_code": "0430",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000256-stem-1)A rail coach is moving with a constant velocity of $v$ m/s. Its length is 15 m, height 5 m, and width 3 m. A small bullet moving horizontally and perpendicular to the direction of coach motion with speed u enters through its top corner and then finally hits the diagonally opposite corner. Find value of $v\\ \\ $and $u$?",
+  "answer": {
+    "text": "v = 15 m/s; u = 3 m/s"
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "04MIP_v2",
+      "qno": 76
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000256-stem-1",
+      "role": "stem",
+      "file": "P000/P000256-stem-1.png",
+      "format": "png",
+      "width": 729,
+      "height": 306,
+      "alt": "A box 15 m long, 3 m wide and 5 m high moving with velocity v. Inside it, an arrow labelled u points up towards the top front corner, which is marked with a dot.",
+      "origin": "docx",
+      "needs_redraw": false
+    }
+  ],
+  "rights": "unverified",
+  "content_hash": "9ebc91739734fdd1",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

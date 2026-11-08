@@ -1,0 +1,45 @@
+{
+  "id": "P000096",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0310",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A particle travels 10 m in first 5 sec and 8 m in next 5 sec. Assuming constant acceleration what is the distance travelled in next 5 sec",
+  "options": {
+    "A": "9 m",
+    "B": "6 m",
+    "C": "3 m",
+    "D": "None of above"
+  },
+  "answer": {
+    "keys": [
+      "B"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "03MSL_v2",
+      "qno": 12
+    }
+  ],
+  "assets": [],
+  "rights": "unverified",
+  "content_hash": "8425eb0452273883",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

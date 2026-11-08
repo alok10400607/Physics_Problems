@@ -1,0 +1,21 @@
+{
+  "id": "P000164",
+  "problem_version": 1,
+  "status": "draft",
+  "hints": [],
+  "worded": null,
+  "conventional": "> ![](/tmp/import-bzoi1s3c/media/image16.png){width=\"1.5743055555555556in\" height=\"1.2006944444444445in\"}Use area under the $v - t\\ $graph: respective displacement (unidirectional motion)\n\n>\n\n> (i) Difference in area OHCO and OAC: 112.5 m (scooter ahead)\n\n>\n\n> (ii) After 15 sec, the car starts to close the gap @ 15 m/s\n\n>\n\n> Hence it will catch up after $\\frac{112.5}{15}\\ sec$ (shaded area)\n\n>\n\n> Or after 22.5 sec after the start",
+  "mistakes": [],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": null,
+    "date": "2026-11-08"
+  },
+  "reviewed_by": null
+}

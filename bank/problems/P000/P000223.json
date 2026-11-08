@@ -1,0 +1,37 @@
+{
+  "id": "P000223",
+  "status": "imported",
+  "version": 1,
+  "type": "subjective",
+  "topic_code": "0410",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": "L2",
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A particle is projected at an angle of $60{^\\circ}$ from the horizontal with speed u. Find the time ‘t’ when its velocity will be perpendicular to the velocity of projection?",
+  "answer": {
+    "text": "$\\frac{2u}{g\\sqrt{3}}$"
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "04MIP_v2",
+      "qno": 43
+    }
+  ],
+  "assets": [],
+  "rights": "unverified",
+  "content_hash": "0afef4c6ab213a73",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

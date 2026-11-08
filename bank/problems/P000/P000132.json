@@ -1,0 +1,45 @@
+{
+  "id": "P000132",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0320",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A rocket is fired and it ascends with a constant acceleration of 10 m/$s^{2}$. Its fuel exhausts after one minute and it continues to move as a free object. Find the maximum height reached by the rocket?",
+  "options": {
+    "A": "18 km",
+    "B": "54 km",
+    "C": "9 km",
+    "D": "36 km"
+  },
+  "answer": {
+    "keys": [
+      "D"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "03MSL_v2",
+      "qno": 48
+    }
+  ],
+  "assets": [],
+  "rights": "unverified",
+  "content_hash": "b01c33233226ce64",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

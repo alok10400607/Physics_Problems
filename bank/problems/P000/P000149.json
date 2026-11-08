@@ -1,0 +1,45 @@
+{
+  "id": "P000149",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0325",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "The relation between time and position is $t = \\alpha x^{2} + \\beta x$, where α and β are constants. The retardation is",
+  "options": {
+    "A": "$2\\alpha v^{3}$",
+    "B": "$2\\beta v^{3}$",
+    "C": "$2\\alpha\\beta v^{3}$",
+    "D": "$\\alpha v^{3}$"
+  },
+  "answer": {
+    "keys": [
+      "A"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "03MSL_v2",
+      "qno": 65
+    }
+  ],
+  "assets": [],
+  "rights": "unverified",
+  "content_hash": "fb3ac7c415e22d20",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

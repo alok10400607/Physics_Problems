@@ -1,0 +1,57 @@
+{
+  "id": "P000428",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0715",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000428-stem-1)A small mass ‘m’ is given a horizontal velocity of $v$ tangential to the surface of a smooth hemisphere of radius R such that the particles moves into horizontal circular path. If the height $h$=R/2, find the value of $v$?",
+  "options": {
+    "A": "$\\sqrt{3gR}$",
+    "B": "$\\sqrt{2gR}$",
+    "C": "$\\sqrt{\\frac{3}{2}gR}$",
+    "D": "$\\sqrt{gR}$"
+  },
+  "answer": {
+    "keys": [
+      "C"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "07CM1_v2",
+      "qno": 50
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000428-stem-1",
+      "role": "stem",
+      "file": "P000/P000428-stem-1.png",
+      "format": "png",
+      "width": 436,
+      "height": 242,
+      "alt": "A hemispherical bowl of radius R, with a particle moving in a horizontal circle on its inner surface at height h above the bottom, with velocity v into the page.",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
+  "rights": "unverified",
+  "content_hash": "7f669197a2872a5f",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

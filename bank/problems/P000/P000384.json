@@ -1,0 +1,56 @@
+{
+  "id": "P000384",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0705",
+  "concepts": [],
+  "exams": [
+    "NEET"
+  ],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A particle moves in a circle of radius 5 cm with constant speed and time period 0.2π sec. The acceleration of the particle is :-",
+  "options": {
+    "A": "15 m/$s^{2}$",
+    "B": "25 m/$s^{2}$",
+    "C": "36 m/$s^{2}$",
+    "D": "5 m/$s^{2}$"
+  },
+  "answer": {
+    "keys": [
+      "D"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "07CM1_v2",
+      "qno": 6
+    },
+    {
+      "kind": "exam",
+      "exam": "AIPMT",
+      "date": null,
+      "shift": null,
+      "mode": null,
+      "raw": "AIPMT 2011",
+      "year": 2011
+    }
+  ],
+  "assets": [],
+  "rights": "past-paper",
+  "content_hash": "baf8231b6df69ec2",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

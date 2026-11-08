@@ -1,0 +1,45 @@
+{
+  "id": "P000128",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0320",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "Two trains A and B travelling on the same track are approaching each other with equal speeds of 40 m/s. The drivers of the trains begin to decelerate simultaneously when they are just 2.0 km apart. Assuming the decelerations of A is half that of B, what must be the minimum value of the deceleration of A to barely avoid collision?",
+  "options": {
+    "A": "3 m/s<sup>2</sup>",
+    "B": "0.6 m/s<sup>2</sup>",
+    "C": "1.2 m/s<sup>2</sup>",
+    "D": "2.4 m/s<sup>2</sup>"
+  },
+  "answer": {
+    "keys": [
+      "B"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "03MSL_v2",
+      "qno": 44
+    }
+  ],
+  "assets": [],
+  "rights": "unverified",
+  "content_hash": "deecc9629161517c",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

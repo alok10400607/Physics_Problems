@@ -1,0 +1,37 @@
+{
+  "id": "P000264",
+  "status": "imported",
+  "version": 1,
+  "type": "subjective",
+  "topic_code": "0435",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "To a man walking at the rate of 3 km/h, the rain appears to fall vertically. When he increases his speed to 6 km/h it appears to meet him at an angle of 45° with the vertical. What is the speed of the rain?",
+  "answer": {
+    "text": "3√2 km/h"
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "04MIP_v2",
+      "qno": 84
+    }
+  ],
+  "assets": [],
+  "rights": "unverified",
+  "content_hash": "060a57dd127ca5e9",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

@@ -1,0 +1,38 @@
+{
+  "id": "P000226",
+  "status": "imported",
+  "version": 1,
+  "type": "integer",
+  "topic_code": "0415",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A body is thrown horizontally from a tower, 100 m high with a velocity 10 ms<sup>-1</sup>. After what time interval will it be moving at an angle 45° with the horizontal?",
+  "answer": {
+    "value": 1,
+    "unit": "s"
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "04MIP_v2",
+      "qno": 46
+    }
+  ],
+  "assets": [],
+  "rights": "unverified",
+  "content_hash": "8443f5f5b29aa093",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

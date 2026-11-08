@@ -1,0 +1,45 @@
+{
+  "id": "P000148",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0325",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "The position $x$ of a particle varies with time $t$ as $x = at^{2} - bt^{3}$. The acceleration of the particle will be zero at time $t$ equal to",
+  "options": {
+    "A": "$\\frac{a}{b}$",
+    "B": "$\\frac{2a}{3b}$",
+    "C": "$\\frac{a}{3b}$",
+    "D": "Zero"
+  },
+  "answer": {
+    "keys": [
+      "C"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "03MSL_v2",
+      "qno": 64
+    }
+  ],
+  "assets": [],
+  "rights": "unverified",
+  "content_hash": "e94728c638086d8e",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

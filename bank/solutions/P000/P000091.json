@@ -1,0 +1,23 @@
+{
+  "id": "P000091",
+  "problem_version": 1,
+  "status": "draft",
+  "hints": [
+    "> Average speed for the second half of the journey (equal time): 6 m/s\n\n>\n\n> Average speed for first and second half at 3 m/s and 6 m/s: 4 m/s"
+  ],
+  "worded": null,
+  "conventional": null,
+  "mistakes": [],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": null,
+    "date": "2026-11-08"
+  },
+  "reviewed_by": null
+}

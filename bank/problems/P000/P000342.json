@@ -1,0 +1,57 @@
+{
+  "id": "P000342",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0525",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000342-stem-1)The figure shows a block of mass M resting on a horizontal surface. The acceleration with which a boy of mass ‘m’ (\\< M) should climb the rope so as to lift the block should be greater than?",
+  "options": {
+    "A": "$\\frac{M}{m}g$",
+    "B": "$(\\frac{M}{m} - 1)g$",
+    "C": "$(\\frac{M}{m}\\  + \\ 1)g$",
+    "D": "$\\frac{mg}{M}$"
+  },
+  "answer": {
+    "keys": [
+      "B"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "05NLM_v1",
+      "qno": 59
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000342-stem-1",
+      "role": "stem",
+      "file": "P000/P000342-stem-1.png",
+      "format": "png",
+      "width": 317,
+      "height": 449,
+      "alt": "A rope over a fixed pulley: one end is tied to a block M resting on the floor, and a monkey of mass m climbs the other end.",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
+  "rights": "unverified",
+  "content_hash": "24c150f6f3da5a0f",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

@@ -1,0 +1,68 @@
+{
+  "id": "P000394",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0705",
+  "concepts": [],
+  "exams": [
+    "NEET"
+  ],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000394-stem-1) In the given figure, a = 15 m/$s^{2}$ represents the total acceleration of a particle moving in the clockwise direction in a circle of radius R = 2.5 m at a given instant of time. The speed of the particle is:",
+  "options": {
+    "A": "5.7 m/s",
+    "B": "6.2 m/s",
+    "C": "4.5 m/s",
+    "D": "5.0 m/s"
+  },
+  "answer": {
+    "keys": [
+      "A"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "07CM1_v2",
+      "qno": 16
+    },
+    {
+      "kind": "exam",
+      "exam": "NEET",
+      "date": null,
+      "shift": null,
+      "mode": null,
+      "raw": "NEET 2016",
+      "year": 2016
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000394-stem-1",
+      "role": "stem",
+      "file": "P000/P000394-stem-1.png",
+      "format": "png",
+      "width": 154,
+      "height": 134,
+      "alt": "A circle of radius R with centre O. A particle on the circle, at 30° from the vertical through O, has acceleration a pointing straight down; an arrow shows motion around the circle.",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
+  "rights": "past-paper",
+  "content_hash": "0dbc571828f567f9",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

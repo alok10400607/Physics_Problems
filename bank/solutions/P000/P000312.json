@@ -1,0 +1,21 @@
+{
+  "id": "P000312",
+  "problem_version": 1,
+  "status": "draft",
+  "hints": [],
+  "worded": null,
+  "conventional": "> Full catenary: equating vertical components ${2T}_{Y} = 2T\\sin \\theta = W$\n\n>\n\n> Half catenary: equating horizontal components $T_{0} = T\\cos \\theta = \\frac{W}{2\\tan \\theta}$\n\n>\n\n> Part: horizontal component of tension = $T_{0}$ constant; Vertical component = Weight of part length\n\n>\n\n> The slope of tangent keeps increasing with $x$\n\n>\n\n> ![](/tmp/import-p0oookqh/media/image28.png){width=\"3.1496062992125986in\" height=\"0.8937007874015748in\"}",
+  "mistakes": [],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": null,
+    "date": "2026-11-08"
+  },
+  "reviewed_by": null
+}

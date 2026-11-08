@@ -1,0 +1,57 @@
+{
+  "id": "P000349",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0525",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": "L2",
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000349-stem-1) In the arrangement shown in the figure, pulleys and strings are ideal. If the mass $m_{1}$remains at rest, then:",
+  "options": {
+    "A": "$\\frac{1}{m_{1}} = \\frac{1}{m_{2}} + \\frac{1}{m_{3}}$",
+    "B": "$m_{1} = m_{2} + m_{3}$",
+    "C": "$\\frac{2}{m_{1}} = \\frac{1}{m_{2}} + \\frac{1}{m_{3}}\\ $",
+    "D": "$\\frac{4}{m_{1}} = \\frac{1}{m_{2}} + \\frac{1}{m_{3}}$"
+  },
+  "answer": {
+    "keys": [
+      "D"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "05NLM_v1",
+      "qno": 66
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000349-stem-1",
+      "role": "stem",
+      "file": "P000/P000349-stem-1.png",
+      "format": "png",
+      "width": 154,
+      "height": 287,
+      "alt": "A fixed pulley with mass m₁ hanging on one side and a movable pulley on the other; masses m₂ and m₃ hang on either side of the movable pulley.",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
+  "rights": "unverified",
+  "content_hash": "8dc3f383a9aaa65f",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

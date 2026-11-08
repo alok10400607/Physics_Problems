@@ -1,0 +1,21 @@
+{
+  "id": "P000239",
+  "problem_version": 1,
+  "status": "draft",
+  "hints": [],
+  "worded": null,
+  "conventional": "> It strikes the inclined plane at the instant it is at its maximum height;\n\n>\n\n> The angle between the highest point and the point of projection is $45{^\\circ}$\n\n>\n\n> Or $\\tan 45{^\\circ} = 1 = \\frac{H_{m}}{\\frac{R}{2}} = \\frac{u_{y}^{2}}{2g}/(\\frac{u_{x}u_{y}}{g})$",
+  "mistakes": [],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": null,
+    "date": "2026-11-08"
+  },
+  "reviewed_by": null
+}

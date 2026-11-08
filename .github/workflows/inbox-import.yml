@@ -1,0 +1,64 @@
+# Imports worksheets (.docx) and question lists (.csv) uploaded to inbox/ on main.
+# Claude runs the bank-import skill unattended: a clean file becomes a pull request;
+# a file with blocking problems becomes an issue listing what to fix.
+name: Import from inbox
+on:
+  push:
+    branches: [main]
+    paths: ["inbox/**"]
+  workflow_dispatch:
+    inputs:
+      files:
+        description: "Files in inbox/ to import (one per line); empty = every .docx and .csv in inbox/"
+        required: false
+concurrency:
+  group: bank-write        # one import at a time, so problem IDs never collide
+  cancel-in-progress: false
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    permissions:
+      contents: write
+      pull-requests: write
+      issues: write
+      id-token: write
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+      - name: Find new files in inbox/
+        id: files
+        run: |
+          if [ -n "${{ github.event.inputs.files }}" ]; then
+            files="${{ github.event.inputs.files }}"
+          elif [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            files=$(ls inbox/*.docx inbox/*.csv 2>/dev/null || true)
+          else
+            files=$(git diff --name-only --diff-filter=AM ${{ github.event.before }} ${{ github.sha }} -- inbox/ | grep -Ei '\.(docx|csv)$' || true)
+          fi
+          if [ -z "$files" ]; then echo "none=true" >> "$GITHUB_OUTPUT"; echo "No new .docx or .csv files."; exit 0; fi
+          { echo "list<<EOF"; echo "$files"; echo "EOF"; } >> "$GITHUB_OUTPUT"
+          echo "$files"
+      - name: Install tools
+        if: steps.files.outputs.none != 'true'
+        run: |
+          sudo apt-get update -q
+          sudo apt-get install -y -q pandoc libreoffice-draw --no-install-recommends
+          pip install -q pillow openpyxl
+          cd tools && npm install --silent
+      - name: Import with Claude
+        if: steps.files.outputs.none != 'true'
+        uses: anthropics/claude-code-action@v1
+        env:
+          GH_TOKEN: ${{ github.token }}
+        with:
+          # Subscription token from `claude setup-token`. To use a Console API key instead,
+          # replace this line with: anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          prompt: |
+            /bank-import Unattended mode (GitHub Actions). Import these files from inbox/, one pull request per file:
+            ${{ steps.files.outputs.list }}
+          claude_args: |
+            --max-turns 200
+            --allowedTools "Bash,Read,Write,Edit,Glob,Grep"

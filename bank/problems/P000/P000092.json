@@ -1,0 +1,37 @@
+{
+  "id": "P000092",
+  "status": "imported",
+  "version": 1,
+  "type": "subjective",
+  "topic_code": "0305",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A particle is moving along a circular path of radius R. For the first quarter of the circle it travels with a speed ‘v’ and then it covers another third of the circle with a speed of ‘2v’ and finally the remaining part with speed ‘3v’. Find its average speed.",
+  "answer": {
+    "text": "1.8 v"
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "03MSL_v2",
+      "qno": 8
+    }
+  ],
+  "assets": [],
+  "rights": "unverified",
+  "content_hash": "a0b9ffad6e17e68e",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

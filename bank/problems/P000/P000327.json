@@ -1,0 +1,57 @@
+{
+  "id": "P000327",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0520",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000327-stem-1)A block of mass M is pulled by a uniform chain of mass M tied to it by applying a force F at the other end of the chain. The tension at a point distant quarter of the length of the chain from free end will be:",
+  "options": {
+    "A": "$\\frac{7F}{8}$",
+    "B": "$\\frac{4F}{5}$",
+    "C": "$\\frac{3F}{4}$",
+    "D": "$\\frac{6F}{7}$"
+  },
+  "answer": {
+    "keys": [
+      "A"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "05NLM_v1",
+      "qno": 44
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000327-stem-1",
+      "role": "stem",
+      "file": "P000/P000327-stem-1.png",
+      "format": "png",
+      "width": 542,
+      "height": 155,
+      "alt": "A block of mass M on a horizontal surface pulled by a uniform rope of length L with force F at its free end; a point L/4 from the free end is marked.",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
+  "rights": "unverified",
+  "content_hash": "e1428d807f9764fa",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

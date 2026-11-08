@@ -1,0 +1,57 @@
+{
+  "id": "P000421",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0710",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": "L2",
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000421-stem-1) On a smooth horizontal surface free to rotate in circle of large radius R. Two masses are connected through a string passing over a pulley on the horizontal surface as shown. The system of two masses is released from the position of rest with respect to the surface rotating as shown. Find the instantaneous tension in the string connecting two masses soon after the release.",
+  "options": {
+    "A": "$\\frac{2mR\\ \\omega^{2}}{3}$",
+    "B": "$\\frac{4mR\\ \\omega^{2}}{3}$",
+    "C": "$\\frac{mR\\ \\omega^{2}}{3}$",
+    "D": "$mR\\ \\omega^{2}$"
+  },
+  "answer": {
+    "keys": [
+      "B"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "07CM1_v2",
+      "qno": 43
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000421-stem-1",
+      "role": "stem",
+      "file": "P000/P000421-stem-1.png",
+      "format": "png",
+      "width": 426,
+      "height": 146,
+      "alt": "A horizontal rod of length R rotating with angular speed ω about a vertical axis at one end. At the far end, a box holds a pulley with masses m and 2m on a string over it.",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
+  "rights": "unverified",
+  "content_hash": "d88c646b61a9aea7",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

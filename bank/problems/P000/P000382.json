@@ -1,0 +1,56 @@
+{
+  "id": "P000382",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0705",
+  "concepts": [],
+  "exams": [
+    "JEE Main"
+  ],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A particle is moving along a circular path with a constant speed of 10 m/s. What is the magnitude of change in velocity of the particle when it moves through an angle of $60{^\\circ}$ around the centre of the circle?",
+  "options": {
+    "A": "$10\\sqrt{2}$ m/s",
+    "B": "$10\\sqrt{3}$ m/s",
+    "C": "10 m/s",
+    "D": "zero"
+  },
+  "answer": {
+    "keys": [
+      "C"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "07CM1_v2",
+      "qno": 4
+    },
+    {
+      "kind": "exam",
+      "exam": "JEE Main",
+      "date": "2019-01-11",
+      "shift": 1,
+      "mode": null,
+      "raw": "JEE Main 2019, 11 Jan, Shift 1",
+      "year": 2019
+    }
+  ],
+  "assets": [],
+  "rights": "past-paper",
+  "content_hash": "8d442db9dc104bc9",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

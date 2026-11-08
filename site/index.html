@@ -1,4 +1,8 @@
-<title>SHM Subtopic Tests</title>
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Physics Practice Tests</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500&display=swap">
@@ -45,6 +49,10 @@ button:focus-visible,input:focus-visible,label:focus-within{outline:2px solid va
 
 /* subtopic list */
 .subs{display:flex;flex-direction:column;border-top:1px solid var(--line)}
+.chapters{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:6px}
+.chapters a{font-size:.85rem;color:var(--ink);text-decoration:none;border:1px solid var(--line);border-radius:999px;padding:4px 11px;background:var(--surface)}
+.chapters a.on{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}
+.chapters a:hover:not(.on){border-color:var(--accent)}
 .sub{display:grid;grid-template-columns:5.2rem 1fr auto;gap:4px 14px;align-items:center;text-align:left;background:none;border:0;border-bottom:1px solid var(--line);padding:14px 6px;transition:background .15s}
 .sub:hover{background:var(--surface)}
 .sub .code{font:500 .8rem var(--mono);color:var(--muted);font-variant-numeric:tabular-nums}
@@ -164,10 +172,13 @@ function md(s){
 }
 const esc = s => String(s).replace(/[&<>"]/g, c => ({ "&":"&amp;", "<":"&lt;", ">":"&gt;", '"':"&quot;" }[c]));
 
+function loadChapter(id){
+  CHAPTER = id;
+  return fetch(`data/${id}.json`).then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
+    .then(d => { S.data = d; S.view = "pick"; render(); window.scrollTo(0, 0); });
+}
 fetch("data/index.json").then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
-  .then(ix => { S.index = ix; const want = location.hash.slice(1); CHAPTER = (ix.find(c => c.id === want) || ix[0]).id; return fetch(`data/${CHAPTER}.json`); })
-  .then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
-  .then(d => { S.data = d; render(); })
+  .then(ix => { S.index = ix.sort((a, b) => a.id.localeCompare(b.id)); const want = location.hash.slice(1); return loadChapter((ix.find(c => c.id === want) || ix[0]).id); })
   .catch(e => { app.innerHTML = `<p class="err">The question file could not be loaded (${esc(e.message)}). Reload the page to try again.</p>`; });
 
 function pool(code){ return S.data.questions.filter(q => String(q.subtopic) === String(code) && S.types.has(q.type)); }
@@ -193,7 +204,8 @@ function renderPick(){
   }).join("");
   app.innerHTML = `
     <header style="display:flex;flex-direction:column;gap:10px">
-      <span class="eyebrow">Physics · Chapter ${esc(d.chapter)}</span>
+      ${S.index && S.index.length > 1 ? `<nav class="chapters" aria-label="Chapters">${S.index.map(c => `<a href="#${esc(c.id)}" class="${c.id === CHAPTER ? "on" : ""}" data-ch="${esc(c.id)}">${esc(c.id.slice(0, 2))} ${esc(c.title)}</a>`).join("")}</nav>` : ""}
+      <span class="eyebrow">Physics · Chapter ${esc(d.chapter.slice(0, 2))}</span>
       <h1>${esc(d.title)}</h1>
       <p class="lede">Pick a subtopic. Questions come one at a time; you get feedback as soon as you answer.</p>
       ${d.note ? `<span class="given">Given: ${md(d.note).replace(/<\/?p>/g,"").replace(/\*/g,"")}</span>` : ""}
@@ -206,6 +218,7 @@ function renderPick(){
     <nav class="subs" aria-label="Subtopics">${subs}</nav>`;
   app.querySelectorAll("[data-type]").forEach(c => c.onchange = () => { c.checked ? S.types.add(c.dataset.type) : S.types.delete(c.dataset.type); renderPick(); });
   app.querySelector("#shuffle").onchange = e => S.shuffle = e.target.checked;
+  app.querySelectorAll("[data-ch]").forEach(a => a.onclick = e => { e.preventDefault(); if (a.dataset.ch !== CHAPTER) { try { history.replaceState(null, "", "#" + a.dataset.ch); } catch (_) { location.hash = a.dataset.ch; } loadChapter(a.dataset.ch); } });
   app.querySelectorAll(".sub").forEach(b => b.onclick = () => start(b.dataset.sub));
 }
 

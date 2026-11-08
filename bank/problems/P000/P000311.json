@@ -1,0 +1,57 @@
+{
+  "id": "P000311",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0510",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": "L2",
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000311-stem-1) A sphere of mass m is held between two smooth inclined surfaces. The normal reaction of the surface 2 is equal to",
+  "options": {
+    "A": "$\\frac{mg}{2}$",
+    "B": "$\\frac{\\sqrt{3}mg}{2}$",
+    "C": "$\\frac{mg}{\\sqrt{2}}$",
+    "D": "$mg$"
+  },
+  "answer": {
+    "keys": [
+      "D"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "05NLM_v1",
+      "qno": 28
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000311-stem-1",
+      "role": "stem",
+      "file": "P000/P000311-stem-1.png",
+      "format": "png",
+      "width": 421,
+      "height": 366,
+      "alt": "A sphere resting between two surfaces that meet at a point: surface 1 is inclined at 37° to the horizontal, and surface 2 at a further 37° above surface 1.",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
+  "rights": "unverified",
+  "content_hash": "91486986d9878703",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

@@ -1,0 +1,45 @@
+{
+  "id": "P000258",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0430",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": "L2",
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A boy is travelling in a train moving at 10 m/s towards north. He holds a toy gun horizontally at a height of 0.8 m above the ground directed towards east. If he shoots a bullet at a speed of 5 m/s, then what will be its speed when it hits the ground?",
+  "options": {
+    "A": "15 m/s",
+    "B": "$\\sqrt{116}\\ m/s$",
+    "C": "$\\sqrt{141}\\ m/s$",
+    "D": "$\\sqrt{156}\\ m/s$"
+  },
+  "answer": {
+    "keys": [
+      "C"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "04MIP_v2",
+      "qno": 78
+    }
+  ],
+  "assets": [],
+  "rights": "unverified",
+  "content_hash": "5429f8c8004a048a",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

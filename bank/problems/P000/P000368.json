@@ -1,0 +1,57 @@
+{
+  "id": "P000368",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0535",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000368-stem-1)Two blocks A and B, each of mass ‘m’ are connected to two ends of a spring of spring constant ‘k’. The system is placed on a smooth horizontal surface with spring in its natural length. At time t = 0, a force F is applied on block A as shown. Find the acceleration of block A and B soon after application of the force?",
+  "options": {
+    "A": "$\\frac{F}{2m};\\frac{F}{2m}$",
+    "B": "$\\frac{F}{m};\\frac{F}{m}$",
+    "C": "$\\frac{F}{m};0$",
+    "D": "$0;\\frac{F}{2m}$"
+  },
+  "answer": {
+    "keys": [
+      "C"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "05NLM_v1",
+      "qno": 85
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000368-stem-1",
+      "role": "stem",
+      "file": "P000/P000368-stem-1.png",
+      "format": "png",
+      "width": 368,
+      "height": 117,
+      "alt": "Blocks A and B on a horizontal surface, joined by a spring of constant k and natural length l₀; a force F pushes A towards B.",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
+  "rights": "unverified",
+  "content_hash": "b73b4c3a37632130",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

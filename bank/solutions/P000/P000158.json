@@ -1,0 +1,23 @@
+{
+  "id": "P000158",
+  "problem_version": 1,
+  "status": "draft",
+  "hints": [
+    "As the problem requires relationship between $v\\ and\\ x$: use $a = v\\frac{dv}{dx} = - k\\sqrt{v}$"
+  ],
+  "worded": null,
+  "conventional": null,
+  "mistakes": [],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": null,
+    "date": "2026-11-08"
+  },
+  "reviewed_by": null
+}

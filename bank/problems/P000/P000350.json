@@ -1,0 +1,57 @@
+{
+  "id": "P000350",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0525",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": "L2",
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000350-stem-1) Two blocks A and B of mass 1 kg and 2 kg respectively are connected by a string passing over a light frictionless pulley. Both the blocks are resting on a horizontal floor and the pulley is held such that string remains just taut. At moment t = 0, a time-dependent force F = 20 t newton starts acting on the pulley along vertically upward direction as shown in figure. Find the speed of block A at the instance block B leaves the ground.",
+  "options": {
+    "A": "1 m/s",
+    "B": "5 m/s",
+    "C": "2 m/s",
+    "D": "3 m/s"
+  },
+  "answer": {
+    "keys": [
+      "B"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "05NLM_v1",
+      "qno": 67
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000350-stem-1",
+      "role": "stem",
+      "file": "P000/P000350-stem-1.png",
+      "format": "png",
+      "width": 177,
+      "height": 236,
+      "alt": "Blocks A and B resting on the ground, joined by a string over a light pulley that is pulled upwards with force F = 20t.",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
+  "rights": "unverified",
+  "content_hash": "43db61e31165a702",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

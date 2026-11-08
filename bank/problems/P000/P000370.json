@@ -1,0 +1,57 @@
+{
+  "id": "P000370",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0535",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000370-stem-1)Two blocks A and B, each of mass ‘m’ are connected to two ends of a spring of spring constant ‘k’. The spring is compressed by a distance ‘x’ from its natural length of $l_{0}$ such that $kx = mg$.The system is placed on smooth inclined plane as shown and released. Find the acceleration of block A and B soon after the release?",
+  "options": {
+    "A": "0.6g (down), 0",
+    "B": "1.6g (down); 0.6g (down)",
+    "C": "1.6g (down); 0.6g (up)",
+    "D": "1.6g (down); 0.4g (up)"
+  },
+  "answer": {
+    "keys": [
+      "D"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "05NLM_v1",
+      "qno": 87
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000370-stem-1",
+      "role": "stem",
+      "file": "P000/P000370-stem-1.png",
+      "format": "png",
+      "width": 324,
+      "height": 233,
+      "alt": "Blocks A and B on an incline of 37°, joined by a spring compressed to length l₀ − x, with A lower on the incline.",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
+  "rights": "unverified",
+  "content_hash": "efa171ec38ad4a41",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

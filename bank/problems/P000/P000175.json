@@ -1,0 +1,45 @@
+{
+  "id": "P000175",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0340",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "Two cars are travelling in the same direction with a velocity of 60 km/h. They are separated by a distance of 5 km. A truck moving in opposite direction meets the two cars in a time interval of 3 minutes. The velocity of the truck is?",
+  "options": {
+    "A": "40 km/h",
+    "B": "36 km/h",
+    "C": "30 km/h",
+    "D": "24 km/h"
+  },
+  "answer": {
+    "keys": [
+      "A"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "03MSL_v2",
+      "qno": 91
+    }
+  ],
+  "assets": [],
+  "rights": "unverified",
+  "content_hash": "5edbb454bef27a6e",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

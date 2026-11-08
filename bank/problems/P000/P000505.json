@@ -1,0 +1,56 @@
+{
+  "id": "P000505",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0825",
+  "concepts": [],
+  "exams": [
+    "JEE Main"
+  ],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "The potential energy of a 1 kg particle free to move along the x-axis is given by $V(x) = \\left( \\frac{x^{4}}{4} - \\frac{x^{2}}{2} \\right).\\ $The total mechanical energy of the particle is 2 J. Then, the maximum speed (in m$s^{- 1}$) is:",
+  "options": {
+    "A": "$3/\\sqrt{2}$",
+    "B": "$\\sqrt{2}$",
+    "C": "$\\frac{1}{\\sqrt{2}}$",
+    "D": "2"
+  },
+  "answer": {
+    "keys": [
+      "A"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "08WPE_v2",
+      "qno": 66
+    },
+    {
+      "kind": "exam",
+      "exam": "AIEEE",
+      "date": null,
+      "shift": null,
+      "mode": null,
+      "raw": "AIEEE 2006",
+      "year": 2006
+    }
+  ],
+  "assets": [],
+  "rights": "past-paper",
+  "content_hash": "b7472214ea7e3033",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

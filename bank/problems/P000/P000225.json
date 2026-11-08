@@ -1,0 +1,56 @@
+{
+  "id": "P000225",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0415",
+  "concepts": [],
+  "exams": [
+    "JEE Main"
+  ],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A helicopter is flying horizontally with a speed v at an altitude h has to drop a food packet for a man on the ground. What is the distance of the helicopter from the man when the food packet is dropped?",
+  "options": {
+    "A": "$\\sqrt{\\frac{2ghv^{2} + 1}{h^{2}}}$",
+    "B": "$\\sqrt{2ghv^{2} + h^{2}}$",
+    "C": "$\\sqrt{\\frac{2v^{2}h}{g} + h^{2}}$",
+    "D": "$\\sqrt{\\frac{2v^{2}h}{g}} + h^{2}$"
+  },
+  "answer": {
+    "keys": [
+      "C"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "04MIP_v2",
+      "qno": 45
+    },
+    {
+      "kind": "exam",
+      "exam": "JEE Main",
+      "date": "2021-08-31",
+      "shift": 1,
+      "mode": null,
+      "raw": "JEE Main 2021, 31 Aug, Shift 1",
+      "year": 2021
+    }
+  ],
+  "assets": [],
+  "rights": "past-paper",
+  "content_hash": "a6467c79fa31ca96",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

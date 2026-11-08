@@ -1,0 +1,21 @@
+{
+  "id": "P000303",
+  "problem_version": 1,
+  "status": "draft",
+  "hints": [],
+  "worded": null,
+  "conventional": "> ![](/tmp/import-p0oookqh/media/image14.png){width=\"1.1805555555555556in\" height=\"0.8930555555555556in\"}\n\n>\n\n> As the surface is smooth, the forces will be normal to the point of contact, i.e., directed towards the centre;\n\n>\n\n> Angles with horizontal for reactions at A and B are 53° and 37° respectively.\n\n>\n\n> Alt: Three force vectors can be represented as sides of a triangle",
+  "mistakes": [],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": null,
+    "date": "2026-11-08"
+  },
+  "reviewed_by": null
+}

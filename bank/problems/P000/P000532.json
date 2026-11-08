@@ -1,0 +1,45 @@
+{
+  "id": "P000532",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0835",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A particle of mass m is moving in a circle of radius R with speed $v = v_{0}(1 + e^{- \\alpha t})$. The power delivered to the particle by the force at t = 0 is",
+  "options": {
+    "A": "$- mv_{0}^{2}\\alpha$",
+    "B": "$- 2mv_{0}^{2}\\alpha$",
+    "C": "$\\frac{1}{2}mv_{0}^{2}\\alpha$",
+    "D": "3$mv_{0}^{2}\\alpha$"
+  },
+  "answer": {
+    "keys": [
+      "B"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "08WPE_v2",
+      "qno": 93
+    }
+  ],
+  "assets": [],
+  "rights": "unverified",
+  "content_hash": "17cff775422b449e",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

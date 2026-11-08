@@ -1,0 +1,23 @@
+{
+  "id": "P000156",
+  "problem_version": 1,
+  "status": "draft",
+  "hints": [
+    "> Comparing with a uniformly accelerated motion $v = \\sqrt{u^{2} + 2ax}$; $u = 0\\ and\\ v = \\alpha\\sqrt{S}$\n\n>\n\n> Average velocity = $\\frac{(u + v)}{2}$"
+  ],
+  "worded": null,
+  "conventional": null,
+  "mistakes": [],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": null,
+    "date": "2026-11-08"
+  },
+  "reviewed_by": null
+}

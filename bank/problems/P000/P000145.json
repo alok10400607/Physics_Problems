@@ -1,0 +1,45 @@
+{
+  "id": "P000145",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0325",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "If the velocity of a particle is $v = At + Bt^{2};\\ $where A and B are positive constants, then the distance travelled by it between 1 s and 2 s is",
+  "options": {
+    "A": "$\\frac{3}{2}A + 4B$",
+    "B": "$3A + 7B$",
+    "C": "$\\frac{3}{2}A + \\frac{7}{3}B$",
+    "D": "$\\frac{A}{2} + \\frac{B}{3}$"
+  },
+  "answer": {
+    "keys": [
+      "C"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "03MSL_v2",
+      "qno": 61
+    }
+  ],
+  "assets": [],
+  "rights": "unverified",
+  "content_hash": "228dc502f9a05b32",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

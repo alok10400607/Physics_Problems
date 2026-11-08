@@ -1,0 +1,38 @@
+{
+  "id": "P000091",
+  "status": "imported",
+  "version": 1,
+  "type": "integer",
+  "topic_code": "0305",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A particle moving in a straight line covers half the distance with speed of 3 *m/s*. The other half of the distance is covered in two equal time intervals with speed of 4.5 *m/s* and 7.5 *m/s* respectively. The average speed of the particle during this motion is?",
+  "answer": {
+    "value": 4,
+    "unit": "m/s"
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "03MSL_v2",
+      "qno": 7
+    }
+  ],
+  "assets": [],
+  "rights": "unverified",
+  "content_hash": "2e2cc8600e3ff65c",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

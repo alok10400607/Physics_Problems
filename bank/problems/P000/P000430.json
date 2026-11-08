@@ -1,0 +1,68 @@
+{
+  "id": "P000430",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0715",
+  "concepts": [],
+  "exams": [
+    "JEE Main"
+  ],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000430-stem-1) What should be angular velocity of a wire bent in form of parabola $y = 4cx^{2}\\ $lying in a vertical plane if a bead of mass m does not slip if placed at (a, b) ?",
+  "options": {
+    "A": "$2\\sqrt{2gc}$",
+    "B": "$\\sqrt{2gc}$",
+    "C": "$2\\sqrt{2gc/b}$",
+    "D": "$2\\sqrt{gc/b}$"
+  },
+  "answer": {
+    "keys": [
+      "A"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "07CM1_v2",
+      "qno": 52
+    },
+    {
+      "kind": "exam",
+      "exam": "JEE Main",
+      "date": "2020-09-02",
+      "shift": 1,
+      "mode": null,
+      "raw": "JEE Main 2020, 2 Sep, Shift 1",
+      "year": 2020
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000430-stem-1",
+      "role": "stem",
+      "file": "P000/P000430-stem-1.png",
+      "format": "png",
+      "width": 166,
+      "height": 139,
+      "alt": "A parabolic wire, symmetric about the y-axis, rotating about that axis with angular speed ω; a bead sits at point P(a, b) on the wire.",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
+  "rights": "past-paper",
+  "content_hash": "85f0ca1c03a9c4b3",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

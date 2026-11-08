@@ -1,0 +1,57 @@
+{
+  "id": "P000470",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0815",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000470-stem-1)A block attached to a spring, pulled by a constant horizontal force, is kept on a smooth surface as shown in the figure. Initially, the spring is in the natural state. Then the maximum extension of the spring will be?",
+  "options": {
+    "A": "$2F/k$",
+    "B": "$F/k$",
+    "C": "$F/2k$",
+    "D": "It will keep expanding"
+  },
+  "answer": {
+    "keys": [
+      "A"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "08WPE_v2",
+      "qno": 31
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000470-stem-1",
+      "role": "stem",
+      "file": "P000/P000470-stem-1.png",
+      "format": "png",
+      "width": 202,
+      "height": 117,
+      "alt": "A block on a horizontal surface, joined to a wall by a spring of constant k and pulled away from the wall by force F.",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
+  "rights": "unverified",
+  "content_hash": "645ba7899560e379",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

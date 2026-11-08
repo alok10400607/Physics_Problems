@@ -1,0 +1,57 @@
+{
+  "id": "P000204",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0410",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000204-stem-1)Three projectiles A, B and C are thrown from the same point in the same plane. Their trajectories are shown in the figure. Which of the following statement is true?",
+  "options": {
+    "A": "The time of flight is the same for all the three",
+    "B": "The launch speed is largest for particle C",
+    "C": "The horizontal velocity component is largest for particle C",
+    "D": "All of the above"
+  },
+  "answer": {
+    "keys": [
+      "D"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "04MIP_v2",
+      "qno": 24
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000204-stem-1",
+      "role": "stem",
+      "file": "P000/P000204-stem-1.png",
+      "format": "png",
+      "width": 112,
+      "height": 100,
+      "alt": "Three projectile paths from O reaching the same maximum height, shown by a dashed line, and landing at A, B and C at increasing distances.",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
+  "rights": "unverified",
+  "content_hash": "477a816a16626e0e",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

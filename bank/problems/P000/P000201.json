@@ -1,0 +1,45 @@
+{
+  "id": "P000201",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0410",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "The speed of a projectile at its maximum height is half of its initial speed. The angle of projection is :-",
+  "options": {
+    "A": "15°",
+    "B": "30°",
+    "C": "45°",
+    "D": "60°"
+  },
+  "answer": {
+    "keys": [
+      "D"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "04MIP_v2",
+      "qno": 21
+    }
+  ],
+  "assets": [],
+  "rights": "unverified",
+  "content_hash": "039cdde3d5a9ff0f",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

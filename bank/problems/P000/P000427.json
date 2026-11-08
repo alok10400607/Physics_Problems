@@ -1,0 +1,57 @@
+{
+  "id": "P000427",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0715",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000427-stem-1)A particle of mass 1 kg is tied with a string of length 1 m is made to undergo uniform circular motion in horizontal plane as shown in figure. Choose INCORRECT option(s):",
+  "options": {
+    "A": "the speed of particle is 2.1 m/s",
+    "B": "Time period will be about 1.8 s",
+    "C": "the tension in string is 10 N",
+    "D": "angular velocity is $5/\\sqrt{2}$ rad/s"
+  },
+  "answer": {
+    "keys": [
+      "C"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "07CM1_v2",
+      "qno": 49
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000427-stem-1",
+      "role": "stem",
+      "file": "P000/P000427-stem-1.png",
+      "format": "png",
+      "width": 380,
+      "height": 290,
+      "alt": "A conical pendulum of length ℓ = 1 m hanging from O at θ = 37° to the vertical; the mass m moves in a horizontal circle.",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
+  "rights": "unverified",
+  "content_hash": "38019d5d1c5060fb",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

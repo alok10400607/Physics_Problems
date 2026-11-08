@@ -1,0 +1,49 @@
+{
+  "id": "P000325",
+  "status": "imported",
+  "version": 1,
+  "type": "subjective",
+  "topic_code": "0520",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000325-stem-1)Three blocks of mass 1 kg, 4 kg and 2 kg are placed on a smooth horizontal plane as shown in figure. Find:\n(i) the acceleration of the system.\n(ii) the normal force between 1 kg block and 4 kg block.\n(iii) the net force on 2 kg block.",
+  "answer": {
+    "text": "(i) 10 m/s<sup>2</sup> (ii) 110 N (iii) 20 N"
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "05NLM_v1",
+      "qno": 42
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000325-stem-1",
+      "role": "stem",
+      "file": "P000/P000325-stem-1.png",
+      "format": "png",
+      "width": 385,
+      "height": 120,
+      "alt": "Three blocks in contact on a horizontal surface: 1 kg, 4 kg and 2 kg. A 120 N force pushes the 1 kg block to the right, and a 50 N force pushes the 2 kg block to the left.",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
+  "rights": "unverified",
+  "content_hash": "0fb372907cf011ee",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

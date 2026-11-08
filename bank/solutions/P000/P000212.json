@@ -1,0 +1,21 @@
+{
+  "id": "P000212",
+  "problem_version": 1,
+  "status": "draft",
+  "hints": [],
+  "worded": null,
+  "conventional": "> Average velocity in x-direction $u_{x} = 20\\ $m/s\n\n>\n\n> Average velocity in y-direction: 25 m/s = $v_{y}(t = 1)$\n\n>\n\n> Hence $u_{y} = 35$ m/s",
+  "mistakes": [],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": null,
+    "date": "2026-11-08"
+  },
+  "reviewed_by": null
+}

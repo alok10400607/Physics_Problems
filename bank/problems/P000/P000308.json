@@ -1,0 +1,57 @@
+{
+  "id": "P000308",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0510",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000308-stem-1)The pulleys and strings shown in the figure are smooth and of negligible mass. For the system to remain in equilibrium, the angle θ should be",
+  "options": {
+    "A": "$0{^\\circ}$",
+    "B": "$30{^\\circ}$",
+    "C": "$45{^\\circ}$",
+    "D": "$60{^\\circ}$"
+  },
+  "answer": {
+    "keys": [
+      "C"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "05NLM_v1",
+      "qno": 25
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000308-stem-1",
+      "role": "stem",
+      "file": "P000/P000308-stem-1.png",
+      "format": "png",
+      "width": 344,
+      "height": 301,
+      "alt": "Two masses m hang from strings passing over two fixed pulleys. The strings meet at a mass √2m hanging between the pulleys, each making angle θ with the vertical.",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
+  "rights": "unverified",
+  "content_hash": "dba9ea520e0782b1",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

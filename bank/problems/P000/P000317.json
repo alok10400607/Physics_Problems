@@ -1,0 +1,45 @@
+{
+  "id": "P000317",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0515",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A ball of mass 0.2 kg is thrown vertically upwards by applying a force by hand. If the hand moves 0.2 m while applying the force and the ball goes up to 2 m height further, find the magnitude of force",
+  "options": {
+    "A": "4 N",
+    "B": "16 N",
+    "C": "20 N",
+    "D": "22 N"
+  },
+  "answer": {
+    "keys": [
+      "D"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "05NLM_v1",
+      "qno": 34
+    }
+  ],
+  "assets": [],
+  "rights": "unverified",
+  "content_hash": "b003294a044a9c53",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

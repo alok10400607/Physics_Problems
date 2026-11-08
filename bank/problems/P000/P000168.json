@@ -1,0 +1,57 @@
+{
+  "id": "P000168",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0335",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "All the graphs below are intended to represent the same motion. One of them does it incorrectly. Pick it up:\n![](asset:P000168-stem-1)",
+  "options": {
+    "A": "Graph (A) in the figure",
+    "B": "Graph (B) in the figure",
+    "C": "Graph (C) in the figure",
+    "D": "Graph (D) in the figure"
+  },
+  "answer": {
+    "keys": [
+      "C"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "03MSL_v2",
+      "qno": 84
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000168-stem-1",
+      "role": "stem",
+      "file": "P000/P000168-stem-1.png",
+      "format": "png",
+      "width": 666,
+      "height": 457,
+      "alt": "Velocity against time: a straight line starting at a positive value and falling steadily, crossing the time axis and continuing below it.",
+      "origin": "docx",
+      "needs_redraw": false
+    }
+  ],
+  "rights": "unverified",
+  "content_hash": "83ee338921278f89",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

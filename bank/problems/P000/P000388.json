@@ -1,0 +1,45 @@
+{
+  "id": "P000388",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0705",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "If the equation for the angular displacement of a particle moving on a circular path is given by (θ) =$2t^{3} + 0.5$, where θ is in radians and t in seconds, then the angular velocity of the particle after 2 s from its start is?",
+  "options": {
+    "A": "8 rad/s",
+    "B": "12 rad/s",
+    "C": "24 rad/s",
+    "D": "36 rad/s"
+  },
+  "answer": {
+    "keys": [
+      "C"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "07CM1_v2",
+      "qno": 10
+    }
+  ],
+  "assets": [],
+  "rights": "unverified",
+  "content_hash": "d40a8d6ece492b76",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

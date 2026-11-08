@@ -1,0 +1,56 @@
+{
+  "id": "P000194",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0405",
+  "concepts": [],
+  "exams": [
+    "JEE Main"
+  ],
+  "difficulty": {
+    "worksheet": "L2",
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "The velocity of a particle 𝑣⃗ at any instant is $\\overrightarrow{v} = K(y\\widehat{i} + x\\widehat{j}$); where K is a constant. The equation of trajectory of the particle is:",
+  "options": {
+    "A": "𝑦=𝑥<sup>2</sup>+ constant",
+    "B": "𝑦<sup>2</sup>= x + constant",
+    "C": "y<sup>2</sup> = x<sup>2</sup> + constant",
+    "D": "xy = constant"
+  },
+  "answer": {
+    "keys": [
+      "C"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "04MIP_v2",
+      "qno": 14
+    },
+    {
+      "kind": "exam",
+      "exam": "JEE Main",
+      "date": "2019-01-09",
+      "shift": 1,
+      "mode": null,
+      "raw": "JEE Main 2019, 9 Jan, Shift 1",
+      "year": 2019
+    }
+  ],
+  "assets": [],
+  "rights": "past-paper",
+  "content_hash": "33e930752e52ff7c",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

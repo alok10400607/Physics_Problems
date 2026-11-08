@@ -1,0 +1,21 @@
+{
+  "id": "P000220",
+  "problem_version": 1,
+  "status": "draft",
+  "hints": [],
+  "worded": null,
+  "conventional": "> Let the angle with horizontal be $\\alpha$ and $(90 - \\alpha)$ when the velocities are 3 m/s and 4 m/s respectively.\n\n>\n\n> Equating horizontal components: $3\\cos \\alpha = 4\\cos (90 - \\alpha)$; $\\tan \\alpha = \\frac{3}{4};\\cos \\alpha = 4/5$\n\n>\n\n> Minimum speed = horizontal component = 3 cos α = 12/5 m/s, so minimum KE = ½ × 2 × (12/5)² = 5.76 J",
+  "mistakes": [],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": null,
+    "date": "2026-11-08"
+  },
+  "reviewed_by": null
+}

@@ -1,0 +1,21 @@
+{
+  "id": "P000317",
+  "problem_version": 1,
+  "status": "draft",
+  "hints": [],
+  "worded": null,
+  "conventional": "> Here, the net accelerating force (acting in upward direction) is: $F - mg$\n\n>\n\n> and retarding force (acting downwards) is $mg$\n\n>\n\n> Then $\\frac{F - mg}{mg} = \\frac{2}{0.2}$",
+  "mistakes": [],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": null,
+    "date": "2026-11-08"
+  },
+  "reviewed_by": null
+}

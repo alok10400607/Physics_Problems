@@ -1,0 +1,45 @@
+{
+  "id": "P000411",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0710",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A small object placed on a rotating horizontal turn table just slips when it is placed at a distance 4 cm from the axis of rotation. If the angular velocity of the turn-table is doubled, the object slips when its distance from the axis of rotation is",
+  "options": {
+    "A": "1 cm",
+    "B": "2 cm",
+    "C": "4 cm",
+    "D": "8 cm"
+  },
+  "answer": {
+    "keys": [
+      "A"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "07CM1_v2",
+      "qno": 33
+    }
+  ],
+  "assets": [],
+  "rights": "unverified",
+  "content_hash": "7b8b0664fb6f8182",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

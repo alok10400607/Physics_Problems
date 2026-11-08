@@ -1,0 +1,56 @@
+{
+  "id": "P000177",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0340",
+  "concepts": [],
+  "exams": [
+    "JEE Main"
+  ],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A passenger train of length 60 m travels at a speed of 80 km/h. Another freight train of length 120 m travels at a speed of 30 km/h. The ratio of time taken by the passenger train to completely cross the freight train when: (i) they are moving in the same direction and (ii) in the opposite direction is:",
+  "options": {
+    "A": "3/2",
+    "B": "25/11",
+    "C": "11/5",
+    "D": "5/2"
+  },
+  "answer": {
+    "keys": [
+      "C"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "03MSL_v2",
+      "qno": 93
+    },
+    {
+      "kind": "exam",
+      "exam": "JEE Main",
+      "date": "2019-01-12",
+      "shift": 1,
+      "mode": null,
+      "raw": "JEE Main 2019, 12 Jan, Shift 1",
+      "year": 2019
+    }
+  ],
+  "assets": [],
+  "rights": "past-paper",
+  "content_hash": "e60c9fb2d1d97c5e",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

@@ -1,0 +1,38 @@
+{
+  "id": "P000125",
+  "status": "imported",
+  "version": 1,
+  "type": "integer",
+  "topic_code": "0320",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A bus starts from rest with an acceleration of 2 m/$s^{2}$, and at the same instant a man starts running after the bus at a constant speed of 10 m/s. If he is $x$ m behind the bus, then what is the maximum value of $x$ so that the man may be able to catch the bus?",
+  "answer": {
+    "value": 25,
+    "unit": "m"
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "03MSL_v2",
+      "qno": 41
+    }
+  ],
+  "assets": [],
+  "rights": "unverified",
+  "content_hash": "1e66ef434873957f",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

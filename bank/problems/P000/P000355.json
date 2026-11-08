@@ -1,0 +1,57 @@
+{
+  "id": "P000355",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0530",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": "L2",
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000355-stem-1) Find the velocity of the blocks A if the block B is moving up with a velocity of 1 m/s. Assume that the block B remains horizontal during its motion.",
+  "options": {
+    "A": "3 m/s",
+    "B": "5 m/s",
+    "C": "7 m/s",
+    "D": "9 m/s"
+  },
+  "answer": {
+    "keys": [
+      "C"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "05NLM_v1",
+      "qno": 72
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000355-stem-1",
+      "role": "stem",
+      "file": "P000/P000355-stem-1.png",
+      "format": "png",
+      "width": 235,
+      "height": 372,
+      "alt": "Three pulleys: P fixed to the ceiling, Q and R movable, with block A hanging from R. The free strings are tied to block B, which moves up at 1 m/s.",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
+  "rights": "unverified",
+  "content_hash": "97eb6a6b8989a588",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

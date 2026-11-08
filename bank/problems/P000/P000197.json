@@ -1,0 +1,56 @@
+{
+  "id": "P000197",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0410",
+  "concepts": [],
+  "exams": [
+    "JEE Main"
+  ],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A player kicks the football with initial speed of 25 m/s at an angle of $45{^\\circ}$ from the ground. What are the maximum height and the time taken by the football to reach the highest point during motion?",
+  "options": {
+    "A": "$H_{m} = 10m,\\ T = 2.5s$",
+    "B": "$H_{m} = 15.625m,\\ T = 3.54s$",
+    "C": "$H_{m} = 15.625m,\\ T = 1.77s$",
+    "D": "$H_{m} = 3.54m,\\ T = 0.125s$"
+  },
+  "answer": {
+    "keys": [
+      "C"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "04MIP_v2",
+      "qno": 17
+    },
+    {
+      "kind": "exam",
+      "exam": "JEE Main",
+      "date": "2021-08-27",
+      "shift": 2,
+      "mode": null,
+      "raw": "JEE Main 2021, 27 Aug, Shift 2",
+      "year": 2021
+    }
+  ],
+  "assets": [],
+  "rights": "past-paper",
+  "content_hash": "56c56c314c21f55f",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

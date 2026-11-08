@@ -1,0 +1,45 @@
+{
+  "id": "P000203",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0410",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "Two bodies are thrown up at angles of 45° and 60° respectively, with the horizontal. If both bodies attain same vertical height, then the ratio of speeds with which these are thrown is?",
+  "options": {
+    "A": "$3/2$",
+    "B": "$\\sqrt{3/2}$",
+    "C": "$\\sqrt{3}$",
+    "D": "$1/\\sqrt{3}$"
+  },
+  "answer": {
+    "keys": [
+      "B"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "04MIP_v2",
+      "qno": 23
+    }
+  ],
+  "assets": [],
+  "rights": "unverified",
+  "content_hash": "70cbcc1692a7f721",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

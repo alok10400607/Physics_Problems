@@ -1,0 +1,93 @@
+{
+  "id": "P000166",
+  "status": "imported",
+  "version": 1,
+  "type": "subjective",
+  "topic_code": "0335",
+  "concepts": [],
+  "exams": [
+    "JEE Main"
+  ],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "The position, velocity and acceleration of a particle moving with a constant acceleration can be represented by:\n![](asset:P000166-stem-1) ![](asset:P000166-stem-2)\n![](asset:P000166-stem-3) ![](asset:P000166-stem-4)",
+  "answer": {
+    "text": "D"
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "03MSL_v2",
+      "qno": 82
+    },
+    {
+      "kind": "exam",
+      "exam": "JEE Main",
+      "date": "2021-03-18",
+      "shift": 1,
+      "mode": null,
+      "raw": "JEE Main 2021, 18 Mar, Shift 1",
+      "year": 2021
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000166-stem-1",
+      "role": "stem",
+      "file": "P000/P000166-stem-1.png",
+      "format": "png",
+      "width": 778,
+      "height": 276,
+      "alt": "Set A: position against time curving upwards; velocity against time a falling straight line; acceleration against time a constant horizontal line.",
+      "origin": "docx",
+      "needs_redraw": false
+    },
+    {
+      "id": "P000166-stem-2",
+      "role": "stem",
+      "file": "P000/P000166-stem-2.png",
+      "format": "png",
+      "width": 776,
+      "height": 270,
+      "alt": "Set B: position against time a rising straight line; velocity against time curving upwards; acceleration against time a constant horizontal line.",
+      "origin": "docx",
+      "needs_redraw": false
+    },
+    {
+      "id": "P000166-stem-3",
+      "role": "stem",
+      "file": "P000/P000166-stem-3.png",
+      "format": "png",
+      "width": 768,
+      "height": 268,
+      "alt": "Set C: position against time a rising straight line; velocity against time a rising straight line; acceleration against time a constant horizontal line.",
+      "origin": "docx",
+      "needs_redraw": false
+    },
+    {
+      "id": "P000166-stem-4",
+      "role": "stem",
+      "file": "P000/P000166-stem-4.png",
+      "format": "png",
+      "width": 780,
+      "height": 271,
+      "alt": "Set D: position against time curving upwards; velocity against time a rising straight line; acceleration against time a constant horizontal line.",
+      "origin": "docx",
+      "needs_redraw": false
+    }
+  ],
+  "rights": "past-paper",
+  "content_hash": "936c768593ce7b75",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

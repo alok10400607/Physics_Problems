@@ -1,0 +1,56 @@
+{
+  "id": "P000487",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0820",
+  "concepts": [],
+  "exams": [
+    "JEE Main"
+  ],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A person pushes a box on rough horizontal surface. He applies a force of 200N over a distance of 15m. Thereafter, he gets progressively tired and his applied force reduces linearly with distance to 100N over next 15m. What is the total work done by the person?",
+  "options": {
+    "A": "5000 J",
+    "B": "6000 J",
+    "C": "5500 J",
+    "D": "5250 J"
+  },
+  "answer": {
+    "keys": [
+      "D"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "08WPE_v2",
+      "qno": 48
+    },
+    {
+      "kind": "exam",
+      "exam": "JEE Main",
+      "date": "2020-09-04",
+      "shift": 2,
+      "mode": null,
+      "raw": "JEE Main 2020, 4 Sep, Shift 2",
+      "year": 2020
+    }
+  ],
+  "assets": [],
+  "rights": "past-paper",
+  "content_hash": "94e73be1e57a08d9",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

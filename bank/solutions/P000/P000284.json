@@ -1,0 +1,23 @@
+{
+  "id": "P000284",
+  "problem_version": 1,
+  "status": "draft",
+  "hints": [
+    "> The force / acceleration is always $+$ve but decreasing and finally approaching zero, hence $v - t$ graph will have $+$ve but decreasing slope and finally tending to be horizontal"
+  ],
+  "worded": null,
+  "conventional": null,
+  "mistakes": [],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": null,
+    "date": "2026-11-08"
+  },
+  "reviewed_by": null
+}

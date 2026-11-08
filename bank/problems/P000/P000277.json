@@ -1,0 +1,45 @@
+{
+  "id": "P000277",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0440",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A boat-man can row a boat to make it move with a speed of 10 km/h in still water. River flows steadily at the rate of 5 km/h. and the width of the river is 2 km. If the boat man cross the river along the shortest path then time elapsed in rowing the boat will be?",
+  "options": {
+    "A": "$\\frac{2}{5\\sqrt{3}}$hrs",
+    "B": "$\\frac{4}{5\\sqrt{3}}$hrs",
+    "C": "$\\frac{2\\sqrt{3}}{5}$hrs",
+    "D": "$\\frac{3\\sqrt{2}}{5}$hrs"
+  },
+  "answer": {
+    "keys": [
+      "A"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "04MIP_v2",
+      "qno": 97
+    }
+  ],
+  "assets": [],
+  "rights": "unverified",
+  "content_hash": "ec9fb33e7a5962ca",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

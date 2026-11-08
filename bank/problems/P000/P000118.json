@@ -1,0 +1,37 @@
+{
+  "id": "P000118",
+  "status": "imported",
+  "version": 1,
+  "type": "subjective",
+  "topic_code": "0320",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A train starts from station A with a constant acceleration of $a$ for time T immediately followed by deceleration of $a/2$ till it comes to stop at station B:\n(i) What will be the time for deceleration\n(ii) Ratio of distance travelled during acceleration and deceleration?\n(iii) What will be the total distance travelled?\n(iv) What will be the average speed for the entire journey from A to B?",
+  "answer": {
+    "text": "2T; 1:2; $3\\left( \\frac{1}{2}aT^{2} \\right);\\frac{1}{2}aT$"
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "03MSL_v2",
+      "qno": 34
+    }
+  ],
+  "assets": [],
+  "rights": "unverified",
+  "content_hash": "b78b149494f02a5e",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

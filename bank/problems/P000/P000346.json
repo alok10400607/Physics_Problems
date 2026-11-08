@@ -1,0 +1,57 @@
+{
+  "id": "P000346",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0525",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000346-stem-1)Two blocks are connected by massless and inextensible string and placed on smooth surfaces as shown. Find the magnitude of acceleration if the released from rest:",
+  "options": {
+    "A": "${(m}_{1}\\sin \\alpha - m_{2}\\sin \\beta)g/(m_{1} + m_{2})\\ $",
+    "B": "${(m}_{1}\\sin \\alpha + m_{2}\\sin \\beta)g/(m_{1} + m_{2})$",
+    "C": "${(m}_{1}\\sin \\alpha - m_{2}\\sin \\beta)g/{(m}_{1}\\cos \\alpha + m_{2}\\cos \\beta)$",
+    "D": "${(m}_{1}\\sin \\alpha + m_{2}\\sin \\beta)g/{(m}_{1}\\cos \\alpha + m_{2}\\cos \\beta)$"
+  },
+  "answer": {
+    "keys": [
+      "B"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "05NLM_v1",
+      "qno": 63
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000346-stem-1",
+      "role": "stem",
+      "file": "P000/P000346-stem-1.png",
+      "format": "png",
+      "width": 264,
+      "height": 276,
+      "alt": "Two inclines meeting at a peak: mass m₂ on the upper incline at angle β below the horizontal, and mass m₁ on the steeper lower incline at angle α to the ground, joined by a string over a pulley at the peak.",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
+  "rights": "unverified",
+  "content_hash": "545494be73b6a54c",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

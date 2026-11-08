@@ -1,0 +1,23 @@
+{
+  "id": "P000221",
+  "problem_version": 1,
+  "status": "draft",
+  "hints": [
+    "> $$u_{y}^{2} = v_{y}^{2} + 2gh = 12$$"
+  ],
+  "worded": null,
+  "conventional": null,
+  "mistakes": [],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": null,
+    "date": "2026-11-08"
+  },
+  "reviewed_by": null
+}

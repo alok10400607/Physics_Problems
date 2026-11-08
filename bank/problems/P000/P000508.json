@@ -1,0 +1,56 @@
+{
+  "id": "P000508",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0825",
+  "concepts": [],
+  "exams": [
+    "JEE Main"
+  ],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "The potential energy between two molecules is $U = - \\frac{A}{r^{6}} + \\frac{B}{r^{12}}$. The equilibrium separation and the potential energy at equilibrium are:",
+  "options": {
+    "A": "$\\left( \\frac{B}{2A} \\right)^{1/6}$, $- \\frac{A^{2}}{2B}$",
+    "B": "$\\left( \\frac{B}{A} \\right)^{1/6}$, $0$",
+    "C": "$\\left( \\frac{2B}{A} \\right)^{1/6}$, $- \\frac{A^{2}}{4B}$",
+    "D": "$\\left( \\frac{2B}{A} \\right)^{1/6}$, $- \\frac{A^{2}}{2B}$"
+  },
+  "answer": {
+    "keys": [
+      "C"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "08WPE_v2",
+      "qno": 69
+    },
+    {
+      "kind": "exam",
+      "exam": "JEE Main",
+      "date": "2020-09-06",
+      "shift": 1,
+      "mode": null,
+      "raw": "JEE Main 2020, 6 Sep, Shift 1",
+      "year": 2020
+    }
+  ],
+  "assets": [],
+  "rights": "past-paper",
+  "content_hash": "1c78512e93ec6f2e",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

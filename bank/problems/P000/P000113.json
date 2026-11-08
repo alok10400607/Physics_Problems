@@ -1,0 +1,45 @@
+{
+  "id": "P000113",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0315",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "From a tower of height ‘H’ a particle is thrown vertically upwards with speed u. The time taken by the particle to hit the ground is ‘n’ times the time taken by the particle to reach the highest point. Find the relation between H, u, and n.",
+  "options": {
+    "A": "2gH = n<sup>2</sup>u<sup>2</sup>",
+    "B": "gH = (n-2)<sup>2</sup>u<sup>2</sup>",
+    "C": "2gH = nu<sup>2</sup> (n-2)",
+    "D": "gH = u<sup>2</sup> (n-2)"
+  },
+  "answer": {
+    "keys": [
+      "C"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "03MSL_v2",
+      "qno": 29
+    }
+  ],
+  "assets": [],
+  "rights": "unverified",
+  "content_hash": "d5c6fd8495dc11b9",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

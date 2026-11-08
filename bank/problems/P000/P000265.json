@@ -1,0 +1,56 @@
+{
+  "id": "P000265",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0435",
+  "concepts": [],
+  "exams": [
+    "JEE Main"
+  ],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "When a car is at rest, its driver sees rain drops falling on it vertically. When driving the car with speed v, he sees that the rain drops are coming at an angle of $60{^\\circ}$from the horizontal. On further increasing the speed of the car to $(1 + \\beta)v$, this angle changes to $45{^\\circ}$. The value of β is close to:",
+  "options": {
+    "A": "0.5",
+    "B": "0.41",
+    "C": "0.37",
+    "D": "0.73"
+  },
+  "answer": {
+    "keys": [
+      "D"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "04MIP_v2",
+      "qno": 85
+    },
+    {
+      "kind": "exam",
+      "exam": "JEE Main",
+      "date": "2020-09-06",
+      "shift": 2,
+      "mode": null,
+      "raw": "JEE Main 2020, 6 Sep, Shift 2",
+      "year": 2020
+    }
+  ],
+  "assets": [],
+  "rights": "past-paper",
+  "content_hash": "8cd071acd406534d",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

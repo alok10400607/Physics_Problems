@@ -1,0 +1,56 @@
+{
+  "id": "P000522",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0835",
+  "concepts": [],
+  "exams": [
+    "NEET"
+  ],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A block of mass 20 kg is moved with constant velocity along an inclined plane of inclination 37° with help of a force of constant power 50 W. If the coefficient of kinetic friction between block and surface is 0.25, then what fraction of power is used against gravity?",
+  "options": {
+    "A": "$\\frac{3}{4}$",
+    "B": "$\\frac{1}{4}$",
+    "C": "½",
+    "D": "$\\frac{1}{8}$"
+  },
+  "answer": {
+    "keys": [
+      "A"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "08WPE_v2",
+      "qno": 83
+    },
+    {
+      "kind": "exam",
+      "exam": "AIIMS",
+      "date": null,
+      "shift": null,
+      "mode": null,
+      "raw": "AIIMS 2017",
+      "year": 2017
+    }
+  ],
+  "assets": [],
+  "rights": "past-paper",
+  "content_hash": "00c35ae88b012a4a",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

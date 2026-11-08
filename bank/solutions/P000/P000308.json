@@ -1,0 +1,23 @@
+{
+  "id": "P000308",
+  "problem_version": 1,
+  "status": "draft",
+  "hints": [
+    "> Two strings will have equal tensions (T) equal to weight of mass suspended = $mg$\n\n>\n\n> Sum of vertical components will be equal to $\\sqrt{2}mg$\n\n*Think further*\n\n> Will the two strings make equal angle with vertical if the two masses are not equal? If the left mass were to be 1.2 m; how will the angles change?"
+  ],
+  "worded": null,
+  "conventional": null,
+  "mistakes": [],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": null,
+    "date": "2026-11-08"
+  },
+  "reviewed_by": null
+}

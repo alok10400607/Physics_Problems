@@ -1,0 +1,45 @@
+{
+  "id": "P000477",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0820",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A particle of mass m at rest is acted upon by a force *F* for a time *t*. Its kinetic energy after an interval *t* is?",
+  "options": {
+    "A": "$\\frac{F^{2}t^{2}}{2m}$",
+    "B": "$\\frac{F^{2}t^{2}}{m}$",
+    "C": "$\\frac{Ft^{2}}{2m}$",
+    "D": "$\\frac{F^{2}t}{2m}$"
+  },
+  "answer": {
+    "keys": [
+      "A"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "08WPE_v2",
+      "qno": 38
+    }
+  ],
+  "assets": [],
+  "rights": "unverified",
+  "content_hash": "98da33a9fe16caf6",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

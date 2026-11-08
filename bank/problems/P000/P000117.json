@@ -1,0 +1,45 @@
+{
+  "id": "P000117",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0315",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A particle is thrown upwards from ground. It experiences a constant resistive force which produces a retardation of 6 m$s^{- 2}.$ What will be the ratio of time of descent to time of ascent?",
+  "options": {
+    "A": "2",
+    "B": "3",
+    "C": "4",
+    "D": "1"
+  },
+  "answer": {
+    "keys": [
+      "A"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "03MSL_v2",
+      "qno": 33
+    }
+  ],
+  "assets": [],
+  "rights": "unverified",
+  "content_hash": "7ea7db630c597563",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

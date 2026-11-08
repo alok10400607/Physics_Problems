@@ -1,0 +1,45 @@
+{
+  "id": "P000364",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0535",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A block of mass 4 kg is suspended through two light spring balances A and B. Then A and B will read respectively",
+  "options": {
+    "A": "4 kg and zero kg",
+    "B": "Zero kg and 4 kg",
+    "C": "4 kg and 4 kg",
+    "D": "2 kg and 2 kg"
+  },
+  "answer": {
+    "keys": [
+      "C"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "05NLM_v1",
+      "qno": 81
+    }
+  ],
+  "assets": [],
+  "rights": "unverified",
+  "content_hash": "9c4100dd71e2dc70",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "P000306",
+  "problem_version": 1,
+  "status": "draft",
+  "hints": [],
+  "worded": null,
+  "conventional": "> ![](/tmp/import-p0oookqh/media/image18.png){width=\"1.968503937007874in\" height=\"1.0118110236220472in\"}The choice of system boundary is important;\n\n>\n\n> For the chosen system boundary, there are two contact points where external contact force will act;\n\n>\n\n> Gravitational field force will act on the mass\n\n>\n\n> The FBD will have three force along the indicated direction",
+  "mistakes": [],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": null,
+    "date": "2026-11-08"
+  },
+  "reviewed_by": null
+}

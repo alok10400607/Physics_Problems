@@ -1,0 +1,57 @@
+{
+  "id": "P000332",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0520",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000332-stem-1)Three blocks A = 3 kg, B = 2 kg, C = 5 kg, lie on an inclined frictionless surface as shown in the figure. A force F, parallel to the inclined plane is applied to push the blocks up with an acceleration of 2 m/s<sup>2</sup> . Find the contact force between blocks A and B?",
+  "options": {
+    "A": "35 N",
+    "B": "42 N",
+    "C": "49 N",
+    "D": "56 N"
+  },
+  "answer": {
+    "keys": [
+      "C"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "05NLM_v1",
+      "qno": 49
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000332-stem-1",
+      "role": "stem",
+      "file": "P000/P000332-stem-1.png",
+      "format": "png",
+      "width": 330,
+      "height": 245,
+      "alt": "Three blocks in contact on an incline of 30°: A (3 kg), B (2 kg) and C (5 kg). A force F pushes A up the incline, and the blocks accelerate up the slope at 2 m/s².",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
+  "rights": "unverified",
+  "content_hash": "bbb2cd391f13382e",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

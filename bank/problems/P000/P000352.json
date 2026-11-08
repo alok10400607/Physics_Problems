@@ -1,0 +1,57 @@
+{
+  "id": "P000352",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0530",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000352-stem-1)Find the velocity of the hanging block, if the velocities of two free ends of the string are as shown in the figure?",
+  "options": {
+    "A": "3/2 m/s (up)",
+    "B": "3/2 m/s (down)",
+    "C": "½ m/s (up)",
+    "D": "½ m/s (down)"
+  },
+  "answer": {
+    "keys": [
+      "A"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "05NLM_v1",
+      "qno": 69
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000352-stem-1",
+      "role": "stem",
+      "file": "P000/P000352-stem-1.png",
+      "format": "png",
+      "width": 120,
+      "height": 116,
+      "alt": "A movable pulley carrying a block hangs from a string that passes over two fixed pulleys; one free end of the string moves left at 2 m/s and the other moves down at 1 m/s.",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
+  "rights": "unverified",
+  "content_hash": "1f7515fba8e95f3e",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

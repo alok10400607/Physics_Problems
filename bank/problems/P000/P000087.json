@@ -1,0 +1,50 @@
+{
+  "id": "P000087",
+  "status": "imported",
+  "version": 1,
+  "type": "integer",
+  "topic_code": "0305",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000087-stem-1)A particle moves along the sides *AB, BC, CD* of a square of side 25 *m* with a speed of 15 m/s. Its average velocity is?",
+  "answer": {
+    "value": 5,
+    "unit": "m/s"
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "03MSL_v2",
+      "qno": 3
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000087-stem-1",
+      "role": "stem",
+      "file": "P000/P000087-stem-1.png",
+      "format": "png",
+      "width": 490,
+      "height": 371,
+      "alt": "A rectangular path ABCD. Arrows show motion from A up to B, from B left to C, and from C down to D; side DA is dashed.",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
+  "rights": "unverified",
+  "content_hash": "8fffde432a698367",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

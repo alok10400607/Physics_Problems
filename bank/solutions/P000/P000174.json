@@ -1,0 +1,21 @@
+{
+  "id": "P000174",
+  "problem_version": 1,
+  "status": "draft",
+  "hints": [],
+  "worded": null,
+  "conventional": "> Let us focus on downward motion (fall from h) with $x$ being the distance fallen\n\n>\n\n> Option B: the speed increases at increasing rate as it falls (slope of tangent gets steeper as ‘h’ decreases)\n\n>\n\n> Option C: speed increases linearly\n\n>\n\n> Option D: it increases at decreasing rate\n\n>\n\n> The key is to find the relationship between $v - x$ which is $v = \\sqrt{2gx}$\n\n>\n\n> $\\frac{dv}{dx}\\  \\propto \\frac{1}{\\sqrt{x}}$ or the velocity will keep increasing at decreasing rate (increase in speed for a unit fall will keep decreasing as it falls)",
+  "mistakes": [],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": null,
+    "date": "2026-11-08"
+  },
+  "reviewed_by": null
+}

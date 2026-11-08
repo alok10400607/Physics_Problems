@@ -1,0 +1,48 @@
+{
+  "id": "P000180",
+  "status": "imported",
+  "version": 1,
+  "type": "integer",
+  "topic_code": "0340",
+  "concepts": [],
+  "exams": [
+    "JEE Main"
+  ],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A particle is moving along x-axis with its coordinates given by $x(t) = 10 + 8t - 3t^{2}$. Another particle is moving along y-axis with its coordinates given by $y(t) = 5 - 8t^{3}$. At t = 1 s, the speed of the second particle as measured in the frame of first particle is given as $\\sqrt{v}$. Then v in m/s is:",
+  "answer": {
+    "value": 580
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "03MSL_v2",
+      "qno": 96
+    },
+    {
+      "kind": "exam",
+      "exam": "JEE Main",
+      "date": "2020-01-08",
+      "shift": 1,
+      "mode": null,
+      "raw": "JEE Main 2020, 8 Jan, Shift 1",
+      "year": 2020
+    }
+  ],
+  "assets": [],
+  "rights": "past-paper",
+  "content_hash": "f5c19d11d84359f3",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

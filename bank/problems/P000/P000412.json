@@ -1,0 +1,56 @@
+{
+  "id": "P000412",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0710",
+  "concepts": [],
+  "exams": [
+    "NEET"
+  ],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A gramophone record is revolving with an angular velocity ω. A coin is placed at a distance r from the centre of the record. The static coefficient of friction is µ. The coin will revolve with the record if:",
+  "options": {
+    "A": "$r \\geq \\frac{\\mu g}{\\omega^{2}}$",
+    "B": "$r = \\mu g\\omega^{2}$",
+    "C": "$r < \\frac{\\omega^{2}}{\\mu g}$",
+    "D": "$r \\leq \\frac{\\mu g}{\\omega^{2}}$"
+  },
+  "answer": {
+    "keys": [
+      "D"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "07CM1_v2",
+      "qno": 34
+    },
+    {
+      "kind": "exam",
+      "exam": "AIPMT",
+      "date": null,
+      "shift": null,
+      "mode": "Pre",
+      "raw": "AIPMT 2010 (Pre)",
+      "year": 2010
+    }
+  ],
+  "assets": [],
+  "rights": "past-paper",
+  "content_hash": "1a0eae46b71c976a",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

@@ -1,0 +1,49 @@
+{
+  "id": "P000305",
+  "status": "imported",
+  "version": 1,
+  "type": "integer",
+  "topic_code": "0510",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000305-stem-1)Three identical smooth cylinders, each of mass m, are placed between the two inclined surfaces symmetrically as shown. All three are in contact with each other. The normal reaction exerted by the either of the inclined surfaces is $xmg$; then the value of x is?",
+  "answer": {
+    "value": 3
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "05NLM_v1",
+      "qno": 22
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000305-stem-1",
+      "role": "stem",
+      "file": "P000/P000305-stem-1.png",
+      "format": "png",
+      "width": 295,
+      "height": 239,
+      "alt": "Three identical cylinders in a V-shaped groove whose sides are each at 60° to the horizontal: two at the bottom and one resting on top of them.",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
+  "rights": "unverified",
+  "content_hash": "a9139d75291fd936",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

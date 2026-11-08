@@ -1,0 +1,45 @@
+{
+  "id": "P000318",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0515",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A balloon of mass M is descending down with an acceleration a( \\< g). What mass m be detached from it so that it starts moving up with an acceleration a? (assume that upward buoyancy force remains constant)",
+  "options": {
+    "A": "$\\frac{2Ma}{g}$",
+    "B": "$\\frac{Ma}{g\\  + \\ a}$",
+    "C": "$\\frac{2Mg}{g + a}$",
+    "D": "$\\frac{2Ma}{g + a}$"
+  },
+  "answer": {
+    "keys": [
+      "D"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "05NLM_v1",
+      "qno": 35
+    }
+  ],
+  "assets": [],
+  "rights": "unverified",
+  "content_hash": "a42431af7e25d049",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

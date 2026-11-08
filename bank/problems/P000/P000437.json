@@ -1,0 +1,45 @@
+{
+  "id": "P000437",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0720",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A car is moving in a circular horizontal track of radius 10 m with a constant speed of 10 m/s. A plumb bob is suspended from the roof of the car by string of length 1 m. The angle made by the string with the vertical?",
+  "options": {
+    "A": "$15{^\\circ}$",
+    "B": "$30{^\\circ}$",
+    "C": "$37{^\\circ}$",
+    "D": "$45{^\\circ}$"
+  },
+  "answer": {
+    "keys": [
+      "D"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "07CM1_v2",
+      "qno": 59
+    }
+  ],
+  "assets": [],
+  "rights": "unverified",
+  "content_hash": "ec85dc5f5b39375c",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

@@ -1,0 +1,45 @@
+{
+  "id": "P000110",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0315",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A stone is thrown vertically upward with an initial velocity v<sub>0</sub>. The distance travelled in time 4$v_{0}/3g$ is?",
+  "options": {
+    "A": "$\\frac{5v_{0}^{2}}{9g}$",
+    "B": "$\\frac{4v_{0}^{2}}{9g}$",
+    "C": "$\\frac{5v_{0}^{2}}{18g}$",
+    "D": "$\\frac{11v_{0}^{2}}{18g}$"
+  },
+  "answer": {
+    "keys": [
+      "A"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "03MSL_v2",
+      "qno": 26
+    }
+  ],
+  "assets": [],
+  "rights": "unverified",
+  "content_hash": "2f30997f7e3461f5",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

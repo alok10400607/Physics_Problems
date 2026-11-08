@@ -1,0 +1,45 @@
+{
+  "id": "P000233",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0420",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A big hall is 5 m high and 60 m long. A cricket ball is thrown along the length of the hall from one end such that it hits the other end of the hall just grazing the ceiling. What must be the speed of projection of the ball?",
+  "options": {
+    "A": "30 m/s",
+    "B": "40 m/s",
+    "C": "10$\\sqrt{6}$ m/s",
+    "D": "10$\\sqrt{10}\\ $m/s"
+  },
+  "answer": {
+    "keys": [
+      "D"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "04MIP_v2",
+      "qno": 53
+    }
+  ],
+  "assets": [],
+  "rights": "unverified",
+  "content_hash": "9ce94b0facd17eca",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

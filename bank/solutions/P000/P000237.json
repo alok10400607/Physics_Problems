@@ -1,0 +1,23 @@
+{
+  "id": "P000237",
+  "problem_version": 1,
+  "status": "draft",
+  "hints": [
+    "> Given $u_{x} = 15$; $v_{y}\\ $when velocity vector is at $30{^\\circ}$ with the horizontal = $5\\sqrt{3}$"
+  ],
+  "worded": null,
+  "conventional": null,
+  "mistakes": [],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": null,
+    "date": "2026-11-08"
+  },
+  "reviewed_by": null
+}

@@ -1,0 +1,56 @@
+{
+  "id": "P000483",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0820",
+  "concepts": [],
+  "exams": [
+    "JEE Main"
+  ],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A body of mass m dropped from height h reaches the ground with a speed of $0.8\\sqrt{gh}$. The value of work done by air friction is:",
+  "options": {
+    "A": "– 0.68mgh",
+    "B": "mgh",
+    "C": "1.64 mgh",
+    "D": "0.64 mgh"
+  },
+  "answer": {
+    "keys": [
+      "A"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "08WPE_v2",
+      "qno": 44
+    },
+    {
+      "kind": "exam",
+      "exam": "JEE Main",
+      "date": "2021-09-01",
+      "shift": 2,
+      "mode": null,
+      "raw": "JEE Main 2021, 1 Sep, Shift 2",
+      "year": 2021
+    }
+  ],
+  "assets": [],
+  "rights": "past-paper",
+  "content_hash": "c6ec1a217051351c",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

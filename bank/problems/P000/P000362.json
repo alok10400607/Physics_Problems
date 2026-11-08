@@ -1,0 +1,68 @@
+{
+  "id": "P000362",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0530",
+  "concepts": [],
+  "exams": [
+    "JEE Main"
+  ],
+  "difficulty": {
+    "worksheet": "L2",
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000362-stem-1)  The machine as shown has 2 rods of length 1 m connected by a pivot at the top. The end of one rod is connected to the floor by a stationary pivot and the end of the other rod has a roller that rolls along the floor in a slot. As the roller goes back and forth, a 2 kg weight moves up and down. If the roller is moving towards right at a constant speed, the weight moves up with a :",
+  "options": {
+    "A": "constant speed",
+    "B": "decreasing speed",
+    "C": "increasing speed",
+    "D": "speed which is 3/4th of that of the roller when the weight is 0.4 m above the ground"
+  },
+  "answer": {
+    "keys": [
+      "B"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "05NLM_v1",
+      "qno": 79
+    },
+    {
+      "kind": "exam",
+      "exam": "JEE Main",
+      "date": "2017-04-09",
+      "shift": null,
+      "mode": "Online",
+      "raw": "JEE Main 2017, 9 Apr (Online)",
+      "year": 2017
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000362-stem-1",
+      "role": "stem",
+      "file": "P000/P000362-stem-1.png",
+      "format": "png",
+      "width": 893,
+      "height": 550,
+      "alt": "A frame of two equal rods hinged at the top, where a 2 kg block sits. The lower right end is a fixed pivot; the lower left end is a movable roller pushed by force F. The lower ends are a distance x apart.",
+      "origin": "docx",
+      "needs_redraw": false
+    }
+  ],
+  "rights": "past-paper",
+  "content_hash": "12ce967c6b65641c",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

@@ -1,0 +1,57 @@
+{
+  "id": "P000312",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0510",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": "L2",
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000312-stem-1) A flexible chain of weight W hangs between two fixed supports as shown in the figure. What is the tension in the chain at the mid-point?",
+  "options": {
+    "A": "$\\frac{W}{2\\cos \\theta}$",
+    "B": "$\\frac{W}{2\\sin \\theta}$",
+    "C": "$\\frac{w\\tan \\theta}{2}$",
+    "D": "$\\frac{W}{2\\tan \\theta}$"
+  },
+  "answer": {
+    "keys": [
+      "D"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "05NLM_v1",
+      "qno": 29
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000312-stem-1",
+      "role": "stem",
+      "file": "P000/P000312-stem-1.png",
+      "format": "png",
+      "width": 236,
+      "height": 135,
+      "alt": "A chain of weight W hanging between supports A and B on inclined walls; at each end the chain makes angle θ with the horizontal.",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
+  "rights": "unverified",
+  "content_hash": "689d7b0b41ffb7c2",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

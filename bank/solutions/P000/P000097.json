@@ -1,0 +1,21 @@
+{
+  "id": "P000097",
+  "problem_version": 1,
+  "status": "draft",
+  "hints": [],
+  "worded": null,
+  "conventional": "> Similar to Q12: $a = - 4m/s^{2}$ as $\\mathrm{\\Delta}t = 1\\ s$\n\n>\n\n> Average velocity is AM of start and end velocity for $\\frac{v_{0} + v_{1}}{2} = 18\\ m/s$; and $v_{1} - v_{0} = a = - 4$\n\n>\n\n> Gives $v_{0} = 20\\ m/s$",
+  "mistakes": [],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": null,
+    "date": "2026-11-08"
+  },
+  "reviewed_by": null
+}

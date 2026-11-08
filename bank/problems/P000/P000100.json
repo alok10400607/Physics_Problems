@@ -1,0 +1,38 @@
+{
+  "id": "P000100",
+  "status": "imported",
+  "version": 1,
+  "type": "integer",
+  "topic_code": "0310",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A bullet fired into a fixed target loses half of its velocity after penetrating 3 cm. How much further it will penetrate before coming to rest assuming that it faces constant resistance to motion?",
+  "answer": {
+    "value": 1,
+    "unit": "cm"
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "03MSL_v2",
+      "qno": 16
+    }
+  ],
+  "assets": [],
+  "rights": "unverified",
+  "content_hash": "7dfc79102345a5ca",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

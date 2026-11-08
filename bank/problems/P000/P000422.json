@@ -1,0 +1,49 @@
+{
+  "id": "P000422",
+  "status": "imported",
+  "version": 1,
+  "type": "subjective",
+  "topic_code": "0710",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": "L3",
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000422-stem-1) Two blocks A and B of mass $m$ and 4$m$ respectively, connected by a string, are placed on a horizontal surface which is rotating with a constant angular velocity of $\\omega$ about a vertical axis. A and B are at distances R and 2R from the axis, on opposite sides of it. There is no friction between ‘A’ and the surface. What should be minimum coefficient of friction between the surface and block B if there is no slipping.",
+  "answer": {
+    "text": "$$\\mu = 7R\\omega^{2}/4g$$"
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "07CM1_v2",
+      "qno": 44
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000422-stem-1",
+      "role": "stem",
+      "file": "P000/P000422-stem-1.png",
+      "format": "png",
+      "width": 331,
+      "height": 315,
+      "alt": "A turntable rotating with angular speed ω: block A (mass m) at radius R and block B (mass 4m) at radius 2R on opposite sides, joined by a string through the centre; the friction coefficient is μ.",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
+  "rights": "unverified",
+  "content_hash": "3858ee806b8132cc",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "P000318",
+  "problem_version": 1,
+  "status": "draft",
+  "hints": [
+    "> Initially: assuming downward $+ ve$ $Mg - F = Ma$ (F: buoyancy force)\n\n>\n\n> Later: assuming upward to be $+ ve$ $F - (M - m)g = (M - m)a$"
+  ],
+  "worded": null,
+  "conventional": null,
+  "mistakes": [],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": null,
+    "date": "2026-11-08"
+  },
+  "reviewed_by": null
+}

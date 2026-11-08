@@ -1,0 +1,45 @@
+{
+  "id": "P000432",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0720",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A car turns a corner on a slippery road at a constant speed of 12 m/s. If the coefficient of friction is 0.4, the minimum radius of the arc in metres in which the car turns is:",
+  "options": {
+    "A": "72",
+    "B": "36",
+    "C": "18",
+    "D": "9"
+  },
+  "answer": {
+    "keys": [
+      "B"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "07CM1_v2",
+      "qno": 54
+    }
+  ],
+  "assets": [],
+  "rights": "unverified",
+  "content_hash": "8f6cc8d7d095a7dc",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

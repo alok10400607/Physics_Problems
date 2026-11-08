@@ -1,0 +1,45 @@
+{
+  "id": "P000488",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0820",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A rifle bullet loses 1/20<sup>th</sup> of its velocity in passing through a plank. The least number of such planks required just to stop the bullet is",
+  "options": {
+    "A": "5",
+    "B": "10",
+    "C": "11",
+    "D": "20"
+  },
+  "answer": {
+    "keys": [
+      "C"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "08WPE_v2",
+      "qno": 49
+    }
+  ],
+  "assets": [],
+  "rights": "unverified",
+  "content_hash": "a22541cdfc97953d",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

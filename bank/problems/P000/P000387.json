@@ -1,0 +1,56 @@
+{
+  "id": "P000387",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0705",
+  "concepts": [],
+  "exams": [
+    "NEET"
+  ],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A particle of mass 10 g moves along a circle of radius 6.4 cm with a constant tangential acceleration. What is the magnitude of this acceleration if the kinetic energy of the particle becomes equal to 8 $\\times 10^{- 4}$ J by the end of the second revolution after the beginning of the motion?",
+  "options": {
+    "A": "0.1 m/$s^{2}$",
+    "B": "0.15 m/$s^{2}$",
+    "C": "0.18 m/$s^{2}$",
+    "D": "0.2 m/$s^{2}$"
+  },
+  "answer": {
+    "keys": [
+      "A"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "07CM1_v2",
+      "qno": 9
+    },
+    {
+      "kind": "exam",
+      "exam": "NEET",
+      "date": null,
+      "shift": null,
+      "mode": null,
+      "raw": "NEET 2016",
+      "year": 2016
+    }
+  ],
+  "assets": [],
+  "rights": "past-paper",
+  "content_hash": "0629882caee7b0b5",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

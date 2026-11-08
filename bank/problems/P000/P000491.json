@@ -1,0 +1,45 @@
+{
+  "id": "P000491",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0820",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A small sphere starts falling from a very large height and after falling a distance of 100 m it attains the terminal velocity and continues to fall with this velocity. The magnitude of work done by the atmosphere during the first fall of 100m is?",
+  "options": {
+    "A": "Greater than the work done for next fall of 100 m",
+    "B": "Less than the work done for next fall of 100 m",
+    "C": "Equal to 100 mg",
+    "D": "Greater than 100 mg"
+  },
+  "answer": {
+    "keys": [
+      "B"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "08WPE_v2",
+      "qno": 52
+    }
+  ],
+  "assets": [],
+  "rights": "unverified",
+  "content_hash": "9b1c33e8f98d7296",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

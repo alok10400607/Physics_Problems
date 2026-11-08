@@ -1,0 +1,56 @@
+{
+  "id": "P000129",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0320",
+  "concepts": [],
+  "exams": [
+    "JEE Main"
+  ],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "In a car race on straight road, car A takes a time ‘t’ less than car B at the finish and passes finishing point with a speed 'v' more than that of car B. Both the cars start from rest and travel with constant acceleration a<sub>1</sub> and a<sub>2</sub> respectively. Then 'v' is equal to:",
+  "options": {
+    "A": "$\\frac{a_{1} + a_{2}}{2}t$",
+    "B": "$\\sqrt{2a_{1}a_{2}}$ t",
+    "C": "$\\frac{2a_{1}a_{2}}{a_{1} + a_{2}}$ t",
+    "D": "$\\sqrt{a_{1}a_{2}}$ t"
+  },
+  "answer": {
+    "keys": [
+      "D"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "03MSL_v2",
+      "qno": 45
+    },
+    {
+      "kind": "exam",
+      "exam": "JEE Main",
+      "date": "2019-01-09",
+      "shift": 2,
+      "mode": null,
+      "raw": "JEE Main 2019, 9 Jan, Shift 2",
+      "year": 2019
+    }
+  ],
+  "assets": [],
+  "rights": "past-paper",
+  "content_hash": "bcc75433ce1100c4",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

@@ -1,0 +1,56 @@
+{
+  "id": "P000523",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0835",
+  "concepts": [],
+  "exams": [
+    "NEET"
+  ],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A car of mass m starts from rest and accelerates so that the instantaneous power delivered to the car has a constant magnitude P<sub>0</sub>. The instantaneous velocity of this car is proportional to:",
+  "options": {
+    "A": "$t^{- 1/2}$",
+    "B": "$\\frac{t}{\\sqrt{m}}$",
+    "C": "$t^{2}$",
+    "D": "$t^{1/2}$"
+  },
+  "answer": {
+    "keys": [
+      "D"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "08WPE_v2",
+      "qno": 84
+    },
+    {
+      "kind": "exam",
+      "exam": "AIPMT",
+      "date": null,
+      "shift": null,
+      "mode": null,
+      "raw": "AIPMT 2012",
+      "year": 2012
+    }
+  ],
+  "assets": [],
+  "rights": "past-paper",
+  "content_hash": "2f594ed386175f71",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

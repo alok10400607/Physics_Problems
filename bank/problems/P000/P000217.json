@@ -1,0 +1,45 @@
+{
+  "id": "P000217",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0410",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "An oblique projectile on a horizontal plane has a range of 105 m and has a time of flight of 7 sec. Find the displacement of the projectile in the 4<sup>th</sup> second of its motion.",
+  "options": {
+    "A": "10$\\sqrt{2}\\ m$",
+    "B": "$5\\sqrt{3}$ m",
+    "C": "15 m",
+    "D": "5 m"
+  },
+  "answer": {
+    "keys": [
+      "C"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "04MIP_v2",
+      "qno": 37
+    }
+  ],
+  "assets": [],
+  "rights": "unverified",
+  "content_hash": "1d4074850218c396",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

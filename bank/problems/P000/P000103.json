@@ -1,0 +1,38 @@
+{
+  "id": "P000103",
+  "status": "imported",
+  "version": 1,
+  "type": "integer",
+  "topic_code": "0315",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A ball is dropped from the roof of a tower of height h. The total distance covered by it in the last second of its motion is equal to the distance covered by it in first three seconds. The value of h in meters is",
+  "answer": {
+    "value": 125,
+    "unit": "m"
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "03MSL_v2",
+      "qno": 19
+    }
+  ],
+  "assets": [],
+  "rights": "unverified",
+  "content_hash": "5fca830612c32947",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

@@ -1,0 +1,39 @@
+{
+  "id": "P000232",
+  "status": "imported",
+  "version": 1,
+  "type": "numerical",
+  "topic_code": "0420",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A ball is projected from ground with a speed of 20 m/s at an angle of 45° with horizontal. There is a wall of 25 m height at a distance of 10 m from the projection point. The ball will hit the wall at a height of?",
+  "answer": {
+    "value": 7.5,
+    "unit": "m",
+    "tolerance": 0.01
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "04MIP_v2",
+      "qno": 52
+    }
+  ],
+  "assets": [],
+  "rights": "unverified",
+  "content_hash": "092ce595eb3f7ad4",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

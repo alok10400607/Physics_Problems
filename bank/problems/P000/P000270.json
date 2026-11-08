@@ -1,0 +1,45 @@
+{
+  "id": "P000270",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0435",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": "L2",
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "Two ships are initially at rest, with ship B 1000 m east of ship A. Both ships start moving simultaneously, with ‘A’ having a velocity of 10 m/s SE and B having a velocity of 20 m/s in SW. What would be shortest possible distance between the two ships?",
+  "options": {
+    "A": "100 m",
+    "B": "100$\\sqrt{3}\\ m$",
+    "C": "100$\\sqrt{5}\\ m$",
+    "D": "100$\\sqrt{10}\\ m$"
+  },
+  "answer": {
+    "keys": [
+      "D"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "04MIP_v2",
+      "qno": 90
+    }
+  ],
+  "assets": [],
+  "rights": "unverified",
+  "content_hash": "d24ef98c5e4cb2f0",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

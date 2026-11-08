@@ -1,0 +1,57 @@
+{
+  "id": "P000339",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0525",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000339-stem-1)In the figure shown, a person wants to raise a block of mass m lying on floor. In both the cases, the upward acceleration of the block is a. Then the force exerted by the man on the string in two cases will be:",
+  "options": {
+    "A": "$m(g + a),\\frac{m(g + a)}{2}\\ $",
+    "B": "$\\frac{m(g + a)}{2},\\frac{m(g + a)}{2}$",
+    "C": "$m(g - a),\\ m(g + a)$",
+    "D": "$\\frac{m}{2}(g - a),\\ m(g + a)$"
+  },
+  "answer": {
+    "keys": [
+      "A"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "05NLM_v1",
+      "qno": 56
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000339-stem-1",
+      "role": "stem",
+      "file": "P000/P000339-stem-1.png",
+      "format": "png",
+      "width": 1671,
+      "height": 1512,
+      "alt": "Two set-ups in which a man on the ground pulls a rope to lift a box: in (i) the rope passes over one fixed pulley; in (ii) it passes over a fixed pulley and holds the box through a movable pulley.",
+      "origin": "docx",
+      "needs_redraw": false
+    }
+  ],
+  "rights": "unverified",
+  "content_hash": "111ba3c55b95cbd1",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

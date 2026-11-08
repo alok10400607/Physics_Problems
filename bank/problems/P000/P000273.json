@@ -1,0 +1,45 @@
+{
+  "id": "P000273",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0440",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A boat takes 2 hours to go 8 km and come back in a still lake. The time taken for going 8 km upstream a river and coming back with water velocity of 4 km/h is :",
+  "options": {
+    "A": "140 min",
+    "B": "150 min",
+    "C": "160 min",
+    "D": "170 min"
+  },
+  "answer": {
+    "keys": [
+      "C"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "04MIP_v2",
+      "qno": 93
+    }
+  ],
+  "assets": [],
+  "rights": "unverified",
+  "content_hash": "a18fc726cb1f8c9a",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

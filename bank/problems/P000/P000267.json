@@ -1,0 +1,38 @@
+{
+  "id": "P000267",
+  "status": "imported",
+  "version": 1,
+  "type": "integer",
+  "topic_code": "0435",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A point P is moving with constant speed 10 m/s such that the velocity vector always maintains an angle of 60<sup>0</sup> with the line OP where O is a fixed point in the space. The time for P to reach O if the initial distance of P from O is 100m?",
+  "answer": {
+    "value": 20,
+    "unit": "s"
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "04MIP_v2",
+      "qno": 87
+    }
+  ],
+  "assets": [],
+  "rights": "unverified",
+  "content_hash": "9e5ccdfdf0cbc123",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

@@ -1,0 +1,57 @@
+{
+  "id": "P000419",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0710",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000419-stem-1)$v_{o}$ on a horizontal circular ring of radius ‘r’. The coefficient of friction between the bead and the ring is μ. This arrangement is placed in a gravity free space. Find the initial acceleration of the bead?",
+  "options": {
+    "A": "$\\frac{{v_{o}}^{2}}{r}(1 + \\mu)$",
+    "B": "$\\frac{{v_{o}}^{2}}{r}(1 + \\mu^{2})$",
+    "C": "$\\frac{{v_{o}}^{2}}{r}\\sqrt{1 + \\mu^{2}}$",
+    "D": "$\\frac{{{\\mu v}_{o}}^{2}}{r}$"
+  },
+  "answer": {
+    "keys": [
+      "C"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "07CM1_v2",
+      "qno": 41
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000419-stem-1",
+      "role": "stem",
+      "file": "P000/P000419-stem-1.png",
+      "format": "png",
+      "width": 291,
+      "height": 238,
+      "alt": "A ring of mass m moving with speed v₀ around a horizontal circular track of radius r, about a vertical axis.",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
+  "rights": "unverified",
+  "content_hash": "d9a9de4ab6595bd2",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

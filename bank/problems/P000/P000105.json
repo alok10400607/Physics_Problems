@@ -1,0 +1,37 @@
+{
+  "id": "P000105",
+  "status": "imported",
+  "version": 1,
+  "type": "subjective",
+  "topic_code": "0315",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A body is thrown vertically up from the ground with a speed u and it reaches its maximum height ‘h’ at time $t = t_{0}$. The height to which it would have risen at t =$t_{0}$/2?",
+  "answer": {
+    "text": "3h/4"
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "03MSL_v2",
+      "qno": 21
+    }
+  ],
+  "assets": [],
+  "rights": "unverified",
+  "content_hash": "a23122577ba9288e",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

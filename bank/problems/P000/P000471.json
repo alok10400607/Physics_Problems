@@ -1,0 +1,57 @@
+{
+  "id": "P000471",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0815",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000471-stem-1)A vertical spring of force constant 100 N/m is attached with a hanging mass of 10 kg. Now a variable external force is applied on the mass so that the spring is slowly stretched by additional 2m. The work done by the force F is :",
+  "options": {
+    "A": "400 J",
+    "B": "300 J",
+    "C": "250 J",
+    "D": "200J"
+  },
+  "answer": {
+    "keys": [
+      "D"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "08WPE_v2",
+      "qno": 32
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000471-stem-1",
+      "role": "stem",
+      "file": "P000/P000471-stem-1.png",
+      "format": "png",
+      "width": 160,
+      "height": 330,
+      "alt": "A 10 kg block hanging from the ceiling on a spring, pulled down by force F.",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
+  "rights": "unverified",
+  "content_hash": "b208b58aed7c87cf",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

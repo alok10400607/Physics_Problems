@@ -1,0 +1,37 @@
+{
+  "id": "P000159",
+  "status": "imported",
+  "version": 1,
+  "type": "subjective",
+  "topic_code": "0325",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": "L2",
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A particle starts from rest at x = 0. Its acceleration is 5 m/s<sup>2</sup> which decreases linearly with time to zero in 6 seconds. Find (i) the maximum speed of the particle and (ii) its displacement in time interval t = 0 to t= 2 sec.",
+  "answer": {
+    "text": "15 m/s, 80/9 m"
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "03MSL_v2",
+      "qno": 75
+    }
+  ],
+  "assets": [],
+  "rights": "unverified",
+  "content_hash": "dd244a864e944c8d",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

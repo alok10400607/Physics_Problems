@@ -1,0 +1,56 @@
+{
+  "id": "P000405",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0710",
+  "concepts": [],
+  "exams": [
+    "NEET"
+  ],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "Two stones of masses ‘m’ and ‘2m’ are whirled in horizontal circles, the heavier one in a radius $\\frac{r}{2}$ and the lighter one in a radius $r$. The tangential speed of lighter stone is n times that of the value of heavier stone when they experience same centripetal forces. The value of n is:",
+  "options": {
+    "A": "1",
+    "B": "2",
+    "C": "3",
+    "D": "4"
+  },
+  "answer": {
+    "keys": [
+      "B"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "07CM1_v2",
+      "qno": 27
+    },
+    {
+      "kind": "exam",
+      "exam": "AIPMT",
+      "date": null,
+      "shift": null,
+      "mode": "Re-exam",
+      "raw": "AIPMT 2013 (Re-exam)",
+      "year": 2013
+    }
+  ],
+  "assets": [],
+  "rights": "past-paper",
+  "content_hash": "ef072a2caa25e001",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

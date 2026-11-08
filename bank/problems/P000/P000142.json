@@ -1,0 +1,45 @@
+{
+  "id": "P000142",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0325",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "The displacement of a body is given to be proportional to the cube of time elapsed. The magnitude of the acceleration of the body is",
+  "options": {
+    "A": "Increasing with time",
+    "B": "Decreasing with time",
+    "C": "Constant but not zero",
+    "D": "Zero"
+  },
+  "answer": {
+    "keys": [
+      "A"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "03MSL_v2",
+      "qno": 58
+    }
+  ],
+  "assets": [],
+  "rights": "unverified",
+  "content_hash": "88667c9e3c8d0c2b",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

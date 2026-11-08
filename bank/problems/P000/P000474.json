@@ -1,0 +1,49 @@
+{
+  "id": "P000474",
+  "status": "imported",
+  "version": 1,
+  "type": "subjective",
+  "topic_code": "0815",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": "L2",
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000474-stem-1) A block of mass 10 kg is placed on a smooth plane inclined at 37° with the horizontal. A spring of natural length of 2m is placed on the inclined plane such that its lower end is fixed and the upper end is at an initial distance of 2m from the block. The block is released from rest and it comes to momentary rest after compressing the spring by 1m\n(i) Find the spring constant\n(ii) What will be the compression of spring when the kinetic energy of the block is maximum?\n(iii) What is the maximum kinetic energy of the block?\n(iv) What will be the maximum acceleration of the block?",
+  "answer": {
+    "text": "(i) 360 N/m (ii) 1/6 m (iii) 125 J (iv) 30 m/s²"
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "08WPE_v2",
+      "qno": 35
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000474-stem-1",
+      "role": "stem",
+      "file": "P000/P000474-stem-1.png",
+      "format": "png",
+      "width": 386,
+      "height": 244,
+      "alt": "A 10 kg block at the top of an incline of 37°, 2 m along the incline from the free end of a 2 m spring fixed at the bottom.",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
+  "rights": "unverified",
+  "content_hash": "af98df35f9117b20",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}
