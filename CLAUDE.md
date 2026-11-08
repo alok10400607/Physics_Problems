@@ -61,4 +61,6 @@ To apply one:
 | `python3 -I tools/trim_figures.py [IDs]` | Trim blank margins from figures |
 | `node tools/check_bank.js` | Check the whole bank |
 | `node tools/build_site.js` | Build the site's data |
-| `node tools/review_page.js --out <html> --topic <code>` | Review page for a subtopic |
+| `node tools/review_workbench.js --topic <code> --out <html>` | Interactive review page (publish with `sample`) |
+| `node tools/review_page.js --out <html> --topic <code>` | Read-only review page for a subtopic |
+| `node tools/solution_fingerprint.js <id>` | Fingerprint of a problem's solutions |

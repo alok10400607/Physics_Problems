@@ -16,6 +16,16 @@ The reviewer reads on the review page and gives instructions in the conversation
 
 ## 2. Show
 
+The main review page is the **workbench**. Reviewers revise with Claude on the page, compare versions, and send "Request a change" or "Approve" as a prefilled GitHub issue, which `@claude` applies (see CLAUDE.md, "Review requests from the review page"):
+
+```bash
+node tools/review_workbench.js --topic 1715 --out <scratchpad>/review-1715.html
+```
+
+Publish it with the Artifact tool and `capabilities: {"sample": {}}`, and republish it whenever that subtopic's solutions change on `main`. The owner shares the page with reviewers from its Share menu.
+
+For a conversational session in chat, the read-only page below is still available:
+
 ```bash
 node tools/review_page.js --out <scratchpad>/review.html <ids or --topic 1703> [--compare <git ref>]
 ```
