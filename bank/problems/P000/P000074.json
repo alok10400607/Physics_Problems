@@ -1,0 +1,56 @@
+{
+  "id": "P000074",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": 1708,
+  "concepts": [],
+  "exams": [
+    "JEE Main"
+  ],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A simple harmonic motion is represented by $y = 5(\\sin 3\\pi t + \\sqrt{3}\\cos 3\\pi t)$ cm. The amplitude and time period of the motion are:",
+  "options": {
+    "A": "5 cm; 3/2 s",
+    "B": "5 cm; 2/3 s",
+    "C": "10 cm; 3/2 s",
+    "D": "10 cm; 2/3 s"
+  },
+  "answer": {
+    "keys": [
+      "D"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "17SHM_v6",
+      "qno": 74
+    },
+    {
+      "kind": "exam",
+      "exam": "JEE Main",
+      "year": 2019,
+      "date": "2019-01-12",
+      "shift": 1,
+      "mode": null,
+      "raw": "JEE Main 2019, 12 Jan, Shift 1"
+    }
+  ],
+  "assets": [],
+  "rights": "past-paper",
+  "content_hash": "f02932f6cdb60257",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

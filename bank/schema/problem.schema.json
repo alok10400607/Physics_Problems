@@ -1,0 +1,97 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "problem.schema.json",
+  "title": "Problem",
+  "description": "One question in the bank. Text fields are Markdown with LaTeX maths ($...$, $$...$$). Figures are referenced in text as ![alt](asset:<asset id>).",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "status", "version", "type", "topic_code", "stem", "answer", "sources", "assets", "rights", "content_hash", "created", "updated"],
+  "properties": {
+    "id": {"type": "string", "pattern": "^P\\d{6}$"},
+    "status": {"enum": ["imported", "ai_tagged", "ai_solved", "reviewed", "published", "retired"]},
+    "version": {"type": "integer", "minimum": 1},
+    "type": {"enum": ["mcq_single", "mcq_multi", "integer", "numerical", "assertion_reason", "matrix_match", "comprehension", "subjective"]},
+    "topic_code": {"type": "integer"},
+    "concepts": {"type": "array", "items": {"type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"}, "uniqueItems": true},
+    "exams": {"type": "array", "items": {"enum": ["JEE Main", "JEE Advanced", "NEET"]}, "uniqueItems": true},
+    "difficulty": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "worksheet": {"type": ["string", "null"], "pattern": "^L[1-6]$", "description": "Tag as written in the source worksheet"},
+        "ai": {"type": ["integer", "null"], "minimum": 1, "maximum": 6},
+        "ai_scores": {"type": ["object", "null"]},
+        "ai_reason": {"type": ["string", "null"]},
+        "ai_confidence": {"type": ["number", "null"], "minimum": 0, "maximum": 1},
+        "expert": {"type": ["integer", "null"], "minimum": 1, "maximum": 6}
+      }
+    },
+    "time_estimate_s": {"type": ["integer", "null"]},
+    "passage_id": {"type": ["string", "null"], "pattern": "^PS\\d{5}$"},
+    "stem": {"type": "string", "minLength": 10},
+    "options": {
+      "type": "object",
+      "propertyNames": {"pattern": "^[A-F]$"},
+      "additionalProperties": {"type": "string", "minLength": 1}
+    },
+    "answer": {
+      "oneOf": [
+        {"type": "object", "additionalProperties": false, "required": ["keys"], "properties": {"keys": {"type": "array", "minItems": 1, "items": {"type": "string", "pattern": "^[A-F]$"}}}},
+        {"type": "object", "additionalProperties": false, "required": ["value"], "properties": {"value": {"type": "number"}, "tolerance": {"type": "number"}, "unit": {"type": "string"}}},
+        {"type": "object", "additionalProperties": false, "required": ["text"], "properties": {"text": {"type": "string"}}},
+        {"type": "object", "additionalProperties": false, "required": ["pairs"], "properties": {"pairs": {"type": "object"}}}
+      ]
+    },
+    "sources": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["kind"],
+        "properties": {
+          "kind": {"enum": ["worksheet", "exam", "book", "csv"]},
+          "ref": {"type": "string"},
+          "qno": {"type": ["integer", "null"]},
+          "exam": {"type": "string"},
+          "year": {"type": "integer"},
+          "date": {"type": ["string", "null"], "pattern": "^\\d{4}-\\d{2}-\\d{2}$"},
+          "shift": {"type": ["integer", "null"]},
+          "mode": {"type": ["string", "null"]},
+          "raw": {"type": "string"}
+        }
+      }
+    },
+    "assets": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "role", "file", "format", "width", "height", "alt", "origin", "needs_redraw"],
+        "properties": {
+          "id": {"type": "string", "pattern": "^(P\\d{6}|PS\\d{5})-(stem-\\d+|opt-[A-F]|sol-\\d+|\\d+)$"},
+          "role": {"enum": ["stem", "option", "solution", "passage"]},
+          "option_key": {"type": "string", "pattern": "^[A-F]$"},
+          "file": {"type": "string"},
+          "format": {"enum": ["png", "svg", "jpg", "webp"]},
+          "width": {"type": "integer"},
+          "height": {"type": "integer"},
+          "alt": {"type": "string"},
+          "origin": {"enum": ["docx", "mathpix", "redrawn", "csv"]},
+          "needs_redraw": {"type": "boolean"}
+        }
+      }
+    },
+    "rights": {"enum": ["original", "past-paper", "third-party", "unverified"]},
+    "content_hash": {"type": "string", "pattern": "^[0-9a-f]{16}$"},
+    "duplicate_of": {"type": ["string", "null"], "pattern": "^P\\d{6}$"},
+    "variant_of": {"type": ["string", "null"], "pattern": "^P\\d{6}$"},
+    "created": {"type": "string", "format": "date"},
+    "updated": {"type": "string", "format": "date"}
+  },
+  "allOf": [
+    {"if": {"properties": {"type": {"enum": ["mcq_single", "mcq_multi", "assertion_reason"]}}},
+     "then": {"required": ["options"], "properties": {"answer": {"required": ["keys"]}}}},
+    {"if": {"properties": {"type": {"enum": ["integer", "numerical"]}}},
+     "then": {"properties": {"answer": {"required": ["value"]}}}}
+  ]
+}

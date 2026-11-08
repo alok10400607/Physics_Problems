@@ -1,0 +1,56 @@
+{
+  "id": "P000013",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": 1701,
+  "concepts": [],
+  "exams": [
+    "JEE Main"
+  ],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "Two particles are performing simple harmonic motion in a straight line about the same equilibrium point. The amplitude and time period for both particles are same and equal to A and T, respectively. At time t=0 one particle has displacement A while the other one has displacement – A/2 and they are moving towards each other. If they cross each other at time t, then t is:",
+  "options": {
+    "A": "T/6",
+    "B": "5T/6",
+    "C": "T/3",
+    "D": "T/4"
+  },
+  "answer": {
+    "keys": [
+      "A"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "17SHM_v6",
+      "qno": 13
+    },
+    {
+      "kind": "exam",
+      "exam": "JEE Main",
+      "year": 2016,
+      "date": "2016-04-09",
+      "shift": null,
+      "mode": "Online",
+      "raw": "JEE Main 2016, 9 Apr (Online)"
+    }
+  ],
+  "assets": [],
+  "rights": "past-paper",
+  "content_hash": "185127bb904dd1d2",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

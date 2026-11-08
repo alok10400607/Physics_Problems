@@ -1,0 +1,49 @@
+{
+  "id": "P000051",
+  "status": "imported",
+  "version": 1,
+  "type": "subjective",
+  "topic_code": 1704,
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": "L2",
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000051-stem-1) A mass $m$ is oscillating on a smooth horizontal surface with an amplitude of A as shown. At the instant it is passing through the mean position, a blob of wax of mass $m$ is dropped on the block (it sticks to mass almost immediately).\n(i) Find the new amplitude of oscillation.\n(ii) If the blob of wax was dropped when the block was at x = +A/2, what would the new amplitude have been?\n(iii) If the blob were dropped at x = +A, what would the new amplitude be? (The three cases are independent.)",
+  "answer": {
+    "text": "(i) $A/\\sqrt{2}$; (ii) $\\sqrt{\\frac{5}{8}}A$; (iii) $A$"
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "17SHM_v6",
+      "qno": 51
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000051-stem-1",
+      "role": "stem",
+      "file": "P000/P000051-stem-1.png",
+      "format": "png",
+      "width": 335,
+      "height": 178,
+      "alt": "A block m on a horizontal surface, joined to a wall by a spring of constant k and moving to the right. Three vertical markers below mark positions, the right-hand one labelled +A.",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
+  "rights": "unverified",
+  "content_hash": "c59c7dc919f37310",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

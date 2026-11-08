@@ -1,0 +1,45 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "solution.schema.json",
+  "title": "Solution",
+  "description": "The three solution levels for one problem, stored separately so they can be placed behind a login in Stage 2.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "problem_version", "status", "hints"],
+  "properties": {
+    "id": {"type": "string", "pattern": "^P\\d{6}$"},
+    "problem_version": {"type": "integer", "minimum": 1, "description": "The problem version these solutions were written for"},
+    "status": {"enum": ["draft", "ai_solved", "in_review", "reviewed", "published"]},
+    "hints": {"type": "array", "maxItems": 3, "items": {"type": "string", "minLength": 5}},
+    "worded": {"type": ["string", "null"]},
+    "conventional": {"type": ["string", "null"]},
+    "mistakes": {"type": "array", "items": {"type": "string"}},
+    "distractors": {"type": "object", "propertyNames": {"pattern": "^[A-F]$"}, "additionalProperties": {"type": "string"}},
+    "extension": {"type": ["string", "null"], "description": "A 'think further' question for curious students"},
+    "check": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "solved_answer": {"type": ["string", "number", "null"]},
+        "resolve_answer": {"type": ["string", "number", "null"], "description": "Answer from the blind re-solve"},
+        "agrees_with_key": {"type": ["boolean", "null"]},
+        "issues": {"type": "array", "items": {"type": "string"}}
+      }
+    },
+    "generated_by": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "author": {"enum": ["worksheet", "llm", "expert"]},
+        "model": {"type": ["string", "null"]},
+        "prompt_version": {"type": ["string", "null"]},
+        "date": {"type": "string", "format": "date"}
+      }
+    },
+    "reviewed_by": {
+      "type": ["object", "null"],
+      "additionalProperties": false,
+      "properties": {"name": {"type": "string"}, "date": {"type": "string", "format": "date"}, "notes": {"type": "string"}}
+    }
+  }
+}

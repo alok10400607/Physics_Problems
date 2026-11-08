@@ -1,0 +1,56 @@
+{
+  "id": "P000031",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": 1703,
+  "concepts": [],
+  "exams": [
+    "JEE Main"
+  ],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "Starting from the origin a body oscillates simple harmonically with a period of 2 s. After what time will its kinetic energy be 75% of the total energy?",
+  "options": {
+    "A": "$\\frac{1}{6}\\ s$",
+    "B": "$\\frac{1}{4}\\ s$",
+    "C": "$\\frac{1}{3}\\ s$",
+    "D": "$\\frac{1}{12}\\ s$"
+  },
+  "answer": {
+    "keys": [
+      "A"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "17SHM_v6",
+      "qno": 31
+    },
+    {
+      "kind": "exam",
+      "exam": "AIEEE",
+      "year": 2006,
+      "date": null,
+      "shift": null,
+      "mode": null,
+      "raw": "AIEEE 2006"
+    }
+  ],
+  "assets": [],
+  "rights": "past-paper",
+  "content_hash": "067a241a642c7ee0",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

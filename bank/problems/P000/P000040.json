@@ -1,0 +1,68 @@
+{
+  "id": "P000040",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": 1704,
+  "concepts": [],
+  "exams": [
+    "JEE Main"
+  ],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000040-stem-1) A block of mass m, lying on a smooth horizontal surface, is attached to a spring (of negligible mass) of spring constant k. The other end of the spring is fixed, as shown in the figure. The block is initially at rest in its equilibrium position. If now the block is pulled with a constant force F, the maximum speed of the block is:",
+  "options": {
+    "A": "$\\ \\frac{\\pi F}{\\sqrt{mk}}$",
+    "B": "$\\frac{2F}{\\sqrt{mk}}$",
+    "C": "$\\frac{F}{\\sqrt{mk}}$",
+    "D": "$\\frac{F}{\\pi\\sqrt{mk}}$"
+  },
+  "answer": {
+    "keys": [
+      "C"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "17SHM_v6",
+      "qno": 40
+    },
+    {
+      "kind": "exam",
+      "exam": "JEE Main",
+      "year": 2019,
+      "date": "2019-01-09",
+      "shift": 1,
+      "mode": null,
+      "raw": "JEE Main 2019, 9 Jan, Shift 1"
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000040-stem-1",
+      "role": "stem",
+      "file": "P000/P000040-stem-1.png",
+      "format": "png",
+      "width": 323,
+      "height": 115,
+      "alt": "A block of mass m on a horizontal floor, joined to a wall by a spring of constant k and pulled away from the wall by a horizontal force F.",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
+  "rights": "past-paper",
+  "content_hash": "47865045f801ae77",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

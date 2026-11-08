@@ -1,0 +1,56 @@
+{
+  "id": "P000024",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": 1702,
+  "concepts": [],
+  "exams": [
+    "JEE Main"
+  ],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A particle executes simple harmonic motion with an amplitude of 5 cm. When the particle is at 4 cm from the mean position, the magnitude of its velocity in SI units is equal to that of its acceleration. Then, its periodic time in seconds is:",
+  "options": {
+    "A": "7π/3",
+    "B": "3π/8",
+    "C": "4π/3",
+    "D": "8π/3"
+  },
+  "answer": {
+    "keys": [
+      "D"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "17SHM_v6",
+      "qno": 24
+    },
+    {
+      "kind": "exam",
+      "exam": "JEE Main",
+      "year": 2019,
+      "date": "2019-01-10",
+      "shift": 2,
+      "mode": null,
+      "raw": "JEE Main 2019, 10 Jan, Shift 2"
+    }
+  ],
+  "assets": [],
+  "rights": "past-paper",
+  "content_hash": "d871feeb71c50818",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

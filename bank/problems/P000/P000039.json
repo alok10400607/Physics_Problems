@@ -1,0 +1,68 @@
+{
+  "id": "P000039",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": 1704,
+  "concepts": [],
+  "exams": [
+    "JEE Main"
+  ],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000039-stem-1) On a smooth inclined plane, a body of mass m is attached between two springs. The other ends of the springs are fixed to firm supports. If each spring has force constant k, the period of oscillation of the body (assuming the springs as massless) is:",
+  "options": {
+    "A": "$2\\pi\\sqrt{\\frac{m}{2k}}$",
+    "B": "$2\\pi\\sqrt{\\frac{m}{2k\\sin \\theta}}$",
+    "C": "$2\\pi\\sqrt{\\frac{m}{2k\\cos \\theta}}$",
+    "D": "$2\\pi\\sqrt{\\frac{2m}{k}}$"
+  },
+  "answer": {
+    "keys": [
+      "A"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "17SHM_v6",
+      "qno": 39
+    },
+    {
+      "kind": "exam",
+      "exam": "JEE Main",
+      "year": 2021,
+      "date": "2021-02-24",
+      "shift": 2,
+      "mode": null,
+      "raw": "JEE Main 2021, 24 Feb, Shift 2"
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000039-stem-1",
+      "role": "stem",
+      "file": "P000/P000039-stem-1.png",
+      "format": "png",
+      "width": 344,
+      "height": 228,
+      "alt": "A block of mass m on a smooth incline at angle θ, held between two springs fixed to stops at the bottom and top of the incline.",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
+  "rights": "past-paper",
+  "content_hash": "60ca96f47036647f",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

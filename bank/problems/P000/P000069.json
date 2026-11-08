@@ -1,0 +1,68 @@
+{
+  "id": "P000069",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": 1706,
+  "concepts": [],
+  "exams": [
+    "JEE Main"
+  ],
+  "difficulty": {
+    "worksheet": "L2",
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000069-stem-1)  Two light identical springs of spring constant k are attached horizontally at the two ends of a uniform horizontal rod AB of length ℓ and mass m. The rod is pivoted at its centre 'O' and can rotate freely in a horizontal plane. The other ends of the two springs are fixed to rigid supports as shown in the figure. The rod is gently pushed through a small angle and released. The frequency of resulting oscillation is:",
+  "options": {
+    "A": "$\\frac{1}{2\\pi}\\sqrt{\\frac{6k}{m}}$",
+    "B": "$\\frac{1}{2\\pi}\\sqrt{\\frac{2k}{m}}$",
+    "C": "$\\frac{1}{2\\pi}\\sqrt{\\frac{k}{m}}$",
+    "D": "$\\frac{1}{2\\pi}\\sqrt{\\frac{3k}{m}}$"
+  },
+  "answer": {
+    "keys": [
+      "A"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "17SHM_v6",
+      "qno": 69
+    },
+    {
+      "kind": "exam",
+      "exam": "JEE Main",
+      "year": 2019,
+      "date": "2019-01-12",
+      "shift": 2,
+      "mode": null,
+      "raw": "JEE Main 2019, 12 Jan, Shift 2"
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000069-stem-1",
+      "role": "stem",
+      "file": "P000/P000069-stem-1.png",
+      "format": "png",
+      "width": 323,
+      "height": 333,
+      "alt": "A rod pivoted at its centre O, tilted at angle θ to the vertical. Each end is joined by a horizontal spring of constant k to a wall, the walls on opposite sides.",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
+  "rights": "past-paper",
+  "content_hash": "991ee05ecdf2121b",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

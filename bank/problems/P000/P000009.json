@@ -1,0 +1,48 @@
+{
+  "id": "P000009",
+  "status": "imported",
+  "version": 1,
+  "type": "integer",
+  "topic_code": 1701,
+  "concepts": [],
+  "exams": [
+    "JEE Main"
+  ],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "Time period of a simple pendulum is T. The time taken to complete 5/8 oscillations starting from the mean position is $\\frac{\\alpha}{\\beta}\\ T$. The value of α is:",
+  "answer": {
+    "value": 7
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "17SHM_v6",
+      "qno": 9
+    },
+    {
+      "kind": "exam",
+      "exam": "JEE Main",
+      "year": 2021,
+      "date": "2021-02-26",
+      "shift": 2,
+      "mode": null,
+      "raw": "JEE Main 2021, 26 Feb, Shift 2"
+    }
+  ],
+  "assets": [],
+  "rights": "past-paper",
+  "content_hash": "7ac1ca6e527062fa",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

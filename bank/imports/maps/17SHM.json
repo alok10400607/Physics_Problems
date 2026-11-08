@@ -1,0 +1,15 @@
+{
+  "collection": "17SHM",
+  "title": "Oscillations: Simple Harmonic Motion",
+  "chapter_code": 17,
+  "sections": {
+    "SHM Equation, Phase & Reference Circle": 1701,
+    "Velocity & Acceleration in SHM; Graphs": 1702,
+    "Energy in SHM": 1703,
+    "Spring–Mass Systems": 1704,
+    "Simple Pendulum": 1705,
+    "Physical, Compound & Torsional Pendulums": 1706,
+    "Other SHM Systems": 1707,
+    "Superposition, Damped & Forced Oscillations": 1708
+  }
+}

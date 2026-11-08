@@ -1,0 +1,56 @@
+{
+  "id": "P000028",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": 1702,
+  "concepts": [],
+  "exams": [
+    "JEE Main"
+  ],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "In an engine the piston undergoes vertical simple harmonic motion with amplitude 7 cm. A washer rests on top of the piston and moves with it. The motor speed is slowly increased. The frequency of the piston at which the washer no longer stays in contact with the piston, is close to?",
+  "options": {
+    "A": "0.1 Hz",
+    "B": "1.2 Hz",
+    "C": "0.7 Hz",
+    "D": "1.9 Hz"
+  },
+  "answer": {
+    "keys": [
+      "D"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "17SHM_v6",
+      "qno": 28
+    },
+    {
+      "kind": "exam",
+      "exam": "JEE Main",
+      "year": 2016,
+      "date": "2016-04-10",
+      "shift": null,
+      "mode": "Online",
+      "raw": "JEE Main 2016, 10 Apr (Online)"
+    }
+  ],
+  "assets": [],
+  "rights": "past-paper",
+  "content_hash": "86934dd701b2373a",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

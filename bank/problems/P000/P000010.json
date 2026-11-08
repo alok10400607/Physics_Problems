@@ -1,0 +1,57 @@
+{
+  "id": "P000010",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": 1701,
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000010-stem-1)A particle is undergoing SHM with origin as the mean position. Its positions were recorded at $t = 0$ and $t = \\frac{1}{6}s$ as shown in the figure. Assuming the motion to be unidirectional during the interval, the equation of the motion will be:",
+  "options": {
+    "A": "$x = 0.06\\sin (2\\pi t + \\frac{5\\pi}{6})$",
+    "B": "$x = 0.06\\sin (4\\pi t + \\frac{5\\pi}{6})$",
+    "C": "$x = 0.06\\sin (2\\pi t + \\frac{7\\pi}{6})$",
+    "D": "$x = 0.06\\sin (4\\pi t + \\frac{7\\pi}{6})$"
+  },
+  "answer": {
+    "keys": [
+      "C"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "17SHM_v6",
+      "qno": 10
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000010-stem-1",
+      "role": "stem",
+      "file": "P000/P000010-stem-1.png",
+      "format": "png",
+      "width": 393,
+      "height": 255,
+      "alt": "Two number lines from −6 cm to 6 cm. At t = 0 the particle is at −3 cm, moving left at 2 m/s. At t = 1/6 s it is at −6 cm with speed 0 m/s.",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
+  "rights": "unverified",
+  "content_hash": "35326c69c0fd9baa",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

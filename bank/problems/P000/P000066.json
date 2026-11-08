@@ -1,0 +1,56 @@
+{
+  "id": "P000066",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": 1705,
+  "concepts": [],
+  "exams": [
+    "JEE Main"
+  ],
+  "difficulty": {
+    "worksheet": "L2",
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A simple pendulum of length 1 m is oscillating with an angular frequency 10 rad/s. The support of the pendulum starts oscillating up and down with a small angular frequency of 1 rad/s and an amplitude of 10<sup>–2</sup> m. The relative change in the angular frequency of the pendulum is best given by:",
+  "options": {
+    "A": "10<sup>–3</sup> rad/s",
+    "B": "10<sup>–1</sup> rad/s",
+    "C": "1 rad/s",
+    "D": "10<sup>–5</sup> rad/s"
+  },
+  "answer": {
+    "keys": [
+      "A"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "17SHM_v6",
+      "qno": 66
+    },
+    {
+      "kind": "exam",
+      "exam": "JEE Main",
+      "year": 2019,
+      "date": "2019-01-11",
+      "shift": 2,
+      "mode": null,
+      "raw": "JEE Main 2019, 11 Jan, Shift 2"
+    }
+  ],
+  "assets": [],
+  "rights": "past-paper",
+  "content_hash": "f9baeb6453a466e5",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

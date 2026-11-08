@@ -1,0 +1,56 @@
+{
+  "id": "P000004",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": 1701,
+  "concepts": [],
+  "exams": [
+    "JEE Main"
+  ],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A body is in simple harmonic motion with time period half second (T = 0.5 s) and amplitude one cm (A = 1 cm). Find the average velocity in the interval in which it moves from equilibrium position to half of its amplitude.",
+  "options": {
+    "A": "6 cm/s",
+    "B": "4 cm/s",
+    "C": "12 cm/s",
+    "D": "16 cm/s"
+  },
+  "answer": {
+    "keys": [
+      "C"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "17SHM_v6",
+      "qno": 4
+    },
+    {
+      "kind": "exam",
+      "exam": "JEE Main",
+      "year": 2014,
+      "date": "2014-04-19",
+      "shift": null,
+      "mode": "Online",
+      "raw": "JEE Main 2014, 19 Apr (Online)"
+    }
+  ],
+  "assets": [],
+  "rights": "past-paper",
+  "content_hash": "1252ffca951585ba",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

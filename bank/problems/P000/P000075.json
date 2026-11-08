@@ -1,0 +1,105 @@
+{
+  "id": "P000075",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": 1708,
+  "concepts": [],
+  "exams": [
+    "JEE Main"
+  ],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "x and y displacements of a particle are given as x(t) = a sin ωt and y(t) = a sin 2ωt. Its trajectory will look like:",
+  "options": {
+    "A": "![](asset:P000075-opt-A)",
+    "B": "![](asset:P000075-opt-B)",
+    "C": "![](asset:P000075-opt-C)",
+    "D": "![](asset:P000075-opt-D)"
+  },
+  "answer": {
+    "keys": [
+      "A"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "17SHM_v6",
+      "qno": 75
+    },
+    {
+      "kind": "exam",
+      "exam": "JEE Main",
+      "year": 2015,
+      "date": "2015-04-10",
+      "shift": null,
+      "mode": "Online",
+      "raw": "JEE Main 2015, 10 Apr (Online)"
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000075-opt-A",
+      "role": "option",
+      "file": "P000/P000075-opt-A.png",
+      "format": "png",
+      "width": 272,
+      "height": 279,
+      "alt": "A closed curve inside a square, crossing itself at the origin, with one lobe on each side of the y-axis, each spanning the full height of the square.",
+      "origin": "docx",
+      "needs_redraw": true,
+      "option_key": "A"
+    },
+    {
+      "id": "P000075-opt-B",
+      "role": "option",
+      "file": "P000/P000075-opt-B.png",
+      "format": "png",
+      "width": 273,
+      "height": 280,
+      "alt": "A downward parabola inside a square, rising from the bottom corners to the top edge at x = 0.",
+      "origin": "docx",
+      "needs_redraw": true,
+      "option_key": "B"
+    },
+    {
+      "id": "P000075-opt-C",
+      "role": "option",
+      "file": "P000/P000075-opt-C.png",
+      "format": "png",
+      "width": 262,
+      "height": 280,
+      "alt": "An upward parabola inside a square, falling from the top corners to the bottom edge at x = 0.",
+      "origin": "docx",
+      "needs_redraw": true,
+      "option_key": "C"
+    },
+    {
+      "id": "P000075-opt-D",
+      "role": "option",
+      "file": "P000/P000075-opt-D.png",
+      "format": "png",
+      "width": 264,
+      "height": 279,
+      "alt": "A closed curve inside a square, crossing itself at the origin, with one lobe above and one below the x-axis, each spanning the full width of the square.",
+      "origin": "docx",
+      "needs_redraw": true,
+      "option_key": "D"
+    }
+  ],
+  "rights": "past-paper",
+  "content_hash": "b9f5dfc0c912c36f",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

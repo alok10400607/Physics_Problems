@@ -1,0 +1,56 @@
+{
+  "id": "P000060",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": 1705,
+  "concepts": [],
+  "exams": [
+    "JEE Main"
+  ],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A pendulum is executing simple harmonic motion and its maximum kinetic energy is K<sub>1</sub>. If the length of the pendulum is doubled and it performs simple harmonic motion with the same angular amplitude as in the first case, its maximum kinetic energy is K<sub>2</sub>. Then:",
+  "options": {
+    "A": "K<sub>2</sub> = $\\frac{K_{1}}{4}$",
+    "B": "K<sub>2</sub> = $\\frac{K_{1}}{2}$",
+    "C": "K<sub>2</sub> = 2K<sub>1</sub>",
+    "D": "K<sub>2</sub> = K<sub>1</sub>"
+  },
+  "answer": {
+    "keys": [
+      "C"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "17SHM_v6",
+      "qno": 60
+    },
+    {
+      "kind": "exam",
+      "exam": "JEE Main",
+      "year": 2019,
+      "date": "2019-01-11",
+      "shift": 2,
+      "mode": null,
+      "raw": "JEE Main 2019, 11 Jan, Shift 2"
+    }
+  ],
+  "assets": [],
+  "rights": "past-paper",
+  "content_hash": "c019b22450247cb1",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

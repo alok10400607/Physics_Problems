@@ -1,0 +1,37 @@
+{
+  "id": "P000058",
+  "status": "imported",
+  "version": 1,
+  "type": "subjective",
+  "topic_code": 1705,
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A particle of mass m is suspended by an ideal string of length L. It is placed in a moving container having a constant horizontal acceleration of a such that the string makes an angle of 30° with the vertical and it is at rest as viewed from the container. If it is given a slight tangential displacement, what will be the angular frequency of oscillation?",
+  "answer": {
+    "text": "$\\sqrt{\\frac{2g}{\\sqrt{3}L}}$"
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "17SHM_v6",
+      "qno": 58
+    }
+  ],
+  "assets": [],
+  "rights": "unverified",
+  "content_hash": "64329deb094f527d",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

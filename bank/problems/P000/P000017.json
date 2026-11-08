@@ -1,0 +1,56 @@
+{
+  "id": "P000017",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": 1701,
+  "concepts": [],
+  "exams": [
+    "JEE Main"
+  ],
+  "difficulty": {
+    "worksheet": "L2",
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A particle moves with simple harmonic motion in a straight line. In the first τ s after starting from rest it travels a distance a, and in the next τ s it travels 2a in the same direction. Then:",
+  "options": {
+    "A": "Amplitude of motion is 3a",
+    "B": "Time period of oscillations is 8τ",
+    "C": "Amplitude of motion is 4a",
+    "D": "Time period of oscillations is 6τ"
+  },
+  "answer": {
+    "keys": [
+      "D"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "17SHM_v6",
+      "qno": 17
+    },
+    {
+      "kind": "exam",
+      "exam": "JEE Main",
+      "year": 2014,
+      "date": null,
+      "shift": null,
+      "mode": "Offline",
+      "raw": "JEE Main 2014 (Offline)"
+    }
+  ],
+  "assets": [],
+  "rights": "past-paper",
+  "content_hash": "43fbfb27f234ffeb",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

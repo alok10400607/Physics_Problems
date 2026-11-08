@@ -1,0 +1,49 @@
+{
+  "id": "P000050",
+  "status": "imported",
+  "version": 1,
+  "type": "subjective",
+  "topic_code": 1704,
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": "L2",
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000050-stem-1) Two particles of mass 3m and m are connected to the ends of a spring of spring constant k. The spring is compressed by A, and the system is placed on a smooth horizontal surface. Find the time period of oscillation of two masses and their amplitudes.",
+  "answer": {
+    "text": "$2\\pi\\sqrt{3m/4k}$; A/4 and 3A/4"
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "17SHM_v6",
+      "qno": 50
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000050-stem-1",
+      "role": "stem",
+      "file": "P000/P000050-stem-1.png",
+      "format": "png",
+      "width": 376,
+      "height": 102,
+      "alt": "Blocks of mass 3m and m on a smooth horizontal surface, joined by a spring of constant k.",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
+  "rights": "unverified",
+  "content_hash": "56023d755d135a28",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

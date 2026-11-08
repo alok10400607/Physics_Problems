@@ -1,0 +1,57 @@
+{
+  "id": "P000052",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": 1704,
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": "L2",
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000052-stem-1) What will be the time period of oscillation of mass M, if it is displaced vertically from the mean position?",
+  "options": {
+    "A": "$2\\pi\\sqrt{M/k}$",
+    "B": "$2\\pi\\sqrt{2M/k}$",
+    "C": "$2\\pi\\sqrt{4M/k}$",
+    "D": "$2\\pi\\sqrt{M/4k}$"
+  },
+  "answer": {
+    "keys": [
+      "C"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "17SHM_v6",
+      "qno": 52
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000052-stem-1",
+      "role": "stem",
+      "file": "P000/P000052-stem-1.png",
+      "format": "png",
+      "width": 175,
+      "height": 330,
+      "alt": "A pulley hung from the ceiling on a spring of constant k. A string fixed to the floor passes over the pulley and supports a hanging block M.",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
+  "rights": "unverified",
+  "content_hash": "8a795cab55fcf3fd",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

@@ -1,0 +1,45 @@
+{
+  "id": "P000064",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": 1705,
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": "L2",
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A simple pendulum fixed in a car has a time period of 4 seconds when the car is moving uniformly on a horizontal road. When the accelerator is pressed, the time period changes to 3.99 seconds. Making an approximate analysis, the acceleration of the car is:",
+  "options": {
+    "A": "$g/100$",
+    "B": "$g/50$",
+    "C": "$g/20$",
+    "D": "$g/10$"
+  },
+  "answer": {
+    "keys": [
+      "D"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "17SHM_v6",
+      "qno": 64
+    }
+  ],
+  "assets": [],
+  "rights": "unverified",
+  "content_hash": "2f681eef22f2ed71",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

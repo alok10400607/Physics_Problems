@@ -1,0 +1,49 @@
+{
+  "id": "P000053",
+  "status": "imported",
+  "version": 1,
+  "type": "subjective",
+  "topic_code": 1704,
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": "L3",
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000053-stem-1) Two small blocks, each of mass M, are placed one on top of the other on a vertical spring of spring constant k, as shown. The two masses are not joined together. From the position of rest, the spring was pressed by further distance A and released:\n(i) Find the angular frequency of oscillation if two particles move together\n(ii) What will be the minimum and maximum contact force between the two particles\n(iii) What should be the minimum value of ‘A’ if the two particles lose contact at some stage of motion?",
+  "answer": {
+    "text": "(i) $\\omega$= $\\sqrt{\\frac{k}{2M}}$; (ii) $M(g \\pm \\frac{kA}{2M})$; (iii) $\\geq \\frac{2Mg}{k}$"
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "17SHM_v6",
+      "qno": 53
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000053-stem-1",
+      "role": "stem",
+      "file": "P000/P000053-stem-1.png",
+      "format": "png",
+      "width": 202,
+      "height": 262,
+      "alt": "Two blocks, each of mass M, stacked on top of a vertical spring of constant k standing on the floor.",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
+  "rights": "unverified",
+  "content_hash": "1e193c0673599db4",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

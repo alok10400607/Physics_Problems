@@ -1,0 +1,56 @@
+{
+  "id": "P000016",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": 1701,
+  "concepts": [],
+  "exams": [
+    "JEE Main"
+  ],
+  "difficulty": {
+    "worksheet": "L2",
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A particle executes simple harmonic motion and is located at x=a, b and c at times t<sub>0</sub>, 2t<sub>0</sub> and 3t<sub>0</sub> respectively. The frequency of the oscillation is:",
+  "options": {
+    "A": "$\\frac{1}{2\\pi t_{0}}\\cos^{- 1}(\\frac{a + c}{2b})$",
+    "B": "$\\frac{1}{2\\pi t_{0}}\\cos^{- 1}(\\frac{a + b}{2c})$",
+    "C": "$\\frac{1}{2\\pi t_{0}}\\cos^{- 1}(\\frac{2a + 3c}{b})$",
+    "D": "$\\frac{1}{2\\pi t_{0}}\\cos^{- 1}(\\frac{a + 2b}{3c})$"
+  },
+  "answer": {
+    "keys": [
+      "A"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "17SHM_v6",
+      "qno": 16
+    },
+    {
+      "kind": "exam",
+      "exam": "JEE Main",
+      "year": 2018,
+      "date": "2018-04-16",
+      "shift": null,
+      "mode": "Online",
+      "raw": "JEE Main 2018, 16 Apr (Online)"
+    }
+  ],
+  "assets": [],
+  "rights": "past-paper",
+  "content_hash": "7944f4bcf9fad408",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

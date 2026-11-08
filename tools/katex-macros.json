@@ -1,0 +1,7 @@
+{
+  "\\unit": "\\,\\mathrm{#1}",
+  "\\dd": "\\mathrm{d}",
+  "\\ihat": "\\hat{\\imath}",
+  "\\jhat": "\\hat{\\jmath}",
+  "\\khat": "\\hat{k}"
+}

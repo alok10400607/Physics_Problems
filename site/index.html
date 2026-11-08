@@ -75,8 +75,14 @@ button:focus-visible,input:focus-visible,label:focus-within{outline:2px solid va
 .chip.lv3{background:var(--bad-soft);color:var(--bad)}
 .chip.plain{background:transparent;border:1px solid var(--line);color:var(--muted)}
 .qtext p{margin:0 0 .7em}.qtext p:last-child{margin:0}
-.fig{background:var(--plate);border-radius:6px;padding:10px;width:fit-content;max-width:100%}
+.fig{display:block;background:var(--plate);border-radius:6px;padding:10px;width:fit-content;max-width:100%}
 .fig img{display:block;max-height:240px;max-width:100%;width:auto;height:auto;object-fit:contain}
+.qtext .fig{margin:4px 0}
+.opt .v .fig{padding:6px}.opt .v .fig img{max-height:130px}
+.sol{display:flex;flex-direction:column;gap:10px}
+.sol .aside{border-left-color:var(--accent)}.sol .aside .t{color:var(--accent)}
+.chip.id{background:transparent;border:1px solid var(--line);color:var(--ink)}
+.chip.st{background:var(--bg);color:var(--muted);border:1px dashed var(--line)}
 .katex{font-size:1.08em}
 .katex-display{overflow-x:auto;overflow-y:hidden}
 
@@ -128,7 +134,7 @@ kbd{font:500 .75rem var(--mono);border:1px solid var(--line);border-radius:3px;p
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.11/katex.min.js"></script>
 <script>
-const CHAPTER = "17SHM";
+let CHAPTER = null;
 const app = document.getElementById("app");
 const S = { data:null, view:"pick", sub:null, queue:[], i:0, res:{}, types:new Set(["mcq","numerical","subjective"]), shuffle:false, show:{} };
 const TYPE_LABEL = { mcq:"MCQ", numerical:"numerical", subjective:"subjective" };
@@ -140,23 +146,26 @@ const store = {
 // Markdown-lite + KaTeX: paragraphs, inline $..$, display $$..$$; <sup>/<sub> come from our own data.
 function md(s){
   if (!s) return "";
-  const math = [];
+  const math = [], imgs = [];
+  s = s.replace(/!\[([^\]]*)\]\(([^)\s]+)\)/g, (m, alt, src) => { imgs.push(`<span class="fig"><img src="${src}" alt="${esc(alt)}" loading="lazy"></span>`); return `\u0001${imgs.length - 1}\u0001`; });
   s = s.replace(/\$\$([\s\S]+?)\$\$|\$([^$]+?)\$/g, (m, d, i) => {
     let html;
-    try { html = katex.renderToString(d || i, { displayMode: !!d, throwOnError: false, strict: "ignore" }); }
+    try { html = katex.renderToString(d || i, { displayMode: !!d, throwOnError: false, strict: "ignore", macros: { ...((S.data && S.data.macros) || {}) } }); }
     catch(e){ html = `<code>${d || i}</code>`; }
     math.push(html); return `\u0000${math.length - 1}\u0000`;
   });
   s = s.split(/\n\n+/).map(p => `<p>${p.trim()}</p>`).join("");
-  return s.replace(/\u0000(\d+)\u0000/g, (_, n) => math[n]);
+  return s.replace(/\u0000(\d+)\u0000/g, (_, n) => math[n]).replace(/\u0001(\d+)\u0001/g, (_, n) => imgs[n]);
 }
 const esc = s => String(s).replace(/[&<>"]/g, c => ({ "&":"&amp;", "<":"&lt;", ">":"&gt;", '"':"&quot;" }[c]));
 
-fetch(`data/${CHAPTER}.json`).then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
+fetch("data/index.json").then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
+  .then(ix => { S.index = ix; const want = location.hash.slice(1); CHAPTER = (ix.find(c => c.id === want) || ix[0]).id; return fetch(`data/${CHAPTER}.json`); })
+  .then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
   .then(d => { S.data = d; render(); })
   .catch(e => { app.innerHTML = `<p class="err">The question file could not be loaded (${esc(e.message)}). Reload the page to try again.</p>`; });
 
-function pool(code){ return S.data.questions.filter(q => q.subtopic === code && S.types.has(q.type)); }
+function pool(code){ return S.data.questions.filter(q => String(q.subtopic) === String(code) && S.types.has(q.type)); }
 
 function render(){
   if (S.view === "pick") renderPick();
@@ -196,7 +205,7 @@ function renderPick(){
 }
 
 function start(code, onlyIds){
-  S.sub = S.data.subtopics.find(s => s.code === code);
+  S.sub = S.data.subtopics.find(s => String(s.code) === String(code));
   let qs = pool(code);
   if (onlyIds) qs = S.data.questions.filter(q => onlyIds.includes(q.id));
   if (S.shuffle) qs = qs.map(q => [Math.random(), q]).sort((a,b) => a[0]-b[0]).map(x => x[1]);
@@ -210,15 +219,14 @@ function renderTest(){
   const q = S.queue[S.i], r = S.res[q.id], sh = S.show[q.id] || {};
   const done = !!r;
   const dots = S.queue.map((x, k) => `<button class="dot ${statusClass(S.res[x.id])} ${k === S.i ? "cur" : ""}" data-go="${k}" aria-label="Question ${k+1}">${x.number}</button>`).join("");
-  const figs = q.figures.map(f => `<div class="fig"><img src="data/${f}" alt="Figure for question ${q.number}"></div>`).join("");
 
   let body = "";
   if (q.type === "mcq") {
-    const imgOpts = Object.values(q.options).some(v => v && v.image);
+    const imgOpts = Object.values(q.options).some(v => /^!\[/.test(v || ""));
     body = `<ul class="opts ${imgOpts ? "imgs" : ""}">` + Object.entries(q.options).map(([k, v]) => {
       let cls = "";
       if (done) { if (k === q.answer) cls = "right"; else if (k === r.chosen) cls = "picked-wrong"; }
-      const val = v.image ? `<img src="data/${v.image}" alt="Option ${k} graph">` : md(v).replace(/^<p>|<\/p>$/g, "");
+      const val = md(v).replace(/^<p>|<\/p>$/g, "");
       return `<li><button class="opt ${cls}" data-opt="${k}" ${done ? "disabled" : ""}><span class="k">${k}</span><span class="v">${val}</span></button></li>`;
     }).join("") + `</ul>`;
   } else if (q.type === "numerical") {
@@ -239,8 +247,12 @@ function renderTest(){
     fb = `<div class="fb ${ok ? "good" : "bad"}"><strong>${ok ? "Correct" : "Not quite"}</strong>
       <span>${ok ? "" : q.type === "mcq" ? `The answer is <b>${q.answer}</b>.` : `The answer is <b>${esc(q.answer)}</b>.`}</span></div>`;
   }
-  const hint = q.hint ? (sh.hint ? `<div class="aside"><div class="t">Hint</div><div class="qtext">${md(q.hint)}</div></div>` : `<button class="btn ghost" id="hintbtn">Show hint</button>`) : "";
-  const further = q.think_further && done ? `<div class="aside"><div class="t">Think further</div><div class="qtext">${md(q.think_further)}</div></div>` : "";
+  const hints = q.hints || [], shownHints = done ? hints.length : (sh.hints || 0);
+  const hintHtml = hints.slice(0, shownHints).map((h, k) => `<div class="aside"><div class="t">Hint ${hints.length > 1 ? k + 1 : ""}</div><div class="qtext">${md(h)}</div></div>`).join("");
+  const hintBtn = !done && shownHints < hints.length ? `<div class="extras"><button class="btn ghost" id="hintbtn">${shownHints ? "Next hint" : "Show hint"}</button></div>` : "";
+  const levels = done ? [["worded", "Explained in words"], ["conventional", "Full solution"]].filter(([k]) => q[k]) : [];
+  const solHtml = levels.length ? `<div class="sol"><div class="extras">${levels.map(([k, l]) => `<button class="btn ${sh[k] ? "" : "ghost"}" data-level="${k}">${l}</button>`).join("")}</div>${levels.filter(([k]) => sh[k]).map(([k, l]) => `<div class="aside"><div class="t">${l}</div><div class="qtext">${md(q[k])}</div></div>`).join("")}${sh.conventional && q.mistakes && q.mistakes.length ? `<div class="aside"><div class="t">Common mistake${q.mistakes.length > 1 ? "s" : ""}</div><div class="qtext">${q.mistakes.map(m => md(m)).join("")}</div></div>` : ""}</div>` : "";
+  const further = q.extension && done ? `<div class="aside"><div class="t">Think further</div><div class="qtext">${md(q.extension)}</div></div>` : "";
   const last = S.i === S.queue.length - 1;
 
   app.innerHTML = `
@@ -248,14 +260,14 @@ function renderTest(){
     <div style="display:flex;flex-direction:column;gap:10px"><span class="eyebrow">${S.sub.code}</span><h2>${esc(S.sub.name)}</h2></div>
     <div class="dots">${dots}</div>
     <article class="card">
-      <div class="meta"><span class="qn">Q${q.number}</span>
-        <span class="chip lv${q.level}">Level ${q.level}</span>
+      <div class="meta"><span class="qn">Q${q.number}</span><span class="chip id">${q.id}</span>
+        ${q.level ? `<span class="chip lv${Math.min(q.level, 3)}">Level ${q.level}</span>` : ""}
         ${q.type !== "mcq" ? `<span class="chip plain">${TYPE_LABEL[q.type]}</span>` : ""}
-        ${q.source ? `<span class="chip plain">${esc(q.source)}</span>` : ""}</div>
-      ${figs}
+        ${q.source ? `<span class="chip plain">${esc(q.source)}</span>` : ""}
+        <span class="chip st">${esc(q.status.replace("_", " "))}${q.solution_status ? " · solutions " + esc(q.solution_status.replace("_", " ")) : ""}</span></div>
       <div class="qtext">${md(q.question)}</div>
       ${body}${fb}${further}
-      ${hint && !done ? `<div class="extras">${hint}</div>` : (q.hint && done ? `<div class="aside"><div class="t">Hint</div><div class="qtext">${md(q.hint)}</div></div>` : "")}
+      ${hintHtml}${hintBtn}${solHtml}
     </article>
     <div class="nav"><button class="btn ghost" id="prev" ${S.i ? "" : "disabled"}>Previous</button>
       <button class="btn" id="next">${last ? "Finish" : done ? "Next" : "Skip"}</button></div>
@@ -268,7 +280,8 @@ function renderTest(){
   if (nf) nf.onsubmit = e => { e.preventDefault(); const v = nf.querySelector("input").value.trim(); if (v) answer(q, v); };
   const rv = app.querySelector("#reveal"); if (rv) rv.onclick = () => { S.show[q.id] = { ...sh, answer:true }; render(); };
   app.querySelectorAll("[data-self]").forEach(b => b.onclick = () => { S.res[q.id] = { status:b.dataset.self, chosen:null }; render(); });
-  const hb = app.querySelector("#hintbtn"); if (hb) hb.onclick = () => { S.show[q.id] = { ...sh, hint:true }; render(); };
+  const hb = app.querySelector("#hintbtn"); if (hb) hb.onclick = () => { S.show[q.id] = { ...sh, hints:(sh.hints || 0) + 1 }; render(); };
+  app.querySelectorAll("[data-level]").forEach(b => b.onclick = () => { const k = b.dataset.level; S.show[q.id] = { ...sh, [k]: !sh[k] }; render(); });
   app.querySelector("#prev").onclick = () => { if (S.i) { S.i--; render(); } };
   app.querySelector("#next").onclick = next;
   const inp = app.querySelector("#numform input:not([disabled])"); if (inp) inp.focus({ preventScroll:true });
@@ -295,7 +308,7 @@ function renderSummary(){
   const rows = qs.map((q, k) => {
     const r = S.res[q.id];
     const [cls, lbl] = !r ? ["skip","skipped"] : r.status === "correct" ? ["correct","correct"] : ["wrong","incorrect"];
-    const plain = q.question.replace(/\$[^$]*\$/g, "…").replace(/<[^>]+>/g, "");
+    const plain = q.question.replace(/!\[[^\]]*\]\([^)]*\)/g, "[figure] ").replace(/\$[^$]*\$/g, "…").replace(/<[^>]+>/g, "");
     return `<button class="row" data-go="${k}"><span class="n">Q${q.number}</span><span class="s">${esc(plain)}</span><span class="st ${cls}">${lbl}</span></button>`;
   }).join("");
   app.innerHTML = `

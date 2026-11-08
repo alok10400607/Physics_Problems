@@ -1,0 +1,49 @@
+{
+  "id": "P000044",
+  "status": "imported",
+  "version": 1,
+  "type": "integer",
+  "topic_code": 1704,
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000044-stem-1)Time period of a spring block system of mass m and spring constant k is T. Three identical springs are connected to the block as shown with one spring vertical and other two at 30° with the horizontal. If the block m is given small displacement in the vertical direction, then the time period of oscillations is $\\sqrt{\\frac{2}{n}}T\\ $. The value of n is:",
+  "answer": {
+    "value": 3
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "17SHM_v6",
+      "qno": 44
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000044-stem-1",
+      "role": "stem",
+      "file": "P000/P000044-stem-1.png",
+      "format": "png",
+      "width": 325,
+      "height": 266,
+      "alt": "A small block of mass m held by three springs of constant k: two upper springs at 30° above the horizontal to supports on either side, and one vertical spring down to the floor.",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
+  "rights": "unverified",
+  "content_hash": "77799cab0d8f0858",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

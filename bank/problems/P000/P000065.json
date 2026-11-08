@@ -1,0 +1,56 @@
+{
+  "id": "P000065",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": 1705,
+  "concepts": [],
+  "exams": [
+    "JEE Main"
+  ],
+  "difficulty": {
+    "worksheet": "L2",
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A pendulum made of a uniform wire of cross-sectional area A has time period T. When an additional mass M is added to its bob, the time period changes to TM. If the Young's modulus of the material of the wire is Y then 1/Y is equal to: (g = gravitational acceleration)",
+  "options": {
+    "A": "$\\left\\lbrack 1 - {(\\frac{T_{M}}{T})}^{2} \\right\\rbrack\\frac{A}{Mg}$",
+    "B": "$\\left\\lbrack 1 - {(\\frac{T}{T_{M}})}^{2} \\right\\rbrack\\frac{A}{Mg}$",
+    "C": "$\\left\\lbrack {(\\frac{T_{M}}{T})}^{2} - 1 \\right\\rbrack\\frac{A}{Mg}$",
+    "D": "$\\left\\lbrack {(\\frac{T_{M}}{T})}^{2} - 1 \\right\\rbrack\\frac{Mg}{A}$"
+  },
+  "answer": {
+    "keys": [
+      "C"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "17SHM_v6",
+      "qno": 65
+    },
+    {
+      "kind": "exam",
+      "exam": "JEE Main",
+      "year": 2015,
+      "date": null,
+      "shift": null,
+      "mode": "Offline",
+      "raw": "JEE Main 2015 (Offline)"
+    }
+  ],
+  "assets": [],
+  "rights": "past-paper",
+  "content_hash": "b4c9533e4cd9d646",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

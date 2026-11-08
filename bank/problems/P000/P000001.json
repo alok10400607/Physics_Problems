@@ -1,0 +1,56 @@
+{
+  "id": "P000001",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": 1701,
+  "concepts": [],
+  "exams": [
+    "JEE Main"
+  ],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "Which of the following expressions of force corresponds to simple harmonic motion along a straight line, where x is the displacement and a, b, c are positive constants?",
+  "options": {
+    "A": "– bx",
+    "B": "a – bx + cx<sup>2</sup>",
+    "C": "a + bx – cx<sup>2</sup>",
+    "D": "bx<sup>2</sup>"
+  },
+  "answer": {
+    "keys": [
+      "A"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "17SHM_v6",
+      "qno": 1
+    },
+    {
+      "kind": "exam",
+      "exam": "JEE Main",
+      "year": 2014,
+      "date": "2014-04-12",
+      "shift": null,
+      "mode": "Online",
+      "raw": "JEE Main 2014, 12 Apr (Online)"
+    }
+  ],
+  "assets": [],
+  "rights": "past-paper",
+  "content_hash": "de4bf9ca8b16b54a",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

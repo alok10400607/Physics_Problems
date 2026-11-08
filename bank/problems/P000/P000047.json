@@ -1,0 +1,45 @@
+{
+  "id": "P000047",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": 1704,
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A mass m is undergoing linear SHM with amplitude A and frequency f in a spring-mass system. Suddenly, half of the mass comes to rest at the moment it is crossing the mean position, then the amplitude of remaining mass becomes kA. Find k?",
+  "options": {
+    "A": "$2$",
+    "B": "4",
+    "C": "$\\sqrt{2}$",
+    "D": "$1/\\sqrt{2}$"
+  },
+  "answer": {
+    "keys": [
+      "D"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "17SHM_v6",
+      "qno": 47
+    }
+  ],
+  "assets": [],
+  "rights": "unverified",
+  "content_hash": "c3a484816bd3c7af",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

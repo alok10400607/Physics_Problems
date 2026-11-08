@@ -1,0 +1,105 @@
+{
+  "id": "P000056",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": 1705,
+  "concepts": [],
+  "exams": [
+    "JEE Main"
+  ],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "For a simple pendulum, a graph is plotted between its kinetic energy (KE) and potential energy (PE) against its displacement d. Which one of the following represents these correctly? (graphs are schematic and not drawn to scale)",
+  "options": {
+    "A": "![](asset:P000056-opt-A)",
+    "B": "![](asset:P000056-opt-B)",
+    "C": "![](asset:P000056-opt-C)",
+    "D": "![](asset:P000056-opt-D)"
+  },
+  "answer": {
+    "keys": [
+      "B"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "17SHM_v6",
+      "qno": 56
+    },
+    {
+      "kind": "exam",
+      "exam": "JEE Main",
+      "year": 2015,
+      "date": null,
+      "shift": null,
+      "mode": "Offline",
+      "raw": "JEE Main 2015 (Offline)"
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000056-opt-A",
+      "role": "option",
+      "file": "P000/P000056-opt-A.png",
+      "format": "png",
+      "width": 250,
+      "height": 138,
+      "alt": "Energy E against displacement d: kinetic energy (solid) is an upward curve with its minimum, zero, at d = 0; potential energy (dashed) is a downward curve with its maximum at d = 0.",
+      "origin": "docx",
+      "needs_redraw": true,
+      "option_key": "A"
+    },
+    {
+      "id": "P000056-opt-B",
+      "role": "option",
+      "file": "P000/P000056-opt-B.png",
+      "format": "png",
+      "width": 250,
+      "height": 138,
+      "alt": "Energy E against displacement d: kinetic energy (solid) is a downward parabola, maximum at d = 0 and zero at the ends; potential energy (dashed) is an upward parabola, zero at d = 0.",
+      "origin": "docx",
+      "needs_redraw": true,
+      "option_key": "B"
+    },
+    {
+      "id": "P000056-opt-C",
+      "role": "option",
+      "file": "P000/P000056-opt-C.png",
+      "format": "png",
+      "width": 254,
+      "height": 187,
+      "alt": "Energy E against displacement d: kinetic energy (solid) is an upward parabola, zero at d = 0; potential energy (dashed) is a downward parabola below the axis, zero at d = 0.",
+      "origin": "docx",
+      "needs_redraw": true,
+      "option_key": "C"
+    },
+    {
+      "id": "P000056-opt-D",
+      "role": "option",
+      "file": "P000/P000056-opt-D.png",
+      "format": "png",
+      "width": 257,
+      "height": 138,
+      "alt": "Energy E against displacement d: kinetic energy (solid) peaks sharply at d = 0 and falls to zero on both sides; potential energy (dashed) is zero at d = 0 and rises, levelling off on both sides.",
+      "origin": "docx",
+      "needs_redraw": true,
+      "option_key": "D"
+    }
+  ],
+  "rights": "past-paper",
+  "content_hash": "c69520d2939e75c6",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

@@ -1,0 +1,10 @@
+[
+  {"code": 1701, "chapter_code": 17, "chapter": "Oscillations", "name": "SHM Equation, Phase & Reference Circle", "status": "provisional"},
+  {"code": 1702, "chapter_code": 17, "chapter": "Oscillations", "name": "Velocity & Acceleration in SHM; Graphs", "status": "provisional"},
+  {"code": 1703, "chapter_code": 17, "chapter": "Oscillations", "name": "Energy in SHM", "status": "provisional"},
+  {"code": 1704, "chapter_code": 17, "chapter": "Oscillations", "name": "Spring–Mass Systems", "status": "provisional"},
+  {"code": 1705, "chapter_code": 17, "chapter": "Oscillations", "name": "Simple Pendulum", "status": "provisional"},
+  {"code": 1706, "chapter_code": 17, "chapter": "Oscillations", "name": "Physical, Compound & Torsional Pendulums", "status": "provisional"},
+  {"code": 1707, "chapter_code": 17, "chapter": "Oscillations", "name": "Other SHM Systems", "status": "provisional"},
+  {"code": 1708, "chapter_code": 17, "chapter": "Oscillations", "name": "Superposition, Damped & Forced Oscillations", "status": "provisional"}
+]

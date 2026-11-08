@@ -1,0 +1,56 @@
+{
+  "id": "P000079",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": 1708,
+  "concepts": [],
+  "exams": [
+    "JEE Main"
+  ],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "If a simple pendulum has significant amplitude (up to a factor of 1/e of original) only in the period between t = 0 s to t = τ s, then $\\tau$ may be called the average life of the pendulum. When the spherical bob of the pendulum suffers a retardation (due to viscous drag) proportional to its velocity, with b as the constant of proportionality, the average lifetime of the pendulum is (assuming damping is small) in seconds:",
+  "options": {
+    "A": "b",
+    "B": "1/b",
+    "C": "2/b",
+    "D": "0.693/b"
+  },
+  "answer": {
+    "keys": [
+      "C"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "17SHM_v6",
+      "qno": 79
+    },
+    {
+      "kind": "exam",
+      "exam": "AIEEE",
+      "year": 2012,
+      "date": null,
+      "shift": null,
+      "mode": null,
+      "raw": "AIEEE 2012"
+    }
+  ],
+  "assets": [],
+  "rights": "past-paper",
+  "content_hash": "bd5e719ac8854792",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

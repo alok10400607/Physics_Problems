@@ -1,0 +1,68 @@
+{
+  "id": "P000061",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": 1705,
+  "concepts": [],
+  "exams": [
+    "JEE Main"
+  ],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000061-stem-1) A mass of 5 kg is connected to a spring. The potential energy curve of the SHM executed by the system is shown in the figure. A simple pendulum of length 4 m has the same period of oscillation as the spring system. What is the acceleration due to gravity on the planet where these experiments were performed?",
+  "options": {
+    "A": "10 m/s<sup>2</sup>",
+    "B": "5 m/s<sup>2</sup>",
+    "C": "4 m/s<sup>2</sup>",
+    "D": "9.8 m/s<sup>2</sup>"
+  },
+  "answer": {
+    "keys": [
+      "C"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "17SHM_v6",
+      "qno": 61
+    },
+    {
+      "kind": "exam",
+      "exam": "JEE Main",
+      "year": 2021,
+      "date": "2021-09-01",
+      "shift": 2,
+      "mode": null,
+      "raw": "JEE Main 2021, 1 Sep, Shift 2"
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000061-stem-1",
+      "role": "stem",
+      "file": "P000/P000061-stem-1.png",
+      "format": "png",
+      "width": 224,
+      "height": 191,
+      "alt": "Potential energy U in joules against x in metres: a U-shaped curve with U = 10 J at x = 0 and x = 4 m, and a minimum of 0 at x = 2 m.",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
+  "rights": "past-paper",
+  "content_hash": "dfc671d6017905b4",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

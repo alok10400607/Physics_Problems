@@ -1,0 +1,60 @@
+{
+  "id": "P000045",
+  "status": "imported",
+  "version": 1,
+  "type": "integer",
+  "topic_code": 1704,
+  "concepts": [],
+  "exams": [
+    "JEE Main"
+  ],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000045-stem-1) Two blocks A and B of masses 200 g and 800 g are attached with a system of springs. Springs are kept in a stretched condition when the system is released. The horizontal surface is assumed to be frictionless. The angular frequency will be ….. rad/s when k = 20 N/m.",
+  "answer": {
+    "value": 10
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "17SHM_v6",
+      "qno": 45
+    },
+    {
+      "kind": "exam",
+      "exam": "JEE Main",
+      "year": 2021,
+      "date": "2021-07-25",
+      "shift": 1,
+      "mode": null,
+      "raw": "JEE Main 2021, 25 Jul, Shift 1"
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000045-stem-1",
+      "role": "stem",
+      "file": "P000/P000045-stem-1.png",
+      "format": "png",
+      "width": 333,
+      "height": 68,
+      "alt": "Blocks A and B on a horizontal floor, joined by two springs in series: S1 of constant k next to A and S2 of constant 4k next to B.",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
+  "rights": "past-paper",
+  "content_hash": "2d7ef173681b524f",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

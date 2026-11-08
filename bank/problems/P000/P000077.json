@@ -1,0 +1,56 @@
+{
+  "id": "P000077",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": 1708,
+  "concepts": [],
+  "exams": [
+    "JEE Main"
+  ],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "The amplitude of a damped oscillator decreases to 0.9 times its original magnitude in 5 s. In another 10 s, it will decrease to $\\alpha$ times its original magnitude, where $\\alpha$ equals:",
+  "options": {
+    "A": "0.7",
+    "B": "0.81",
+    "C": "0.729",
+    "D": "0.6"
+  },
+  "answer": {
+    "keys": [
+      "C"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "17SHM_v6",
+      "qno": 77
+    },
+    {
+      "kind": "exam",
+      "exam": "JEE Main",
+      "year": 2013,
+      "date": null,
+      "shift": null,
+      "mode": "Offline",
+      "raw": "JEE Main 2013 (Offline)"
+    }
+  ],
+  "assets": [],
+  "rights": "past-paper",
+  "content_hash": "aad51812a6ac6d3d",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

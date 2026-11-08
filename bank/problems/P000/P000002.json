@@ -1,0 +1,56 @@
+{
+  "id": "P000002",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": 1701,
+  "concepts": [],
+  "exams": [
+    "JEE Main"
+  ],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A simple harmonic motion is represented by equation $\\frac{d^{2}x}{{dt}^{2}} + \\alpha x = 0$. What will be the time period of this motion?",
+  "options": {
+    "A": "$\\frac{2\\pi}{\\alpha}$",
+    "B": "$\\frac{2\\pi}{\\sqrt{\\alpha}}$",
+    "C": "$2\\pi\\alpha$",
+    "D": "$2\\pi\\sqrt{\\alpha}$"
+  },
+  "answer": {
+    "keys": [
+      "B"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "17SHM_v6",
+      "qno": 2
+    },
+    {
+      "kind": "exam",
+      "exam": "AIEEE",
+      "year": 2005,
+      "date": null,
+      "shift": null,
+      "mode": null,
+      "raw": "AIEEE 2005"
+    }
+  ],
+  "assets": [],
+  "rights": "past-paper",
+  "content_hash": "06f3022647e318c0",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

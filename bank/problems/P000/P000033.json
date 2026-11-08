@@ -1,0 +1,105 @@
+{
+  "id": "P000033",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": 1703,
+  "concepts": [],
+  "exams": [
+    "JEE Main"
+  ],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A particle is executing simple harmonic motion with a time period T. At time t=0, it is at its position of equilibrium. The kinetic energy–time graph of the particle will look like:",
+  "options": {
+    "A": "![](asset:P000033-opt-A)",
+    "B": "![](asset:P000033-opt-B)",
+    "C": "![](asset:P000033-opt-C)",
+    "D": "![](asset:P000033-opt-D)"
+  },
+  "answer": {
+    "keys": [
+      "C"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "17SHM_v6",
+      "qno": 33
+    },
+    {
+      "kind": "exam",
+      "exam": "JEE Main",
+      "year": 2017,
+      "date": null,
+      "shift": null,
+      "mode": "Offline",
+      "raw": "JEE Main 2017 (Offline)"
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000033-opt-A",
+      "role": "option",
+      "file": "P000/P000033-opt-A.png",
+      "format": "png",
+      "width": 245,
+      "height": 102,
+      "alt": "Kinetic energy against time: identical humps, with kinetic energy zero at t = 0, T and 2T.",
+      "origin": "docx",
+      "needs_redraw": true,
+      "option_key": "A"
+    },
+    {
+      "id": "P000033-opt-B",
+      "role": "option",
+      "file": "P000/P000033-opt-B.png",
+      "format": "png",
+      "width": 245,
+      "height": 125,
+      "alt": "Kinetic energy against time: identical humps, with kinetic energy zero at t = 0, T/2 and T.",
+      "origin": "docx",
+      "needs_redraw": true,
+      "option_key": "B"
+    },
+    {
+      "id": "P000033-opt-C",
+      "role": "option",
+      "file": "P000/P000033-opt-C.png",
+      "format": "png",
+      "width": 246,
+      "height": 135,
+      "alt": "Kinetic energy against time: starts at a maximum at t = 0 and falls to zero at T/4 and 3T/4.",
+      "origin": "docx",
+      "needs_redraw": true,
+      "option_key": "C"
+    },
+    {
+      "id": "P000033-opt-D",
+      "role": "option",
+      "file": "P000/P000033-opt-D.png",
+      "format": "png",
+      "width": 245,
+      "height": 136,
+      "alt": "Kinetic energy against time: starts at a maximum at t = 0 and falls to zero at T/2 and 3T/2.",
+      "origin": "docx",
+      "needs_redraw": true,
+      "option_key": "D"
+    }
+  ],
+  "rights": "past-paper",
+  "content_hash": "f8226a89aeb959f7",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

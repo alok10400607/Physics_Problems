@@ -1,0 +1,57 @@
+{
+  "id": "P000054",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": 1704,
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": "L3",
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000054-stem-1) A 2 kg block moving with 10 m/s strikes a spring of constant $\\pi^{2}$ N/m attached to a 2 kg block at rest kept on a smooth floor. The time for which the moving block remains in contact with the spring is:",
+  "options": {
+    "A": "$\\sqrt{2}\\ s$",
+    "B": "$2\\sqrt{\\pi}\\ s$",
+    "C": "1 s",
+    "D": "2 s"
+  },
+  "answer": {
+    "keys": [
+      "C"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "17SHM_v6",
+      "qno": 54
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000054-stem-1",
+      "role": "stem",
+      "file": "P000/P000054-stem-1.png",
+      "format": "png",
+      "width": 450,
+      "height": 117,
+      "alt": "A 2 kg block moving right at 10 m/s towards a second 2 kg block at rest, which has a spring attached to its left side; both on a horizontal floor.",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
+  "rights": "unverified",
+  "content_hash": "2b562da71689f079",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

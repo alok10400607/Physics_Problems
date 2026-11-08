@@ -1,0 +1,105 @@
+{
+  "id": "P000076",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": 1708,
+  "concepts": [],
+  "exams": [
+    "JEE Main"
+  ],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A particle which is simultaneously subjected to two perpendicular simple harmonic motions represented by x=a<sub>1</sub> cos ωt and y = a<sub>2</sub> cos 2ωt traces a curve given by:",
+  "options": {
+    "A": "![](asset:P000076-opt-A)",
+    "B": "![](asset:P000076-opt-B)",
+    "C": "![](asset:P000076-opt-C)",
+    "D": "![](asset:P000076-opt-D)"
+  },
+  "answer": {
+    "keys": [
+      "C"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "17SHM_v6",
+      "qno": 76
+    },
+    {
+      "kind": "exam",
+      "exam": "JEE Main",
+      "year": 2014,
+      "date": "2014-04-09",
+      "shift": null,
+      "mode": "Online",
+      "raw": "JEE Main 2014, 9 Apr (Online)"
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000076-opt-A",
+      "role": "option",
+      "file": "P000/P000076-opt-A.png",
+      "format": "png",
+      "width": 253,
+      "height": 234,
+      "alt": "A straight line through the origin, from the bottom-left to the top-right corner of a box of half-width a1 and half-height a2.",
+      "origin": "docx",
+      "needs_redraw": true,
+      "option_key": "A"
+    },
+    {
+      "id": "P000076-opt-B",
+      "role": "option",
+      "file": "P000/P000076-opt-B.png",
+      "format": "png",
+      "width": 251,
+      "height": 235,
+      "alt": "A downward parabola in a box of half-width a1 and half-height a2, highest at y = a2 on the y-axis.",
+      "origin": "docx",
+      "needs_redraw": true,
+      "option_key": "B"
+    },
+    {
+      "id": "P000076-opt-C",
+      "role": "option",
+      "file": "P000/P000076-opt-C.png",
+      "format": "png",
+      "width": 252,
+      "height": 235,
+      "alt": "An upward parabola in a box of half-width a1 and half-height a2, lowest at y = −a2 on the y-axis.",
+      "origin": "docx",
+      "needs_redraw": true,
+      "option_key": "C"
+    },
+    {
+      "id": "P000076-opt-D",
+      "role": "option",
+      "file": "P000/P000076-opt-D.png",
+      "format": "png",
+      "width": 234,
+      "height": 235,
+      "alt": "A parabola opening to the right, with its vertex at x = −a1 on the x-axis, in a box of half-width a1 and half-height a2.",
+      "origin": "docx",
+      "needs_redraw": true,
+      "option_key": "D"
+    }
+  ],
+  "rights": "past-paper",
+  "content_hash": "d1fd2657f7f2a6c6",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

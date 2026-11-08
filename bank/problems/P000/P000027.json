@@ -1,0 +1,56 @@
+{
+  "id": "P000027",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": 1702,
+  "concepts": [],
+  "exams": [
+    "JEE Main"
+  ],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "The ratio of maximum acceleration to maximum velocity in a simple harmonic motion is 10 $s^{- 1}$. At t = 0 the displacement is 5 m and the initial phase is π/4. What is the maximum acceleration?",
+  "options": {
+    "A": "500 m/s<sup>2</sup>",
+    "B": "750$\\sqrt{2}$ m/s<sup>2</sup>",
+    "C": "750 m/s<sup>2</sup>",
+    "D": "500$\\sqrt{2}$ m/s<sup>2</sup>"
+  },
+  "answer": {
+    "keys": [
+      "D"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "17SHM_v6",
+      "qno": 27
+    },
+    {
+      "kind": "exam",
+      "exam": "JEE Main",
+      "year": 2017,
+      "date": "2017-04-08",
+      "shift": null,
+      "mode": "Online",
+      "raw": "JEE Main 2017, 8 Apr (Online)"
+    }
+  ],
+  "assets": [],
+  "rights": "past-paper",
+  "content_hash": "647d883b14d30ae1",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

@@ -1,0 +1,45 @@
+{
+  "id": "P000006",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": 1701,
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A particle is performing SHM along $x$-axis with origin as the mean position and time period of T and amplitude of A. What will be the minimum time between two successive appearances of the particle at $+ \\frac{A}{2}?$",
+  "options": {
+    "A": "$T/4$",
+    "B": "$T/3$",
+    "C": "$T/2$",
+    "D": "$T$"
+  },
+  "answer": {
+    "keys": [
+      "B"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "17SHM_v6",
+      "qno": 6
+    }
+  ],
+  "assets": [],
+  "rights": "unverified",
+  "content_hash": "3a3b7bb4517669a5",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

@@ -1,0 +1,56 @@
+{
+  "id": "P000035",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": 1704,
+  "concepts": [],
+  "exams": [
+    "JEE Main"
+  ],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A 1 kg block attached to a spring vibrates with a frequency of 1 Hz on a frictionless horizontal table. Two springs identical to the original spring are attached in parallel to an 8 kg block placed on the same table. The frequency of vibration of the 8 kg block is:",
+  "options": {
+    "A": "2 Hz",
+    "B": "¼ Hz",
+    "C": "1/2$\\sqrt{2}$ Hz",
+    "D": "½ Hz"
+  },
+  "answer": {
+    "keys": [
+      "D"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "17SHM_v6",
+      "qno": 35
+    },
+    {
+      "kind": "exam",
+      "exam": "JEE Main",
+      "year": 2017,
+      "date": "2017-04-08",
+      "shift": null,
+      "mode": "Online",
+      "raw": "JEE Main 2017, 8 Apr (Online)"
+    }
+  ],
+  "assets": [],
+  "rights": "past-paper",
+  "content_hash": "7f2fc2d40f51e20b",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

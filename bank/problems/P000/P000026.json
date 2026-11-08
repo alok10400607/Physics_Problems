@@ -1,0 +1,48 @@
+{
+  "id": "P000026",
+  "status": "imported",
+  "version": 1,
+  "type": "integer",
+  "topic_code": 1702,
+  "concepts": [],
+  "exams": [
+    "JEE Main"
+  ],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A particle executes SHM represented by displacement function as $x(t) = A\\sin (\\omega t + \\varphi)$. If the position and velocity of the particle at t = 0 are 2 cm and 2ω cm/s respectively, then its amplitude is $x\\sqrt{2}$ cm, where the value of x is:",
+  "answer": {
+    "value": 2
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "17SHM_v6",
+      "qno": 26
+    },
+    {
+      "kind": "exam",
+      "exam": "JEE Main",
+      "year": 2021,
+      "date": "2021-07-21",
+      "shift": 2,
+      "mode": null,
+      "raw": "JEE Main 2021, 21 Jul, Shift 2"
+    }
+  ],
+  "assets": [],
+  "rights": "past-paper",
+  "content_hash": "149e21799aee5e74",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

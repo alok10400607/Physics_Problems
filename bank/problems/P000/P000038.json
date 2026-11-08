@@ -1,0 +1,56 @@
+{
+  "id": "P000038",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": 1704,
+  "concepts": [],
+  "exams": [
+    "JEE Main"
+  ],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "Two particles A and B of equal masses are suspended from two massless springs of spring constants $k_{1}$ and $k_{2}$ respectively. If the maximum velocities during oscillations are equal, the ratio of amplitude of A and B is:",
+  "options": {
+    "A": "$\\frac{k_{2}}{k_{1}}$",
+    "B": "$\\frac{k_{1}}{k_{2}}$",
+    "C": "$\\sqrt{\\frac{k_{1}}{k_{2}}}$",
+    "D": "$\\sqrt{\\frac{k_{2}}{k_{1}}}$"
+  },
+  "answer": {
+    "keys": [
+      "D"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "17SHM_v6",
+      "qno": 38
+    },
+    {
+      "kind": "exam",
+      "exam": "JEE Main",
+      "year": 2021,
+      "date": "2021-03-17",
+      "shift": 2,
+      "mode": null,
+      "raw": "JEE Main 2021, 17 Mar, Shift 2"
+    }
+  ],
+  "assets": [],
+  "rights": "past-paper",
+  "content_hash": "480fefb7efc12d7b",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

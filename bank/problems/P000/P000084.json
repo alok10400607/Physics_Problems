@@ -1,0 +1,56 @@
+{
+  "id": "P000084",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": 1708,
+  "concepts": [],
+  "exams": [
+    "JEE Main"
+  ],
+  "difficulty": {
+    "worksheet": "L3",
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "The amplitude of a simple pendulum, oscillating in air with a small spherical bob, decreases from 10 cm to 8 cm in 40 seconds. Assuming that Stokes’ law is valid, and ratio of the coefficient of viscosity of air to that of carbon dioxide is 1.3, the time in which amplitude of this pendulum will reduce from 10 cm to 5 cm in carbon dioxide will be close to (ln 5 = 1.601, ln 2 = 0.693).",
+  "options": {
+    "A": "161 s",
+    "B": "208 s",
+    "C": "231 s",
+    "D": "142 s"
+  },
+  "answer": {
+    "keys": [
+      "A"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "17SHM_v6",
+      "qno": 84
+    },
+    {
+      "kind": "exam",
+      "exam": "JEE Main",
+      "year": 2014,
+      "date": "2014-04-09",
+      "shift": null,
+      "mode": "Online",
+      "raw": "JEE Main 2014, 9 Apr (Online)"
+    }
+  ],
+  "assets": [],
+  "rights": "past-paper",
+  "content_hash": "a3b010f878360444",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}
