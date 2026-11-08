@@ -94,7 +94,7 @@ const cards = problems.map(p => {
   </article>`;
 }).join('\n');
 
-const t = topics.get(Number(topic)) || {};
+const t = topics.get(String(topic)) || {};
 const heading = topic ? `${topic} · ${t.name || ''}` : problems.map(p => p.id).join(', ');
 // KaTeX CSS with fonts embedded
 const kdir = path.join(__dirname, 'node_modules', 'katex', 'dist');

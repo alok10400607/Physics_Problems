@@ -48,7 +48,7 @@ for (const f of walk(path.join(BANK, 'problems')).filter(f => f.endsWith('.json'
   if (+p.id.slice(1) >= registry.next_problem_id) err(id, 'ID is not below registry.next_problem_id');
   const t = topics.get(p.topic_code);
   if (!t) err(id, `topic code ${p.topic_code} not in topics.json`);
-  else if (t.status === 'merged') err(id, `topic ${p.topic_code} was merged into ${t.merged_into}`);
+  else if (t.status !== 'active') err(id, `topic ${p.topic_code} is ${t.status}${t.merged_into ? ` (now ${t.merged_into})` : ''}`);
   for (const c of p.concepts || []) if (!concepts.has(c)) err(id, `concept '${c}' is not in concepts.json`);
   if (p.options && p.answer.keys) for (const k of p.answer.keys) if (!(k in p.options)) err(id, `answer ${k} is not an option`);
   // text and figures
