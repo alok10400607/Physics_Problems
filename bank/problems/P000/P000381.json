@@ -1,0 +1,56 @@
+{
+  "id": "P000381",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0705",
+  "concepts": [],
+  "exams": [
+    "NEET"
+  ],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "The position vector of a particle $\\overrightarrow{R}\\ $as a function of time is given by $\\overrightarrow{R} = 4\\sin(2\\pi t)\\widehat{i} + 4\\cos(2\\pi t)\\widehat{j}$; where R is in meters, t is in seconds and $\\widehat{i}\\ $and $\\widehat{j}$ denote unit vectors along x and y-directions, respectively. Which one of the following statements is wrong for the motion of particle ?",
+  "options": {
+    "A": "Path of the particle is a circle of radius 4 meter",
+    "B": "Acceleration vectors is along $- \\overrightarrow{R}$",
+    "C": "Magnitude of acceleration vector is $\\frac{v^{2}}{R}\\ $where v is the velocity of particle.",
+    "D": "Magnitude of the velocity of particle is 8 meter/second"
+  },
+  "answer": {
+    "keys": [
+      "D"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "07CM1_v2",
+      "qno": 3
+    },
+    {
+      "kind": "exam",
+      "exam": "AIPMT",
+      "date": null,
+      "shift": null,
+      "mode": "Re-exam",
+      "raw": "AIPMT 2015 (Re-exam)",
+      "year": 2015
+    }
+  ],
+  "assets": [],
+  "rights": "past-paper",
+  "content_hash": "93fae1b8c815a08e",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

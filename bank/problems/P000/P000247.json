@@ -1,0 +1,45 @@
+{
+  "id": "P000247",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0430",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A train is moving with an acceleration of 3 m$s^{- 2}.\\ $A ball is projected vertically upwards from the floor with a velocity of 5 m/s. How far from the point of projection will the ball hit the floor?",
+  "options": {
+    "A": "zero",
+    "B": "1.5 m in front",
+    "C": "1.5 m behind",
+    "D": "0.75 m behind"
+  },
+  "answer": {
+    "keys": [
+      "C"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "04MIP_v2",
+      "qno": 67
+    }
+  ],
+  "assets": [],
+  "rights": "unverified",
+  "content_hash": "d54360fb7987dd95",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

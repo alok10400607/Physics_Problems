@@ -1,0 +1,45 @@
+{
+  "id": "P000143",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0325",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "The initial velocity of a particle is $u$ (at $t = 0$) and the acceleration $a$ is given by $\\alpha t$. Which of the following relation is valid",
+  "options": {
+    "A": "$v = u + \\alpha t^{2}$",
+    "B": "$v = u + \\frac{1}{2}\\alpha t^{2}$",
+    "C": "$v = \\alpha t^{2}$",
+    "D": "$v = u$"
+  },
+  "answer": {
+    "keys": [
+      "B"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "03MSL_v2",
+      "qno": 59
+    }
+  ],
+  "assets": [],
+  "rights": "unverified",
+  "content_hash": "94b69ef7dfb7d49b",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

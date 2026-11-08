@@ -1,0 +1,57 @@
+{
+  "id": "P000310",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0510",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": "L2",
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000310-stem-1) Two masses ‘m’ and ‘M’ are attached to strings as shown in the figure. The system is in equilibrium. If M = 2 m, then tan$\\theta$ is equal to?",
+  "options": {
+    "A": "1",
+    "B": "2",
+    "C": "3/2",
+    "D": "5"
+  },
+  "answer": {
+    "keys": [
+      "D"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "05NLM_v1",
+      "qno": 27
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000310-stem-1",
+      "role": "stem",
+      "file": "P000/P000310-stem-1.png",
+      "format": "png",
+      "width": 347,
+      "height": 330,
+      "alt": "Mass m hangs from point A, which is held by strings AC and AB, each at 45° to the horizontal; AC goes to the left wall. Mass M hangs from B, and string BD goes to the right wall at angle θ.",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
+  "rights": "unverified",
+  "content_hash": "de28c0cdeb442757",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "P000332",
+  "problem_version": 1,
+  "status": "draft",
+  "hints": [],
+  "worded": null,
+  "conventional": "> ![](/tmp/import-p0oookqh/media/image59.png){width=\"1.7715277777777778in\" height=\"0.8222222222222222in\"}Choice of system: A or B or B&C\n\n>\n\n> FBD shown here for two systems; note that F is an external force only on A;\n\n>\n\n> Blocks B and C are being pushed up the contact exerted by A;",
+  "mistakes": [],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": null,
+    "date": "2026-11-08"
+  },
+  "reviewed_by": null
+}

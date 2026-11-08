@@ -1,0 +1,23 @@
+{
+  "id": "P000234",
+  "problem_version": 1,
+  "status": "draft",
+  "hints": [
+    "> Time of flight T = 4 s; the time taken from top of second pole to ground = time taken from ground to top of first pole as both are at the same height"
+  ],
+  "worded": null,
+  "conventional": null,
+  "mistakes": [],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": null,
+    "date": "2026-11-08"
+  },
+  "reviewed_by": null
+}

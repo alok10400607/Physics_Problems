@@ -1,0 +1,23 @@
+{
+  "id": "P000305",
+  "problem_version": 1,
+  "status": "draft",
+  "hints": [
+    "> Consider all three cylinders as the system; contact forces will act at an angle of $30{^\\circ}$ with the horizontal; the vertical component of each contact force $\\frac{N}{2}$ = $3mg/2$"
+  ],
+  "worded": null,
+  "conventional": null,
+  "mistakes": [],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": null,
+    "date": "2026-11-08"
+  },
+  "reviewed_by": null
+}

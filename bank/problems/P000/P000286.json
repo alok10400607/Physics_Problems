@@ -1,0 +1,56 @@
+{
+  "id": "P000286",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0505",
+  "concepts": [],
+  "exams": [
+    "JEE Main"
+  ],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A particle of mass m is moving in a straight line with momentum p. Starting at time t = 0, a force F = kt acts in the same direction on the moving particle during time interval T so that its momentum changes from p to 3p. Here k is a constant. The value of T is:",
+  "options": {
+    "A": "$2\\sqrt{\\frac{p}{k}}$",
+    "B": "$\\sqrt{\\frac{2p}{k}}$",
+    "C": "$\\sqrt{\\frac{2k}{p}}$",
+    "D": "$2\\sqrt{\\frac{k}{p}}$"
+  },
+  "answer": {
+    "keys": [
+      "A"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "05NLM_v1",
+      "qno": 3
+    },
+    {
+      "kind": "exam",
+      "exam": "JEE Main",
+      "date": "2019-01-11",
+      "shift": 2,
+      "mode": null,
+      "raw": "JEE Main 2019, 11 Jan, Shift 2",
+      "year": 2019
+    }
+  ],
+  "assets": [],
+  "rights": "past-paper",
+  "content_hash": "122f2911c5ad998c",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

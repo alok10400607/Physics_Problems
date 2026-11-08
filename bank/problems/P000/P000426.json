@@ -1,0 +1,57 @@
+{
+  "id": "P000426",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0715",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000426-stem-1)Figure shows a rod of length 20 cm pivoted near an end and which is made to rotate in a horizontal plane with a constant angular speed. A ball of mass m is suspended by a string also of length 20 cm from the other end of the rod. If the angle θ made by the string with the vertical is 30°, find the angular speed of the rotation.",
+  "options": {
+    "A": "$\\frac{g}{\\sqrt{3}}$",
+    "B": "$\\frac{g}{3\\sqrt{3}}$",
+    "C": "$\\sqrt{\\frac{10g}{3\\sqrt{3}}}$",
+    "D": "$\\frac{g}{\\sqrt{2}}$"
+  },
+  "answer": {
+    "keys": [
+      "C"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "07CM1_v2",
+      "qno": 48
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000426-stem-1",
+      "role": "stem",
+      "file": "P000/P000426-stem-1.png",
+      "format": "png",
+      "width": 316,
+      "height": 218,
+      "alt": "A horizontal arm of length L rotating about a vertical pole with angular speed ω; from its end, a mass m hangs on a string of length L at angle θ to the vertical.",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
+  "rights": "unverified",
+  "content_hash": "bbacaeaf9214bedf",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

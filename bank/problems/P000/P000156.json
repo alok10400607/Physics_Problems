@@ -1,0 +1,45 @@
+{
+  "id": "P000156",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0325",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "The velocity of a particle moving in the positive direction of x axis varies as $v = \\alpha\\sqrt{x}$, where α is a positive constant. Assuming that at moment t = 0, the particle was located at the point x = 0. Find the mean velocity of the particle averaged over the time that particle takes to cover first ‘$S$’ meters of the path.",
+  "options": {
+    "A": "$2\\alpha S$",
+    "B": "$\\alpha^{2}S$",
+    "C": "$\\frac{1}{2}\\alpha^{2}S$",
+    "D": "$\\frac{1}{2}\\alpha\\sqrt{S}$"
+  },
+  "answer": {
+    "keys": [
+      "D"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "03MSL_v2",
+      "qno": 72
+    }
+  ],
+  "assets": [],
+  "rights": "unverified",
+  "content_hash": "f55ff0e372e5f963",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

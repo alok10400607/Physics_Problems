@@ -1,0 +1,57 @@
+{
+  "id": "P000353",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0530",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "Choose the INCORRECT statement:\n![](asset:P000353-stem-1)",
+  "options": {
+    "A": "Acceleration of block M is 3 $ms^{- 2}$",
+    "B": "If m = 7 kg, then tension in the string is 28 N",
+    "C": "If m = 7 kg, then M = 8 kg",
+    "D": "If m = 7 kg, then M = 12 kg"
+  },
+  "answer": {
+    "keys": [
+      "D"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "05NLM_v1",
+      "qno": 70
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000353-stem-1",
+      "role": "stem",
+      "file": "P000/P000353-stem-1.png",
+      "format": "png",
+      "width": 457,
+      "height": 249,
+      "alt": "Blocks 2m and m on two horizontal surfaces, joined by a string over pulleys at the inner edges and under a movable pulley carrying mass M between them; block 2m accelerates at 2 m/s².",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
+  "rights": "unverified",
+  "content_hash": "56188b9e2d3cfe67",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

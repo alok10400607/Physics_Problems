@@ -1,0 +1,23 @@
+{
+  "id": "P000327",
+  "problem_version": 1,
+  "status": "draft",
+  "hints": [
+    "> Choice of system: either the left part or the right part;\n\n>\n\n> Ideally, the chain should be supported on smooth horizontal surface, else it takes catenary shape\n\n>\n\n> ![](/tmp/import-p0oookqh/media/image36.png){width=\"6.268055555555556in\" height=\"0.8472222222222222in\"}"
+  ],
+  "worded": null,
+  "conventional": null,
+  "mistakes": [],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": null,
+    "date": "2026-11-08"
+  },
+  "reviewed_by": null
+}

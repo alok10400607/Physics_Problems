@@ -1,0 +1,56 @@
+{
+  "id": "P000435",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0720",
+  "concepts": [],
+  "exams": [
+    "NEET"
+  ],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A car of mass 1000 kg negotiates a banked curve of radius 90 m on a frictionless road. If the banking angle is 45°, the speed of the car is :-",
+  "options": {
+    "A": "5 m/s",
+    "B": "10 m/s",
+    "C": "20 m/s",
+    "D": "30 m/s"
+  },
+  "answer": {
+    "keys": [
+      "D"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "07CM1_v2",
+      "qno": 57
+    },
+    {
+      "kind": "exam",
+      "exam": "AIPMT",
+      "date": null,
+      "shift": null,
+      "mode": "Pre",
+      "raw": "AIPMT 2012 (Pre)",
+      "year": 2012
+    }
+  ],
+  "assets": [],
+  "rights": "past-paper",
+  "content_hash": "ff5b4b8e8fc6d09c",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

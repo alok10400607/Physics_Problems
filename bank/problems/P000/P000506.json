@@ -1,0 +1,68 @@
+{
+  "id": "P000506",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0825",
+  "concepts": [],
+  "exams": [
+    "JEE Main"
+  ],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000506-stem-1) Given below is the plot of potential energy function U(x) for a system, in which a particle is in one-dimensional motion, while a conservative force F(x) acts on it. Suppose that $E_{mech}$= 8J, the incorrect statement for the system is:",
+  "options": {
+    "A": "At $x > x_{4}$, KE is constant throughout the region",
+    "B": "At $x = x_{3}$, KE = 4J",
+    "C": "At $x = x_{2}$, KE is greatest",
+    "D": "At $x < x_{1}$, KE is smallest and the particle is moving at the slowest speed"
+  },
+  "answer": {
+    "keys": [
+      "D"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "08WPE_v2",
+      "qno": 67
+    },
+    {
+      "kind": "exam",
+      "exam": "JEE Main",
+      "date": "2021-07-27",
+      "shift": 2,
+      "mode": null,
+      "raw": "JEE Main 2021, 27 Jul, Shift 2",
+      "year": 2021
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000506-stem-1",
+      "role": "stem",
+      "file": "P000/P000506-stem-1.png",
+      "format": "png",
+      "width": 276,
+      "height": 199,
+      "alt": "Potential energy U in J against x: a curve with dips and peaks between x₁ and x₄. The mechanical energy, E_mech = 8 J, is a dashed horizontal line; levels of 4 J and 6 J are also marked.",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
+  "rights": "past-paper",
+  "content_hash": "e76be7f6b945d778",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

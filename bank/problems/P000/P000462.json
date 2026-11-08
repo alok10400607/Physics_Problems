@@ -1,0 +1,57 @@
+{
+  "id": "P000462",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0815",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000462-stem-1)A wedge of mass M fitted with a spring of stiffness 'k' is kept on a smooth horizontal surface. A rod of mass m is kept on the wedge as shown in the figure. The system is in equilibrium. Assuming that all surfaces are smooth, the potential energy stored in the spring is:",
+  "options": {
+    "A": "$(mg\\tan \\theta)^{2}/k$",
+    "B": "$(mg\\tan \\theta)^{2}/2k$",
+    "C": "$(mg\\sin \\theta)^{2}/2k$",
+    "D": "$(mg\\cos \\theta)^{2}/2k$"
+  },
+  "answer": {
+    "keys": [
+      "B"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "08WPE_v2",
+      "qno": 23
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000462-stem-1",
+      "role": "stem",
+      "file": "P000/P000462-stem-1.png",
+      "format": "png",
+      "width": 227,
+      "height": 154,
+      "alt": "A wedge of mass M with incline angle θ on a horizontal floor, joined to a wall by a spring of constant k; a vertical rod of mass m, held in a guide, rests on the incline.",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
+  "rights": "unverified",
+  "content_hash": "40b80f7f5b36c3fb",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

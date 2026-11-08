@@ -1,0 +1,57 @@
+{
+  "id": "P000330",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0520",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000330-stem-1)Two blocks of mass 2.9 kg and 1.9 kg are suspended from a rigid support S by two inextensible wires each of length 1 m (see figure). The upper wire has negligible mass and the lower wire has a uniform mass of 0.2 kg/m. The whole system of blocks, wires and support have an upward acceleration of $0.2\\ ms^{- 2}$. The acceleration due to gravity is $9.8\\ ms^{- 2}$. Find the tension at the mid-point of upper and lower wire?",
+  "options": {
+    "A": "48 N, 19.6 N",
+    "B": "50 N, 19.6 N",
+    "C": "48 N, 20 N",
+    "D": "50 N, 20 N"
+  },
+  "answer": {
+    "keys": [
+      "D"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "05NLM_v1",
+      "qno": 47
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000330-stem-1",
+      "role": "stem",
+      "file": "P000/P000330-stem-1.png",
+      "format": "png",
+      "width": 176,
+      "height": 372,
+      "alt": "A 2.9 kg block hanging from a support S by a rope, with a 1.9 kg block hanging below it from a second rope.",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
+  "rights": "unverified",
+  "content_hash": "d8d0f99af1730a37",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

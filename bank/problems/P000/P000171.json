@@ -1,0 +1,57 @@
+{
+  "id": "P000171",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0335",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000171-stem-1)The acceleration of a particle which moves along the positive x-axis varies with its position as shown. If the velocity of the particle is zero at x =0, then find the velocity at x = 1m?",
+  "options": {
+    "A": "3 m/s",
+    "B": "2 m/s",
+    "C": "1 m/s",
+    "D": "$\\sqrt{3}$ m/s"
+  },
+  "answer": {
+    "keys": [
+      "D"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "03MSL_v2",
+      "qno": 87
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000171-stem-1",
+      "role": "stem",
+      "file": "P000/P000171-stem-1.png",
+      "format": "png",
+      "width": 291,
+      "height": 232,
+      "alt": "Acceleration a in m/s² against position x: a straight line rising from 0 at x = 0 to 3 m/s² at x = 1 m.",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
+  "rights": "unverified",
+  "content_hash": "89341baafc671884",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

@@ -1,0 +1,57 @@
+{
+  "id": "P000354",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0530",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000354-stem-1)In the following figure, the pulley is massless and frictionless. There is no friction between the body and the floor. If a constant force P is applied on the pulley as shown, find the acceleration of the block A and the pulley",
+  "options": {
+    "A": "$\\frac{P}{2M}\\ \\frac{P}{4M}$",
+    "B": "$\\frac{P}{2M}\\ \\frac{P}{2M}$",
+    "C": "$\\frac{P}{4M}\\ \\frac{P}{4M}$",
+    "D": "$\\frac{P}{2M}\\ \\frac{P}{M}$"
+  },
+  "answer": {
+    "keys": [
+      "A"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "05NLM_v1",
+      "qno": 71
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000354-stem-1",
+      "role": "stem",
+      "file": "P000/P000354-stem-1.png",
+      "format": "png",
+      "width": 657,
+      "height": 282,
+      "alt": "Block M on a horizontal surface, tied by a string that runs around a pulley pulled to the right with force P; the other part of the string, A, is fixed to a vertical wall.",
+      "origin": "docx",
+      "needs_redraw": false
+    }
+  ],
+  "rights": "unverified",
+  "content_hash": "2a4c145c8ef87ec3",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

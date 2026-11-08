@@ -1,0 +1,56 @@
+{
+  "id": "P000268",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0435",
+  "concepts": [],
+  "exams": [
+    "JEE Main"
+  ],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "Ship A is sailing towards north-east with velocity $\\overrightarrow{v} = 30\\widehat{i} + 50\\widehat{j}$ km/h; where $\\widehat{i}$ points east and $\\widehat{j}$ north. Ship B is at a distance of 80 km east and 150 km north of ship A and is sailing towards west at 10 km/h. A will be at minimum distance from B in:",
+  "options": {
+    "A": "4.2 h",
+    "B": "2.6 h",
+    "C": "3.2 h",
+    "D": "2.2 h"
+  },
+  "answer": {
+    "keys": [
+      "B"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "04MIP_v2",
+      "qno": 88
+    },
+    {
+      "kind": "exam",
+      "exam": "JEE Main",
+      "date": "2019-04-08",
+      "shift": 1,
+      "mode": null,
+      "raw": "JEE Main 2019, 8 Apr, Shift 1",
+      "year": 2019
+    }
+  ],
+  "assets": [],
+  "rights": "past-paper",
+  "content_hash": "795415cdcccd5e17",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

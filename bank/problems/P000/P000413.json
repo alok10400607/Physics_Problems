@@ -1,0 +1,56 @@
+{
+  "id": "P000413",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0710",
+  "concepts": [],
+  "exams": [
+    "JEE Main"
+  ],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A block of 200 g moves with a uniform speed in horizontal circular groove with vertical side walls of radius 20 cm. If the block takes 40 s to complete one round, the normal force by the side walls of the groove is:",
+  "options": {
+    "A": "0.0314 N",
+    "B": "9.859$\\times 10^{- 2}$N",
+    "C": "6.28$\\times 10^{- 3}$N",
+    "D": "9.859$\\times 10^{- 4}$N"
+  },
+  "answer": {
+    "keys": [
+      "D"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "07CM1_v2",
+      "qno": 35
+    },
+    {
+      "kind": "exam",
+      "exam": "JEE Main",
+      "date": "2021-03-16",
+      "shift": 1,
+      "mode": null,
+      "raw": "JEE Main 2021, 16 Mar, Shift 1",
+      "year": 2021
+    }
+  ],
+  "assets": [],
+  "rights": "past-paper",
+  "content_hash": "b732669c497a7cec",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

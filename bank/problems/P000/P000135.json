@@ -1,0 +1,45 @@
+{
+  "id": "P000135",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0320",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A ball is thrown vertically down with velocity of 5 m/s. With what velocity should another ball be thrown down after 2 seconds so that it can hit the 1st ball in 2 seconds?",
+  "options": {
+    "A": "40 m/s",
+    "B": "55 m/s",
+    "C": "15 m/s",
+    "D": "25 m/s"
+  },
+  "answer": {
+    "keys": [
+      "A"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "03MSL_v2",
+      "qno": 51
+    }
+  ],
+  "assets": [],
+  "rights": "unverified",
+  "content_hash": "d67fb96e0309426d",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

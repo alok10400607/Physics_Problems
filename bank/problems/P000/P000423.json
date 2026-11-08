@@ -1,0 +1,56 @@
+{
+  "id": "P000423",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0715",
+  "concepts": [],
+  "exams": [
+    "NEET"
+  ],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A block of mass 10 kg is in contact against the inner wall of a hollow cylindrical drum of radius 1 m. The coefficient of friction between the block and the inner wall of the cylinder is 0.1. The minimum angular velocity needed for the cylinder to keep the block stationary when the cylinder is vertical and rotating about its axis, will be?",
+  "options": {
+    "A": "$\\sqrt{10}$ rad/sec",
+    "B": "$\\frac{10}{2\\pi}$ rad/sec",
+    "C": "10 rad/sec",
+    "D": "10π rad/sec"
+  },
+  "answer": {
+    "keys": [
+      "C"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "07CM1_v2",
+      "qno": 45
+    },
+    {
+      "kind": "exam",
+      "exam": "NEET",
+      "date": null,
+      "shift": null,
+      "mode": null,
+      "raw": "NEET 2019",
+      "year": 2019
+    }
+  ],
+  "assets": [],
+  "rights": "past-paper",
+  "content_hash": "a5fa8f35a20bd249",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

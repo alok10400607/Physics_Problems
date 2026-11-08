@@ -1,0 +1,45 @@
+{
+  "id": "P000141",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0325",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "The displacement $x$ of a particle along a straight line at time $t$ is given by$x = a_{0} + a_{1}t + a_{2}t^{2}$. The acceleration of the particle is",
+  "options": {
+    "A": "$a_{0}$",
+    "B": "$a_{1}$",
+    "C": "${2a}_{2}$",
+    "D": "$a_{2}$"
+  },
+  "answer": {
+    "keys": [
+      "C"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "03MSL_v2",
+      "qno": 57
+    }
+  ],
+  "assets": [],
+  "rights": "unverified",
+  "content_hash": "f0d4182fed39166e",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

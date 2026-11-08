@@ -1,0 +1,45 @@
+{
+  "id": "P000088",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0305",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A 150 m long train is moving with a uniform velocity of 45 km/h. The time taken by the train to cross a bridge of length 850 meters is",
+  "options": {
+    "A": "56 sec",
+    "B": "68 sec",
+    "C": "80 sec",
+    "D": "92 sec"
+  },
+  "answer": {
+    "keys": [
+      "C"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "03MSL_v2",
+      "qno": 4
+    }
+  ],
+  "assets": [],
+  "rights": "unverified",
+  "content_hash": "cc2950a99e9f02b6",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

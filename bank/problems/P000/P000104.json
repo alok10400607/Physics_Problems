@@ -1,0 +1,45 @@
+{
+  "id": "P000104",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0315",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A ball is dropped from the top of a building. The ball takes 0.5 s to fall past the 3 m length of a window some distance from the top of the building. If the velocities of the ball at the top and at the bottom of the window are $v_{t}$ and $v_{b}$ respectively, then:",
+  "options": {
+    "A": "$v_{t}$ = 6 m/s",
+    "B": "$v_{t}$ = 2 m/s",
+    "C": "$v_{b}$= 12 m/s",
+    "D": "$v_{b}$= 8.5 m/s"
+  },
+  "answer": {
+    "keys": [
+      "D"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "03MSL_v2",
+      "qno": 20
+    }
+  ],
+  "assets": [],
+  "rights": "unverified",
+  "content_hash": "aeb8df0aa1d9b0c1",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

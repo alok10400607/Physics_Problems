@@ -1,0 +1,23 @@
+{
+  "id": "P000149",
+  "problem_version": 1,
+  "status": "draft",
+  "hints": [
+    "> Differentiating wrt t: $1 = 2\\alpha x\\frac{dx}{dt} + \\beta\\frac{dx}{dt}$ or $v = \\frac{1}{2\\alpha x + \\beta}$\n\n>\n\n> Differentiating again and substituting v: $a = - 2\\alpha v^{3}$ $-$ve for retardation"
+  ],
+  "worded": null,
+  "conventional": null,
+  "mistakes": [],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": null,
+    "date": "2026-11-08"
+  },
+  "reviewed_by": null
+}

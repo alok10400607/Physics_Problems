@@ -1,0 +1,21 @@
+{
+  "id": "P000373",
+  "problem_version": 1,
+  "status": "draft",
+  "hints": [],
+  "worded": null,
+  "conventional": null,
+  "mistakes": [],
+  "distractors": {},
+  "extension": "> ![](/tmp/import-p0oookqh/media/image91.png){width=\"1.0625in\" height=\"0.6708333333333333in\"}If a smooth rod, with a ring slipped on it, is an angle of $\\theta$ with horizontal. What is the horizontal acceleration it must be given for the ring not to slip?\n\n>\n\n> (Same answer as above)",
+  "check": {
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": null,
+    "date": "2026-11-08"
+  },
+  "reviewed_by": null
+}

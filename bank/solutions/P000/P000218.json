@@ -1,0 +1,21 @@
+{
+  "id": "P000218",
+  "problem_version": 1,
+  "status": "draft",
+  "hints": [],
+  "worded": null,
+  "conventional": "> The original time of flight is 6 s (as $H = 45m)$; hence $u_{x} = 15$ m/s\n\n>\n\n> The horizontal acceleration will not change time of flight or the maximum height.\n\n>\n\n> Horizontal displacement with $a_{x} = 1$ : $s_{x} = u_{x}T + \\frac{1}{2}a_{x}T^{2} = 108$",
+  "mistakes": [],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": null,
+    "date": "2026-11-08"
+  },
+  "reviewed_by": null
+}

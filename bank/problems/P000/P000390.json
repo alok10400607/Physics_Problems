@@ -1,0 +1,49 @@
+{
+  "id": "P000390",
+  "status": "imported",
+  "version": 1,
+  "type": "subjective",
+  "topic_code": "0705",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "Shown here are the velocity and acceleration vectors for an object in several different types of motion. In which case is the object slowing down and turning to the right?\n![](asset:P000390-stem-1)",
+  "answer": {
+    "text": "B"
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "07CM1_v2",
+      "qno": 12
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000390-stem-1",
+      "role": "stem",
+      "file": "P000/P000390-stem-1.png",
+      "format": "png",
+      "width": 526,
+      "height": 116,
+      "alt": "Four sketches (A) to (D), each showing a velocity vector v and an acceleration vector a at a different angle to each other.",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
+  "rights": "unverified",
+  "content_hash": "91b9d41be6f2c3aa",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

@@ -1,0 +1,57 @@
+{
+  "id": "P000486",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0820",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000486-stem-1)A block of mass ‘m’ placed on smooth plane inclined at an angle of 37° with the horizontal, is pushed up the slope from initial position of rest. The external force acting on the block is constant and equal to $mg$ in magnitude and horizontal in direction. Find the kinetic energy of the block when it reaches B at a height of ‘H’ from the initial position?",
+  "options": {
+    "A": "$\\frac{1}{2}mgH$",
+    "B": "$\\frac{1}{3}mgH$",
+    "C": "$\\frac{4}{3}mgH$",
+    "D": "$mgH$"
+  },
+  "answer": {
+    "keys": [
+      "B"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "08WPE_v2",
+      "qno": 47
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000486-stem-1",
+      "role": "stem",
+      "file": "P000/P000486-stem-1.png",
+      "format": "png",
+      "width": 379,
+      "height": 224,
+      "alt": "Block A at the bottom of an incline of 37°, pushed by a horizontal force equal to mg, moves up to position B at the top, a height H above.",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
+  "rights": "unverified",
+  "content_hash": "a6680cc544416f1f",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

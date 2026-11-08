@@ -1,0 +1,45 @@
+{
+  "id": "P000492",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0820",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A bullet of mass 10g is fired horizontally with a velocity of 1000m/s from the rifle situated at a height of 50m above the ground. If the bullet reaches the ground with a velocity of 500 m/s, the work done against air resistance is",
+  "options": {
+    "A": "3750 J",
+    "B": "3755J",
+    "C": "2500 J",
+    "D": "2555J"
+  },
+  "answer": {
+    "keys": [
+      "B"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "08WPE_v2",
+      "qno": 53
+    }
+  ],
+  "assets": [],
+  "rights": "unverified",
+  "content_hash": "b9ee0c71472dd2f0",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

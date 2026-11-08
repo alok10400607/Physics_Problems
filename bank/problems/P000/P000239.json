@@ -1,0 +1,57 @@
+{
+  "id": "P000239",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0425",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000239-stem-1)A particle is projected from the base of a plane inclined at an angle of $45{^\\circ}$ with the horizontal. The initial velocity of projection is $u$ making an angle of $\\theta$ with the horizontal as shown. If the particle strikes the inclined plane horizontally, then what is the value of $\\tan \\theta$?",
+  "options": {
+    "A": "$1/\\sqrt{2}$",
+    "B": "$\\sqrt{2}$",
+    "C": "1",
+    "D": "2"
+  },
+  "answer": {
+    "keys": [
+      "D"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "04MIP_v2",
+      "qno": 59
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000239-stem-1",
+      "role": "stem",
+      "file": "P000/P000239-stem-1.png",
+      "format": "png",
+      "width": 330,
+      "height": 214,
+      "alt": "A projectile launched with speed u from the foot of an incline of 45°, at angle θ to the incline's surface.",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
+  "rights": "unverified",
+  "content_hash": "b99efb62bfa0a51c",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

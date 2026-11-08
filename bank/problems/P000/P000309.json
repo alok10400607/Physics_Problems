@@ -1,0 +1,49 @@
+{
+  "id": "P000309",
+  "status": "imported",
+  "version": 1,
+  "type": "subjective",
+  "topic_code": "0510",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": "L2",
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000309-stem-1) A man of mass ‘m’ has fallen into a ditch of width d and two of his friends are slowly pulling him out using a light rope and two fixed pulleys as shown in the figure. Show that the force (assumed equal for both the friends) exerted by each friend on the rope increases as the man moves up. Find the force when the man is at a depth h.",
+  "answer": {
+    "text": "$\\frac{mg}{4h}\\sqrt{d^{2}\\  + \\ 4h^{2}}$"
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "05NLM_v1",
+      "qno": 26
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000309-stem-1",
+      "role": "stem",
+      "file": "P000/P000309-stem-1.png",
+      "format": "png",
+      "width": 300,
+      "height": 208,
+      "alt": "A person hangs between two vertical walls a distance d apart, held by ropes running over pulleys at the wall tops to two people standing on the walls, at height h above the person.",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
+  "rights": "unverified",
+  "content_hash": "6d216a7ccbca0377",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

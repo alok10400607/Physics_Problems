@@ -1,0 +1,56 @@
+{
+  "id": "P000176",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0340",
+  "concepts": [],
+  "exams": [
+    "JEE Main"
+  ],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "Trains A and B are running on parallel tracks in the opposite directions with speeds of 36 km/h and 72 km/h respectively. A person is walking in train A in the opposite direction to its motion with a speed of 1.8 km/h. Speed (in m/s) of this person as observed from train B will be close to? (the distance between tracks is negligible)",
+  "options": {
+    "A": "28.5",
+    "B": "30.5",
+    "C": "29.5",
+    "D": "31.5"
+  },
+  "answer": {
+    "keys": [
+      "C"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "03MSL_v2",
+      "qno": 92
+    },
+    {
+      "kind": "exam",
+      "exam": "JEE Main",
+      "date": "2020-09-02",
+      "shift": 1,
+      "mode": null,
+      "raw": "JEE Main 2020, 2 Sep, Shift 1",
+      "year": 2020
+    }
+  ],
+  "assets": [],
+  "rights": "past-paper",
+  "content_hash": "142f2ad589e7007c",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

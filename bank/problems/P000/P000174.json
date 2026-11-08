@@ -1,0 +1,60 @@
+{
+  "id": "P000174",
+  "status": "imported",
+  "version": 1,
+  "type": "subjective",
+  "topic_code": "0335",
+  "concepts": [],
+  "exams": [
+    "JEE Main"
+  ],
+  "difficulty": {
+    "worksheet": "L3",
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A tennis ball is released from a height ‘h’ and it rebounds to a height ‘h/2’ after hitting the floor. Which of the following graphs best represent the velocity-height of the ball?\n![](asset:P000174-stem-1)",
+  "answer": {
+    "text": "D"
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "03MSL_v2",
+      "qno": 90
+    },
+    {
+      "kind": "exam",
+      "exam": "JEE Main",
+      "date": "2020-09-04",
+      "shift": 1,
+      "mode": null,
+      "raw": "JEE Main 2020, 4 Sep, Shift 1",
+      "year": 2020
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000174-stem-1",
+      "role": "stem",
+      "file": "P000/P000174-stem-1.png",
+      "format": "png",
+      "width": 1201,
+      "height": 220,
+      "alt": "Four graphs of velocity v against height h, labelled A to D, with h/2 and h marked on the height axis; arrows show the direction of travel along each curve.",
+      "origin": "docx",
+      "needs_redraw": false
+    }
+  ],
+  "rights": "past-paper",
+  "content_hash": "5cc6fbacf779746a",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

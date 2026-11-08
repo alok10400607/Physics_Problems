@@ -1,0 +1,45 @@
+{
+  "id": "P000415",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0710",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A metal ring of mass m and radius R is placed on a smooth horizontal plane and set in rotation about its own axis at an angular velocity of ω. Find the tension in the ring.",
+  "options": {
+    "A": "$mR\\omega^{2}$",
+    "B": "$\\frac{mR\\omega^{2}}{2\\pi}$",
+    "C": "$\\frac{mR\\omega^{2}}{\\pi}$",
+    "D": "$m\\pi R\\omega^{2}$"
+  },
+  "answer": {
+    "keys": [
+      "B"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "07CM1_v2",
+      "qno": 37
+    }
+  ],
+  "assets": [],
+  "rights": "unverified",
+  "content_hash": "1b383977cdb66a51",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

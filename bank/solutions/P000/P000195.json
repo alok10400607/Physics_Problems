@@ -1,0 +1,23 @@
+{
+  "id": "P000195",
+  "problem_version": 1,
+  "status": "draft",
+  "hints": [
+    "> For the given path $\\frac{dy}{dx} = x = \\frac{v_{y}}{v_{x}}$; At t = 1 s, x = 4 m"
+  ],
+  "worded": null,
+  "conventional": null,
+  "mistakes": [],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": null,
+    "date": "2026-11-08"
+  },
+  "reviewed_by": null
+}

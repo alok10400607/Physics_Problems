@@ -1,0 +1,57 @@
+{
+  "id": "P000338",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0525",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000338-stem-1)Masses of 1 kg and 3 kg hang from threads attached to the two ends of a uniform rod of mass 6 kg lying on a smooth table, as shown in the figure. Find the tension in the rod at the section X shown in the figure.",
+  "options": {
+    "A": "15 N",
+    "B": "12 N",
+    "C": "10 N",
+    "D": "18 N"
+  },
+  "answer": {
+    "keys": [
+      "A"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "05NLM_v1",
+      "qno": 55
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000338-stem-1",
+      "role": "stem",
+      "file": "P000/P000338-stem-1.png",
+      "format": "png",
+      "width": 597,
+      "height": 218,
+      "alt": "A 6 kg bar of length L on a horizontal table, joined by strings over pulleys at both ends of the table to hanging masses: 1 kg on the left (tension T₁) and 3 kg on the right (tension T₂). A section X is marked L/4 from the bar's left end.",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
+  "rights": "unverified",
+  "content_hash": "e6bb4139d12b515d",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

@@ -1,0 +1,45 @@
+{
+  "id": "P000272",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0440",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A river flows from east to west with a speed of 5m/min. A man on south bank of river, capable of swimming at the rate of 10 m/min in still water, wants to swim across the river in shortest time; he should swim :",
+  "options": {
+    "A": "Due north",
+    "B": "Due north-east",
+    "C": "$30{^\\circ}$ east of North",
+    "D": "$60{^\\circ}$ east of North"
+  },
+  "answer": {
+    "keys": [
+      "A"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "04MIP_v2",
+      "qno": 92
+    }
+  ],
+  "assets": [],
+  "rights": "unverified",
+  "content_hash": "0e2ce4a97bebc15e",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

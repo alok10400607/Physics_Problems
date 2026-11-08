@@ -1,0 +1,56 @@
+{
+  "id": "P000501",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0820",
+  "concepts": [],
+  "exams": [
+    "JEE Main"
+  ],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A body of mass m = $10^{- 2}$ kg is moving in a medium and experiences a frictional force $F = - kv^{2}$. Its initial speed is $v_{0}$ = 10 m/s. If after 10 s its energy is $\\frac{1}{8}mv_{0}^{2}$, then the value of k is close to:",
+  "options": {
+    "A": "$10^{- 3}$kg/m",
+    "B": "$10^{- 4}$kg/m",
+    "C": "$10^{- 2}$kg/m",
+    "D": "$10^{- 1}$kg/m"
+  },
+  "answer": {
+    "keys": [
+      "B"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "08WPE_v2",
+      "qno": 62
+    },
+    {
+      "kind": "exam",
+      "exam": "JEE Main",
+      "date": null,
+      "shift": null,
+      "mode": "Offline",
+      "raw": "JEE Main 2017 (Offline)",
+      "year": 2017
+    }
+  ],
+  "assets": [],
+  "rights": "past-paper",
+  "content_hash": "739d334f62ec2396",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

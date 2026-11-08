@@ -1,0 +1,49 @@
+{
+  "id": "P000351",
+  "status": "imported",
+  "version": 1,
+  "type": "subjective",
+  "topic_code": "0530",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000351-stem-1)Two blocks A and B are connected to an ideal pulley through inextensible string. In each of the four cases, the acceleration of two blocks is indicated in the figure. Find the acceleration of the pulley in case of (a), (b), (c), and (d) respectively:",
+  "answer": {
+    "text": "4 m$s^{- 2}$ (up); 3 m$s^{- 2}$ (up); 1 m$s^{- 2}$ (up); 1 m$s^{- 2}$ (down)"
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "05NLM_v1",
+      "qno": 68
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000351-stem-1",
+      "role": "stem",
+      "file": "P000/P000351-stem-1.png",
+      "format": "png",
+      "width": 886,
+      "height": 265,
+      "alt": "Four pulley diagrams a to d, each with blocks A and B hanging on either side of a pulley, showing different accelerations for A and B (4 m/s² and 2 m/s², upwards or downwards).",
+      "origin": "docx",
+      "needs_redraw": false
+    }
+  ],
+  "rights": "unverified",
+  "content_hash": "7e05f81222d8c587",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

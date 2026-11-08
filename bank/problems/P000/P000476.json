@@ -1,0 +1,57 @@
+{
+  "id": "P000476",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0815",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": "L2",
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000476-stem-1) A collar 'B' of mass 2 kg is constrained to move along a horizontal smooth and fixed circular track of radius 5m. The spring lying in the plane of the circular track and having spring constant 200 N/m is undeformed when the collar is at 'A'. The other end of the spring is fixed 7 m from A, on the line through A and the centre of the track. If the collar starts from rest at B the normal reaction exerted by the track on the collar when it passes through 'A' is:",
+  "options": {
+    "A": "1440 N",
+    "B": "1200 N",
+    "C": "980 N",
+    "D": "1450 N"
+  },
+  "answer": {
+    "keys": [
+      "A"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "08WPE_v2",
+      "qno": 37
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000476-stem-1",
+      "role": "stem",
+      "file": "P000/P000476-stem-1.png",
+      "format": "png",
+      "width": 379,
+      "height": 237,
+      "alt": "A circle of radius 5 m with top B, right-hand point C and bottom D. A spring fixed to a wall 7 m from the circle's left-hand point A is attached at its other end to a bead at B.",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
+  "rights": "unverified",
+  "content_hash": "a70785167050e5e7",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

@@ -1,0 +1,68 @@
+{
+  "id": "P000378",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0540",
+  "concepts": [],
+  "exams": [
+    "JEE Main"
+  ],
+  "difficulty": {
+    "worksheet": "L3",
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000378-stem-1)  A block of mass m slides on a wooden wedge which in turn slides backwards on the horizontal surface. The acceleration of the block with respect to the wedge is? Given m = 8 kg and M = 16 kg. Assume all the surfaces to be frictionless.",
+  "options": {
+    "A": "$\\frac{4}{3}g$",
+    "B": "$\\frac{6}{5}g$",
+    "C": "$\\frac{3}{5}g$",
+    "D": "$\\frac{2}{3}g$"
+  },
+  "answer": {
+    "keys": [
+      "D"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "05NLM_v1",
+      "qno": 95
+    },
+    {
+      "kind": "exam",
+      "exam": "JEE Main",
+      "date": "2021-09-01",
+      "shift": 2,
+      "mode": null,
+      "raw": "JEE Main 2021, 1 Sep, Shift 2",
+      "year": 2021
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000378-stem-1",
+      "role": "stem",
+      "file": "P000/P000378-stem-1.png",
+      "format": "png",
+      "width": 217,
+      "height": 144,
+      "alt": "A block of mass m sliding down a smooth wedge of mass M with a 30° incline; the wedge moves to the left.",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
+  "rights": "past-paper",
+  "content_hash": "287a8dbc0bb020b1",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

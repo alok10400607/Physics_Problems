@@ -1,0 +1,45 @@
+{
+  "id": "P000212",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0410",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A particle launched from the origin at time t = 0. Its position is given by$\\ \\overrightarrow{r} = 40\\widehat{i} + 50\\widehat{j}$ m at t = 2sec. If the projectile was launched at an angle θ, then find its value",
+  "options": {
+    "A": "tan<sup>-1</sup>(4/5)",
+    "B": "tan<sup>-1</sup>(3/2)",
+    "C": "tan<sup>-1</sup>(2/3)",
+    "D": "tan<sup>-1</sup>(7/4)"
+  },
+  "answer": {
+    "keys": [
+      "D"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "04MIP_v2",
+      "qno": 32
+    }
+  ],
+  "assets": [],
+  "rights": "unverified",
+  "content_hash": "17985e03644bdc75",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "P000310",
+  "problem_version": 1,
+  "status": "draft",
+  "hints": [],
+  "worded": null,
+  "conventional": "> Three parts of the string may have different tensions;\n\n>\n\n> Here horizontal components of $T_{AC}$ and $T_{AB}$ are equal; and vertical components = $\\frac{mg}{2}$\n\n>\n\n> The horizontal components of $T_{AB} = \\left( \\frac{mg}{2} \\right) =$ $\\left( T_{BD} \\right)_{H}$\n\n>\n\n> Then $\\left( T_{BD} \\right)_{V} = \\left( T_{BA} \\right)_{V} + 2mg = \\frac{5mg}{2}$",
+  "mistakes": [],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": null,
+    "date": "2026-11-08"
+  },
+  "reviewed_by": null
+}

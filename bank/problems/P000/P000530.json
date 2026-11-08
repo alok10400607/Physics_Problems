@@ -1,0 +1,37 @@
+{
+  "id": "P000530",
+  "status": "imported",
+  "version": 1,
+  "type": "integer",
+  "topic_code": "0835",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A wind-powered generator converts wind energy into electric energy. Assume that the generator converts a fixed fraction of the wind energy intercepted by its blades into electrical energy. For wind speed v, the electrical power output will be proportional to $v^{n}$. The value of n is",
+  "answer": {
+    "value": 3
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "08WPE_v2",
+      "qno": 91
+    }
+  ],
+  "assets": [],
+  "rights": "unverified",
+  "content_hash": "4e5ecb7a17689f0a",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

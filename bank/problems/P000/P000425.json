@@ -1,0 +1,68 @@
+{
+  "id": "P000425",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0715",
+  "concepts": [],
+  "exams": [
+    "JEE Main"
+  ],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000425-stem-1) A conical pendulum makes an angle θ = 45° w.r.t. Z-axis and moves in a circle in the XY plane. The radius of the circle is 0.4 m and its centre is vertically below O. The speed of the pendulum, in its circular path, will be:",
+  "options": {
+    "A": "0.2 m/s",
+    "B": "0.4 m/s",
+    "C": "2 m/s",
+    "D": "4 m/s"
+  },
+  "answer": {
+    "keys": [
+      "C"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "07CM1_v2",
+      "qno": 47
+    },
+    {
+      "kind": "exam",
+      "exam": "JEE Main",
+      "date": "2017-04-09",
+      "shift": null,
+      "mode": "Online",
+      "raw": "JEE Main 2017, 9 Apr (Online)",
+      "year": 2017
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000425-stem-1",
+      "role": "stem",
+      "file": "P000/P000425-stem-1.png",
+      "format": "png",
+      "width": 250,
+      "height": 257,
+      "alt": "A conical pendulum: a string from point O on the vertical Z-axis makes angle θ with the axis, and the bob moves in a horizontal circle centred at C.",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
+  "rights": "past-paper",
+  "content_hash": "e330b7ee96821a57",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

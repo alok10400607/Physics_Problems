@@ -1,0 +1,49 @@
+{
+  "id": "P000443",
+  "status": "imported",
+  "version": 1,
+  "type": "subjective",
+  "topic_code": "0805",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000443-stem-1)A force $F = 5\\widehat{i}$ is acting on a particle which moves in a circular path of radius of 2 m as shown in the figure. Find the work done when the particle moves from\n(i) A to B\n(ii) B to C",
+  "answer": {
+    "text": "(i) +10 J (ii) +5 J"
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "08WPE_v2",
+      "qno": 4
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000443-stem-1",
+      "role": "stem",
+      "file": "P000/P000443-stem-1.png",
+      "format": "png",
+      "width": 257,
+      "height": 234,
+      "alt": "A circle with point A at the left end of the horizontal diameter, B at the top, and C on the lower right, 60° from the downward vertical.",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
+  "rights": "unverified",
+  "content_hash": "cc3b544adc3c40f0",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

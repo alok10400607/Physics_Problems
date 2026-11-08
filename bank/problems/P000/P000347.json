@@ -1,0 +1,68 @@
+{
+  "id": "P000347",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0525",
+  "concepts": [],
+  "exams": [
+    "NEET"
+  ],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000347-stem-1) A 10 kg mass is suspended from a combination of pulley as shown in the figure. If the mass is in equilibrium, then the find the force exerted by the string on the beam.",
+  "options": {
+    "A": "200 N",
+    "B": "100 N",
+    "C": "150 N",
+    "D": "50 N"
+  },
+  "answer": {
+    "keys": [
+      "C"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "05NLM_v1",
+      "qno": 64
+    },
+    {
+      "kind": "exam",
+      "exam": "AIIMS",
+      "date": null,
+      "shift": null,
+      "mode": null,
+      "raw": "AIIMS 2018",
+      "year": 2018
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000347-stem-1",
+      "role": "stem",
+      "file": "P000/P000347-stem-1.png",
+      "format": "png",
+      "width": 198,
+      "height": 295,
+      "alt": "A 10 kg block hanging from a movable pulley. A rope fixed to a beam above passes under the movable pulley and over a fixed pulley on the beam, and is pulled down with force F.",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
+  "rights": "past-paper",
+  "content_hash": "bfe1a699125dbd6c",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

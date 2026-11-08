@@ -1,0 +1,60 @@
+{
+  "id": "P000513",
+  "status": "imported",
+  "version": 1,
+  "type": "subjective",
+  "topic_code": "0825",
+  "concepts": [],
+  "exams": [
+    "JEE Main"
+  ],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A particle of mass m moves in a circular orbit under the central potential field $(r) = - \\frac{C}{r}$ , where C is a positive constant. The correct radius-velocity graph of the particle motion is:\n![](asset:P000513-stem-1)",
+  "answer": {
+    "text": "A"
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "08WPE_v2",
+      "qno": 74
+    },
+    {
+      "kind": "exam",
+      "exam": "JEE Main",
+      "date": "2021-03-18",
+      "shift": 2,
+      "mode": null,
+      "raw": "JEE Main 2021, 18 Mar, Shift 2",
+      "year": 2021
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000513-stem-1",
+      "role": "stem",
+      "file": "P000/P000513-stem-1.png",
+      "format": "png",
+      "width": 1023,
+      "height": 129,
+      "alt": "Four graphs (A) to (D) with v on the horizontal axis: (A) a curve falling steeply and then flattening; (B) a curve rising more and more steeply; (C) a straight line through the origin; (D) a quarter-circle shape falling from the vertical axis to the horizontal axis.",
+      "origin": "docx",
+      "needs_redraw": false
+    }
+  ],
+  "rights": "past-paper",
+  "content_hash": "e39a980c9861e737",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

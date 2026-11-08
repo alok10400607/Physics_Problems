@@ -1,0 +1,45 @@
+{
+  "id": "P000399",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0705",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": "L2",
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "Starting from rest, a particle rotates in a circle of radius R = $\\sqrt{2}$m with an angular acceleration α=π/4 rad/s<sup>2</sup>. The magnitude of average velocity of the particle over the time it rotates quarter circle is?",
+  "options": {
+    "A": "$\\pi$ m/s",
+    "B": "$\\frac{\\pi}{2}$ m/s",
+    "C": "2 m/s",
+    "D": "1 m/s"
+  },
+  "answer": {
+    "keys": [
+      "D"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "07CM1_v2",
+      "qno": 21
+    }
+  ],
+  "assets": [],
+  "rights": "unverified",
+  "content_hash": "797aeb460339740b",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

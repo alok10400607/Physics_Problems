@@ -1,0 +1,67 @@
+{
+  "id": "P000164",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0330",
+  "concepts": [],
+  "exams": [
+    "JEE Main"
+  ],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000164-stem-1) The velocity-time graphs of a car and a scooter are shown in the figure. (i) The difference between the distance travelled by the car and the scooter in 15 s and (ii) the time at which the car will catch up with the scooter are, respectively?",
+  "options": {
+    "A": "112.5 m and 22.5 s",
+    "B": "337.5 m and 25 s",
+    "C": "112.5 m and 15 s",
+    "D": "225.5 m and 10 s"
+  },
+  "answer": {
+    "keys": [
+      "A"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "03MSL_v2",
+      "qno": 80
+    },
+    {
+      "kind": "exam",
+      "exam": "JEE Main",
+      "date": null,
+      "shift": null,
+      "mode": null,
+      "raw": "JEE Main"
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000164-stem-1",
+      "role": "stem",
+      "file": "P000/P000164-stem-1.png",
+      "format": "png",
+      "width": 155,
+      "height": 139,
+      "alt": "Velocity in m/s against time in s for a car and a scooter. The car's line rises from 0 at O to 45 m/s at A (15 s), then stays at 45 m/s to B (25 s). The scooter's line is constant at 30 m/s from E to G. C and D mark 15 s and 25 s on the time axis.",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
+  "rights": "past-paper",
+  "content_hash": "1072ccb5c64917e8",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

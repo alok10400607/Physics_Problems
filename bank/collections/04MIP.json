@@ -1,0 +1,161 @@
+{
+  "id": "04MIP",
+  "kind": "worksheet",
+  "title": "Motion in a Plane: Projectiles & Relative Velocity",
+  "chapter_code": "04",
+  "note": "Take g = 10 m/s² unless stated otherwise.",
+  "source_file": "04MIP_v2.docx",
+  "sections": [
+    {
+      "topic_code": "0405",
+      "title": "2D/3D Motion in Vector & Calculus Form",
+      "problems": [
+        "P000181",
+        "P000182",
+        "P000183",
+        "P000184",
+        "P000185",
+        "P000186",
+        "P000187",
+        "P000188",
+        "P000189",
+        "P000190",
+        "P000191",
+        "P000192",
+        "P000193",
+        "P000194",
+        "P000195"
+      ]
+    },
+    {
+      "topic_code": "0410",
+      "title": "Ground-to-Ground Projectile",
+      "problems": [
+        "P000196",
+        "P000197",
+        "P000198",
+        "P000199",
+        "P000200",
+        "P000201",
+        "P000202",
+        "P000203",
+        "P000204",
+        "P000205",
+        "P000206",
+        "P000207",
+        "P000208",
+        "P000209",
+        "P000210",
+        "P000211",
+        "P000212",
+        "P000213",
+        "P000214",
+        "P000215",
+        "P000216",
+        "P000217",
+        "P000218",
+        "P000219",
+        "P000220",
+        "P000221",
+        "P000222",
+        "P000223"
+      ]
+    },
+    {
+      "topic_code": "0415",
+      "title": "Horizontal Projection from a Height",
+      "problems": [
+        "P000224",
+        "P000225",
+        "P000226",
+        "P000227",
+        "P000228",
+        "P000229",
+        "P000230",
+        "P000231"
+      ]
+    },
+    {
+      "topic_code": "0420",
+      "title": "Oblique Projection from a Height or to a Target",
+      "problems": [
+        "P000232",
+        "P000233",
+        "P000234",
+        "P000235",
+        "P000236"
+      ]
+    },
+    {
+      "topic_code": "0425",
+      "title": "Projectile on an Inclined Plane",
+      "problems": [
+        "P000237",
+        "P000238",
+        "P000239",
+        "P000240",
+        "P000241",
+        "P000242",
+        "P000243",
+        "P000244",
+        "P000245"
+      ]
+    },
+    {
+      "topic_code": "0430",
+      "title": "Relative Motion of Projectiles & Moving Frames",
+      "problems": [
+        "P000246",
+        "P000247",
+        "P000248",
+        "P000249",
+        "P000250",
+        "P000251",
+        "P000252",
+        "P000253",
+        "P000254",
+        "P000255",
+        "P000256",
+        "P000257",
+        "P000258"
+      ]
+    },
+    {
+      "topic_code": "0435",
+      "title": "Relative Velocity in 2D: Rain, Wind & Closest Approach",
+      "problems": [
+        "P000259",
+        "P000260",
+        "P000261",
+        "P000262",
+        "P000263",
+        "P000264",
+        "P000265",
+        "P000266",
+        "P000267",
+        "P000268",
+        "P000269",
+        "P000270"
+      ]
+    },
+    {
+      "topic_code": "0440",
+      "title": "River–Boat Crossing",
+      "problems": [
+        "P000271",
+        "P000272",
+        "P000273",
+        "P000274",
+        "P000275",
+        "P000276",
+        "P000277",
+        "P000278",
+        "P000279",
+        "P000280",
+        "P000281",
+        "P000282",
+        "P000283"
+      ]
+    }
+  ]
+}

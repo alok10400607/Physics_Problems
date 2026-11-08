@@ -1,0 +1,57 @@
+{
+  "id": "P000366",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0535",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000366-stem-1)Two masses of 1 kg and 5 kg are attached to the ends of a massless string passing over a pulley of negligible weight. The pulley itself is attached to a light spring balance as shown in Figure. The masses are released from rest. The reading of the spring balance will be:",
+  "options": {
+    "A": "equal to 6 kgf",
+    "B": "more than 6 kgf",
+    "C": "equal to $\\frac{10}{3}$ kgf",
+    "D": "equal to 3 kgf"
+  },
+  "answer": {
+    "keys": [
+      "C"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "05NLM_v1",
+      "qno": 83
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000366-stem-1",
+      "role": "stem",
+      "file": "P000/P000366-stem-1.png",
+      "format": "png",
+      "width": 225,
+      "height": 313,
+      "alt": "A spring balance hanging from the ceiling holds a pulley; blocks A (1 kg) and B (5 kg) hang on either side of it.",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
+  "rights": "unverified",
+  "content_hash": "01a38847d828d89f",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

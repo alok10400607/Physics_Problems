@@ -1,0 +1,57 @@
+{
+  "id": "P000248",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0430",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000248-stem-1)Two particles A and B are projected simultaneously in the directions shown with velocities V<sub>A</sub> = 20 m/s and V<sub>B</sub> = 10 m/s respectively. If they collide in air after 0.5 s, then the angle θ and distance x respectively are:",
+  "options": {
+    "A": "30° and 10$\\sqrt{3}$",
+    "B": "60° and 5$\\sqrt{3}$",
+    "C": "30° and 5$\\sqrt{2}$",
+    "D": "30° and 5$\\sqrt{3}$"
+  },
+  "answer": {
+    "keys": [
+      "D"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "04MIP_v2",
+      "qno": 68
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000248-stem-1",
+      "role": "stem",
+      "file": "P000/P000248-stem-1.png",
+      "format": "png",
+      "width": 358,
+      "height": 171,
+      "alt": "Particle A projected at 20 m/s at angle θ to the horizontal, and particle B, a distance x away on the same level, projected vertically upwards at 10 m/s.",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
+  "rights": "unverified",
+  "content_hash": "ba983d1cdb1bdc8e",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

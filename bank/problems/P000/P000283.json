@@ -1,0 +1,45 @@
+{
+  "id": "P000283",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0440",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": "L2",
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "The velocity of the river water is $v$. Width of the river is d. A swimmer swims, with reference to the water, perpendicular to the current with an acceleration of a = 2t, starting from rest. The equation of the trajectory of the path followed by the swimmer is?",
+  "options": {
+    "A": "$y = x^{2}/2v$",
+    "B": "$y = x^{3}/2v$",
+    "C": "$y = x^{3}/3v$",
+    "D": "$y = x^{3}/3v^{3}$"
+  },
+  "answer": {
+    "keys": [
+      "D"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "04MIP_v2",
+      "qno": 103
+    }
+  ],
+  "assets": [],
+  "rights": "unverified",
+  "content_hash": "046210809ff40b16",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

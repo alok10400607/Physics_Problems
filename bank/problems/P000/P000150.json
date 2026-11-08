@@ -1,0 +1,45 @@
+{
+  "id": "P000150",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0325",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A particle of unit mass undergoes one-dimensional motion such that its velocity varies according to $v(x) = \\beta x^{- 2n}$where β and n are constants and x is the position of the particle. The acceleration of the particle as a function of x, is given by?",
+  "options": {
+    "A": "$- 2n\\beta^{2}x^{- 4n - 1}$",
+    "B": "$- 2\\beta^{2}x^{- 2n + 1}$",
+    "C": "$- 2n\\beta^{2}x^{- 4n + 1}$",
+    "D": "$- 2n\\beta^{2}x^{- 2n - 1}$"
+  },
+  "answer": {
+    "keys": [
+      "A"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "03MSL_v2",
+      "qno": 66
+    }
+  ],
+  "assets": [],
+  "rights": "unverified",
+  "content_hash": "c93ba046d56d2552",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

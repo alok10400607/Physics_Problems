@@ -1,0 +1,45 @@
+{
+  "id": "P000121",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0320",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "Two particles A and B start from rest and move for equal time on a straight line. The particle A has an acceleration of ‘a’ for the first half of the time and ‘2a’ for the second half. The particle B has an acceleration of ‘2a’ for the first half and ‘a’ for the second half. What will be the ratio of the distances travelled by A and B?",
+  "options": {
+    "A": "7/5",
+    "B": "1",
+    "C": "5/7",
+    "D": "3/8"
+  },
+  "answer": {
+    "keys": [
+      "C"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "03MSL_v2",
+      "qno": 37
+    }
+  ],
+  "assets": [],
+  "rights": "unverified",
+  "content_hash": "5668b958ef0e180d",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

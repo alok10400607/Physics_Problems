@@ -1,0 +1,57 @@
+{
+  "id": "P000372",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0535",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000372-stem-1)Two masses are connected to an ideal spring and a string as shown. The system is at rest. If the string is cut, what will be the acceleration of ‘2m’ block soon afterwards?",
+  "options": {
+    "A": "0",
+    "B": "g",
+    "C": "g/2",
+    "D": "3g/2"
+  },
+  "answer": {
+    "keys": [
+      "D"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "05NLM_v1",
+      "qno": 89
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000372-stem-1",
+      "role": "stem",
+      "file": "P000/P000372-stem-1.png",
+      "format": "png",
+      "width": 82,
+      "height": 126,
+      "alt": "A block of mass 2m hanging from the ceiling by a string, with a block of mass m hanging below it from a spring.",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
+  "rights": "unverified",
+  "content_hash": "736c16ac8ea74b11",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

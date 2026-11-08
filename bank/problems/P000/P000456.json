@@ -1,0 +1,45 @@
+{
+  "id": "P000456",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0810",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A uniform flexible chain of mass m and length $2L$ hangs in equilibrium over a smooth horizontal pin of negligible diameter. One end of the chain is given a small vertical displacement so that the chain slips over the pin. The speed of the chain when it leaves the pin is:",
+  "options": {
+    "A": "$\\sqrt{2gL}$",
+    "B": "$\\sqrt{gL}$",
+    "C": "$\\sqrt{4gL}$",
+    "D": "$\\sqrt{gL/2}$"
+  },
+  "answer": {
+    "keys": [
+      "B"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "08WPE_v2",
+      "qno": 17
+    }
+  ],
+  "assets": [],
+  "rights": "unverified",
+  "content_hash": "4c762f7bd712f184",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

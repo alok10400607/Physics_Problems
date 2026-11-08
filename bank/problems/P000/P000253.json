@@ -1,0 +1,57 @@
+{
+  "id": "P000253",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0430",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000253-stem-1)Two projectiles are projected at an angle α from two points on a plane inclined at an angle θ with the horizontal as shown. Which of the statements are correct:",
+  "options": {
+    "A": "The particles will collide in mid-air",
+    "B": "The time of flight for each particle is same.",
+    "C": "Both particles will strike the plane perpendicularly",
+    "D": "The range of projectiles measured along the inclined surface is same."
+  },
+  "answer": {
+    "keys": [
+      "B"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "04MIP_v2",
+      "qno": 73
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000253-stem-1",
+      "role": "stem",
+      "file": "P000/P000253-stem-1.png",
+      "format": "png",
+      "width": 791,
+      "height": 492,
+      "alt": "An incline of angle θ with two particles, each launched with speed u at angle α to the incline's surface: one from near the bottom, directed up the slope, and one from higher up, directed down the slope.",
+      "origin": "docx",
+      "needs_redraw": false
+    }
+  ],
+  "rights": "unverified",
+  "content_hash": "52291b02e0cb3917",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

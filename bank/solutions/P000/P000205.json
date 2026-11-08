@@ -1,0 +1,23 @@
+{
+  "id": "P000205",
+  "problem_version": 1,
+  "status": "draft",
+  "hints": [
+    "> Maximum range $R \\propto u^{2}$ and area $A \\propto R^{2}$ hence $A \\propto u^{4}$"
+  ],
+  "worded": null,
+  "conventional": null,
+  "mistakes": [],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": null,
+    "date": "2026-11-08"
+  },
+  "reviewed_by": null
+}

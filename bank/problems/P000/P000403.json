@@ -1,0 +1,45 @@
+{
+  "id": "P000403",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0705",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": "L2",
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A particle is moving in x–y plane. At certain instant of time, the components of its velocity and acceleration are as follows $v_{x}$ = 3 m/s, $v_{y}$ = 4 m/s, $a_{x}$ = 2 m/s<sup>2</sup> and $a_{y}$ = 1 m/s<sup>2</sup>. The rate of change of speed at this moment is?",
+  "options": {
+    "A": "2 $m/s^{2}$",
+    "B": "$\\sqrt{2}\\ m/s^{2}$",
+    "C": "3 $m/s^{2}$",
+    "D": "4 $m/s^{2}$"
+  },
+  "answer": {
+    "keys": [
+      "A"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "07CM1_v2",
+      "qno": 25
+    }
+  ],
+  "assets": [],
+  "rights": "unverified",
+  "content_hash": "2a31fad6ec158453",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

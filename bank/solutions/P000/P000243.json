@@ -1,0 +1,23 @@
+{
+  "id": "P000243",
+  "problem_version": 1,
+  "status": "draft",
+  "hints": [
+    "> The acceleration $g\\sin \\theta = 6$ will act along the slope ($\\bot$ to initial velocity)"
+  ],
+  "worded": null,
+  "conventional": null,
+  "mistakes": [],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": null,
+    "date": "2026-11-08"
+  },
+  "reviewed_by": null
+}

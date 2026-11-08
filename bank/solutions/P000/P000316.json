@@ -1,0 +1,23 @@
+{
+  "id": "P000316",
+  "problem_version": 1,
+  "status": "draft",
+  "hints": [
+    "> Acceleration (g) for distance h and retardation (a) for distance s:\n\n>\n\n> Then $\\frac{g}{a} = \\frac{s}{h}$ where $a = \\frac{F - mg}{m}$"
+  ],
+  "worded": null,
+  "conventional": null,
+  "mistakes": [],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": null,
+    "date": "2026-11-08"
+  },
+  "reviewed_by": null
+}

@@ -1,0 +1,45 @@
+{
+  "id": "P000099",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0310",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A car is moving with a speed of 40 m/s. The driver observes a stationary truck ahead at a distance of 120 m. After a reaction time of δt, the driver applies the brake producing a retardation of 8 m/s<sup>2</sup>. What is the maximum reaction time to avoid collision?",
+  "options": {
+    "A": "1 sec",
+    "B": "0.8 sec",
+    "C": "0.6 sec",
+    "D": "0.5 sec"
+  },
+  "answer": {
+    "keys": [
+      "D"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "03MSL_v2",
+      "qno": 15
+    }
+  ],
+  "assets": [],
+  "rights": "unverified",
+  "content_hash": "93aa2830d95d2c9f",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

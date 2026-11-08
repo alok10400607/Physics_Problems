@@ -1,0 +1,45 @@
+{
+  "id": "P000316",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0515",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "An open knife edge of mass M is dropped from a height h on a wooden floor. If the blade penetrates a distance s into the wood, the average resistance offered by the wood to the blade is",
+  "options": {
+    "A": "Mg",
+    "B": "$Mg(1 + \\frac{h}{s})$",
+    "C": "$Mg(1 - \\frac{h}{s})$",
+    "D": "$Mg{(1 + \\frac{h}{s})}^{2}$"
+  },
+  "answer": {
+    "keys": [
+      "B"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "05NLM_v1",
+      "qno": 33
+    }
+  ],
+  "assets": [],
+  "rights": "unverified",
+  "content_hash": "39fc8bf9ca020e7b",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

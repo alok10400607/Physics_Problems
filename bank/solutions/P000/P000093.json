@@ -1,0 +1,21 @@
+{
+  "id": "P000093",
+  "problem_version": 1,
+  "status": "draft",
+  "hints": [],
+  "worded": null,
+  "conventional": "> ![](/tmp/import-bzoi1s3c/media/image3.png){width=\"1.9680555555555554in\" height=\"1.0743055555555556in\"}Here D and d are constant.\n\n>\n\n> Let the path be QRP, where RM = $x$ is the variable\n\n>\n\n> The time taken (T) to traverse QRP is a function of $x$\n\n>\n\n> $$T = \\frac{D - x}{v} + \\frac{2\\sqrt{d^{2} + x^{2}}}{v}$$\n\n>\n\n> For time to be minimum $\\frac{dT}{dx} = 0$",
+  "mistakes": [],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": null,
+    "date": "2026-11-08"
+  },
+  "reviewed_by": null
+}

@@ -1,0 +1,45 @@
+{
+  "id": "P000200",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0410",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A projectile is projected with initial velocity 6$\\widehat{i} + 8\\widehat{j}$ m/s. Find its horizontal range.",
+  "options": {
+    "A": "4.8 m",
+    "B": "9.6 m",
+    "C": "8 m",
+    "D": "16 m"
+  },
+  "answer": {
+    "keys": [
+      "B"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "04MIP_v2",
+      "qno": 20
+    }
+  ],
+  "assets": [],
+  "rights": "unverified",
+  "content_hash": "4df2a32056a6f3fa",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

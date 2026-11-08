@@ -1,0 +1,57 @@
+{
+  "id": "P000369",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0535",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000369-stem-1)Two blocks are held at rest such that the spring is in its natural length and the string is just taut. What will be the acceleration of blocks A and B soon after the release?",
+  "options": {
+    "A": "0, g",
+    "B": "g, 0",
+    "C": "Both zero",
+    "D": "both g"
+  },
+  "answer": {
+    "keys": [
+      "D"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "05NLM_v1",
+      "qno": 86
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000369-stem-1",
+      "role": "stem",
+      "file": "P000/P000369-stem-1.png",
+      "format": "png",
+      "width": 110,
+      "height": 151,
+      "alt": "A fixed pulley with block A (mass m) hanging on one side through a spring, and block B (mass 2m) hanging on the other side.",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
+  "rights": "unverified",
+  "content_hash": "eaff3e219e3a62ae",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

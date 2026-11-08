@@ -1,0 +1,45 @@
+{
+  "id": "P000124",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0320",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A police jeep moving at a constant speed v is chasing a dacoit on a motorcycle. When the jeep is a distance $x$ behind, the dacoit starts from rest with a constant acceleration α. Which of the following relations must hold if the police are to catch the dacoit?",
+  "options": {
+    "A": "$v^{2} \\leq \\alpha x$",
+    "B": "$v^{2} \\leq 2\\alpha x$",
+    "C": "$v^{2} \\geq 2\\alpha x$",
+    "D": "$v^{2} \\geq \\alpha x$"
+  },
+  "answer": {
+    "keys": [
+      "C"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "03MSL_v2",
+      "qno": 40
+    }
+  ],
+  "assets": [],
+  "rights": "unverified",
+  "content_hash": "c5c0a4c6f4763caa",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

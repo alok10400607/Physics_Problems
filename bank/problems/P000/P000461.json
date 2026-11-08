@@ -1,0 +1,56 @@
+{
+  "id": "P000461",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0815",
+  "concepts": [],
+  "exams": [
+    "JEE Main"
+  ],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A spring of force constant of 800 N/m has an extension of 5 cm. The work done in extending it from 5 cm to 15 cm is:",
+  "options": {
+    "A": "16J",
+    "B": "8J",
+    "C": "32J",
+    "D": "24J"
+  },
+  "answer": {
+    "keys": [
+      "B"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "08WPE_v2",
+      "qno": 22
+    },
+    {
+      "kind": "exam",
+      "exam": "AIEEE",
+      "date": null,
+      "shift": null,
+      "mode": null,
+      "raw": "AIEEE 2002",
+      "year": 2002
+    }
+  ],
+  "assets": [],
+  "rights": "past-paper",
+  "content_hash": "efa56c5568171c3a",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

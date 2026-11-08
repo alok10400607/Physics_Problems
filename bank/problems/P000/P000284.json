@@ -1,0 +1,49 @@
+{
+  "id": "P000284",
+  "status": "imported",
+  "version": 1,
+  "type": "subjective",
+  "topic_code": "0505",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A particle of mass m is at rest at the origin at time t =0. It is subjected to a force $F(t) = F_{0}e^{- bt}$ in the x-direction. Its speed $v_{t}$ is depicted by which curve:\n![](asset:P000284-stem-1)",
+  "answer": {
+    "text": "B"
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "05NLM_v1",
+      "qno": 1
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000284-stem-1",
+      "role": "stem",
+      "file": "P000/P000284-stem-1.png",
+      "format": "png",
+      "width": 791,
+      "height": 127,
+      "alt": "Four graphs of velocity v(t) against time, labelled (A) to (D), each with a dashed level marked on the v-axis (F₀b/m in A, F₀/mb in B, C and D). In A and B, v rises and levels off at the dashed line; in C and D, v rises to a peak at the dashed line and falls back.",
+      "origin": "docx",
+      "needs_redraw": false
+    }
+  ],
+  "rights": "unverified",
+  "content_hash": "6558195167c526f3",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

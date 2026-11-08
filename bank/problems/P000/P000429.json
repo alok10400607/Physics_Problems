@@ -1,0 +1,68 @@
+{
+  "id": "P000429",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0715",
+  "concepts": [],
+  "exams": [
+    "JEE Main"
+  ],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000429-stem-1) A smooth wire of length 2πa is bent into a circle and kept in a vertical plane. A bead can slide smoothly on the wire. When the circle is rotating with angular speed ω about a vertical diameter AB as shown in the figure, the bead is at rest with respect to the circular ring at position P. Then $\\omega^{2}$ is equal to:",
+  "options": {
+    "A": "$\\frac{2g}{a}$",
+    "B": "$\\frac{2g}{a\\sqrt{3}}$",
+    "C": "$\\frac{g\\sqrt{3}}{a}$",
+    "D": "$\\frac{g\\sqrt{3}}{2a}$"
+  },
+  "answer": {
+    "keys": [
+      "B"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "07CM1_v2",
+      "qno": 51
+    },
+    {
+      "kind": "exam",
+      "exam": "JEE Main",
+      "date": "2019-04-12",
+      "shift": 2,
+      "mode": null,
+      "raw": "JEE Main 2019, 12 Apr, Shift 2",
+      "year": 2019
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000429-stem-1",
+      "role": "stem",
+      "file": "P000/P000429-stem-1.png",
+      "format": "png",
+      "width": 280,
+      "height": 314,
+      "alt": "A sphere of radius a spinning with angular speed ω about its vertical diameter AB; a bead sits on it, moving in a horizontal circle of radius a/2.",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
+  "rights": "past-paper",
+  "content_hash": "de9a8d67051e70d6",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

@@ -1,0 +1,49 @@
+{
+  "id": "P000446",
+  "status": "imported",
+  "version": 1,
+  "type": "integer",
+  "topic_code": "0805",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000446-stem-1)Two unequal masses of 1 kg and 2 kg are attached at the two ends of a light inextensible string passing over a smooth pulley as shown in figure, if the system is released from rest the work done by string on 1 kg block in 1 sec is 200/α J. The value of α is",
+  "answer": {
+    "value": 9
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "08WPE_v2",
+      "qno": 7
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000446-stem-1",
+      "role": "stem",
+      "file": "P000/P000446-stem-1.png",
+      "format": "png",
+      "width": 211,
+      "height": 232,
+      "alt": "A fixed pulley with a 1 kg block on one side and a 2 kg block, hanging lower, on the other.",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
+  "rights": "unverified",
+  "content_hash": "bddddf0c35efd223",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

@@ -1,0 +1,68 @@
+{
+  "id": "P000447",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0805",
+  "concepts": [],
+  "exams": [
+    "JEE Main"
+  ],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000447-stem-1) A block of mass m is kept on a platform which starts from rest with constant acceleration g/2 upward, as shown in fig. Work done by normal reaction on block in time t is:",
+  "options": {
+    "A": "mg<sup>2</sup>t<sup>2</sup>/8",
+    "B": "3mg<sup>2</sup>t<sup>2</sup>/4",
+    "C": "3mg<sup>2</sup>t<sup>2</sup>/8",
+    "D": "5mg<sup>2</sup>t<sup>2</sup>/8"
+  },
+  "answer": {
+    "keys": [
+      "C"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "08WPE_v2",
+      "qno": 8
+    },
+    {
+      "kind": "exam",
+      "exam": "JEE Main",
+      "date": "2019-01-10",
+      "shift": 1,
+      "mode": null,
+      "raw": "JEE Main 2019, 10 Jan, Shift 1",
+      "year": 2019
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000447-stem-1",
+      "role": "stem",
+      "file": "P000/P000447-stem-1.png",
+      "format": "png",
+      "width": 173,
+      "height": 77,
+      "alt": "A block of mass m on a platform accelerating upwards at g/2.",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
+  "rights": "past-paper",
+  "content_hash": "ad0a3e10a9b871ec",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

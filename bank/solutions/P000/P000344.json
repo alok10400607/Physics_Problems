@@ -1,0 +1,23 @@
+{
+  "id": "P000344",
+  "problem_version": 1,
+  "status": "draft",
+  "hints": [
+    "> ![](/tmp/import-p0oookqh/media/image63.png){width=\"1.7716535433070866in\" height=\"0.5787401574803149in\"}Note: weight of B and normal reaction are external forces;\n\n>\n\n> $a = \\frac{3g}{8}$; $T_{1} = m_{c}(g + a)$ $T_{2} = m_{A}(g - a)$"
+  ],
+  "worded": null,
+  "conventional": null,
+  "mistakes": [],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": null,
+    "date": "2026-11-08"
+  },
+  "reviewed_by": null
+}

@@ -1,0 +1,68 @@
+{
+  "id": "P000241",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0425",
+  "concepts": [],
+  "exams": [
+    "JEE Main"
+  ],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000241-stem-1) A plane is inclined at an angle $\\alpha = 30{^\\circ}$ with respect to the horizontal. A particle is projected with a speed u = 2 m/s from the base of the plane, making an angle of $\\theta = 15{^\\circ}$ with respect to the plane as shown in the figure. The distance from the base at which the particle hits the plane is close to:",
+  "options": {
+    "A": "26 cm",
+    "B": "20 cm",
+    "C": "18 cm",
+    "D": "14 cm"
+  },
+  "answer": {
+    "keys": [
+      "B"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "04MIP_v2",
+      "qno": 61
+    },
+    {
+      "kind": "exam",
+      "exam": "JEE Main",
+      "date": "2019-04-10",
+      "shift": 2,
+      "mode": null,
+      "raw": "JEE Main 2019, 10 Apr, Shift 2",
+      "year": 2019
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000241-stem-1",
+      "role": "stem",
+      "file": "P000/P000241-stem-1.png",
+      "format": "png",
+      "width": 228,
+      "height": 146,
+      "alt": "A projectile launched with speed u from the foot of an incline of angle α = 30°, at θ = 15° above the incline.",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
+  "rights": "past-paper",
+  "content_hash": "11202743e0addfe3",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

@@ -1,0 +1,56 @@
+{
+  "id": "P000183",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0405",
+  "concepts": [],
+  "exams": [
+    "JEE Main"
+  ],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A particle moves from the point $\\left( 2\\widehat{i} + 4\\widehat{j} \\right)$m, at t = 0 with initial velocity $\\left( 5\\widehat{i} + 4\\widehat{j} \\right)ms^{- 1}$. It is acted upon by a constant force which produces a constant acceleration $\\left( 4\\widehat{i} + 4\\widehat{j} \\right)ms^{- 2}$. What is the distance of the particle from the origin at time 2 s?",
+  "options": {
+    "A": "20 $\\sqrt{2}$ m",
+    "B": "10 $\\sqrt{2}$ m",
+    "C": "5 m",
+    "D": "15 m"
+  },
+  "answer": {
+    "keys": [
+      "A"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "04MIP_v2",
+      "qno": 3
+    },
+    {
+      "kind": "exam",
+      "exam": "JEE Main",
+      "date": "2019-01-11",
+      "shift": 2,
+      "mode": null,
+      "raw": "JEE Main 2019, 11 Jan, Shift 2",
+      "year": 2019
+    }
+  ],
+  "assets": [],
+  "rights": "past-paper",
+  "content_hash": "b798ea8d2c4c2b14",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

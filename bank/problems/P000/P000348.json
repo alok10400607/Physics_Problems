@@ -1,0 +1,49 @@
+{
+  "id": "P000348",
+  "status": "imported",
+  "version": 1,
+  "type": "subjective",
+  "topic_code": "0525",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000348-stem-1)A mass of 20 kg is connected to two pulleys arrangement as shown:. The axle of two pulleys are free to move vertically.\n(i) Find the value of F is the system is in equilibrium\n(ii) Find the acceleration of 20 kg block if F = 100 N",
+  "answer": {
+    "text": "(i) 50 N; (ii) 10 $m/s^{2}$"
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "05NLM_v1",
+      "qno": 65
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000348-stem-1",
+      "role": "stem",
+      "file": "P000/P000348-stem-1.png",
+      "format": "png",
+      "width": 126,
+      "height": 188,
+      "alt": "A 20 kg block hanging from a system of pulleys attached to the ceiling, with the free end of the rope pulled upwards with force F.",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
+  "rights": "unverified",
+  "content_hash": "4aec6503632db2ce",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

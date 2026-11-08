@@ -1,0 +1,23 @@
+{
+  "id": "P000217",
+  "problem_version": 1,
+  "status": "draft",
+  "hints": [
+    "> The projectile will be at the same height at 3 s and 4 s (as it reaches the highest point at time 3.5 s)\n\n>\n\n> Hence the displacement = horizontal distance travelled = $u_{x} = \\frac{105}{7} = 15m$"
+  ],
+  "worded": null,
+  "conventional": null,
+  "mistakes": [],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": null,
+    "date": "2026-11-08"
+  },
+  "reviewed_by": null
+}

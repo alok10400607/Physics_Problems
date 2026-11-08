@@ -1,0 +1,45 @@
+{
+  "id": "P000469",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0815",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A mass is hung freely from the end of a spring. A boy then slowly pushes the mass upwards until the spring just becomes slack. The gain in gravitational potential energy of the mass during this process is:",
+  "options": {
+    "A": "Equal to the work done by the boy on the mass.",
+    "B": "Greater than the work done by the boy on the mass.",
+    "C": "Less than the work done by the boy on the mass.",
+    "D": "Can be greater or less than the work done by the boy depending on the stiffness of spring"
+  },
+  "answer": {
+    "keys": [
+      "B"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "08WPE_v2",
+      "qno": 30
+    }
+  ],
+  "assets": [],
+  "rights": "unverified",
+  "content_hash": "6ade88182f73206d",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

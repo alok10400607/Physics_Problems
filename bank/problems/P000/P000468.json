@@ -1,0 +1,57 @@
+{
+  "id": "P000468",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0815",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000468-stem-1)A mass ‘m’ is suspended from a spring of stiffness ‘k’ and it is initially in the state of rest. A variable upward force ‘F’ is applied on the block such that it moves up slowly. The force keeps acting till the spring is compressed by an amount equal to its initial extension. The work done by this force F is",
+  "options": {
+    "A": "$\\frac{m^{2}g^{2}}{k}$",
+    "B": "$\\frac{m^{2}g^{2}}{2k}$",
+    "C": "$\\frac{{4m}^{2}g^{2}}{k}$",
+    "D": "$\\frac{{2m}^{2}g^{2}}{k}$"
+  },
+  "answer": {
+    "keys": [
+      "D"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "08WPE_v2",
+      "qno": 29
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000468-stem-1",
+      "role": "stem",
+      "file": "P000/P000468-stem-1.png",
+      "format": "png",
+      "width": 189,
+      "height": 317,
+      "alt": "A mass m hanging at rest from the ceiling on a spring of constant k, with a force F about to push it up from below.",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
+  "rights": "unverified",
+  "content_hash": "df03870f0f180d8b",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

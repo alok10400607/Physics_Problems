@@ -1,0 +1,45 @@
+{
+  "id": "P000510",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0825",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "The potential energy of a particle of mass 5 kg, moving in x-y plane is given by $U = - 7x + 8.5y$ (SI units). Initially, the particle is at the origin and has velocity v = (14.4$\\widehat{i}$ + 5.1$\\widehat{j}$) m/s. The time at which the particle moves parallel to the x-axis is",
+  "options": {
+    "A": "t =1s",
+    "B": "t = 5s",
+    "C": "t = 4 s",
+    "D": "t = 3 s"
+  },
+  "answer": {
+    "keys": [
+      "D"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "08WPE_v2",
+      "qno": 71
+    }
+  ],
+  "assets": [],
+  "rights": "unverified",
+  "content_hash": "b84a8fee2a3572dc",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

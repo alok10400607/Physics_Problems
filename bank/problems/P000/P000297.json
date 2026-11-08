@@ -1,0 +1,57 @@
+{
+  "id": "P000297",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0505",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000297-stem-1)A block of metal weighing 2 kg is resting on a frictionless plane. It is struck by a jet releasing water at a rate of 1 kg/sec and at a speed of 5 m/s. The water splashes along the surface of the cube. The instantaneous force exerted by water on the block is",
+  "options": {
+    "A": "1 N",
+    "B": "2 N",
+    "C": "3 N",
+    "D": "5 N"
+  },
+  "answer": {
+    "keys": [
+      "D"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "05NLM_v1",
+      "qno": 14
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000297-stem-1",
+      "role": "stem",
+      "file": "P000/P000297-stem-1.png",
+      "format": "png",
+      "width": 480,
+      "height": 175,
+      "alt": "A jet of water from a pipe striking a 2 kg block that rests on a horizontal surface.",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
+  "rights": "unverified",
+  "content_hash": "8ec27bf7002425c3",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

@@ -1,0 +1,45 @@
+{
+  "id": "P000458",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0810",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": "L2",
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A force F $= - k(y\\widehat{i} + x\\widehat{j})$ (where k is a positive constant) acts on a particle moving in the x-y plane. Starting from the origin, the particle is taken along the positive X-axis to the point (a, 0) and then parallel to the Y-axis to the point (a, a). The total work done by the force F on the particle is?",
+  "options": {
+    "A": "$ka^{2}$",
+    "B": "$2ka^{2}$",
+    "C": "$- ka^{2}$",
+    "D": "$- 2ka^{2}$"
+  },
+  "answer": {
+    "keys": [
+      "C"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "08WPE_v2",
+      "qno": 19
+    }
+  ],
+  "assets": [],
+  "rights": "unverified",
+  "content_hash": "4c378de4cba7a789",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

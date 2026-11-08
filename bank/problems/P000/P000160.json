@@ -1,0 +1,45 @@
+{
+  "id": "P000160",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0330",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "The displacement-time graph for two particles A and B are straight lines inclined at angles of $30{^\\circ}$ and $60{^\\circ}$ with the time axis. The ratio of velocities of $V_{A}:V_{B}$ is ?",
+  "options": {
+    "A": "$1:2$",
+    "B": "$1:\\sqrt{3}$",
+    "C": "$\\sqrt{3}:1$",
+    "D": "$1:3$"
+  },
+  "answer": {
+    "keys": [
+      "D"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "03MSL_v2",
+      "qno": 76
+    }
+  ],
+  "assets": [],
+  "rights": "unverified",
+  "content_hash": "7c763f8e6499d356",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

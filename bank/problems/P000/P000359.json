@@ -1,0 +1,57 @@
+{
+  "id": "P000359",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0530",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": "L2",
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000359-stem-1) The left side wall is fixed. The block B moves towards left with a velocity of $- \\widehat{i}$. Then what will be the velocity of block A?",
+  "options": {
+    "A": "$- 2\\ \\widehat{j}$",
+    "B": "$- \\widehat{i} - \\ \\widehat{j}$",
+    "C": "$- 2\\widehat{i} - 2\\ \\widehat{j}$",
+    "D": "$- \\widehat{i} - 2\\ \\widehat{j}$"
+  },
+  "answer": {
+    "keys": [
+      "D"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "05NLM_v1",
+      "qno": 76
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000359-stem-1",
+      "role": "stem",
+      "file": "P000/P000359-stem-1.png",
+      "format": "png",
+      "width": 325,
+      "height": 260,
+      "alt": "Two vertical walls: the right wall B moves left at 1 m/s. Two pulleys on a string joining the walls support block A. Unit vectors î (right) and ĵ (up) are shown.",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
+  "rights": "unverified",
+  "content_hash": "38e4d7315efa955a",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

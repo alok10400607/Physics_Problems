@@ -1,0 +1,37 @@
+{
+  "id": "P000251",
+  "status": "imported",
+  "version": 1,
+  "type": "subjective",
+  "topic_code": "0430",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A fighter plane flying horizontally at an altitude of 1.5 km with speed of 720 km/h passes directly overhead an antiaircraft gun. At what angle from the vertical should the gun be fired for the shell with muzzle speed 400 m/s to hit the plane? What should be the minimum muzzle speed for gun to strike the fighter plane when it is vertically above?",
+  "answer": {
+    "text": "30° from the vertical; $100\\sqrt{7}$ m/s"
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "04MIP_v2",
+      "qno": 71
+    }
+  ],
+  "assets": [],
+  "rights": "unverified",
+  "content_hash": "b2905191ff98eca9",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

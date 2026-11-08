@@ -1,0 +1,45 @@
+{
+  "id": "P000493",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0820",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A particle moves on a rough horizontal ground with some initial velocity say $v_{0}$. If 3/4<sup>th</sup> of its kinetic energy is lost due to friction in time $t_{0}$ ; then coefficient of friction between the particle and the ground is:",
+  "options": {
+    "A": "2$v_{0}/gt_{0}$",
+    "B": "3$v_{0}/gt_{0}$",
+    "C": "$v_{0}/gt_{0}$",
+    "D": "$v_{0}/2gt_{0}$"
+  },
+  "answer": {
+    "keys": [
+      "D"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "08WPE_v2",
+      "qno": 54
+    }
+  ],
+  "assets": [],
+  "rights": "unverified",
+  "content_hash": "f6b42f024970fd75",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

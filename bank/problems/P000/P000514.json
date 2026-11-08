@@ -1,0 +1,56 @@
+{
+  "id": "P000514",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0825",
+  "concepts": [],
+  "exams": [
+    "JEE Main"
+  ],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A particle is moving in a circular path of radius a under the action of attractive potential $U = - \\frac{k}{2r^{2}}$. Its total energy is:",
+  "options": {
+    "A": "$- \\frac{k}{4a^{2}}$",
+    "B": "$- \\frac{k}{2a^{2}}$",
+    "C": "zero",
+    "D": "$- \\frac{3k}{2a^{2}}$"
+  },
+  "answer": {
+    "keys": [
+      "C"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "08WPE_v2",
+      "qno": 75
+    },
+    {
+      "kind": "exam",
+      "exam": "JEE Main",
+      "date": null,
+      "shift": null,
+      "mode": null,
+      "raw": "JEE Main 2018",
+      "year": 2018
+    }
+  ],
+  "assets": [],
+  "rights": "past-paper",
+  "content_hash": "ed13e2900c2f5854",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

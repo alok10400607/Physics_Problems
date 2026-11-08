@@ -1,0 +1,105 @@
+{
+  "id": "P000320",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0515",
+  "concepts": [],
+  "exams": [
+    "JEE Main"
+  ],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "Which of the following option correctly describes the variation of the speed v and acceleration ‘a’ of a point mass falling vertically in a viscous medium that applies a force $F = - kv$, where ‘k’ is a constant, on the body ? (Graphs are schematic and not drawn to scale)",
+  "options": {
+    "A": "![](asset:P000320-opt-A)",
+    "B": "![](asset:P000320-opt-B)",
+    "C": "![](asset:P000320-opt-C)",
+    "D": "![](asset:P000320-opt-D)"
+  },
+  "answer": {
+    "keys": [
+      "A"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "05NLM_v1",
+      "qno": 37
+    },
+    {
+      "kind": "exam",
+      "exam": "JEE Main",
+      "date": "2016-04-09",
+      "shift": null,
+      "mode": "Online",
+      "raw": "JEE Main 2016, 9 Apr (Online)",
+      "year": 2016
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000320-opt-A",
+      "role": "option",
+      "file": "P000/P000320-opt-A.png",
+      "format": "png",
+      "width": 257,
+      "height": 200,
+      "alt": "Velocity v rising and levelling off with time, while acceleration a falls and levels off towards zero.",
+      "origin": "docx",
+      "needs_redraw": true,
+      "option_key": "A"
+    },
+    {
+      "id": "P000320-opt-B",
+      "role": "option",
+      "file": "P000/P000320-opt-B.png",
+      "format": "png",
+      "width": 249,
+      "height": 189,
+      "alt": "Velocity v rising and levelling off with time, while acceleration a falls in a straight line to zero.",
+      "origin": "docx",
+      "needs_redraw": true,
+      "option_key": "B"
+    },
+    {
+      "id": "P000320-opt-C",
+      "role": "option",
+      "file": "P000/P000320-opt-C.png",
+      "format": "png",
+      "width": 275,
+      "height": 188,
+      "alt": "Velocity v curving upwards ever more steeply with time, while acceleration a falls and levels off.",
+      "origin": "docx",
+      "needs_redraw": true,
+      "option_key": "C"
+    },
+    {
+      "id": "P000320-opt-D",
+      "role": "option",
+      "file": "P000/P000320-opt-D.png",
+      "format": "png",
+      "width": 272,
+      "height": 198,
+      "alt": "Acceleration a rising and levelling off with time, while velocity v falls and levels off.",
+      "origin": "docx",
+      "needs_redraw": true,
+      "option_key": "D"
+    }
+  ],
+  "rights": "past-paper",
+  "content_hash": "2ee324443f4c95d6",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

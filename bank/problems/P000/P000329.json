@@ -1,0 +1,57 @@
+{
+  "id": "P000329",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0520",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000329-stem-1)Two blocks are connected by a string as shown in the diagram. The upper block is hung by another string. A force F applied on the upper string produces an acceleration of $2\\ m/s^{2}$ in the upward direction in both the blocks. If T and $T'$ be the tensions in the two parts of the string, then find its values?",
+  "options": {
+    "A": "24 N, 48 N",
+    "B": "60 N, 40 N",
+    "C": "72 N, 72 N",
+    "D": "48 N, 72 N"
+  },
+  "answer": {
+    "keys": [
+      "D"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "05NLM_v1",
+      "qno": 46
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000329-stem-1",
+      "role": "stem",
+      "file": "P000/P000329-stem-1.png",
+      "format": "png",
+      "width": 88,
+      "height": 212,
+      "alt": "A 2 kg block with a 4 kg block hanging below it: the string between them has tension T, and the string above the 2 kg block has tension T′ and is pulled upwards.",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
+  "rights": "unverified",
+  "content_hash": "2c9f76ab14ab1ced",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

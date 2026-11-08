@@ -1,0 +1,57 @@
+{
+  "id": "P000275",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0440",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000275-stem-1)A boat can row at a speed of 5 m/s in still water. It sets its course at $37{^\\circ}$ with the normal to river bank as shown. The velocity of the river is 2 m/s and its width is 50 m. The boat starts from A and B is directly opposite point. What will be the drift of the boat when it reaches the other side?",
+  "options": {
+    "A": "10 m upstream of B",
+    "B": "12.5 m upstream of B",
+    "C": "10 m downstream of B",
+    "D": "12.5 m downstream of B"
+  },
+  "answer": {
+    "keys": [
+      "B"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "04MIP_v2",
+      "qno": 95
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000275-stem-1",
+      "role": "stem",
+      "file": "P000/P000275-stem-1.png",
+      "format": "png",
+      "width": 323,
+      "height": 217,
+      "alt": "A river 50 m wide flowing to the right at 2 m/s. A swimmer starts at A on one bank with speed 5 m/s, directed at 37° upstream from the line AB; B is directly opposite A.",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
+  "rights": "unverified",
+  "content_hash": "9f5fc7733289e7c5",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

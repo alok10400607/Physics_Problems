@@ -1,0 +1,45 @@
+{
+  "id": "P000392",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0705",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A particle moves in a circle of radius 20 cm. Its linear speed is given by v = 2t m/s. Find its radial and tangential acceleration at t = 3 s.",
+  "options": {
+    "A": "180, 2 $m/s^{2}$",
+    "B": "180, 4 $m/s^{2}$",
+    "C": "90, 2 $m/s^{2}$",
+    "D": "90, 4 $m/s^{2}$"
+  },
+  "answer": {
+    "keys": [
+      "A"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "07CM1_v2",
+      "qno": 14
+    }
+  ],
+  "assets": [],
+  "rights": "unverified",
+  "content_hash": "9d5a5ca9c9ddd488",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

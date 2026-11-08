@@ -1,0 +1,48 @@
+{
+  "id": "P000280",
+  "status": "imported",
+  "version": 1,
+  "type": "integer",
+  "topic_code": "0440",
+  "concepts": [],
+  "exams": [
+    "JEE Main"
+  ],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A person is swimming with a speed of 10 m/s at an angle of $120{^\\circ}$ with the flow and reaches a point directly opposite on the other side of the river. The speed of the flow is x m/s. The value of x to the nearest integer is:",
+  "answer": {
+    "value": 5
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "04MIP_v2",
+      "qno": 100
+    },
+    {
+      "kind": "exam",
+      "exam": "JEE Main",
+      "date": "2021-03-18",
+      "shift": 1,
+      "mode": null,
+      "raw": "JEE Main 2021, 18 Mar, Shift 1",
+      "year": 2021
+    }
+  ],
+  "assets": [],
+  "rights": "past-paper",
+  "content_hash": "dd3d28c8c0f620eb",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

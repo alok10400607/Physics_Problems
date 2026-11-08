@@ -1,0 +1,21 @@
+{
+  "id": "P000323",
+  "problem_version": 1,
+  "status": "draft",
+  "hints": [],
+  "worded": null,
+  "conventional": "> ![](/tmp/import-p0oookqh/media/image65.png){width=\"1.5152777777777777in\" height=\"0.7868055555555555in\"}\n\n>\n\n> Let AN be perpendicular to OX (slope of $30{^\\circ})$ having length L;\n\n>\n\n> Height of A from x-y plane: $L\\sin 30{^\\circ}$; Length OA = $L/\\sin 30{^\\circ}$;\n\n>\n\n> hence $\\sin \\alpha = \\frac{Ht\\ of\\ A}{OA} = sin^{2}30{^\\circ}$; $\\alpha$: angle of OA with horizontal",
+  "mistakes": [],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": null,
+    "date": "2026-11-08"
+  },
+  "reviewed_by": null
+}

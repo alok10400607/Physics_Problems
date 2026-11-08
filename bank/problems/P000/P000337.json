@@ -1,0 +1,57 @@
+{
+  "id": "P000337",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0525",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000337-stem-1)If the masses $m_{1} = 1\\ kg$, $m_{2} = 1\\ kg$ and $m_{3} = 3\\ kg$; find value of $T_{2}:$",
+  "options": {
+    "A": "12 N",
+    "B": "6 N",
+    "C": "4 N",
+    "D": "1 N"
+  },
+  "answer": {
+    "keys": [
+      "A"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "05NLM_v1",
+      "qno": 54
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000337-stem-1",
+      "role": "stem",
+      "file": "P000/P000337-stem-1.png",
+      "format": "png",
+      "width": 412,
+      "height": 256,
+      "alt": "Masses m₁ and m₂ on a smooth horizontal surface joined by a string with tension T₁. A string with tension T₂ runs from m₂ over a pulley at the edge to a hanging mass m₃, with tension T₃ in the hanging part.",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
+  "rights": "unverified",
+  "content_hash": "8ed6bb61d3d6586c",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

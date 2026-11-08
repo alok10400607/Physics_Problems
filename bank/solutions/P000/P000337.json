@@ -1,0 +1,23 @@
+{
+  "id": "P000337",
+  "problem_version": 1,
+  "status": "draft",
+  "hints": [
+    "> Using equivalent 1-D: $a = \\frac{m_{3}g}{m_{1} + m_{2} + m_{3}} = 6$;\n\n>\n\n> Then considering $m_{1}$and $m_{2}$ together as system with $T_{2}$ as external force $T_{2} = 2kg \\times 6\\ m/s^{2}$ = 12 N"
+  ],
+  "worded": null,
+  "conventional": null,
+  "mistakes": [],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": null,
+    "date": "2026-11-08"
+  },
+  "reviewed_by": null
+}

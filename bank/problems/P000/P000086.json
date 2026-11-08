@@ -1,0 +1,37 @@
+{
+  "id": "P000086",
+  "status": "imported",
+  "version": 1,
+  "type": "subjective",
+  "topic_code": "0305",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A wheel of radius R meter rolls forward half a revolution on a horizontal ground. The magnitude of the displacement of the point of the wheel initially in contact with the ground is?",
+  "answer": {
+    "text": "$R\\sqrt{\\pi^{2} + 4}$"
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "03MSL_v2",
+      "qno": 2
+    }
+  ],
+  "assets": [],
+  "rights": "unverified",
+  "content_hash": "194e3e8c34d30244",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

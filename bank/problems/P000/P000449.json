@@ -1,0 +1,45 @@
+{
+  "id": "P000449",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0805",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "The work done by the frictional force on a pencil in drawing a complete circle of radius r = 1/π metre on the surface by a pencil of negligible mass with a normal pressing force of 5 N (μ = 0.5) is :",
+  "options": {
+    "A": "5J",
+    "B": "10J",
+    "C": "-5J",
+    "D": "-10J"
+  },
+  "answer": {
+    "keys": [
+      "C"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "08WPE_v2",
+      "qno": 10
+    }
+  ],
+  "assets": [],
+  "rights": "unverified",
+  "content_hash": "5ea5b977bb01d809",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

@@ -1,0 +1,95 @@
+{
+  "id": "07CM1",
+  "kind": "worksheet",
+  "title": "Circular Motion – I: Kinematics & Horizontal Plane",
+  "chapter_code": "07",
+  "note": "Take g = 10 m/s² unless stated otherwise.",
+  "source_file": "07CM1_v2.docx",
+  "sections": [
+    {
+      "topic_code": "0705",
+      "title": "Circular Motion Kinematics",
+      "problems": [
+        "P000379",
+        "P000380",
+        "P000381",
+        "P000382",
+        "P000383",
+        "P000384",
+        "P000385",
+        "P000386",
+        "P000387",
+        "P000388",
+        "P000389",
+        "P000390",
+        "P000391",
+        "P000392",
+        "P000393",
+        "P000394",
+        "P000395",
+        "P000396",
+        "P000397",
+        "P000398",
+        "P000399",
+        "P000400",
+        "P000401",
+        "P000402",
+        "P000403",
+        "P000404"
+      ]
+    },
+    {
+      "topic_code": "0710",
+      "title": "Horizontal Circle: Centripetal Force & Rotating Frames",
+      "problems": [
+        "P000405",
+        "P000406",
+        "P000407",
+        "P000408",
+        "P000409",
+        "P000410",
+        "P000411",
+        "P000412",
+        "P000413",
+        "P000414",
+        "P000415",
+        "P000416",
+        "P000417",
+        "P000418",
+        "P000419",
+        "P000420",
+        "P000421",
+        "P000422"
+      ]
+    },
+    {
+      "topic_code": "0715",
+      "title": "Conical Pendulum & Motion in Cones/Bowls",
+      "problems": [
+        "P000423",
+        "P000424",
+        "P000425",
+        "P000426",
+        "P000427",
+        "P000428",
+        "P000429",
+        "P000430",
+        "P000431"
+      ]
+    },
+    {
+      "topic_code": "0720",
+      "title": "Vehicles on Flat & Banked Curves",
+      "problems": [
+        "P000432",
+        "P000433",
+        "P000434",
+        "P000435",
+        "P000436",
+        "P000437",
+        "P000438",
+        "P000439"
+      ]
+    }
+  ]
+}

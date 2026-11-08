@@ -1,0 +1,49 @@
+{
+  "id": "P000116",
+  "status": "imported",
+  "version": 1,
+  "type": "subjective",
+  "topic_code": "0315",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000116-stem-1)A vertical projectile experiences a retarding acceleration of $a$ opposite to the direction of motion of the projectile. If the speed of projection is $u$, then:\n(i) Time of ascent\n(ii) Time of descent\n(iii) Maximum height reached\n(iv) Speed just before it hits the ground\n(v) Point D and E are at same height during upward and downward motion of projectile. Which point will have greater speed?",
+  "answer": {
+    "text": "$t_{a} = \\frac{u}{g + a}$; $t_{d} = \\frac{u}{g - a}$; Max height H: $\\frac{u^{2}}{2(g + a)}$; Speed at C: $\\sqrt{2(g - a)H} = u\\sqrt{\\frac{g - a}{g + a}}$; (v) Point D: the speed at D (going up) is greater than at E (coming down), because the retarding acceleration removes speed throughout the flight"
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "03MSL_v2",
+      "qno": 32
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000116-stem-1",
+      "role": "stem",
+      "file": "P000/P000116-stem-1.png",
+      "format": "png",
+      "width": 126,
+      "height": 229,
+      "alt": "A ball thrown up with speed u from A rises to its top point B and comes down to C, next to A. Points D (going up) and E (coming down) are at the same height. Gravity g points down.",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
+  "rights": "unverified",
+  "content_hash": "67b99ec4a15fbec4",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

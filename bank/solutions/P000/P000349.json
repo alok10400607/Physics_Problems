@@ -1,0 +1,23 @@
+{
+  "id": "P000349",
+  "problem_version": 1,
+  "status": "draft",
+  "hints": [
+    "> Effective mass to the string supporting lower pulley: $\\frac{\\left( 4m_{2}m_{3} \\right)}{m_{2} + m_{3}}$"
+  ],
+  "worded": null,
+  "conventional": null,
+  "mistakes": [],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": null,
+    "date": "2026-11-08"
+  },
+  "reviewed_by": null
+}

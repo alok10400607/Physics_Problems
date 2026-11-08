@@ -1,0 +1,45 @@
+{
+  "id": "P000199",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0410",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A projectile is projected from ground with initial velocity $\\overrightarrow{u} = u_{0}\\widehat{i} + v_{0}\\widehat{j}$. If acceleration due to gravity (g) is along the negative y-direction then find its horizontal range:",
+  "options": {
+    "A": "$\\frac{u_{0}^{2}}{2g}$",
+    "B": "$\\frac{2u_{0}v_{0}}{g}$",
+    "C": "$\\frac{v_{0}^{2}}{2g}$",
+    "D": "$\\frac{{4u}_{0}v_{0}}{g}$"
+  },
+  "answer": {
+    "keys": [
+      "B"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "04MIP_v2",
+      "qno": 19
+    }
+  ],
+  "assets": [],
+  "rights": "unverified",
+  "content_hash": "b736f7bb908ff2d4",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

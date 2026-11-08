@@ -1,0 +1,45 @@
+{
+  "id": "P000181",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0405",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A particle with initial velocity $3\\widehat{i} + 4\\widehat{j}$ has an acceleration of $0.4\\widehat{i} + 0.3\\widehat{j}$. Its speed after 10 sec is?",
+  "options": {
+    "A": "10 units",
+    "B": "7 units",
+    "C": "7$\\sqrt{2}$ units",
+    "D": "8.5 units"
+  },
+  "answer": {
+    "keys": [
+      "C"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "04MIP_v2",
+      "qno": 1
+    }
+  ],
+  "assets": [],
+  "rights": "unverified",
+  "content_hash": "c2147db713eff777",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

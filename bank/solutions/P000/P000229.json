@@ -1,0 +1,21 @@
+{
+  "id": "P000229",
+  "problem_version": 1,
+  "status": "draft",
+  "hints": [],
+  "worded": null,
+  "conventional": "> Time taken by the bullet to hit the target: 1 s\n\n>\n\n> Vertical displacement during this time interval = 5 m\n\n>\n\n> Hence bullet will hit a point 5 m below the point it is aimed at.",
+  "mistakes": [],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": null,
+    "date": "2026-11-08"
+  },
+  "reviewed_by": null
+}

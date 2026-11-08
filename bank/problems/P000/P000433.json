@@ -1,0 +1,45 @@
+{
+  "id": "P000433",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0720",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A truck is carrying a box of mass m = 50 kg on its flat horizontal rough surface with coefficient of friction μ = 0.3. It is crossing a circular track of radius 27 m. What is the maximum speed of the truck so that the box does not slide from the truck while moving on the circular path?",
+  "options": {
+    "A": "3 m/s",
+    "B": "9 m/s",
+    "C": "6 m/s",
+    "D": "12 m/s"
+  },
+  "answer": {
+    "keys": [
+      "B"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "07CM1_v2",
+      "qno": 55
+    }
+  ],
+  "assets": [],
+  "rights": "unverified",
+  "content_hash": "91ae45066728a841",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

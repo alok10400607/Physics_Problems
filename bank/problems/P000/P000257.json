@@ -1,0 +1,45 @@
+{
+  "id": "P000257",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0430",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": "L2",
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A boy is sitting in a train which starts accelerating at $2\\ ms^{- 2}$ at t = 0. The boy drops a gum ball every second, starting from t =0, from the window at the height of 0.8 m. The gum balls stick to the ground at the point of impact. Find the distance between the first and the second ball on the ground?",
+  "options": {
+    "A": "1 m",
+    "B": "0.8 m",
+    "C": "1.2 m",
+    "D": "1.8 m"
+  },
+  "answer": {
+    "keys": [
+      "D"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "04MIP_v2",
+      "qno": 77
+    }
+  ],
+  "assets": [],
+  "rights": "unverified",
+  "content_hash": "b3b6747579d9179a",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

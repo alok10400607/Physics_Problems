@@ -1,0 +1,56 @@
+{
+  "id": "P000526",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0835",
+  "concepts": [],
+  "exams": [
+    "NEET"
+  ],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A particle of mass m is driven by a machine that delivers a constant power k watts. If the particle starts from rest the force on the particle at time t is:",
+  "options": {
+    "A": "$\\sqrt{\\frac{mk}{t}}$",
+    "B": "$\\sqrt{\\frac{2mk}{t}}$",
+    "C": "$\\frac{1}{2}\\sqrt{\\frac{mk}{t}}$",
+    "D": "$\\sqrt{\\frac{mk}{2t}}$"
+  },
+  "answer": {
+    "keys": [
+      "D"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "08WPE_v2",
+      "qno": 87
+    },
+    {
+      "kind": "exam",
+      "exam": "AIPMT",
+      "date": null,
+      "shift": null,
+      "mode": null,
+      "raw": "AIPMT 2015",
+      "year": 2015
+    }
+  ],
+  "assets": [],
+  "rights": "past-paper",
+  "content_hash": "fd3259309610d0de",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

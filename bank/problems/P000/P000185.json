@@ -1,0 +1,56 @@
+{
+  "id": "P000185",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0405",
+  "concepts": [],
+  "exams": [
+    "JEE Main"
+  ],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A particle at origin is moving with initial velocity $\\overrightarrow{u} = 5\\ m/s\\widehat{j}$ and a constant acceleration $10\\widehat{i} + 4\\widehat{j}\\ m/s^{2}$. At time t, its co-ordinates are $(20\\ m,\\ y_{0}\\ m)$. The value of t and $y_{0}$ respectively are:",
+  "options": {
+    "A": "2 s and 18 m",
+    "B": "5 s and 25 m",
+    "C": "2 s and 24 m",
+    "D": "4 s and 52 m"
+  },
+  "answer": {
+    "keys": [
+      "A"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "04MIP_v2",
+      "qno": 5
+    },
+    {
+      "kind": "exam",
+      "exam": "JEE Main",
+      "date": "2020-09-04",
+      "shift": 1,
+      "mode": null,
+      "raw": "JEE Main 2020, 4 Sep, Shift 1",
+      "year": 2020
+    }
+  ],
+  "assets": [],
+  "rights": "past-paper",
+  "content_hash": "dd9e4f4696afa268",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "P000343",
+  "problem_version": 1,
+  "status": "draft",
+  "hints": [
+    "> ![](/tmp/import-p0oookqh/media/image61.png){width=\"1.5748031496062993in\" height=\"0.5078740157480315in\"}Considering two blocks with string as 1-D system:\n\n>\n\n> $a = \\frac{m_{B}g - m_{A}g\\sin \\theta}{m_{A} + m_{B}}$"
+  ],
+  "worded": null,
+  "conventional": null,
+  "mistakes": [],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": null,
+    "date": "2026-11-08"
+  },
+  "reviewed_by": null
+}

@@ -1,0 +1,56 @@
+{
+  "id": "P000527",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0835",
+  "concepts": [],
+  "exams": [
+    "NEET"
+  ],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A body of mass 1 kg begins to move under the action of a time dependent force $\\overrightarrow{F} = (2t\\widehat{i} + 3t^{2}\\widehat{j})$N, where $\\widehat{i}\\ and\\ \\widehat{j}$ are unit vectors along x and y axis. What power will be developed by the force at the time t?",
+  "options": {
+    "A": "$(2t^{2} + 3t^{3})$W",
+    "B": "$(2t^{2} + 4t^{4})$W",
+    "C": "$(2t^{3} + 4t^{4})$W",
+    "D": "$(2t^{3} + 3t^{5})$W"
+  },
+  "answer": {
+    "keys": [
+      "D"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "08WPE_v2",
+      "qno": 88
+    },
+    {
+      "kind": "exam",
+      "exam": "NEET",
+      "date": null,
+      "shift": null,
+      "mode": null,
+      "raw": "NEET 2016",
+      "year": 2016
+    }
+  ],
+  "assets": [],
+  "rights": "past-paper",
+  "content_hash": "8a9a0c52681ab75b",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

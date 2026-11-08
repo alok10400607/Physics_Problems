@@ -1,0 +1,57 @@
+{
+  "id": "P000335",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0525",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000335-stem-1)Find the acceleration of block ‘m’ in the three cases as shown in the figure",
+  "options": {
+    "A": "g/3; g/2; g/2",
+    "B": "g; g/3; g/2",
+    "C": "g; g/3; g/3",
+    "D": "g/3; g/2; g/3"
+  },
+  "answer": {
+    "keys": [
+      "B"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "05NLM_v1",
+      "qno": 52
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000335-stem-1",
+      "role": "stem",
+      "file": "P000/P000335-stem-1.png",
+      "format": "png",
+      "width": 282,
+      "height": 203,
+      "alt": "Three pulley set-ups A, B and C, each with mass m on the left. In A, a force F₁ = 2mg pulls the right end of the string down. In B, a mass 2m hangs on the right. In C, a mass m hangs on the right with an extra force F₂ = mg pulling it down.",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
+  "rights": "unverified",
+  "content_hash": "c0582243f018046b",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

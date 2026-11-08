@@ -1,0 +1,37 @@
+{
+  "id": "P000112",
+  "status": "imported",
+  "version": 1,
+  "type": "subjective",
+  "topic_code": "0315",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "From the top of a tower, a stone is thrown up and reaches the ground in time $t_{1}$. A second stone is thrown down with the same speed and reaches the ground in time $t_{2}$. A third stone is released from rest and reaches the ground in time $t_{3}$; then what is the relation between the three times?",
+  "answer": {
+    "text": "$t_{3} = \\sqrt{t_{1}t_{2}}$"
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "03MSL_v2",
+      "qno": 28
+    }
+  ],
+  "assets": [],
+  "rights": "unverified",
+  "content_hash": "13852b6d66055042",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

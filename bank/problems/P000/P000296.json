@@ -1,0 +1,45 @@
+{
+  "id": "P000296",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0505",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A machine gun fires n bullets per second and the mass of each bullet is m. If v is the speed of each bullet then the force exerted on the machine gun is",
+  "options": {
+    "A": "mng",
+    "B": "mnv",
+    "C": "mnvg",
+    "D": "mnv/g"
+  },
+  "answer": {
+    "keys": [
+      "B"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "05NLM_v1",
+      "qno": 13
+    }
+  ],
+  "assets": [],
+  "rights": "unverified",
+  "content_hash": "e9496e7bfc6de5c1",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

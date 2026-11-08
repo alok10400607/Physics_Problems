@@ -1,0 +1,49 @@
+{
+  "id": "P000323",
+  "status": "imported",
+  "version": 1,
+  "type": "subjective",
+  "topic_code": "0515",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000323-stem-1)On the surface of an inclined plane, a smooth groove OA is formed as shown. What will be the acceleration of a small block free to slide in the groove?",
+  "answer": {
+    "text": "g/4"
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "05NLM_v1",
+      "qno": 40
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000323-stem-1",
+      "role": "stem",
+      "file": "P000/P000323-stem-1.png",
+      "format": "png",
+      "width": 285,
+      "height": 145,
+      "alt": "A smooth incline at 30° to the x-axis with a thin tube lying along its surface from O to A; an object slides inside the tube towards O.",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
+  "rights": "unverified",
+  "content_hash": "039e5cb8540b7c18",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

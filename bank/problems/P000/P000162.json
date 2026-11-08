@@ -1,0 +1,57 @@
+{
+  "id": "P000162",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0330",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000162-stem-1)The $v - t$ graph of a moving object is given in figure. The maximum acceleration is ?",
+  "options": {
+    "A": "$1\\ cm/s^{2}$",
+    "B": "$2\\ cm/s^{2}$",
+    "C": "$3\\ cm/s^{2}$",
+    "D": "$6\\ cm/s^{2}$"
+  },
+  "answer": {
+    "keys": [
+      "D"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "03MSL_v2",
+      "qno": 78
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000162-stem-1",
+      "role": "stem",
+      "file": "P000/P000162-stem-1.png",
+      "format": "png",
+      "width": 238,
+      "height": 146,
+      "alt": "Velocity in cm/s against time in s: rises steadily from 0 to 20 cm/s at 20 s, stays at 20 cm/s until 30 s, rises to 80 cm/s at 40 s, then falls steadily to 0 at 80 s.",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
+  "rights": "unverified",
+  "content_hash": "11295e1dc758ead6",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

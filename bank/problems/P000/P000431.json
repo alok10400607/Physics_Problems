@@ -1,0 +1,57 @@
+{
+  "id": "P000431",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0715",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": "L2",
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000431-stem-1) Two strings of length $l =$ 0.5 m each are connected to a block of mass m = 2 kg at one end and their ends are attached to the point A and B 0.5 m apart on a vertical pole which rotates with a constant angular velocity ω = 7 rad/sec. Find the ratio $T_{1}$: $T_{2}$ of tension in the upper string ($T_{1}$) and the lower string ($T_{2}$). [g = 9.8 m/$s^{2}$]",
+  "options": {
+    "A": "9",
+    "B": "$4\\sqrt{3}$",
+    "C": "$9\\sqrt{3}$",
+    "D": "6"
+  },
+  "answer": {
+    "keys": [
+      "A"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "07CM1_v2",
+      "qno": 53
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000431-stem-1",
+      "role": "stem",
+      "file": "P000/P000431-stem-1.png",
+      "format": "png",
+      "width": 314,
+      "height": 279,
+      "alt": "A 2 kg mass held by two strings to points A and B on a vertical rod: the upper string has tension T₁, the lower T₂.",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
+  "rights": "unverified",
+  "content_hash": "0684dfd4e4f372cd",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

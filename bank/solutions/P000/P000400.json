@@ -1,0 +1,23 @@
+{
+  "id": "P000400",
+  "problem_version": 1,
+  "status": "draft",
+  "hints": [
+    "> What will be the minimum distance between the two cars? 18 m)\n\n*Think further*\n\n> (What is the velocity of approach at the instant? Answer: 22 m/s"
+  ],
+  "worded": null,
+  "conventional": null,
+  "mistakes": [],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": null,
+    "date": "2026-11-08"
+  },
+  "reviewed_by": null
+}

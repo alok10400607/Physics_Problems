@@ -1,0 +1,56 @@
+{
+  "id": "P000140",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0320",
+  "concepts": [],
+  "exams": [
+    "JEE Main"
+  ],
+  "difficulty": {
+    "worksheet": "L2",
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A stone is dropped from the top of a building. When it crosses a point 5 m below the top, another stone starts to fall from a point 25 m below the top. Both stones reach the bottom of building simultaneously. The height of the building is:",
+  "options": {
+    "A": "35 m",
+    "B": "25 m",
+    "C": "50 m",
+    "D": "45 m"
+  },
+  "answer": {
+    "keys": [
+      "D"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "03MSL_v2",
+      "qno": 56
+    },
+    {
+      "kind": "exam",
+      "exam": "JEE Main",
+      "date": "2021-02-25",
+      "shift": 2,
+      "mode": null,
+      "raw": "JEE Main 2021, 25 Feb, Shift 2",
+      "year": 2021
+    }
+  ],
+  "assets": [],
+  "rights": "past-paper",
+  "content_hash": "9bff58405bc1ace4",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

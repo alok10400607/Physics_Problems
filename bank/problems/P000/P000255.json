@@ -1,0 +1,45 @@
+{
+  "id": "P000255",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0430",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A toy gun fires a plastic bullet at a speed of 10 m/s. It is placed in a high lift at an angle of $30{^\\circ}$ with the horizontal. The lift is moving with constant upwards acceleration of 2 m$s^{- 2}$. Find the time of flight of the plastic bullet fired by the gun?",
+  "options": {
+    "A": "1 sec",
+    "B": "6/5 sec",
+    "C": "5/6 sec",
+    "D": "$\\sqrt{3}/2$ sec"
+  },
+  "answer": {
+    "keys": [
+      "C"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "04MIP_v2",
+      "qno": 75
+    }
+  ],
+  "assets": [],
+  "rights": "unverified",
+  "content_hash": "cefe784f97d9f5c8",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

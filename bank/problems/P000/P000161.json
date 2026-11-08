@@ -1,0 +1,57 @@
+{
+  "id": "P000161",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0330",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000161-stem-1)The velocity-time graph of a body moving in a straight line is shown in the figure. The displacement and distance travelled by the body in 6 sec are respectively :",
+  "options": {
+    "A": "8 m, 16 m",
+    "B": "16 m, 8 m",
+    "C": "16 m, 16 m",
+    "D": "8 m, 8 m"
+  },
+  "answer": {
+    "keys": [
+      "A"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "03MSL_v2",
+      "qno": 77
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000161-stem-1",
+      "role": "stem",
+      "file": "P000/P000161-stem-1.png",
+      "format": "png",
+      "width": 343,
+      "height": 205,
+      "alt": "Velocity v in m/s against time t in s: 4 m/s from 0 to 2 s, −2 m/s from 2 to 4 s, and 2 m/s from 4 to 6 s.",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
+  "rights": "unverified",
+  "content_hash": "43a5afc84ed7159b",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

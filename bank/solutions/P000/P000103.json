@@ -1,0 +1,23 @@
+{
+  "id": "P000103",
+  "problem_version": 1,
+  "status": "draft",
+  "hints": [
+    "> Let the total time of fall be T. Distance in the last second = average velocity over that second = velocity at (T − 0.5) s\n\n>\n\n> Or $g(T - 0.5) = \\frac{1}{2}g(3)^{2}$"
+  ],
+  "worded": null,
+  "conventional": null,
+  "mistakes": [],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": null,
+    "date": "2026-11-08"
+  },
+  "reviewed_by": null
+}

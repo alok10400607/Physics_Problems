@@ -1,0 +1,56 @@
+{
+  "id": "P000295",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0505",
+  "concepts": [],
+  "exams": [
+    "JEE Main"
+  ],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A bullet of 4 g mass is fired from a gun of mass 4 kg. If the bullet moves with the muzzle speed of 50 m/s, the impulse imparted to the gun and the velocity of recoil of the gun are:",
+  "options": {
+    "A": "$0.4\\ kg\\ m\\ s^{- 1};0.1\\ ms^{- 1}$",
+    "B": "$0.2\\ kg\\ m\\ s^{- 1};0.05\\ ms^{- 1}$",
+    "C": "$0.2\\ kg\\ m\\ s^{- 1};0.1\\ ms^{- 1}$",
+    "D": "$0.4\\ kg\\ m\\ s^{- 1};0.05\\ ms^{- 1}$"
+  },
+  "answer": {
+    "keys": [
+      "B"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "05NLM_v1",
+      "qno": 12
+    },
+    {
+      "kind": "exam",
+      "exam": "JEE Main",
+      "date": "2021-07-22",
+      "shift": 2,
+      "mode": null,
+      "raw": "JEE Main 2021, 22 Jul, Shift 2",
+      "year": 2021
+    }
+  ],
+  "assets": [],
+  "rights": "past-paper",
+  "content_hash": "f1af8a9ed02c9564",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

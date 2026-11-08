@@ -1,0 +1,45 @@
+{
+  "id": "P000260",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0435",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "An airplane can travel at a speed of 100 m/s in still air. There is steady wind of 60 m/s towards East. The airplane travels along the sides of a square of side 16 km which are along N-S and E-W direction. Find the time taken to complete one round of the square?",
+  "options": {
+    "A": "640 s",
+    "B": "800 sec",
+    "C": "400$\\sqrt{2}$ sec",
+    "D": "900 sec"
+  },
+  "answer": {
+    "keys": [
+      "D"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "04MIP_v2",
+      "qno": 80
+    }
+  ],
+  "assets": [],
+  "rights": "unverified",
+  "content_hash": "3ee2b70fbd3d9529",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

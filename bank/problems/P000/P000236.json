@@ -1,0 +1,50 @@
+{
+  "id": "P000236",
+  "status": "imported",
+  "version": 1,
+  "type": "integer",
+  "topic_code": "0420",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000236-stem-1)Two particles are projected from top of a tower of height 25 m. The speed of projection is 10 m/s for either of them but one is projected at angle of $15{^\\circ}$above the horizontal while other at $15{^\\circ}$ below as shown. Find the difference in the range of two particles.",
+  "answer": {
+    "value": 5,
+    "unit": "m"
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "04MIP_v2",
+      "qno": 56
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000236-stem-1",
+      "role": "stem",
+      "file": "P000/P000236-stem-1.png",
+      "format": "png",
+      "width": 725,
+      "height": 645,
+      "alt": "From the top of a 25 m tower, two balls are thrown at 10 m/s: one at 15° above the horizontal and one at 15° below it.",
+      "origin": "docx",
+      "needs_redraw": false
+    }
+  ],
+  "rights": "unverified",
+  "content_hash": "faa83a54690f246f",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

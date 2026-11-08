@@ -1,0 +1,23 @@
+{
+  "id": "P000364",
+  "problem_version": 1,
+  "status": "draft",
+  "hints": [
+    "> In equilibrium, if springs were to be replaced with strings, then the tensions in strings will be same as tension in corresponding springs except that strings will have negligible elongation"
+  ],
+  "worded": null,
+  "conventional": null,
+  "mistakes": [],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": null,
+    "date": "2026-11-08"
+  },
+  "reviewed_by": null
+}

@@ -1,0 +1,45 @@
+{
+  "id": "P000285",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0505",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "The momentum of a particle is given by $3t^{2} + 2t + 7\\ kgm/s$, then the resulting force acting on the particle at $t = 1$ is",
+  "options": {
+    "A": "6 N",
+    "B": "8 N",
+    "C": "10 N",
+    "D": "12 N"
+  },
+  "answer": {
+    "keys": [
+      "B"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "05NLM_v1",
+      "qno": 2
+    }
+  ],
+  "assets": [],
+  "rights": "unverified",
+  "content_hash": "5de2893aafc5148d",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

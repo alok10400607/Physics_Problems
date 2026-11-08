@@ -1,0 +1,57 @@
+{
+  "id": "P000254",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0430",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000254-stem-1)An artillery gun is mounted on a trolley moving with a speed of 10 m/s. The gun can fire shells at a speed of 50 m/s. It is placed with its barrel making an angle of $53{^\\circ}$ with the horizontal. If a shell is fired then what will be its range as observed from the ground?",
+  "options": {
+    "A": "240 m",
+    "B": "280 m",
+    "C": "300 m",
+    "D": "320 m"
+  },
+  "answer": {
+    "keys": [
+      "D"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "04MIP_v2",
+      "qno": 74
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000254-stem-1",
+      "role": "stem",
+      "file": "P000/P000254-stem-1.png",
+      "format": "png",
+      "width": 421,
+      "height": 178,
+      "alt": "A cannon fixed on a flat cart moving to the right at 10 m/s; the barrel points up at 53° to the horizontal.",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
+  "rights": "unverified",
+  "content_hash": "2144a5c662c6ebfc",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

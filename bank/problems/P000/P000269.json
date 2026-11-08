@@ -1,0 +1,45 @@
+{
+  "id": "P000269",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0435",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": "L2",
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "When a man moves down an inclined plane with a constant speed of 5 m/s which makes an angle of 37° with the horizontal, he finds that the rain is falling vertically downwards. When he moves up the same inclined plane with the same speed, he finds that the rain makes an angle $\\theta = \\ \\tan^{- 1}(\\frac{7}{8})$ with the horizontal. The speed of the rain is?",
+  "options": {
+    "A": "4 m/s",
+    "B": "4$\\sqrt{2}$ m/s",
+    "C": "7 m/s",
+    "D": "5 m/s"
+  },
+  "answer": {
+    "keys": [
+      "B"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "04MIP_v2",
+      "qno": 89
+    }
+  ],
+  "assets": [],
+  "rights": "unverified",
+  "content_hash": "7101a2515836a888",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

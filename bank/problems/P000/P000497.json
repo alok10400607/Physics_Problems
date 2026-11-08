@@ -1,0 +1,68 @@
+{
+  "id": "P000497",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0820",
+  "concepts": [],
+  "exams": [
+    "JEE Main"
+  ],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000497-stem-1) A point particle of mass m, moves along the uniformly rough track PQR as shown in the figure. The coefficient of friction, between the particle and the rough track equals μ. The particle is released, from rest, from the point P and it comes to rest at a point R. The energies, lost by the ball, over the parts, PQ and QR, of the track, are equal to each other, and no energy is lost when particle changes direction from PQ to QR. The values of the coefficient of friction μ and the distance x(=QR), are, respectively close to :",
+  "options": {
+    "A": "0.2 and 6.5 m",
+    "B": "0.2 and 3.5 m",
+    "C": "0.29 and 3.5 m",
+    "D": "0.29 and 6.5 m"
+  },
+  "answer": {
+    "keys": [
+      "C"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "08WPE_v2",
+      "qno": 58
+    },
+    {
+      "kind": "exam",
+      "exam": "JEE Main",
+      "date": null,
+      "shift": null,
+      "mode": "Offline",
+      "raw": "JEE Main 2016 (Offline)",
+      "year": 2016
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000497-stem-1",
+      "role": "stem",
+      "file": "P000/P000497-stem-1.png",
+      "format": "png",
+      "width": 912,
+      "height": 610,
+      "alt": "A smooth incline from P, at height h = 2 m, down to Q on a horizontal surface, at 30° to it; the horizontal surface continues to R.",
+      "origin": "docx",
+      "needs_redraw": false
+    }
+  ],
+  "rights": "past-paper",
+  "content_hash": "1df97ee56ef23941",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

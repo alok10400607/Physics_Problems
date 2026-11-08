@@ -1,0 +1,23 @@
+{
+  "id": "P000121",
+  "problem_version": 1,
+  "status": "draft",
+  "hints": [
+    "> Use area under $v - t\\ $graph"
+  ],
+  "worded": null,
+  "conventional": null,
+  "mistakes": [],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": null,
+    "date": "2026-11-08"
+  },
+  "reviewed_by": null
+}

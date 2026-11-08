@@ -1,0 +1,45 @@
+{
+  "id": "P000408",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0710",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A stone is rotated steadily in a horizontal circle with a time period T by means of a string of length $l$. If the tension in the string is kept constant and length $l$ increase by 1%, then percentage change in time period T is:",
+  "options": {
+    "A": "Increase by 1%",
+    "B": "Decrease by 1%",
+    "C": "Increase by 0.5%",
+    "D": "Decrease by 0.5%"
+  },
+  "answer": {
+    "keys": [
+      "C"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "07CM1_v2",
+      "qno": 30
+    }
+  ],
+  "assets": [],
+  "rights": "unverified",
+  "content_hash": "d80607fea32f0940",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

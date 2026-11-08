@@ -1,0 +1,37 @@
+{
+  "id": "P000404",
+  "status": "imported",
+  "version": 1,
+  "type": "subjective",
+  "topic_code": "0705",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": "L2",
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A point moves in x-y plane according to relation x = 4 sin 6$\\pi$t and y = 4(1 – cos 6$\\pi$t). The distance traversed by the particle in 3 seconds is (x and y are in meters)",
+  "answer": {
+    "text": "$72\\pi$"
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "07CM1_v2",
+      "qno": 26
+    }
+  ],
+  "assets": [],
+  "rights": "unverified",
+  "content_hash": "c32c762c29e07448",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

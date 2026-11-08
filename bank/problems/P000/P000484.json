@@ -1,0 +1,56 @@
+{
+  "id": "P000484",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0820",
+  "concepts": [],
+  "exams": [
+    "JEE Main"
+  ],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A bowling machine projects a ball of mass 0.15kg in the vertically upward direction. The ball is displaced along with the bowling machine for 0.2m and released. After the release the ball achieves a maximum height of 20m, then find the average force exerted by the machine.",
+  "options": {
+    "A": "151.5 N",
+    "B": "150N",
+    "C": "165N",
+    "D": "135N"
+  },
+  "answer": {
+    "keys": [
+      "A"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "08WPE_v2",
+      "qno": 45
+    },
+    {
+      "kind": "exam",
+      "exam": "JEE Main",
+      "date": "2020-09-03",
+      "shift": 1,
+      "mode": null,
+      "raw": "JEE Main 2020, 3 Sep, Shift 1",
+      "year": 2020
+    }
+  ],
+  "assets": [],
+  "rights": "past-paper",
+  "content_hash": "43d358e0072b61f7",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

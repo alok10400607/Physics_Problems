@@ -1,0 +1,57 @@
+{
+  "id": "P000485",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0820",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000485-stem-1)A particle is projected vertically up with velocity $v_{0}$ and it reaches a maximum height of H. If a block is projected up a smooth slope inclined at an angle of 37° with the horizontal with speed $v_{0}\\ $along the slope, then the distance it will travel before coming to a momentary rest for the first time?",
+  "options": {
+    "A": "H",
+    "B": "0.6H",
+    "C": "$\\frac{5H}{3}$",
+    "D": "$\\frac{5H}{4}$"
+  },
+  "answer": {
+    "keys": [
+      "C"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "08WPE_v2",
+      "qno": 46
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000485-stem-1",
+      "role": "stem",
+      "file": "P000/P000485-stem-1.png",
+      "format": "png",
+      "width": 330,
+      "height": 212,
+      "alt": "A block projected up an incline of 37° with initial speed v₀.",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
+  "rights": "unverified",
+  "content_hash": "563c28e24f280404",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

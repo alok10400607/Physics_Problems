@@ -1,0 +1,45 @@
+{
+  "id": "P000157",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0325",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A particle starts from rest and moves along the x-axis with acceleration ‘a’ at time ‘t’ given by $a = a_{0}(1 - \\frac{t}{T})$. Find average velocity during the time interval $t = 0$ to $t = T$?",
+  "options": {
+    "A": "$\\frac{1}{3}a_{0}T$",
+    "B": "$\\frac{1}{2}a_{0}T$",
+    "C": "$a_{0}T$",
+    "D": "$2a_{0}T$"
+  },
+  "answer": {
+    "keys": [
+      "A"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "03MSL_v2",
+      "qno": 73
+    }
+  ],
+  "assets": [],
+  "rights": "unverified",
+  "content_hash": "5410a1928414d4da",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

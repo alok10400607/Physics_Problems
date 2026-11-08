@@ -1,0 +1,57 @@
+{
+  "id": "P000293",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0505",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000293-stem-1)A small bead of mass m is moving on a smooth wire bent in form of U in a horizontal plane. Find the average force exerted by the wire on the bead as it moves from A to B (bent in semi-circular shape)",
+  "options": {
+    "A": "$\\frac{4mv^{2}}{\\pi d}$",
+    "B": "$\\frac{2mv^{2}}{\\pi d}$",
+    "C": "$\\frac{mv^{2}}{\\pi d}$",
+    "D": "$\\frac{2mv^{2}}{d}$"
+  },
+  "answer": {
+    "keys": [
+      "A"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "05NLM_v1",
+      "qno": 10
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000293-stem-1",
+      "role": "stem",
+      "file": "P000/P000293-stem-1.png",
+      "format": "png",
+      "width": 279,
+      "height": 114,
+      "alt": "A particle of mass m moving left with speed v towards a semicircular track that joins two parallel lines a distance d apart, with A and B at the ends of the semicircle.",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
+  "rights": "unverified",
+  "content_hash": "caa58fba8548f9d1",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

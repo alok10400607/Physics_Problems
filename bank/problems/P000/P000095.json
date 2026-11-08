@@ -1,0 +1,46 @@
+{
+  "id": "P000095",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_multi",
+  "topic_code": "0310",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "During a uniformly accelerated motion of a particle starting from state of rest, which of the following statement(s) are correct?",
+  "options": {
+    "A": "average velocity of the particle is always less than its final velocity",
+    "B": "average velocity of the particle is always greater than its final velocity",
+    "C": "average velocity of the particle may be zero also",
+    "D": "average velocity of the particle is half its final velocity"
+  },
+  "answer": {
+    "keys": [
+      "A",
+      "D"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "03MSL_v2",
+      "qno": 11
+    }
+  ],
+  "assets": [],
+  "rights": "unverified",
+  "content_hash": "ec18c817a3ebf642",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

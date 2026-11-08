@@ -1,0 +1,37 @@
+{
+  "id": "P000191",
+  "status": "imported",
+  "version": 1,
+  "type": "subjective",
+  "topic_code": "0405",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "The co-ordinates of a particle moving in x-y plane at any time t are (2t, t<sup>2</sup>). Find (i) the trajectory of the particle (ii) velocity of particle at time t?",
+  "answer": {
+    "text": "$y = \\frac{x^{2}}{4}$ ; $2\\widehat{i} + 2t\\widehat{j}$"
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "04MIP_v2",
+      "qno": 11
+    }
+  ],
+  "assets": [],
+  "rights": "unverified",
+  "content_hash": "67ec6d37a4e1bcaa",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

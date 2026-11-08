@@ -1,0 +1,45 @@
+{
+  "id": "P000292",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0505",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A particle moves in the X-Y plane under the influence of a force such that its linear momentum is $\\overrightarrow{p}(t) = A\\lbrack \\cos kt\\widehat{i} - \\sin kt\\widehat{j}\\rbrack$, where A and k are constants. What is the angle between the force and the momentum?",
+  "options": {
+    "A": "0",
+    "B": "$30{^\\circ}$",
+    "C": "$60{^\\circ}$",
+    "D": "$90{^\\circ}$"
+  },
+  "answer": {
+    "keys": [
+      "D"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "05NLM_v1",
+      "qno": 9
+    }
+  ],
+  "assets": [],
+  "rights": "unverified",
+  "content_hash": "a13e58dd1ddb7033",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

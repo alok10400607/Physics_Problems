@@ -1,0 +1,23 @@
+{
+  "id": "P000131",
+  "problem_version": 1,
+  "status": "draft",
+  "hints": [
+    "> The fifth throw involves the first ball which is 2 sec after the first throw (equal to time of flight). First at 0 s, second 0.5 s, third 1 s, fourth 1.5 s, fifth 2 s (soon after it reaches the juggler)"
+  ],
+  "worded": null,
+  "conventional": null,
+  "mistakes": [],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": null,
+    "date": "2026-11-08"
+  },
+  "reviewed_by": null
+}

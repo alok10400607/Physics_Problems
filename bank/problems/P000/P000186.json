@@ -1,0 +1,45 @@
+{
+  "id": "P000186",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0405",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A particle leaves the origin with an initial velocity $\\overrightarrow{u} = 3\\widehat{i}$ m/s and a constant acceleration $\\overrightarrow{a} = - \\widehat{i} + 0.5\\widehat{j}$ m/$s^{2}$. Its position vector $\\overrightarrow{r}$ when it reaches its maximum x–co–ordinate are?",
+  "options": {
+    "A": "$\\frac{9}{2}\\widehat{i} + \\frac{9}{4}\\widehat{j}$",
+    "B": "$\\frac{9}{4}\\widehat{i} + \\frac{9}{4}\\widehat{j}$",
+    "C": "$\\frac{5}{2}\\widehat{i} + \\frac{5}{2}\\widehat{j}$",
+    "D": "$\\frac{5}{2}\\widehat{i} + \\frac{5}{4}\\widehat{j}$"
+  },
+  "answer": {
+    "keys": [
+      "A"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "04MIP_v2",
+      "qno": 6
+    }
+  ],
+  "assets": [],
+  "rights": "unverified",
+  "content_hash": "9121ec9a7af13162",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

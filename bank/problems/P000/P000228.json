@@ -1,0 +1,57 @@
+{
+  "id": "P000228",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0415",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000228-stem-1)With what minimum horizontal velocity u can a boy throw a ball at A and have it just clear the obstruction at B? (g = 9.8 m/s<sup>2</sup>)",
+  "options": {
+    "A": "20 m/s",
+    "B": "25 m/s",
+    "C": "28 m/s",
+    "D": "30 m/s"
+  },
+  "answer": {
+    "keys": [
+      "C"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "04MIP_v2",
+      "qno": 48
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000228-stem-1",
+      "role": "stem",
+      "file": "P000/P000228-stem-1.png",
+      "format": "png",
+      "width": 402,
+      "height": 261,
+      "alt": "A person at A on a cliff 26 m high throws a ball horizontally with speed u. Its curved path just reaches point B on top of a hill 16 m high, 40 m away horizontally.",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
+  "rights": "unverified",
+  "content_hash": "01a6315cb1e21857",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

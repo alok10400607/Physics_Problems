@@ -1,0 +1,60 @@
+{
+  "id": "P000165",
+  "status": "imported",
+  "version": 1,
+  "type": "subjective",
+  "topic_code": "0335",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000165-stem-1)If position-time graph of a particle is a sine curve as shown, then which one will be the corresponding velocity-time graph:\n![](asset:P000165-stem-2)",
+  "answer": {
+    "text": "C"
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "03MSL_v2",
+      "qno": 81
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000165-stem-1",
+      "role": "stem",
+      "file": "P000/P000165-stem-1.png",
+      "format": "png",
+      "width": 119,
+      "height": 73,
+      "alt": "Position x against time t: a wave-shaped curve starting at the origin, dipping below the axis, then rising above it.",
+      "origin": "docx",
+      "needs_redraw": true
+    },
+    {
+      "id": "P000165-stem-2",
+      "role": "stem",
+      "file": "P000/P000165-stem-2.png",
+      "format": "png",
+      "width": 543,
+      "height": 96,
+      "alt": "Four velocity–time graphs labelled (A) to (D), each a wave-shaped curve with a different starting value and direction.",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
+  "rights": "unverified",
+  "content_hash": "ae56ccfaa2e23bdd",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

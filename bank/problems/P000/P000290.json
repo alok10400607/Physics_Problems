@@ -1,0 +1,57 @@
+{
+  "id": "P000290",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0505",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000290-stem-1)A ball of mass ‘m’ moving with a velocity ‘u’ rebounds from a wall. The collision is assumed to be elastic (rebounds with same speed) and the force of interaction between the ball and wall varies as shown in the figure. Then the value of $F_{0}$ is",
+  "options": {
+    "A": "$\\frac{mu}{T}$",
+    "B": "$\\frac{2mu}{T}$",
+    "C": "$\\frac{mu}{2T}$",
+    "D": "$\\frac{4mu}{T}$"
+  },
+  "answer": {
+    "keys": [
+      "D"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "05NLM_v1",
+      "qno": 7
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000290-stem-1",
+      "role": "stem",
+      "file": "P000/P000290-stem-1.png",
+      "format": "png",
+      "width": 354,
+      "height": 224,
+      "alt": "Force F against time t: rises in a straight line from 0 to F₀ at 0.5T, then falls back to 0 at T.",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
+  "rights": "unverified",
+  "content_hash": "c53cee1038d3fa1d",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

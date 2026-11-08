@@ -1,0 +1,45 @@
+{
+  "id": "P000144",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0325",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "An electron starting from rest has a velocity that increases linearly with the time that is $v = kt$ where $k = 2\\ m/s^{2}$. The distance travelled in the first 3 seconds will be",
+  "options": {
+    "A": "9 m",
+    "B": "16 m",
+    "C": "27 m",
+    "D": "36 m"
+  },
+  "answer": {
+    "keys": [
+      "A"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "03MSL_v2",
+      "qno": 60
+    }
+  ],
+  "assets": [],
+  "rights": "unverified",
+  "content_hash": "1b80582742e096e8",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

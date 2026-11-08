@@ -1,0 +1,56 @@
+{
+  "id": "P000507",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0825",
+  "concepts": [],
+  "exams": [
+    "NEET"
+  ],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "The potential energy of a particle in a force field is : U$= \\frac{A}{r^{2}} - \\frac{B}{r}$; where A and B are positive constants and r is the distance of particle from the centre of the field. For stable equilibrium, the distance of the particle is :",
+  "options": {
+    "A": "A/B",
+    "B": "B/A",
+    "C": "B/2A",
+    "D": "2A/B"
+  },
+  "answer": {
+    "keys": [
+      "D"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "08WPE_v2",
+      "qno": 68
+    },
+    {
+      "kind": "exam",
+      "exam": "AIPMT",
+      "date": null,
+      "shift": null,
+      "mode": "Pre",
+      "raw": "AIPMT 2012 (Pre)",
+      "year": 2012
+    }
+  ],
+  "assets": [],
+  "rights": "past-paper",
+  "content_hash": "879e52bdbf292fca",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

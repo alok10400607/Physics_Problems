@@ -1,0 +1,68 @@
+{
+  "id": "P000294",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0505",
+  "concepts": [],
+  "exams": [
+    "JEE Main"
+  ],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000294-stem-1) Two billiard balls of equal mass of 30 g strike a rigid wall with same speed of 108 km/h (as shown) but at different angles. If the balls get reflected with same speed, then the ratio of magnitude of impulses imparted to ball ‘a’ and ball ‘b’ by the wall along x-direction is:",
+  "options": {
+    "A": "1:1",
+    "B": "$\\sqrt{2}$ : 1",
+    "C": "2 : 1",
+    "D": "1 : $\\sqrt{2}$"
+  },
+  "answer": {
+    "keys": [
+      "B"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "05NLM_v1",
+      "qno": 11
+    },
+    {
+      "kind": "exam",
+      "exam": "JEE Main",
+      "date": "2021-07-25",
+      "shift": 1,
+      "mode": null,
+      "raw": "JEE Main 2021, 25 Jul, Shift 1",
+      "year": 2021
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000294-stem-1",
+      "role": "stem",
+      "file": "P000/P000294-stem-1.png",
+      "format": "png",
+      "width": 371,
+      "height": 160,
+      "alt": "Two balls striking a wall YY′. Ball (a) moves along the normal X′X, hits the wall and rebounds straight back with speed u. Ball (b) strikes at 45° to the wall and rebounds at 45°.",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
+  "rights": "past-paper",
+  "content_hash": "474cedb9f07cb73f",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

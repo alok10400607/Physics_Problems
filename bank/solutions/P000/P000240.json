@@ -1,0 +1,21 @@
+{
+  "id": "P000240",
+  "problem_version": 1,
+  "status": "draft",
+  "hints": [],
+  "worded": null,
+  "conventional": "> Choose down-the-slope as x-axis and $\\bot$ up as y-axis:\n\n>\n\n> Then $u_{x} = 0$ and $a_{x} = g\\sin \\theta = \\frac{3}{5}g$; $u_{y} = u$ and $a_{y} = - g\\cos \\theta = - \\frac{4}{5}g$\n\n>\n\n> Time of flight T = $\\frac{2u_{y}}{a_{y}} = \\frac{5u}{2g}$\n\n>\n\n> Range = Displacement along x-axis in time T = $\\frac{1}{2}a_{x}T^{2}$",
+  "mistakes": [],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": null,
+    "date": "2026-11-08"
+  },
+  "reviewed_by": null
+}

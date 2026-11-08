@@ -61,6 +61,11 @@ UNI_TEX = {"µ": "\\mu ", "μ": "\\mu ", "¼": "\\frac{1}{4}", "½": "\\frac{1}{
            "×": "\\times ", "−": "-", "°": "^{\\circ}", "π": "\\pi ", "θ": "\\theta ", "ω": "\\omega ",
            "α": "\\alpha ", "β": "\\beta ", "λ": "\\lambda ", "Δ": "\\Delta ", "≤": "\\le ", "≥": "\\ge "}
 
+def unescape_text(s):
+    """Remove Markdown escapes outside equations (inside them the backslashes are LaTeX)."""
+    parts = re.split(r'(\$\$[\s\S]+?\$\$|\$[^$]+\$)', s)
+    return "".join(x if x.startswith("$") else re.sub(r'\\([\[\]()*_#>`~-])', r'\1', x) for x in parts).strip()
+
 def fix_math(s, where):
     def fx(m):
         inner = m.group(1)
@@ -202,7 +207,7 @@ def finish(q):
     # worksheet hints
     sol = {}
     for kind, lines in extra.get(n, {}).items():
-        txt = fix_math("\n\n".join(lines), f"{where} {kind}")
+        txt = fix_math(unescape_text("\n\n".join(lines)), f"{where} {kind}")
         if kind == "hint": sol.setdefault("hints", []).append(txt)
         elif kind in ("think further", "extension"): sol["extension"] = txt
         elif kind in ("solution", "full solution", "worked solution"): sol["conventional"] = txt
@@ -264,6 +269,7 @@ for x in questions:
             f["path"], ext = png, "png"
         f["format"] = "jpg" if ext == "jpeg" else ext
         if Image and f["format"] in ("png", "jpg", "webp"):
+            subprocess.run([sys.executable, "-I", str(ROOT / "tools" / "trim_figures.py"), "--file", str(f["path"])], check=False, capture_output=True)
             with Image.open(f["path"]) as im: f["w"], f["h"] = im.size
             if f["w"] < 600: f["lowres"] = True
         else:

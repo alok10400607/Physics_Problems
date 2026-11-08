@@ -1,0 +1,45 @@
+{
+  "id": "P000211",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0410",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A projectile is fired from level ground at an angle θ above the horizontal. The elevation angle $\\varphi$ of the highest point as seen from the launch point is related to θ by the relation?",
+  "options": {
+    "A": "$\\tan \\varphi = \\tan \\theta$",
+    "B": "$\\tan \\varphi = 2\\tan \\theta$",
+    "C": "$\\tan \\varphi = \\frac{1}{2}\\tan \\theta$",
+    "D": "$2\\tan \\varphi = \\tan \\theta$"
+  },
+  "answer": {
+    "keys": [
+      "C"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "04MIP_v2",
+      "qno": 31
+    }
+  ],
+  "assets": [],
+  "rights": "unverified",
+  "content_hash": "ab3fb158ba901b61",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

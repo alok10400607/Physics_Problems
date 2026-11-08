@@ -1,0 +1,57 @@
+{
+  "id": "P000343",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0525",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000343-stem-1)Two masses of 8 kg and 4 kg are connected by a string as shown in figure over a frictionless pulley. The acceleration of the system is",
+  "options": {
+    "A": "$g/2$",
+    "B": "$g/4$",
+    "C": "zero",
+    "D": "$g/8$"
+  },
+  "answer": {
+    "keys": [
+      "A"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "05NLM_v1",
+      "qno": 60
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000343-stem-1",
+      "role": "stem",
+      "file": "P000/P000343-stem-1.png",
+      "format": "png",
+      "width": 355,
+      "height": 214,
+      "alt": "Block A (4 kg) on an incline of 30°, joined by a string over a pulley at the top to block B (8 kg) hanging vertically.",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
+  "rights": "unverified",
+  "content_hash": "87a512a17a7759e8",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

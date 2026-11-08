@@ -1,0 +1,45 @@
+{
+  "id": "P000139",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0320",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": "L2",
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A ball A is dropped from the top of a building of height 90 m and at the same time an identical ball B is thrown vertically upwards from the ground. When the balls collide, the speed of ball A is twice that of B. At what height did the collision happen?",
+  "options": {
+    "A": "30 m",
+    "B": "60 m",
+    "C": "50 m",
+    "D": "45 m"
+  },
+  "answer": {
+    "keys": [
+      "B"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "03MSL_v2",
+      "qno": 55
+    }
+  ],
+  "assets": [],
+  "rights": "unverified",
+  "content_hash": "1f88f1e4af611378",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

@@ -1,0 +1,45 @@
+{
+  "id": "P000246",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0430",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A bullet is fired at a speed of 50 m/s at an angle of $37{^\\circ}$ with the horizontal. At the same instant, a wooden block is released from the top of a vertical pole. The bullet strikes the block at a height of 45 m from the ground. What is the horizontal distance of the pole from the point where the bullet was fired?",
+  "options": {
+    "A": "120 m",
+    "B": "80 m",
+    "C": "150 m",
+    "D": "90 m"
+  },
+  "answer": {
+    "keys": [
+      "A"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "04MIP_v2",
+      "qno": 66
+    }
+  ],
+  "assets": [],
+  "rights": "unverified",
+  "content_hash": "2727188be4b64180",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

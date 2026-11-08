@@ -1,0 +1,45 @@
+{
+  "id": "P000500",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0820",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A body with zero initial velocity slips from the top of an inclined plane forming an angle $\\alpha$ with the horizontal. The coefficient of friction μ between the body and the plane increases with the distance ‘s’ from the top according to relation μ=bs. After what distance the body will stop?",
+  "options": {
+    "A": "$2\\tan \\alpha$",
+    "B": "$2b\\tan \\alpha$",
+    "C": "$\\frac{2\\ \\tan \\alpha}{b}$",
+    "D": "$\\frac{\\ \\tan \\alpha}{b}$"
+  },
+  "answer": {
+    "keys": [
+      "C"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "08WPE_v2",
+      "qno": 61
+    }
+  ],
+  "assets": [],
+  "rights": "unverified",
+  "content_hash": "57a19dbbf9d6c0c1",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

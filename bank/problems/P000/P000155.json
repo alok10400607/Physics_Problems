@@ -1,0 +1,45 @@
+{
+  "id": "P000155",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0325",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "The position of a particle is given as y (m) =$- \\frac{2}{3}t^{2} +$`<!-- -->`{=html}4t + 2. Find the distance travelled in first 6 sec of its motion?",
+  "options": {
+    "A": "zero",
+    "B": "4 m",
+    "C": "6 m",
+    "D": "12 m"
+  },
+  "answer": {
+    "keys": [
+      "D"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "03MSL_v2",
+      "qno": 71
+    }
+  ],
+  "assets": [],
+  "rights": "unverified",
+  "content_hash": "e8ee527896132ae8",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

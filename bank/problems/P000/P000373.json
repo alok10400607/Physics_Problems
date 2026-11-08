@@ -1,0 +1,57 @@
+{
+  "id": "P000373",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0540",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000373-stem-1)A small block is placed on a smooth triangular prism with an inclination of $\\theta$ with the horizontal. If the large block is given an acceleration of $a_{0}$, the small block doesn’t slip with respect to the prism. What is value of $a_{0}$?",
+  "options": {
+    "A": "$gsec\\theta$",
+    "B": "$g\\tan \\theta$",
+    "C": "$g\\cos \\theta$",
+    "D": "$g\\sin \\theta$"
+  },
+  "answer": {
+    "keys": [
+      "B"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "05NLM_v1",
+      "qno": 90
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000373-stem-1",
+      "role": "stem",
+      "file": "P000/P000373-stem-1.png",
+      "format": "png",
+      "width": 265,
+      "height": 133,
+      "alt": "A block on a wedge with incline angle θ; the wedge is pushed horizontally with acceleration a₀.",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
+  "rights": "unverified",
+  "content_hash": "27ae04f65324e112",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}
