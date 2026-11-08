@@ -1,7 +1,7 @@
 {
   "id": "P000030",
   "problem_version": 2,
-  "status": "in_review",
+  "status": "ai_solved",
   "hints": [
     "Equal energies means $\\text{PE} = \\text{KE} = \\frac{1}{2}\\,\\text{TE}$, and the total energy equals the potential energy at the extreme: $\\text{TE} = \\text{PE}(A)$.",
     "So $\\text{PE}(x) = \\frac{1}{2}\\,\\text{PE}(A)$."
