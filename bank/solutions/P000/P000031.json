@@ -1,0 +1,31 @@
+{
+  "id": "P000031",
+  "problem_version": 2,
+  "status": "ai_solved",
+  "hints": [
+    "Starting from the origin, the displacement is $x = A\\sin\\omega t$. Write the kinetic energy as a fraction of the total energy.",
+    "Kinetic energy is $E\\cos^2\\omega t$. Find the first time $\\cos^2\\omega t = \\frac{3}{4}$, with $\\omega = \\frac{2\\pi}{T}$."
+  ],
+  "worded": "The body starts at the mean position, where all its energy is kinetic, and kinetic energy falls as it moves out. Kinetic energy equals the total energy times $\\cos^2\\omega t$, so 75% means $\\cos\\omega t = \\frac{\\sqrt{3}}{2}$. That first happens when $\\omega t = \\frac{\\pi}{6}$, one-twelfth of a full cycle. One-twelfth of a $2\\,\\text{s}$ period is $\\frac{1}{6}\\,\\text{s}$. Answer: (A).",
+  "conventional": "With $T = 2\\,\\text{s}$: $\\omega = \\frac{2\\pi}{T} = \\pi\\,\\text{rad/s}$.\n\nStarting from the origin, $x = A\\sin\\omega t$ and $v = A\\omega\\cos\\omega t$, so\n\n$$K = \\frac{1}{2}mA^2\\omega^2\\cos^2\\omega t = E\\cos^2\\omega t$$\n\nFor $K = 0.75\\,E$:\n\n$$\\begin{aligned} \\cos^2\\omega t &= \\frac{3}{4} \\\\ \\cos\\omega t &= \\frac{\\sqrt{3}}{2} \\\\ \\omega t &= \\frac{\\pi}{6} \\end{aligned}$$\n\n$$t = \\frac{\\pi/6}{\\pi} = \\frac{1}{6}\\,\\text{s}$$\n\n**Answer:** (A) $\\frac{1}{6}\\,\\text{s}$",
+  "mistakes": [
+    "Treating 75% as the potential-energy share ($\\sin^2\\omega t = \\frac{3}{4}$) gives $\\omega t = \\frac{\\pi}{3}$ and $t = \\frac{1}{3}\\,\\text{s}$, option (C)."
+  ],
+  "distractors": {
+    "C": "75% taken as the potential-energy share"
+  },
+  "extension": null,
+  "check": {
+    "solved_answer": "A",
+    "resolve_answer": null,
+    "agrees_with_key": true,
+    "issues": []
+  },
+  "generated_by": {
+    "author": "llm",
+    "model": "claude-opus-5-5",
+    "prompt_version": "sw-v1",
+    "date": "2026-11-08"
+  },
+  "reviewed_by": null
+}

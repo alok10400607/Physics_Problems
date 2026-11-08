@@ -1,0 +1,29 @@
+{
+  "id": "P000032",
+  "problem_version": 2,
+  "status": "ai_solved",
+  "hints": [
+    "Find the phase $\\frac{\\pi t}{90}$ at $t = 210\\,\\text{s}$, and reduce it to an angle between $0$ and $2\\pi$.",
+    "With $x = A\\sin\\theta$, the ratio of kinetic to potential energy is $\\frac{\\cos^2\\theta}{\\sin^2\\theta}$."
+  ],
+  "worded": "Potential energy depends on $\\sin^2$ of the phase and kinetic energy on $\\cos^2$, so their ratio is $\\cot^2$ of the phase. At $210\\,\\text{s}$ the phase is $\\frac{7\\pi}{3}$, one full cycle plus $\\frac{\\pi}{3}$, so the particle is in the same state as at phase $\\frac{\\pi}{3}$. There $\\cot^2\\frac{\\pi}{3} = \\frac{1}{3}$: the potential energy is three times the kinetic energy. Answer: (C).",
+  "conventional": "Phase at $t = 210\\,\\text{s}$:\n\n$$\\theta = \\frac{\\pi \\times 210}{90} = \\frac{7\\pi}{3} = 2\\pi + \\frac{\\pi}{3}$$\n\nWith $x = A\\sin\\theta$ and $E = \\frac{1}{2}kA^2$:\n\n$$U = E\\sin^2\\theta, \\qquad K = E\\cos^2\\theta$$\n\n$$\\begin{aligned} \\frac{K}{U} &= \\cot^2\\theta = \\cot^2\\frac{\\pi}{3} \\\\ &= \\left(\\frac{1}{\\sqrt{3}}\\right)^2 = \\frac{1}{3} \\end{aligned}$$\n\n**Answer:** (C) $\\frac{1}{3}$",
+  "mistakes": [
+    "Taking the ratio the wrong way round gives $3$, which is not offered; check which energy goes on top."
+  ],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "solved_answer": "C",
+    "resolve_answer": null,
+    "agrees_with_key": true,
+    "issues": []
+  },
+  "generated_by": {
+    "author": "llm",
+    "model": "claude-opus-5-5",
+    "prompt_version": "sw-v1",
+    "date": "2026-11-08"
+  },
+  "reviewed_by": null
+}

@@ -75,6 +75,7 @@ button:focus-visible,input:focus-visible,label:focus-within{outline:2px solid va
 .chip.lv3{background:var(--bad-soft);color:var(--bad)}
 .chip.plain{background:transparent;border:1px solid var(--line);color:var(--muted)}
 .qtext p{margin:0 0 .7em}.qtext p:last-child{margin:0}
+.qtext ul{margin:0 0 .7em;padding-left:1.2em;display:flex;flex-direction:column;gap:4px}.qtext ul:last-child{margin:0}
 .fig{display:block;background:var(--plate);border-radius:6px;padding:10px;width:fit-content;max-width:100%}
 .fig img{display:block;max-height:240px;max-width:100%;width:auto;height:auto;object-fit:contain}
 .qtext .fig{margin:4px 0}
@@ -154,7 +155,11 @@ function md(s){
     catch(e){ html = `<code>${d || i}</code>`; }
     math.push(html); return `\u0000${math.length - 1}\u0000`;
   });
-  s = s.split(/\n\n+/).map(p => `<p>${p.trim()}</p>`).join("");
+  s = s.replace(/\*\*([^*]+)\*\*/g, "<strong>$1</strong>");
+  s = s.split(/\n\n+/).map(p => {
+    const lines = p.trim().split("\n");
+    return lines.every(l => /^- /.test(l)) ? `<ul>${lines.map(l => `<li>${l.slice(2)}</li>`).join("")}</ul>` : `<p>${p.trim()}</p>`;
+  }).join("");
   return s.replace(/\u0000(\d+)\u0000/g, (_, n) => math[n]).replace(/\u0001(\d+)\u0001/g, (_, n) => imgs[n]);
 }
 const esc = s => String(s).replace(/[&<>"]/g, c => ({ "&":"&amp;", "<":"&lt;", ">":"&gt;", '"':"&quot;" }[c]));

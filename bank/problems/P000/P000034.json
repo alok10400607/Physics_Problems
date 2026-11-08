@@ -1,22 +1,28 @@
 {
   "id": "P000034",
-  "status": "imported",
+  "status": "ai_solved",
   "version": 1,
   "type": "mcq_single",
   "topic_code": 1703,
   "concepts": [],
   "exams": [
-    "JEE Main"
+    "JEE Main",
+    "NEET"
   ],
   "difficulty": {
     "worksheet": null,
-    "ai": null,
-    "ai_scores": null,
-    "ai_reason": null,
-    "ai_confidence": null,
+    "ai": 2,
+    "ai_scores": {
+      "concepts": 2,
+      "steps": 1,
+      "maths": 1,
+      "insight": 1
+    },
+    "ai_reason": "Reading the graph at four times and recalling where force, velocity, acceleration and PE peak.",
+    "ai_confidence": 0.7,
     "expert": null
   },
-  "time_estimate_s": null,
+  "time_estimate_s": 75,
   "passage_id": null,
   "stem": "![](asset:P000034-stem-1) The graph shows the variation of displacement of a particle executing S.H.M. with time. We infer from this graph that",
   "options": {

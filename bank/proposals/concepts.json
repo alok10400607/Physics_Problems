@@ -1,0 +1,46 @@
+[
+  {
+    "slug": "energy-in-shm",
+    "name": "Kinetic and potential energy in SHM",
+    "topic_code": 1703,
+    "problems": [
+      "P000030",
+      "P000031",
+      "P000032",
+      "P000033"
+    ]
+  },
+  {
+    "slug": "shm-phase",
+    "name": "Phase of SHM and reducing it to one cycle",
+    "topic_code": 1701,
+    "problems": [
+      "P000031",
+      "P000032"
+    ]
+  },
+  {
+    "slug": "energy-time-graph",
+    "name": "Energy against time graphs",
+    "topic_code": 1703,
+    "problems": [
+      "P000033"
+    ]
+  },
+  {
+    "slug": "shm-graphs",
+    "name": "Reading displacement–time graphs in SHM",
+    "topic_code": 1702,
+    "problems": [
+      "P000034"
+    ]
+  },
+  {
+    "slug": "restoring-force",
+    "name": "Restoring force and acceleration in SHM",
+    "topic_code": 1702,
+    "problems": [
+      "P000034"
+    ]
+  }
+]
