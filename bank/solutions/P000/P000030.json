@@ -20,9 +20,7 @@
     "solved_answer": "C",
     "resolve_answer": null,
     "agrees_with_key": true,
-    "issues": [
-      "Option B was typed as 'A/2√2', which could be read as (A/2)·√2 = A/√2, the same as option C. Read as A/(2√2), matching the original JEE Main 2019 paper. Please confirm."
-    ]
+    "issues": []
   },
   "generated_by": {
     "author": "llm",
