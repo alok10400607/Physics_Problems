@@ -1,10 +1,3369 @@
 [
-  {"code": 1701, "chapter_code": 17, "chapter": "Oscillations", "name": "SHM Equation, Phase & Reference Circle", "status": "provisional"},
-  {"code": 1702, "chapter_code": 17, "chapter": "Oscillations", "name": "Velocity & Acceleration in SHM; Graphs", "status": "provisional"},
-  {"code": 1703, "chapter_code": 17, "chapter": "Oscillations", "name": "Energy in SHM", "status": "provisional"},
-  {"code": 1704, "chapter_code": 17, "chapter": "Oscillations", "name": "Spring–Mass Systems", "status": "provisional"},
-  {"code": 1705, "chapter_code": 17, "chapter": "Oscillations", "name": "Simple Pendulum", "status": "provisional"},
-  {"code": 1706, "chapter_code": 17, "chapter": "Oscillations", "name": "Physical, Compound & Torsional Pendulums", "status": "provisional"},
-  {"code": 1707, "chapter_code": 17, "chapter": "Oscillations", "name": "Other SHM Systems", "status": "provisional"},
-  {"code": 1708, "chapter_code": 17, "chapter": "Oscillations", "name": "Superposition, Damped & Forced Oscillations", "status": "provisional"}
+  {
+    "code": "0105",
+    "chapter_code": "01",
+    "chapter": "Units, Dimensions & Measurement",
+    "name": "Units, Dimensional Formulae & Homogeneity",
+    "covers": "SI units, prefixes, unit conversion; dimensions of quantities and constants; checking equations",
+    "old_codes": [
+      "0107"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "0110",
+    "chapter_code": "01",
+    "chapter": "Units, Dimensions & Measurement",
+    "name": "Dimensional Analysis: Deriving Relations & New Unit Systems",
+    "covers": "Deriving formulas by dimensions; finding units in a new system (e.g. c, h, G as base quantities)",
+    "old_codes": [
+      "0107"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "0115",
+    "chapter_code": "01",
+    "chapter": "Units, Dimensions & Measurement",
+    "name": "Significant Figures & Errors",
+    "covers": "Significant figures, rounding; systematic/random errors; absolute, relative, percentage and mean error; least count",
+    "old_codes": [
+      "0108"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "0120",
+    "chapter_code": "01",
+    "chapter": "Units, Dimensions & Measurement",
+    "name": "Propagation of Errors",
+    "covers": "Error in sum, difference, product, quotient and powers",
+    "old_codes": [
+      "0108"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "0125",
+    "chapter_code": "01",
+    "chapter": "Units, Dimensions & Measurement",
+    "name": "Vernier Callipers & Screw Gauge",
+    "covers": "Least count, zero error and readings of vernier and screw gauge",
+    "old_codes": [
+      "0108"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "0199",
+    "chapter_code": "01",
+    "chapter": "Units, Dimensions & Measurement",
+    "name": "Mixed / Multi-concept",
+    "covers": "Use only when a question needs two or more subtopics of this chapter in comparable weight",
+    "old_codes": [],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "0205",
+    "chapter_code": "02",
+    "chapter": "Vectors",
+    "name": "Vector Basics & Graphical Addition",
+    "covers": "Types of vectors; triangle and polygon laws; graphical resultant",
+    "old_codes": [
+      "0101",
+      "0102"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "0210",
+    "chapter_code": "02",
+    "chapter": "Vectors",
+    "name": "Parallelogram Law: Resultant & Subtraction",
+    "covers": "Magnitude/direction of resultant, max-min resultant, R vs angle; vector subtraction and change in a vector",
+    "old_codes": [
+      "0103",
+      "0101"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "0215",
+    "chapter_code": "02",
+    "chapter": "Vectors",
+    "name": "Components & Unit-Vector Form",
+    "covers": "Resolution along axes and inclined axes; i-j-k form; direction cosines; magnitude from components",
+    "old_codes": [
+      "0104"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "0220",
+    "chapter_code": "02",
+    "chapter": "Vectors",
+    "name": "Dot Product: Angle & Projection",
+    "covers": "Scalar product, angle between vectors, component/projection of one vector on another, perpendicularity",
+    "old_codes": [
+      "0105"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "0225",
+    "chapter_code": "02",
+    "chapter": "Vectors",
+    "name": "Cross Product: Area & Perpendicular Vectors",
+    "covers": "Vector product, unit vector perpendicular to two vectors, area of parallelogram/triangle, parallelism",
+    "old_codes": [
+      "0106"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "0299",
+    "chapter_code": "02",
+    "chapter": "Vectors",
+    "name": "Mixed / Multi-concept",
+    "covers": "Use only when a question needs two or more subtopics of this chapter in comparable weight",
+    "old_codes": [],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "0305",
+    "chapter_code": "03",
+    "chapter": "Motion in a Straight Line",
+    "name": "Distance, Displacement, Speed & Velocity",
+    "covers": "Average vs instantaneous speed/velocity; average speed over multi-segment journeys",
+    "old_codes": [
+      "0201"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "0310",
+    "chapter_code": "03",
+    "chapter": "Motion in a Straight Line",
+    "name": "Equations of Uniformly Accelerated Motion",
+    "covers": "v = u + at family; distance in nth second; stopping distance; reaction time",
+    "old_codes": [
+      "0203"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "0315",
+    "chapter_code": "03",
+    "chapter": "Motion in a Straight Line",
+    "name": "Free Fall & Vertical Throw",
+    "covers": "Motion under gravity; time of flight, max height; dropping from balloons/lifts",
+    "old_codes": [
+      "0205"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "0320",
+    "chapter_code": "03",
+    "chapter": "Motion in a Straight Line",
+    "name": "Two-Body & Multi-Phase Motion",
+    "covers": "Chase/meeting problems; accelerate-then-decelerate; two different accelerations; balls thrown at intervals",
+    "old_codes": [
+      "0204"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "0325",
+    "chapter_code": "03",
+    "chapter": "Motion in a Straight Line",
+    "name": "Variable Acceleration (Calculus)",
+    "covers": "Given x(t), v(t), a(t), a(x) or a(v): differentiate/integrate to find motion",
+    "old_codes": [
+      "0206"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "0330",
+    "chapter_code": "03",
+    "chapter": "Motion in a Straight Line",
+    "name": "Motion Graphs: x–t & v–t",
+    "covers": "Reading slope and area of x–t and v–t graphs; sketching from description",
+    "old_codes": [
+      "0202"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "0335",
+    "chapter_code": "03",
+    "chapter": "Motion in a Straight Line",
+    "name": "Motion Graphs: a–t, v–x, a–x & Conversion",
+    "covers": "Less common graphs; converting one graph to another",
+    "old_codes": [
+      "0202"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "0340",
+    "chapter_code": "03",
+    "chapter": "Motion in a Straight Line",
+    "name": "Relative Motion in 1D",
+    "covers": "Relative velocity/acceleration of two bodies on a line; trains, cars, overtaking",
+    "old_codes": [
+      "0211"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "0399",
+    "chapter_code": "03",
+    "chapter": "Motion in a Straight Line",
+    "name": "Mixed / Multi-concept",
+    "covers": "Use only when a question needs two or more subtopics of this chapter in comparable weight",
+    "old_codes": [],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "0405",
+    "chapter_code": "04",
+    "chapter": "Motion in a Plane: Projectiles & Relative Velocity",
+    "name": "2D/3D Motion in Vector & Calculus Form",
+    "covers": "r(t), v(t), a(t) as vectors; path equation; motion with constant acceleration in 2D",
+    "old_codes": [
+      "0209"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "0410",
+    "chapter_code": "04",
+    "chapter": "Motion in a Plane: Projectiles & Relative Velocity",
+    "name": "Ground-to-Ground Projectile",
+    "covers": "Range, max height, time of flight, trajectory equation, velocity at a point, complementary angles",
+    "old_codes": [
+      "0207"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "0415",
+    "chapter_code": "04",
+    "chapter": "Motion in a Plane: Projectiles & Relative Velocity",
+    "name": "Horizontal Projection from a Height",
+    "covers": "Body thrown horizontally from a tower/cliff/plane; time, range, velocity at impact",
+    "old_codes": [
+      "0208"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "0420",
+    "chapter_code": "04",
+    "chapter": "Motion in a Plane: Projectiles & Relative Velocity",
+    "name": "Oblique Projection from a Height or to a Target",
+    "covers": "Projection at an angle from a height; hitting elevated/lowered targets; passing over walls",
+    "old_codes": [
+      "0207"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "0425",
+    "chapter_code": "04",
+    "chapter": "Motion in a Plane: Projectiles & Relative Velocity",
+    "name": "Projectile on an Inclined Plane",
+    "covers": "Range and time on an incline (up/down); striking the incline perpendicularly/horizontally",
+    "old_codes": [
+      "0210"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "0430",
+    "chapter_code": "04",
+    "chapter": "Motion in a Plane: Projectiles & Relative Velocity",
+    "name": "Relative Motion of Projectiles & Moving Frames",
+    "covers": "Two projectiles seen from each other; collision of projectiles; projection from moving vehicle/lift",
+    "old_codes": [
+      "0211",
+      "0207"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "0435",
+    "chapter_code": "04",
+    "chapter": "Motion in a Plane: Projectiles & Relative Velocity",
+    "name": "Relative Velocity in 2D: Rain, Wind & Closest Approach",
+    "covers": "Apparent rain direction, plane heading in wind, minimum separation of two moving bodies",
+    "old_codes": [
+      "0211"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "0440",
+    "chapter_code": "04",
+    "chapter": "Motion in a Plane: Projectiles & Relative Velocity",
+    "name": "River–Boat Crossing",
+    "covers": "Shortest time vs shortest path; drift; swimmer problems",
+    "old_codes": [
+      "0211"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "0499",
+    "chapter_code": "04",
+    "chapter": "Motion in a Plane: Projectiles & Relative Velocity",
+    "name": "Mixed / Multi-concept",
+    "covers": "Use only when a question needs two or more subtopics of this chapter in comparable weight",
+    "old_codes": [],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "0505",
+    "chapter_code": "05",
+    "chapter": "Newton's Laws of Motion",
+    "name": "Newton's Laws, Momentum & Impulse",
+    "covers": "Three laws, inertia, F = dp/dt, action–reaction; impulse = Δp, F–t graphs",
+    "old_codes": [
+      "0301"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "0510",
+    "chapter_code": "05",
+    "chapter": "Newton's Laws of Motion",
+    "name": "Free-Body Diagrams & Equilibrium of a Particle",
+    "covers": "Concurrent forces, strings at angles, Lami's theorem, hanging masses",
+    "old_codes": [
+      "0302"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "0515",
+    "chapter_code": "05",
+    "chapter": "Newton's Laws of Motion",
+    "name": "Single Accelerated Body: Smooth Inclines & Lifts",
+    "covers": "F = ma for one body: frictionless incline, normal reaction/apparent weight in lifts",
+    "old_codes": [
+      "0303"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "0520",
+    "chapter_code": "05",
+    "chapter": "Newton's Laws of Motion",
+    "name": "Connected Bodies: Contact Forces & String Tension",
+    "covers": "Blocks pushed together, trains of blocks, tension along a heavy rope",
+    "old_codes": [
+      "0303"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "0525",
+    "chapter_code": "05",
+    "chapter": "Newton's Laws of Motion",
+    "name": "Pulley Systems",
+    "covers": "Atwood machine; pulleys on tables and inclines; multiple and movable pulleys",
+    "old_codes": [
+      "0304"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "0530",
+    "chapter_code": "05",
+    "chapter": "Newton's Laws of Motion",
+    "name": "Constraint Relations",
+    "covers": "String-length and wedge/contact constraints relating accelerations",
+    "old_codes": [
+      "0306"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "0535",
+    "chapter_code": "05",
+    "chapter": "Newton's Laws of Motion",
+    "name": "Spring Forces & Sudden Changes",
+    "covers": "Spring balances, springs in systems, accelerations just after cutting a string/spring",
+    "old_codes": [
+      "0305"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "0540",
+    "chapter_code": "05",
+    "chapter": "Newton's Laws of Motion",
+    "name": "Pseudo Forces in Accelerated Frames",
+    "covers": "Non-inertial frames: block on accelerating wedge, pendulum in accelerating car",
+    "old_codes": [
+      "0303"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "0599",
+    "chapter_code": "05",
+    "chapter": "Newton's Laws of Motion",
+    "name": "Mixed / Multi-concept",
+    "covers": "Use only when a question needs two or more subtopics of this chapter in comparable weight",
+    "old_codes": [],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "0605",
+    "chapter_code": "06",
+    "chapter": "Friction",
+    "name": "Laws of Friction; Angle of Friction & Repose",
+    "covers": "Static vs kinetic friction, limiting friction, angle of friction and of repose",
+    "old_codes": [
+      "0307"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "0610",
+    "chapter_code": "06",
+    "chapter": "Friction",
+    "name": "Rough Horizontal Surface; Force at an Angle",
+    "covers": "Pull/push at an angle; minimum force to move a block; friction vs applied force graph",
+    "old_codes": [
+      "0307"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "0615",
+    "chapter_code": "06",
+    "chapter": "Friction",
+    "name": "Rough Inclined Plane",
+    "covers": "Sliding up/down, holding on an incline, min/max force for equilibrium",
+    "old_codes": [
+      "0307"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "0620",
+    "chapter_code": "06",
+    "chapter": "Friction",
+    "name": "Stacked Blocks & Relative Slipping",
+    "covers": "Two/three blocks on each other, which surface slips, common vs separate acceleration",
+    "old_codes": [
+      "0307"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "0625",
+    "chapter_code": "06",
+    "chapter": "Friction",
+    "name": "Friction in Pulley & Connected Systems",
+    "covers": "Blocks on rough tables/inclines connected by strings over pulleys",
+    "old_codes": [
+      "0307"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "0630",
+    "chapter_code": "06",
+    "chapter": "Friction",
+    "name": "Friction with Variable Forces & Accelerated Frames",
+    "covers": "Time-varying force, block pressed against accelerating wall/truck",
+    "old_codes": [
+      "0307"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "0699",
+    "chapter_code": "06",
+    "chapter": "Friction",
+    "name": "Mixed / Multi-concept",
+    "covers": "Use only when a question needs two or more subtopics of this chapter in comparable weight",
+    "old_codes": [],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "0705",
+    "chapter_code": "07",
+    "chapter": "Circular Motion – I: Kinematics & Horizontal Plane",
+    "name": "Circular Motion Kinematics",
+    "covers": "Angular variables, v = ωr, centripetal & tangential acceleration, non-uniform circular motion, radius of curvature",
+    "old_codes": [
+      "0212",
+      "0308"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "0710",
+    "chapter_code": "07",
+    "chapter": "Circular Motion – I: Kinematics & Horizontal Plane",
+    "name": "Horizontal Circle: Centripetal Force & Rotating Frames",
+    "covers": "Mass on string on table, coin on turntable, rotating rods; same problems solved with centrifugal force",
+    "old_codes": [
+      "0309"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "0715",
+    "chapter_code": "07",
+    "chapter": "Circular Motion – I: Kinematics & Horizontal Plane",
+    "name": "Conical Pendulum & Motion in Cones/Bowls",
+    "covers": "Conical pendulum, particle inside a rotating cone or hemispherical bowl, rotor",
+    "old_codes": [
+      "0309"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "0720",
+    "chapter_code": "07",
+    "chapter": "Circular Motion – I: Kinematics & Horizontal Plane",
+    "name": "Vehicles on Flat & Banked Curves",
+    "covers": "Max speed on turns with friction, banking angle, cyclist leaning",
+    "old_codes": [
+      "0309"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "0799",
+    "chapter_code": "07",
+    "chapter": "Circular Motion – I: Kinematics & Horizontal Plane",
+    "name": "Mixed / Multi-concept",
+    "covers": "Use only when a question needs two or more subtopics of this chapter in comparable weight",
+    "old_codes": [],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "0805",
+    "chapter_code": "08",
+    "chapter": "Work, Energy & Power",
+    "name": "Work by a Constant Force",
+    "covers": "W = F·s; work by gravity, friction, normal force, tension",
+    "old_codes": [
+      "0401"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "0810",
+    "chapter_code": "08",
+    "chapter": "Work, Energy & Power",
+    "name": "Work by Variable Force; Chains & Ropes",
+    "covers": "Integration of F(x), F–x graphs; work/PE for chains hanging off tables and falling ropes",
+    "old_codes": [
+      "0401",
+      "0406"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "0815",
+    "chapter_code": "08",
+    "chapter": "Work, Energy & Power",
+    "name": "Spring Force: Work & Elastic PE",
+    "covers": "Work done by/against spring, ½kx², spring compression by moving blocks",
+    "old_codes": [
+      "0401",
+      "0403"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "0820",
+    "chapter_code": "08",
+    "chapter": "Work, Energy & Power",
+    "name": "Work–Energy Theorem",
+    "covers": "ΔKE = net work including friction and non-conservative forces",
+    "old_codes": [
+      "0402"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "0825",
+    "chapter_code": "08",
+    "chapter": "Work, Energy & Power",
+    "name": "Conservative Forces & Potential-Energy Curves",
+    "covers": "F = −dU/dx, U–x graphs, stable/unstable/neutral equilibrium, turning points",
+    "old_codes": [
+      "0403"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "0830",
+    "chapter_code": "08",
+    "chapter": "Work, Energy & Power",
+    "name": "Conservation of Mechanical Energy",
+    "covers": "Energy conservation for blocks, connected bodies and springs (no circular motion)",
+    "old_codes": [
+      "0403"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "0835",
+    "chapter_code": "08",
+    "chapter": "Work, Energy & Power",
+    "name": "Power",
+    "covers": "Average/instantaneous power, P = F·v, efficiency, power of pumps and engines",
+    "old_codes": [
+      "0404"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "0899",
+    "chapter_code": "08",
+    "chapter": "Work, Energy & Power",
+    "name": "Mixed / Multi-concept",
+    "covers": "Use only when a question needs two or more subtopics of this chapter in comparable weight",
+    "old_codes": [
+      "0406"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "0905",
+    "chapter_code": "09",
+    "chapter": "Circular Motion – II: Vertical Plane (needs Work–Energy)",
+    "name": "Vertical Circle with a String",
+    "covers": "Tension at top/bottom/any point, critical speeds √(gR), √(5gR), completing the loop",
+    "old_codes": [
+      "0405"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "0910",
+    "chapter_code": "09",
+    "chapter": "Circular Motion – II: Vertical Plane (needs Work–Energy)",
+    "name": "Vertical Circle with a Rod or in a Tube",
+    "covers": "Rigid support: minimum speed √(4gR) at bottom, force by rod at top",
+    "old_codes": [
+      "0405"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "0915",
+    "chapter_code": "09",
+    "chapter": "Circular Motion – II: Vertical Plane (needs Work–Energy)",
+    "name": "Partial Vertical Circle & String Slackening",
+    "covers": "Pendulum tension/acceleration at angle θ; angle where string goes slack and motion afterwards",
+    "old_codes": [
+      "0405"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "0920",
+    "chapter_code": "09",
+    "chapter": "Circular Motion – II: Vertical Plane (needs Work–Energy)",
+    "name": "Loop-the-Loop: Block/Bead on Circular Track",
+    "covers": "Block on track from height h, bead on vertical ring, normal force on track",
+    "old_codes": [
+      "0405"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "0925",
+    "chapter_code": "09",
+    "chapter": "Circular Motion – II: Vertical Plane (needs Work–Energy)",
+    "name": "Leaving Contact on Convex Surfaces; Humps & Dips",
+    "covers": "Particle sliding off a sphere/hemisphere; vehicles over humps and through dips",
+    "old_codes": [
+      "0405"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "0999",
+    "chapter_code": "09",
+    "chapter": "Circular Motion – II: Vertical Plane (needs Work–Energy)",
+    "name": "Mixed / Multi-concept",
+    "covers": "Use only when a question needs two or more subtopics of this chapter in comparable weight",
+    "old_codes": [],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "1005",
+    "chapter_code": "10",
+    "chapter": "Centre of Mass, Linear Momentum & Collisions",
+    "name": "COM of Discrete Particles",
+    "covers": "Position of COM for particle systems",
+    "old_codes": [
+      "0501"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "1010",
+    "chapter_code": "10",
+    "chapter": "Centre of Mass, Linear Momentum & Collisions",
+    "name": "COM of Continuous & Composite Bodies",
+    "covers": "Rods (uniform/non-uniform), arcs, plates, cones; bodies with cavities",
+    "old_codes": [
+      "0501"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "1015",
+    "chapter_code": "10",
+    "chapter": "Centre of Mass, Linear Momentum & Collisions",
+    "name": "Motion & Shift of COM",
+    "covers": "v_cm, a_cm; COM unchanged under internal forces (man on boat/plank)",
+    "old_codes": [
+      "0501",
+      "0506"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "1020",
+    "chapter_code": "10",
+    "chapter": "Centre of Mass, Linear Momentum & Collisions",
+    "name": "Momentum Conservation: Recoil, Explosion & Variable Mass",
+    "covers": "Gun recoil, explosions, jumping off carts; rockets and conveyor-belt (variable mass) problems",
+    "old_codes": [
+      "0502"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "1025",
+    "chapter_code": "10",
+    "chapter": "Centre of Mass, Linear Momentum & Collisions",
+    "name": "Momentum & Energy in Spring/Wedge Systems",
+    "covers": "Two blocks with spring, block on movable wedge/track, max compression, common velocity",
+    "old_codes": [
+      "0502",
+      "0506"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "1030",
+    "chapter_code": "10",
+    "chapter": "Centre of Mass, Linear Momentum & Collisions",
+    "name": "Impulse in Collisions & Jerks in Strings",
+    "covers": "Impulsive forces, string becoming taut suddenly, impulse from F–t",
+    "old_codes": [
+      "0503"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "1035",
+    "chapter_code": "10",
+    "chapter": "Centre of Mass, Linear Momentum & Collisions",
+    "name": "Head-on Elastic Collisions",
+    "covers": "1D elastic collisions: final velocities, equal masses, KE transfer fraction",
+    "old_codes": [
+      "0504"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "1040",
+    "chapter_code": "10",
+    "chapter": "Centre of Mass, Linear Momentum & Collisions",
+    "name": "Inelastic Collisions & Coefficient of Restitution",
+    "covers": "Perfectly inelastic/partially elastic 1D collisions, e, KE loss, bouncing-ball heights",
+    "old_codes": [
+      "0503",
+      "0504"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "1045",
+    "chapter_code": "10",
+    "chapter": "Centre of Mass, Linear Momentum & Collisions",
+    "name": "Oblique (2D) Collisions",
+    "covers": "Collisions in 2D, oblique impact with walls, line of impact",
+    "old_codes": [
+      "0505"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "1099",
+    "chapter_code": "10",
+    "chapter": "Centre of Mass, Linear Momentum & Collisions",
+    "name": "Mixed / Multi-concept",
+    "covers": "Use only when a question needs two or more subtopics of this chapter in comparable weight",
+    "old_codes": [
+      "0506"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "1105",
+    "chapter_code": "11",
+    "chapter": "Rotational Mechanics – I: Moment of Inertia, Torque & Fixed-Axis Rotation",
+    "name": "Rotational Kinematics",
+    "covers": "θ, ω, α; equations for constant α; relation of linear and angular variables",
+    "old_codes": [
+      "0703"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "1110",
+    "chapter_code": "11",
+    "chapter": "Rotational Mechanics – I: Moment of Inertia, Torque & Fixed-Axis Rotation",
+    "name": "MI of Particles & Standard Bodies",
+    "covers": "MI of point masses, rod, ring, disc, sphere, cylinder by integration or formula",
+    "old_codes": [
+      "0701"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "1115",
+    "chapter_code": "11",
+    "chapter": "Rotational Mechanics – I: Moment of Inertia, Torque & Fixed-Axis Rotation",
+    "name": "Parallel/Perpendicular Axis & Composite Bodies",
+    "covers": "Axis theorems, MI of combinations and bodies with cavities, radius of gyration",
+    "old_codes": [
+      "0701"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "1120",
+    "chapter_code": "11",
+    "chapter": "Rotational Mechanics – I: Moment of Inertia, Torque & Fixed-Axis Rotation",
+    "name": "Torque & Couple",
+    "covers": "τ = r × F about a point and an axis; couples",
+    "old_codes": [
+      "0702"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "1125",
+    "chapter_code": "11",
+    "chapter": "Rotational Mechanics – I: Moment of Inertia, Torque & Fixed-Axis Rotation",
+    "name": "Rotational Equilibrium",
+    "covers": "Ladders, beams, hinged rods, toppling conditions",
+    "old_codes": [
+      "0702"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "1130",
+    "chapter_code": "11",
+    "chapter": "Rotational Mechanics – I: Moment of Inertia, Torque & Fixed-Axis Rotation",
+    "name": "Fixed-Axis Dynamics: τ = Iα",
+    "covers": "Pulleys with mass, hinged rods released, hinge reactions",
+    "old_codes": [
+      "0703"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "1135",
+    "chapter_code": "11",
+    "chapter": "Rotational Mechanics – I: Moment of Inertia, Torque & Fixed-Axis Rotation",
+    "name": "Rotational KE, Work & Energy Conservation",
+    "covers": "½Iω², work by torque, power, energy conservation in fixed-axis rotation",
+    "old_codes": [
+      "0706"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "1199",
+    "chapter_code": "11",
+    "chapter": "Rotational Mechanics – I: Moment of Inertia, Torque & Fixed-Axis Rotation",
+    "name": "Mixed / Multi-concept",
+    "covers": "Use only when a question needs two or more subtopics of this chapter in comparable weight",
+    "old_codes": [],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "1205",
+    "chapter_code": "12",
+    "chapter": "Rotational Mechanics – II: Angular Momentum & Rolling",
+    "name": "Angular Momentum of Particle & Rigid Body",
+    "covers": "L = r × p, L = Iω, τ = dL/dt",
+    "old_codes": [
+      "0704"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "1210",
+    "chapter_code": "12",
+    "chapter": "Rotational Mechanics – II: Angular Momentum & Rolling",
+    "name": "Conservation of Angular Momentum",
+    "covers": "Man on rotating platform, bead on rotating rod, change in MI",
+    "old_codes": [
+      "0705",
+      "0704"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "1215",
+    "chapter_code": "12",
+    "chapter": "Rotational Mechanics – II: Angular Momentum & Rolling",
+    "name": "Angular Impulse: Impacts on Rigid Bodies",
+    "covers": "Particle hitting a rod/disc, rod struck by impulse, combined L and p conservation",
+    "old_codes": [
+      "0704"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "1220",
+    "chapter_code": "12",
+    "chapter": "Rotational Mechanics – II: Angular Momentum & Rolling",
+    "name": "Combined Translation & Rotation; Rolling Kinematics",
+    "covers": "v = ωR, velocity of points, instantaneous axis, KE of rolling body",
+    "old_codes": [
+      "0707"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "1225",
+    "chapter_code": "12",
+    "chapter": "Rotational Mechanics – II: Angular Momentum & Rolling",
+    "name": "Rolling on Inclined Planes",
+    "covers": "Acceleration and friction for rolling down/up an incline; race between bodies",
+    "old_codes": [
+      "0707"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "1230",
+    "chapter_code": "12",
+    "chapter": "Rotational Mechanics – II: Angular Momentum & Rolling",
+    "name": "Rolling under Applied Force; Direction of Friction",
+    "covers": "Force at different heights, yo-yo/spool, plank on cylinders",
+    "old_codes": [
+      "0707"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "1235",
+    "chapter_code": "12",
+    "chapter": "Rotational Mechanics – II: Angular Momentum & Rolling",
+    "name": "Slipping-to-Rolling Transition",
+    "covers": "Ball/ring given spin or velocity; time and distance till pure rolling; L about contact point",
+    "old_codes": [
+      "0707"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "1299",
+    "chapter_code": "12",
+    "chapter": "Rotational Mechanics – II: Angular Momentum & Rolling",
+    "name": "Mixed / Multi-concept",
+    "covers": "Use only when a question needs two or more subtopics of this chapter in comparable weight",
+    "old_codes": [],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "1305",
+    "chapter_code": "13",
+    "chapter": "Gravitation",
+    "name": "Newton's Law of Gravitation & Superposition",
+    "covers": "Force between masses, net force from several masses",
+    "old_codes": [
+      "0801"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "1310",
+    "chapter_code": "13",
+    "chapter": "Gravitation",
+    "name": "Variation of g",
+    "covers": "g with height, depth, Earth's rotation and latitude",
+    "old_codes": [
+      "0801"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "1315",
+    "chapter_code": "13",
+    "chapter": "Gravitation",
+    "name": "Gravitational Field of Extended Bodies",
+    "covers": "Field of ring, shell, solid sphere, sphere with cavity",
+    "old_codes": [
+      "0801"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "1320",
+    "chapter_code": "13",
+    "chapter": "Gravitation",
+    "name": "Gravitational Potential & Potential Energy",
+    "covers": "V of ring/shell/sphere, field–potential relation, PE of systems of masses",
+    "old_codes": [
+      "0802"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "1325",
+    "chapter_code": "13",
+    "chapter": "Gravitation",
+    "name": "Projection from Earth & Escape Velocity",
+    "covers": "Max height reached by projected bodies, escape speed",
+    "old_codes": [
+      "0805"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "1330",
+    "chapter_code": "13",
+    "chapter": "Gravitation",
+    "name": "Satellites: Orbital Speed, Period & Energy",
+    "covers": "Orbital velocity, time period, energies, geostationary satellites, weightlessness, orbit change",
+    "old_codes": [
+      "0803"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "1335",
+    "chapter_code": "13",
+    "chapter": "Gravitation",
+    "name": "Kepler's Laws, Elliptical Orbits & Binary Systems",
+    "covers": "Kepler's laws, speeds at perigee/apogee, double stars and multi-body orbits",
+    "old_codes": [
+      "0804",
+      "0803"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "1399",
+    "chapter_code": "13",
+    "chapter": "Gravitation",
+    "name": "Mixed / Multi-concept",
+    "covers": "Use only when a question needs two or more subtopics of this chapter in comparable weight",
+    "old_codes": [],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "1405",
+    "chapter_code": "14",
+    "chapter": "Mechanical Properties of Solids (Elasticity)",
+    "name": "Stress, Strain & Hooke's Law",
+    "covers": "Types of stress/strain, stress–strain curve, elastic limit, breaking stress",
+    "old_codes": [],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "1410",
+    "chapter_code": "14",
+    "chapter": "Mechanical Properties of Solids (Elasticity)",
+    "name": "Young's Modulus: Extension & Elastic Energy",
+    "covers": "ΔL = FL/AY, wires in series/parallel, Searle's method, energy stored in a stretched wire",
+    "old_codes": [],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "1415",
+    "chapter_code": "14",
+    "chapter": "Mechanical Properties of Solids (Elasticity)",
+    "name": "Non-uniform Stress: Own Weight & Accelerating/Rotating Rods",
+    "covers": "Elongation of hanging rod under own weight, rotating or accelerated rods",
+    "old_codes": [],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "1420",
+    "chapter_code": "14",
+    "chapter": "Mechanical Properties of Solids (Elasticity)",
+    "name": "Bulk & Shear Modulus; Poisson's Ratio",
+    "covers": "Compressibility, rigidity modulus, lateral strain",
+    "old_codes": [],
+    "syllabus_note": "Bulk/shear: Main only (Advanced lists Young's modulus)",
+    "status": "active"
+  },
+  {
+    "code": "1499",
+    "chapter_code": "14",
+    "chapter": "Mechanical Properties of Solids (Elasticity)",
+    "name": "Mixed / Multi-concept",
+    "covers": "Use only when a question needs two or more subtopics of this chapter in comparable weight",
+    "old_codes": [],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "1505",
+    "chapter_code": "15",
+    "chapter": "Fluid Statics & Dynamics, Viscosity",
+    "name": "Pressure: Pascal's Law, Depth & Forces on Walls",
+    "covers": "Hydrostatic pressure, hydraulic lift, manometers, barometers, force/torque on dam walls",
+    "old_codes": [],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "1510",
+    "chapter_code": "15",
+    "chapter": "Fluid Statics & Dynamics, Viscosity",
+    "name": "Buoyancy & Archimedes' Principle",
+    "covers": "Buoyant force, apparent weight, upthrust on submerged bodies",
+    "old_codes": [],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "1515",
+    "chapter_code": "15",
+    "chapter": "Fluid Statics & Dynamics, Viscosity",
+    "name": "Floatation",
+    "covers": "Fraction submerged, floating in layered liquids, bodies with cavities",
+    "old_codes": [],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "1520",
+    "chapter_code": "15",
+    "chapter": "Fluid Statics & Dynamics, Viscosity",
+    "name": "Fluids in Accelerated & Rotating Containers",
+    "covers": "Free surface in accelerating/rotating vessels, pressure in accelerated fluids",
+    "old_codes": [],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "1525",
+    "chapter_code": "15",
+    "chapter": "Fluid Statics & Dynamics, Viscosity",
+    "name": "Continuity & Bernoulli's Equation",
+    "covers": "Equation of continuity, Bernoulli, venturimeter, lift, pitot tube",
+    "old_codes": [],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "1530",
+    "chapter_code": "15",
+    "chapter": "Fluid Statics & Dynamics, Viscosity",
+    "name": "Efflux & Torricelli's Theorem",
+    "covers": "Speed of efflux, range of jet, time to empty a tank",
+    "old_codes": [],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "1535",
+    "chapter_code": "15",
+    "chapter": "Fluid Statics & Dynamics, Viscosity",
+    "name": "Viscosity, Stokes' Law & Terminal Velocity",
+    "covers": "Viscous force, Poiseuille flow, Stokes' drag, terminal velocity, critical velocity",
+    "old_codes": [],
+    "syllabus_note": "Poiseuille/Reynolds: not explicit in current syllabi",
+    "status": "active"
+  },
+  {
+    "code": "1599",
+    "chapter_code": "15",
+    "chapter": "Fluid Statics & Dynamics, Viscosity",
+    "name": "Mixed / Multi-concept",
+    "covers": "Use only when a question needs two or more subtopics of this chapter in comparable weight",
+    "old_codes": [],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "1605",
+    "chapter_code": "16",
+    "chapter": "Surface Tension",
+    "name": "Surface Tension, Surface Energy & ST Forces",
+    "covers": "Definition, work to enlarge films, merging/splitting drops, force on rings, wires and plates",
+    "old_codes": [],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "1610",
+    "chapter_code": "16",
+    "chapter": "Surface Tension",
+    "name": "Excess Pressure in Drops & Bubbles",
+    "covers": "ΔP for drops, bubbles in liquid, soap bubbles; combined bubbles",
+    "old_codes": [],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "1615",
+    "chapter_code": "16",
+    "chapter": "Surface Tension",
+    "name": "Angle of Contact & Capillarity",
+    "covers": "Capillary rise/fall, tube of insufficient length, Jurin's law",
+    "old_codes": [],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "1699",
+    "chapter_code": "16",
+    "chapter": "Surface Tension",
+    "name": "Mixed / Multi-concept",
+    "covers": "Use only when a question needs two or more subtopics of this chapter in comparable weight",
+    "old_codes": [],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "1705",
+    "chapter_code": "17",
+    "chapter": "Oscillations: Simple Harmonic Motion",
+    "name": "SHM Equation, Phase & Reference Circle",
+    "covers": "x = A sin(ωt + φ), phase, phase difference, SHM as projection of circular motion, time between positions",
+    "old_codes": [
+      "1401"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "1710",
+    "chapter_code": "17",
+    "chapter": "Oscillations: Simple Harmonic Motion",
+    "name": "Velocity & Acceleration in SHM; Graphs",
+    "covers": "v–x, a–x relations and x–t, v–t, a–t graphs",
+    "old_codes": [
+      "1402"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "1715",
+    "chapter_code": "17",
+    "chapter": "Oscillations: Simple Harmonic Motion",
+    "name": "Energy in SHM",
+    "covers": "KE, PE, total energy and their graphs",
+    "old_codes": [
+      "1403"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "1720",
+    "chapter_code": "17",
+    "chapter": "Oscillations: Simple Harmonic Motion",
+    "name": "Spring–Mass Systems",
+    "covers": "Vertical springs, springs in series/parallel, two-body (reduced mass) oscillators",
+    "old_codes": [
+      "1404"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "1725",
+    "chapter_code": "17",
+    "chapter": "Oscillations: Simple Harmonic Motion",
+    "name": "Simple Pendulum",
+    "covers": "Time period, effective g in lifts/cars, seconds pendulum, change of period with temperature/height",
+    "old_codes": [
+      "1404"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "1730",
+    "chapter_code": "17",
+    "chapter": "Oscillations: Simple Harmonic Motion",
+    "name": "Physical, Compound & Torsional Pendulums",
+    "covers": "Angular SHM of rigid bodies and torsion systems",
+    "old_codes": [
+      "1404"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "1735",
+    "chapter_code": "17",
+    "chapter": "Oscillations: Simple Harmonic Motion",
+    "name": "Other SHM Systems",
+    "covers": "Liquid in U-tube, floating body, tunnel through Earth, gas-piston oscillator",
+    "old_codes": [
+      "1404"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "1740",
+    "chapter_code": "17",
+    "chapter": "Oscillations: Simple Harmonic Motion",
+    "name": "Superposition, Damped & Forced Oscillations",
+    "covers": "Combining SHMs (same/perpendicular directions), damping, forced oscillation, resonance",
+    "old_codes": [
+      "1401"
+    ],
+    "syllabus_note": "Damped/forced/resonance: removed from JEE Main",
+    "status": "active"
+  },
+  {
+    "code": "1799",
+    "chapter_code": "17",
+    "chapter": "Oscillations: Simple Harmonic Motion",
+    "name": "Mixed / Multi-concept",
+    "covers": "Use only when a question needs two or more subtopics of this chapter in comparable weight",
+    "old_codes": [],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "1805",
+    "chapter_code": "18",
+    "chapter": "Wave Motion & Waves on Strings",
+    "name": "Wave Equation & Wave Parameters",
+    "covers": "y(x,t) forms, k, ω, λ, f, direction of travel, phase difference between points",
+    "old_codes": [
+      "1501"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "1810",
+    "chapter_code": "18",
+    "chapter": "Wave Motion & Waves on Strings",
+    "name": "Particle Velocity & Wave Graphs",
+    "covers": "Particle velocity/acceleration vs wave speed, snapshot (y–x) and history (y–t) graphs, slope relation",
+    "old_codes": [
+      "1501"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "1815",
+    "chapter_code": "18",
+    "chapter": "Wave Motion & Waves on Strings",
+    "name": "Speed on Strings; Energy & Power of Waves",
+    "covers": "v = √(T/μ), hanging ropes, μ changes; power and energy transmitted",
+    "old_codes": [
+      "1502",
+      "1501"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "1820",
+    "chapter_code": "18",
+    "chapter": "Wave Motion & Waves on Strings",
+    "name": "Superposition, Interference, Reflection & Transmission",
+    "covers": "Interference of waves on strings, reflection at fixed/free ends, transmission at junctions",
+    "old_codes": [
+      "1504"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "1825",
+    "chapter_code": "18",
+    "chapter": "Wave Motion & Waves on Strings",
+    "name": "Standing Waves: Equation, Nodes & Antinodes",
+    "covers": "Formation, equation, node/antinode positions, energy in standing waves",
+    "old_codes": [
+      "1505"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "1830",
+    "chapter_code": "18",
+    "chapter": "Wave Motion & Waves on Strings",
+    "name": "Vibrating Strings: Harmonics & Sonometer",
+    "covers": "Modes of strings fixed at both ends, overtones, sonometer, Melde's experiment",
+    "old_codes": [
+      "1505"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "1899",
+    "chapter_code": "18",
+    "chapter": "Wave Motion & Waves on Strings",
+    "name": "Mixed / Multi-concept",
+    "covers": "Use only when a question needs two or more subtopics of this chapter in comparable weight",
+    "old_codes": [],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "1905",
+    "chapter_code": "19",
+    "chapter": "Sound Waves",
+    "name": "Speed of Sound & Pressure Waves",
+    "covers": "Newton–Laplace formula; effect of T, P, humidity; displacement and pressure waves",
+    "old_codes": [
+      "1503"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "1910",
+    "chapter_code": "19",
+    "chapter": "Sound Waves",
+    "name": "Intensity & Sound Level",
+    "covers": "Intensity, decibels, inverse-square law",
+    "old_codes": [
+      "1503"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "1915",
+    "chapter_code": "19",
+    "chapter": "Sound Waves",
+    "name": "Interference of Sound",
+    "covers": "Path/phase difference from two sources, constructive/destructive points",
+    "old_codes": [
+      "1504"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "1920",
+    "chapter_code": "19",
+    "chapter": "Sound Waves",
+    "name": "Organ Pipes",
+    "covers": "Open and closed pipes, harmonics, end correction",
+    "old_codes": [
+      "1505"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "1925",
+    "chapter_code": "19",
+    "chapter": "Sound Waves",
+    "name": "Resonance Tube & Kundt's Tube",
+    "covers": "Resonance column experiment, end correction, Kundt's tube",
+    "old_codes": [
+      "1505"
+    ],
+    "syllabus_note": "Kundt's tube: not in current syllabi",
+    "status": "active"
+  },
+  {
+    "code": "1930",
+    "chapter_code": "19",
+    "chapter": "Sound Waves",
+    "name": "Beats",
+    "covers": "Beat frequency, tuning-fork problems (waxing, filing)",
+    "old_codes": [
+      "1506"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "1935",
+    "chapter_code": "19",
+    "chapter": "Sound Waves",
+    "name": "Doppler Effect: Source & Observer on a Line",
+    "covers": "Moving source and/or observer along the line joining them",
+    "old_codes": [
+      "1507"
+    ],
+    "syllabus_note": "Removed from JEE Main; still in Advanced",
+    "status": "active"
+  },
+  {
+    "code": "1940",
+    "chapter_code": "19",
+    "chapter": "Sound Waves",
+    "name": "Doppler Effect: Reflectors, Wind & Oblique Motion",
+    "covers": "Echo from moving reflector, moving medium, motion at an angle, beats with Doppler",
+    "old_codes": [
+      "1507"
+    ],
+    "syllabus_note": "Removed from JEE Main; still in Advanced",
+    "status": "active"
+  },
+  {
+    "code": "1999",
+    "chapter_code": "19",
+    "chapter": "Sound Waves",
+    "name": "Mixed / Multi-concept",
+    "covers": "Use only when a question needs two or more subtopics of this chapter in comparable weight",
+    "old_codes": [],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "2005",
+    "chapter_code": "20",
+    "chapter": "Thermal Properties of Matter: Thermometry, Expansion & Calorimetry",
+    "name": "Thermometry & Thermal Expansion",
+    "covers": "Temperature scales, faulty thermometers; linear/area/volume expansion, bimetal, clocks, scales, liquids",
+    "old_codes": [
+      "1102",
+      "1101"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "2010",
+    "chapter_code": "20",
+    "chapter": "Thermal Properties of Matter: Thermometry, Expansion & Calorimetry",
+    "name": "Thermal Stress",
+    "covers": "Stress in rods clamped between walls (needs Elasticity)",
+    "old_codes": [
+      "1101"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "2015",
+    "chapter_code": "20",
+    "chapter": "Thermal Properties of Matter: Thermometry, Expansion & Calorimetry",
+    "name": "Specific Heat & Calorimetry",
+    "covers": "Principle of mixtures, water equivalent, heat capacity",
+    "old_codes": [
+      "1102"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "2020",
+    "chapter_code": "20",
+    "chapter": "Thermal Properties of Matter: Thermometry, Expansion & Calorimetry",
+    "name": "Latent Heat & Phase Change",
+    "covers": "Melting/boiling, heating curves, ice–water–steam mixtures",
+    "old_codes": [
+      "1102"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "2099",
+    "chapter_code": "20",
+    "chapter": "Thermal Properties of Matter: Thermometry, Expansion & Calorimetry",
+    "name": "Mixed / Multi-concept",
+    "covers": "Use only when a question needs two or more subtopics of this chapter in comparable weight",
+    "old_codes": [],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "2105",
+    "chapter_code": "21",
+    "chapter": "Heat Transfer",
+    "name": "Conduction: Steady State & Combinations",
+    "covers": "Thermal conductivity, thermal resistance, rods in series/parallel, junction temperature",
+    "old_codes": [
+      "1103"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "2110",
+    "chapter_code": "21",
+    "chapter": "Heat Transfer",
+    "name": "Conduction: Time-Dependent Problems",
+    "covers": "Ice forming on a lake, body cooling/heating through a rod",
+    "old_codes": [
+      "1103"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "2115",
+    "chapter_code": "21",
+    "chapter": "Heat Transfer",
+    "name": "Radiation: Stefan–Boltzmann Law & Emissivity",
+    "covers": "Power radiated, emissivity/absorptivity, Kirchhoff's law, radiative heating/cooling",
+    "old_codes": [
+      "1104"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "2120",
+    "chapter_code": "21",
+    "chapter": "Heat Transfer",
+    "name": "Wien's Displacement Law & Black-Body Spectrum",
+    "covers": "λ_max T = b, black-body spectrum curves, stellar temperatures",
+    "old_codes": [
+      "1104"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "2125",
+    "chapter_code": "21",
+    "chapter": "Heat Transfer",
+    "name": "Newton's Law of Cooling",
+    "covers": "Rate of cooling, average-temperature method, exponential cooling",
+    "old_codes": [
+      "1104"
+    ],
+    "syllabus_note": "Removed from JEE Main; still in Advanced",
+    "status": "active"
+  },
+  {
+    "code": "2199",
+    "chapter_code": "21",
+    "chapter": "Heat Transfer",
+    "name": "Mixed / Multi-concept",
+    "covers": "Use only when a question needs two or more subtopics of this chapter in comparable weight",
+    "old_codes": [],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "2205",
+    "chapter_code": "22",
+    "chapter": "Kinetic Theory of Gases",
+    "name": "Ideal Gas Equation & Gas Laws",
+    "covers": "PV = nRT, gas mixtures, Dalton's law, connected vessels",
+    "old_codes": [
+      "1201"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "2210",
+    "chapter_code": "22",
+    "chapter": "Kinetic Theory of Gases",
+    "name": "Pressure & KE from Kinetic Theory",
+    "covers": "Pressure from molecular motion, KE per molecule, temperature",
+    "old_codes": [
+      "1201"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "2215",
+    "chapter_code": "22",
+    "chapter": "Kinetic Theory of Gases",
+    "name": "Molecular Speeds & Mean Free Path",
+    "covers": "rms, average and most-probable speeds, Maxwell distribution, mean free path",
+    "old_codes": [
+      "1201"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "2220",
+    "chapter_code": "22",
+    "chapter": "Kinetic Theory of Gases",
+    "name": "Degrees of Freedom & Equipartition",
+    "covers": "Mono/di/polyatomic gases, internal energy",
+    "old_codes": [
+      "1201"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "2225",
+    "chapter_code": "22",
+    "chapter": "Kinetic Theory of Gases",
+    "name": "Specific Heats of Gases & Mixtures",
+    "covers": "Cp, Cv, γ for gases and mixtures",
+    "old_codes": [
+      "1201",
+      "1202"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "2299",
+    "chapter_code": "22",
+    "chapter": "Kinetic Theory of Gases",
+    "name": "Mixed / Multi-concept",
+    "covers": "Use only when a question needs two or more subtopics of this chapter in comparable weight",
+    "old_codes": [],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "2305",
+    "chapter_code": "23",
+    "chapter": "Thermodynamics",
+    "name": "First Law & Internal Energy",
+    "covers": "ΔU = Q − W, sign conventions, zeroth law",
+    "old_codes": [
+      "1202"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "2310",
+    "chapter_code": "23",
+    "chapter": "Thermodynamics",
+    "name": "Work by Gas & P–V Diagrams",
+    "covers": "Work as area, reading P–V, V–T, P–T diagrams",
+    "old_codes": [
+      "1202"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "2315",
+    "chapter_code": "23",
+    "chapter": "Thermodynamics",
+    "name": "Isothermal, Isobaric & Isochoric Processes",
+    "covers": "Q, W, ΔU for each process",
+    "old_codes": [
+      "1202"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "2320",
+    "chapter_code": "23",
+    "chapter": "Thermodynamics",
+    "name": "Adiabatic Processes",
+    "covers": "PV^γ = const, work done, comparing adiabatic and isothermal",
+    "old_codes": [
+      "1202"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "2325",
+    "chapter_code": "23",
+    "chapter": "Thermodynamics",
+    "name": "Polytropic & General Processes",
+    "covers": "PV^n processes, molar heat capacity of a process, processes given as P = f(V)",
+    "old_codes": [
+      "1202"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "2330",
+    "chapter_code": "23",
+    "chapter": "Thermodynamics",
+    "name": "Cyclic Processes",
+    "covers": "Net work and heat in cycles, efficiency of a given cycle",
+    "old_codes": [
+      "1203"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "2335",
+    "chapter_code": "23",
+    "chapter": "Thermodynamics",
+    "name": "Heat Engines, Refrigerators & Second Law",
+    "covers": "Carnot engine, COP, second law, entropy",
+    "old_codes": [
+      "1203"
+    ],
+    "syllabus_note": "Carnot: removed from JEE Main",
+    "status": "active"
+  },
+  {
+    "code": "2340",
+    "chapter_code": "23",
+    "chapter": "Thermodynamics",
+    "name": "Gas in Cylinders with Pistons & Springs",
+    "covers": "Mechanical equilibrium of pistons, gas compressed by spring, partitioned containers",
+    "old_codes": [
+      "1202"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "2399",
+    "chapter_code": "23",
+    "chapter": "Thermodynamics",
+    "name": "Mixed / Multi-concept",
+    "covers": "Use only when a question needs two or more subtopics of this chapter in comparable weight",
+    "old_codes": [],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "2405",
+    "chapter_code": "24",
+    "chapter": "Electrostatics – I: Charge, Field & Gauss's Law",
+    "name": "Charge & Coulomb's Law",
+    "covers": "Properties of charge, quantisation, Coulomb force, superposition of forces",
+    "old_codes": [
+      "1601"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "2410",
+    "chapter_code": "24",
+    "chapter": "Electrostatics – I: Charge, Field & Gauss's Law",
+    "name": "Equilibrium of Charges",
+    "covers": "Equilibrium of three charges, hanging charged balls, stability",
+    "old_codes": [
+      "1601"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "2415",
+    "chapter_code": "24",
+    "chapter": "Electrostatics – I: Charge, Field & Gauss's Law",
+    "name": "Electric Field of Point Charges",
+    "covers": "Field from point charges and their combinations, null points",
+    "old_codes": [
+      "1602"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "2420",
+    "chapter_code": "24",
+    "chapter": "Electrostatics – I: Charge, Field & Gauss's Law",
+    "name": "Field of Continuous Distributions",
+    "covers": "Rod, ring, arc, disc, infinite line/sheet by integration",
+    "old_codes": [
+      "1602"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "2425",
+    "chapter_code": "24",
+    "chapter": "Electrostatics – I: Charge, Field & Gauss's Law",
+    "name": "Motion of Charges in Electric Field",
+    "covers": "Acceleration, deflection, projectile-like motion of charges",
+    "old_codes": [
+      "1602"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "2430",
+    "chapter_code": "24",
+    "chapter": "Electrostatics – I: Charge, Field & Gauss's Law",
+    "name": "Field Lines & Electric Flux",
+    "covers": "Field-line properties, flux through surfaces, cube/solid-angle problems",
+    "old_codes": [
+      "1603"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "2435",
+    "chapter_code": "24",
+    "chapter": "Electrostatics – I: Charge, Field & Gauss's Law",
+    "name": "Gauss's Law: Symmetric Distributions",
+    "covers": "Field of sphere, shell, cylinder, plane sheet, non-uniform charge density",
+    "old_codes": [
+      "1603"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "2499",
+    "chapter_code": "24",
+    "chapter": "Electrostatics – I: Charge, Field & Gauss's Law",
+    "name": "Mixed / Multi-concept",
+    "covers": "Use only when a question needs two or more subtopics of this chapter in comparable weight",
+    "old_codes": [],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "2505",
+    "chapter_code": "25",
+    "chapter": "Electrostatics – II: Potential, Dipole & Conductors",
+    "name": "Potential of Point Charges",
+    "covers": "Potential from point charges, zero-potential points",
+    "old_codes": [
+      "1604"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "2510",
+    "chapter_code": "25",
+    "chapter": "Electrostatics – II: Potential, Dipole & Conductors",
+    "name": "Potential of Continuous Distributions",
+    "covers": "Ring, disc, rod, shell, solid sphere",
+    "old_codes": [
+      "1604"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "2515",
+    "chapter_code": "25",
+    "chapter": "Electrostatics – II: Potential, Dipole & Conductors",
+    "name": "Field–Potential Relation & Equipotentials",
+    "covers": "E = −∇V, equipotential surfaces, work along paths",
+    "old_codes": [
+      "1604"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "2520",
+    "chapter_code": "25",
+    "chapter": "Electrostatics – II: Potential, Dipole & Conductors",
+    "name": "Potential Energy & Energy Conservation",
+    "covers": "PE of charge systems, work to assemble, closest approach, charges released from rest",
+    "old_codes": [
+      "1605"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "2525",
+    "chapter_code": "25",
+    "chapter": "Electrostatics – II: Potential, Dipole & Conductors",
+    "name": "Electric Dipole: Field & Potential",
+    "covers": "Axial/equatorial field and potential of a dipole",
+    "old_codes": [
+      "1607"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "2530",
+    "chapter_code": "25",
+    "chapter": "Electrostatics – II: Potential, Dipole & Conductors",
+    "name": "Dipole in External Field",
+    "covers": "Torque, PE, force in non-uniform field, oscillation of dipole",
+    "old_codes": [
+      "1607"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "2535",
+    "chapter_code": "25",
+    "chapter": "Electrostatics – II: Potential, Dipole & Conductors",
+    "name": "Conductors & Electrostatic Shielding",
+    "covers": "Field inside conductors, surface charge, electrostatic pressure, earthing",
+    "old_codes": [
+      "1606"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "2540",
+    "chapter_code": "25",
+    "chapter": "Electrostatics – II: Potential, Dipole & Conductors",
+    "name": "Concentric Shells & Charge Sharing",
+    "covers": "Concentric spheres, connecting/earthing shells, charge redistribution",
+    "old_codes": [
+      "1606"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "2599",
+    "chapter_code": "25",
+    "chapter": "Electrostatics – II: Potential, Dipole & Conductors",
+    "name": "Mixed / Multi-concept",
+    "covers": "Use only when a question needs two or more subtopics of this chapter in comparable weight",
+    "old_codes": [],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "2605",
+    "chapter_code": "26",
+    "chapter": "Capacitors",
+    "name": "Capacitance of Standard Capacitors",
+    "covers": "Parallel-plate, spherical, cylindrical capacitors",
+    "old_codes": [
+      "1701"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "2610",
+    "chapter_code": "26",
+    "chapter": "Capacitors",
+    "name": "Energy, Energy Density & Force between Plates",
+    "covers": "U = Q²/2C, energy density, force between plates",
+    "old_codes": [
+      "1701"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "2615",
+    "chapter_code": "26",
+    "chapter": "Capacitors",
+    "name": "Combinations & Capacitor Networks",
+    "covers": "Series/parallel, bridge networks, Kirchhoff's laws with capacitors",
+    "old_codes": [
+      "1702"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "2620",
+    "chapter_code": "26",
+    "chapter": "Capacitors",
+    "name": "Charge Sharing & Energy Loss",
+    "covers": "Connecting charged capacitors, common potential, heat lost",
+    "old_codes": [
+      "1702"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "2625",
+    "chapter_code": "26",
+    "chapter": "Capacitors",
+    "name": "Dielectrics: Slabs & Partial Filling",
+    "covers": "Capacitance with full/partial/parallel/series dielectric slabs, variable K",
+    "old_codes": [
+      "1703"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "2630",
+    "chapter_code": "26",
+    "chapter": "Capacitors",
+    "name": "Dielectrics: Insertion, Bound Charge & Force",
+    "covers": "Inserting/removing slab with/without battery; changes in Q, V, U; induced charge; force on slab",
+    "old_codes": [
+      "1703"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "2699",
+    "chapter_code": "26",
+    "chapter": "Capacitors",
+    "name": "Mixed / Multi-concept",
+    "covers": "Use only when a question needs two or more subtopics of this chapter in comparable weight",
+    "old_codes": [],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "2705",
+    "chapter_code": "27",
+    "chapter": "Current Electricity",
+    "name": "Current, Drift Velocity & Current Density",
+    "covers": "Drift speed, mobility, current density, charge flow",
+    "old_codes": [
+      "1801"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "2710",
+    "chapter_code": "27",
+    "chapter": "Current Electricity",
+    "name": "Resistance & Resistivity",
+    "covers": "Ohm's law, temperature dependence, stretching wires, non-uniform cross-section",
+    "old_codes": [
+      "1801"
+    ],
+    "syllabus_note": "Colour code: removed from JEE Main",
+    "status": "active"
+  },
+  {
+    "code": "2715",
+    "chapter_code": "27",
+    "chapter": "Current Electricity",
+    "name": "Series & Parallel Resistors",
+    "covers": "Equivalent resistance of series/parallel combinations, bulbs, simple networks",
+    "old_codes": [
+      "1801"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "2720",
+    "chapter_code": "27",
+    "chapter": "Current Electricity",
+    "name": "Symmetric, Bridge & Infinite Networks",
+    "covers": "Symmetry/folding, balanced bridge reduction, infinite ladders, cube networks",
+    "old_codes": [
+      "1801"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "2725",
+    "chapter_code": "27",
+    "chapter": "Current Electricity",
+    "name": "Kirchhoff's Laws",
+    "covers": "KCL/KVL, node and loop analysis",
+    "old_codes": [
+      "1801"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "2730",
+    "chapter_code": "27",
+    "chapter": "Current Electricity",
+    "name": "EMF, Internal Resistance & Cell Combinations",
+    "covers": "Terminal voltage, cells in series/parallel/mixed grouping",
+    "old_codes": [
+      "1801"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "2735",
+    "chapter_code": "27",
+    "chapter": "Current Electricity",
+    "name": "Electrical Power & Heating",
+    "covers": "Joule heating, power in combinations, maximum power transfer, bulbs; thermoelectric & chemical effects (not in syllabus)",
+    "old_codes": [
+      "1802"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "2740",
+    "chapter_code": "27",
+    "chapter": "Current Electricity",
+    "name": "Wheatstone & Meter Bridge",
+    "covers": "Balanced bridge, meter bridge, end corrections, post office box",
+    "old_codes": [
+      "1803"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "2745",
+    "chapter_code": "27",
+    "chapter": "Current Electricity",
+    "name": "Potentiometer",
+    "covers": "Comparison of emfs, internal resistance, potential gradient",
+    "old_codes": [
+      "1804"
+    ],
+    "syllabus_note": "Removed from JEE Main; still in Advanced",
+    "status": "active"
+  },
+  {
+    "code": "2750",
+    "chapter_code": "27",
+    "chapter": "Current Electricity",
+    "name": "Ammeters & Voltmeters",
+    "covers": "Galvanometer conversion with shunt/series resistance; effect of non-ideal meters",
+    "old_codes": [
+      "1806",
+      "1807",
+      "2010"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "2755",
+    "chapter_code": "27",
+    "chapter": "Current Electricity",
+    "name": "RC Circuits",
+    "covers": "Charging/discharging, time constant, steady-state capacitor circuits",
+    "old_codes": [
+      "1805"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "2799",
+    "chapter_code": "27",
+    "chapter": "Current Electricity",
+    "name": "Mixed / Multi-concept",
+    "covers": "Use only when a question needs two or more subtopics of this chapter in comparable weight",
+    "old_codes": [],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "2805",
+    "chapter_code": "28",
+    "chapter": "Moving Charges in Magnetic Field: Force & Torque",
+    "name": "Force on a Moving Charge",
+    "covers": "F = qv × B, direction, work done by magnetic force",
+    "old_codes": [
+      "2001"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "2810",
+    "chapter_code": "28",
+    "chapter": "Moving Charges in Magnetic Field: Force & Torque",
+    "name": "Circular & Helical Motion in Uniform B",
+    "covers": "Radius, period, pitch; charges entering/leaving field regions; cyclotron",
+    "old_codes": [
+      "2001"
+    ],
+    "syllabus_note": "Cyclotron: removed from JEE Main",
+    "status": "active"
+  },
+  {
+    "code": "2815",
+    "chapter_code": "28",
+    "chapter": "Moving Charges in Magnetic Field: Force & Torque",
+    "name": "Combined E and B: Lorentz Force",
+    "covers": "Velocity selector, crossed fields, cycloidal motion",
+    "old_codes": [
+      "2002"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "2820",
+    "chapter_code": "28",
+    "chapter": "Moving Charges in Magnetic Field: Force & Torque",
+    "name": "Force on Current-Carrying Conductors",
+    "covers": "F = IL × B for straight and curved wires",
+    "old_codes": [
+      "2003"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "2825",
+    "chapter_code": "28",
+    "chapter": "Moving Charges in Magnetic Field: Force & Torque",
+    "name": "Torque on Current Loops & Galvanometer",
+    "covers": "Magnetic moment of loops/rotating charges, torque, PE; moving-coil galvanometer sensitivity",
+    "old_codes": [
+      "2007",
+      "2010"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "2899",
+    "chapter_code": "28",
+    "chapter": "Moving Charges in Magnetic Field: Force & Torque",
+    "name": "Mixed / Multi-concept",
+    "covers": "Use only when a question needs two or more subtopics of this chapter in comparable weight",
+    "old_codes": [],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "2905",
+    "chapter_code": "29",
+    "chapter": "Magnetic Field due to Currents",
+    "name": "Biot–Savart Law: Straight Wires",
+    "covers": "Finite and infinite straight wires",
+    "old_codes": [
+      "2004"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "2910",
+    "chapter_code": "29",
+    "chapter": "Magnetic Field due to Currents",
+    "name": "Circular Loops & Arcs",
+    "covers": "Field at centre and on axis of loops and arcs",
+    "old_codes": [
+      "2004"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "2915",
+    "chapter_code": "29",
+    "chapter": "Magnetic Field due to Currents",
+    "name": "Combinations & Rotating Charges",
+    "covers": "Wires + arcs + loops combined; field due to rotating ring/disc",
+    "old_codes": [
+      "2004"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "2920",
+    "chapter_code": "29",
+    "chapter": "Magnetic Field due to Currents",
+    "name": "Ampere's Law",
+    "covers": "Thick wires, hollow cylinders, current sheets",
+    "old_codes": [
+      "2005"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "2925",
+    "chapter_code": "29",
+    "chapter": "Magnetic Field due to Currents",
+    "name": "Solenoid & Toroid",
+    "covers": "Field inside solenoid and toroid",
+    "old_codes": [
+      "2005"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "2930",
+    "chapter_code": "29",
+    "chapter": "Magnetic Field due to Currents",
+    "name": "Force between Currents & on Charges near Wires",
+    "covers": "Parallel wires, wire–loop forces, charge moving near a wire",
+    "old_codes": [
+      "2006"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "2999",
+    "chapter_code": "29",
+    "chapter": "Magnetic Field due to Currents",
+    "name": "Mixed / Multi-concept",
+    "covers": "Use only when a question needs two or more subtopics of this chapter in comparable weight",
+    "old_codes": [],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "3005",
+    "chapter_code": "30",
+    "chapter": "Magnetism & Matter",
+    "name": "Bar Magnet & Magnetic Dipole Field",
+    "covers": "Bar magnet as solenoid, axial/equatorial field",
+    "old_codes": [
+      "2007",
+      "2008"
+    ],
+    "syllabus_note": "JEE Main only (not in Advanced)",
+    "status": "active"
+  },
+  {
+    "code": "3010",
+    "chapter_code": "30",
+    "chapter": "Magnetism & Matter",
+    "name": "Magnetic Dipole in Fields; Earth's Magnetism",
+    "covers": "Torque, PE and oscillation of magnets; Earth's magnetic elements, dip, neutral points",
+    "old_codes": [
+      "2007",
+      "2009"
+    ],
+    "syllabus_note": "Earth's magnetism: not in current syllabi",
+    "status": "active"
+  },
+  {
+    "code": "3015",
+    "chapter_code": "30",
+    "chapter": "Magnetism & Matter",
+    "name": "Magnetic Properties of Materials",
+    "covers": "Magnetisation, H, susceptibility, permeability; dia-, para-, ferromagnetism; Curie law; hysteresis",
+    "old_codes": [
+      "2008"
+    ],
+    "syllabus_note": "Main only; susceptibility, permeability, hysteresis removed from Main",
+    "status": "active"
+  },
+  {
+    "code": "3099",
+    "chapter_code": "30",
+    "chapter": "Magnetism & Matter",
+    "name": "Mixed / Multi-concept",
+    "covers": "Use only when a question needs two or more subtopics of this chapter in comparable weight",
+    "old_codes": [],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "3105",
+    "chapter_code": "31",
+    "chapter": "Electromagnetic Induction",
+    "name": "Flux, Faraday's & Lenz's Laws",
+    "covers": "Induced emf, current and charge for changing flux; direction by Lenz",
+    "old_codes": [
+      "2201"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "3110",
+    "chapter_code": "31",
+    "chapter": "Electromagnetic Induction",
+    "name": "Motional EMF: Sliding Rods",
+    "covers": "Rods on rails with resistors/capacitors, forces, terminal velocity",
+    "old_codes": [
+      "2202"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "3115",
+    "chapter_code": "31",
+    "chapter": "Electromagnetic Induction",
+    "name": "Motional EMF: Rotating Rods, Discs & Loops",
+    "covers": "Rotating rod/disc, rotating coil (AC generator), arbitrary shaped conductors",
+    "old_codes": [
+      "2202"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "3120",
+    "chapter_code": "31",
+    "chapter": "Electromagnetic Induction",
+    "name": "Induced Electric Field",
+    "covers": "Non-conservative E from time-varying B, eddy currents",
+    "old_codes": [
+      "2203"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "3125",
+    "chapter_code": "31",
+    "chapter": "Electromagnetic Induction",
+    "name": "Self-Inductance & Energy in Inductor",
+    "covers": "L of solenoid, ½LI², energy density",
+    "old_codes": [
+      "2204"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "3130",
+    "chapter_code": "31",
+    "chapter": "Electromagnetic Induction",
+    "name": "Mutual Inductance",
+    "covers": "M between coils, coefficient of coupling",
+    "old_codes": [
+      "2205"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "3135",
+    "chapter_code": "31",
+    "chapter": "Electromagnetic Induction",
+    "name": "L–R Circuits",
+    "covers": "Growth and decay of current, time constant",
+    "old_codes": [
+      "2206"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "3140",
+    "chapter_code": "31",
+    "chapter": "Electromagnetic Induction",
+    "name": "LC Oscillations",
+    "covers": "Charge/current oscillation, energy exchange",
+    "old_codes": [
+      "2207"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "3199",
+    "chapter_code": "31",
+    "chapter": "Electromagnetic Induction",
+    "name": "Mixed / Multi-concept",
+    "covers": "Use only when a question needs two or more subtopics of this chapter in comparable weight",
+    "old_codes": [],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "3205",
+    "chapter_code": "32",
+    "chapter": "Alternating Current",
+    "name": "AC Basics: Peak, RMS & Average",
+    "covers": "rms and average of AC and other waveforms",
+    "old_codes": [
+      "2301"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "3210",
+    "chapter_code": "32",
+    "chapter": "Alternating Current",
+    "name": "Pure R, L, C Circuits & Phasors",
+    "covers": "Reactance, phase relations, phasor diagrams",
+    "old_codes": [
+      "2301"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "3215",
+    "chapter_code": "32",
+    "chapter": "Alternating Current",
+    "name": "LCR Circuits: Series & Parallel",
+    "covers": "Impedance and phase in series LR/RC/LCR; parallel LC/LCR combinations",
+    "old_codes": [
+      "2208",
+      "2301",
+      "2302"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "3220",
+    "chapter_code": "32",
+    "chapter": "Alternating Current",
+    "name": "Resonance, Q-Factor & Bandwidth",
+    "covers": "Resonant frequency, sharpness of resonance",
+    "old_codes": [
+      "2301"
+    ],
+    "syllabus_note": "Q-factor: removed from JEE Main",
+    "status": "active"
+  },
+  {
+    "code": "3225",
+    "chapter_code": "32",
+    "chapter": "Alternating Current",
+    "name": "Power in AC Circuits",
+    "covers": "Average power, power factor, wattless current, choke coil",
+    "old_codes": [
+      "2301"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "3230",
+    "chapter_code": "32",
+    "chapter": "Alternating Current",
+    "name": "Transformers",
+    "covers": "Turns ratio, efficiency, losses, power transmission",
+    "old_codes": [],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "3299",
+    "chapter_code": "32",
+    "chapter": "Alternating Current",
+    "name": "Mixed / Multi-concept",
+    "covers": "Use only when a question needs two or more subtopics of this chapter in comparable weight",
+    "old_codes": [],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "3305",
+    "chapter_code": "33",
+    "chapter": "Electromagnetic Waves",
+    "name": "EM Wave Properties & Displacement Current",
+    "covers": "Displacement current, E–B relation, direction of propagation, speed in media",
+    "old_codes": [
+      "2303"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "3310",
+    "chapter_code": "33",
+    "chapter": "Electromagnetic Waves",
+    "name": "Energy, Intensity & Radiation Pressure",
+    "covers": "Energy density, intensity, momentum and pressure of EM waves",
+    "old_codes": [
+      "2303"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "3315",
+    "chapter_code": "33",
+    "chapter": "Electromagnetic Waves",
+    "name": "Electromagnetic Spectrum",
+    "covers": "Bands, sources and uses",
+    "old_codes": [
+      "2303"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "3399",
+    "chapter_code": "33",
+    "chapter": "Electromagnetic Waves",
+    "name": "Mixed / Multi-concept",
+    "covers": "Use only when a question needs two or more subtopics of this chapter in comparable weight",
+    "old_codes": [],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "3405",
+    "chapter_code": "34",
+    "chapter": "Ray Optics – I: Reflection & Refraction at Surfaces",
+    "name": "Plane Mirrors",
+    "covers": "Image formation, field of view, inclined mirrors, rotation and motion of mirrors",
+    "old_codes": [
+      "2501"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "3410",
+    "chapter_code": "34",
+    "chapter": "Ray Optics – I: Reflection & Refraction at Surfaces",
+    "name": "Spherical Mirrors: Formula & Magnification",
+    "covers": "Mirror formula, image nature, transverse magnification",
+    "old_codes": [
+      "2502"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "3415",
+    "chapter_code": "34",
+    "chapter": "Ray Optics – I: Reflection & Refraction at Surfaces",
+    "name": "Spherical Mirrors: Moving Objects & Extended Images",
+    "covers": "Image velocity, longitudinal magnification, images of rods",
+    "old_codes": [
+      "2502"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "3420",
+    "chapter_code": "34",
+    "chapter": "Ray Optics – I: Reflection & Refraction at Surfaces",
+    "name": "Refraction at Plane Surfaces",
+    "covers": "Snell's law, apparent depth, glass slabs, lateral shift",
+    "old_codes": [
+      "2503"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "3425",
+    "chapter_code": "34",
+    "chapter": "Ray Optics – I: Reflection & Refraction at Surfaces",
+    "name": "Total Internal Reflection",
+    "covers": "Critical angle, optical fibres, circle of illumination",
+    "old_codes": [
+      "2504"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "3430",
+    "chapter_code": "34",
+    "chapter": "Ray Optics – I: Reflection & Refraction at Surfaces",
+    "name": "Refraction at a Single Spherical Surface",
+    "covers": "Refraction formula, glass spheres, bubbles in glass",
+    "old_codes": [
+      "2506"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "3499",
+    "chapter_code": "34",
+    "chapter": "Ray Optics – I: Reflection & Refraction at Surfaces",
+    "name": "Mixed / Multi-concept",
+    "covers": "Use only when a question needs two or more subtopics of this chapter in comparable weight",
+    "old_codes": [],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "3505",
+    "chapter_code": "35",
+    "chapter": "Ray Optics – II: Lenses, Prisms & Optical Instruments",
+    "name": "Thin Lens & Lens Maker's Formula; Power",
+    "covers": "Lens formula, lens maker's formula, lens in a different medium, cut lenses",
+    "old_codes": [
+      "2507"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "3510",
+    "chapter_code": "35",
+    "chapter": "Ray Optics – II: Lenses, Prisms & Optical Instruments",
+    "name": "Image Formation by Lenses",
+    "covers": "Magnification, displacement method, image of moving objects",
+    "old_codes": [
+      "2508"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "3515",
+    "chapter_code": "35",
+    "chapter": "Ray Optics – II: Lenses, Prisms & Optical Instruments",
+    "name": "Lens Combinations",
+    "covers": "Lenses in contact and separated",
+    "old_codes": [
+      "2509"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "3520",
+    "chapter_code": "35",
+    "chapter": "Ray Optics – II: Lenses, Prisms & Optical Instruments",
+    "name": "Lens–Mirror Systems & Silvered Lenses",
+    "covers": "Combinations of lenses with mirrors, silvered lens as mirror",
+    "old_codes": [
+      "2509"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "3525",
+    "chapter_code": "35",
+    "chapter": "Ray Optics – II: Lenses, Prisms & Optical Instruments",
+    "name": "Prism: Deviation & Minimum Deviation",
+    "covers": "Angle of deviation, minimum deviation, grazing emergence",
+    "old_codes": [
+      "2505"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "3530",
+    "chapter_code": "35",
+    "chapter": "Ray Optics – II: Lenses, Prisms & Optical Instruments",
+    "name": "Dispersion, Thin Prisms & Achromatism",
+    "covers": "Angular dispersion, dispersive power, achromatic/direct-vision combinations, scattering",
+    "old_codes": [
+      "2505"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "3535",
+    "chapter_code": "35",
+    "chapter": "Ray Optics – II: Lenses, Prisms & Optical Instruments",
+    "name": "Human Eye, Microscopes & Telescopes",
+    "covers": "Defects of vision; magnifying power of microscopes and telescopes",
+    "old_codes": [
+      "2510"
+    ],
+    "syllabus_note": "Resolving power: removed from JEE Main",
+    "status": "active"
+  },
+  {
+    "code": "3599",
+    "chapter_code": "35",
+    "chapter": "Ray Optics – II: Lenses, Prisms & Optical Instruments",
+    "name": "Mixed / Multi-concept",
+    "covers": "Use only when a question needs two or more subtopics of this chapter in comparable weight",
+    "old_codes": [],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "3605",
+    "chapter_code": "36",
+    "chapter": "Wave Optics",
+    "name": "Wavefronts, Coherence & Interference Intensity",
+    "covers": "Huygens' principle, coherent sources, resultant intensity, I_max/I_min",
+    "old_codes": [
+      "2601"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "3610",
+    "chapter_code": "36",
+    "chapter": "Wave Optics",
+    "name": "YDSE: Fringe Width & Positions",
+    "covers": "Fringe width, position of maxima/minima",
+    "old_codes": [
+      "2601"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "3615",
+    "chapter_code": "36",
+    "chapter": "Wave Optics",
+    "name": "YDSE: Slab in Path, Medium & Oblique Incidence",
+    "covers": "Fringe shift by thin slab, setup immersed in liquid, oblique incidence, source shifted",
+    "old_codes": [
+      "2601"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "3620",
+    "chapter_code": "36",
+    "chapter": "Wave Optics",
+    "name": "YDSE: Polychromatic Light & Coinciding Fringes",
+    "covers": "Two wavelengths/white light, first coincidence of bright/dark fringes, missing wavelengths",
+    "old_codes": [
+      "2601"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "3625",
+    "chapter_code": "36",
+    "chapter": "Wave Optics",
+    "name": "Thin-Film Interference",
+    "covers": "Soap films, oil films, anti-reflection coatings",
+    "old_codes": [
+      "2601"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "3630",
+    "chapter_code": "36",
+    "chapter": "Wave Optics",
+    "name": "Diffraction: Single Slit & Resolving Power",
+    "covers": "Single-slit minima/maxima, width of central maximum, resolution limit",
+    "old_codes": [
+      "2602"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "3635",
+    "chapter_code": "36",
+    "chapter": "Wave Optics",
+    "name": "Polarisation",
+    "covers": "Malus' law, Brewster's angle, polaroids",
+    "old_codes": [
+      "2603"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "3699",
+    "chapter_code": "36",
+    "chapter": "Wave Optics",
+    "name": "Mixed / Multi-concept",
+    "covers": "Use only when a question needs two or more subtopics of this chapter in comparable weight",
+    "old_codes": [],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "3705",
+    "chapter_code": "37",
+    "chapter": "Dual Nature of Radiation & Matter",
+    "name": "Photons: Energy, Momentum & Number",
+    "covers": "Photon energy/momentum, number of photons from power, force due to light",
+    "old_codes": [
+      "2701",
+      "2706"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "3710",
+    "chapter_code": "37",
+    "chapter": "Dual Nature of Radiation & Matter",
+    "name": "Photoelectric Effect: Einstein's Equation",
+    "covers": "Work function, threshold, stopping potential, maximum KE",
+    "old_codes": [
+      "2704"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "3715",
+    "chapter_code": "37",
+    "chapter": "Dual Nature of Radiation & Matter",
+    "name": "Photoelectric Graphs & Photocurrent",
+    "covers": "I–V, V₀–ν graphs, two materials, saturation current, number of electrons, efficiency",
+    "old_codes": [
+      "2704",
+      "2705",
+      "2706"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "3720",
+    "chapter_code": "37",
+    "chapter": "Dual Nature of Radiation & Matter",
+    "name": "de Broglie Wavelength",
+    "covers": "λ of electrons, protons, accelerated particles, thermal neutrons; Davisson–Germer",
+    "old_codes": [
+      "2702"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "3799",
+    "chapter_code": "37",
+    "chapter": "Dual Nature of Radiation & Matter",
+    "name": "Mixed / Multi-concept",
+    "covers": "Use only when a question needs two or more subtopics of this chapter in comparable weight",
+    "old_codes": [
+      "2703"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "3805",
+    "chapter_code": "38",
+    "chapter": "Atomic Physics & X-rays",
+    "name": "Rutherford Scattering & Closest Approach",
+    "covers": "Alpha scattering, distance of closest approach, impact parameter",
+    "old_codes": [
+      "2803"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "3810",
+    "chapter_code": "38",
+    "chapter": "Atomic Physics & X-rays",
+    "name": "Bohr Model: Radius, Speed & Energy",
+    "covers": "Orbit radius, speed, energy, frequency for H-like atoms",
+    "old_codes": [
+      "2801"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "3815",
+    "chapter_code": "38",
+    "chapter": "Atomic Physics & X-rays",
+    "name": "Spectral Transitions, Excitation & Recoil",
+    "covers": "Series, wavelengths, number of lines, excitation by collision, recoil on emission",
+    "old_codes": [
+      "2801",
+      "2803"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "3820",
+    "chapter_code": "38",
+    "chapter": "Atomic Physics & X-rays",
+    "name": "Hypothetical & Modified Bohr Atoms",
+    "covers": "Muonic atoms, positronium, different force laws, reduced mass",
+    "old_codes": [
+      "2802"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "3825",
+    "chapter_code": "38",
+    "chapter": "Atomic Physics & X-rays",
+    "name": "X-rays: Continuous & Characteristic",
+    "covers": "Cut-off wavelength, Kα/Kβ lines, Moseley's law",
+    "old_codes": [
+      "2707"
+    ],
+    "syllabus_note": "JEE Advanced only",
+    "status": "active"
+  },
+  {
+    "code": "3899",
+    "chapter_code": "38",
+    "chapter": "Atomic Physics & X-rays",
+    "name": "Mixed / Multi-concept",
+    "covers": "Use only when a question needs two or more subtopics of this chapter in comparable weight",
+    "old_codes": [
+      "2803"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "3905",
+    "chapter_code": "39",
+    "chapter": "Nuclear Physics",
+    "name": "Nuclear Size, Mass Defect & Binding Energy",
+    "covers": "Nuclear radius, density, mass defect, BE per nucleon curve",
+    "old_codes": [
+      "2801 (Nuclear)"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "3910",
+    "chapter_code": "39",
+    "chapter": "Nuclear Physics",
+    "name": "Nuclear Reactions & Q-Value",
+    "covers": "Q-value, energy released, conservation laws in reactions",
+    "old_codes": [
+      "2801 (Nuclear)"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "3915",
+    "chapter_code": "39",
+    "chapter": "Nuclear Physics",
+    "name": "Radioactive Decay Law & Successive Decay",
+    "covers": "Half-life, mean life, activity; parent–daughter chains, production at a constant rate",
+    "old_codes": [
+      "2801 (Nuclear)"
+    ],
+    "syllabus_note": "Removed from JEE Main; still in Advanced",
+    "status": "active"
+  },
+  {
+    "code": "3920",
+    "chapter_code": "39",
+    "chapter": "Nuclear Physics",
+    "name": "Alpha, Beta & Gamma Decay",
+    "covers": "Decay modes, energy sharing and recoil in decay",
+    "old_codes": [
+      "2801 (Nuclear)"
+    ],
+    "syllabus_note": "Removed from JEE Main; still in Advanced",
+    "status": "active"
+  },
+  {
+    "code": "3925",
+    "chapter_code": "39",
+    "chapter": "Nuclear Physics",
+    "name": "Fission & Fusion",
+    "covers": "Energy from fission/fusion, chain reaction, reactors",
+    "old_codes": [
+      "2801 (Nuclear)"
+    ],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "3999",
+    "chapter_code": "39",
+    "chapter": "Nuclear Physics",
+    "name": "Mixed / Multi-concept",
+    "covers": "Use only when a question needs two or more subtopics of this chapter in comparable weight",
+    "old_codes": [],
+    "syllabus_note": null,
+    "status": "active"
+  },
+  {
+    "code": "4005",
+    "chapter_code": "40",
+    "chapter": "Semiconductor Electronics & Communication Systems",
+    "name": "Energy Bands & Semiconductors",
+    "covers": "Band theory, intrinsic/extrinsic semiconductors, carrier concentration",
+    "old_codes": [
+      "2901"
+    ],
+    "syllabus_note": "JEE Main only (not in Advanced)",
+    "status": "active"
+  },
+  {
+    "code": "4010",
+    "chapter_code": "40",
+    "chapter": "Semiconductor Electronics & Communication Systems",
+    "name": "p–n Junction Diode & Rectifiers",
+    "covers": "Biasing, I–V characteristics, half/full-wave rectifiers, diode circuits",
+    "old_codes": [
+      "2901"
+    ],
+    "syllabus_note": "JEE Main only (not in Advanced)",
+    "status": "active"
+  },
+  {
+    "code": "4015",
+    "chapter_code": "40",
+    "chapter": "Semiconductor Electronics & Communication Systems",
+    "name": "Zener & Special-Purpose Diodes",
+    "covers": "Zener regulator, LED, photodiode, solar cell",
+    "old_codes": [
+      "2902"
+    ],
+    "syllabus_note": "JEE Main only (not in Advanced)",
+    "status": "active"
+  },
+  {
+    "code": "4020",
+    "chapter_code": "40",
+    "chapter": "Semiconductor Electronics & Communication Systems",
+    "name": "Transistors",
+    "covers": "Configurations, current gains, amplifier, switch",
+    "old_codes": [
+      "2903"
+    ],
+    "syllabus_note": "Not in current Main or Advanced syllabus",
+    "status": "active"
+  },
+  {
+    "code": "4025",
+    "chapter_code": "40",
+    "chapter": "Semiconductor Electronics & Communication Systems",
+    "name": "Logic Gates",
+    "covers": "Truth tables, combinations of gates, NAND/NOR as universal",
+    "old_codes": [
+      "2904"
+    ],
+    "syllabus_note": "JEE Main only (not in Advanced)",
+    "status": "active"
+  },
+  {
+    "code": "4030",
+    "chapter_code": "40",
+    "chapter": "Semiconductor Electronics & Communication Systems",
+    "name": "Communication Systems",
+    "covers": "Propagation modes, antenna, modulation, bandwidth",
+    "old_codes": [
+      "2905"
+    ],
+    "syllabus_note": "Not in current Main or Advanced syllabus",
+    "status": "active"
+  },
+  {
+    "code": "4099",
+    "chapter_code": "40",
+    "chapter": "Semiconductor Electronics & Communication Systems",
+    "name": "Mixed / Multi-concept",
+    "covers": "Use only when a question needs two or more subtopics of this chapter in comparable weight",
+    "old_codes": [],
+    "syllabus_note": null,
+    "status": "active"
+  }
 ]

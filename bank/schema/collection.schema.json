@@ -10,7 +10,7 @@
     "id": {"type": "string", "pattern": "^[A-Za-z0-9_-]+$"},
     "kind": {"enum": ["worksheet", "past-paper", "curated"]},
     "title": {"type": "string"},
-    "chapter_code": {"type": ["integer", "null"]},
+    "chapter_code": {"type": ["string", "null"], "pattern": "^\\d{2}$"},
     "note": {"type": ["string", "null"]},
     "source_file": {"type": ["string", "null"]},
     "sections": {
@@ -20,7 +20,7 @@
         "additionalProperties": false,
         "required": ["title", "problems"],
         "properties": {
-          "topic_code": {"type": ["integer", "null"]},
+          "topic_code": {"type": ["string", "null"], "pattern": "^\\d{4}$"},
           "title": {"type": "string"},
           "problems": {"type": "array", "items": {"type": "string", "pattern": "^P\\d{6}$"}}
         }

@@ -182,6 +182,7 @@ for line in body.splitlines():
         finish(q); q = None
         title = unescape(line[3:])
         code = tmap["sections"].get(title)
+        if code is not None: code = str(code).zfill(4)
         if code is None: block(f"Section '{title}' is not in the topic map {args.topic_map}")
         section = {"title": title, "topic_code": code}
         sections.append(section); continue
@@ -202,6 +203,7 @@ prov = []
 for s in sections:
     if s["topic_code"] is not None and s["topic_code"] not in topics: block(f"Topic code {s['topic_code']} ('{s['title']}') is not in bank/topics.json")
     elif s["topic_code"] in topics and topics[s["topic_code"]]["status"] == "provisional": prov.append(str(s["topic_code"]))
+    elif s["topic_code"] in topics and topics[s["topic_code"]]["status"] != "active": block(f"Topic code {s['topic_code']} ('{s['title']}') is {topics[s['topic_code']]['status']}")
 if prov: warn(f"Topic codes {', '.join(prov)} are provisional until the TopicCode_v2 list is loaded")
 no_src = [f"Q{x['n']}" for x in questions if not x["sources"]]
 no_lvl = [f"Q{x['n']}" for x in questions if not x["level"]]

@@ -2,12 +2,12 @@
   "id": "17SHM",
   "kind": "worksheet",
   "title": "Oscillations: Simple Harmonic Motion",
-  "chapter_code": 17,
+  "chapter_code": "17",
   "note": "Take g = 10 m/s² unless stated otherwise.",
   "source_file": "17SHM_v6.docx",
   "sections": [
     {
-      "topic_code": 1701,
+      "topic_code": "1705",
       "title": "SHM Equation, Phase & Reference Circle",
       "problems": [
         "P000001",
@@ -30,7 +30,7 @@
       ]
     },
     {
-      "topic_code": 1702,
+      "topic_code": "1710",
       "title": "Velocity & Acceleration in SHM; Graphs",
       "problems": [
         "P000018",
@@ -48,7 +48,7 @@
       ]
     },
     {
-      "topic_code": 1703,
+      "topic_code": "1715",
       "title": "Energy in SHM",
       "problems": [
         "P000030",
@@ -59,7 +59,7 @@
       ]
     },
     {
-      "topic_code": 1704,
+      "topic_code": "1720",
       "title": "Spring–Mass Systems",
       "problems": [
         "P000035",
@@ -86,7 +86,7 @@
       ]
     },
     {
-      "topic_code": 1705,
+      "topic_code": "1725",
       "title": "Simple Pendulum",
       "problems": [
         "P000056",
@@ -104,7 +104,7 @@
       ]
     },
     {
-      "topic_code": 1706,
+      "topic_code": "1730",
       "title": "Physical, Compound & Torsional Pendulums",
       "problems": [
         "P000068",
@@ -113,7 +113,7 @@
       ]
     },
     {
-      "topic_code": 1707,
+      "topic_code": "1735",
       "title": "Other SHM Systems",
       "problems": [
         "P000071",
@@ -122,7 +122,7 @@
       ]
     },
     {
-      "topic_code": 1708,
+      "topic_code": "1740",
       "title": "Superposition, Damped & Forced Oscillations",
       "problems": [
         "P000074",
