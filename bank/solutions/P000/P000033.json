@@ -1,0 +1,35 @@
+{
+  "id": "P000033",
+  "problem_version": 2,
+  "status": "ai_solved",
+  "hints": [
+    "At $t = 0$ the particle is at equilibrium. Is its kinetic energy there a maximum or zero?",
+    "Kinetic energy is zero at the extremes. How long after leaving equilibrium does the particle first reach an extreme?"
+  ],
+  "worded": "At equilibrium the particle moves fastest, so the graph must start at its maximum, not at zero; that rules out (A) and (B). The particle reaches an extreme, where kinetic energy is zero, a quarter period later at $\\frac{T}{4}$, and the other extreme at $\\frac{3T}{4}$. So kinetic energy repeats every half period, with zeros at $\\frac{T}{4}$ and $\\frac{3T}{4}$. Answer: (C).",
+  "conventional": "Starting from equilibrium, $x = A\\sin\\omega t$ and $v = A\\omega\\cos\\omega t$, so\n\n$$K = \\frac{1}{2}mA^2\\omega^2\\cos^2\\omega t = \\frac{E}{2}\\left(1 + \\cos 2\\omega t\\right)$$\n\nAt $t = 0$, $K = E$, its maximum.\n\n$K = 0$ when $\\cos\\omega t = 0$, that is at $\\omega t = \\frac{\\pi}{2}$ and $\\frac{3\\pi}{2}$, so at $t = \\frac{T}{4}$ and $\\frac{3T}{4}$.\n\nThe $\\cos 2\\omega t$ term shows that kinetic energy repeats every $\\frac{T}{2}$.\n\n**Answer:** (C)",
+  "mistakes": [
+    "Graph (D) starts correctly but repeats once per oscillation; kinetic energy repeats twice per oscillation, every $\\frac{T}{2}$."
+  ],
+  "distractors": {
+    "A": "Starts from an extreme, and repeats every T instead of T/2",
+    "B": "Correct repeat time, but starts from an extreme",
+    "D": "Starts at equilibrium, but repeats every T instead of T/2"
+  },
+  "extension": null,
+  "check": {
+    "solved_answer": "C",
+    "resolve_answer": null,
+    "agrees_with_key": true,
+    "issues": [
+      "The answer key was seen before solving (during a page test), so this check is not blind."
+    ]
+  },
+  "generated_by": {
+    "author": "llm",
+    "model": "claude-opus-5-5",
+    "prompt_version": "sw-v1",
+    "date": "2026-11-08"
+  },
+  "reviewed_by": null
+}

@@ -1,24 +1,30 @@
 {
   "id": "P000033",
-  "status": "imported",
-  "version": 1,
+  "status": "ai_solved",
+  "version": 2,
   "type": "mcq_single",
   "topic_code": "1715",
   "concepts": [],
   "exams": [
-    "JEE Main"
+    "JEE Main",
+    "NEET"
   ],
   "difficulty": {
     "worksheet": null,
-    "ai": null,
-    "ai_scores": null,
-    "ai_reason": null,
-    "ai_confidence": null,
+    "ai": 2,
+    "ai_scores": {
+      "concepts": 1,
+      "steps": 1,
+      "maths": 1,
+      "insight": 2
+    },
+    "ai_reason": "Graph reasoning: where kinetic energy starts, and that it repeats every half period.",
+    "ai_confidence": 0.75,
     "expert": null
   },
-  "time_estimate_s": null,
+  "time_estimate_s": 60,
   "passage_id": null,
-  "stem": "A particle is executing simple harmonic motion with a time period T. At time t=0, it is at its position of equilibrium. The kinetic energy–time graph of the particle will look like:",
+  "stem": "A particle is executing simple harmonic motion with a time period $T$. At time $t = 0$, it is at its position of equilibrium. The kinetic energy–time graph of the particle will look like:",
   "options": {
     "A": "![](asset:P000033-opt-A)",
     "B": "![](asset:P000033-opt-B)",

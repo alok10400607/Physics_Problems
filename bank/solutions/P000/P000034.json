@@ -1,0 +1,33 @@
+{
+  "id": "P000034",
+  "problem_version": 1,
+  "status": "ai_solved",
+  "hints": [
+    "Read the displacement $y$ at each of the times named in the options.",
+    "Force and acceleration are proportional to $-y$, potential energy to $y^2$, and the speed is greatest where $y = 0$."
+  ],
+  "worded": "Check each option against the displacement at that moment. At $\\frac{3T}{4}$ the particle is at an extreme, where the restoring force is largest, not zero. At $\\frac{T}{2}$ it passes through the mean position, where it moves fastest, so (B) is true. At $T$ it is again at the mean position, where acceleration is zero, not maximum. At $\\frac{T}{2}$ the potential energy is zero, not equal to the total energy. Answer: (B).",
+  "conventional": "From the graph, $y = A\\sin\\frac{2\\pi t}{T}$, so $F = -ky$, $a = -\\omega^2 y$ and $U = \\frac{1}{2}ky^2$.\n\n- At $t = \\frac{3T}{4}$: $y = -A$, so $F = kA$, its maximum. (A) is false.\n- At $t = \\frac{T}{2}$: $y = 0$, so the speed is $A\\omega$, its maximum. (B) is true.\n- At $t = T$: $y = 0$, so $a = 0$. (C) is false.\n- At $t = \\frac{T}{2}$: $y = 0$, so $U = 0$, not the total energy. (D) is false.\n\n**Answer:** (B)",
+  "mistakes": [
+    "Mixing up where quantities peak: force and acceleration are largest at the extremes, velocity at the mean position."
+  ],
+  "distractors": {
+    "A": "Force is zero at the mean position, not at the extreme",
+    "C": "Acceleration is greatest at the extremes, not at the mean position",
+    "D": "At the mean position all the energy is kinetic"
+  },
+  "extension": null,
+  "check": {
+    "solved_answer": "B",
+    "resolve_answer": null,
+    "agrees_with_key": true,
+    "issues": []
+  },
+  "generated_by": {
+    "author": "llm",
+    "model": "claude-opus-5-5",
+    "prompt_version": "sw-v1",
+    "date": "2026-11-08"
+  },
+  "reviewed_by": null
+}

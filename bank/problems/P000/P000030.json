@@ -1,29 +1,35 @@
 {
   "id": "P000030",
-  "status": "imported",
-  "version": 1,
+  "status": "ai_solved",
+  "version": 2,
   "type": "mcq_single",
   "topic_code": "1715",
   "concepts": [],
   "exams": [
-    "JEE Main"
+    "JEE Main",
+    "NEET"
   ],
   "difficulty": {
     "worksheet": null,
-    "ai": null,
-    "ai_scores": null,
-    "ai_reason": null,
-    "ai_confidence": null,
+    "ai": 2,
+    "ai_scores": {
+      "concepts": 1,
+      "steps": 1,
+      "maths": 1,
+      "insight": 1
+    },
+    "ai_reason": "One idea: equal energies means each is half the total; one line of algebra.",
+    "ai_confidence": 0.8,
     "expert": null
   },
-  "time_estimate_s": null,
+  "time_estimate_s": 45,
   "passage_id": null,
-  "stem": "A particle is executing simple harmonic motion (SHM) of amplitude A, along the x-axis, about x = 0. When its potential energy (PE) equals kinetic energy (KE), the position of the particle will be:",
+  "stem": "A particle is executing simple harmonic motion (SHM) of amplitude $A$, along the $x$-axis, about $x = 0$. When its potential energy (PE) equals kinetic energy (KE), the position of the particle will be:",
   "options": {
-    "A": "A/2",
-    "B": "A/2$\\sqrt{2}$",
-    "C": "A/$\\sqrt{2}$",
-    "D": "A"
+    "A": "$\\frac{A}{2}$",
+    "B": "$\\frac{A}{2\\sqrt{2}}$",
+    "C": "$\\frac{A}{\\sqrt{2}}$",
+    "D": "$A$"
   },
   "answer": {
     "keys": [
@@ -48,7 +54,7 @@
   ],
   "assets": [],
   "rights": "past-paper",
-  "content_hash": "9afbd36ce8580ea2",
+  "content_hash": "2d14dafa7da84f73",
   "duplicate_of": null,
   "variant_of": null,
   "created": "2026-11-08",
