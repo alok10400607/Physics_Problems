@@ -31,3 +31,22 @@ At the start of a question, in square brackets, in any order:
 - Level: `[L1]` to `[L6]`
 - Source: `[JEE Main 2014, 12 Apr (Online)]`, `[JEE Main 2015 (Offline)]`, `[JEE Main 2019, 10 Jan, Shift 2]`, `[AIEEE 2007]`, `[IIT-JEE 2011]`, `[NEET 2023]`
 - After the first import, the regenerated worksheet carries each question's ID: `[P000214]`. Re-importing uses it to update the right problem.
+
+## CSV question lists
+
+What a `.csv` must contain (checked by `tools/import_csv.py --check`).
+
+**Blocking:**
+1. **Columns.** Question, Option A, Option B, Option C, Option D, Answer and Topic Code are present (header names, any order).
+2. **Answers.** Every row has an answer: a letter A–D, or several letters (AD) for multi-correct questions.
+3. **Topic codes.** A TopicCode_v2 code (e.g. 0211), or an old code that maps to exactly one new code. Old codes that split into several new codes need a choice per question (`--codes`).
+4. **Figures.** Every image named in Figure or in an option column exists next to the CSV or in `<csv name>_figures/` (or `figures/`).
+5. **Distinct options.** No row has two identical options.
+
+**Handled automatically:**
+- A year typed at the end of the question, e.g. "(2017)", is moved into the source.
+- Exact duplicate rows are merged, keeping the copy that has a figure.
+
+**Warnings:** maths typed as plain text, small figures, and possible duplicates of problems already in the bank. Possible duplicates are not imported until you decide.
+
+**Optional columns:** ID (the original row number), Exam (e.g. JEE Main), Year, Source (free text).

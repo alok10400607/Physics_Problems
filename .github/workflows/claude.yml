@@ -1,0 +1,43 @@
+# Lets you ask Claude for changes by writing @claude in an issue or pull request comment,
+# e.g. "@claude in P000030 change option B to $\frac{A}{2\sqrt{2}}$" or "@claude write solutions for 1720".
+# Every change arrives as a pull request or a commit on the pull request being discussed.
+name: Claude
+on:
+  issue_comment:
+    types: [created]
+  pull_request_review_comment:
+    types: [created]
+  issues:
+    types: [opened]
+concurrency:
+  group: bank-write
+  cancel-in-progress: false
+jobs:
+  claude:
+    if: contains(github.event.comment.body, '@claude') || contains(github.event.issue.body, '@claude')
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    permissions:
+      contents: write
+      pull-requests: write
+      issues: write
+      id-token: write
+      actions: read
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+      - name: Install tools
+        run: |
+          sudo apt-get update -q
+          sudo apt-get install -y -q pandoc libreoffice-draw --no-install-recommends
+          pip install -q pillow openpyxl
+          cd tools && npm install --silent
+      - uses: anthropics/claude-code-action@v1
+        env:
+          GH_TOKEN: ${{ github.token }}
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          claude_args: |
+            --max-turns 200
+            --allowedTools "Bash,Read,Write,Edit,Glob,Grep"
