@@ -1,0 +1,56 @@
+{
+  "id": "P000072",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "1735",
+  "concepts": [],
+  "exams": [
+    "JEE Main"
+  ],
+  "difficulty": {
+    "worksheet": "L2",
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A cylindrical plastic bottle of negligible mass is filled with 310 mL of water and left floating in a pond with still water. If pressed downward slightly and released, it starts performing simple harmonic motion at angular frequency ω. If the radius of the bottle is 2.5 cm then ω is close to: (density of water = 10<sup>3</sup> kg/m<sup>3</sup>)",
+  "options": {
+    "A": "5.00 rad/s",
+    "B": "1.25 rad/s",
+    "C": "7.95 rad/s",
+    "D": "2.50 rad/s"
+  },
+  "answer": {
+    "keys": [
+      "C"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "17SHM_v6",
+      "qno": 72
+    },
+    {
+      "kind": "exam",
+      "exam": "JEE Main",
+      "year": 2019,
+      "date": "2019-01-10",
+      "shift": 2,
+      "mode": null,
+      "raw": "JEE Main 2019, 10 Jan, Shift 2"
+    }
+  ],
+  "assets": [],
+  "rights": "past-paper",
+  "content_hash": "6d85b66ea23200fb",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

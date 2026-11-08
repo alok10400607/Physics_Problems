@@ -1,0 +1,56 @@
+{
+  "id": "P000046",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "1720",
+  "concepts": [],
+  "exams": [
+    "JEE Main"
+  ],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A block of mass m = 0.1 kg is connected to a spring of unknown spring constant k. It is compressed to a distance x from rest. After approaching half the distance (x/2) from equilibrium position, it hits another block and comes to rest momentarily, while the other block moves with a velocity 3 m/s. The total initial energy of the spring is:",
+  "options": {
+    "A": "0.3 J",
+    "B": "0.6 J",
+    "C": "1.5 J",
+    "D": "0.8 J"
+  },
+  "answer": {
+    "keys": [
+      "B"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "17SHM_v6",
+      "qno": 46
+    },
+    {
+      "kind": "exam",
+      "exam": "JEE Main",
+      "year": 2015,
+      "date": "2015-04-10",
+      "shift": null,
+      "mode": "Online",
+      "raw": "JEE Main 2015, 10 Apr (Online)"
+    }
+  ],
+  "assets": [],
+  "rights": "past-paper",
+  "content_hash": "0ab6e0eb04524e92",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

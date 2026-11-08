@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "collection.schema.json",
+  "title": "Collection",
+  "description": "An ordered set of problems: a worksheet, a past paper or a curated set. Problems are referenced by ID, never copied.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "kind", "title", "sections"],
+  "properties": {
+    "id": {"type": "string", "pattern": "^[A-Za-z0-9_-]+$"},
+    "kind": {"enum": ["worksheet", "past-paper", "curated"]},
+    "title": {"type": "string"},
+    "chapter_code": {"type": ["string", "null"], "pattern": "^\\d{2}$"},
+    "note": {"type": ["string", "null"]},
+    "source_file": {"type": ["string", "null"]},
+    "sections": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["title", "problems"],
+        "properties": {
+          "topic_code": {"type": ["string", "null"], "pattern": "^\\d{4}$"},
+          "title": {"type": "string"},
+          "problems": {"type": "array", "items": {"type": "string", "pattern": "^P\\d{6}$"}}
+        }
+      }
+    }
+  }
+}

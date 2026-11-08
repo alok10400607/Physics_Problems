@@ -1,0 +1,56 @@
+{
+  "id": "P000023",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "1710",
+  "concepts": [],
+  "exams": [
+    "JEE Main"
+  ],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "If x, v and a denote the displacement, the velocity and the acceleration of a particle executing simple harmonic motion of time period T, then, which of the following does not change with time?",
+  "options": {
+    "A": "$a^{2}T^{2} + 4\\pi^{2}v^{2}$",
+    "B": "$\\frac{aT}{x}$",
+    "C": "$aT + 2\\pi v$",
+    "D": "$\\frac{aT}{v}$"
+  },
+  "answer": {
+    "keys": [
+      "B"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "17SHM_v6",
+      "qno": 23
+    },
+    {
+      "kind": "exam",
+      "exam": "AIEEE",
+      "year": 2009,
+      "date": null,
+      "shift": null,
+      "mode": null,
+      "raw": "AIEEE 2009"
+    }
+  ],
+  "assets": [],
+  "rights": "past-paper",
+  "content_hash": "399031857eeb2d23",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

@@ -1,0 +1,57 @@
+{
+  "id": "P000041",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "1720",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000041-stem-1)A block P of mass m is placed on a horizontal frictionless plane. A second block Q of the same mass m is placed on it and is connected to a spring of spring constant k, the two blocks are pulled by a distance A. Block Q oscillates without slipping. What is the maximum value of frictional force between the two blocks?",
+  "options": {
+    "A": "$kA$",
+    "B": "$\\frac{kA}{2}$",
+    "C": "$2kA$",
+    "D": "$\\frac{kA}{4}$"
+  },
+  "answer": {
+    "keys": [
+      "B"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "17SHM_v6",
+      "qno": 41
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000041-stem-1",
+      "role": "stem",
+      "file": "P000/P000041-stem-1.png",
+      "format": "png",
+      "width": 356,
+      "height": 144,
+      "alt": "Block Q resting on block P on a horizontal floor. Q is joined to a wall by a horizontal spring of constant k; the friction coefficient between Q and P is μ.",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
+  "rights": "unverified",
+  "content_hash": "ed79e36e8691d509",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

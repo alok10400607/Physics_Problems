@@ -1,0 +1,56 @@
+{
+  "id": "P000022",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "1710",
+  "concepts": [],
+  "exams": [
+    "JEE Main"
+  ],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "The maximum velocity of a particle, executing simple harmonic motion with an amplitude 7 mm, is 4.4 m/s. The period of oscillation is:",
+  "options": {
+    "A": "0.01 s",
+    "B": "10 s",
+    "C": "0.1 s",
+    "D": "100 s"
+  },
+  "answer": {
+    "keys": [
+      "A"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "17SHM_v6",
+      "qno": 22
+    },
+    {
+      "kind": "exam",
+      "exam": "AIEEE",
+      "year": 2006,
+      "date": null,
+      "shift": null,
+      "mode": null,
+      "raw": "AIEEE 2006"
+    }
+  ],
+  "assets": [],
+  "rights": "past-paper",
+  "content_hash": "4ece825211bcf6e3",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

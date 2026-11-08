@@ -1,0 +1,45 @@
+{
+  "id": "P000008",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "1705",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A particle of mass m moves on the x-axis according to the equation, x = 2 + 4 sin 4πt. Choose the INCORRECT option:",
+  "options": {
+    "A": "The particle is undergoing SHM with x = 2 as the mean position",
+    "B": "The amplitude of its oscillations will be 4 units",
+    "C": "The number of times the particle is at x = 0 in 1 second is 2.",
+    "D": "The particle reaches x = 0 for the first time at t = $\\frac{7}{24}$s."
+  },
+  "answer": {
+    "keys": [
+      "C"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "17SHM_v6",
+      "qno": 8
+    }
+  ],
+  "assets": [],
+  "rights": "unverified",
+  "content_hash": "04a7d53de67a43bd",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

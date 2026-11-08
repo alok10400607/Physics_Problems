@@ -1,0 +1,56 @@
+{
+  "id": "P000029",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "1710",
+  "concepts": [],
+  "exams": [
+    "JEE Main"
+  ],
+  "difficulty": {
+    "worksheet": "L2",
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A particle performs simple harmonic motion with amplitude A. Its speed is trebled at the instant that it is at a distance 2A/3 from equilibrium position. The new amplitude of the motion is:",
+  "options": {
+    "A": "$\\frac{\\sqrt{43}}{3}A$",
+    "B": "3A",
+    "C": "A$\\sqrt{3}$",
+    "D": "7A/3"
+  },
+  "answer": {
+    "keys": [
+      "D"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "17SHM_v6",
+      "qno": 29
+    },
+    {
+      "kind": "exam",
+      "exam": "JEE Main",
+      "year": 2016,
+      "date": null,
+      "shift": null,
+      "mode": "Offline",
+      "raw": "JEE Main 2016 (Offline)"
+    }
+  ],
+  "assets": [],
+  "rights": "past-paper",
+  "content_hash": "5d5b30fe67fd6a5f",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

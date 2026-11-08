@@ -1,0 +1,56 @@
+{
+  "id": "P000055",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "1720",
+  "concepts": [],
+  "exams": [
+    "JEE Main"
+  ],
+  "difficulty": {
+    "worksheet": "L3",
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "An oscillator of mass M is at rest in its equilibrium position in a potential energy U= ½ k(x – X)<sup>2</sup>. A particle of mass m comes from the right with speed u and collides completely inelastically with M and sticks to it. This process repeats every time the oscillator crosses its equilibrium position. The amplitude of oscillations after 13 collisions is : (M=10, m=5, u=1, k=1)",
+  "options": {
+    "A": "1/$\\sqrt{3}$",
+    "B": "1 /2",
+    "C": "2/3",
+    "D": "$\\sqrt{\\frac{3}{5}}$"
+  },
+  "answer": {
+    "keys": [
+      "A"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "17SHM_v6",
+      "qno": 55
+    },
+    {
+      "kind": "exam",
+      "exam": "JEE Main",
+      "year": 2018,
+      "date": "2018-04-16",
+      "shift": null,
+      "mode": "Online",
+      "raw": "JEE Main 2018, 16 Apr (Online)"
+    }
+  ],
+  "assets": [],
+  "rights": "past-paper",
+  "content_hash": "d679abcb1f3cf93f",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

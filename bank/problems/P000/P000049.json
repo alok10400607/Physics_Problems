@@ -1,0 +1,57 @@
+{
+  "id": "P000049",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "1720",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": "L2",
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000049-stem-1) The mass M shown in the figure oscillates in simple harmonic motion with amplitude A. The amplitude of the point P is:",
+  "options": {
+    "A": "$\\frac{k_{1}A}{k_{2}}$",
+    "B": "$\\frac{k_{2}A}{k_{1}}$",
+    "C": "$\\frac{k_{1}A}{k_{1} + k_{2}}$",
+    "D": "$\\frac{k_{2}A}{k_{1} + k_{2}}$"
+  },
+  "answer": {
+    "keys": [
+      "D"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "17SHM_v6",
+      "qno": 49
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000049-stem-1",
+      "role": "stem",
+      "file": "P000/P000049-stem-1.png",
+      "format": "png",
+      "width": 347,
+      "height": 112,
+      "alt": "Two springs, k1 next to the wall and k2 next to the block, joined in series at point P, holding a block M on a floor; a horizontal force F pulls the block away from the wall.",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
+  "rights": "unverified",
+  "content_hash": "ccc0179ba7d7190f",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

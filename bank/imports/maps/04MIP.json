@@ -1,0 +1,15 @@
+{
+  "collection": "04MIP",
+  "title": "Motion in a Plane: Projectiles & Relative Velocity",
+  "chapter_code": "04",
+  "sections": {
+    "2D/3D Motion in Vector & Calculus Form": "0405",
+    "Ground-to-Ground Projectile": "0410",
+    "Horizontal Projection from a Height": "0415",
+    "Oblique Projection from a Height or to a Target": "0420",
+    "Projectile on an Inclined Plane": "0425",
+    "Relative Motion of Projectiles & Moving Frames": "0430",
+    "Relative Velocity in 2D: Rain, Wind & Closest Approach": "0435",
+    "River–Boat Crossing": "0440"
+  }
+}

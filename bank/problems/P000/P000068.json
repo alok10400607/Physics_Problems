@@ -1,0 +1,56 @@
+{
+  "id": "P000068",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "1730",
+  "concepts": [],
+  "exams": [
+    "JEE Main"
+  ],
+  "difficulty": {
+    "worksheet": "L2",
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A ring is hung on a nail. It can oscillate without slipping or sliding:\n(i) in its plane with a time period of $T_{1}$\n(ii) back and forth in the direction perpendicular to its plane with a time period of $T_{2}$\nThe ratio $T_{1}/T_{2}$ will be:",
+  "options": {
+    "A": "$2/\\sqrt{3}$",
+    "B": "2/3",
+    "C": "$3/\\sqrt{2}$",
+    "D": "$\\sqrt{2}/3$"
+  },
+  "answer": {
+    "keys": [
+      "A"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "17SHM_v6",
+      "qno": 68
+    },
+    {
+      "kind": "exam",
+      "exam": "JEE Main",
+      "year": 2020,
+      "date": "2020-09-05",
+      "shift": 2,
+      "mode": null,
+      "raw": "JEE Main 2020, 5 Sep, Shift 2"
+    }
+  ],
+  "assets": [],
+  "rights": "past-paper",
+  "content_hash": "93713c2bf78dd9f1",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

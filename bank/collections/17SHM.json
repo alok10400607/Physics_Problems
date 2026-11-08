@@ -1,0 +1,142 @@
+{
+  "id": "17SHM",
+  "kind": "worksheet",
+  "title": "Oscillations: Simple Harmonic Motion",
+  "chapter_code": "17",
+  "note": "Take g = 10 m/s² unless stated otherwise.",
+  "source_file": "17SHM_v6.docx",
+  "sections": [
+    {
+      "topic_code": "1705",
+      "title": "SHM Equation, Phase & Reference Circle",
+      "problems": [
+        "P000001",
+        "P000002",
+        "P000003",
+        "P000004",
+        "P000005",
+        "P000006",
+        "P000007",
+        "P000008",
+        "P000009",
+        "P000010",
+        "P000011",
+        "P000012",
+        "P000013",
+        "P000014",
+        "P000015",
+        "P000016",
+        "P000017"
+      ]
+    },
+    {
+      "topic_code": "1710",
+      "title": "Velocity & Acceleration in SHM; Graphs",
+      "problems": [
+        "P000018",
+        "P000019",
+        "P000020",
+        "P000021",
+        "P000022",
+        "P000023",
+        "P000024",
+        "P000025",
+        "P000026",
+        "P000027",
+        "P000028",
+        "P000029"
+      ]
+    },
+    {
+      "topic_code": "1715",
+      "title": "Energy in SHM",
+      "problems": [
+        "P000030",
+        "P000031",
+        "P000032",
+        "P000033",
+        "P000034"
+      ]
+    },
+    {
+      "topic_code": "1720",
+      "title": "Spring–Mass Systems",
+      "problems": [
+        "P000035",
+        "P000036",
+        "P000037",
+        "P000038",
+        "P000039",
+        "P000040",
+        "P000041",
+        "P000042",
+        "P000043",
+        "P000044",
+        "P000045",
+        "P000046",
+        "P000047",
+        "P000048",
+        "P000049",
+        "P000050",
+        "P000051",
+        "P000052",
+        "P000053",
+        "P000054",
+        "P000055"
+      ]
+    },
+    {
+      "topic_code": "1725",
+      "title": "Simple Pendulum",
+      "problems": [
+        "P000056",
+        "P000057",
+        "P000058",
+        "P000059",
+        "P000060",
+        "P000061",
+        "P000062",
+        "P000063",
+        "P000064",
+        "P000065",
+        "P000066",
+        "P000067"
+      ]
+    },
+    {
+      "topic_code": "1730",
+      "title": "Physical, Compound & Torsional Pendulums",
+      "problems": [
+        "P000068",
+        "P000069",
+        "P000070"
+      ]
+    },
+    {
+      "topic_code": "1735",
+      "title": "Other SHM Systems",
+      "problems": [
+        "P000071",
+        "P000072",
+        "P000073"
+      ]
+    },
+    {
+      "topic_code": "1740",
+      "title": "Superposition, Damped & Forced Oscillations",
+      "problems": [
+        "P000074",
+        "P000075",
+        "P000076",
+        "P000077",
+        "P000078",
+        "P000079",
+        "P000080",
+        "P000081",
+        "P000082",
+        "P000083",
+        "P000084"
+      ]
+    }
+  ]
+}

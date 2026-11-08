@@ -1,0 +1,45 @@
+{
+  "id": "P000007",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "1705",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A simple harmonic motion is represented by the equation $y = A\\sin (12\\pi t + \\frac{7\\pi}{6})$. Find the time when it reaches $+ A$ for the first time.",
+  "options": {
+    "A": "$\\frac{1}{12}\\ s$",
+    "B": "$\\frac{7}{72}\\ s$",
+    "C": "$\\frac{1}{36}\\ s$",
+    "D": "$\\frac{1}{9}\\ s$"
+  },
+  "answer": {
+    "keys": [
+      "D"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "17SHM_v6",
+      "qno": 7
+    }
+  ],
+  "assets": [],
+  "rights": "unverified",
+  "content_hash": "8f9dd5d3dd4fbdd9",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

@@ -1,0 +1,56 @@
+{
+  "id": "P000063",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "1725",
+  "concepts": [],
+  "exams": [
+    "JEE Main"
+  ],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A bob of mass m, suspended by a thread of length L, undergoes SHM with time period T. If the bob is immersed in a liquid that has density ¼ times that of bob and the length of the thread is increased by one-third of its original length, then the time period of SHM will be:",
+  "options": {
+    "A": "T",
+    "B": "3/2 T",
+    "C": "¾ T",
+    "D": "4/3 T"
+  },
+  "answer": {
+    "keys": [
+      "D"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "17SHM_v6",
+      "qno": 63
+    },
+    {
+      "kind": "exam",
+      "exam": "JEE Main",
+      "year": 2021,
+      "date": "2021-08-31",
+      "shift": 2,
+      "mode": null,
+      "raw": "JEE Main 2021, 31 Aug, Shift 2"
+    }
+  ],
+  "assets": [],
+  "rights": "past-paper",
+  "content_hash": "ae36d96ea7ad4d10",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

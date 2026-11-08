@@ -1,0 +1,57 @@
+{
+  "id": "P000062",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "1725",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000062-stem-1)A small bob attached to a light inextensible thread of length L has a periodic time T when allowed to oscillate as a simple pendulum. The thread is now suspended from a point O on a vertical rigid plate whose lower edge is 3L/4 below O (as in figure). If now the pendulum performs periodic oscillations in this arrangement, the periodic time will be:",
+  "options": {
+    "A": "$\\frac{3T}{4}$",
+    "B": "$\\frac{T}{2}$",
+    "C": "$\\frac{T}{\\sqrt{2}}$",
+    "D": "$\\frac{3T}{2}$"
+  },
+  "answer": {
+    "keys": [
+      "A"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "17SHM_v6",
+      "qno": 62
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000062-stem-1",
+      "role": "stem",
+      "file": "P000/P000062-stem-1.png",
+      "format": "png",
+      "width": 205,
+      "height": 263,
+      "alt": "A pendulum of length L hanging from point O on a vertical wall, with its bob A pulled away from the wall. A distance 3L/4 is marked down the wall from O.",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
+  "rights": "unverified",
+  "content_hash": "39c696d3ee3bd601",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

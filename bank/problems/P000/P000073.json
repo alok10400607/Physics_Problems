@@ -1,0 +1,56 @@
+{
+  "id": "P000073",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "1735",
+  "concepts": [],
+  "exams": [
+    "JEE Main"
+  ],
+  "difficulty": {
+    "worksheet": "L2",
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "Assume that a tunnel is dug along the chord of the earth at a perpendicular distance (R/2) from the earth’s centre, where R is the radius of earth. The wall of the tunnel is frictionless. If a particle is released in this tunnel, it will execute SHM with time period:",
+  "options": {
+    "A": "$\\frac{2\\pi R}{g}$",
+    "B": "$\\frac{g}{2\\pi R}$",
+    "C": "$\\frac{1}{2\\pi}\\sqrt{g/R}$",
+    "D": "$2\\pi\\sqrt{R/g}$"
+  },
+  "answer": {
+    "keys": [
+      "D"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "17SHM_v6",
+      "qno": 73
+    },
+    {
+      "kind": "exam",
+      "exam": "JEE Main",
+      "year": 2021,
+      "date": "2021-02-26",
+      "shift": 1,
+      "mode": null,
+      "raw": "JEE Main 2021, 26 Feb, Shift 1"
+    }
+  ],
+  "assets": [],
+  "rights": "past-paper",
+  "content_hash": "4a6646cdd740fff4",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

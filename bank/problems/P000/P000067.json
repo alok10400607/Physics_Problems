@@ -1,0 +1,57 @@
+{
+  "id": "P000067",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "1725",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": "L2",
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000067-stem-1) A pendulum of length 10 cm is hung beside a wall that makes an angle of 3° with the vertical. It is pulled to position A, 6° from the vertical on the other side, and released. The collision of the bob with the wall is perfectly elastic. The time period of the pendulum will be:",
+  "options": {
+    "A": "$\\pi/5$ s",
+    "B": "$2\\pi/15$ s",
+    "C": "$\\pi/6$ s",
+    "D": "the motion will not be periodic"
+  },
+  "answer": {
+    "keys": [
+      "B"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "17SHM_v6",
+      "qno": 67
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000067-stem-1",
+      "role": "stem",
+      "file": "P000/P000067-stem-1.png",
+      "format": "png",
+      "width": 231,
+      "height": 265,
+      "alt": "A pendulum hanging from point O on a wall that leans at 30° to the vertical. The string is pulled out to 60° from the vertical on the other side, with the bob at A.",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
+  "rights": "unverified",
+  "content_hash": "102381bb6fd77e7b",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

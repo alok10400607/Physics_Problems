@@ -1,0 +1,56 @@
+{
+  "id": "P000083",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "1740",
+  "concepts": [],
+  "exams": [
+    "JEE Main"
+  ],
+  "difficulty": {
+    "worksheet": "L2",
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "The angular frequency of the damped oscillator is given by ω = $\\sqrt{\\frac{k}{m} - \\frac{r^{2}}{4m^{2}}}\\ $where k is the spring constant, m is the mass of the oscillator and r is the damping constant. If the ratio $\\frac{r^{2}}{mk}$ is 8%, the change in time period compared to the undamped oscillator is approximately:",
+  "options": {
+    "A": "Decreases by 1%",
+    "B": "Increases by 8%",
+    "C": "Increases by 1%",
+    "D": "Decreases by 8%"
+  },
+  "answer": {
+    "keys": [
+      "C"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "17SHM_v6",
+      "qno": 83
+    },
+    {
+      "kind": "exam",
+      "exam": "JEE Main",
+      "year": 2014,
+      "date": "2014-04-11",
+      "shift": null,
+      "mode": "Online",
+      "raw": "JEE Main 2014, 11 Apr (Online)"
+    }
+  ],
+  "assets": [],
+  "rights": "past-paper",
+  "content_hash": "7d1695e088a133ba",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

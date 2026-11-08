@@ -1,0 +1,56 @@
+{
+  "id": "P000043",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "1720",
+  "concepts": [],
+  "exams": [
+    "JEE Main"
+  ],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A silver atom in a solid oscillates in simple harmonic motion in some direction with a frequency of 10<sup>12</sup> Hz. What is the force constant of the bonds connecting one atom with the other? (molar mass of silver = 108 g/mol, Avogadro number = 6.02 × 10<sup>23</sup> mol<sup>−1</sup>)",
+  "options": {
+    "A": "5.5 N/m",
+    "B": "6.4 N/m",
+    "C": "7.1 N/m",
+    "D": "2.2 N/m"
+  },
+  "answer": {
+    "keys": [
+      "C"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "17SHM_v6",
+      "qno": 43
+    },
+    {
+      "kind": "exam",
+      "exam": "JEE Main",
+      "year": 2018,
+      "date": null,
+      "shift": null,
+      "mode": "Offline",
+      "raw": "JEE Main 2018 (Offline)"
+    }
+  ],
+  "assets": [],
+  "rights": "past-paper",
+  "content_hash": "3965d84bc172674e",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

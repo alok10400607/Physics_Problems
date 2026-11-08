@@ -1,0 +1,56 @@
+{
+  "id": "P000015",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "1705",
+  "concepts": [],
+  "exams": [
+    "JEE Main"
+  ],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "Two particles are executing simple harmonic motion of the same amplitude A and frequency ω along the x-axis. Their mean positions are separated by distance $X_{0}\\ (X_{0} > A)$. If the maximum separation between them is ($X_{0} + A$), the phase difference between their motion is:",
+  "options": {
+    "A": "$\\pi/3$",
+    "B": "$\\pi/4$",
+    "C": "$\\pi/6$",
+    "D": "$\\pi/2$"
+  },
+  "answer": {
+    "keys": [
+      "A"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "17SHM_v6",
+      "qno": 15
+    },
+    {
+      "kind": "exam",
+      "exam": "AIEEE",
+      "year": 2011,
+      "date": null,
+      "shift": null,
+      "mode": null,
+      "raw": "AIEEE 2011"
+    }
+  ],
+  "assets": [],
+  "rights": "past-paper",
+  "content_hash": "4c05701a06d88de5",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

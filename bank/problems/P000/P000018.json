@@ -1,0 +1,56 @@
+{
+  "id": "P000018",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "1710",
+  "concepts": [],
+  "exams": [
+    "JEE Main"
+  ],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "The displacement of an object attached to a spring and executing simple harmonic motion is given by $x = 2 \\times 10^{- 2}\\cos \\pi t\\ $m. The time at which the maximum speed first occurs is:",
+  "options": {
+    "A": "0.5 s",
+    "B": "0.75 s",
+    "C": "0.125 s",
+    "D": "0.25 s"
+  },
+  "answer": {
+    "keys": [
+      "A"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "17SHM_v6",
+      "qno": 18
+    },
+    {
+      "kind": "exam",
+      "exam": "AIEEE",
+      "year": 2007,
+      "date": null,
+      "shift": null,
+      "mode": null,
+      "raw": "AIEEE 2007"
+    }
+  ],
+  "assets": [],
+  "rights": "past-paper",
+  "content_hash": "5dd9a3105c7caee9",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

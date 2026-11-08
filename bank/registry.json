@@ -1,0 +1,5 @@
+{
+  "next_problem_id": 85,
+  "next_passage_id": 1,
+  "note": "Only tools/import_docx.py changes these counters. IDs are never reused."
+}

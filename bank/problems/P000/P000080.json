@@ -1,0 +1,45 @@
+{
+  "id": "P000080",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "1740",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "When a periodic force F = 6 sin 40πt (newton) is applied to a particle vibrating as x = 10 sin 44πt (cm), then:",
+  "options": {
+    "A": "The particle immediately starts vibrating at 20 Hz",
+    "B": "The particle keeps vibrating at 22 Hz",
+    "C": "After some time it vibrates at 20 Hz",
+    "D": "After some time it vibrates at 21 Hz"
+  },
+  "answer": {
+    "keys": [
+      "C"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "17SHM_v6",
+      "qno": 80
+    }
+  ],
+  "assets": [],
+  "rights": "unverified",
+  "content_hash": "cb3780770fa18954",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

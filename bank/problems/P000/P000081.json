@@ -1,0 +1,56 @@
+{
+  "id": "P000081",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "1740",
+  "concepts": [],
+  "exams": [
+    "JEE Advanced"
+  ],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A point mass is subjected to two simultaneous sinusoidal displacements in the x-direction, x<sub>1</sub>(t) = A sin ωt and x<sub>2</sub>(t) = A sin$(\\omega t\\  + \\ \\frac{2\\pi}{3})$. Adding a third sinusoidal displacement x<sub>3</sub>(t) = B sin (ωt + φ) brings the mass to a complete rest. The values of B and φ are:",
+  "options": {
+    "A": "$\\sqrt{2}A,\\ \\frac{3\\pi}{4}$",
+    "B": "$A,\\ \\frac{4\\pi}{3}$",
+    "C": "$\\sqrt{3}A,\\ \\frac{5\\pi}{6}$",
+    "D": "$A,\\ \\frac{\\pi}{3}$"
+  },
+  "answer": {
+    "keys": [
+      "B"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "17SHM_v6",
+      "qno": 81
+    },
+    {
+      "kind": "exam",
+      "exam": "IIT-JEE",
+      "year": 2011,
+      "date": null,
+      "shift": null,
+      "mode": null,
+      "raw": "IIT-JEE 2011"
+    }
+  ],
+  "assets": [],
+  "rights": "past-paper",
+  "content_hash": "e8d7d9b1ae830543",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

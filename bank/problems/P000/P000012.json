@@ -1,0 +1,37 @@
+{
+  "id": "P000012",
+  "status": "imported",
+  "version": 1,
+  "type": "integer",
+  "topic_code": "1705",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "Two particles have time periods T and 5T/4. They start SHM at the same time from mean position. After how many oscillations of the particle with the smaller time period will they again be at the mean position and moving in the same direction?",
+  "answer": {
+    "value": 5
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "17SHM_v6",
+      "qno": 12
+    }
+  ],
+  "assets": [],
+  "rights": "unverified",
+  "content_hash": "a7fa207af90152a2",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

@@ -1,0 +1,45 @@
+{
+  "id": "P000011",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "1705",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "The time taken by a particle performing SHM to pass from point A to B where its velocities are same is 2 seconds. After another 2 seconds it returns to B. The time period of oscillation is (in seconds):",
+  "options": {
+    "A": "2",
+    "B": "8",
+    "C": "6",
+    "D": "4"
+  },
+  "answer": {
+    "keys": [
+      "B"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "17SHM_v6",
+      "qno": 11
+    }
+  ],
+  "assets": [],
+  "rights": "unverified",
+  "content_hash": "bd0f35b7d67a0ce2",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

@@ -1,0 +1,45 @@
+{
+  "id": "P000014",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "1705",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "Two particles execute SHM of same amplitude and frequency along the same straight line. They pass one another when going in opposite directions, and each time their displacement is half of their amplitude. The phase difference between them is",
+  "options": {
+    "A": "30°",
+    "B": "60°",
+    "C": "90°",
+    "D": "120°"
+  },
+  "answer": {
+    "keys": [
+      "D"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "17SHM_v6",
+      "qno": 14
+    }
+  ],
+  "assets": [],
+  "rights": "unverified",
+  "content_hash": "e763a6f9034036c1",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

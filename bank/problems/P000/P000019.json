@@ -1,0 +1,45 @@
+{
+  "id": "P000019",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "1710",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "For a particle performing SHM, the maximum speed is $v_{0}$. Find the average speed of the particle during the interval it completes one full oscillation:",
+  "options": {
+    "A": "$v_{0}/2$",
+    "B": "$v_{0}/\\pi$",
+    "C": "${2v}_{0}/\\pi$",
+    "D": "$v_{0}/\\sqrt{2}$"
+  },
+  "answer": {
+    "keys": [
+      "C"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "17SHM_v6",
+      "qno": 19
+    }
+  ],
+  "assets": [],
+  "rights": "unverified",
+  "content_hash": "a48f82a098a8d6ae",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

@@ -1,0 +1,68 @@
+{
+  "id": "P000042",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "1720",
+  "concepts": [],
+  "exams": [
+    "JEE Main"
+  ],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000042-stem-1) Two bodies of masses 1 kg and 4 kg are connected to a vertical spring, as shown in the figure. The smaller mass executes simple harmonic motion of angular frequency 25 rad/s, and amplitude 1.6 cm while the bigger mass remains stationary on the ground. The maximum force exerted by the system on the floor is:",
+  "options": {
+    "A": "20 N",
+    "B": "10 N",
+    "C": "40 N",
+    "D": "60 N"
+  },
+  "answer": {
+    "keys": [
+      "D"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "17SHM_v6",
+      "qno": 42
+    },
+    {
+      "kind": "exam",
+      "exam": "JEE Main",
+      "year": 2014,
+      "date": "2014-04-09",
+      "shift": null,
+      "mode": "Online",
+      "raw": "JEE Main 2014, 9 Apr (Online)"
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000042-stem-1",
+      "role": "stem",
+      "file": "P000/P000042-stem-1.png",
+      "format": "png",
+      "width": 141,
+      "height": 286,
+      "alt": "A 1 kg block resting on top of a vertical spring of constant k, whose lower end is fixed to a 4 kg block standing on the ground.",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
+  "rights": "past-paper",
+  "content_hash": "4de6566075f2ea79",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

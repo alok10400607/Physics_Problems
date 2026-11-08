@@ -1,0 +1,15 @@
+{
+  "collection": "05NLM",
+  "title": "Newton's Laws of Motion",
+  "chapter_code": "05",
+  "sections": {
+    "Newton's Laws, Momentum & Impulse": "0505",
+    "Free-Body Diagrams & Equilibrium of a Particle": "0510",
+    "Single Accelerated Body: Smooth Inclines & Lifts": "0515",
+    "Connected Bodies: Contact Forces & String Tension": "0520",
+    "Pulley Systems": "0525",
+    "Constraint Relations": "0530",
+    "Spring Forces & Sudden Changes": "0535",
+    "Pseudo Forces in Accelerated Frames": "0540"
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "id": "P000048",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "1720",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": "L2",
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000048-stem-1) The system shown is at equilibrium in a vertical position. The thread connecting the blocks is cut, the block of mass m<sub>2</sub> falls and $m_{1}$ begins to perform SHM. Choose INCORRECT statement:",
+  "options": {
+    "A": "The amplitude of oscillation will be $\\frac{m_{2}g}{k}$",
+    "B": "The time period will be $2\\pi\\sqrt{\\frac{m_{1}}{k}}$",
+    "C": "If $m_{1} > m_{2}$, then the spring will always be in elongated state",
+    "D": "If $m_{1} > m_{2}$, then the spring will get compressed as well during SHM"
+  },
+  "answer": {
+    "keys": [
+      "D"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "17SHM_v6",
+      "qno": 48
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000048-stem-1",
+      "role": "stem",
+      "file": "P000/P000048-stem-1.png",
+      "format": "png",
+      "width": 132,
+      "height": 291,
+      "alt": "Mass m1 hanging from the ceiling on a spring of constant k, with mass m2 hanging below m1 on a string.",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
+  "rights": "unverified",
+  "content_hash": "137a03374bdfe749",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

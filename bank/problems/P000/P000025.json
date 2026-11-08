@@ -1,0 +1,56 @@
+{
+  "id": "P000025",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "1710",
+  "concepts": [],
+  "exams": [
+    "JEE Main"
+  ],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A point mass oscillates along the x-axis according to the law $x = x_{0}\\cos (\\omega t - \\frac{\\pi}{4})$. If the acceleration of the particle is written as $a = A\\cos (\\omega t + \\delta)$, then:",
+  "options": {
+    "A": "$A = x_{0};\\ \\delta = - \\frac{\\pi}{4}$",
+    "B": "$A = x_{0}\\omega^{2};\\ \\delta = \\frac{\\pi}{4}$",
+    "C": "$A = x_{0}\\omega^{2};\\ \\delta = - \\frac{\\pi}{4}$",
+    "D": "$A = x_{0}\\omega^{2};\\ \\delta = \\frac{3\\pi}{4}$"
+  },
+  "answer": {
+    "keys": [
+      "D"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "17SHM_v6",
+      "qno": 25
+    },
+    {
+      "kind": "exam",
+      "exam": "AIEEE",
+      "year": 2007,
+      "date": null,
+      "shift": null,
+      "mode": null,
+      "raw": "AIEEE 2007"
+    }
+  ],
+  "assets": [],
+  "rights": "past-paper",
+  "content_hash": "e2526d5cd4d8ead5",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

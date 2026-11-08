@@ -1,0 +1,56 @@
+{
+  "id": "P000020",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "1710",
+  "concepts": [],
+  "exams": [
+    "JEE Main"
+  ],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "Two simple harmonic motions are represented by the equations $y_{1} = 0.1\\sin (100\\pi t + \\frac{\\pi}{3})$ and $y_{2} = 0.1\\cos (100\\pi t)$. The phase difference of the velocity of particle 1 with respect to the velocity of particle 2 is:",
+  "options": {
+    "A": "$- \\frac{\\pi}{6}$",
+    "B": "$\\frac{\\pi}{3}$",
+    "C": "$- \\frac{\\pi}{3}$",
+    "D": "$\\frac{\\pi}{6}$"
+  },
+  "answer": {
+    "keys": [
+      "A"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "17SHM_v6",
+      "qno": 20
+    },
+    {
+      "kind": "exam",
+      "exam": "AIEEE",
+      "year": 2005,
+      "date": null,
+      "shift": null,
+      "mode": null,
+      "raw": "AIEEE 2005"
+    }
+  ],
+  "assets": [],
+  "rights": "past-paper",
+  "content_hash": "6d1f857d31c49558",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

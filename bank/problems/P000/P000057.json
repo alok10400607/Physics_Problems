@@ -1,0 +1,45 @@
+{
+  "id": "P000057",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "1725",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A sphere of radius *r* is kept on a concave mirror of radius of curvature *R.* The arrangement is kept on a horizontal table (the mirror surface is frictionless, so the sphere slides without rolling). If the sphere is displaced from its equilibrium position and released, it executes SHM. The period of oscillation will be:",
+  "options": {
+    "A": "$2\\pi\\sqrt{\\frac{1.4(R\\  - \\ r)}{g}}$",
+    "B": "$2\\pi\\sqrt{\\frac{R\\  - \\ r}{g}}$",
+    "C": "$2\\pi\\sqrt{\\frac{rR}{a}}$",
+    "D": "$2\\pi\\sqrt{\\frac{R}{gr}}$"
+  },
+  "answer": {
+    "keys": [
+      "B"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "17SHM_v6",
+      "qno": 57
+    }
+  ],
+  "assets": [],
+  "rights": "unverified",
+  "content_hash": "cc8384ab2bfc2667",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

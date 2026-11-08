@@ -1,0 +1,68 @@
+{
+  "id": "P000037",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "1720",
+  "concepts": [],
+  "exams": [
+    "JEE Main"
+  ],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000037-stem-1) Two identical springs of spring constant 2k are attached to a block of mass m and to fixed supports. When the mass is displaced from the position of equilibrium, it executes SHM. The time period of the oscillation is?",
+  "options": {
+    "A": "$2\\pi\\sqrt{m/2k}$",
+    "B": "$2\\pi\\sqrt{m/k}$",
+    "C": "$\\pi\\sqrt{m/k}$",
+    "D": "$\\pi\\sqrt{m/2k}$"
+  },
+  "answer": {
+    "keys": [
+      "C"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "17SHM_v6",
+      "qno": 37
+    },
+    {
+      "kind": "exam",
+      "exam": "JEE Main",
+      "year": 2021,
+      "date": "2021-02-25",
+      "shift": 2,
+      "mode": null,
+      "raw": "JEE Main 2021, 25 Feb, Shift 2"
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000037-stem-1",
+      "role": "stem",
+      "file": "P000/P000037-stem-1.png",
+      "format": "png",
+      "width": 304,
+      "height": 85,
+      "alt": "A block of mass m on a horizontal floor between two fixed walls, joined to each wall by a spring of constant 2k.",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
+  "rights": "past-paper",
+  "content_hash": "603c211b7617376d",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

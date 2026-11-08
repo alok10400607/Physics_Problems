@@ -1,0 +1,56 @@
+{
+  "id": "P000003",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "1705",
+  "concepts": [],
+  "exams": [
+    "JEE Main"
+  ],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "The function $\\sin^{2}(\\omega t)$ represents:",
+  "options": {
+    "A": "a periodic, but not simple harmonic, motion with a period $\\frac{2\\pi}{\\omega}$",
+    "B": "a periodic, but not simple harmonic, motion with a period $\\frac{\\pi}{\\omega}$",
+    "C": "a simple harmonic motion with a period $\\frac{2\\pi}{\\omega}$",
+    "D": "a simple harmonic motion with a period $\\frac{\\pi}{\\omega}$"
+  },
+  "answer": {
+    "keys": [
+      "D"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "17SHM_v6",
+      "qno": 3
+    },
+    {
+      "kind": "exam",
+      "exam": "AIEEE",
+      "year": 2005,
+      "date": null,
+      "shift": null,
+      "mode": null,
+      "raw": "AIEEE 2005"
+    }
+  ],
+  "assets": [],
+  "rights": "past-paper",
+  "content_hash": "7d86b30adea20112",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

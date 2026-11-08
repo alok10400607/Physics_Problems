@@ -1,0 +1,45 @@
+{
+  "id": "P000059",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "1725",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "The time period of a simple pendulum is $T_{1}$. The point of suspension moves vertically upwards according to $y = t^{2}$ (y in m, t in s). The new time period is $T_{2}$. Then $T_{1}^{2}$/$T_{2}^{2}$ is:",
+  "options": {
+    "A": "4/5",
+    "B": "6/5",
+    "C": "5/6",
+    "D": "1"
+  },
+  "answer": {
+    "keys": [
+      "B"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "17SHM_v6",
+      "qno": 59
+    }
+  ],
+  "assets": [],
+  "rights": "unverified",
+  "content_hash": "62ce83fa27253bdf",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

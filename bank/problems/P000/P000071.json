@@ -1,0 +1,56 @@
+{
+  "id": "P000071",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "1735",
+  "concepts": [],
+  "exams": [
+    "JEE Main"
+  ],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A wooden cube (density of wood d) of side L floats in a liquid of density ρ with its upper and lower surfaces horizontal. If the cube is pushed slightly down and released, it performs simple harmonic motion of period T. Then T is equal to:",
+  "options": {
+    "A": "$2\\pi\\sqrt{\\frac{L\\rho}{(\\rho - d)g}}$",
+    "B": "$2\\pi\\sqrt{\\frac{Ld}{\\rho g}}$",
+    "C": "$2\\pi\\sqrt{\\frac{L\\rho}{dg}}$",
+    "D": "$2\\pi\\sqrt{\\frac{Ld}{(\\rho - d)g}}$"
+  },
+  "answer": {
+    "keys": [
+      "B"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "17SHM_v6",
+      "qno": 71
+    },
+    {
+      "kind": "exam",
+      "exam": "AIEEE",
+      "year": 2011,
+      "date": null,
+      "shift": null,
+      "mode": null,
+      "raw": "AIEEE 2011"
+    }
+  ],
+  "assets": [],
+  "rights": "past-paper",
+  "content_hash": "12defb47cfa6f089",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

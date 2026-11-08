@@ -1,0 +1,37 @@
+{
+  "id": "P000005",
+  "status": "imported",
+  "version": 1,
+  "type": "subjective",
+  "topic_code": "1705",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A particle executes SHM given by the equation $x = A\\sin (\\frac{2\\pi}{T}t + \\phi)$. It is at position $- \\sqrt{3}A/2$ at time t = 0 and moving away from the mean position. Find the phase constant and the time taken by the particle to reach the mean position.",
+  "answer": {
+    "text": "$\\frac{4\\pi}{3}$, T/3"
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "17SHM_v6",
+      "qno": 5
+    }
+  ],
+  "assets": [],
+  "rights": "unverified",
+  "content_hash": "2bde0b01d31e9ea6",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

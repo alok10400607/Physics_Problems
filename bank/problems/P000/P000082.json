@@ -1,0 +1,56 @@
+{
+  "id": "P000082",
+  "status": "imported",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "1740",
+  "concepts": [],
+  "exams": [
+    "JEE Main"
+  ],
+  "difficulty": {
+    "worksheet": "L2",
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "Two simple harmonic motions, as shown below, are at right angles. They are combined to form Lissajous figures.\nx(t) = A sin(at + δ) ; y(t) = B sin(bt)\nIdentify the correct match below.\n-----------------------------------------------------------------------\nParameter                               Curve\n--------------------------------------- -------------------------------\n-----------------------------------------------------------------------",
+  "options": {
+    "A": "A ≠B; a = b; δ = 0                Parabola",
+    "B": "A =B; a = b; δ = π/2              Line",
+    "C": "A ≠B; a = b; δ = π/2              Ellipse",
+    "D": "A = B; a = 2b; δ = π/2            Circle"
+  },
+  "answer": {
+    "keys": [
+      "C"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "17SHM_v6",
+      "qno": 82
+    },
+    {
+      "kind": "exam",
+      "exam": "JEE Main",
+      "year": 2018,
+      "date": "2018-04-15",
+      "shift": null,
+      "mode": "Online",
+      "raw": "JEE Main 2018, 15 Apr (Online)"
+    }
+  ],
+  "assets": [],
+  "rights": "past-paper",
+  "content_hash": "ef37f1124e19ab23",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-08",
+  "updated": "2026-11-08"
+}

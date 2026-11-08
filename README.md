@@ -1,33 +1,37 @@
 # Physics_Problems
 
-Physics practice resources for JEE and NEET students: interactive subtopic tests built from reviewed worksheets.
+Physics practice resources for JEE and NEET students. Everything is built from one problem bank.
 
 ## Layout
 
 | Folder | What it holds |
 |---|---|
-| `worksheets/` | Reviewed worksheets (`.docx`). These are the master copies: edit these, never the generated data. |
-| `site/` | The website. This is the folder the host publishes. |
-| `site/data/` | One `<chapter>.json` per chapter plus its figures, generated from the worksheets. |
-| `pipeline/` | The converter (`parse_worksheet.py`) and checker (`validate.js`). |
+| `bank/problems/P000/P000001.json` | One file per problem. The bank is the master copy. |
+| `bank/solutions/P000/P000001.json` | Hints, worded and conventional solutions, kept apart from problems so they can sit behind a login later |
+| `bank/assets/P000/` | Figures, named `<problem>-stem-<n>`, `<problem>-opt-<key>`, `<problem>-sol-<n>` |
+| `bank/collections/` | Worksheets and sets: ordered lists of problem IDs |
+| `bank/topics.json`, `bank/concepts.json` | Topic codes and the approved concept tags |
+| `bank/registry.json` | The next free problem ID. IDs are never reused. |
+| `bank/imports/` | A log of every import, plus the topic map for each worksheet (`maps/`) |
+| `bank/schema/` | JSON Schemas every record must pass |
+| `docs/` | Worksheet contract, maths style guide, solution-writing guide |
+| `tools/` | Importer, checker, site builder |
+| `site/` | The website; `site/data/` is generated, never edited by hand |
+| `worksheets/` | Original DOCX files, kept for reference |
 
-## Adding or updating a chapter
+## Common tasks
 
-1. Put the reviewed worksheet in `worksheets/`, e.g. `worksheets/17SHM_v6.docx`.
-2. Run:
+```bash
+cd tools && npm install && cd ..                       # once
 
-   ```bash
-   pipeline/build.sh worksheets/17SHM_v6.docx 17SHM "Oscillations: Simple Harmonic Motion"
-   ```
+# import a worksheet: check first, then write
+python3 -I tools/import_docx.py worksheets/17SHM_v6.docx bank/imports/maps/17SHM.json --check
+python3 -I tools/import_docx.py worksheets/17SHM_v6.docx bank/imports/maps/17SHM.json --write
 
-3. The build stops with a list of problems if anything is wrong: a missing answer, an option missing, a formula that won't display, a missing figure.
+node tools/check_bank.js      # must show "No errors" before any merge
+node tools/build_site.js      # regenerates site/data from the bank
+```
 
-Requirements: `pandoc`, Python 3 and Node.js.
+Every change to the bank arrives as a pull request. Cloudflare builds a private preview of each branch, and merging to `main` updates the review site.
 
-## What the converter expects from a worksheet
-
-- Each subtopic starts with a Heading 2; questions are numbered `1.`, `2.`, …
-- Options are written `(A) … (B) … (C) … (D) …`, on one line or several; an option may be an image.
-- Optional tags at the start of a question: `[L2]` / `[L3]` for level, `[JEE Main 2019, 9 Jan, Shift 1]` for source.
-- An `Answer Key` heading with `Q1  A` style tables, then a `Hints & Solutions` heading with `**Q13** *Hint*` style entries.
-- Equations typed with Word's built-in equation editor. Type `sin`, `cos` and `tan` as functions; the converter repairs the plain-letter cases but reports them.
+Requirements: `pandoc`, Python 3 with Pillow, Node.js.
