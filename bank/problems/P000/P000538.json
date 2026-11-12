@@ -1,0 +1,68 @@
+{
+  "id": "P000538",
+  "status": "reviewed",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0605",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000538-stem-1)A block of mass 0.6 kg is pressed against a vertical wall by a force of 10 N acting perpendicular to the surface. A horizontal force of 8 N is acting on the block. Find the acceleration of the block if the coefficient of friction between the block and the wall is 0.25.",
+  "options": {
+    "A": "5 $ms^{- 2}$",
+    "B": "10 $ms^{- 2}$",
+    "C": "12.5 $ms^{- 2}$",
+    "D": "zero"
+  },
+  "answer": {
+    "keys": [
+      "C"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "06FRI_v1",
+      "qno": 4
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000538-stem-1",
+      "role": "stem",
+      "file": "P000/P000538-stem-1.png",
+      "format": "png",
+      "width": 203,
+      "height": 346,
+      "alt": "A 0.6 kg block on a vertical wall, pressed into it by a 10 N force, with an 8 N force acting along the wall.",
+      "origin": "docx",
+      "needs_redraw": true
+    },
+    {
+      "id": "P000538-sol-1",
+      "role": "solution",
+      "file": "P000/P000538-sol-1.png",
+      "format": "png",
+      "width": 977,
+      "height": 456,
+      "alt": "View facing the wall (the 10 N press is into the page): a 0.6 kg block with an 8 N force to the right and its 6 N weight down; friction f = μN = 2.5 N acts up and to the left.",
+      "origin": "docx",
+      "needs_redraw": false
+    }
+  ],
+  "rights": "unverified",
+  "content_hash": "a0c5b0dfc03c44f5",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-12",
+  "updated": "2026-11-12"
+}

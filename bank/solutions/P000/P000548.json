@@ -1,0 +1,33 @@
+{
+  "id": "P000548",
+  "problem_version": 1,
+  "status": "reviewed",
+  "hints": [
+    "Take the boy and the wood as one system. Where does the rope cross its boundary, and in which directions does it pull?"
+  ],
+  "worded": "1. Take boy + wood (90 N) as the system. The rope tension T acts on it twice: up at the boy’s hands, and horizontally on the wood.\n\n2. The upward pull reduces the floor’s normal force: N = 90 − T.\n\n3. The horizontal pull T is resisted by floor friction, at most 0.5(90 − T).\n\n4. Limit: T = 0.5(90 − T), so T = 30 N.\n\n5. The boy’s force on the rope equals T. Taking the rope at his hands as vertical (as the standard solution does) gives 30 N.",
+  "conventional": "![](asset:P000548-sol-1)\n\nSystem: boy + wood. Vertical: $N = 90 - T$. Horizontal, limiting:\n\n$$T = 0.5(90 - T)\\mkern6mu  \\Rightarrow \\mkern6mu  T = 30\\unit{N}.$$",
+  "mistakes": [
+    "The rope’s pull on the boy reduces N, so friction’s limit falls as he pulls harder.",
+    "The figure draws the boy’s rope slightly slanted; the answer takes it as vertical."
+  ],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "solved_answer": "30 N.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": "06FRI_Solutions_v1",
+    "date": "2026-11-12"
+  },
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 06FRI_Solutions_v1.docx"
+  }
+}

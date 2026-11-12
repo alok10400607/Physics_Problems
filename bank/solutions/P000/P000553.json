@@ -1,0 +1,32 @@
+{
+  "id": "P000553",
+  "problem_version": 1,
+  "status": "reviewed",
+  "hints": [
+    "Going up, which way does friction act relative to gravity’s component?"
+  ],
+  "worded": "1. Moving up the slope, friction acts down the slope, along with gravity’s component.\n\n2. Retardation = g(sin 45° + μ cos 45°) = g(1 + 0.5)/√2 = 3g/(2√2). (C)\n\n3. (A) is the descending acceleration g(sin − μ cos), with friction reversed.",
+  "conventional": "![](asset:P000553-sol-1)\n\n$$a_{up} = g\\left( \\sin 45^{\\circ} + \\mu\\cos 45^{\\circ} \\right) = \\frac{g}{\\sqrt{2}}(1 + 0.5) = \\frac{3g}{2\\sqrt{2}}.$$",
+  "mistakes": [
+    "Friction adds to gravity on the way up and opposes it on the way down."
+  ],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "solved_answer": "(C) $\\frac{3g}{2\\sqrt{2}}$.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": "06FRI_Solutions_v1",
+    "date": "2026-11-12"
+  },
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 06FRI_Solutions_v1.docx"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "P000544",
+  "problem_version": 1,
+  "status": "reviewed",
+  "hints": [
+    "Write the limiting condition once for a push and once for a pull. Only the denominators differ."
+  ],
+  "worded": "1. At the limit, the horizontal component equals μN.\n\n2. Push at 30°: F_A cos 30° = μ(mg + F_A sin 30°), so F_A = μmg/(cos 30° − μ sin 30°).\n\n3. Pull at 60°: F_B cos 60° = μ(mg − F_B sin 60°), so F_B = μmg/(cos 60° + μ sin 60°).\n\n4. With μ = √3/5: the push denominator is √3/2 − √3/10 = 2√3/5; the pull denominator is ½ + 3/10 = 4/5.\n\n5. F_A/F_B = (4/5)/(2√3/5) = 2/√3. (B)",
+  "conventional": "![](asset:P000544-sol-1)\n\n$$F_{A} = \\frac{\\mu mg}{\\cos 30^{\\circ} - \\mu\\sin 30^{\\circ}},\\quad\\quad F_{B} = \\frac{\\mu mg}{\\cos 60^{\\circ} + \\mu\\sin 60^{\\circ}}.$$\n\n$$\\frac{F_{A}}{F_{B}} = \\frac{\\cos 60^{\\circ} + \\mu\\sin 60^{\\circ}}{\\cos 30^{\\circ} - \\mu\\sin 30^{\\circ}} = \\frac{\\frac{1}{2} + \\frac{3}{10}}{\\frac{\\sqrt{3}}{2} - \\frac{\\sqrt{3}}{10}} = \\frac{4/5}{2\\sqrt{3}/5} = \\frac{2}{\\sqrt{3}}.$$",
+  "mistakes": [
+    "For a push the sin term is subtracted in the denominator; for a pull it is added."
+  ],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "solved_answer": "(B) $\\frac{2}{\\sqrt{3}}$.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": "06FRI_Solutions_v1",
+    "date": "2026-11-12"
+  },
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 06FRI_Solutions_v1.docx"
+  }
+}

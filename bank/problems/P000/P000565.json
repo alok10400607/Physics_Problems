@@ -1,0 +1,57 @@
+{
+  "id": "P000565",
+  "status": "reviewed",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0620",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A suitcase is gently dropped on a conveyor belt moving at 3 m/s. If the coefficient of friction between the belt and the suitcase is 0.5. Find the displacement of suitcase relative to conveyor belt before the slipping between the two is stopped",
+  "options": {
+    "A": "2.7 m",
+    "B": "1.8 m",
+    "C": "0.9 m",
+    "D": "1.2 m"
+  },
+  "answer": {
+    "keys": [
+      "C"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "06FRI_v1",
+      "qno": 31
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000565-sol-1",
+      "role": "solution",
+      "file": "P000/P000565-sol-1.png",
+      "format": "png",
+      "width": 627,
+      "height": 365,
+      "alt": "Velocity–time graph in m/s and s: a suitcase's line rising from zero with a = μg = 5 to meet belt 3 at t = 0.6 s; the shaded gap between them is 0.9 m.",
+      "origin": "docx",
+      "needs_redraw": false
+    }
+  ],
+  "rights": "unverified",
+  "content_hash": "8bdfcfe652689824",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-12",
+  "updated": "2026-11-12"
+}

@@ -16,7 +16,7 @@
   },
   "time_estimate_s": null,
   "passage_id": null,
-  "stem": "A man slides down a light rope whose breaking strength is $\\eta$ (\\<1) times his weight. What should be his minimum acceleration so that the rope does not break?",
+  "stem": "A man slides down a light rope whose breaking strength is $\\eta$ (<1) times his weight. What should be his minimum acceleration so that the rope does not break?",
   "options": {
     "A": "$g(1 - \\ \\eta$ )",
     "B": "$\\eta g$",

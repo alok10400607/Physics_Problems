@@ -1,0 +1,57 @@
+{
+  "id": "P000558",
+  "status": "reviewed",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0615",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "The minimum force required to move a body up an inclined plane is three times the minimum force required to prevent it from sliding down the plane. If the coefficient of friction between the body and the inclined plane is $\\frac{1}{2\\sqrt{3}}$, the angle of the inclined plane is",
+  "options": {
+    "A": "60°",
+    "B": "45°",
+    "C": "30°",
+    "D": "15°"
+  },
+  "answer": {
+    "keys": [
+      "C"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "06FRI_v1",
+      "qno": 24
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000558-sol-1",
+      "role": "solution",
+      "file": "P000/P000558-sol-1.png",
+      "format": "png",
+      "width": 949,
+      "height": 330,
+      "alt": "Two blocks on inclines: to push one up needs mg(sin θ + μ cos θ) up the slope; to hold the other needs mg(sin θ − μ cos θ).",
+      "origin": "docx",
+      "needs_redraw": false
+    }
+  ],
+  "rights": "unverified",
+  "content_hash": "e266a732ca95f001",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-12",
+  "updated": "2026-11-12"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "P000539",
+  "problem_version": 1,
+  "status": "reviewed",
+  "hints": [
+    "Locally the surface is just an incline. At what slope does a block on an incline start to slip?"
+  ],
+  "worded": "1. At each point the block sits on a small incline whose slope is dy/dx.\n\n2. It stays at rest as long as the slope does not exceed the angle of repose: tan θ ≤ μ.\n\n3. The slope of y = x²/4 is x/2, which grows with x. The highest resting point has x/2 = 0.5, so x = 1 m.\n\n4. Height: y = 1/4 m = 25 cm.",
+  "conventional": "![](asset:P000539-sol-1)\n\n$$\\tan\\theta = \\frac{dy}{dx} = \\frac{x}{2} \\leq \\mu = 0.5\\mkern6mu  \\Rightarrow \\mkern6mu  x \\leq 1\\unit{m},\\quad\\quad y_{\\max} = \\frac{1^{2}}{4} = 0.25\\unit{m} = 25\\unit{cm}.$$",
+  "mistakes": [
+    "Use the local slope dy/dx, not y/x."
+  ],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "solved_answer": "25 cm.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": "06FRI_Solutions_v1",
+    "date": "2026-11-12"
+  },
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 06FRI_Solutions_v1.docx"
+  }
+}

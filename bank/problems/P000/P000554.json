@@ -1,0 +1,60 @@
+{
+  "id": "P000554",
+  "status": "reviewed",
+  "version": 1,
+  "type": "integer",
+  "topic_code": "0615",
+  "concepts": [],
+  "exams": [
+    "JEE Main"
+  ],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A body of mass m is launched up on a rough inclined plane making an angle of $30{^\\circ}$ with the horizontal. The coefficient of friction between the body and the plane is $\\frac{\\sqrt{x}}{5}$. If the time of ascent is half the time of descent, then the value of x is:",
+  "answer": {
+    "value": 3
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "06FRI_v1",
+      "qno": 20
+    },
+    {
+      "kind": "exam",
+      "exam": "JEE Main",
+      "date": "2021-07-20",
+      "shift": 2,
+      "mode": null,
+      "raw": "JEE Main 2021, 20 Jul, Shift 2",
+      "year": 2021
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000554-sol-1",
+      "role": "solution",
+      "file": "P000/P000554-sol-1.png",
+      "format": "png",
+      "width": 619,
+      "height": 436,
+      "alt": "Velocity–time graph: a steep line from v down to zero at t_u, then a gentler line below the axis to t_d = 2t_u. Equal areas (same distance) ⇒ a_d = a_u/4.",
+      "origin": "docx",
+      "needs_redraw": false
+    }
+  ],
+  "rights": "past-paper",
+  "content_hash": "4ae77fe9e98d8938",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-12",
+  "updated": "2026-11-12"
+}

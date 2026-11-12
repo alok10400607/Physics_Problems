@@ -1,0 +1,32 @@
+{
+  "id": "P000535",
+  "problem_version": 1,
+  "status": "reviewed",
+  "hints": [
+    "Which part of the chain pulls it over the edge, and which part supplies the friction? At the largest overhang, friction is at its limit."
+  ],
+  "worded": "1. The hanging part pulls the chain over the edge with its weight; the part on the table resists with friction.\n\n2. The longest overhang is the limiting state: friction on the table part equals μ times its weight.\n\n3. If x hangs, the hanging weight is proportional to x and the table part’s weight to L − x. Balance: x = μ(L − x).\n\n4. So x = μL/(1 + μ). (A)\n\n5. Check: μ → 0 gives no overhang; μ → ∞ lets almost the whole chain hang. (D) μL exceeds L for μ > 1, so it cannot be right.\n\n**No-pen route: limiting cases.** With μ = 1, the chain balances with half on each side: x = L/2. (A) gives L/2, (B) 0, (C) 0, (D) L. Only (A).",
+  "conventional": "![](asset:P000535-sol-1)\n\nLet $x$ hang. Weights: hanging $\\frac{x}{L}Mg$; on the table $\\frac{L - x}{L}Mg = N$. Limiting state:\n\n$$\\frac{x}{L}Mg = \\mu\\frac{L - x}{L}Mg\\mkern6mu  \\Rightarrow \\mkern6mu  x = \\frac{\\mu L}{1 + \\mu}.$$",
+  "mistakes": [
+    "Friction acts only on the part lying on the table, so N is the weight of L − x, not of the whole chain."
+  ],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "solved_answer": "(A) $\\frac{\\mu}{1 + \\mu}L$.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": "06FRI_Solutions_v1",
+    "date": "2026-11-12"
+  },
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 06FRI_Solutions_v1.docx"
+  }
+}

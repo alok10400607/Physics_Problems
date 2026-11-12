@@ -1,0 +1,57 @@
+{
+  "id": "P000535",
+  "status": "reviewed",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0605",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A homogeneous chain of length L lies on a table. The coefficient of friction between the chain and the table is μ. The maximum length which can hang over the table without slipping is? (The vertical portion of table is smooth)",
+  "options": {
+    "A": "$\\frac{\\mu}{1 + \\mu}L$",
+    "B": "$\\frac{1 - \\mu}{\\mu}L$",
+    "C": "$\\frac{1 - \\mu}{1 + \\mu}L$",
+    "D": "$\\mu L$"
+  },
+  "answer": {
+    "keys": [
+      "A"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "06FRI_v1",
+      "qno": 1
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000535-sol-1",
+      "role": "solution",
+      "file": "P000/P000535-sol-1.png",
+      "format": "png",
+      "width": 781,
+      "height": 411,
+      "alt": "A chain on a rough table with part x hanging over the edge: the hanging part's weight (x/L)Mg pulls down; the part on the table, L − x, has normal force N = ((L − x)/L)Mg and friction f = μN pulling back.",
+      "origin": "docx",
+      "needs_redraw": false
+    }
+  ],
+  "rights": "unverified",
+  "content_hash": "8ebaa6cc17e7beef",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-12",
+  "updated": "2026-11-12"
+}

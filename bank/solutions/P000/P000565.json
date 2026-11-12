@@ -1,0 +1,32 @@
+{
+  "id": "P000565",
+  "problem_version": 1,
+  "status": "reviewed",
+  "hints": [
+    "Friction speeds the suitcase up until it matches the belt. Draw both on one v–t graph: the gap between the lines is the relative displacement."
+  ],
+  "worded": "1. Friction drags the suitcase forward at a = μg = 5 m/s² until it reaches 3 m/s, after 0.6 s.\n\n2. In 0.6 s the suitcase moves ½ × 5 × 0.36 = 0.9 m; the belt moves 3 × 0.6 = 1.8 m.\n\n3. Relative to the belt the suitcase slips 0.9 m backwards. (C)\n\n4. Relative-frame check: in the belt’s frame the suitcase starts at 3 m/s backwards and decelerates at 5 m/s²: 3²/(2 × 5) = 0.9 m.\n\n**No-pen route: belt frame.** In the belt’s frame the suitcase starts at 3 m/s and stops under 5 m/s²: s = v²/2a = 9/10 = 0.9 m.",
+  "conventional": "![](asset:P000565-sol-1)\n\n$a = \\mu g = 5$ m/s², $t = 3/5 = 0.6$ s.\n\n$$s_{rel} = 3(0.6) - \\frac{1}{2}(5)(0.6)^{2} = 1.8 - 0.9 = 0.9\\unit{m}\\ (backwards\\text{ on the belt}).$$",
+  "mistakes": [
+    "The suitcase’s own ground displacement (0.9 m) happens to equal the relative one here; do not confuse them in general."
+  ],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "solved_answer": "(C) 0.9 m, backwards relative to the belt.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": "06FRI_Solutions_v1",
+    "date": "2026-11-12"
+  },
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 06FRI_Solutions_v1.docx"
+  }
+}

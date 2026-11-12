@@ -16,7 +16,7 @@
   },
   "time_estimate_s": null,
   "passage_id": null,
-  "stem": "A balloon of mass M is descending down with an acceleration a( \\< g). What mass m be detached from it so that it starts moving up with an acceleration a? (assume that upward buoyancy force remains constant)",
+  "stem": "A balloon of mass M is descending down with an acceleration a( < g). What mass m be detached from it so that it starts moving up with an acceleration a? (assume that upward buoyancy force remains constant)",
   "options": {
     "A": "$\\frac{2Ma}{g}$",
     "B": "$\\frac{Ma}{g\\  + \\ a}$",

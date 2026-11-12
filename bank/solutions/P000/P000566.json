@@ -1,0 +1,34 @@
+{
+  "id": "P000566",
+  "problem_version": 1,
+  "status": "reviewed",
+  "hints": [
+    "Friction acts only while the velocities differ: it slows the block and drives the plank. Draw both on one v–t graph."
+  ],
+  "worded": "1. (i) Kinetic friction μmg = 0.1mg: the block decelerates at 1 m/s²; the plank (4m) accelerates at 0.1mg/4m = 0.25 m/s².\n\n2. (ii) Equal velocities: 4 − t = 0.25t, so t = 3.2 s, common velocity 0.8 m/s.\n\n3. (iii) After that they move together on a smooth floor with no external horizontal force: friction is zero.\n\n4. (iv) Block: 4 × 3.2 − ½ × 3.2² = 7.68 m. Plank: ½ × 0.25 × 3.2² = 1.28 m.\n\n5. (v) The block slides 7.68 − 1.28 = 6.4 m along the plank, so the plank must be at least 6.4 m long.\n\n6. Check by momentum: 4m = 5m × v gives v = 0.8 m/s, as above.\n\n**Another way: plank frame.** Relative to the plank the block starts at 4 m/s and decelerates at 1 + 0.25 = 1.25 m/s²: it stops relative to the plank after 4/1.25 = 3.2 s, having slid 4²/(2 × 1.25) = 6.4 m.",
+  "conventional": "![](asset:P000566-sol-1)\n\n$a_{block} = - \\mu g = - 1$ m/s², $a_{plank} = \\frac{\\mu mg}{4m} = 0.25$ m/s².\n$4 - t = 0.25t \\Rightarrow t = 3.2$ s; $v = 0.8$ m/s.\n$s_{b} = 4(3.2) - \\frac{1}{2}(1)(3.2)^{2} = 7.68$ m; $s_{p} = \\frac{1}{2}(0.25)(3.2)^{2} = 1.28$ m.\nRelative slide $= 6.4$ m; afterwards $f = 0$.",
+  "mistakes": [
+    "Once the velocities are equal, friction is zero (no force tries to make them slip)."
+  ],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "solved_answer": "(i) 1 m/s² (retarding) and 0.25 m/s²; (ii) 3.2 s; (iii) zero; (iv) 7.68 m and 1.28 m; (v) 6.4 m.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
+    "issues": [
+      "problem text differs from the bank (similarity 0.74)"
+    ]
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": "06FRI_Solutions_v1",
+    "date": "2026-11-12"
+  },
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 06FRI_Solutions_v1.docx"
+  }
+}

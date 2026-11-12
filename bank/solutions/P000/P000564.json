@@ -1,0 +1,32 @@
+{
+  "id": "P000564",
+  "problem_version": 1,
+  "status": "reviewed",
+  "hints": [
+    "B is held up by friction on both faces. What normal force acts on each face, given that all three blocks accelerate together?"
+  ],
+  "worded": "1. All three move together: a = F/5m.\n\n2. The push of A on B accelerates B and C (3m): N₁ = 3F/5. The push of B on C accelerates C (2m): N₂ = 2F/5.\n\n3. B is held up by friction on both faces, at most μ(N₁ + N₂) = μF in total.\n\n4. μF ≥ mg, so F ≥ mg/μ. (B)",
+  "conventional": "![](asset:P000564-sol-1)\n\n$$a = \\frac{F}{5m},\\quad N_{1} = 3ma = \\frac{3F}{5},\\quad N_{2} = 2ma = \\frac{2F}{5}.$$\n\n$$\\mu\\left( N_{1} + N_{2} \\right) \\geq mg\\mkern6mu  \\Rightarrow \\mkern6mu  F \\geq \\frac{mg}{\\mu}.$$",
+  "mistakes": [
+    "The two faces carry different normal forces (3F/5 and 2F/5); add both frictions."
+  ],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "solved_answer": "(B) $\\frac{mg}{\\mu}$.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": "06FRI_Solutions_v1",
+    "date": "2026-11-12"
+  },
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 06FRI_Solutions_v1.docx"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "P000577",
+  "problem_version": 1,
+  "status": "reviewed",
+  "hints": [
+    "Can friction give the box the truck’s acceleration? If not, work in the truck’s frame: how fast does the box drift back?"
+  ],
+  "worded": "1. Friction can give the box at most μg = 1.5 m/s², less than the truck’s 2 m/s². So the box slips back.\n\n2. Relative to the truck, the box accelerates backwards at 2 − 1.5 = 0.5 m/s² from rest.\n\n3. It covers the 4 m to the rear end when ½ × 0.5 × t² = 4, i.e. t = 4 s.\n\n4. In 4 s the truck moves ½ × 2 × 16 = 16 m. (C)\n\n5. In the ground frame the box moves forward 12 m meanwhile; the truck moves 16 m; the difference is the 4 m.\n\n**Another way: ground frame.** Box: s_b = ½(1.5)t²; truck: s_t = ½(2)t². s_t − s_b = 4 gives t² = 16, and s_t = 16 m.",
+  "conventional": "![](asset:P000577-sol-1)\n\n$a_{box} = \\mu g = 1.5$ m/s² $< 2$ m/s², so the box slips. Truck frame (pseudo force $ma_{0}$ backwards):\n\n$$a_{rel} = 2 - 1.5 = 0.5\\ {m/s}^{2},\\quad\\quad 4 = \\frac{1}{2}(0.5)t^{2}\\mkern6mu  \\Rightarrow \\mkern6mu  t = 4\\unit{s}.$$\n\n$$s_{truck} = \\frac{1}{2}(2)(4)^{2} = 16\\unit{m}.$$",
+  "mistakes": [
+    "The question asks how far the truck moves, not the box (12 m) or the slip (4 m).",
+    "Check first that the box slips: μg < a."
+  ],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "solved_answer": "(C) 16 m.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": "06FRI_Solutions_v1",
+    "date": "2026-11-12"
+  },
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 06FRI_Solutions_v1.docx"
+  }
+}

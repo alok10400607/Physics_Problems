@@ -1,0 +1,60 @@
+{
+  "id": "P000552",
+  "status": "reviewed",
+  "version": 1,
+  "type": "subjective",
+  "topic_code": "0615",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000552-stem-1)A block of mass 5 kg is placed on a fixed plane inclined at $37{^\\circ}$ with the horizontal as shown. Find:\n(i) Friction force acting on the block\n(ii) The contact force acting on the block\n(iii) Minimum force F acting along the slope required to make the block move down the slope\n(iv) Minimum force F acting along the slope required to make the block move up the slope",
+  "answer": {
+    "text": "(i) 30 N (ii) 50 N (iii) 10 N (iv) 70 N"
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "06FRI_v1",
+      "qno": 18
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000552-stem-1",
+      "role": "stem",
+      "file": "P000/P000552-stem-1.png",
+      "format": "png",
+      "width": 421,
+      "height": 243,
+      "alt": "A 5 kg block resting on a rough incline of 37° with μ = 1.",
+      "origin": "docx",
+      "needs_redraw": true
+    },
+    {
+      "id": "P000552-sol-1",
+      "role": "solution",
+      "file": "P000/P000552-sol-1.png",
+      "format": "png",
+      "width": 863,
+      "height": 400,
+      "alt": "A block on a 37° incline: weight 50 N down, normal N = 40 N and friction f = 30 N up the slope. Note: f_max = μN = 40 N > 30 N, so static friction f = 30 N.",
+      "origin": "docx",
+      "needs_redraw": false
+    }
+  ],
+  "rights": "unverified",
+  "content_hash": "7691c3ae5368cc95",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-12",
+  "updated": "2026-11-12"
+}

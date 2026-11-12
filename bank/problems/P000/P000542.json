@@ -1,0 +1,68 @@
+{
+  "id": "P000542",
+  "status": "reviewed",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0610",
+  "concepts": [],
+  "exams": [
+    "JEE Main"
+  ],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A block of mass m slides along a floor while a force of magnitude F is applied to it at an angle θ as shown. The coefficient of kinetic friction is $\\mu_{K}$. Then the blocks acceleration is given by:",
+  "options": {
+    "A": "$- \\frac{F}{m}\\ \\cos \\theta - \\mu_{K}(g - \\frac{F}{m}\\ \\sin \\theta)$",
+    "B": "$\\frac{F}{m}\\ \\cos \\theta - \\mu_{K}(g - \\frac{F}{m}\\ \\sin \\theta)$",
+    "C": "$\\frac{F}{m}\\ \\cos \\theta - \\mu_{K}(g + \\frac{F}{m}\\ \\sin \\theta)$",
+    "D": "$\\frac{F}{m}\\ \\cos \\theta + \\mu_{K}(g - \\frac{F}{m}\\ \\sin \\theta)$"
+  },
+  "answer": {
+    "keys": [
+      "B"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "06FRI_v1",
+      "qno": 8
+    },
+    {
+      "kind": "exam",
+      "exam": "JEE Main",
+      "date": "2021-03-16",
+      "shift": 1,
+      "mode": null,
+      "raw": "JEE Main 2021, 16 Mar, Shift 1",
+      "year": 2021
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000542-sol-1",
+      "role": "solution",
+      "file": "P000/P000542-sol-1.png",
+      "format": "png",
+      "width": 603,
+      "height": 328,
+      "alt": "A block m on a rough floor pulled by F at θ above the horizontal; N = mg − F sin θ and kinetic friction μ_K N opposes the motion.",
+      "origin": "docx",
+      "needs_redraw": false
+    }
+  ],
+  "rights": "past-paper",
+  "content_hash": "f4aeb8e1853e119f",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-12",
+  "updated": "2026-11-12"
+}

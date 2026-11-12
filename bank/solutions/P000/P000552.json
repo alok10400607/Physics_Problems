@@ -1,0 +1,35 @@
+{
+  "id": "P000552",
+  "problem_version": 1,
+  "status": "reviewed",
+  "hints": [
+    "First decide whether the block slides by itself: compare mg sin 37° with μmg cos 37° (μ = 1 from the figure)."
+  ],
+  "worded": "1. From the figure μ = 1. Down-slope pull: 50 × 0.6 = 30 N. Limiting friction: 1 × 50 × 0.8 = 40 N. 30 < 40, so the block stays at rest.\n\n2. (i) At rest, static friction is just enough: 30 N up the slope (not 40 N).\n\n3. (ii) The block is in equilibrium under its weight and the contact force alone, so the contact force is 50 N, vertically up (the resultant of N = 40 N and f = 30 N).\n\n4. (iii) To start it down, F plus the 30 N gravity pull must overcome the limiting 40 N: F = 10 N.\n\n5. (iv) To start it up, F must overcome gravity (30 N) and limiting friction now acting down (40 N): F = 70 N.",
+  "conventional": "![](asset:P000552-sol-1)\n\n$mg\\sin 37^{\\circ} = 30$ N; $N = mg\\cos 37^{\\circ} = 40$ N; $f_{\\max} = \\mu N = 40$ N.\n(i) $f = 30$ N (up the slope). (ii) $R = \\sqrt{40^{2} + 30^{2}} = 50$ N, vertical.\n(iii) $F + 30 = 40 \\Rightarrow F = 10$ N. (iv) $F = 30 + 40 = 70$ N.",
+  "mistakes": [
+    "At rest the friction is 30 N, not μN = 40 N.",
+    "μ = 1 is given only in the figure."
+  ],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "solved_answer": "(i) 30 N; (ii) 50 N (vertically up); (iii) 10 N; (iv) 70 N.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
+    "issues": [
+      "problem text differs from the bank (similarity 0.76)"
+    ]
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": "06FRI_Solutions_v1",
+    "date": "2026-11-12"
+  },
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 06FRI_Solutions_v1.docx"
+  }
+}

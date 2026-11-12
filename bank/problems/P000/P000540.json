@@ -1,0 +1,68 @@
+{
+  "id": "P000540",
+  "status": "reviewed",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0605",
+  "concepts": [],
+  "exams": [
+    "JEE Main"
+  ],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "An insect is at the bottom of a hemispherical ditch of radius 1 m. It crawls up the ditch but starts slipping after it is at height h from the bottom. If the coefficient of friction between the ground and the insect is 0.75, then h is?",
+  "options": {
+    "A": "0.20 m",
+    "B": "0.45 m",
+    "C": "0.60 m",
+    "D": "0.80 m"
+  },
+  "answer": {
+    "keys": [
+      "A"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "06FRI_v1",
+      "qno": 6
+    },
+    {
+      "kind": "exam",
+      "exam": "JEE Main",
+      "date": "2020-09-06",
+      "shift": 1,
+      "mode": null,
+      "raw": "JEE Main 2020, 6 Sep, Shift 1",
+      "year": 2020
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000540-sol-1",
+      "role": "solution",
+      "file": "P000/P000540-sol-1.png",
+      "format": "png",
+      "width": 509,
+      "height": 394,
+      "alt": "A small block inside a hemispherical bowl with centre O, at angle θ from the vertical and height h above the bottom: weight mg down, normal N towards O, friction f along the surface.",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
+  "rights": "past-paper",
+  "content_hash": "3493eed34261d6c5",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-12",
+  "updated": "2026-11-12"
+}

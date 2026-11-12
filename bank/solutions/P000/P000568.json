@@ -1,0 +1,32 @@
+{
+  "id": "P000568",
+  "problem_version": 1,
+  "status": "reviewed",
+  "hints": [
+    "A’s largest acceleration is set as before. Now the floor’s friction on the pair must be beaten as well."
+  ],
+  "worded": "1. A is driven only by friction: a_max = μg = 2 m/s².\n\n2. The table’s friction on the pair (sliding) is 0.2 × 40 = 8 N.\n\n3. Whole system: F − 8 = 4 × 2, so F = 16 N. (B)\n\n4. (C) 8 N is only the table friction; (A) ignores it in a different way.",
+  "conventional": "![](asset:P000568-sol-1)\n\n$$a_{\\max} = \\mu g = 2\\ {m/s}^{2},\\quad\\quad F - \\mu\\left( m_{A} + m_{B} \\right)g = \\left( m_{A} + m_{B} \\right)a\\mkern6mu  \\Rightarrow \\mkern6mu  F = 8 + 8 = 16\\unit{N}.$$",
+  "mistakes": [
+    "The table’s friction uses the total weight (40 N)."
+  ],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "solved_answer": "(B) 16 N.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": "06FRI_Solutions_v1",
+    "date": "2026-11-12"
+  },
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 06FRI_Solutions_v1.docx"
+  }
+}

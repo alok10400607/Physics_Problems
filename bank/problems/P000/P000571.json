@@ -1,0 +1,68 @@
+{
+  "id": "P000571",
+  "status": "reviewed",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0625",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000571-stem-1)The coefficient of static friction between block A of mass 2 kg and the table as shown in figure is 0.2. What can be the maximum mass value of the block B so that the two blocks do not move? The string and the pulley are assumed to be smooth and massless.",
+  "options": {
+    "A": "0.2 kg",
+    "B": "0.4 kg",
+    "C": "2 kg",
+    "D": "4 kg"
+  },
+  "answer": {
+    "keys": [
+      "B"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "06FRI_v1",
+      "qno": 37
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000571-stem-1",
+      "role": "stem",
+      "file": "P000/P000571-stem-1.png",
+      "format": "png",
+      "width": 367,
+      "height": 238,
+      "alt": "Block A on a horizontal table with μ = 0.2, tied by a string over a pulley at the table's edge to block B hanging below.",
+      "origin": "docx",
+      "needs_redraw": true
+    },
+    {
+      "id": "P000571-sol-1",
+      "role": "solution",
+      "file": "P000/P000571-sol-1.png",
+      "format": "png",
+      "width": 851,
+      "height": 366,
+      "alt": "Block A on a table tied over a pulley to hanging B; friction f ≤ 0.2(20) = 4 N on A and weight m_B g on B.",
+      "origin": "docx",
+      "needs_redraw": false
+    }
+  ],
+  "rights": "unverified",
+  "content_hash": "0492bde60fbad3bf",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-12",
+  "updated": "2026-11-12"
+}

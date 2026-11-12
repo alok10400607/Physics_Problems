@@ -1,0 +1,57 @@
+{
+  "id": "P000555",
+  "status": "reviewed",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0615",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "Starting from rest, a body slides down an $45{^\\circ}$ incline-plane in twice the time it takes to slide down the same distance in the absence of friction. The co-efficient of friction between the body and the inclined plane is",
+  "options": {
+    "A": "0.2",
+    "B": "0.25",
+    "C": "0.75",
+    "D": "0.5"
+  },
+  "answer": {
+    "keys": [
+      "C"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "06FRI_v1",
+      "qno": 21
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000555-sol-1",
+      "role": "solution",
+      "file": "P000/P000555-sol-1.png",
+      "format": "png",
+      "width": 762,
+      "height": 345,
+      "alt": "A 45° incline. Note: same distance from rest: s = ½at², so a ∝ 1/t²; a_rough = a_smooth/4.",
+      "origin": "docx",
+      "needs_redraw": false
+    }
+  ],
+  "rights": "unverified",
+  "content_hash": "f7168b743ac80b4f",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-12",
+  "updated": "2026-11-12"
+}

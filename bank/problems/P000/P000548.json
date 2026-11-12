@@ -1,0 +1,71 @@
+{
+  "id": "P000548",
+  "status": "reviewed",
+  "version": 1,
+  "type": "integer",
+  "topic_code": "0610",
+  "concepts": [],
+  "exams": [
+    "JEE Main"
+  ],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000548-stem-1) A boy of mass 4 kg is standing on a piece of wood having mass of 5 kg. If the coefficient of friction between the wood and the floor is 0.5, the maximum force the boy can exert on the rope so that the piece of wood does not move from its place is ….. N. (round off to nearest integer)",
+  "answer": {
+    "value": 30
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "06FRI_v1",
+      "qno": 14
+    },
+    {
+      "kind": "exam",
+      "exam": "JEE Main",
+      "date": "2021-03-17",
+      "shift": 2,
+      "mode": null,
+      "raw": "JEE Main 2021, 17 Mar, Shift 2",
+      "year": 2021
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000548-stem-1",
+      "role": "stem",
+      "file": "P000/P000548-stem-1.png",
+      "format": "png",
+      "width": 259,
+      "height": 199,
+      "alt": "A boy standing on a wooden block pulls a rope that runs over three fixed pulleys and back to the block; the rope tension T acts at several points, R is the normal reaction from the floor.",
+      "origin": "docx",
+      "needs_redraw": true
+    },
+    {
+      "id": "P000548-sol-1",
+      "role": "solution",
+      "file": "P000/P000548-sol-1.png",
+      "format": "png",
+      "width": 685,
+      "height": 527,
+      "alt": "The boy and the 5 kg wood block as one system: rope tension T up and T to the right, normal N = 90 − T, and friction f ≤ μN to the left.",
+      "origin": "docx",
+      "needs_redraw": false
+    }
+  ],
+  "rights": "past-paper",
+  "content_hash": "78116e0533dcf7af",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-12",
+  "updated": "2026-11-12"
+}

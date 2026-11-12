@@ -1,0 +1,89 @@
+{
+  "id": "06FRI",
+  "kind": "worksheet",
+  "title": "Friction",
+  "chapter_code": "06",
+  "note": "Take g = 10 m/s² unless stated otherwise.",
+  "source_file": "06FRI_v1.docx",
+  "sections": [
+    {
+      "topic_code": "0605",
+      "title": "Laws of Friction; Angle of Friction & Repose",
+      "problems": [
+        "P000535",
+        "P000536",
+        "P000537",
+        "P000538",
+        "P000539",
+        "P000540"
+      ]
+    },
+    {
+      "topic_code": "0610",
+      "title": "Rough Horizontal Surface; Force at an Angle",
+      "problems": [
+        "P000541",
+        "P000542",
+        "P000543",
+        "P000544",
+        "P000545",
+        "P000546",
+        "P000547",
+        "P000548",
+        "P000549"
+      ]
+    },
+    {
+      "topic_code": "0615",
+      "title": "Rough Inclined Plane",
+      "problems": [
+        "P000550",
+        "P000551",
+        "P000552",
+        "P000553",
+        "P000554",
+        "P000555",
+        "P000556",
+        "P000557",
+        "P000558",
+        "P000559",
+        "P000560",
+        "P000561",
+        "P000562",
+        "P000563"
+      ]
+    },
+    {
+      "topic_code": "0620",
+      "title": "Stacked Blocks & Relative Slipping",
+      "problems": [
+        "P000564",
+        "P000565",
+        "P000566",
+        "P000567",
+        "P000568",
+        "P000569",
+        "P000570"
+      ]
+    },
+    {
+      "topic_code": "0625",
+      "title": "Friction in Pulley & Connected Systems",
+      "problems": [
+        "P000571",
+        "P000572",
+        "P000573",
+        "P000574",
+        "P000575",
+        "P000576"
+      ]
+    },
+    {
+      "topic_code": "0630",
+      "title": "Friction with Variable Forces & Accelerated Frames",
+      "problems": [
+        "P000577"
+      ]
+    }
+  ]
+}

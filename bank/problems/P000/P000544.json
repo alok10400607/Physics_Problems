@@ -1,0 +1,68 @@
+{
+  "id": "P000544",
+  "status": "reviewed",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0610",
+  "concepts": [],
+  "exams": [
+    "JEE Main"
+  ],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A heavy block is to be dragged along a rough horizontal floor. To do so, a person A pushes at angle of 30° with the horizontal and requires a minimum force of F<sub>A</sub> while the person B pulls the block at an angle of 60° with the horizontal and needs a minimum force of F<sub>B</sub>. If the coefficient of friction between the floor and block is $\\sqrt{3}$ /5, then the ratio of F<sub>A</sub> and F<sub>B</sub> is?",
+  "options": {
+    "A": "$\\sqrt{\\frac{3}{2}}$",
+    "B": "$\\frac{2}{\\sqrt{3}}$",
+    "C": "$\\frac{5}{\\sqrt{3}}$",
+    "D": "$\\sqrt{3}$"
+  },
+  "answer": {
+    "keys": [
+      "B"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "06FRI_v1",
+      "qno": 10
+    },
+    {
+      "kind": "exam",
+      "exam": "JEE Main",
+      "date": "2014-04-19",
+      "shift": null,
+      "mode": "Online",
+      "raw": "JEE Main 2014, 19 Apr (Online)",
+      "year": 2014
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000544-sol-1",
+      "role": "solution",
+      "file": "P000/P000544-sol-1.png",
+      "format": "png",
+      "width": 918,
+      "height": 337,
+      "alt": "Two blocks on a floor: one pushed by F_A at 30° below the horizontal, N = mg + F_A sin 30°; the other pulled by F_B at 60° above the horizontal, N = mg − F_B sin 60°.",
+      "origin": "docx",
+      "needs_redraw": false
+    }
+  ],
+  "rights": "past-paper",
+  "content_hash": "aae2622ba6ae77c2",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-12",
+  "updated": "2026-11-12"
+}

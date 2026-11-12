@@ -1,0 +1,60 @@
+{
+  "id": "P000539",
+  "status": "reviewed",
+  "version": 1,
+  "type": "integer",
+  "topic_code": "0605",
+  "concepts": [],
+  "exams": [
+    "JEE Main"
+  ],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "An inclined plane is bent in such a way that the vertical cross-section is given by $y = \\frac{x^{2}}{4}$ where y is in vertical and x in horizontal direction. If the upper surface of this curved plane is rough with coefficient of friction μ = 0.5, the maximum height in cm at which a stationary block will not slip downwards is ….. cm.",
+  "answer": {
+    "value": 25
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "06FRI_v1",
+      "qno": 5
+    },
+    {
+      "kind": "exam",
+      "exam": "JEE Main",
+      "date": "2021-02-24",
+      "shift": 1,
+      "mode": null,
+      "raw": "JEE Main 2021, 24 Feb, Shift 1",
+      "year": 2021
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000539-sol-1",
+      "role": "solution",
+      "file": "P000/P000539-sol-1.png",
+      "format": "png",
+      "width": 925,
+      "height": 351,
+      "alt": "A parabola y against x through the origin, with a dashed tangent of slope μ at the highest point where an object can stay; label: limit tan θ = dy/dx = x/2 = μ.",
+      "origin": "docx",
+      "needs_redraw": false
+    }
+  ],
+  "rights": "past-paper",
+  "content_hash": "d079f7d1fce67f7d",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-12",
+  "updated": "2026-11-12"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "P000574",
+  "problem_version": 1,
+  "status": "reviewed",
+  "hints": [
+    "To stop, the friction on the table block must at least match the hanging weight."
+  ],
+  "worded": "1. The hanging 5 kg pulls with 50 N. To stop the motion, friction on m₂ + m must reach at least 50 N.\n\n2. 0.15(10 + m) × 10 ≥ 50, so 10 + m ≥ 33.3 and m ≥ 23.3 kg. (B)\n\n3. Strictly, with exactly 23.3 kg the system moves at constant speed; any more makes it slow down and stop.",
+  "conventional": "![](asset:P000574-sol-1)\n\n$$\\mu\\left( m_{2} + m \\right)g \\geq m_{1}g\\mkern6mu  \\Rightarrow \\mkern6mu  m \\geq \\frac{m_{1}}{\\mu} - m_{2} = \\frac{5}{0.15} - 10 = 23.3\\unit{kg}.$$",
+  "mistakes": [
+    "The added mass increases N on the table; friction uses m₂ + m."
+  ],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "solved_answer": "(B) 23.3 kg.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": "06FRI_Solutions_v1",
+    "date": "2026-11-12"
+  },
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 06FRI_Solutions_v1.docx"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "id": "P000571",
+  "problem_version": 1,
+  "status": "reviewed",
+  "hints": [
+    "At rest, the string tension equals B’s weight. What is the most friction A can supply?"
+  ],
+  "worded": "1. At rest, the tension equals B’s weight, and friction on A balances the tension.\n\n2. The most friction A can get is 0.2 × 20 = 4 N.\n\n3. So m_B g ≤ 4 N and m_B ≤ 0.4 kg. (B)",
+  "conventional": "![](asset:P000571-sol-1)\n\n$$m_{B}g = T \\leq \\mu m_{A}g = 0.2(2)(10) = 4\\unit{N}\\mkern6mu  \\Rightarrow \\mkern6mu  m_{B} \\leq 0.4\\unit{kg}.$$",
+  "mistakes": [
+    "Friction depends on A’s weight only; B hangs freely."
+  ],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "solved_answer": "(B) 0.4 kg.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
+    "issues": [
+      "problem text differs from the bank (similarity 0.82)"
+    ]
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": "06FRI_Solutions_v1",
+    "date": "2026-11-12"
+  },
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 06FRI_Solutions_v1.docx"
+  }
+}

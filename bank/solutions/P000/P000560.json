@@ -1,0 +1,32 @@
+{
+  "id": "P000560",
+  "problem_version": 1,
+  "status": "reviewed",
+  "hints": [
+    "Use the given downhill motion to find the friction force. Then remember friction reverses when the body goes up."
+  ],
+  "worded": "1. Sliding down: 2 × 10 × ½ − f = 2 × 3, so f = 4 N.\n\n2. Going up at 3 m/s²: F must beat gravity’s 10 N and friction’s 4 N (now down the slope) and supply 6 N: F = 20 N. (B)\n\n3. Check: kinetic friction μmg cos 30° = 4 N gives μ ≈ 0.23, the same both ways, since N does not change when the motion reverses.",
+  "conventional": "![](asset:P000560-sol-1)\n\nDown: $mg\\sin 30^{\\circ} - f = ma \\Rightarrow f = 10 - 6 = 4$ N.\nUp: $F - mg\\sin 30^{\\circ} - f = ma \\Rightarrow F = 10 + 4 + 6 = 20$ N.",
+  "mistakes": [
+    "Friction changes direction when the motion reverses."
+  ],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "solved_answer": "(B) 20 N.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": "06FRI_Solutions_v1",
+    "date": "2026-11-12"
+  },
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 06FRI_Solutions_v1.docx"
+  }
+}

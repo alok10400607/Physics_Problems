@@ -1,0 +1,68 @@
+{
+  "id": "P000572",
+  "status": "reviewed",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0625",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000572-stem-1)If the tension in the string in the figure is 16 N and the acceleration of each block is 0.5 m/s<sup>2</sup>, find the friction coefficients at the two contacts with the blocks $\\mu_{1}$ and $\\mu_{2}$?",
+  "options": {
+    "A": "0.25, 0.06",
+    "B": "0.5, 0.5",
+    "C": "0.6, 0.2",
+    "D": "0.75, 0.06"
+  },
+  "answer": {
+    "keys": [
+      "D"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "06FRI_v1",
+      "qno": 38
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000572-stem-1",
+      "role": "stem",
+      "file": "P000/P000572-stem-1.png",
+      "format": "png",
+      "width": 329,
+      "height": 172,
+      "alt": "A 4 kg block with coefficient μ₂ on a 30° incline, tied by a string over two pulleys to a 2 kg block with coefficient μ₁ on the horizontal floor.",
+      "origin": "docx",
+      "needs_redraw": true
+    },
+    {
+      "id": "P000572-sol-1",
+      "role": "solution",
+      "file": "P000/P000572-sol-1.png",
+      "format": "png",
+      "width": 1220,
+      "height": 247,
+      "alt": "Text and a line diagram: 2 kg (table): T − μ₁(20) = 2(0.5); 4 kg (incline): 40 sin 30° − T − μ₂(40 cos 30°) = 4(0.5). Forces 20μ₁ and 20 − 34.6μ₂ act on the two blocks.",
+      "origin": "docx",
+      "needs_redraw": false
+    }
+  ],
+  "rights": "unverified",
+  "content_hash": "4d4855bac750685a",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-12",
+  "updated": "2026-11-12"
+}

@@ -1,0 +1,57 @@
+{
+  "id": "P000550",
+  "status": "reviewed",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0615",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A small block of mass 0.1 kg lies on fixed inclined plane PQ which makes an angle θ with the horizontal. A horizontal force of 1 N is applied on the block directed up the slope. The block remains stationary. Choose INCORRECT statement:",
+  "options": {
+    "A": "If surface is smooth, the angle θ = $45{^\\circ}$",
+    "B": "If the angle is θ < $45{^\\circ}$, then the friction force must be acting up the slope",
+    "C": "If the angle is θ < $45{^\\circ}$, then the friction force must be acting down the slope",
+    "D": "If the angle is θ > $45{^\\circ}$, then the friction force must be acting up the slope"
+  },
+  "answer": {
+    "keys": [
+      "B"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "06FRI_v1",
+      "qno": 16
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000550-sol-1",
+      "role": "solution",
+      "file": "P000/P000550-sol-1.png",
+      "format": "png",
+      "width": 1057,
+      "height": 317,
+      "alt": "A block on a 30° incline with a horizontal 1 N push and its 1 N weight. Note: along the slope, push cos θ up and weight sin θ down.",
+      "origin": "docx",
+      "needs_redraw": false
+    }
+  ],
+  "rights": "unverified",
+  "content_hash": "58ee261ef5ebb1f0",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-12",
+  "updated": "2026-11-12"
+}

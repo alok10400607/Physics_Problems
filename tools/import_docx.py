@@ -71,7 +71,7 @@ UNI_TEX = {"µ": "\\mu ", "μ": "\\mu ", "¼": "\\frac{1}{4}", "½": "\\frac{1}{
 def unescape_text(s):
     """Remove Markdown escapes outside equations (inside them the backslashes are LaTeX)."""
     parts = re.split(r'(\$\$[\s\S]+?\$\$|\$[^$]+\$)', s)
-    return "".join(x if x.startswith("$") else re.sub(r'\\([\[\]()*_#>`~-])', r'\1', x) for x in parts).strip()
+    return "".join(x if x.startswith("$") else re.sub(r'\\([\[\]()*_#<>`~|!.\'"-])', r'\1', x) for x in parts).strip()
 
 def fix_math(s, where):
     def fx(m):

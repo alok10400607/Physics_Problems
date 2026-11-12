@@ -1,0 +1,32 @@
+{
+  "id": "P000540",
+  "problem_version": 1,
+  "status": "reviewed",
+  "hints": [
+    "At a point on the bowl, how steep is the surface? Relate that slope to the radius’s angle from the vertical."
+  ],
+  "worded": "1. The surface is steepest where the radius is farthest from the vertical: the slope angle equals the angle θ between the radius and the vertical.\n\n2. The insect slips when tan θ reaches μ = 0.75, i.e. θ = 37°, where cos θ = 0.8.\n\n3. Its height above the bottom is R(1 − cos θ) = 1 × 0.2 = 0.2 m. (A)\n\n4. Check: 0.8 m (D) is R cos θ, the depth below the rim’s centre, a common slip.",
+  "conventional": "![](asset:P000540-sol-1)\n\nAt angle $\\theta$ from the vertical: $N = mg\\cos\\theta$, needed friction $= mg\\sin\\theta \\leq \\mu mg\\cos\\theta$, so $\\tan\\theta \\leq 0.75$, $\\cos\\theta = 0.8$.\n\n$$h = R\\left( 1 - \\cos\\theta \\right) = 1(1 - 0.8) = 0.2\\unit{m}.$$",
+  "mistakes": [
+    "h is measured from the bottom: R(1 − cos θ), not R cos θ."
+  ],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "solved_answer": "(A) 0.20 m.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": "06FRI_Solutions_v1",
+    "date": "2026-11-12"
+  },
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 06FRI_Solutions_v1.docx"
+  }
+}

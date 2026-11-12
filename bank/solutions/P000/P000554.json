@@ -1,0 +1,32 @@
+{
+  "id": "P000554",
+  "problem_version": 1,
+  "status": "reviewed",
+  "hints": [
+    "Up and down cover the same distance, each from or to rest. How do the accelerations compare if one takes twice as long?"
+  ],
+  "worded": "1. The block goes up and comes back the same distance, starting or ending at rest each way. So s = ½at², and t ∝ 1/√a.\n\n2. t_down = 2t_up means a_down = a_up/4.\n\n3. g(sin − μ cos) = ¼ g(sin + μ cos), so 3 sin 30° = 5μ cos 30°, and μ = (3/5) tan 30° = √3/5.\n\n4. √x/5 = √3/5, so x = 3.",
+  "conventional": "![](asset:P000554-sol-1)\n\n$$\\frac{t_{u}}{t_{d}} = \\sqrt{\\frac{a_{d}}{a_{u}}} = \\frac{1}{2}\\mkern6mu  \\Rightarrow \\mkern6mu \\frac{\\sin 30^{\\circ} - \\mu\\cos 30^{\\circ}}{\\sin 30^{\\circ} + \\mu\\cos 30^{\\circ}} = \\frac{1}{4}\\mkern6mu  \\Rightarrow \\mkern6mu \\mu = \\frac{3}{5}\\tan 30^{\\circ} = \\frac{\\sqrt{3}}{5}.$$\n\nSo $x = 3$.",
+  "mistakes": [
+    "Time goes as 1/√a: half the time means four times the acceleration, not twice."
+  ],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "solved_answer": "x = 3.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": "06FRI_Solutions_v1",
+    "date": "2026-11-12"
+  },
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 06FRI_Solutions_v1.docx"
+  }
+}

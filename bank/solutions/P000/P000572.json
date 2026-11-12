@@ -1,0 +1,32 @@
+{
+  "id": "P000572",
+  "problem_version": 1,
+  "status": "reviewed",
+  "hints": [
+    "With T and a known, each block gives one equation in one unknown. Which way does each block move?"
+  ],
+  "worded": "1. The 4 kg block slides down the 30° incline and drags the 2 kg block along the floor towards the pulley.\n\n2. 2 kg block: T − μ₁(20) = 2 × 0.5, so 16 − 20μ₁ = 1 and μ₁ = 0.75.\n\n3. 4 kg block: 40 sin 30° − T − μ₂(40 cos 30°) = 4 × 0.5, so 20 − 16 − 34.6μ₂ = 2 and μ₂ ≈ 0.058.\n\n4. So μ₁ = 0.75, μ₂ ≈ 0.06. (D)",
+  "conventional": "![](asset:P000572-sol-1)\n\n2 kg: $16 - 20\\mu_{1} = 1 \\Rightarrow \\mu_{1} = 0.75$.\n4 kg: $20 - 16 - 40\\cos 30^{\\circ}\\,\\mu_{2} = 2 \\Rightarrow \\mu_{2} = \\frac{2}{34.64} \\approx 0.058$.",
+  "mistakes": [
+    "Each block can be solved alone because T is given; no need to add the equations."
+  ],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "solved_answer": "(D) μ₁ = 0.75, μ₂ ≈ 0.06.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": "06FRI_Solutions_v1",
+    "date": "2026-11-12"
+  },
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 06FRI_Solutions_v1.docx"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "id": "P000576",
+  "problem_version": 1,
+  "status": "reviewed",
+  "hints": [
+    "The slanting string lifts the 2 kg block a little as it pulls. Write the limiting condition with the reduced N."
+  ],
+  "worded": "1. At the threshold nothing accelerates, so the smooth 4 kg block passes F straight on: T cos 37° = F.\n\n2. The string pulls the 2 kg block up at 37°, so N = 20 − 0.6T.\n\n3. Limit: 0.8T = 0.2(20 − 0.6T), so 0.92T = 4 and T ≈ 4.35 N.\n\n4. F = 0.8T ≈ 3.5 N. (D)",
+  "conventional": "![](asset:P000576-sol-1)\n\n$$T\\cos 37^{\\circ} = \\mu\\left( mg - T\\sin 37^{\\circ} \\right)\\mkern6mu  \\Rightarrow \\mkern6mu  0.8T = 0.2(20 - 0.6T)\\mkern6mu  \\Rightarrow \\mkern6mu  T = 4.35\\unit{N}.$$\n\n$$F = T\\cos 37^{\\circ} = 3.48\\unit{N} \\approx 3.5\\unit{N}.$$",
+  "mistakes": [
+    "The string’s upward component reduces N on the 2 kg block."
+  ],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "solved_answer": "(D) 3.5 N.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
+    "issues": [
+      "problem text differs from the bank (similarity 0.69)"
+    ]
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": "06FRI_Solutions_v1",
+    "date": "2026-11-12"
+  },
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 06FRI_Solutions_v1.docx"
+  }
+}
