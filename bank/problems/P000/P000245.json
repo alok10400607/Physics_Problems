@@ -1,6 +1,6 @@
 {
   "id": "P000245",
-  "status": "imported",
+  "status": "reviewed",
   "version": 1,
   "type": "mcq_single",
   "topic_code": "0425",
@@ -46,6 +46,17 @@
       "alt": "Two planes meeting at O on the ground: plane A inclined at 30° and plane B at 60° on the other side. A particle is launched from a point on A with speed u perpendicular to A.",
       "origin": "docx",
       "needs_redraw": true
+    },
+    {
+      "id": "P000245-sol-1",
+      "role": "solution",
+      "file": "P000/P000245-sol-1.png",
+      "format": "png",
+      "width": 731,
+      "height": 537,
+      "alt": "Two lines from O: OA at 30° and OB at 60° to the ground. A projectile starts on OA with u perpendicular to OA and strikes OB with v perpendicular to OB; u is parallel to OB and the final v parallel to AO.",
+      "origin": "docx",
+      "needs_redraw": false
     }
   ],
   "rights": "unverified",
@@ -53,5 +64,5 @@
   "duplicate_of": null,
   "variant_of": null,
   "created": "2026-11-08",
-  "updated": "2026-11-08"
+  "updated": "2026-11-12"
 }

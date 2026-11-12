@@ -1,0 +1,33 @@
+{
+  "id": "P000191",
+  "problem_version": 1,
+  "status": "reviewed",
+  "hints": [
+    "The trajectory is a relation between x and y with no t in it. Which equation lets you write t in terms of x?"
+  ],
+  "worded": "1. Asked: (i) the path y(x), (ii) the velocity at time t.\n\n2. From x = 2t, t = x/2. Put it into y = t²: y = x²/4, a parabola through the origin opening upward.\n\n3. Velocity is the time-derivative of each coordinate: dx/dt = 2, dy/dt = 2t.\n\n4. So $\\vec{v}$ = 2 î + 2t ĵ. Check: the slope of the path, dy/dx = x/2 = t, equals v_y/v_x = 2t/2 = t, as it must.",
+  "conventional": "![](asset:P000191-sol-1)\n\n(i) From $x = 2t$, $t = x/2$, so\n\n$$y = t^{2} = \\frac{x^{2}}{4}.$$\n\n(ii)\n\n$$\\vec{v} = \\frac{dx}{dt}\\ihat  + \\frac{dy}{dt}\\jhat  = 2\\ihat  + 2t\\,\\jhat .$$",
+  "mistakes": [
+    "Writing y = x² forgets that x = 2t, not t.",
+    "The velocity is a vector: give both components, not only the speed $2\\sqrt{1 + t^{2}}$."
+  ],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "solved_answer": "(i) $y = x^{2}/4$ (a parabola); (ii) $\\vec{v} = 2\\ihat  + 2t\\,\\jhat $.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": "04MIP_Solutions_v1",
+    "date": "2026-11-12"
+  },
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 04MIP_Solutions_v1.docx"
+  }
+}

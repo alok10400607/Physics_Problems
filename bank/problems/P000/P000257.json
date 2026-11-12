@@ -1,6 +1,6 @@
 {
   "id": "P000257",
-  "status": "imported",
+  "status": "reviewed",
   "version": 1,
   "type": "mcq_single",
   "topic_code": "0430",
@@ -35,11 +35,23 @@
       "qno": 77
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "id": "P000257-sol-1",
+      "role": "solution",
+      "file": "P000/P000257-sol-1.png",
+      "format": "png",
+      "width": 669,
+      "height": 325,
+      "alt": "A train starts from rest at t = 0; ball 1 is dropped from 0.8 m then, and ball 2 at t = 1 s when the train is at 1 m moving at 2 m/s. The balls land 1 + 2(0.4) = 1.8 m apart.",
+      "origin": "docx",
+      "needs_redraw": false
+    }
+  ],
   "rights": "unverified",
   "content_hash": "b3b6747579d9179a",
   "duplicate_of": null,
   "variant_of": null,
   "created": "2026-11-08",
-  "updated": "2026-11-08"
+  "updated": "2026-11-12"
 }

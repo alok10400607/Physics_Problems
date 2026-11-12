@@ -1,6 +1,6 @@
 {
   "id": "P000189",
-  "status": "imported",
+  "status": "reviewed",
   "version": 1,
   "type": "subjective",
   "topic_code": "0405",
@@ -27,11 +27,23 @@
       "qno": 9
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "id": "P000189-sol-1",
+      "role": "solution",
+      "file": "P000/P000189-sol-1.png",
+      "format": "png",
+      "width": 679,
+      "height": 571,
+      "alt": "x–y axes: a path starting vertically at the origin (initial velocity u) and curving right to (32, 48), where the velocity is v = 16î + 16ĵ.",
+      "origin": "docx",
+      "needs_redraw": false
+    }
+  ],
   "rights": "unverified",
   "content_hash": "3161322fe4dbe5b0",
   "duplicate_of": null,
   "variant_of": null,
   "created": "2026-11-08",
-  "updated": "2026-11-08"
+  "updated": "2026-11-12"
 }

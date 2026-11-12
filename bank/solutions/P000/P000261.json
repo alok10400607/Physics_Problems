@@ -1,0 +1,33 @@
+{
+  "id": "P000261",
+  "problem_version": 1,
+  "status": "reviewed",
+  "hints": [
+    "Write the butterfly’s own velocity and the wind as vectors and add them."
+  ],
+  "worded": "1. 4√2 m/s towards the north-east has components 4 east and 4 north.\n\n2. Wind from north to south: 1 m/s south, i.e. −1 north.\n\n3. Resultant: 4 east, 3 north, speed 5 m/s.\n\n4. In 3 s: 15 m. (D)",
+  "conventional": "![](asset:P000261-sol-1)\n\n$$\\vec{v} = \\left( 4\\ihat  + 4\\jhat  \\right) + \\left( - \\jhat  \\right) = 4\\ihat  + 3\\jhat ,\\quad\\quad\\left| \\vec{v} \\right| = 5\\unit{m/s}.$$\n\n$$s = 5 \\times 3 = 15\\unit{m}.$$",
+  "mistakes": [
+    "“From north to south” means the wind blows towards the south.",
+    "$12\\sqrt{2}$ m ignores the wind."
+  ],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "solved_answer": "(D) 15 m.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": "04MIP_Solutions_v1",
+    "date": "2026-11-12"
+  },
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 04MIP_Solutions_v1.docx"
+  }
+}

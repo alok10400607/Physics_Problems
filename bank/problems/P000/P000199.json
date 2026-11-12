@@ -1,6 +1,6 @@
 {
   "id": "P000199",
-  "status": "imported",
+  "status": "reviewed",
   "version": 1,
   "type": "mcq_single",
   "topic_code": "0410",
@@ -35,11 +35,23 @@
       "qno": 19
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "id": "P000199-sol-1",
+      "role": "solution",
+      "file": "P000/P000199-sol-1.png",
+      "format": "png",
+      "width": 621,
+      "height": 347,
+      "alt": "A projectile with launch velocity split into u₀ horizontal and v₀ vertical; the range is R = u₀T = u₀·2v₀/g.",
+      "origin": "docx",
+      "needs_redraw": false
+    }
+  ],
   "rights": "unverified",
   "content_hash": "b736f7bb908ff2d4",
   "duplicate_of": null,
   "variant_of": null,
   "created": "2026-11-08",
-  "updated": "2026-11-08"
+  "updated": "2026-11-12"
 }

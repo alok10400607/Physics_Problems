@@ -1,0 +1,33 @@
+{
+  "id": "P000273",
+  "problem_version": 1,
+  "status": "reviewed",
+  "hints": [
+    "Find the boat’s speed in still water from the lake trip, then add and subtract the river speed for the two legs."
+  ],
+  "worded": "1. In the lake: 16 km in 2 h, so the boat’s still-water speed is 8 km/h.\n\n2. Upstream: 8 − 4 = 4 km/h, taking 8/4 = 2 h. Downstream: 8 + 4 = 12 km/h, taking 8/12 = ⅔ h.\n\n3. Total = 2⅔ h = 160 min. (C)\n\n4. Check: any current lengthens a round trip compared with still water (120 min), so 160 min is sensible.",
+  "conventional": "$$v_{b} = \\frac{16}{2} = 8\\unit{km/h},\\quad\\quad t = \\frac{8}{8 - 4} + \\frac{8}{8 + 4} = 2 + \\frac{2}{3} = \\frac{8}{3}\\unit{h} = 160\\ \\min.$$",
+  "mistakes": [
+    "The lake trip is 8 km each way, 16 km in all: v_b = 8 km/h, not 4 km/h.",
+    "The gain downstream never makes up for the loss upstream."
+  ],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "solved_answer": "(C) 160 min.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": "04MIP_Solutions_v1",
+    "date": "2026-11-12"
+  },
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 04MIP_Solutions_v1.docx"
+  }
+}

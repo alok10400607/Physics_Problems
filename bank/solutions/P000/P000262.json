@@ -1,0 +1,33 @@
+{
+  "id": "P000262",
+  "problem_version": 1,
+  "status": "reviewed",
+  "hints": [
+    "Write the wind as $p\\ihat  + q\\jhat $. Each observation tells you the direction of (wind − woman’s velocity). Which component does each observation fix?"
+  ],
+  "worded": "1. Let the wind be p î + q ĵ. Walking north at 10, the apparent wind is p î + (q − 10) ĵ.\n\n2. It seems to come from the west, i.e. it blows purely towards the east: q − 10 = 0, so q = 10, and p > 0.\n\n3. At 30 km/h north, the apparent wind is p î + (10 − 30) ĵ = p î − 20 ĵ.\n\n4. From the north-west means blowing towards the south-east, equal east and south parts: p = 20.\n\n5. So the wind is 20 î + 10 ĵ km/h. (A)",
+  "conventional": "![](asset:P000262-sol-1)\n\nLet $\\vec{v}_{w} = p\\ihat  + q\\jhat $.\n\n(i) $\\vec{v}_{w} - 10\\jhat  = p\\ihat  + (q - 10)\\jhat $ points east $\\Rightarrow q = 10$.\n\n(ii) $\\vec{v}_{w} - 30\\jhat  = p\\ihat  - 20\\jhat $ points south-east $\\Rightarrow p = 20$.\n\n$$\\vec{v}_{w} = 20\\ihat  + 10\\jhat \\ km/h.$$",
+  "mistakes": [
+    "“From the west” is the direction the wind comes from; it blows towards the east.",
+    "The apparent wind is wind minus observer, not wind plus observer."
+  ],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "solved_answer": "(A) $20\\ihat  + 10\\jhat $ km/h.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": "04MIP_Solutions_v1",
+    "date": "2026-11-12"
+  },
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 04MIP_Solutions_v1.docx"
+  }
+}

@@ -1,23 +1,33 @@
 {
   "id": "P000233",
   "problem_version": 1,
-  "status": "draft",
+  "status": "reviewed",
   "hints": [
-    "> The vertical component of velocity = 10 m/s; or T = 2 s; hence $u_{x} = 30$"
+    "“Just grazing the ceiling” fixes the maximum height. That alone gives the vertical component and the time of flight."
   ],
-  "worded": null,
-  "conventional": null,
-  "mistakes": [],
+  "worded": "1. Grazing the ceiling means the maximum height is 5 m. So u_y² = 2 × 10 × 5 = 100, u_y = 10 m/s.\n\n2. Time of flight = 2u_y/g = 2 s.\n\n3. It must cover the 60 m length in 2 s: u_x = 30 m/s.\n\n4. Speed = √(30² + 10²) = √1000 = 10√10 ≈ 31.6 m/s. (D)\n\n5. Check: the ball grazes the ceiling at mid-hall (30 m), its top, as it should.",
+  "conventional": "![](asset:P000233-sol-1)\n\n$$H = \\frac{u_{y}^{2}}{2g} = 5 \\Rightarrow u_{y} = 10\\unit{m/s},\\quad\\quad T = \\frac{2u_{y}}{g} = 2\\unit{s},\\quad\\quad u_{x} = \\frac{60}{2} = 30\\unit{m/s}.$$\n\n$$u = \\sqrt{u_{x}^{2} + u_{y}^{2}} = \\sqrt{900 + 100} = 10\\sqrt{10}\\unit{m/s}.$$",
+  "mistakes": [
+    "(A) 30 m/s is only the horizontal component.",
+    "The ball lands at the far end at floor level, so the full 60 m is the range."
+  ],
   "distractors": {},
   "extension": null,
   "check": {
+    "solved_answer": "(D) $10\\sqrt{10}$ m/s.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
     "issues": []
   },
   "generated_by": {
     "author": "worksheet",
     "model": null,
-    "prompt_version": null,
-    "date": "2026-11-08"
+    "prompt_version": "04MIP_Solutions_v1",
+    "date": "2026-11-12"
   },
-  "reviewed_by": null
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 04MIP_Solutions_v1.docx"
+  }
 }

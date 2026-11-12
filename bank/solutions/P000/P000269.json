@@ -1,0 +1,33 @@
+{
+  "id": "P000269",
+  "problem_version": 1,
+  "status": "reviewed",
+  "hints": [
+    "The man’s velocity on the incline has a vertical part too. Subtract his full velocity vector from the rain’s in each case."
+  ],
+  "worded": "1. Take x horizontal (the direction of walking down) and y up. Walking down the 37° incline at 5 m/s: velocity (4, −3). Walking up: (−4, 3).\n\n2. Let the rain be (p, −q). Walking down, the apparent rain (p − 4, −q + 3) is vertical, so p = 4.\n\n3. Walking up, the apparent rain is (4 + 4, −q − 3) = (8, −(q + 3)). Its angle with the horizontal has tan = (q + 3)/8 = 7/8, so q = 4.\n\n4. Rain = (4, −4): speed 4√2 m/s at 45°. (B)\n\n5. Check: q must be positive (rain falls); the other root of the angle condition gives q = −10, rising rain, so it is rejected.",
+  "conventional": "![](asset:P000269-sol-1)\n\n$\\vec{v}_{down} = 5\\left( \\cos 37^{\\circ}\\ihat  - \\sin 37^{\\circ}\\jhat  \\right) = 4\\ihat  - 3\\jhat $, $\\vec{v}_{up} = - 4\\ihat  + 3\\jhat $. Let $\\vec{v}_{R} = p\\ihat  - q\\jhat $.\n\nDown: $\\vec{v}_{R} - \\vec{v}_{down} = (p - 4)\\ihat  + (3 - q)\\jhat $ is vertical $\\Rightarrow p = 4$.\n\nUp: $\\vec{v}_{R} - \\vec{v}_{up} = 8\\ihat  - (q + 3)\\jhat $, with $\\frac{q + 3}{8} = \\frac{7}{8} \\Rightarrow q = 4$.\n\n$$\\left| \\vec{v}_{R} \\right| = \\sqrt{4^{2} + 4^{2}} = 4\\sqrt{2}\\unit{m/s}.$$",
+  "mistakes": [
+    "On an incline the man’s velocity has a vertical part (±3 m/s); leaving it out gives the wrong vertical component.",
+    "tan⁻¹(7/8) is with the horizontal: (q + 3)/8, not 8/(q + 3)."
+  ],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "solved_answer": "(B) $4\\sqrt{2}$ m/s.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": "04MIP_Solutions_v1",
+    "date": "2026-11-12"
+  },
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 04MIP_Solutions_v1.docx"
+  }
+}

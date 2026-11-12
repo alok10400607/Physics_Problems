@@ -1,6 +1,6 @@
 {
   "id": "P000195",
-  "status": "imported",
+  "status": "reviewed",
   "version": 1,
   "type": "mcq_single",
   "topic_code": "0405",
@@ -46,6 +46,17 @@
       "alt": "A bead on a wire shaped as the curve y = 0.5x², drawn from the origin O with x and y axes.",
       "origin": "docx",
       "needs_redraw": true
+    },
+    {
+      "id": "P000195-sol-1",
+      "role": "solution",
+      "file": "P000/P000195-sol-1.png",
+      "format": "png",
+      "width": 432,
+      "height": 659,
+      "alt": "x–y axes: a curve rising from the origin; at (4, 8), t = 1 s, the velocity has components v_x = 4 to the right and v_y = 16 upward, with the resultant between them.",
+      "origin": "docx",
+      "needs_redraw": true
     }
   ],
   "rights": "unverified",
@@ -53,5 +64,5 @@
   "duplicate_of": null,
   "variant_of": null,
   "created": "2026-11-08",
-  "updated": "2026-11-08"
+  "updated": "2026-11-12"
 }

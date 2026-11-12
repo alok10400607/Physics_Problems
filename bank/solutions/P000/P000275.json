@@ -1,0 +1,33 @@
+{
+  "id": "P000275",
+  "problem_version": 1,
+  "status": "reviewed",
+  "hints": [
+    "From the figure, the boat heads upstream. Find its across and along components, then compare the along component with the river speed."
+  ],
+  "worded": "1. From the figure, the heading is 37° from the normal, tilted upstream (against the 2 m/s flow).\n\n2. Across: 5 cos 37° = 4 m/s, so crossing takes 50/4 = 12.5 s.\n\n3. Along: the boat pushes 5 sin 37° = 3 m/s upstream; the river carries it 2 m/s downstream. Net: 1 m/s upstream.\n\n4. Drift = 1 × 12.5 = 12.5 m upstream of B. (B)",
+  "conventional": "![](asset:P000275-sol-1)\n\n$$t = \\frac{50}{5\\cos 37^{\\circ}} = \\frac{50}{4} = 12.5\\unit{s},\\quad\\quad v_{along} = 2 - 5\\sin 37^{\\circ} = 2 - 3 = - 1\\unit{m/s}.$$\n\n$$drift = ( - 1)(12.5) = - 12.5\\unit{m},\\ i.e.\\ 12.5\\unit{m}\\text{ upstream of B}.$$",
+  "mistakes": [
+    "The boat’s upstream push (3 m/s) exceeds the river (2 m/s), so the drift is upstream.",
+    "10 m comes from using the time 50/5 = 10 s, as if the boat headed straight across."
+  ],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "solved_answer": "(B) 12.5 m upstream of B.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": "04MIP_Solutions_v1",
+    "date": "2026-11-12"
+  },
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 04MIP_Solutions_v1.docx"
+  }
+}

@@ -1,6 +1,6 @@
 {
   "id": "P000272",
-  "status": "imported",
+  "status": "reviewed",
   "version": 1,
   "type": "mcq_single",
   "topic_code": "0440",
@@ -35,11 +35,23 @@
       "qno": 92
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "id": "P000272-sol-1",
+      "role": "solution",
+      "file": "P000/P000272-sol-1.png",
+      "format": "png",
+      "width": 592,
+      "height": 339,
+      "alt": "A river flowing west at 5 m/min; a swimmer heads upstream so that the resultant is 10 m/min due north.",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
   "rights": "unverified",
   "content_hash": "0e2ce4a97bebc15e",
   "duplicate_of": null,
   "variant_of": null,
   "created": "2026-11-08",
-  "updated": "2026-11-08"
+  "updated": "2026-11-12"
 }

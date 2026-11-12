@@ -1,6 +1,6 @@
 {
   "id": "P000254",
-  "status": "imported",
+  "status": "reviewed",
   "version": 1,
   "type": "mcq_single",
   "topic_code": "0430",
@@ -46,6 +46,17 @@
       "alt": "A cannon fixed on a flat cart moving to the right at 10 m/s; the barrel points up at 53° to the horizontal.",
       "origin": "docx",
       "needs_redraw": true
+    },
+    {
+      "id": "P000254-sol-1",
+      "role": "solution",
+      "file": "P000/P000254-sol-1.png",
+      "format": "png",
+      "width": 876,
+      "height": 405,
+      "alt": "Vector addition: 50 m/s at 53° relative to a trolley plus the trolley's +10 gives 40î + 40ĵ relative to the ground; ground range = 2(40)(40)/10 = 320 m.",
+      "origin": "docx",
+      "needs_redraw": false
     }
   ],
   "rights": "unverified",
@@ -53,5 +64,5 @@
   "duplicate_of": null,
   "variant_of": null,
   "created": "2026-11-08",
-  "updated": "2026-11-08"
+  "updated": "2026-11-12"
 }

@@ -1,0 +1,33 @@
+{
+  "id": "P000222",
+  "problem_version": 1,
+  "status": "reviewed",
+  "hints": [
+    "Combine gravity and the wind into one constant acceleration. For a body to come back to its starting point under a constant acceleration, how must its initial velocity be aimed?"
+  ],
+  "worded": "1. The ball must leave the hand towards the east (against the wind), so that the wind can bring it back.\n\n2. Vertically: up-and-down time with u cos θ = 20 cos θ: T = 2(20 cos θ)/10 = 4 cos θ.\n\n3. Horizontally: it goes out at 20 sin θ and is pulled back at 4 m/s². It returns to x = 0 after 2(20 sin θ)/4 = 10 sin θ.\n\n4. Both returns must happen together: 4 cos θ = 10 sin θ, so tan θ = 0.4. (C)\n\n5. Check: the answer is just (wind acceleration)/g = 4/10. The path is a straight line out and back, aimed opposite the net acceleration.\n\n**No-pen route: one net acceleration.** Gravity and wind together give a constant net acceleration of 4 (west) and 10 (down). A body comes back to its start under a constant acceleration only if it is thrown straight against that acceleration, moving out and back along one line. So the throw must be 4 east for every 10 up: tan θ (from the vertical) = 4/10 = 0.4.",
+  "conventional": "![](asset:P000222-sol-1)\n\nTake x east and y up. $u_{x} = 20\\sin\\theta$, $a_{x} = - 4$; $u_{y} = 20\\cos\\theta$, $a_{y} = - 10$.\n\nReturn to the hand: $x = 0$ and $y = 0$ at the same time $T \\neq 0$:\n\n$$T = \\frac{2\\left( 20\\cos\\theta \\right)}{10} = \\frac{2\\left( 20\\sin\\theta \\right)}{4}\\  \\Rightarrow \\ \\tan\\theta = \\frac{4}{10} = 0.4.$$",
+  "mistakes": [
+    "θ is measured from the vertical here; tan θ = a_wind/g, not g/a_wind (option A).",
+    "The ball must be thrown into the wind, not with it."
+  ],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "solved_answer": "(C) $\\tan^{- 1}(0.4)$ with the vertical (towards the east, against the wind).",
+    "resolve_answer": null,
+    "agrees_with_key": true,
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": "04MIP_Solutions_v1",
+    "date": "2026-11-12"
+  },
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 04MIP_Solutions_v1.docx"
+  }
+}

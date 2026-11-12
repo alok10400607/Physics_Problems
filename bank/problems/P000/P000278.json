@@ -1,6 +1,6 @@
 {
   "id": "P000278",
-  "status": "imported",
+  "status": "reviewed",
   "version": 1,
   "type": "mcq_single",
   "topic_code": "0440",
@@ -35,11 +35,23 @@
       "qno": 98
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "id": "P000278-sol-1",
+      "role": "solution",
+      "file": "P000/P000278-sol-1.png",
+      "format": "png",
+      "width": 605,
+      "height": 322,
+      "alt": "Two vector triangles: for least time the boat v_b heads straight across and drifts with the current; for the shortest path it heads upstream so the resultant, 12 m/min, is straight across.",
+      "origin": "docx",
+      "needs_redraw": false
+    }
+  ],
   "rights": "unverified",
   "content_hash": "6af20a3212a18a6b",
   "duplicate_of": null,
   "variant_of": null,
   "created": "2026-11-08",
-  "updated": "2026-11-08"
+  "updated": "2026-11-12"
 }

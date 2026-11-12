@@ -1,0 +1,33 @@
+{
+  "id": "P000281",
+  "problem_version": 1,
+  "status": "reviewed",
+  "hints": [
+    "The resultant (swimmer + river) must point along AB. Draw the triangle of velocities: what kind of triangle is it when the two speeds are equal?"
+  ],
+  "worded": "1. The swimmer’s velocity (relative to the water) plus the river’s velocity must point along AB.\n\n2. Equivalently, the parts perpendicular to AB must cancel: the river has v sin 30° perpendicular to AB, so the swimmer needs v sin θ the other way, where θ is his angle with AB.\n\n3. Equal speeds: v sin θ = v sin 30°, so θ = 30°.\n\n4. The triangle of velocities is isosceles (two sides of length v), so its two base angles are equal: both 30°.\n\n5. Answer: θ = 30°, measured from AB on the side away from the flow.",
+  "conventional": "![](asset:P000281-sol-1)\n\nFor the resultant to lie along AB, the velocity components perpendicular to AB must cancel:\n\n$$v\\sin\\theta = v\\sin 30^{\\circ}\\  \\Rightarrow \\ \\theta = 30^{\\circ}.$$\n\nThe swimmer heads at $30^{\\circ}$ to AB on the upstream side, i.e. $60^{\\circ}$ to the flow.",
+  "mistakes": [
+    "θ is measured from AB, not from the flow or the bank.",
+    "This works because AB points partly downstream; with equal speeds, a point directly opposite could not be reached."
+  ],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "solved_answer": "θ = 30°.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": "04MIP_Solutions_v1",
+    "date": "2026-11-12"
+  },
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 04MIP_Solutions_v1.docx"
+  }
+}

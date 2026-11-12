@@ -1,6 +1,6 @@
 {
   "id": "P000250",
-  "status": "imported",
+  "status": "reviewed",
   "version": 1,
   "type": "integer",
   "topic_code": "0430",
@@ -39,6 +39,17 @@
       "alt": "From A on the ground, a ball is projected at 10 m/s at 60° above the horizontal. From B, at height h directly above A, a ball is thrown horizontally at 5 m/s. Both dashed paths end at C on the ground.",
       "origin": "docx",
       "needs_redraw": true
+    },
+    {
+      "id": "P000250-sol-1",
+      "role": "solution",
+      "file": "P000/P000250-sol-1.png",
+      "format": "png",
+      "width": 372,
+      "height": 562,
+      "alt": "A ball from A (10 m/s at 60°) and a ball thrown horizontally at 5 m/s from B, height h above A; both land at C.",
+      "origin": "docx",
+      "needs_redraw": true
     }
   ],
   "rights": "unverified",
@@ -46,5 +57,5 @@
   "duplicate_of": null,
   "variant_of": null,
   "created": "2026-11-08",
-  "updated": "2026-11-08"
+  "updated": "2026-11-12"
 }

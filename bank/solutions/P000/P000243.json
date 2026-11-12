@@ -1,23 +1,33 @@
 {
   "id": "P000243",
   "problem_version": 1,
-  "status": "draft",
+  "status": "reviewed",
   "hints": [
-    "> The acceleration $g\\sin \\theta = 6$ will act along the slope ($\\bot$ to initial velocity)"
+    "Inside the plane, what is the acceleration and in which direction? Compare that direction with the initial velocity."
   ],
-  "worded": null,
-  "conventional": null,
-  "mistakes": [],
+  "worded": "1. On the smooth 37° incline the in-plane acceleration is g sin 37° = 6 m/s², down the line of greatest slope.\n\n2. The initial velocity is horizontal (along the plane), which is perpendicular to the line of greatest slope.\n\n3. After 1 s the particle has gained 6 m/s down the slope while keeping 8 m/s across.\n\n4. Speed = √(8² + 6²) = 10 m/s. (D)",
+  "conventional": "![](asset:P000243-sol-1)\n\n$$a = g\\sin 37^{\\circ} = 6\\ {m/s}^{2}\\ (\\bot\\text{ to the initial velocity}).$$\n\n$$v = \\sqrt{8^{2} + (6 \\times 1)^{2}} = 10\\unit{m/s}.$$",
+  "mistakes": [
+    "The acceleration is g sin θ = 6, not g = 10 (which would give √164).",
+    "The two components are perpendicular: add them by Pythagoras, not as 8 + 6."
+  ],
   "distractors": {},
   "extension": null,
   "check": {
+    "solved_answer": "(D) 10 m/s.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
     "issues": []
   },
   "generated_by": {
     "author": "worksheet",
     "model": null,
-    "prompt_version": null,
-    "date": "2026-11-08"
+    "prompt_version": "04MIP_Solutions_v1",
+    "date": "2026-11-12"
   },
-  "reviewed_by": null
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 04MIP_Solutions_v1.docx"
+  }
 }

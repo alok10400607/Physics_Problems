@@ -1,0 +1,33 @@
+{
+  "id": "P000272",
+  "problem_version": 1,
+  "status": "reviewed",
+  "hints": [
+    "Which direction of swimming makes the across component of your velocity as large as possible?"
+  ],
+  "worded": "1. Crossing time = width ÷ across component of the swimmer’s velocity (relative to the water). The river’s flow is along the banks and does not help or hinder crossing.\n\n2. The across component is largest when the swimmer heads straight across, due north, giving 10 m/min across.\n\n3. So he should swim due north (he will drift west with the river, but that does not slow the crossing). (A)",
+  "conventional": "![](asset:P000272-sol-1)\n\n$$t = \\frac{W}{v_{s}\\cos\\theta}\\text{ is least for }\\theta = 0,\\ i.e.\\text{ heading due north}:\\quad t_{\\min} = \\frac{W}{10}\\ \\min.$$",
+  "mistakes": [
+    "Heading upstream (east of north) to cancel the drift reduces the across component and takes longer.",
+    "Least time and least drift are different crossings."
+  ],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "solved_answer": "(A) Due north.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": "04MIP_Solutions_v1",
+    "date": "2026-11-12"
+  },
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 04MIP_Solutions_v1.docx"
+  }
+}

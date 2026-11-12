@@ -1,6 +1,6 @@
 {
   "id": "P000191",
-  "status": "imported",
+  "status": "reviewed",
   "version": 1,
   "type": "subjective",
   "topic_code": "0405",
@@ -27,11 +27,23 @@
       "qno": 11
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "id": "P000191-sol-1",
+      "role": "solution",
+      "file": "P000/P000191-sol-1.png",
+      "format": "png",
+      "width": 503,
+      "height": 447,
+      "alt": "The parabola y = x²/4; at t = 1 the particle is at (2, 1), with velocity v = 2î + 2ĵ along the tangent.",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
   "rights": "unverified",
   "content_hash": "67ec6d37a4e1bcaa",
   "duplicate_of": null,
   "variant_of": null,
   "created": "2026-11-08",
-  "updated": "2026-11-08"
+  "updated": "2026-11-12"
 }

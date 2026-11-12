@@ -1,23 +1,33 @@
 {
   "id": "P000195",
   "problem_version": 1,
-  "status": "draft",
+  "status": "reviewed",
   "hints": [
-    "> For the given path $\\frac{dy}{dx} = x = \\frac{v_{y}}{v_{x}}$; At t = 1 s, x = 4 m"
+    "On a fixed path, the velocity is always along the tangent. How does the path’s slope dy/dx relate $v_{y}$ to $v_{x}$?"
   ],
-  "worded": null,
-  "conventional": null,
-  "mistakes": [],
+  "worded": "1. Asked: v_y at t = 1 s. The particle is held on the parabola, so its velocity always points along the tangent.\n\n2. The tangent slope is dy/dx = x. Since the velocity is along the tangent, v_y/v_x = x, so v_y = x · v_x.\n\n3. With v_x = 4 constant and x = 0 at t = 0, x = 4t; at t = 1 s, x = 4 m.\n\n4. So v_y = 4 × 4 = 16 m/s. (D)\n\n5. Check by time: y = 0.5(4t)² = 8t², so v_y = 16t = 16 m/s at t = 1 s.\n\n**Another way: substitute x(t).** x = 4t, so y = 0.5x² = 8t². Then v_y = dy/dt = 16t = 16 m/s at t = 1 s.",
+  "conventional": "![](asset:P000195-sol-1)\n\nDifferentiate the path with respect to time:\n\n$$y = 0.5x^{2}\\  \\Rightarrow \\ v_{y} = \\frac{dy}{dt} = x\\frac{dx}{dt} = x\\, v_{x}.$$\n\nWith $v_{x} = 4$ m/s and $x(0) = 0$, $x = 4t$, so at $t = 1$ s, $x = 4$ m and\n\n$$v_{y} = 4 \\times 4 = 16\\unit{m/s}.$$",
+  "mistakes": [
+    "v_y = slope × v_x uses the slope at the current x (4 m), not at the start (where it is 0).",
+    "(B) 8 m/s is y at t = 1 s, a position, not a velocity."
+  ],
   "distractors": {},
   "extension": null,
   "check": {
+    "solved_answer": "(D) 16 m/s.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
     "issues": []
   },
   "generated_by": {
     "author": "worksheet",
     "model": null,
-    "prompt_version": null,
-    "date": "2026-11-08"
+    "prompt_version": "04MIP_Solutions_v1",
+    "date": "2026-11-12"
   },
-  "reviewed_by": null
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 04MIP_Solutions_v1.docx"
+  }
 }

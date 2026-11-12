@@ -1,6 +1,6 @@
 {
   "id": "P000185",
-  "status": "imported",
+  "status": "reviewed",
   "version": 1,
   "type": "mcq_single",
   "topic_code": "0405",
@@ -46,11 +46,23 @@
       "year": 2020
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "id": "P000185-sol-1",
+      "role": "solution",
+      "file": "P000/P000185-sol-1.png",
+      "format": "png",
+      "width": 707,
+      "height": 512,
+      "alt": "x–y axes: a path starting vertically at the origin (initial velocity u upward) and curving to (20, y₀) at t = 2 s; a separate arrow shows the acceleration a pointing up and to the right.",
+      "origin": "docx",
+      "needs_redraw": false
+    }
+  ],
   "rights": "past-paper",
   "content_hash": "dd9e4f4696afa268",
   "duplicate_of": null,
   "variant_of": null,
   "created": "2026-11-08",
-  "updated": "2026-11-08"
+  "updated": "2026-11-12"
 }

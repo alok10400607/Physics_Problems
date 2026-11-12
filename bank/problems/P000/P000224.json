@@ -1,6 +1,6 @@
 {
   "id": "P000224",
-  "status": "imported",
+  "status": "reviewed",
   "version": 1,
   "type": "integer",
   "topic_code": "0415",
@@ -28,11 +28,23 @@
       "qno": 44
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "id": "P000224-sol-1",
+      "role": "solution",
+      "file": "P000/P000224-sol-1.png",
+      "format": "png",
+      "width": 1022,
+      "height": 506,
+      "alt": "A plane at 100 m/s and height h = 500 m drops a packet along a curve; on landing v_x = 100 and v_y = gt = 100, at 45° below the horizontal.",
+      "origin": "docx",
+      "needs_redraw": false
+    }
+  ],
   "rights": "unverified",
   "content_hash": "021cac492fc08bc5",
   "duplicate_of": null,
   "variant_of": null,
   "created": "2026-11-08",
-  "updated": "2026-11-08"
+  "updated": "2026-11-12"
 }

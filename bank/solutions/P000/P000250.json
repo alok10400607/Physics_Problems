@@ -1,0 +1,33 @@
+{
+  "id": "P000250",
+  "problem_version": 1,
+  "status": "reviewed",
+  "hints": [
+    "Compare the two horizontal velocities. What does that tell you about where B is relative to A at every instant?"
+  ],
+  "worded": "1. A: 10 m/s at 60°, so horizontal 5 m/s and vertical 5√3 m/s. B: 5 m/s horizontal from height h.\n\n2. Both have the same horizontal velocity, 5 m/s, so B stays directly above A all the time. They collide when the vertical gap closes.\n\n3. Relative to A, B moves straight down at 5√3 m/s (gravity cancels in the relative motion).\n\n4. They meet at C, where A lands: A’s time of flight is 2 × 5√3/10 = √3 s. So h = 5√3 × √3 = 15 m.\n\n5. Check: B falls 15 m from rest vertically in √3 s: ½ × 10 × 3 = 15 m. ✓\n\n**Another way: B alone.** B must reach the ground at C at the same instant as A, after A’s flight time √3 s. Thrown horizontally, B falls ½gt² = ½ × 10 × 3 = 15 m in that time, so h = 15 m.",
+  "conventional": "![](asset:P000250-sol-1)\n\nA: $u_{x} = 10\\cos 60^{\\circ} = 5$ m/s, $u_{y} = 10\\sin 60^{\\circ} = 5\\sqrt{3}$ m/s, time of flight $T = \\frac{2u_{y}}{g} = \\sqrt{3}$ s.\n\nB is thrown horizontally at 5 m/s, so it stays vertically above A. It must reach C at time $T$:\n\n$$h = \\frac{1}{2}gT^{2} = \\frac{1}{2}(10)(3) = 15\\unit{m}.$$",
+  "mistakes": [
+    "The collision at C is at ground level, so B must fall the whole h in A’s time of flight.",
+    "Equal horizontal velocities are what make B stay above A; check them first."
+  ],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "solved_answer": "h = 15 m.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": "04MIP_Solutions_v1",
+    "date": "2026-11-12"
+  },
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 04MIP_Solutions_v1.docx"
+  }
+}

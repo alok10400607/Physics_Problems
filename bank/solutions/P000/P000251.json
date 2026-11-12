@@ -1,0 +1,33 @@
+{
+  "id": "P000251",
+  "problem_version": 1,
+  "status": "reviewed",
+  "hints": [
+    "Seen from the plane, the shell must rise straight up to it. What must the shell’s horizontal component be? For the minimum speed, what is the least vertical component that still reaches 1.5 km?"
+  ],
+  "worded": "1. 720 km/h = 200 m/s. To hit the plane, the shell must keep pace with it horizontally (relative to the plane it then rises straight up): horizontal component 200 m/s.\n\n2. With muzzle speed 400 m/s: sin(angle from vertical) = 200/400 = ½, so the gun points 30° from the vertical, towards the plane’s direction of motion.\n\n3. Its vertical component is 400 cos 30° ≈ 346 m/s, which can reach up to 346²/20 ≈ 6 km, enough for 1.5 km.\n\n4. Minimum speed: the vertical component must at least reach 1.5 km: u_y² = 2 × 10 × 1500 = 30 000. With u_x = 200 m/s still needed, u² = 40 000 + 30 000 = 70 000, so u = 100√7 ≈ 265 m/s.",
+  "conventional": "![](asset:P000251-sol-1)\n\n$v_{p} = 720 \\times \\frac{5}{18} = 200$ m/s. Horizontal match: $u\\sin\\theta = 200$, with θ from the vertical.\n\n$$\\sin\\theta = \\frac{200}{400} = \\frac{1}{2}\\  \\Rightarrow \\ \\theta = 30^{\\circ}\\text{ from the vertical}.$$\n\nFor the least muzzle speed, the shell just reaches 1500 m (vertical velocity zero there):\n\n$$u_{y}^{2} = 2gh = 2(10)(1500) = 3 \\times 10^{4},\\quad\\quad u_{\\min} = \\sqrt{200^{2} + 3 \\times 10^{4}} = 100\\sqrt{7} \\approx 265\\unit{m/s}.$$",
+  "mistakes": [
+    "The angle is from the vertical, so use sin θ = 200/400, giving 30°, not 60°.",
+    "The minimum speed still needs the 200 m/s horizontal component; √(2gh) ≈ 173 m/s alone is not enough."
+  ],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "solved_answer": "30° from the vertical (tilted towards the plane’s motion); minimum muzzle speed $100\\sqrt{7}$ ≈ 265 m/s.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": "04MIP_Solutions_v1",
+    "date": "2026-11-12"
+  },
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 04MIP_Solutions_v1.docx"
+  }
+}

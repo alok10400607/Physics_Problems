@@ -1,23 +1,33 @@
 {
   "id": "P000258",
   "problem_version": 1,
-  "status": "draft",
+  "status": "reviewed",
   "hints": [
-    "> Let x, y, and z axis be along East, North and Up direction;\n\n>\n\n> Initial velocity of the bullet = $5\\widehat{i} + 10\\widehat{j}$; Considering motion in vertical dir: $v_{z} = 4$"
+    "Relative to the ground, the bullet has the train’s velocity plus its own. What vertical velocity does it gain in falling 0.8 m?"
   ],
-  "worded": null,
-  "conventional": null,
-  "mistakes": [],
+  "worded": "1. Take x east, y north, z up. Relative to the ground the bullet starts with 5 m/s east (from the gun) and 10 m/s north (from the train).\n\n2. Neither horizontal component changes in flight.\n\n3. Falling 0.8 m from zero vertical velocity gives v_z² = 2 × 10 × 0.8 = 16, v_z = 4 m/s downward.\n\n4. Speed = √(5² + 10² + 4²) = √141 ≈ 11.9 m/s. (C)",
+  "conventional": "![](asset:P000258-sol-1)\n\n$$\\vec{v} = 5\\ihat  + 10\\jhat  - \\sqrt{2gh}\\,\\khat  = 5\\ihat  + 10\\jhat  - 4\\khat \\ m/s.$$\n\n$$\\left| \\vec{v} \\right| = \\sqrt{25 + 100 + 16} = \\sqrt{141}\\unit{m/s}.$$",
+  "mistakes": [
+    "(B) √116 = √(100 + 16) forgets the gun’s 5 m/s; all three components count.",
+    "15 m/s adds the speeds as if parallel."
+  ],
   "distractors": {},
   "extension": null,
   "check": {
+    "solved_answer": "(C) $\\sqrt{141}$ m/s.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
     "issues": []
   },
   "generated_by": {
     "author": "worksheet",
     "model": null,
-    "prompt_version": null,
-    "date": "2026-11-08"
+    "prompt_version": "04MIP_Solutions_v1",
+    "date": "2026-11-12"
   },
-  "reviewed_by": null
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 04MIP_Solutions_v1.docx"
+  }
 }

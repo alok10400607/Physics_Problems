@@ -1,0 +1,33 @@
+{
+  "id": "P000211",
+  "problem_version": 1,
+  "status": "reviewed",
+  "hints": [
+    "Write H and R/2 in terms of u_x and u_y. Their ratio leaves just u_y/u_x."
+  ],
+  "worded": "1. The top is at height H = u_y²/2g and at horizontal distance R/2 = u_xu_y/g.\n\n2. tan φ = H/(R/2) = (u_y²/2g)/(u_xu_y/g) = u_y/2u_x = ½ tan θ.\n\n3. So tan φ = ½ tan θ. (C)\n\n4. Reason in words: the vertical position at the top has risen at the average vertical speed u_y/2, while the horizontal position has moved at the full u_x. So the line to the top is half as steep as the launch.\n\n**No-pen route: average velocity.** Up to the top, the average vertical velocity is u_y/2 (it falls uniformly from u_y to 0), and the horizontal velocity is u_x throughout. The displacement to the top therefore has slope (u_y/2)/u_x = ½ tan θ.",
+  "conventional": "![](asset:P000211-sol-1)\n\n$$\\tan\\varphi = \\frac{H}{R/2} = \\frac{u_{y}^{2}/2g}{u_{x}u_{y}/g} = \\frac{u_{y}}{2u_{x}} = \\frac{1}{2}\\tan\\theta.$$",
+  "mistakes": [
+    "(B) tan φ = 2 tan θ would put the top above the launch line, which is impossible.",
+    "Use half the range, not the full range."
+  ],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "solved_answer": "(C) $\\tan\\varphi = \\frac{1}{2}\\tan\\theta$.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": "04MIP_Solutions_v1",
+    "date": "2026-11-12"
+  },
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 04MIP_Solutions_v1.docx"
+  }
+}

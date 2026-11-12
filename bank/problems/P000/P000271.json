@@ -1,6 +1,6 @@
 {
   "id": "P000271",
-  "status": "imported",
+  "status": "reviewed",
   "version": 1,
   "type": "subjective",
   "topic_code": "0440",
@@ -27,11 +27,23 @@
       "qno": 91
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "id": "P000271-sol-1",
+      "role": "solution",
+      "file": "P000/P000271-sol-1.png",
+      "format": "png",
+      "width": 888,
+      "height": 404,
+      "alt": "Two river crossings with a 3 m/s current: (i) heading straight across at 5 takes 100 s and drifts 300 m; (iv) heading 127° to the flow (37° upstream) gives 4 m/s straight across, 125 s.",
+      "origin": "docx",
+      "needs_redraw": false
+    }
+  ],
   "rights": "unverified",
   "content_hash": "21c1695c04aa6107",
   "duplicate_of": null,
   "variant_of": null,
   "created": "2026-11-08",
-  "updated": "2026-11-08"
+  "updated": "2026-11-12"
 }

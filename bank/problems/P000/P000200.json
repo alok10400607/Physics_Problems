@@ -1,6 +1,6 @@
 {
   "id": "P000200",
-  "status": "imported",
+  "status": "reviewed",
   "version": 1,
   "type": "mcq_single",
   "topic_code": "0410",
@@ -35,11 +35,23 @@
       "qno": 20
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "id": "P000200-sol-1",
+      "role": "solution",
+      "file": "P000/P000200-sol-1.png",
+      "format": "png",
+      "width": 621,
+      "height": 341,
+      "alt": "A projectile launched with velocity 6î + 8ĵ; time of flight T = 1.6 s and range R = 6 × 1.6 = 9.6 m.",
+      "origin": "docx",
+      "needs_redraw": false
+    }
+  ],
   "rights": "unverified",
   "content_hash": "4df2a32056a6f3fa",
   "duplicate_of": null,
   "variant_of": null,
   "created": "2026-11-08",
-  "updated": "2026-11-08"
+  "updated": "2026-11-12"
 }

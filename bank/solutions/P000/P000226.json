@@ -1,0 +1,33 @@
+{
+  "id": "P000226",
+  "problem_version": 1,
+  "status": "reviewed",
+  "hints": [
+    "45° with the horizontal means the vertical component has grown to equal the horizontal one. How long does that take?"
+  ],
+  "worded": "1. The horizontal component stays 10 m/s. The vertical component starts at zero and grows by 10 m/s each second.\n\n2. 45° means they are equal: v_y = 10 m/s, after 1 s.\n\n3. Check: in 1 s it falls only 5 m, far less than 100 m, so it is still in the air. The tower height is not needed except for this check.",
+  "conventional": "![](asset:P000226-sol-1)\n\n$$\\tan 45^{\\circ} = \\frac{v_{y}}{v_{x}} = \\frac{gt}{10} = 1\\  \\Rightarrow \\ t = 1\\unit{s}.$$\n\nIn 1 s it falls $\\frac{1}{2}g(1)^{2} = 5$ m \\< 100 m, so it is still in flight.",
+  "mistakes": [
+    "Equal velocity components, not equal displacements: x = y happens at 2 s, not 1 s.",
+    "The 100 m height is a distractor, used only to confirm the body has not landed."
+  ],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "solved_answer": "1 s.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": "04MIP_Solutions_v1",
+    "date": "2026-11-12"
+  },
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 04MIP_Solutions_v1.docx"
+  }
+}

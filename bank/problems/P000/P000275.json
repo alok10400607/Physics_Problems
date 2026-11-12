@@ -1,6 +1,6 @@
 {
   "id": "P000275",
-  "status": "imported",
+  "status": "reviewed",
   "version": 1,
   "type": "mcq_single",
   "topic_code": "0440",
@@ -46,6 +46,17 @@
       "alt": "A river 50 m wide flowing to the right at 2 m/s. A swimmer starts at A on one bank with speed 5 m/s, directed at 37° upstream from the line AB; B is directly opposite A.",
       "origin": "docx",
       "needs_redraw": true
+    },
+    {
+      "id": "P000275-sol-1",
+      "role": "solution",
+      "file": "P000/P000275-sol-1.png",
+      "format": "png",
+      "width": 678,
+      "height": 390,
+      "alt": "A river flowing right at 2 m/s; a boat heading at 5 m/s upstream from A lands 12.5 m upstream of B, the point directly opposite.",
+      "origin": "docx",
+      "needs_redraw": false
     }
   ],
   "rights": "unverified",
@@ -53,5 +64,5 @@
   "duplicate_of": null,
   "variant_of": null,
   "created": "2026-11-08",
-  "updated": "2026-11-08"
+  "updated": "2026-11-12"
 }

@@ -1,23 +1,33 @@
 {
   "id": "P000236",
   "problem_version": 1,
-  "status": "draft",
+  "status": "reviewed",
   "hints": [
-    "> From the instant, the particle (A) projected up reaches its projection level, its motion will be identical to the other particles. Hence, the difference in range = range of particle (A) on horizontal ground."
+    "Follow the particle thrown upward until it comes back to the top of the tower. What is its velocity then, compared with the other particle’s launch velocity?"
   ],
-  "worded": null,
-  "conventional": null,
-  "mistakes": [],
+  "worded": "1. The upward particle rises and comes back to the tower-top level, landing on that level a short distance out (its level-ground range).\n\n2. At that moment its velocity is 10 m/s at 15° below the horizontal, exactly the other particle’s launch velocity.\n\n3. From then on its motion is a copy of the other particle’s, only shifted forward by that level-ground range.\n\n4. So the difference in ranges is the level-ground range at 15°: u² sin 30°/g = 100 × ½/10 = 5 m.\n\n5. The height 25 m does not matter. Check numerically: 24.24 m − 19.24 m = 5.0 m.\n\n**Another way: solve both flights.** Up-throw: −25 = 2.588t − 5t² gives t = 2.510 s, x = 9.659 × 2.510 = 24.24 m. Down-throw: −25 = −2.588t − 5t² gives t = 1.992 s, x = 19.24 m. Difference = 5.0 m.",
+  "conventional": "![](asset:P000236-sol-1)\n\nThe particle thrown at $15^{\\circ}$ above the horizontal returns to the level of the tower top after $2u\\sin 15^{\\circ}/g$, a horizontal distance\n\n$$R_{0} = \\frac{u^{2}\\sin 30^{\\circ}}{g} = \\frac{100 \\times 0.5}{10} = 5\\unit{m},$$\n\nwith velocity 10 m/s at $15^{\\circ}$ below the horizontal. From there its motion is identical to that of the second particle, so\n\n$$R_{up} - R_{down} = R_{0} = 5\\unit{m}.$$",
+  "mistakes": [
+    "The tower height drops out: the difference is the same for any height.",
+    "Use sin 2θ = sin 30° for the level range, not sin 15°."
+  ],
   "distractors": {},
   "extension": null,
   "check": {
+    "solved_answer": "5 m (the upward-thrown particle lands 5 m farther).",
+    "resolve_answer": null,
+    "agrees_with_key": true,
     "issues": []
   },
   "generated_by": {
     "author": "worksheet",
     "model": null,
-    "prompt_version": null,
-    "date": "2026-11-08"
+    "prompt_version": "04MIP_Solutions_v1",
+    "date": "2026-11-12"
   },
-  "reviewed_by": null
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 04MIP_Solutions_v1.docx"
+  }
 }

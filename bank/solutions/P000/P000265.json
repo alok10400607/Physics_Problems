@@ -1,0 +1,33 @@
+{
+  "id": "P000265",
+  "problem_version": 1,
+  "status": "reviewed",
+  "hints": [
+    "Write the apparent angle from the horizontal in terms of the rain speed and the car’s speed for each case, then divide."
+  ],
+  "worded": "1. The rain falls vertically at v_R. At car speed v, the apparent rain has horizontal part v and vertical part v_R.\n\n2. 60° from the horizontal: tan 60° = v_R/v, so v_R = √3 v.\n\n3. At (1 + β)v, the angle is 45°: v_R = (1 + β)v.\n\n4. So 1 + β = √3, β = 0.732 ≈ 0.73. (D)",
+  "conventional": "![](asset:P000265-sol-1)\n\n$$\\tan 60^{\\circ} = \\frac{v_{R}}{v},\\quad\\quad\\tan 45^{\\circ} = \\frac{v_{R}}{(1 + \\beta)v}\\  \\Rightarrow \\ 1 + \\beta = \\frac{\\tan 60^{\\circ}}{\\tan 45^{\\circ}} = \\sqrt{3}.$$\n\n$$\\beta = \\sqrt{3} - 1 \\approx 0.73.$$",
+  "mistakes": [
+    "The angles are from the horizontal, so tan = v_R/v_car (not the inverse).",
+    "(B) 0.41 = √2 − 1 comes from using sines instead of tangents."
+  ],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "solved_answer": "(D) 0.73.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": "04MIP_Solutions_v1",
+    "date": "2026-11-12"
+  },
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 04MIP_Solutions_v1.docx"
+  }
+}

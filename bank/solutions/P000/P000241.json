@@ -1,21 +1,33 @@
 {
   "id": "P000241",
   "problem_version": 1,
-  "status": "draft",
-  "hints": [],
-  "worded": null,
-  "conventional": "> Using normal axes: $\\overrightarrow{r_{t}} = u_{x}t\\widehat{i} + (u_{y}t - \\frac{1}{2}gt^{2})\\widehat{j}$ = $\\sqrt{2}t\\widehat{i} + (\\sqrt{2}t - 5t^{2})\\widehat{j}$\n\n>\n\n> It will strike the plane at the instant the position vector makes an angle of $30{^\\circ}$\n\n>\n\n> $\\tan 30{^\\circ} = \\frac{1}{\\sqrt{3}} = \\frac{(\\sqrt{2}t - 5t^{2})}{\\sqrt{2}t}$",
-  "mistakes": [],
+  "status": "reviewed",
+  "hints": [
+    "The launch is at 15° to the plane, which is 45° to the horizontal. Find when the position vector makes 30° with the horizontal, or use tilted axes."
+  ],
+  "worded": "1. Launch angle to the horizontal = 30° + 15° = 45°, so u_x = u_y = √2 m/s.\n\n2. The particle is on the incline when its position vector makes 30° with the horizontal: y/x = tan 30°.\n\n3. y/x = (√2t − 5t²)/(√2t) = 1 − 5t/√2. Setting this to 1/√3 gives t = √2(1 − 1/√3)/5 ≈ 0.120 s.\n\n4. Then x = √2 × 0.120 ≈ 0.169 m, and the distance along the plane is x/cos 30° ≈ 0.195 m ≈ 20 cm. (B)\n\n5. Check by the incline formula below; both give 19.5 cm.\n\n**Another way: incline range formula.** With β = 15° (to the plane) and α = 30°: R = 2u² sin β cos(β + α)/(g cos² α) = 2(4)(0.2588)(0.7071)/(10 × 0.75) = 0.195 m ≈ 20 cm.",
+  "conventional": "![](asset:P000241-sol-1)\n\nNormal axes: $u_{x} = u_{y} = 2\\cos 45^{\\circ} = \\sqrt{2}$ m/s. The particle strikes the plane when\n\n$$\\tan 30^{\\circ} = \\frac{\\sqrt{2}t - 5t^{2}}{\\sqrt{2}t} = 1 - \\frac{5t}{\\sqrt{2}}\\  \\Rightarrow \\ t = \\frac{\\sqrt{2}}{5}\\left( 1 - \\frac{1}{\\sqrt{3}} \\right) \\approx 0.120\\unit{s}.$$\n\n$$x = \\sqrt{2}t \\approx 0.169\\unit{m},\\quad\\quad AB = \\frac{x}{\\cos 30^{\\circ}} \\approx 0.195\\unit{m} \\approx 20\\unit{cm}.$$",
+  "mistakes": [
+    "15° is measured from the plane; the angle to the horizontal is 45°.",
+    "The level-ground range at 45° (40 cm) ignores the rising slope."
+  ],
   "distractors": {},
   "extension": null,
   "check": {
+    "solved_answer": "(B) 20 cm (19.5 cm).",
+    "resolve_answer": null,
+    "agrees_with_key": true,
     "issues": []
   },
   "generated_by": {
     "author": "worksheet",
     "model": null,
-    "prompt_version": null,
-    "date": "2026-11-08"
+    "prompt_version": "04MIP_Solutions_v1",
+    "date": "2026-11-12"
   },
-  "reviewed_by": null
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 04MIP_Solutions_v1.docx"
+  }
 }

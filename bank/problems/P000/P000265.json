@@ -1,6 +1,6 @@
 {
   "id": "P000265",
-  "status": "imported",
+  "status": "reviewed",
   "version": 1,
   "type": "mcq_single",
   "topic_code": "0435",
@@ -46,11 +46,23 @@
       "year": 2020
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "id": "P000265-sol-1",
+      "role": "solution",
+      "file": "P000/P000265-sol-1.png",
+      "format": "png",
+      "width": 578,
+      "height": 410,
+      "alt": "Rain v_R = √3v straight down; adding a horizontal velocity v gives a resultant at 60° to the horizontal, and βv gives one at 45°.",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
   "rights": "past-paper",
   "content_hash": "8cd071acd406534d",
   "duplicate_of": null,
   "variant_of": null,
   "created": "2026-11-08",
-  "updated": "2026-11-08"
+  "updated": "2026-11-12"
 }

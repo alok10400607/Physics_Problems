@@ -1,6 +1,6 @@
 {
   "id": "P000211",
-  "status": "imported",
+  "status": "reviewed",
   "version": 1,
   "type": "mcq_single",
   "topic_code": "0410",
@@ -35,11 +35,23 @@
       "qno": 31
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "id": "P000211-sol-1",
+      "role": "solution",
+      "file": "P000/P000211-sol-1.png",
+      "format": "png",
+      "width": 640,
+      "height": 400,
+      "alt": "A projectile launched at θ; a line from the launch point to the top makes angle φ. The top is at height H = u_y²/2g above R/2 = u_x u_y/g.",
+      "origin": "docx",
+      "needs_redraw": false
+    }
+  ],
   "rights": "unverified",
   "content_hash": "ab3fb158ba901b61",
   "duplicate_of": null,
   "variant_of": null,
   "created": "2026-11-08",
-  "updated": "2026-11-08"
+  "updated": "2026-11-12"
 }

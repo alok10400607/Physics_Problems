@@ -1,0 +1,33 @@
+{
+  "id": "P000206",
+  "problem_version": 1,
+  "status": "reviewed",
+  "hints": [
+    "42° and 48° add up to 90°. What do complementary angles share, and which of the two climbs higher?"
+  ],
+  "worded": "1. Range depends on sin 2θ: sin 84° = sin 96°, so R₁ = R₂. (42° and 48° are 45° ∓ 3°.)\n\n2. Height depends on sin²θ, which grows with θ for angles up to 90°. So the 48° projectile rises higher: H₁ \\< H₂.\n\n3. So R₁ = R₂ and H₁ \\< H₂. (B)\n\n4. Check: the steeper throw also stays up longer, which is why it can rise higher and still land at the same place.",
+  "conventional": "![](asset:P000206-sol-1)\n\n$$R_{1} = \\frac{u^{2}\\sin 84^{\\circ}}{g},\\quad R_{2} = \\frac{u^{2}\\sin 96^{\\circ}}{g} = \\frac{u^{2}\\sin 84^{\\circ}}{g}\\  \\Rightarrow \\ R_{1} = R_{2}.$$\n\n$$H \\propto \\sin^{2}\\theta:\\quad\\sin^{2}42^{\\circ} < \\sin^{2}48^{\\circ}\\  \\Rightarrow \\ H_{1} < H_{2}.$$",
+  "mistakes": [
+    "Equal ranges do not mean equal heights: the steeper of the pair always goes higher.",
+    "Ranges are equal for θ and 90° − θ only on level ground."
+  ],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "solved_answer": "(B) $R_{1} = R_{2}$ and $H_{1} < H_{2}$.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": "04MIP_Solutions_v1",
+    "date": "2026-11-12"
+  },
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 04MIP_Solutions_v1.docx"
+  }
+}

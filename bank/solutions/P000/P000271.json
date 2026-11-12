@@ -1,0 +1,35 @@
+{
+  "id": "P000271",
+  "problem_version": 1,
+  "status": "reviewed",
+  "hints": [
+    "For every part, split the boat’s velocity into a part across the river and a part along it. The across part alone sets the crossing time; the along part (plus the river) sets the drift."
+  ],
+  "worded": "1. Data: boat 5 m/s in still water, river 3 m/s, width 500 m. Crossing time = width ÷ (across component); drift = (along component) × time.\n\n2. i.  Least time: point straight across, so all 5 m/s is across: 500/5 = 100 s. The river carries the boat 3 × 100 = 300 m downstream.\n\n3. ii. Cross and come back to the start: each crossing must have zero net drift, so head upstream with 3 m/s of the 5 cancelling the river, leaving 4 m/s across: 2 × 500/4 = 250 s. (A numerical check confirms that no pair of unequal headings does better.)\n\n4. iii. 500 m along the river and back: 500/(5 + 3) + 500/(5 − 3) = 62.5 + 250 = 312.5 s.\n\n5. iv. To reach the point opposite: sin θ = 3/5 upstream of the normal, θ = 37°, i.e. 90° + 37° = 127° with the direction of flow.\n\n6. v.  Heading at 120° to the flow: the across component is 5 sin 120° = 2.5√3 m/s, so t = 500/(2.5√3) = 200/√3 ≈ 115 s.",
+  "conventional": "![](asset:P000271-sol-1)\n\nLet $v_{b} = 5$ m/s, $v_{r} = 3$ m/s, $W = 500$ m.\n\n(i) $t_{\\min} = \\frac{W}{v_{b}} = 100$ s; drift $= v_{r}t_{\\min} = 300$ m.\n\n(ii) $t = \\frac{2W}{\\sqrt{v_{b}^{2} - v_{r}^{2}}} = \\frac{1000}{4} = 250$ s.\n\n(iii) $t = \\frac{500}{5 + 3} + \\frac{500}{5 - 3} = 62.5 + 250 = 312.5$ s.\n\n(iv) $\\sin\\theta = \\frac{v_{r}}{v_{b}} = \\frac{3}{5} \\Rightarrow \\theta = 37^{\\circ}$ upstream of the normal, i.e. $127^{\\circ}$ with the flow.\n\n(v) $t = \\frac{W}{v_{b}\\sin 120^{\\circ}} = \\frac{500}{5\\left( \\sqrt{3}/2 \\right)} = \\frac{200}{\\sqrt{3}} \\approx 115$ s.",
+  "mistakes": [
+    "In (iii), going downstream and back takes longer than 2 × 500/5 = 200 s: the slow leg dominates.",
+    "In (iv) and (v), angles “with the flow” are measured from the downstream direction; 127° and 120° both point partly upstream."
+  ],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "solved_answer": "(i) 100 s, 300 m; (ii) 250 s; (iii) 312.5 s; (iv) 127° with the direction of flow (37° upstream of the normal); (v) $200/\\sqrt{3}$ s ≈ 115 s.",
+    "resolve_answer": null,
+    "agrees_with_key": null,
+    "issues": [
+      "answer to be compared with the key by the reviewer"
+    ]
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": "04MIP_Solutions_v1",
+    "date": "2026-11-12"
+  },
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 04MIP_Solutions_v1.docx"
+  }
+}

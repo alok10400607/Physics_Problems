@@ -1,21 +1,33 @@
 {
   "id": "P000231",
   "problem_version": 1,
-  "status": "draft",
-  "hints": [],
-  "worded": null,
-  "conventional": "> Time to fall n steps = $\\sqrt{\\frac{2(0.2n)}{10}} = 0.2\\sqrt{n}$; Horizontal distance travelled L = $4.5t = 0.9\\sqrt{n}$\n\n>\n\n> It will not clear the nth step if $L < 0.3n$ (the smallest integer value of n);\n\n>\n\n> OR will hit the edge of nth step if $L = 0.3n$",
-  "mistakes": [],
+  "status": "reviewed",
+  "hints": [
+    "Imagine the line joining the edges of all the steps. Where does the ball’s path cross that line? The first step whose edge lies beyond the crossing is the one it hits."
+  ],
+  "worded": "1. The ball leaves the top horizontally at 4.5 m/s. Each step drops 0.2 m and goes out 0.3 m, so the step edges lie on a line of slope 0.2/0.3 = 2/3.\n\n2. The ball’s path y = gx²/2u² starts flatter than that line and curves below it. It crosses the line where gx²/2u² = (2/3)x, i.e. x = (2/3)(2u²/g) = (2/3)(2 × 20.25/10) = 2.7 m.\n\n3. 2.7 m is exactly 9 step-widths (9 × 0.3), and the drop there is 1.8 m = 9 step-heights.\n\n4. So the ball just reaches the edge of the 9th step: it clears steps 1 to 8 and strikes the 9th at its edge. n = 9.\n\n5. Using the notes’ rule: n is the smallest integer with n ≥ 2u²a/(gb²) = 2 × 20.25 × 0.2/(10 × 0.09) = 9.\n\n**Another way: step by step.** To fall to the level of step n takes t = √(2 × 0.2n/10) = 0.2√n, in which time the ball moves 4.5 × 0.2√n = 0.9√n forward. It has not yet passed the end of step n if 0.9√n ≤ 0.3n, i.e. √n ≥ 3, n ≥ 9. The smallest such n is 9, with equality: it lands on the edge of step 9.",
+  "conventional": "![](asset:P000231-sol-1)\n\nTake the origin at the top edge, x forward and y downward. Path: $y = \\frac{gx^{2}}{2u^{2}}$. The step edges lie on $y = \\frac{a}{b}x = \\frac{2}{3}x$.\n\nThe ball reaches the step-edge line where\n\n$$\\frac{gx^{2}}{2u^{2}} = \\frac{2}{3}x\\  \\Rightarrow \\ x = \\frac{2}{3} \\cdot \\frac{2u^{2}}{g} = \\frac{2}{3} \\cdot \\frac{2(4.5)^{2}}{10} = 2.7\\unit{m}.$$\n\n$$n = \\frac{x}{b} = \\frac{2.7}{0.3} = 9.$$\n\nThe crossing falls exactly at the edge of the 9th step, so the ball strikes the 9th step (at its edge).",
+  "mistakes": [
+    "The answer is a whole step: if 2u²a/(gb²) had come out as 8.1, the ball would hit step 9, not step 8.",
+    "Measure the steps as the ball does: step 1 is the first one below the top."
+  ],
   "distractors": {},
   "extension": null,
   "check": {
+    "solved_answer": "n = 9 (the ball strikes the edge of the 9th step).",
+    "resolve_answer": null,
+    "agrees_with_key": true,
     "issues": []
   },
   "generated_by": {
     "author": "worksheet",
     "model": null,
-    "prompt_version": null,
-    "date": "2026-11-08"
+    "prompt_version": "04MIP_Solutions_v1",
+    "date": "2026-11-12"
   },
-  "reviewed_by": null
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 04MIP_Solutions_v1.docx"
+  }
 }

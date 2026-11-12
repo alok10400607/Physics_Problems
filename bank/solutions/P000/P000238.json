@@ -1,23 +1,33 @@
 {
   "id": "P000238",
   "problem_version": 1,
-  "status": "draft",
+  "status": "reviewed",
   "hints": [
-    "> It is easy to find AC = $u_{x}t = ut/2$; then AB = AC$\\sec 30$"
+    "The horizontal motion is uniform, so AC (the horizontal distance to below B) is easy. How is AB related to AC in the right triangle ABC?"
   ],
-  "worded": null,
-  "conventional": null,
-  "mistakes": [],
+  "worded": "1. From the figure, the projectile is launched at 60° to the horizontal and the incline is at 30°.\n\n2. Its horizontal speed is u cos 60° = u/2, constant, so in time t it covers AC = ut/2.\n\n3. B is on the incline directly above C, so AB is the hypotenuse of triangle ABC with angle 30° at A: AB = AC/cos 30° = (ut/2)(2/√3) = ut/√3. (D)\n\n4. Check: AB must exceed AC = 0.5ut; ut/√3 ≈ 0.58ut does, while still being less than the full launch distance ut.",
+  "conventional": "![](asset:P000238-sol-1)\n\n$$AC = u\\cos 60^{\\circ} \\cdot t = \\frac{ut}{2},\\quad\\quad AB = \\frac{AC}{\\cos 30^{\\circ}} = \\frac{ut/2}{\\sqrt{3}/2} = \\frac{ut}{\\sqrt{3}}.$$",
+  "mistakes": [
+    "ut would be the distance at constant velocity u; gravity bends the path, so use only the horizontal part.",
+    "AB is a hypotenuse: divide AC by cos 30°, do not multiply."
+  ],
   "distractors": {},
   "extension": null,
   "check": {
+    "solved_answer": "(D) $\\frac{ut}{\\sqrt{3}}$.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
     "issues": []
   },
   "generated_by": {
     "author": "worksheet",
     "model": null,
-    "prompt_version": null,
-    "date": "2026-11-08"
+    "prompt_version": "04MIP_Solutions_v1",
+    "date": "2026-11-12"
   },
-  "reviewed_by": null
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 04MIP_Solutions_v1.docx"
+  }
 }

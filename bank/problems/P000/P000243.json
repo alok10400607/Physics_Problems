@@ -1,6 +1,6 @@
 {
   "id": "P000243",
-  "status": "imported",
+  "status": "reviewed",
   "version": 1,
   "type": "mcq_single",
   "topic_code": "0425",
@@ -46,6 +46,17 @@
       "alt": "An inclined surface at 37°, drawn as a parallelogram, with an arrow showing 8 m/s horizontally across it.",
       "origin": "docx",
       "needs_redraw": true
+    },
+    {
+      "id": "P000243-sol-1",
+      "role": "solution",
+      "file": "P000/P000243-sol-1.png",
+      "format": "png",
+      "width": 681,
+      "height": 374,
+      "alt": "In the plane of a 37° incline (down-slope drawn downward): 8 m/s across plus g sin 37° × 1 = 6 down the slope gives 10 m/s.",
+      "origin": "docx",
+      "needs_redraw": false
     }
   ],
   "rights": "unverified",
@@ -53,5 +64,5 @@
   "duplicate_of": null,
   "variant_of": null,
   "created": "2026-11-08",
-  "updated": "2026-11-08"
+  "updated": "2026-11-12"
 }

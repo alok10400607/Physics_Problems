@@ -1,0 +1,33 @@
+{
+  "id": "P000190",
+  "problem_version": 1,
+  "status": "reviewed",
+  "hints": [
+    "Turn the force into an acceleration first. Starting from rest at the origin, each coordinate is ½ × (its acceleration) × t²."
+  ],
+  "worded": "1. Asked: the y-coordinate b after 4 s. A constant force on a constant mass gives a constant acceleration, $\\vec{a} = \\vec{F}/m$.\n\n2. $\\vec{a}$ = (2, 3, 5)/2 = (1, 1.5, 2.5) m/s².\n\n3. From rest at the origin, every coordinate is ½ a t² = ½ a × 16 = 8a.\n\n4. So the coordinates are (8, 12, 20). The given 8 and 20 agree, which checks the setup, and b = 12.\n\n**No-pen route: proportions.** From rest, displacement points along the force and each coordinate is proportional to its force component. x : y : z = 2 : 3 : 5 = 8 : b : 20, so b = 12.",
+  "conventional": "$$\\vec{a} = \\frac{\\vec{F}}{m} = \\frac{2\\ihat  + 3\\jhat  + 5\\khat }{2} = \\ihat  + 1.5\\jhat  + 2.5\\khat \\ {m/s}^{2}.$$\n\n$$\\vec{r} = \\frac{1}{2}\\vec{a}t^{2} = \\frac{1}{2}\\left( \\ihat  + 1.5\\jhat  + 2.5\\khat  \\right)(4)^{2} = 8\\ihat  + 12\\jhat  + 20\\khat \\ m.$$",
+  "mistakes": [
+    "Divide by the mass: using $\\vec{F}$ as $\\vec{a}$ gives (16, 24, 40), which contradicts the given x = 8.",
+    "Starting from rest means the path is a straight line along $\\vec{F}$."
+  ],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "solved_answer": "b = 12.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": "04MIP_Solutions_v1",
+    "date": "2026-11-12"
+  },
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 04MIP_Solutions_v1.docx"
+  }
+}

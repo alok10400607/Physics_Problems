@@ -1,6 +1,6 @@
 {
   "id": "P000226",
-  "status": "imported",
+  "status": "reviewed",
   "version": 1,
   "type": "integer",
   "topic_code": "0415",
@@ -28,11 +28,23 @@
       "qno": 46
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "id": "P000226-sol-1",
+      "role": "solution",
+      "file": "P000/P000226-sol-1.png",
+      "format": "png",
+      "width": 694,
+      "height": 403,
+      "alt": "A ball rolls off a 100 m cliff with v_x = 10; at t = 1 s, v_y = 10 downward.",
+      "origin": "docx",
+      "needs_redraw": false
+    }
+  ],
   "rights": "unverified",
   "content_hash": "8443f5f5b29aa093",
   "duplicate_of": null,
   "variant_of": null,
   "created": "2026-11-08",
-  "updated": "2026-11-08"
+  "updated": "2026-11-12"
 }

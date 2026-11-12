@@ -1,0 +1,33 @@
+{
+  "id": "P000254",
+  "problem_version": 1,
+  "status": "reviewed",
+  "hints": [
+    "50 m/s at 53° is the velocity relative to the gun. Add the trolley’s velocity to get the shell’s velocity relative to the ground; which component does the trolley change?"
+  ],
+  "worded": "1. The shell leaves the barrel at 50 m/s along it (53°), relative to the trolley: 30 m/s horizontal, 40 m/s vertical.\n\n2. Relative to the ground, add the trolley’s 10 m/s forward: 40 m/s horizontal, 40 m/s vertical.\n\n3. Time of flight depends on the vertical part only: 2 × 40/10 = 8 s.\n\n4. Ground range = 40 × 8 = 320 m. (D)\n\n5. Check: from a stationary gun the range would be 2 × 30 × 40/10 = 240 m (option A); the moving trolley adds 10 × 8 = 80 m.",
+  "conventional": "![](asset:P000254-sol-1)\n\n$$\\vec{v}_{shell,\\text{ ground}} = \\vec{v}_{shell,\\text{ trolley}} + \\vec{v}_{trolley} = \\left( 30\\ihat  + 40\\jhat  \\right) + 10\\ihat  = 40\\ihat  + 40\\jhat \\ m/s.$$\n\n$$R = \\frac{2u_{x}u_{y}}{g} = \\frac{2(40)(40)}{10} = 320\\unit{m}.$$",
+  "mistakes": [
+    "The trolley changes only the horizontal component; the time of flight is unchanged (8 s).",
+    "(A) 240 m ignores the trolley’s velocity."
+  ],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "solved_answer": "(D) 320 m.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": "04MIP_Solutions_v1",
+    "date": "2026-11-12"
+  },
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 04MIP_Solutions_v1.docx"
+  }
+}

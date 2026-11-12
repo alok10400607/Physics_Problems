@@ -1,6 +1,6 @@
 {
   "id": "P000233",
-  "status": "imported",
+  "status": "reviewed",
   "version": 1,
   "type": "mcq_single",
   "topic_code": "0420",
@@ -35,11 +35,23 @@
       "qno": 53
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "id": "P000233-sol-1",
+      "role": "solution",
+      "file": "P000/P000233-sol-1.png",
+      "format": "png",
+      "width": 910,
+      "height": 337,
+      "alt": "A projectile path in a hall that just grazes the ceiling 5 m up (u_y = 10, T = 2 s) and covers 60 m along the floor (u_x = 30).",
+      "origin": "docx",
+      "needs_redraw": false
+    }
+  ],
   "rights": "unverified",
   "content_hash": "9ce94b0facd17eca",
   "duplicate_of": null,
   "variant_of": null,
   "created": "2026-11-08",
-  "updated": "2026-11-08"
+  "updated": "2026-11-12"
 }

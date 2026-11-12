@@ -1,6 +1,6 @@
 {
   "id": "P000268",
-  "status": "imported",
+  "status": "reviewed",
   "version": 1,
   "type": "mcq_single",
   "topic_code": "0435",
@@ -46,11 +46,23 @@
       "year": 2019
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "id": "P000268-sol-1",
+      "role": "solution",
+      "file": "P000/P000268-sol-1.png",
+      "format": "png",
+      "width": 943,
+      "height": 646,
+      "alt": "N–E axes with ship A at the origin and B at (80, 150) km; B moves relative to A along v_BA = −40î − 50ĵ, coming closest at t = 2.6 h.",
+      "origin": "docx",
+      "needs_redraw": false
+    }
+  ],
   "rights": "past-paper",
   "content_hash": "795415cdcccd5e17",
   "duplicate_of": null,
   "variant_of": null,
   "created": "2026-11-08",
-  "updated": "2026-11-08"
+  "updated": "2026-11-12"
 }

@@ -1,21 +1,33 @@
 {
   "id": "P000229",
   "problem_version": 1,
-  "status": "draft",
-  "hints": [],
-  "worded": null,
-  "conventional": "> Time taken by the bullet to hit the target: 1 s\n\n>\n\n> Vertical displacement during this time interval = 5 m\n\n>\n\n> Hence bullet will hit a point 5 m below the point it is aimed at.",
-  "mistakes": [],
+  "status": "reviewed",
+  "hints": [
+    "How long is the bullet in flight? During that time, how far does gravity pull it below the line it was aimed along?"
+  ],
+  "worded": "1. The bullet moves almost horizontally at 400 m/s, so it takes 400/400 = 1 s to reach the target.\n\n2. During that second gravity pulls it down ½ × 10 × 1² = 5 m below the straight line of aim.\n\n3. So aim 5 m above the target. (A)\n\n4. This is the “bullet drop”: the line of aim and the actual path separate by ½gt², whatever the (small) aiming angle.",
+  "conventional": "![](asset:P000229-sol-1)\n\n$$t = \\frac{d}{u} = \\frac{400}{400} = 1\\unit{s},\\quad\\quad drop = \\frac{1}{2}gt^{2} = \\frac{1}{2}(10)(1)^{2} = 5\\unit{m}.$$\n\nThe rifle must be aimed 5 m above the target.",
+  "mistakes": [
+    "The drop grows as t², so a farther or slower shot needs a much higher aim.",
+    "0.5 m comes from using g/2 = 5 with t = 0.1 s; check t = d/u = 1 s."
+  ],
   "distractors": {},
   "extension": null,
   "check": {
+    "solved_answer": "(A) 5 m.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
     "issues": []
   },
   "generated_by": {
     "author": "worksheet",
     "model": null,
-    "prompt_version": null,
-    "date": "2026-11-08"
+    "prompt_version": "04MIP_Solutions_v1",
+    "date": "2026-11-12"
   },
-  "reviewed_by": null
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 04MIP_Solutions_v1.docx"
+  }
 }

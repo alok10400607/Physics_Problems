@@ -1,6 +1,6 @@
 {
   "id": "P000238",
-  "status": "imported",
+  "status": "reviewed",
   "version": 1,
   "type": "mcq_single",
   "topic_code": "0425",
@@ -46,6 +46,17 @@
       "alt": "A projectile launched from A with speed u at 60° to the horizontal lands at B on an incline that rises at 30° from A; C is the point on the ground directly below B.",
       "origin": "docx",
       "needs_redraw": false
+    },
+    {
+      "id": "P000238-sol-1",
+      "role": "solution",
+      "file": "P000/P000238-sol-1.png",
+      "format": "png",
+      "width": 542,
+      "height": 438,
+      "alt": "Right triangle ABC with the incline AB at 30° and C directly below B: AB = AC/cos 30°, and AC = u cos 60° t = ut/2.",
+      "origin": "docx",
+      "needs_redraw": true
     }
   ],
   "rights": "unverified",
@@ -53,5 +64,5 @@
   "duplicate_of": null,
   "variant_of": null,
   "created": "2026-11-08",
-  "updated": "2026-11-08"
+  "updated": "2026-11-12"
 }

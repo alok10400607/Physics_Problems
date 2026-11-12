@@ -1,0 +1,33 @@
+{
+  "id": "P000198",
+  "problem_version": 1,
+  "status": "reviewed",
+  "hints": [
+    "The maximum range tells you u²/g directly. How does the range at any angle compare with it?"
+  ],
+  "worded": "1. Range on level ground is (u²/g) sin 2θ. The maximum, at 45°, is u²/g itself.\n\n2. So u²/g = 28 m.\n\n3. At 15°, sin 2θ = sin 30° = ½, so the range is 28 × ½ = 14 m. (C)\n\n4. Check: 15° is a low throw, so its range must be well below 28 m, which rules out (A) at once.",
+  "conventional": "![](asset:P000198-sol-1)\n\n$$R_{\\max} = \\frac{u^{2}}{g} = 28\\unit{m},\\quad\\quad R_{15^{\\circ}} = \\frac{u^{2}}{g}\\sin 30^{\\circ} = 28 \\times \\frac{1}{2} = 14\\unit{m}.$$",
+  "mistakes": [
+    "Use sin 2θ = sin 30°, not sin 15°.",
+    "The launch speed is the same for both throws; only the angle changes."
+  ],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "solved_answer": "(C) 14 m.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": "04MIP_Solutions_v1",
+    "date": "2026-11-12"
+  },
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 04MIP_Solutions_v1.docx"
+  }
+}

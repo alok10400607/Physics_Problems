@@ -1,6 +1,6 @@
 {
   "id": "P000253",
-  "status": "imported",
+  "status": "reviewed",
   "version": 1,
   "type": "mcq_single",
   "topic_code": "0430",
@@ -46,6 +46,17 @@
       "alt": "An incline of angle θ with two particles, each launched with speed u at angle α to the incline's surface: one from near the bottom, directed up the slope, and one from higher up, directed down the slope.",
       "origin": "docx",
       "needs_redraw": false
+    },
+    {
+      "id": "P000253-sol-1",
+      "role": "solution",
+      "file": "P000/P000253-sol-1.png",
+      "format": "png",
+      "width": 671,
+      "height": 485,
+      "alt": "Two projectiles on an incline: one thrown up the slope and one down it, each at angle α to the plane. Label: same u sin α across, same g cos θ, so the same time of flight.",
+      "origin": "docx",
+      "needs_redraw": false
     }
   ],
   "rights": "unverified",
@@ -53,5 +64,5 @@
   "duplicate_of": null,
   "variant_of": null,
   "created": "2026-11-08",
-  "updated": "2026-11-08"
+  "updated": "2026-11-12"
 }

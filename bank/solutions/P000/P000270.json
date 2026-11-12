@@ -1,0 +1,33 @@
+{
+  "id": "P000270",
+  "problem_version": 1,
+  "status": "reviewed",
+  "hints": [
+    "In A’s frame, B moves along a straight line. Find B’s velocity relative to A, then the perpendicular distance from A to that line."
+  ],
+  "worded": "1. Take x east, y north. A: 10 m/s SE = (7.07, −7.07). B: 20 m/s SW = (−14.14, −14.14).\n\n2. Relative velocity of B with respect to A: (−21.21, −7.07) m/s, of magnitude √500 = 10√5 ≈ 22.4 m/s.\n\n3. B starts 1000 m east of A. The closest distance is the perpendicular from A to B’s relative path: d = |r × v|/|v| = 1000 × 7.07/22.36 ≈ 316 m.\n\n4. 316 = 100√10. (D)\n\n5. Check the time: t* = (1000 × 21.21)/500 ≈ 42 s, positive, so the closest approach does happen.",
+  "conventional": "![](asset:P000270-sol-1)\n\n$$\\vec{v}_{A} = 5\\sqrt{2}\\left( \\ihat  - \\jhat  \\right),\\quad\\vec{v}_{B} = 10\\sqrt{2}\\left( - \\ihat  - \\jhat  \\right),\\quad\\vec{v}_{BA} = - 15\\sqrt{2}\\,\\ihat  - 5\\sqrt{2}\\,\\jhat ,\\quad\\left| \\vec{v}_{BA} \\right| = 10\\sqrt{5}.$$\n\nWith $\\vec{r}_{BA}(0) = 1000\\ihat $:\n\n$$d_{\\min} = \\frac{\\left| \\vec{r}_{BA} \\times \\vec{v}_{BA} \\right|}{\\left| \\vec{v}_{BA} \\right|} = \\frac{1000 \\times 5\\sqrt{2}}{10\\sqrt{5}} = 100\\sqrt{10}\\unit{m} \\approx 316\\unit{m}.$$",
+  "mistakes": [
+    "Use the cross-product (perpendicular) part of the separation, not the full 1000 m.",
+    "SE and SW both have southward parts; only their difference (5√2 m/s) enters the cross product."
+  ],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "solved_answer": "(D) $100\\sqrt{10}$ m.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": "04MIP_Solutions_v1",
+    "date": "2026-11-12"
+  },
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 04MIP_Solutions_v1.docx"
+  }
+}

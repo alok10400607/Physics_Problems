@@ -1,0 +1,33 @@
+{
+  "id": "P000263",
+  "problem_version": 1,
+  "status": "reviewed",
+  "hints": [
+    "Draw the rain’s velocity relative to the man: the real rain velocity plus the reverse of his. The umbrella lies along that relative velocity."
+  ],
+  "worded": "1. The rain falls vertically (he sees it vertical when at rest). Walking at 4 km/h, he sees the rain coming at him with an extra 4 km/h towards him horizontally.\n\n2. He holds the umbrella along the apparent direction: tan 53° = 4/v_R.\n\n3. tan 53° = 4/3, so v_R = 3 km/h. (D)\n\n4. Check: the apparent rain speed is then 5 km/h, the hypotenuse of a 3-4-5 triangle.",
+  "conventional": "![](asset:P000263-sol-1)\n\n$$\\vec{v}_{RM} = \\vec{v}_{R} - \\vec{v}_{M},\\quad\\quad\\tan 53^{\\circ} = \\frac{v_{M}}{v_{R}} = \\frac{4}{v_{R}}\\  \\Rightarrow \\ v_{R} = \\frac{4}{4/3} = 3\\unit{km/h}.$$",
+  "mistakes": [
+    "The 53° is from the vertical: tan 53° = horizontal/vertical = 4/v_R.",
+    "(A) 5 km/h is the apparent rain speed, not the real one."
+  ],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "solved_answer": "(D) 3 km/h.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": "04MIP_Solutions_v1",
+    "date": "2026-11-12"
+  },
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 04MIP_Solutions_v1.docx"
+  }
+}

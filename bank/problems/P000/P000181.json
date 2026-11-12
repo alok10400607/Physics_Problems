@@ -1,6 +1,6 @@
 {
   "id": "P000181",
-  "status": "imported",
+  "status": "reviewed",
   "version": 1,
   "type": "mcq_single",
   "topic_code": "0405",
@@ -35,11 +35,23 @@
       "qno": 1
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "id": "P000181-sol-1",
+      "role": "solution",
+      "file": "P000/P000181-sol-1.png",
+      "format": "png",
+      "width": 671,
+      "height": 619,
+      "alt": "Vectors on a unit grid: u = 3î + 4ĵ from the origin, then at = 4î + 3ĵ added tip to tail, reaching (7, 7); the resultant v runs from the origin to (7, 7).",
+      "origin": "docx",
+      "needs_redraw": false
+    }
+  ],
   "rights": "unverified",
   "content_hash": "c2147db713eff777",
   "duplicate_of": null,
   "variant_of": null,
   "created": "2026-11-08",
-  "updated": "2026-11-08"
+  "updated": "2026-11-12"
 }

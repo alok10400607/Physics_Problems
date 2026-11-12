@@ -1,23 +1,33 @@
 {
   "id": "P000193",
   "problem_version": 1,
-  "status": "draft",
+  "status": "reviewed",
   "hints": [
-    "> Velocity $\\overrightarrow{v} = \\frac{dx}{dt}\\widehat{i} + \\frac{dy}{dt}\\widehat{j} + \\frac{dz}{dt}\\widehat{k}$"
+    "Differentiate each coordinate. The x and y parts together describe a circle; what speed does that circle contribute, and what does z add at right angles to it?"
   ],
-  "worded": null,
-  "conventional": null,
-  "mistakes": [],
+  "worded": "1. Asked: the speed, the magnitude of $\\vec{v}$.\n\n2. x = a cos ωt and y = a sin ωt are uniform circular motion of radius a: speed aω around the circle.\n\n3. z = aωt rises uniformly at aω, which is perpendicular to the circle’s plane.\n\n4. The two parts are at right angles, so the speed is √((aω)² + (aω)²) = √2 aω, the same at every instant. (A)\n\n5. The path is a helix, climbing one pitch 2πa every turn.",
+  "conventional": "![](asset:P000193-sol-1)\n\n$$\\vec{v} = - a\\omega\\sin\\omega t\\,\\ihat  + a\\omega\\cos\\omega t\\,\\jhat  + a\\omega\\,\\khat .$$\n\n$$\\left| \\vec{v} \\right| = \\sqrt{a^{2}\\omega^{2}\\left( \\sin^{2}\\omega t + \\cos^{2}\\omega t \\right) + a^{2}\\omega^{2}} = \\sqrt{2}\\, a\\omega.$$",
+  "mistakes": [
+    "aω is only the speed around the circle; the rise along z adds to it at right angles.",
+    "Adding the parts as 2aω treats perpendicular components as parallel."
+  ],
   "distractors": {},
   "extension": null,
   "check": {
+    "solved_answer": "(A) $\\sqrt{2}\\, a\\omega$.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
     "issues": []
   },
   "generated_by": {
     "author": "worksheet",
     "model": null,
-    "prompt_version": null,
-    "date": "2026-11-08"
+    "prompt_version": "04MIP_Solutions_v1",
+    "date": "2026-11-12"
   },
-  "reviewed_by": null
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 04MIP_Solutions_v1.docx"
+  }
 }

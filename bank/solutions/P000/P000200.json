@@ -1,0 +1,33 @@
+{
+  "id": "P000200",
+  "problem_version": 1,
+  "status": "reviewed",
+  "hints": [
+    "Which component decides the time in the air? Then the other component is carried along for that time."
+  ],
+  "worded": "1. Time of flight comes from the vertical component 8 m/s: 2 × 8/10 = 1.6 s.\n\n2. During 1.6 s the horizontal component 6 m/s carries it 6 × 1.6 = 9.6 m. (B)\n\n3. Check with R = 2u_xu_y/g = 2 × 6 × 8/10 = 9.6 m.\n\n4. A.  4.8 m uses the time to the top (0.8 s) instead of the whole flight.",
+  "conventional": "![](asset:P000200-sol-1)\n\n$$T = \\frac{2u_{y}}{g} = \\frac{2(8)}{10} = 1.6\\unit{s},\\quad\\quad R = u_{x}T = 6(1.6) = 9.6\\unit{m}.$$",
+  "mistakes": [
+    "4.8 m is the distance to the point below the top, half the range.",
+    "Do not use the speed 10 m/s in R = 2u_xu_y/g; use the components."
+  ],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "solved_answer": "(B) 9.6 m.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": "04MIP_Solutions_v1",
+    "date": "2026-11-12"
+  },
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 04MIP_Solutions_v1.docx"
+  }
+}

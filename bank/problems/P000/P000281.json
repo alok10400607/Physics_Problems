@@ -1,6 +1,6 @@
 {
   "id": "P000281",
-  "status": "imported",
+  "status": "reviewed",
   "version": 1,
   "type": "integer",
   "topic_code": "0440",
@@ -49,6 +49,17 @@
       "alt": "A river with the current flowing to the right, shown by arrows. A boat leaves A heading at angle θ to the line AB, which makes 30° with the bank; B is on the far bank.",
       "origin": "docx",
       "needs_redraw": true
+    },
+    {
+      "id": "P000281-sol-1",
+      "role": "solution",
+      "file": "P000/P000281-sol-1.png",
+      "format": "png",
+      "width": 701,
+      "height": 378,
+      "alt": "A swimmer's velocity v plus the river's v (equal lengths) give a resultant from A towards B at 30° to the flow. Note: equal sides make the base angles equal, θ = 30°.",
+      "origin": "docx",
+      "needs_redraw": false
     }
   ],
   "rights": "past-paper",
@@ -56,5 +67,5 @@
   "duplicate_of": null,
   "variant_of": null,
   "created": "2026-11-08",
-  "updated": "2026-11-08"
+  "updated": "2026-11-12"
 }

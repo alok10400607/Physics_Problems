@@ -1,23 +1,33 @@
 {
   "id": "P000234",
   "problem_version": 1,
-  "status": "draft",
+  "status": "reviewed",
   "hints": [
-    "> Time of flight T = 4 s; the time taken from top of second pole to ground = time taken from ground to top of first pole as both are at the same height"
+    "The path is symmetric about its top. If the projectile is at the same height at 1 s and 3 s, when is it at the top?"
   ],
-  "worded": null,
-  "conventional": null,
-  "mistakes": [],
+  "worded": "1. The two pole tops are at the same height, so the projectile passes that height at 1 s (going up) and 3 s (coming down).\n\n2. By symmetry the top is midway in time, at 2 s.\n\n3. The whole flight is twice the time to the top: 4 s. (C)\n\n4. Equivalently, from the second pole to the ground takes as long as from the ground to the first pole (1 s), so T = 3 + 1 = 4 s.",
+  "conventional": "![](asset:P000234-sol-1)\n\nBoth instants solve $h = u_{y}t - \\frac{1}{2}gt^{2}$, i.e. $\\frac{1}{2}gt^{2} - u_{y}t + h = 0$. The sum of the roots is\n\n$$t_{1} + t_{2} = \\frac{2u_{y}}{g} = T\\  \\Rightarrow \\ T = 1 + 3 = 4\\unit{s}.$$\n\n(Also $h = \\frac{1}{2}gt_{1}t_{2} = 15$ m, which is not needed.)",
+  "mistakes": [
+    "The time to the top is 2 s, not 3 s; the flight is twice that.",
+    "v and θ are not needed: the two times alone fix T."
+  ],
   "distractors": {},
   "extension": null,
   "check": {
+    "solved_answer": "(C) 4 s.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
     "issues": []
   },
   "generated_by": {
     "author": "worksheet",
     "model": null,
-    "prompt_version": null,
-    "date": "2026-11-08"
+    "prompt_version": "04MIP_Solutions_v1",
+    "date": "2026-11-12"
   },
-  "reviewed_by": null
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 04MIP_Solutions_v1.docx"
+  }
 }

@@ -1,0 +1,33 @@
+{
+  "id": "P000278",
+  "problem_version": 1,
+  "status": "reviewed",
+  "hints": [
+    "Both times have the same width on top. What is the across speed in each case?"
+  ],
+  "worded": "1. Least time: head straight across at 13 m/min. Time = 78/13 = 6 min.\n\n2. Shortest route: cancel the 5 m/min river, leaving √(169 − 25) = 12 m/min across. Time = 78/12 = 6.5 min.\n\n3. Ratio = 6.5/6 = 13/12. (B)\n\n4. The width cancels: the ratio is just 13/12, the ratio of the across speeds inverted.",
+  "conventional": "![](asset:P000278-sol-1)\n\n$$\\frac{t_{shortest}}{t_{\\min}} = \\frac{W/\\sqrt{v_{b}^{2} - v_{r}^{2}}}{W/v_{b}} = \\frac{13}{\\sqrt{169 - 25}} = \\frac{13}{12}.$$",
+  "mistakes": [
+    "The shortest route takes longer, so the ratio is more than 1: (A) is inverted.",
+    "5-12-13 is a Pythagorean triple: the across speed is exactly 12 m/min."
+  ],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "solved_answer": "(B) 13/12.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": "04MIP_Solutions_v1",
+    "date": "2026-11-12"
+  },
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 04MIP_Solutions_v1.docx"
+  }
+}

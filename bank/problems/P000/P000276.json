@@ -1,6 +1,6 @@
 {
   "id": "P000276",
-  "status": "imported",
+  "status": "reviewed",
   "version": 1,
   "type": "integer",
   "topic_code": "0440",
@@ -38,11 +38,23 @@
       "year": 2021
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "id": "P000276-sol-1",
+      "role": "solution",
+      "file": "P000/P000276-sol-1.png",
+      "format": "png",
+      "width": 768,
+      "height": 281,
+      "alt": "A boat at 12 km/h heading at 120° to the flow, with a 6 km/h current, moves 6√3 km/h straight across.",
+      "origin": "docx",
+      "needs_redraw": false
+    }
+  ],
   "rights": "past-paper",
   "content_hash": "b92542ce9875a444",
   "duplicate_of": null,
   "variant_of": null,
   "created": "2026-11-08",
-  "updated": "2026-11-08"
+  "updated": "2026-11-12"
 }

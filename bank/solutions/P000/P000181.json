@@ -1,23 +1,33 @@
 {
   "id": "P000181",
   "problem_version": 1,
-  "status": "draft",
+  "status": "reviewed",
   "hints": [
-    "Use $\\overrightarrow{v} = \\ \\overrightarrow{u} + \\ \\overrightarrow{a}t$"
+    "Velocity is a vector, so add the change $\\vec{a}t$ to $\\vec{u}$ component by component before you take any magnitude."
   ],
-  "worded": null,
-  "conventional": null,
-  "mistakes": [],
+  "worded": "1. Asked: the speed (magnitude of velocity) at t = 10 s. The acceleration is a constant vector, so each component changes independently and uniformly.\n\n2. In 10 s the x-component gains 0.4 × 10 = 4 and the y-component gains 0.3 × 10 = 3.\n\n3. So the x-component goes from 3 to 7 and the y-component from 4 to 7.\n\n4. Equal components of 7 make the velocity point at 45°, and its magnitude is 7√2 ≈ 9.9 units. (C)\n\n5. Check: adding the two speeds, 5 + 5 = 10 (option A), would be right only if $\\vec{u}$ and $\\vec{a}t$ were parallel. Here they are not (3:4 against 4:3), so the answer must be less than 10, as 9.9 is.\n\n**Why the other options are there.** (A) 10 adds the magnitudes |u| = 5 and |at| = 5 as if they were parallel. (B) 7 is one component only. (D) 8.5 has no route; it is a distractor between the two.",
+  "conventional": "![](asset:P000181-sol-1)\n\nWith constant acceleration, $\\vec{v} = \\vec{u} + \\vec{a}t$:\n\n$$\\vec{v} = \\left( 3\\ihat  + 4\\jhat  \\right) + \\left( 0.4\\ihat  + 0.3\\jhat  \\right)(10) = 7\\ihat  + 7\\jhat .$$\n\n$$\\left| \\vec{v} \\right| = \\sqrt{7^{2} + 7^{2}} = 7\\sqrt{2} \\approx 9.9\\text{ units}.$$",
+  "mistakes": [
+    "|u| + |at| = 10 is wrong: magnitudes add only for parallel vectors.",
+    "Add the components first, then take the magnitude, never the other way round."
+  ],
   "distractors": {},
   "extension": null,
   "check": {
+    "solved_answer": "(C) $7\\sqrt{2}$ units.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
     "issues": []
   },
   "generated_by": {
     "author": "worksheet",
     "model": null,
-    "prompt_version": null,
-    "date": "2026-11-08"
+    "prompt_version": "04MIP_Solutions_v1",
+    "date": "2026-11-12"
   },
-  "reviewed_by": null
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 04MIP_Solutions_v1.docx"
+  }
 }

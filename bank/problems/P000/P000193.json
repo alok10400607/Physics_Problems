@@ -1,6 +1,6 @@
 {
   "id": "P000193",
-  "status": "imported",
+  "status": "reviewed",
   "version": 1,
   "type": "mcq_single",
   "topic_code": "0405",
@@ -46,11 +46,23 @@
       "year": 2019
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "id": "P000193-sol-1",
+      "role": "solution",
+      "file": "P000/P000193-sol-1.png",
+      "format": "png",
+      "width": 766,
+      "height": 523,
+      "alt": "A helix winding up the z-axis about a dashed circle of radius a. At one point the velocity has a part aω around the circle and a part aω up, with speed √2·aω.",
+      "origin": "docx",
+      "needs_redraw": false
+    }
+  ],
   "rights": "past-paper",
   "content_hash": "8a8d3134fb528cfc",
   "duplicate_of": null,
   "variant_of": null,
   "created": "2026-11-08",
-  "updated": "2026-11-08"
+  "updated": "2026-11-12"
 }

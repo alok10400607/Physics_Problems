@@ -1,23 +1,33 @@
 {
   "id": "P000242",
   "problem_version": 1,
-  "status": "draft",
+  "status": "reviewed",
   "hints": [
-    "> Effective $g_{e} = g\\sin 30$"
+    "Inside the plane, the sphere behaves like a projectile with a weaker “gravity”. What is that effective gravity, and along which axis does it act?"
   ],
-  "worded": null,
-  "conventional": null,
-  "mistakes": [],
+  "worded": "1. On a smooth incline the in-plane acceleration is g sin 30° = g/2, down the line of greatest slope. In the figure that is along −x (X points up the slope; Y is horizontal along the plane).\n\n2. So within the plane the sphere is a projectile with “gravity” g/2 along −x.\n\n3. The velocity component along x (up the slope) is 3 sin 60° = 3√3/2.\n\n4. x is largest when that component falls to zero: t = (3√3/2)/(g/2) = 3√3/g. (D)",
+  "conventional": "![](asset:P000242-sol-1)\n\nEffective gravity in the plane: $g_{e} = g\\sin 30^{\\circ} = g/2$, along $- x$.\n\n$$u_{x} = 3\\sin 60^{\\circ} = \\frac{3\\sqrt{3}}{2},\\quad\\quad v_{x} = u_{x} - g_{e}t = 0\\  \\Rightarrow \\ t = \\frac{3\\sqrt{3}/2}{g/2} = \\frac{3\\sqrt{3}}{g}.$$",
+  "mistakes": [
+    "Use g sin 30°, not g: the plane supports the rest of gravity.",
+    "60° is from the horizontal y-axis, so the up-slope component is 3 sin 60°, not 3 cos 60°."
+  ],
   "distractors": {},
   "extension": null,
   "check": {
+    "solved_answer": "(D) $\\frac{3\\sqrt{3}}{g}$.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
     "issues": []
   },
   "generated_by": {
     "author": "worksheet",
     "model": null,
-    "prompt_version": null,
-    "date": "2026-11-08"
+    "prompt_version": "04MIP_Solutions_v1",
+    "date": "2026-11-12"
   },
-  "reviewed_by": null
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 04MIP_Solutions_v1.docx"
+  }
 }

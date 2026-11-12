@@ -1,6 +1,6 @@
 {
   "id": "P000207",
-  "status": "imported",
+  "status": "reviewed",
   "version": 1,
   "type": "mcq_single",
   "topic_code": "0410",
@@ -46,11 +46,23 @@
       "year": 2019
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "id": "P000207-sol-1",
+      "role": "solution",
+      "file": "P000/P000207-sol-1.png",
+      "format": "png",
+      "width": 654,
+      "height": 330,
+      "alt": "Two arcs with the same range R: a low one launched at θ with height h₁, and a high one launched at 90° − θ with height h₂.",
+      "origin": "docx",
+      "needs_redraw": false
+    }
+  ],
   "rights": "past-paper",
   "content_hash": "4fc3755968c3ffb9",
   "duplicate_of": null,
   "variant_of": null,
   "created": "2026-11-08",
-  "updated": "2026-11-08"
+  "updated": "2026-11-12"
 }

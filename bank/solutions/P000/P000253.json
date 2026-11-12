@@ -1,0 +1,33 @@
+{
+  "id": "P000253",
+  "problem_version": 1,
+  "status": "reviewed",
+  "hints": [
+    "Use axes along and perpendicular to the incline. Which component of each launch velocity, and which component of g, decides the time of flight?"
+  ],
+  "worded": "1. Take x along the incline and y perpendicular to it. Each particle is launched at α to the plane with speed u (the figure shows the same u), so each has u sin α perpendicular to the plane.\n\n2. Perpendicular to the plane both have acceleration g cos θ back towards it. So both return to the plane after 2u sin α/(g cos θ): (B) is true.\n\n3. D.  is false: one particle goes up the slope (slowed by g sin θ along it) and the other down (speeded by it), so their ranges differ.\n\n4. C.  is false in general: striking perpendicularly needs the special condition cot α = 2 tan θ, and it cannot hold for both directions at once.\n\n5. A.  is not guaranteed. The two stay at equal heights above the plane and close the gap along it at 2u cos α, so they meet only if the gap is short enough to close before they land. So the statement that is always correct is (B).",
+  "conventional": "![](asset:P000253-sol-1)\n\nWith $x$ along the incline and $y$ perpendicular to it, each particle has $u_{y} = u\\sin\\alpha$ and $a_{y} = - g\\cos\\theta$:\n\n$$T = \\frac{2u\\sin\\alpha}{g\\cos\\theta}\\quad for\\text{ both}.$$\n\nAlong the incline the accelerations are both $- g\\sin\\theta$ (down the slope), but one particle moves up the slope and the other down, so\n\n$$R_{up} = \\frac{2u^{2}\\sin\\alpha\\cos(\\alpha + \\theta)}{g\\cos^{2}\\theta} \\neq R_{down} = \\frac{2u^{2}\\sin\\alpha\\cos(\\alpha - \\theta)}{g\\cos^{2}\\theta}.$$",
+  "mistakes": [
+    "Time of flight on an incline depends only on the perpendicular components: u sin α and g cos θ.",
+    "Their relative velocity is along the plane, so they could meet in mid-air, but only if they start close enough; the figure gives no distance."
+  ],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "solved_answer": "(B) The time of flight is the same for both.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": "04MIP_Solutions_v1",
+    "date": "2026-11-12"
+  },
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 04MIP_Solutions_v1.docx"
+  }
+}

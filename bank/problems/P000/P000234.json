@@ -1,6 +1,6 @@
 {
   "id": "P000234",
-  "status": "imported",
+  "status": "reviewed",
   "version": 1,
   "type": "mcq_single",
   "topic_code": "0420",
@@ -35,11 +35,23 @@
       "qno": 54
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "id": "P000234-sol-1",
+      "role": "solution",
+      "file": "P000/P000234-sol-1.png",
+      "format": "png",
+      "width": 639,
+      "height": 390,
+      "alt": "A projectile path passing two walls of equal height, at t = 1 s going up and at t = 3 s coming down; time of flight T = 1 + 3 = 4 s.",
+      "origin": "docx",
+      "needs_redraw": false
+    }
+  ],
   "rights": "unverified",
   "content_hash": "96e72cab6b5d3703",
   "duplicate_of": null,
   "variant_of": null,
   "created": "2026-11-08",
-  "updated": "2026-11-08"
+  "updated": "2026-11-12"
 }

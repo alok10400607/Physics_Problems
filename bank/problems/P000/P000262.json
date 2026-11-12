@@ -1,6 +1,6 @@
 {
   "id": "P000262",
-  "status": "imported",
+  "status": "reviewed",
   "version": 1,
   "type": "mcq_single",
   "topic_code": "0435",
@@ -35,11 +35,23 @@
       "qno": 82
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "id": "P000262-sol-1",
+      "role": "solution",
+      "file": "P000/P000262-sol-1.png",
+      "format": "png",
+      "width": 619,
+      "height": 578,
+      "alt": "N–E axes to scale (1 cm = 10 km/h): the wind appears to come from the west when the observer moves at 10ĵ and from the north-west at 30ĵ; the true wind is v_w = 20î + 10ĵ.",
+      "origin": "docx",
+      "needs_redraw": false
+    }
+  ],
   "rights": "unverified",
   "content_hash": "2c8359336b4c6407",
   "duplicate_of": null,
   "variant_of": null,
   "created": "2026-11-08",
-  "updated": "2026-11-08"
+  "updated": "2026-11-12"
 }

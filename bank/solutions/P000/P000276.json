@@ -1,0 +1,33 @@
+{
+  "id": "P000276",
+  "problem_version": 1,
+  "status": "reviewed",
+  "hints": [
+    "To land straight opposite, the swimmer’s upstream component must cancel the river. What angle does that need, measured from the flow direction?"
+  ],
+  "worded": "1. To reach the point opposite, the along-river part of the swimmer’s velocity must cancel the river: 12 sin θ = 6, where θ is measured upstream from the normal.\n\n2. sin θ = ½, θ = 30° from the normal, upstream.\n\n3. Measured from the direction of flow, that is 90° + 30° = 120°.\n\n4. Answer: 120°.",
+  "conventional": "![](asset:P000276-sol-1)\n\n$$12\\sin\\theta = 6 \\Rightarrow \\theta = 30^{\\circ}\\ (upstream\\text{ of the normal}),\\quad\\quad angle\\text{ with the flow} = 90^{\\circ} + 30^{\\circ} = 120^{\\circ}.$$",
+  "mistakes": [
+    "30° is measured from the normal; the question asks for the angle with the flow.",
+    "60° would point downstream."
+  ],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "solved_answer": "120° with the direction of flow.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": "04MIP_Solutions_v1",
+    "date": "2026-11-12"
+  },
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 04MIP_Solutions_v1.docx"
+  }
+}

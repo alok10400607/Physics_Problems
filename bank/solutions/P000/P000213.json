@@ -1,0 +1,33 @@
+{
+  "id": "P000213",
+  "problem_version": 1,
+  "status": "reviewed",
+  "hints": [
+    "The horizontal component stays u cos α. When does the falling vertical component come down to that value?"
+  ],
+  "worded": "1. v_x = u cos α throughout. v_y = u sin α − gt decreases steadily.\n\n2. With α > 45°, v_y starts larger than v_x. They first become equal when u sin α − gt = u cos α (the velocity is then at 45°, still rising).\n\n3. t = u(sin α − cos α)/g. (B)\n\n4. Check: at α = 45° this gives t = 0, as it should (the components are equal at launch). (D) would be negative for α > 45°.",
+  "conventional": "![](asset:P000213-sol-1)\n\n$$v_{y} = v_{x}:\\quad u\\sin\\alpha - gt = u\\cos\\alpha\\  \\Rightarrow \\ t = \\frac{u}{g}\\left( \\sin\\alpha - \\cos\\alpha \\right).$$",
+  "mistakes": [
+    "The second time, on the way down, is when v_y = −v_x: t = u(sin α + cos α)/g, option (A).",
+    "Equal components means 45° to the horizontal, not the top."
+  ],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "solved_answer": "(B) $\\frac{u}{g}\\left( \\sin\\alpha - \\cos\\alpha \\right)$.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": "04MIP_Solutions_v1",
+    "date": "2026-11-12"
+  },
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 04MIP_Solutions_v1.docx"
+  }
+}

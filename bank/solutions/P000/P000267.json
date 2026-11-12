@@ -1,0 +1,33 @@
+{
+  "id": "P000267",
+  "problem_version": 1,
+  "status": "reviewed",
+  "hints": [
+    "Split the velocity into a part along PO and a part across it. Which part changes the distance OP, and is it constant?"
+  ],
+  "worded": "1. Only the component of velocity along the line PO changes the distance OP; the component across it only turns the line.\n\n2. The velocity always makes 60° with PO (pointing towards O), so the closing component is always 10 cos 60° = 5 m/s.\n\n3. The distance therefore shrinks at a steady 5 m/s, whatever the path looks like.\n\n4. From 100 m: 100/5 = 20 s.\n\n5. The path is a spiral (P circles O ever faster as it closes in), but the time is simple because the closing rate is constant.",
+  "conventional": "![](asset:P000267-sol-1)\n\n$$\\frac{d(OP)}{dt} = - v\\cos 60^{\\circ} = - 5\\unit{m/s}\\ (constant).$$\n\n$$t = \\frac{100}{5} = 20\\unit{s}.$$",
+  "mistakes": [
+    "The path is not a straight line, so 100/10 = 10 s is wrong.",
+    "Read 60° as the angle with the line from P towards O; if it were with OP pointing away, P would never reach O."
+  ],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "solved_answer": "20 s.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": "04MIP_Solutions_v1",
+    "date": "2026-11-12"
+  },
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 04MIP_Solutions_v1.docx"
+  }
+}

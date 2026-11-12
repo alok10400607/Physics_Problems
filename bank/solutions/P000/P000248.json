@@ -1,0 +1,33 @@
+{
+  "id": "P000248",
+  "problem_version": 1,
+  "status": "reviewed",
+  "hints": [
+    "Both particles fall with the same g, so relative to each other they move in straight lines at constant velocity. For B to be hit, which way must A’s velocity relative to B point?"
+  ],
+  "worded": "1. Both have acceleration g, so their relative motion is uniform and straight.\n\n2. They start on the same level, a distance x apart. To meet, A’s velocity relative to B must point along AB, i.e. horizontally. So the vertical components must be equal: 20 sin θ = 10, θ = 30°.\n\n3. The relative velocity is then purely horizontal: 20 cos 30° − 0 = 10√3 m/s.\n\n4. In 0.5 s it closes x = 10√3 × 0.5 = 5√3 m. (D)",
+  "conventional": "![](asset:P000248-sol-1)\n\nCollision condition (equal vertical components): $20\\sin\\theta = 10 \\Rightarrow \\theta = 30^{\\circ}$.\n\n$$v_{AB} = 20\\cos 30^{\\circ} = 10\\sqrt{3}\\unit{m/s},\\quad\\quad x = v_{AB}\\, t = 10\\sqrt{3} \\times 0.5 = 5\\sqrt{3}\\unit{m}.$$",
+  "mistakes": [
+    "Gravity drops out of the relative motion; do not add ½gt² to either particle when comparing them.",
+    "(A) 10√3 is the relative speed, not the distance covered in 0.5 s."
+  ],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "solved_answer": "(D) 30° and $5\\sqrt{3}$ m.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": "04MIP_Solutions_v1",
+    "date": "2026-11-12"
+  },
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 04MIP_Solutions_v1.docx"
+  }
+}

@@ -1,6 +1,6 @@
 {
   "id": "P000283",
-  "status": "imported",
+  "status": "reviewed",
   "version": 1,
   "type": "mcq_single",
   "topic_code": "0440",
@@ -35,11 +35,23 @@
       "qno": 103
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "id": "P000283-sol-1",
+      "role": "solution",
+      "file": "P000/P000283-sol-1.png",
+      "format": "png",
+      "width": 919,
+      "height": 475,
+      "alt": "Axes x along the flow and y across: the path y = x³/3v³ starts flat and curves upward; x = vt, y = t³/3.",
+      "origin": "docx",
+      "needs_redraw": false
+    }
+  ],
   "rights": "unverified",
   "content_hash": "046210809ff40b16",
   "duplicate_of": null,
   "variant_of": null,
   "created": "2026-11-08",
-  "updated": "2026-11-08"
+  "updated": "2026-11-12"
 }

@@ -1,6 +1,6 @@
 {
   "id": "P000206",
-  "status": "imported",
+  "status": "reviewed",
   "version": 1,
   "type": "mcq_single",
   "topic_code": "0410",
@@ -46,11 +46,23 @@
       "year": 2021
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "id": "P000206-sol-1",
+      "role": "solution",
+      "file": "P000/P000206-sol-1.png",
+      "format": "png",
+      "width": 592,
+      "height": 318,
+      "alt": "Two arcs from the same point to the same landing point, launched at 48° and 42°; R₁ = R₂.",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
   "rights": "past-paper",
   "content_hash": "ecc82723c0bd7fae",
   "duplicate_of": null,
   "variant_of": null,
   "created": "2026-11-08",
-  "updated": "2026-11-08"
+  "updated": "2026-11-12"
 }

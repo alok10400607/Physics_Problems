@@ -1,23 +1,33 @@
 {
   "id": "P000235",
   "problem_version": 1,
-  "status": "draft",
+  "status": "reviewed",
   "hints": [
-    "> The projectile rises by height H in time T;\n\n>\n\n> Hence the vertical distance it will fall from top point in time 2T: $4H$ which is equal to $H + h$"
+    "From the top, the projectile falls like a body dropped from rest. It rose H in time T; how far does it fall in 2T?"
   ],
-  "worded": null,
-  "conventional": null,
-  "mistakes": [],
+  "worded": "1. Rising to the top in time T is the reverse of falling from the top for time T. So H = ½gT².\n\n2. From the top the vertical motion starts from rest. In 2T it falls ½g(2T)² = 4 × ½gT² = 4H.\n\n3. That fall takes it from H above the launch point to the ground, h below it: H + h = 4H.\n\n4. So h = 3H and h/H = 3.",
+  "conventional": "![](asset:P000235-sol-1)\n\n$$H = \\frac{1}{2}gT^{2}.$$\n\nFrom the top (vertical velocity zero), in time $2T$ it falls\n\n$$\\frac{1}{2}g(2T)^{2} = 4\\left( \\frac{1}{2}gT^{2} \\right) = 4H = H + h\\  \\Rightarrow \\ \\frac{h}{H} = 3.$$",
+  "mistakes": [
+    "The fall from the top is H + h, not h.",
+    "Distance from rest goes as t²: doubling the time quadruples the fall."
+  ],
   "distractors": {},
   "extension": null,
   "check": {
+    "solved_answer": "h/H = 3.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
     "issues": []
   },
   "generated_by": {
     "author": "worksheet",
     "model": null,
-    "prompt_version": null,
-    "date": "2026-11-08"
+    "prompt_version": "04MIP_Solutions_v1",
+    "date": "2026-11-12"
   },
-  "reviewed_by": null
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 04MIP_Solutions_v1.docx"
+  }
 }
