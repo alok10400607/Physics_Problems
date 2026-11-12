@@ -1,0 +1,32 @@
+{
+  "id": "P000546",
+  "problem_version": 1,
+  "status": "reviewed",
+  "hints": [
+    "Pulling slightly upward reduces N and so the friction to beat. What angle balances that gain against losing forward pull?"
+  ],
+  "worded": "1. Pulling at θ above the horizontal: limit F cos θ = μ(mg − F sin θ), so F = μmg/(cos θ + μ sin θ).\n\n2. F is least when cos θ + μ sin θ is largest, which happens at tan θ = μ (the angle of friction λ); its largest value is √(1 + μ²).\n\n3. So F_min = μmg/√(1 + μ²). (A)\n\n4. Check: this is less than μmg (option D, a horizontal pull), as it must be.\n\n5. Picture: the floor’s contact force leans back at most by λ; with mg, it and F form a triangle, and F is shortest when perpendicular to the contact force, i.e. at λ above the horizontal: F = mg sin λ.\n\n**No-pen route: angle of friction.** The floor’s total contact force R leans at λ (tan λ = μ) from the vertical. The three forces mg, R and F close a triangle; F is shortest when perpendicular to R, giving F = mg sin λ = μmg/√(1 + μ²).",
+  "conventional": "![](asset:P000546-sol-1)\n\n$$F(\\theta) = \\frac{\\mu mg}{\\cos\\theta + \\mu\\sin\\theta}.$$\n\n$\\cos\\theta + \\mu\\sin\\theta = \\sqrt{1 + \\mu^{2}}\\cos(\\theta - \\lambda)$ with $\\tan\\lambda = \\mu$; its maximum is $\\sqrt{1 + \\mu^{2}}$, at $\\theta = \\lambda$.\n\n$$F_{\\min} = \\frac{\\mu mg}{\\sqrt{1 + \\mu^{2}}}.$$",
+  "mistakes": [
+    "A horizontal pull (μmg) is not the least force."
+  ],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "solved_answer": "(A) $\\frac{\\mu mg}{\\sqrt{1 + \\mu^{2}}}$, applied at $\\tan^{- 1}\\mu$ above the horizontal.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": "06FRI_Solutions_v1",
+    "date": "2026-11-12"
+  },
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 06FRI_Solutions_v1.docx"
+  }
+}

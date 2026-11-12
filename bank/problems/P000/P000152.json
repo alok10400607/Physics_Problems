@@ -18,10 +18,10 @@
   "passage_id": null,
   "stem": "A particle starts moving rectilinearly at time t = 0 such that its velocity ‘v’ changes with time ‘t’ according to the equation $v = t^{2} - t$ where t is in seconds and v is in m/s. The time interval for which the particle retards is",
   "options": {
-    "A": "t \\< 1/2",
-    "B": "1/2 \\< t \\< 1",
-    "C": "t \\> 1",
-    "D": "t \\< 1/2 and t \\> 1"
+    "A": "t < 1/2",
+    "B": "1/2 < t < 1",
+    "C": "t > 1",
+    "D": "t < 1/2 and t > 1"
   },
   "answer": {
     "keys": [

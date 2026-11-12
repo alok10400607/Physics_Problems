@@ -1,0 +1,79 @@
+{
+  "id": "P000556",
+  "status": "reviewed",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0615",
+  "concepts": [],
+  "exams": [
+    "JEE Main"
+  ],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000556-stem-1) The upper half of an inclined plane with inclination $\\varphi$ is perfectly smooth while the lower half is rough. A body starting from rest at the top will again come to rest at the bottom if the coefficient of friction for the lower half is given by",
+  "options": {
+    "A": "tan φ",
+    "B": "2 sin φ",
+    "C": "2 tan φ",
+    "D": "2 cos φ"
+  },
+  "answer": {
+    "keys": [
+      "C"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "06FRI_v1",
+      "qno": 22
+    },
+    {
+      "kind": "exam",
+      "exam": "AIEEE",
+      "date": null,
+      "shift": null,
+      "mode": null,
+      "raw": "AIEEE 2005",
+      "year": 2005
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000556-stem-1",
+      "role": "stem",
+      "file": "P000/P000556-stem-1.png",
+      "format": "png",
+      "width": 478,
+      "height": 296,
+      "alt": "An incline at angle φ whose upper half is smooth and lower half rough; a block starts at rest at the top and is at rest again at the bottom.",
+      "origin": "docx",
+      "needs_redraw": true
+    },
+    {
+      "id": "P000556-sol-1",
+      "role": "solution",
+      "file": "P000/P000556-sol-1.png",
+      "format": "png",
+      "width": 677,
+      "height": 394,
+      "alt": "Graph of v² against distance s: rising in a straight line over the smooth half and falling back to zero over the rough half. Equal halves ⇒ slopes equal and opposite.",
+      "origin": "docx",
+      "needs_redraw": false
+    }
+  ],
+  "rights": "past-paper",
+  "content_hash": "57c6e036c61090f8",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-12",
+  "updated": "2026-11-12"
+}

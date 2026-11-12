@@ -1,0 +1,32 @@
+{
+  "id": "P000569",
+  "problem_version": 1,
+  "status": "reviewed",
+  "hints": [
+    "F acts on the upper block this time. Which block is now moved only by friction?"
+  ],
+  "worded": "1. F acts on A (upper). B is moved only by friction from A, at most μ m_A g = 0.5 × 10 = 5 N.\n\n2. So B’s largest acceleration is 5/2 = 2.5 m/s².\n\n3. Moving together: F = 3 × 2.5 = 7.5 N. (C)\n\n4. 15 N would be the answer if F acted on B (Q33’s situation).",
+  "conventional": "![](asset:P000569-sol-1)\n\n$$a_{\\max} = \\frac{\\mu m_{A}g}{m_{B}} = \\frac{5}{2} = 2.5\\ {m/s}^{2},\\quad\\quad F_{\\max} = \\left( m_{A} + m_{B} \\right)a_{\\max} = 7.5\\unit{N}.$$",
+  "mistakes": [
+    "With F on the upper block, the limit is set by the lower block’s acceleration μm_Ag/m_B."
+  ],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "solved_answer": "(C) 7.5 N.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": "06FRI_Solutions_v1",
+    "date": "2026-11-12"
+  },
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 06FRI_Solutions_v1.docx"
+  }
+}

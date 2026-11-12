@@ -1,0 +1,68 @@
+{
+  "id": "P000549",
+  "status": "reviewed",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0610",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000549-stem-1)Two blocks of mass ‘m’ and ‘2m’ are connected to ends of a spring having spring constant of $k$ and natural length of $l_{0}$. The spring is compressed by $x$ such that $|kx| = 0.5mg$. The system is placed on a horizontal surface as shown. Find the initial acceleration of block ‘m’ and ‘2m’ soon after the system is released?",
+  "options": {
+    "A": "0.3g, 0.5g",
+    "B": "0.5g, 0.5 g",
+    "C": "0.3g, zero",
+    "D": "0.2g, zero"
+  },
+  "answer": {
+    "keys": [
+      "C"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "06FRI_v1",
+      "qno": 15
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000549-stem-1",
+      "role": "stem",
+      "file": "P000/P000549-stem-1.png",
+      "format": "png",
+      "width": 333,
+      "height": 143,
+      "alt": "Two blocks m and 2m on a floor joined by a spring of constant k compressed to length l₀ − x; μ = 0.2 under m and μ = 0.5 under 2m.",
+      "origin": "docx",
+      "needs_redraw": true
+    },
+    {
+      "id": "P000549-sol-1",
+      "role": "solution",
+      "file": "P000/P000549-sol-1.png",
+      "format": "png",
+      "width": 985,
+      "height": 295,
+      "alt": "Blocks m and 2m joined by a spring, each pushed outward by 0.5mg. For m the friction limit is 0.2mg, so it slips (friction 0.2mg to the right); for 2m the limit is mg, so it holds.",
+      "origin": "docx",
+      "needs_redraw": false
+    }
+  ],
+  "rights": "unverified",
+  "content_hash": "2b088fd95b25b1de",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-12",
+  "updated": "2026-11-12"
+}

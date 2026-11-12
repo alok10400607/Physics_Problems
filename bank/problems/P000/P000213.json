@@ -16,7 +16,7 @@
   },
   "time_estimate_s": null,
   "passage_id": null,
-  "stem": "A projectile is projected at an angle α(\\>45°) with an initial velocity u. The time t, at which its horizontal component of velocity will equal the vertical component for the first time?",
+  "stem": "A projectile is projected at an angle α(>45°) with an initial velocity u. The time t, at which its horizontal component of velocity will equal the vertical component for the first time?",
   "options": {
     "A": "$\\frac{u}{g}(\\sin \\alpha + \\cos \\alpha)$",
     "B": "$\\frac{u}{g}(\\sin \\alpha - \\cos \\alpha)$",

@@ -1,0 +1,32 @@
+{
+  "id": "P000562",
+  "problem_version": 1,
+  "status": "reviewed",
+  "hints": [
+    "Same distance from rest: the accelerations are in the inverse ratio of the squared times."
+  ],
+  "worded": "1. a_rough = a_smooth/α².\n\n2. g(sin 30° − μ cos 30°) = g sin 30°/α², so μ = tan 30° × (α² − 1)/α².\n\n3. tan 30° = 1/√3, so x = 3.",
+  "conventional": "![](asset:P000562-sol-1)\n\n$$\\sin 30^{\\circ} - \\mu\\cos 30^{\\circ} = \\frac{\\sin 30^{\\circ}}{\\alpha^{2}}\\mkern6mu  \\Rightarrow \\mkern6mu \\mu = \\tan 30^{\\circ}\\,\\frac{\\alpha^{2} - 1}{\\alpha^{2}} = \\frac{1}{\\sqrt{3}}\\left( \\frac{\\alpha^{2} - 1}{\\alpha^{2}} \\right).$$",
+  "mistakes": [
+    "Use α², not α: distance from rest goes as at²."
+  ],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "solved_answer": "x = 3.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": "06FRI_Solutions_v1",
+    "date": "2026-11-12"
+  },
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 06FRI_Solutions_v1.docx"
+  }
+}

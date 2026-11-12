@@ -1,0 +1,48 @@
+{
+  "id": "P000547",
+  "status": "reviewed",
+  "version": 1,
+  "type": "integer",
+  "topic_code": "0610",
+  "concepts": [],
+  "exams": [
+    "JEE Main"
+  ],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A body of mass 1 kg rests on a horizontal floor with which it has a coefficient of static friction $1/\\sqrt{3}$. It is desired to make the body move by applying minimum possible force F newton. The value of F will be (rounded off to the nearest integer)?",
+  "answer": {
+    "value": 5
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "06FRI_v1",
+      "qno": 13
+    },
+    {
+      "kind": "exam",
+      "exam": "JEE Main",
+      "date": "2021-03-17",
+      "shift": 2,
+      "mode": null,
+      "raw": "JEE Main 2021, 17 Mar, Shift 2",
+      "year": 2021
+    }
+  ],
+  "assets": [],
+  "rights": "past-paper",
+  "content_hash": "9f63e3b49b169118",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-12",
+  "updated": "2026-11-12"
+}

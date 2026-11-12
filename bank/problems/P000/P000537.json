@@ -1,0 +1,79 @@
+{
+  "id": "P000537",
+  "status": "reviewed",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0605",
+  "concepts": [],
+  "exams": [
+    "JEE Main"
+  ],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000537-stem-1) Given in the figure are two blocks A and B of weight 20 N and 100 N, respectively. These are being pressed against a wall by a force F as shown. If the coefficient of friction between the blocks is 0.1 and between block B and the wall is 0.15, the frictional force applied by the wall on block B is :",
+  "options": {
+    "A": "100 N",
+    "B": "80 N",
+    "C": "120 N",
+    "D": "150 N"
+  },
+  "answer": {
+    "keys": [
+      "C"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "06FRI_v1",
+      "qno": 3
+    },
+    {
+      "kind": "exam",
+      "exam": "JEE Main",
+      "date": null,
+      "shift": null,
+      "mode": "Offline",
+      "raw": "JEE Main 2015 (Offline)",
+      "year": 2015
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000537-stem-1",
+      "role": "stem",
+      "file": "P000/P000537-stem-1.png",
+      "format": "png",
+      "width": 195,
+      "height": 225,
+      "alt": "Two blocks A and B side by side against a vertical wall, B touching the wall; a horizontal force F pushes A towards the wall.",
+      "origin": "docx",
+      "needs_redraw": true
+    },
+    {
+      "id": "P000537-sol-1",
+      "role": "solution",
+      "file": "P000/P000537-sol-1.png",
+      "format": "png",
+      "width": 523,
+      "height": 430,
+      "alt": "Blocks A and B pressed against a wall by F, treated as one system: total weight 20 + 100 N down and friction f_wall up at the wall.",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
+  "rights": "past-paper",
+  "content_hash": "0c674c8aeebbc69d",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-12",
+  "updated": "2026-11-12"
+}

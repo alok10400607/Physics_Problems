@@ -99,7 +99,7 @@ def tidy(s, where):
             out.append(("$$" if dd else "$") + new + ("$$" if dd else "$"))
         else:
             part = re.sub(r'\s*`<!-- -->`\{=html\}\s*', '\n\n', part)
-            part = re.sub(r'\\([\[\]()*_#>`~\-$.!|])', r'\1', part)
+            part = re.sub(r'\\([\[\]()*_#<>`~\-$.!|\'"])', r'\1', part)
             part = part.replace("\\\n", "\n")          # hard line break
             out.append(part)
     s = "".join(out)

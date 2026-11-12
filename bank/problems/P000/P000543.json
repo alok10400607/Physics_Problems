@@ -1,0 +1,79 @@
+{
+  "id": "P000543",
+  "status": "reviewed",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0610",
+  "concepts": [],
+  "exams": [
+    "JEE Main"
+  ],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000543-stem-1) A block of mass 5 kg is (i) pushed in case (A) and (ii) pulled in case (B), by a force F = 20 N, making an angle of $30{^\\circ}$ with the horizontal, as shown. The coefficient of friction between the block and the floor is 0.2. The difference between the accelerations of the block, in case (B) and case (A) will be:",
+  "options": {
+    "A": "0.4 m/s<sup>2</sup>",
+    "B": "3.2 m/s<sup>2</sup>",
+    "C": "0.8 m/s<sup>2</sup>",
+    "D": "0 m/s<sup>2</sup>"
+  },
+  "answer": {
+    "keys": [
+      "C"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "06FRI_v1",
+      "qno": 9
+    },
+    {
+      "kind": "exam",
+      "exam": "JEE Main",
+      "date": "2019-04-12",
+      "shift": 2,
+      "mode": null,
+      "raw": "JEE Main 2019, 12 Apr, Shift 2",
+      "year": 2019
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000543-stem-1",
+      "role": "stem",
+      "file": "P000/P000543-stem-1.png",
+      "format": "png",
+      "width": 364,
+      "height": 96,
+      "alt": "Two cases of a block on a floor: (A) a 20 N force pushes down on it at 30° below the horizontal; (B) a 20 N force pulls it at 30° above the horizontal.",
+      "origin": "docx",
+      "needs_redraw": true
+    },
+    {
+      "id": "P000543-sol-1",
+      "role": "solution",
+      "file": "P000/P000543-sol-1.png",
+      "format": "png",
+      "width": 994,
+      "height": 280,
+      "alt": "A 5 kg block in two cases: (A) pushed down at 20 N, so N = 50 + 10; (B) pulled up at 20 N, so N = 50 − 10.",
+      "origin": "docx",
+      "needs_redraw": false
+    }
+  ],
+  "rights": "past-paper",
+  "content_hash": "f430e04b0f2fe349",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-12",
+  "updated": "2026-11-12"
+}

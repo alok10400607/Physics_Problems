@@ -1,0 +1,60 @@
+{
+  "id": "P000563",
+  "status": "reviewed",
+  "version": 1,
+  "type": "subjective",
+  "topic_code": "0615",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000563-stem-1)Figure shows two blocks in contact sliding down an inclined surface of inclination 37°. The friction coefficient between the block A of mass 2.0 kg and the incline is μ<sub>1</sub>, and that between the block B of mass 4.0 kg and the incline is μ<sub>2</sub>. Calculate the acceleration of the 2.0 kg block if\n(i) μ<sub>1</sub> = 0.20 and μ<sub>2</sub> = 0.30,\n(ii) μ<sub>1</sub> = 0.30 and μ<sub>2</sub> = 0.20.",
+  "answer": {
+    "text": "(i) 4.4 m/s<sup>2</sup>; (ii) 4.13 m/s<sup>2</sup>"
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "06FRI_v1",
+      "qno": 29
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000563-stem-1",
+      "role": "stem",
+      "file": "P000/P000563-stem-1.png",
+      "format": "png",
+      "width": 330,
+      "height": 199,
+      "alt": "Two blocks touching on a 37° incline: A, 2 kg, lower down with coefficient μ₁, and B, 4 kg, above it with μ₂.",
+      "origin": "docx",
+      "needs_redraw": true
+    },
+    {
+      "id": "P000563-sol-1",
+      "role": "solution",
+      "file": "P000/P000563-sol-1.png",
+      "format": "png",
+      "width": 1397,
+      "height": 427,
+      "alt": "Blocks A and B on a 37° incline, with A alone accelerating at g(0.6 − 0.8μ). Notes: (i) A faster (4.4 vs 3.6), they separate; (ii) B faster, B pushes A, common a = 4.13 m/s².",
+      "origin": "docx",
+      "needs_redraw": false
+    }
+  ],
+  "rights": "unverified",
+  "content_hash": "3c07b4552f8e9513",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-12",
+  "updated": "2026-11-12"
+}

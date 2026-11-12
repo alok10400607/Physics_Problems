@@ -1,0 +1,68 @@
+{
+  "id": "P000576",
+  "status": "reviewed",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0625",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": "L2",
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000576-stem-1) Two blocks of 2 kg and 4 kg are connected by a massless string which makes an angle of $37{^\\circ}$ with the horizontal. Both are placed on a horizontal surface such that $\\mu = 0.2$ between 2 kg block. The friction between 4 kg block and the surface is negligible. Find minimum horizontal force F needed to make the block move?",
+  "options": {
+    "A": "4 N",
+    "B": "1.5 N",
+    "C": "6 N",
+    "D": "3.5 N"
+  },
+  "answer": {
+    "keys": [
+      "D"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "06FRI_v1",
+      "qno": 42
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000576-stem-1",
+      "role": "stem",
+      "file": "P000/P000576-stem-1.png",
+      "format": "png",
+      "width": 331,
+      "height": 168,
+      "alt": "A 2 kg block on a floor with μ = 0.2, joined by a string at 37° to a 4 kg block on a smooth floor that is pulled by a force F.",
+      "origin": "docx",
+      "needs_redraw": true
+    },
+    {
+      "id": "P000576-sol-1",
+      "role": "solution",
+      "file": "P000/P000576-sol-1.png",
+      "format": "png",
+      "width": 813,
+      "height": 191,
+      "alt": "The 2 kg and 4 kg blocks joined by a string at 37° with tension T; F pulls the 4 kg block, and friction 0.2(20 − 0.6T) acts on the 2 kg block.",
+      "origin": "docx",
+      "needs_redraw": false
+    }
+  ],
+  "rights": "unverified",
+  "content_hash": "b7378b4caaadf5f7",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-12",
+  "updated": "2026-11-12"
+}

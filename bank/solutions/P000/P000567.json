@@ -1,0 +1,32 @@
+{
+  "id": "P000567",
+  "problem_version": 1,
+  "status": "reviewed",
+  "hints": [
+    "Which block is moved only by friction? Its largest acceleration sets the limit."
+  ],
+  "worded": "1. F acts on B (lower). A is moved only by friction from B, at most μ m_A g, so A’s acceleration is at most μg = 5 m/s².\n\n2. Moving together, both have 5 m/s²: F = (1 + 2) × 5 = 15 N.\n\n3. Check: a larger F would need A to accelerate faster than friction allows, so A would slip back on B.",
+  "conventional": "![](asset:P000567-sol-1)\n\n$$a_{\\max} = \\mu g = 5\\ {m/s}^{2},\\quad\\quad F_{\\max} = \\left( m_{A} + m_{B} \\right)a_{\\max} = 3(5) = 15\\unit{N}.$$",
+  "mistakes": [
+    "With F on the lower block, a_max = μg, independent of the masses."
+  ],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "solved_answer": "15 N.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": "06FRI_Solutions_v1",
+    "date": "2026-11-12"
+  },
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 06FRI_Solutions_v1.docx"
+  }
+}

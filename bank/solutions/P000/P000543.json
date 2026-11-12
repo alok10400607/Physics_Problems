@@ -1,0 +1,32 @@
+{
+  "id": "P000543",
+  "problem_version": 1,
+  "status": "reviewed",
+  "hints": [
+    "The horizontal parts of the force are the same in both cases. What differs, and by how much?"
+  ],
+  "worded": "1. The forward component F cos 30° is the same in both cases, so only the friction differs.\n\n2. Pushing down adds F sin 30° = 10 N to N; pulling up removes 10 N. The normal forces are 60 N and 40 N.\n\n3. The friction differs by 0.2 × 20 = 4 N, so the accelerations differ by 4/5 = 0.8 m/s². (C)\n\n4. Check that both slide: 17.3 N exceeds 12 N and 8 N, so kinetic friction applies in both cases.\n\n**No-pen route.** Δa = μ × (difference in N)/m = 0.2 × 2F sin 30°/5 = 0.2 × 20/5 = 0.8 m/s².",
+  "conventional": "![](asset:P000543-sol-1)\n\n(A) push: $N = 50 + 10 = 60$ N, $a_{A} = \\frac{17.32 - 12}{5} = 1.06$ m/s².\n(B) pull: $N = 50 - 10 = 40$ N, $a_{B} = \\frac{17.32 - 8}{5} = 1.86$ m/s².\n\n$$a_{B} - a_{A} = 0.8\\ {m/s}^{2}.$$",
+  "mistakes": [
+    "Check the block slides in both cases before using μN."
+  ],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "solved_answer": "(C) 0.8 m/s².",
+    "resolve_answer": null,
+    "agrees_with_key": true,
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": "06FRI_Solutions_v1",
+    "date": "2026-11-12"
+  },
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 06FRI_Solutions_v1.docx"
+  }
+}

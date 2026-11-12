@@ -1,0 +1,60 @@
+{
+  "id": "P000536",
+  "status": "reviewed",
+  "version": 1,
+  "type": "integer",
+  "topic_code": "0605",
+  "concepts": [],
+  "exams": [
+    "JEE Main"
+  ],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "The coefficient of static friction between a wooden block of mass 0.5 kg and a vertical rough wall is 0.2. The magnitude of horizontal force that should be applied on the block to keep it adhered to the wall will be ….. N.",
+  "answer": {
+    "value": 25
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "06FRI_v1",
+      "qno": 2
+    },
+    {
+      "kind": "exam",
+      "exam": "JEE Main",
+      "date": "2021-02-24",
+      "shift": 1,
+      "mode": null,
+      "raw": "JEE Main 2021, 24 Feb, Shift 1",
+      "year": 2021
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000536-sol-1",
+      "role": "solution",
+      "file": "P000/P000536-sol-1.png",
+      "format": "png",
+      "width": 466,
+      "height": 387,
+      "alt": "A 0.5 kg block pressed against a wall by a horizontal force F; its weight mg = 5 N acts down and friction f ≤ μF acts up along the wall.",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
+  "rights": "past-paper",
+  "content_hash": "8658746e5e762c2b",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-12",
+  "updated": "2026-11-12"
+}

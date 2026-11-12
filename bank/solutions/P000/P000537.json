@@ -1,0 +1,32 @@
+{
+  "id": "P000537",
+  "problem_version": 1,
+  "status": "reviewed",
+  "hints": [
+    "F is not given, so μ cannot be what decides the answer. If nothing slips, what must the wall’s friction balance?"
+  ],
+  "worded": "1. F is not given, so the friction cannot be found from μN. The blocks must be at rest (the worksheet’s own hint says this is implied).\n\n2. Take A and B together as the system: the friction between the blocks is internal.\n\n3. The only upward force on the system is the wall’s friction, and the weights total 120 N. So the wall’s friction is 120 N. (C)\n\n4. Check the parts: A needs 20 N from B; B needs 100 N for itself plus the 20 N with which A drags it down: 120 N.",
+  "conventional": "![](asset:P000537-sol-1)\n\nSystem A + B at rest (friction between A and B is internal):\n\n$$f_{wall} = 20 + 100 = 120\\unit{N},\\text{ upward}.$$\n\n(This needs $0.15F \\geq 120$, i.e. $F \\geq 800$ N, and $0.1F \\geq 20$, which then also holds.)",
+  "mistakes": [
+    "Static friction is what equilibrium needs, not μN; F is not even given."
+  ],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "solved_answer": "(C) 120 N, upward.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": "06FRI_Solutions_v1",
+    "date": "2026-11-12"
+  },
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 06FRI_Solutions_v1.docx"
+  }
+}

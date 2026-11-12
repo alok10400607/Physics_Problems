@@ -1,0 +1,32 @@
+{
+  "id": "P000550",
+  "problem_version": 1,
+  "status": "reviewed",
+  "hints": [
+    "Ask “what if there were no friction?” Compare the push’s component up the slope with the weight’s component down it."
+  ],
+  "worded": "1. The weight is 1 N and the push is 1 N. Along the slope: the push gives 1 × cos θ up, the weight 1 × sin θ down.\n\n2. Smooth surface: rest needs cos θ = sin θ, so θ = 45°. (A) is correct.\n\n3. θ < 45°: cos θ > sin θ, so without friction the block would move up; friction acts down the slope. (C) is correct, (B) is not.\n\n4. θ > 45°: the block would slide down; friction acts up the slope. (D) is correct.\n\n5. The incorrect statement is (B).",
+  "conventional": "![](asset:P000550-sol-1)\n\nAlong the incline (up positive), with $f$ up the slope:\n\n$$1\\cos\\theta - (0.1)(10)\\sin\\theta + f = 0\\mkern6mu  \\Rightarrow \\mkern6mu  f = \\sin\\theta - \\cos\\theta.$$\n\n$\\theta < 45^{\\circ}$: $f < 0$ (down the slope); $\\theta > 45^{\\circ}$: $f > 0$ (up); $\\theta = 45^{\\circ}$: $f = 0$.",
+  "mistakes": [
+    "The question asks for the incorrect statement."
+  ],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "solved_answer": "(B) is incorrect.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": "06FRI_Solutions_v1",
+    "date": "2026-11-12"
+  },
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 06FRI_Solutions_v1.docx"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "id": "P000570",
+  "status": "reviewed",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0620",
+  "concepts": [],
+  "exams": [
+    "JEE Main"
+  ],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A block A of mass 4 kg is placed on another block B of mass 5 kg, and the block B rests on smooth horizontal table. If the minimum force that can be applied on block A so that it slips over B is 12 N, then the maximum force that can be applied on block B for the blocks to move together will be?",
+  "options": {
+    "A": "48 N",
+    "B": "27 N",
+    "C": "15 N",
+    "D": "40/3 N"
+  },
+  "answer": {
+    "keys": [
+      "C"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "06FRI_v1",
+      "qno": 36
+    },
+    {
+      "kind": "exam",
+      "exam": "JEE Main",
+      "date": "2014-04-09",
+      "shift": null,
+      "mode": "Online",
+      "raw": "JEE Main 2014, 9 Apr (Online)",
+      "year": 2014
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000570-sol-1",
+      "role": "solution",
+      "file": "P000/P000570-sol-1.png",
+      "format": "png",
+      "width": 924,
+      "height": 328,
+      "alt": "Text only. Force on A: B is driven by f, a = f/m_B, F_A = (m_A + m_B)f/m_B. Force on B: A is driven by f, a = f/m_A, F_B = (m_A + m_B)f/m_A. So F_B/F_A = m_B/m_A = 5/4.",
+      "origin": "docx",
+      "needs_redraw": false
+    }
+  ],
+  "rights": "past-paper",
+  "content_hash": "8f050ed53c1ad9af",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-12",
+  "updated": "2026-11-12"
+}

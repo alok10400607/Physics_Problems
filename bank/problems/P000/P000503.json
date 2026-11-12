@@ -16,7 +16,7 @@
   },
   "time_estimate_s": null,
   "passage_id": null,
-  "stem": "![](asset:P000503-stem-1) The block of mass m initially at rest at x = 0 is acted upon by a horizontal force which, at position x, is given by $F = a - bx^{2}$ (where a \\> μmg), as shown in the figure. The co-efficient of friction between the surfaces of contact is μ. At what displacement will the mass ‘m’ be at momentary rest?",
+  "stem": "![](asset:P000503-stem-1) The block of mass m initially at rest at x = 0 is acted upon by a horizontal force which, at position x, is given by $F = a - bx^{2}$ (where a > μmg), as shown in the figure. The co-efficient of friction between the surfaces of contact is μ. At what displacement will the mass ‘m’ be at momentary rest?",
   "options": {
     "A": "$\\sqrt{3(a - \\mu mg)/b}$",
     "B": "$\\sqrt{2(a - \\mu mg)/b}$",

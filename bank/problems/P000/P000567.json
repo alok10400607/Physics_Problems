@@ -1,0 +1,71 @@
+{
+  "id": "P000567",
+  "status": "reviewed",
+  "version": 1,
+  "type": "integer",
+  "topic_code": "0620",
+  "concepts": [],
+  "exams": [
+    "JEE Main"
+  ],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000567-stem-1) The coefficient of static friction between two blocks is 0.5 and the table is smooth. The maximum horizontal force that can be applied to move the blocks together is ….. N.",
+  "answer": {
+    "value": 15
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "06FRI_v1",
+      "qno": 33
+    },
+    {
+      "kind": "exam",
+      "exam": "JEE Main",
+      "date": "2021-08-26",
+      "shift": 2,
+      "mode": null,
+      "raw": "JEE Main 2021, 26 Aug, Shift 2",
+      "year": 2021
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000567-stem-1",
+      "role": "stem",
+      "file": "P000/P000567-stem-1.png",
+      "format": "png",
+      "width": 379,
+      "height": 120,
+      "alt": "Block A (1 kg) on block B (2 kg), μ = 0.5 between them; B is on a smooth floor and pulled by a force F.",
+      "origin": "docx",
+      "needs_redraw": true
+    },
+    {
+      "id": "P000567-sol-1",
+      "role": "solution",
+      "file": "P000/P000567-sol-1.png",
+      "format": "png",
+      "width": 510,
+      "height": 318,
+      "alt": "A 1 kg block on a 2 kg block pulled by F; friction f ≤ μm_A g drives A. a_max = μg = 5 and F_max = 3(5).",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
+  "rights": "past-paper",
+  "content_hash": "4248a978b2c7deb3",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-12",
+  "updated": "2026-11-12"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "P000541",
+  "problem_version": 1,
+  "status": "reviewed",
+  "hints": [
+    "The block is at rest. Is friction then at its limit, or only as large as needed?"
+  ],
+  "worded": "1. The block is at rest, so friction is static and self-adjusting: it equals whatever balances the horizontal forces.\n\n2. The only other horizontal force is F cos θ, so friction = F cos θ, opposite to it. (A)\n\n3. (B) is the limiting value for this push (N = mg + F sin θ); friction reaches it only on the verge of slipping. (C) would be the limit for a pull, (D) for no vertical push.",
+  "conventional": "![](asset:P000541-sol-1)\n\nAt rest: $\\sum F_{x} = 0\\mkern6mu  \\Rightarrow \\mkern6mu  f = F\\cos\\theta$ (static, $\\leq \\mu\\left( Mg + F\\sin\\theta \\right)$).",
+  "mistakes": [
+    "Do not write μN for a body at rest unless it is on the verge of slipping."
+  ],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "solved_answer": "(A) F cos θ.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": "06FRI_Solutions_v1",
+    "date": "2026-11-12"
+  },
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 06FRI_Solutions_v1.docx"
+  }
+}

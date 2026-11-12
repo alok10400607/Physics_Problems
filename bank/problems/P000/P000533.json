@@ -16,7 +16,7 @@
   },
   "time_estimate_s": null,
   "passage_id": null,
-  "stem": "A particle of mass ‘m’ moves along a circle of constant radius R with radial acceleration changing with time as $a_{r} = kt^{n}$ where k is a constant and n \\> 1. What is the power required for this motion as a function of time?",
+  "stem": "A particle of mass ‘m’ moves along a circle of constant radius R with radial acceleration changing with time as $a_{r} = kt^{n}$ where k is a constant and n > 1. What is the power required for this motion as a function of time?",
   "options": {
     "A": "$\\frac{1}{2}mnRkt^{n - 1}$",
     "B": "$\\frac{1}{2k}mnRt^{n - 1}$",

@@ -1,0 +1,13 @@
+{
+  "collection": "06FRI",
+  "title": "Friction",
+  "chapter_code": "06",
+  "sections": {
+    "Laws of Friction; Angle of Friction & Repose": "0605",
+    "Rough Horizontal Surface; Force at an Angle": "0610",
+    "Rough Inclined Plane": "0615",
+    "Stacked Blocks & Relative Slipping": "0620",
+    "Friction in Pulley & Connected Systems": "0625",
+    "Friction with Variable Forces & Accelerated Frames": "0630"
+  }
+}

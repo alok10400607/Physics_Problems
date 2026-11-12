@@ -1,0 +1,60 @@
+{
+  "id": "P000566",
+  "status": "reviewed",
+  "version": 1,
+  "type": "subjective",
+  "topic_code": "0620",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A small block of mass ‘m’ is placed on the left-end of a long plank of mass 4 m which rests on a smooth surface. The coefficient of friction between the block and the plank is 0.1. The block is given a sudden blow which imparts a velocity of 4 m/s. Find:\n![](asset:P000566-stem-1)(i) initial acceleration of block and plank\n(ii) time taken for slipping block and plank to acquire same velocity\n(iii) what will the friction force acting after this time\n(iv) the distance travelled by block and plank till that time\n(v) what must be the minimum length of plank for the block to not fall off",
+  "answer": {
+    "text": "(i) 1 $ms^{- 2}$, 0.25 $ms^{- 2}$, (ii) 3.2 sec; (iii) zero, (iv) 7.68 m and 1.28 m, (v) 6.4 m"
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "06FRI_v1",
+      "qno": 32
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000566-stem-1",
+      "role": "stem",
+      "file": "P000/P000566-stem-1.png",
+      "format": "png",
+      "width": 321,
+      "height": 146,
+      "alt": "A block m moving at v = 4 m/s on top of a long 4m plank, μ = 0.1 between them; the plank rests on a smooth floor.",
+      "origin": "docx",
+      "needs_redraw": true
+    },
+    {
+      "id": "P000566-sol-1",
+      "role": "solution",
+      "file": "P000/P000566-sol-1.png",
+      "format": "png",
+      "width": 698,
+      "height": 412,
+      "alt": "Velocity–time graph in m/s and s: the block falls from 4 and the plank rises from 0, both reaching 0.8 at t = 3.2 s; the shaded area between them is 6.4 m.",
+      "origin": "docx",
+      "needs_redraw": false
+    }
+  ],
+  "rights": "unverified",
+  "content_hash": "be017216c2960c88",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-12",
+  "updated": "2026-11-12"
+}

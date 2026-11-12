@@ -6,7 +6,7 @@
     "The wall is 10 m away. When is the ball 10 m out horizontally, and how high is it then?"
   ],
   "worded": "1. The ball reaches the wall when its horizontal distance is 10 m; its height then is where it hits (if that is below the 25 m top, which it will be).\n\n2. Components: 20 cos 45° = 20 sin 45° = 10√2 ≈ 14.1 m/s.\n\n3. Time to the wall: 10/(10√2) = 1/√2 s ≈ 0.71 s.\n\n4. Height: 10√2 × (1/√2) − 5 × ½ = 10 − 2.5 = 7.5 m.\n\n5. Check: 7.5 m is below the 25 m top, so the ball does hit the wall. (Its maximum height would be 10 m, reached beyond the wall.)\n\n**Another way: trajectory equation.** y = x tan θ − gx²/(2u²cos²θ) = 10(1) − 10 × 100/(2 × 400 × ½) = 10 − 2.5 = 7.5 m. This is the route in the worksheet hint.",
-  "conventional": "![](asset:P000232-sol-1)\n\n$$y = x\\tan\\theta - \\frac{gx^{2}}{2u^{2}\\cos^{2}\\theta} = 10\\tan 45^{\\circ} - \\frac{10(10)^{2}}{2(20)^{2}(1/2)} = 10 - 2.5 = 7.5\\unit{m}.$$\n\nSince 7.5 m \\< 25 m, the ball strikes the wall 7.5 m above the ground.",
+  "conventional": "![](asset:P000232-sol-1)\n\n$$y = x\\tan\\theta - \\frac{gx^{2}}{2u^{2}\\cos^{2}\\theta} = 10\\tan 45^{\\circ} - \\frac{10(10)^{2}}{2(20)^{2}(1/2)} = 10 - 2.5 = 7.5\\unit{m}.$$\n\nSince 7.5 m < 25 m, the ball strikes the wall 7.5 m above the ground.",
   "mistakes": [
     "Check that the hit point is below the top of the wall; otherwise the ball would pass over it.",
     "Do not use the maximum height (10 m): the ball reaches the wall before its top, which is 20 m out."

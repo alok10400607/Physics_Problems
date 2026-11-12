@@ -1,0 +1,35 @@
+{
+  "id": "P000575",
+  "problem_version": 1,
+  "status": "reviewed",
+  "hints": [
+    "When the 4 kg block moves left, which way does the 2 kg block go? Then list every friction on the 4 kg block."
+  ],
+  "worded": "1. The string runs from the 2 kg block round the wall pulley to the 4 kg block. If the 4 kg block moves left, the 2 kg block moves right: they slip against each other.\n\n2. 2 kg block, on the verge: T = 0.1 × 20 = 2 N.\n\n3. 4 kg block: F must beat T (the string pulls it right), the 2 kg block’s friction on it (2 N, right) and the floor’s friction 0.2 × 60 = 12 N (right).\n\n4. F = 2 + 2 + 12 = 16 N. (D)",
+  "conventional": "![](asset:P000575-sol-1)\n\n2 kg: $T = 0.1(2)(10) = 2$ N.\n4 kg: $F = T + 0.1(20) + 0.2(60) = 2 + 2 + 12 = 16$ N.",
+  "mistakes": [
+    "The floor’s normal force carries both blocks (60 N).",
+    "The block-on-block friction acts on both blocks, so it appears twice in total (in T and on the 4 kg block)."
+  ],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "solved_answer": "(D) 16 N.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
+    "issues": [
+      "problem text differs from the bank (similarity 0.86)"
+    ]
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": "06FRI_Solutions_v1",
+    "date": "2026-11-12"
+  },
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 06FRI_Solutions_v1.docx"
+  }
+}

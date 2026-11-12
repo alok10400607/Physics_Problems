@@ -1,0 +1,32 @@
+{
+  "id": "P000551",
+  "problem_version": 1,
+  "status": "reviewed",
+  "hints": [
+    "A force into the surface does not push along the slope at all. What does it change?"
+  ],
+  "worded": "1. The block alone would slide: tan 30° ≈ 0.58 exceeds μ = 0.5.\n\n2. F, pressing into the incline, adds directly to the normal force: N = mg cos 30° + F.\n\n3. Holding it needs μN ≥ mg sin 30° = 10 N, so N ≥ 20 N.\n\n4. mg cos 30° = 17.3 N, so F ≥ 2.7 N. (A)",
+  "conventional": "![](asset:P000551-sol-1)\n\n$$\\mu\\left( mg\\cos 30^{\\circ} + F \\right) \\geq mg\\sin 30^{\\circ}\\mkern6mu  \\Rightarrow \\mkern6mu  0.5(17.32 + F) \\geq 10\\mkern6mu  \\Rightarrow \\mkern6mu  F \\geq 2.68\\unit{N}.$$",
+  "mistakes": [
+    "F works only through friction: it multiplies by μ, so it is not 10 N."
+  ],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "solved_answer": "(A) 2.7 N.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": "06FRI_Solutions_v1",
+    "date": "2026-11-12"
+  },
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 06FRI_Solutions_v1.docx"
+  }
+}

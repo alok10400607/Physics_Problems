@@ -1,0 +1,33 @@
+{
+  "id": "P000557",
+  "problem_version": 1,
+  "status": "reviewed",
+  "hints": [
+    "Over which length does gravity act, and over which does friction act? Balance their work."
+  ],
+  "worded": "1. As in the previous problem, take part BC as smooth (only AC is said to have friction).\n\n2. Gravity works over the whole length 3L (with AC = L); friction only over L.\n\n3. From rest to rest: mg sin θ × 3L = μmg cos θ × L, so μ = 3 tan θ and k = 3. (C)",
+  "conventional": "![](asset:P000557-sol-1)\n\nLet $AC = L$, $BC = 2L$, BC smooth.\n\n$$mg\\sin\\theta(3L) - \\mu mg\\cos\\theta(L) = 0\\mkern6mu  \\Rightarrow \\mkern6mu \\mu = 3\\tan\\theta,\\quad k = 3.$$",
+  "mistakes": [
+    "Gravity acts over the full 3L, friction only over L.",
+    "BC is taken as smooth; the problem implies it but does not say so."
+  ],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "solved_answer": "(C) 3.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": "06FRI_Solutions_v1",
+    "date": "2026-11-12"
+  },
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 06FRI_Solutions_v1.docx"
+  }
+}

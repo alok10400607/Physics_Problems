@@ -1,0 +1,60 @@
+{
+  "id": "P000562",
+  "status": "reviewed",
+  "version": 1,
+  "type": "integer",
+  "topic_code": "0615",
+  "concepts": [],
+  "exams": [
+    "JEE Main"
+  ],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "When a body slides down from rest along a smooth inclined plane making an angle of $30{^\\circ}$ with the horizontal, it takes time T. When the same body slides down from rest along a rough inclined plane making the same angle and through the same distance, it takes time αT, where α is a constant greater than 1. The coefficient of friction between the body and the rough plane is $\\frac{1}{\\sqrt{x}}\\left( \\frac{\\alpha^{2} - 1}{\\alpha^{2}} \\right);$ then the value of x is?",
+  "answer": {
+    "value": 3
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "06FRI_v1",
+      "qno": 28
+    },
+    {
+      "kind": "exam",
+      "exam": "JEE Main",
+      "date": "2021-09-01",
+      "shift": 2,
+      "mode": null,
+      "raw": "JEE Main 2021, 1 Sep, Shift 2",
+      "year": 2021
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000562-sol-1",
+      "role": "solution",
+      "file": "P000/P000562-sol-1.png",
+      "format": "png",
+      "width": 856,
+      "height": 269,
+      "alt": "A 30° incline. Note: same distance from rest, a_rough = a_smooth/α².",
+      "origin": "docx",
+      "needs_redraw": false
+    }
+  ],
+  "rights": "past-paper",
+  "content_hash": "f271fdb7671bfb9e",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-12",
+  "updated": "2026-11-12"
+}

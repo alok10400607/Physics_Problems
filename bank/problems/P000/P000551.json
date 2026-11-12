@@ -1,0 +1,68 @@
+{
+  "id": "P000551",
+  "status": "reviewed",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0615",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000551-stem-1)A block A of mass 2 kg is placed on an inclined plane as shown having $\\mu$=0.5. Find the minimum force F that need to be applied perpendicular to the inclined surface to prevent the block A from sliding down the slope.",
+  "options": {
+    "A": "2.7 N",
+    "B": "5.4 N",
+    "C": "7.2 N",
+    "D": "10 N"
+  },
+  "answer": {
+    "keys": [
+      "A"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "06FRI_v1",
+      "qno": 17
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000551-stem-1",
+      "role": "stem",
+      "file": "P000/P000551-stem-1.png",
+      "format": "png",
+      "width": 452,
+      "height": 245,
+      "alt": "A 2 kg block A on a 30° incline with μ = 0.5, pressed by a force F perpendicular to the incline.",
+      "origin": "docx",
+      "needs_redraw": true
+    },
+    {
+      "id": "P000551-sol-1",
+      "role": "solution",
+      "file": "P000/P000551-sol-1.png",
+      "format": "png",
+      "width": 636,
+      "height": 351,
+      "alt": "Block on a 30° incline pressed by F perpendicular to it; mg sin 30° acts down the slope and friction μ(mg cos 30° + F) up the slope.",
+      "origin": "docx",
+      "needs_redraw": false
+    }
+  ],
+  "rights": "unverified",
+  "content_hash": "64545cf89551e2c9",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-12",
+  "updated": "2026-11-12"
+}

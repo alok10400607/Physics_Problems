@@ -1,0 +1,79 @@
+{
+  "id": "P000557",
+  "status": "reviewed",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0615",
+  "concepts": [],
+  "exams": [
+    "JEE Main"
+  ],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000557-stem-1) A block of mass m starts slipping from the top of inclined plane at B and comes to rest when reaches the lowest point A of the inclined plane. If BC = 2AC and friction coefficient of part AC is $\\mu = k\\tan \\theta\\ $then find the value of K?",
+  "options": {
+    "A": "2",
+    "B": "$\\ \\frac{1}{2}$",
+    "C": "$3$",
+    "D": "$1/3$"
+  },
+  "answer": {
+    "keys": [
+      "C"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "06FRI_v1",
+      "qno": 23
+    },
+    {
+      "kind": "exam",
+      "exam": "JEE Main",
+      "date": "2020-09-02",
+      "shift": 1,
+      "mode": null,
+      "raw": "JEE Main 2020, 2 Sep, Shift 1",
+      "year": 2020
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000557-stem-1",
+      "role": "stem",
+      "file": "P000/P000557-stem-1.png",
+      "format": "png",
+      "width": 170,
+      "height": 86,
+      "alt": "An incline at angle θ from A at the bottom to B at the top, with a point C between them; a block starts at B and slides down.",
+      "origin": "docx",
+      "needs_redraw": true
+    },
+    {
+      "id": "P000557-sol-1",
+      "role": "solution",
+      "file": "P000/P000557-sol-1.png",
+      "format": "png",
+      "width": 751,
+      "height": 406,
+      "alt": "Graph of v² against distance s from B: rising over BC = 2L (smooth) to a peak at C, then falling to zero over CA = L (rough). Gain over 2L = loss over L.",
+      "origin": "docx",
+      "needs_redraw": false
+    }
+  ],
+  "rights": "past-paper",
+  "content_hash": "d0a076915d6e92c1",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-12",
+  "updated": "2026-11-12"
+}
