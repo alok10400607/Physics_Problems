@@ -70,9 +70,10 @@ UNI_TEX = {"µ": "\\mu ", "μ": "\\mu ", "½": "\\frac{1}{2}", "¼": "\\frac{1}{
 def tidy_tex(t):
     """Bring Word's equations to docs/maths-style.md."""
     o = t
-    t = re.sub(r'\{\\overrightarrow\{([^{}]+)\}\}', r'\\vec{\1}', t)
+    t = re.sub(r'\{\\overrightarrow\{([^{}]+)\}\}(?=[_^])', r'\\vec{\1}', t)   # {\overrightarrow{r}}_{A} -> \vec{r}_{A}
     t = re.sub(r'\\overrightarrow\{([^{}]+)\}', r'\\vec{\1}', t)
     t = re.sub(r'\\widehat\{\\imath\}', r'\\ihat ', t); t = re.sub(r'\\widehat\{\\jmath\}', r'\\jhat ', t)
+    t = re.sub(r'\\widehat\{i\}', r'\\ihat ', t); t = re.sub(r'\\widehat\{j\}', r'\\jhat ', t)
     t = re.sub(r'\\widehat\{k\}', r'\\khat ', t)
     # units after a number, a closing brace or bracket:  2\ cm  ->  2\unit{cm}
     t = re.sub(r'\\mspace\{(\d+)mu\}', r'\\mkern\1mu ', t)          # KaTeX has \mkern, not \mspace
@@ -108,7 +109,8 @@ def tidy(s, where):
 
 def norm(s):
     s = IMG.sub("", s); s = re.sub(r'asset:\S+', '', s)
-    s = re.sub(r'\\(frac|sqrt|left|right|text|mathrm|unit|times|quad)', ' ', s)
+    s = re.sub(r'</?su[bp]>', ' ', s)
+    s = re.sub(r'\\[A-Za-z]+', ' ', s)          # TeX command names (\vec, \overrightarrow, \frac …) are spelling, not content
     return re.sub(r'[^a-z0-9]+', ' ', s.lower()).strip()
 
 # ---------- parse ----------
@@ -168,6 +170,7 @@ def problem_text(p):
 KNOWN = ("problem", "hint", "think it through", "another way", "no-pen route", "why the other options are there",
          "worked solution", "answer", "watch out")
 results, figures_total, notes_lines = [], 0, 0
+missing_colls = set()
 seen_pids = {}
 for it in items:
     where = f"Q{it['n']}"
@@ -184,6 +187,12 @@ for it in items:
         if not coll:
             cands = {re.sub(r'_v\d+$', '', x["ref"]) for x in items if x["ref"]}
             coll = cands.pop() if len(cands) == 1 else None
+        if coll and coll not in collections:
+            if coll not in missing_colls:
+                missing_colls.add(coll)
+                block(f"Collection {coll} is not in the bank, so its {sum(1 for x in items if (x['ref'] or '').startswith(coll))} solutions have no problems to attach to. "
+                      f"Import the problems file ({it['ref']}.docx) first; the solutions file can then be imported unchanged.")
+            continue
         pid = by_number(coll, qno) if coll else None
         how = "number"
         if not pid: block(f"{where}: no problem in collection {coll or '?'} with question number {qno}. Add an ID tag [P000123]."); continue
@@ -212,6 +221,11 @@ for it in items:
             warn(f"{where}: unknown section '### {name}' appended to the worded solution")
             extra_worded.append((name, text))
 
+    for name, text in it["sections"]:
+        for line in text.split("\n"):
+            if "\\$" in line:
+                block(f"{where} ({name}): a formula is typed as text with $ signs instead of a Word equation: "
+                      f"“{re.sub(r'[*\\]', '', line).strip()[:110]}”. Retype it with Insert › Equation.")
     for need in ("problem", "hint", "think it through", "worked solution", "answer"):
         if not secs.get(need): r["issues"].append(f"no '{need.capitalize()}' section"); warn(f"{where} ({pid}): no '### {need.capitalize()}' section")
 
@@ -219,6 +233,8 @@ for it in items:
     if secs.get("problem"):
         a, b = norm(tidy(secs["problem"], where)), norm(problem_text(p))
         sim = difflib.SequenceMatcher(None, a, b).ratio()
+        stem_only = re.split(r'\\?\(A\\?\)', secs["problem"])[0]
+        sim = max(sim, difflib.SequenceMatcher(None, norm(tidy(stem_only, where)), norm(p["stem"])).ratio())
         r["problem_similarity"] = round(sim, 3)
         if sim < 0.5:
             block(f"{where}: the Problem text does not match {pid} (similarity {sim:.2f}). Wrong question number? Add an ID tag.")
@@ -270,7 +286,8 @@ for it in items:
     agrees = None
     if ans:
         if "keys" in key:
-            letters = re.findall(r'\(([A-F])\)', ans) or re.findall(r'^\s*([A-F])\b', ans)
+            lead = re.match(r'\s*((?:\([A-F]\)|[A-F]\b)(?:\s*(?:,|and|&)\s*(?:\([A-F]\)|[A-F]\b))*)', ans)
+            letters = re.findall(r'[A-F]', lead.group(1)) if lead else re.findall(r'\(([A-F])\)', ans)
             letters = sorted(set(letters))
             agrees = letters == sorted(key["keys"]) if letters else None
             if agrees is None: r["issues"].append(f"answer '{ans[:40]}' names no option")
