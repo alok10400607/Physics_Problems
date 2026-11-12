@@ -35,11 +35,23 @@
       "qno": 13
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "id": "P000097-sol-1",
+      "role": "solution",
+      "file": "P000/P000097-sol-1.png",
+      "format": "png",
+      "width": 851,
+      "height": 459,
+      "alt": "Velocity–time graph: a straight line from 20 m/s at t = 0 to zero at t = 5 s. The area is divided into one-second strips of 18, 14, 10, 6 and 2 m; the last two are shaded and labelled still to go: 6 + 2 = 8 m.",
+      "origin": "docx",
+      "needs_redraw": false
+    }
+  ],
   "rights": "unverified",
   "content_hash": "552e69aa34cf8bc3",
   "duplicate_of": null,
   "variant_of": null,
   "created": "2026-11-08",
-  "updated": "2026-11-08"
+  "updated": "2026-11-12"
 }

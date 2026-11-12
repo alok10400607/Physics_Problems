@@ -35,11 +35,23 @@
       "qno": 43
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "id": "P000127-sol-1",
+      "role": "solution",
+      "file": "P000/P000127-sol-1.png",
+      "format": "png",
+      "width": 778,
+      "height": 437,
+      "alt": "Velocity–time graph: A's line starts at t = 0 with acceleration a₁; B's parallel-looking line starts at t = 2 s with a₂. The strip from 4 s to 5 s is shaded: equal areas under both.",
+      "origin": "docx",
+      "needs_redraw": false
+    }
+  ],
   "rights": "unverified",
   "content_hash": "c1f88dcfadceb55d",
   "duplicate_of": null,
   "variant_of": null,
   "created": "2026-11-08",
-  "updated": "2026-11-08"
+  "updated": "2026-11-12"
 }

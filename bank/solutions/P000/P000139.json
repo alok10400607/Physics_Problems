@@ -1,21 +1,29 @@
 {
   "id": "P000139",
   "problem_version": 1,
-  "status": "draft",
-  "hints": [],
-  "worded": null,
-  "conventional": "> The speed gained by ball A will be equal to speed lost by B at any instant\n\n>\n\n> If speed of B at the instant of collision is u, then speed of A will be 2u\n\n>\n\n> Speed of projection of B = u + Speed lost (2u) = 3u\n\n>\n\n> Average speed of A: u and average speed of B is 2u hence B will travel 2/3 of the distance",
-  "mistakes": [],
+  "status": "ai_solved",
+  "hints": [
+    "In the same time, A gains exactly the speed that B loses. If B has v left at the collision, what was B’s launch speed?"
+  ],
+  "worded": "1. Both have the same acceleration g. In any time, A gains as much speed as B loses.\n\n2. At the collision A has 2v and B has v. A started at 0, so each has changed by 2v. B therefore started at 3v.\n\n3. Average speeds over the time to meet: A averages v (from 0 to 2v); B averages 2v (from 3v to v). So B covers twice as much as A.\n\n4. They share the 90 m in the ratio 1 : 2: A falls 30 m, B rises 60 m. Collision at 60 m. (B)",
+  "conventional": "![](asset:P000139-sol-1)\n\nLet B’s launch speed be $u$ and the meeting time $t$: $v_{A} = gt$, $v_{B} = u - gt$, and $v_{A} = 2v_{B}$ gives $u = \\frac{3}{2}gt$.\n\nMeeting: $\\frac{1}{2}gt^{2} + \\left( ut - \\frac{1}{2}gt^{2} \\right) = 90\\  \\Rightarrow \\ ut = 90\\  \\Rightarrow \\ \\frac{3}{2}gt^{2} = 90\\  \\Rightarrow \\ t^{2} = 6$.\n\nA’s fall: $\\frac{1}{2}gt^{2} = 30$ m, so the collision is at $90 - 30 = 60$ m.",
+  "mistakes": [
+    "The answer is the height from the ground (60 m), not A’s fall (30 m, option A).",
+    "This assumes B is still rising at the collision (it is: B has 12 m/s left)."
+  ],
   "distractors": {},
   "extension": null,
   "check": {
+    "solved_answer": "(B) 60 m.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
     "issues": []
   },
   "generated_by": {
     "author": "worksheet",
     "model": null,
-    "prompt_version": null,
-    "date": "2026-11-08"
+    "prompt_version": "03MSL_Solutions_v8",
+    "date": "2026-11-12"
   },
   "reviewed_by": null
 }

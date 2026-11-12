@@ -1,23 +1,28 @@
 {
   "id": "P000154",
   "problem_version": 1,
-  "status": "draft",
+  "status": "ai_solved",
   "hints": [
-    "> $v(t) = 2t - 10$; the particle reverses its direction of motion at t = 5 s;\n\n>\n\n> $x(0) = 10,\\ x(5) = - 15\\ and\\ x(10) = 10$;"
+    "Check positions at 0 and 10 s first. Then find where v = 0 inside the interval: the particle turns there."
   ],
-  "worded": null,
-  "conventional": null,
-  "mistakes": [],
+  "worded": "1. x(0) = 10 m and x(10) = 10 m: the particle ends where it began. Average velocity = 0.\n\n2. v = 2t − 10 is zero at 5 s. The particle goes from 10 m back to −15 m (25 m), then returns to 10 m (another 25 m).\n\n3. Distance 50 m in 10 s: average speed 5 m/s.\n\n4. Note that this is uniformly accelerated (x quadratic in t), so the motion is symmetric about the turning time.",
+  "conventional": "![](asset:P000154-sol-1)\n\n$v = \\frac{dx}{dt} = 2t - 10$, zero at $t = 5$ s.\n\n$x(0) = 10$ m, $x(5) = - 15$ m, $x(10) = 10$ m.\n\n(i) $\\bar{v} = \\frac{x(10) - x(0)}{10} = 0$.\n\n(ii) Distance $= | - 15 - 10| + \\left| 10 - ( - 15) \\right| = 50$ m, so average speed $= 50/10 = 5$ m/s.",
+  "mistakes": [
+    "Average speed is not |average velocity| when the particle reverses: split the interval at v = 0."
+  ],
   "distractors": {},
   "extension": null,
   "check": {
+    "solved_answer": "(i) 0; (ii) 5 m/s.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
     "issues": []
   },
   "generated_by": {
     "author": "worksheet",
     "model": null,
-    "prompt_version": null,
-    "date": "2026-11-08"
+    "prompt_version": "03MSL_Solutions_v8",
+    "date": "2026-11-12"
   },
   "reviewed_by": null
 }

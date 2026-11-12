@@ -35,11 +35,23 @@
       "qno": 37
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "id": "P000121-sol-1",
+      "role": "solution",
+      "file": "P000/P000121-sol-1.png",
+      "format": "png",
+      "width": 665,
+      "height": 495,
+      "alt": "Velocity–time graph of two cars over time T. B accelerates at 2a then a; A at a then 2a, switching at T/2. Both reach the same final v; the shaded gap between the lines shows the extra distance covered by B.",
+      "origin": "docx",
+      "needs_redraw": false
+    }
+  ],
   "rights": "unverified",
   "content_hash": "5668b958ef0e180d",
   "duplicate_of": null,
   "variant_of": null,
   "created": "2026-11-08",
-  "updated": "2026-11-08"
+  "updated": "2026-11-12"
 }

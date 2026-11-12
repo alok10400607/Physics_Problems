@@ -1,21 +1,28 @@
 {
   "id": "P000164",
-  "problem_version": 1,
-  "status": "draft",
-  "hints": [],
-  "worded": null,
-  "conventional": "> ![](/tmp/import-bzoi1s3c/media/image16.png){width=\"1.5743055555555556in\" height=\"1.2006944444444445in\"}Use area under the $v - t\\ $graph: respective displacement (unidirectional motion)\n\n>\n\n> (i) Difference in area OHCO and OAC: 112.5 m (scooter ahead)\n\n>\n\n> (ii) After 15 sec, the car starts to close the gap @ 15 m/s\n\n>\n\n> Hence it will catch up after $\\frac{112.5}{15}\\ sec$ (shaded area)\n\n>\n\n> Or after 22.5 sec after the start",
-  "mistakes": [],
+  "problem_version": 2,
+  "status": "ai_solved",
+  "hints": [
+    "Compare areas under the two graphs. After 15 s the car is 15 m/s faster: how long to make up the deficit?"
+  ],
+  "worded": "1. Both start together. In 15 s the scooter covers 30 × 15 = 450 m; the car’s triangle is ½ × 15 × 45 = 337.5 m. The car is 112.5 m behind.\n\n2. After 15 s the car moves at 45 m/s and the scooter at 30 m/s: the car gains 15 m every second.\n\n3. 112.5 ÷ 15 = 7.5 s more, so it catches up at 22.5 s. (A)\n\n4. Check with areas: up to 10 s the scooter pulls ahead by 150 m (pink triangle); from 10 to 15 s the car gains back 37.5 m; so 112.5 m remains at 15 s.",
+  "conventional": "![](asset:P000164-sol-1)\n\n(i) At $t = 15$ s: $s_{car} = \\frac{1}{2}(15)(45) = 337.5$ m, $s_{scooter} = 30(15) = 450$ m. Difference $= 112.5$ m.\n\n(ii) For $t > 15$ s: $337.5 + 45(t - 15) = 30t\\  \\Rightarrow \\ 15t = 337.5\\  \\Rightarrow \\ t = 22.5$ s.",
+  "mistakes": [
+    "Equal velocities at 10 s is when the gap is largest, not when the car catches up."
+  ],
   "distractors": {},
   "extension": null,
   "check": {
+    "solved_answer": "(A) 112.5 m and 22.5 s.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
     "issues": []
   },
   "generated_by": {
     "author": "worksheet",
     "model": null,
-    "prompt_version": null,
-    "date": "2026-11-08"
+    "prompt_version": "03MSL_Solutions_v8",
+    "date": "2026-11-12"
   },
   "reviewed_by": null
 }

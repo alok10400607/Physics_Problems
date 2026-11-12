@@ -1,23 +1,29 @@
 {
   "id": "P000106",
   "problem_version": 1,
-  "status": "draft",
+  "status": "ai_solved",
   "hints": [
-    "> Speed at height of 80 m is 30 m/s as the times of ascent / descent is 3 s"
+    "Between the two instants, the ball goes from 80 m to the top and back. By symmetry, how long does it take to rise from 80 m to the top, and what speed must it have at 80 m?"
   ],
-  "worded": null,
-  "conventional": null,
-  "mistakes": [],
+  "worded": "1. Between $t_{1}$ and $t_{2}$ the ball rises from the 80 m level to the top and falls back to 80 m.\n\n2. Up and down are mirror images, so it spends 3 s rising and 3 s falling.\n\n3. To come to rest in 3 s under g, it must be moving at 30 m/s as it passes 80 m going up.\n\n4. Below 80 m it was faster. Going down from 80 m to the ground (thinking in reverse) a body at 30 m/s gains speed: v² rises by 2 × 10 × 80 = 1600. So u² = 900 + 1600 = 2500 and u = 50 m/s. (B)\n\n5. Check: from the ground at 50 m/s the top is at 125 m; 80 m is 45 m below the top, and a 45 m fall takes 3 s. It fits.\n\n**Another way: total time and product of times.** The two instants are the roots of 80 = ut − 5t². Their product is 80/5 = 16 and their difference is 6, so they are 2 s and 8 s. Their sum, 10 s, is the whole time of flight 2u/g, so u = 50 m/s.",
+  "conventional": "![](asset:P000106-sol-1)\n\nTake up as positive. By symmetry, the time from the 80 m level to the top is $\\frac{1}{2}\\left( t_{2} - t_{1} \\right) = 3$ s, so the speed at 80 m is\n\n$$v = g(3) = 30\\unit{m/s}.$$\n\nFrom the ground to 80 m, using $v^{2} = u^{2} - 2gh$:\n\n$$30^{2} = u^{2} - 2(10)(80)\\  \\Rightarrow \\ u^{2} = 2500\\  \\Rightarrow \\ u = 50\\unit{m/s}.$$",
+  "mistakes": [
+    "The 6 s is the time *above* 80 m (up and back), so the time to the top from there is 3 s, not 6 s.",
+    "30 m/s is the speed at 80 m (option D), not the speed of projection."
+  ],
   "distractors": {},
   "extension": null,
   "check": {
+    "solved_answer": "(B) 50 m/s.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
     "issues": []
   },
   "generated_by": {
     "author": "worksheet",
     "model": null,
-    "prompt_version": null,
-    "date": "2026-11-08"
+    "prompt_version": "03MSL_Solutions_v8",
+    "date": "2026-11-12"
   },
   "reviewed_by": null
 }

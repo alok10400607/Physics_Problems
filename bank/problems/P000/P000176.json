@@ -46,11 +46,23 @@
       "year": 2020
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "id": "P000176-sol-1",
+      "role": "solution",
+      "file": "P000/P000176-sol-1.png",
+      "format": "png",
+      "width": 875,
+      "height": 258,
+      "alt": "Two parallel tracks: train A moves right at 10 m/s on track A, with a person walking left at 0.5 m/s relative to A; train B moves left at 20 m/s on track B.",
+      "origin": "docx",
+      "needs_redraw": false
+    }
+  ],
   "rights": "past-paper",
   "content_hash": "142f2ad589e7007c",
   "duplicate_of": null,
   "variant_of": null,
   "created": "2026-11-08",
-  "updated": "2026-11-08"
+  "updated": "2026-11-12"
 }

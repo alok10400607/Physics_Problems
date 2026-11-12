@@ -1,8 +1,8 @@
 {
   "id": "P000174",
   "status": "imported",
-  "version": 1,
-  "type": "subjective",
+  "version": 2,
+  "type": "mcq_single",
   "topic_code": "0335",
   "concepts": [],
   "exams": [
@@ -18,9 +18,11 @@
   },
   "time_estimate_s": null,
   "passage_id": null,
-  "stem": "A tennis ball is released from a height ‘h’ and it rebounds to a height ‘h/2’ after hitting the floor. Which of the following graphs best represent the velocity-height of the ball?\n![](asset:P000174-stem-1)",
+  "stem": "A tennis ball is released from a height ‘h’ and it rebounds to a height ‘h/2’ after hitting the floor. Which of the following graphs best represent the velocity-height of the ball?",
   "answer": {
-    "text": "D"
+    "keys": [
+      "D"
+    ]
   },
   "sources": [
     {
@@ -40,21 +42,75 @@
   ],
   "assets": [
     {
-      "id": "P000174-stem-1",
-      "role": "stem",
-      "file": "P000/P000174-stem-1.png",
+      "id": "P000174-opt-A",
+      "role": "option",
+      "file": "P000/P000174-opt-A.png",
       "format": "png",
-      "width": 1201,
-      "height": 220,
-      "alt": "Four graphs of velocity v against height h, labelled A to D, with h/2 and h marked on the height axis; arrows show the direction of travel along each curve.",
+      "width": 813,
+      "height": 570,
+      "alt": "Velocity v against height h: from height h at zero velocity, a large loop below the axis reaches the origin with negative velocity; then a small loop above the axis goes up to height h/2 and back, drawn as circular arcs.",
+      "origin": "docx",
+      "needs_redraw": false,
+      "option_key": "A"
+    },
+    {
+      "id": "P000174-opt-B",
+      "role": "option",
+      "file": "P000/P000174-opt-B.png",
+      "format": "png",
+      "width": 816,
+      "height": 594,
+      "alt": "Velocity v against height h: from height h, a curve below the axis bends steeply down to a large negative velocity near the origin; after the bounce, a short curve above the axis falls from a small positive velocity to zero at h/2, both concave towards the axes.",
+      "origin": "docx",
+      "needs_redraw": false,
+      "option_key": "B"
+    },
+    {
+      "id": "P000174-opt-C",
+      "role": "option",
+      "file": "P000/P000174-opt-C.png",
+      "format": "png",
+      "width": 816,
+      "height": 591,
+      "alt": "Velocity v against height h: a straight line below the axis from zero at height h to a large negative velocity at the origin; after the bounce, a straight line above the axis from a positive velocity at the origin down to zero at h/2.",
+      "origin": "docx",
+      "needs_redraw": false,
+      "option_key": "C"
+    },
+    {
+      "id": "P000174-opt-D",
+      "role": "option",
+      "file": "P000/P000174-opt-D.png",
+      "format": "png",
+      "width": 813,
+      "height": 594,
+      "alt": "Velocity v against height h: a parabolic curve below the axis from zero at height h to a large negative velocity at the origin; after the bounce, a smaller parabolic curve above the axis from a positive velocity at the origin to zero at h/2.",
+      "origin": "docx",
+      "needs_redraw": false,
+      "option_key": "D"
+    },
+    {
+      "id": "P000174-sol-1",
+      "role": "solution",
+      "file": "P000/P000174-sol-1.png",
+      "format": "png",
+      "width": 670,
+      "height": 507,
+      "alt": "Graph of velocity against height y. Falling from h, v is negative and grows to its largest size at the ground. After the bounce, v is positive and falls to zero at h/2. The curves have vertical tangents where v = 0, at h and h/2.",
       "origin": "docx",
       "needs_redraw": false
     }
   ],
   "rights": "past-paper",
-  "content_hash": "5cc6fbacf779746a",
+  "content_hash": "dbb791d12e5ac221",
   "duplicate_of": null,
   "variant_of": null,
   "created": "2026-11-08",
-  "updated": "2026-11-08"
+  "updated": "2026-11-12",
+  "options": {
+    "A": "![](asset:P000174-opt-A)",
+    "B": "![](asset:P000174-opt-B)",
+    "C": "![](asset:P000174-opt-C)",
+    "D": "![](asset:P000174-opt-D)"
+  }
 }

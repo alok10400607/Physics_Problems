@@ -1,0 +1,28 @@
+{
+  "id": "P000140",
+  "problem_version": 1,
+  "status": "ai_solved",
+  "hints": [
+    "When the second stone starts, the first is 20 m above it and 10 m/s faster. With equal accelerations, how long does it take to close that gap?"
+  ],
+  "worded": "1. After falling 5 m, the first stone moves at 10 m/s. The second starts from rest 20 m lower.\n\n2. Both accelerate equally, so the first stays 10 m/s faster and closes the 20 m gap in 2 s. They reach the bottom together, so that is the moment of meeting.\n\n3. In 2 s from rest the second stone falls 20 m. So the bottom is 25 + 20 = 45 m below the top. (D)",
+  "conventional": "![](asset:P000140-sol-1)\n\nSpeed of stone 1 after 5 m: $v = \\sqrt{2(10)(5)} = 10$ m/s. Let both take time $t$ more to reach the bottom:\n\n$$5 + 10t + 5t^{2} = 25 + 5t^{2}\\  \\Rightarrow \\ t = 2\\unit{s}.$$\n\n$$H = 25 + \\frac{1}{2}(10)(2)^{2} = 45\\unit{m}.$$",
+  "mistakes": [
+    "The second stone starts from rest; only the first stone has 10 m/s at that instant."
+  ],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "solved_answer": "(D) 45 m.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": "03MSL_Solutions_v8",
+    "date": "2026-11-12"
+  },
+  "reviewed_by": null
+}

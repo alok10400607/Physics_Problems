@@ -1,0 +1,29 @@
+{
+  "id": "P000180",
+  "problem_version": 1,
+  "status": "ai_solved",
+  "hints": [
+    "Find each velocity at t = 1 s. They are at right angles, so the relative speed comes from Pythagoras."
+  ],
+  "worded": "1. Particle 1: v₁ = 8 − 6t, which is 2 m/s along x at t = 1 s.\n\n2. Particle 2: v₂ = −24t², which is 24 m/s along −y at t = 1 s.\n\n3. The relative velocity v₂ − v₁ has components −2 (x) and −24 (y). Its square is 4 + 576 = 580, so v = 580.",
+  "conventional": "![](asset:P000180-sol-1)\n\n$$\\vec{v}_{1} = (8 - 6t)\\ihat  = 2\\ihat ,\\quad\\quad\\vec{v}_{2} = - 24t^{2}\\jhat  = - 24\\jhat \\quad(t = 1\\unit{s}).$$\n\n$$\\vec{v}_{21} = \\vec{v}_{2} - \\vec{v}_{1} = - 2\\ihat  - 24\\jhat ,\\quad\\quad\\left| \\vec{v}_{21} \\right| = \\sqrt{4 + 576} = \\sqrt{580}.$$",
+  "mistakes": [
+    "Use velocities at t = 1 s, not positions.",
+    "The velocities are perpendicular: combine with Pythagoras, not by adding or subtracting magnitudes."
+  ],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "solved_answer": "v = 580.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": "03MSL_Solutions_v8",
+    "date": "2026-11-12"
+  },
+  "reviewed_by": null
+}

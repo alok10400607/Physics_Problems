@@ -1,23 +1,30 @@
 {
   "id": "P000167",
-  "problem_version": 1,
-  "status": "draft",
+  "problem_version": 2,
+  "status": "ai_solved",
   "hints": [
-    "> A-M: uniform deceleration and M-B: uniform acceleration"
+    "Acceleration is the slope of the v–t graph. What are the slopes of AM and MB?"
   ],
-  "worded": null,
-  "conventional": null,
-  "mistakes": [],
+  "worded": "1. AM is a straight line going down: constant negative slope, so a constant negative acceleration.\n\n2. MB is a straight line going up: constant positive acceleration.\n\n3. So a is a negative constant, then jumps to a positive constant at M, and stays there. (B)\n\n4. (A) keeps switching sign, (C) is smooth, and (D) is never negative: all out.",
+  "conventional": "![](asset:P000167-sol-1)\n\n$$a_{AM} = slope\\ of\\ AM < 0\\ (constant),\\quad\\quad a_{MB} = slope\\ of\\ MB > 0\\ (constant).$$\n\nThe a–t graph is a step from a negative value to a positive value at the instant of M: graph (B).",
+  "mistakes": [
+    "The sign of a follows the slope of v, not the sign of v: velocity is negative near M but the acceleration there is positive on the MB side."
+  ],
   "distractors": {},
   "extension": null,
   "check": {
-    "issues": []
+    "solved_answer": "(B).",
+    "resolve_answer": null,
+    "agrees_with_key": true,
+    "issues": [
+      "problem text differs from the bank (similarity 0.90)"
+    ]
   },
   "generated_by": {
     "author": "worksheet",
     "model": null,
-    "prompt_version": null,
-    "date": "2026-11-08"
+    "prompt_version": "03MSL_Solutions_v8",
+    "date": "2026-11-12"
   },
   "reviewed_by": null
 }

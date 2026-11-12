@@ -29,11 +29,23 @@
       "qno": 47
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "id": "P000131-sol-1",
+      "role": "solution",
+      "file": "P000/P000131-sol-1.png",
+      "format": "png",
+      "width": 840,
+      "height": 409,
+      "alt": "Height–time graph in m and s: four identical arches of height 5 m, each lasting 2 s, starting at t = 0, 0.5, 1 and 1.5 s.",
+      "origin": "docx",
+      "needs_redraw": false
+    }
+  ],
   "rights": "unverified",
   "content_hash": "23412a1055bf73c3",
   "duplicate_of": null,
   "variant_of": null,
   "created": "2026-11-08",
-  "updated": "2026-11-08"
+  "updated": "2026-11-12"
 }

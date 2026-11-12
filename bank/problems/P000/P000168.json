@@ -1,7 +1,7 @@
 {
   "id": "P000168",
   "status": "imported",
-  "version": 1,
+  "version": 2,
   "type": "mcq_single",
   "topic_code": "0335",
   "concepts": [],
@@ -16,12 +16,12 @@
   },
   "time_estimate_s": null,
   "passage_id": null,
-  "stem": "All the graphs below are intended to represent the same motion. One of them does it incorrectly. Pick it up:\n![](asset:P000168-stem-1)",
+  "stem": "All the graphs below are intended to represent the same motion. One of them does it incorrectly. Pick it up:",
   "options": {
-    "A": "Graph (A) in the figure",
-    "B": "Graph (B) in the figure",
-    "C": "Graph (C) in the figure",
-    "D": "Graph (D) in the figure"
+    "A": "![](asset:P000168-opt-A)",
+    "B": "![](asset:P000168-opt-B)",
+    "C": "![](asset:P000168-opt-C)",
+    "D": "![](asset:P000168-opt-D)"
   },
   "answer": {
     "keys": [
@@ -37,21 +37,69 @@
   ],
   "assets": [
     {
-      "id": "P000168-stem-1",
-      "role": "stem",
-      "file": "P000/P000168-stem-1.png",
+      "id": "P000168-opt-A",
+      "role": "option",
+      "file": "P000/P000168-opt-A.png",
       "format": "png",
       "width": 666,
       "height": 457,
-      "alt": "Velocity against time: a straight line starting at a positive value and falling steadily, crossing the time axis and continuing below it.",
+      "alt": "Velocity against time: a straight line starting at a positive value and falling steadily, crossing zero and becoming negative.",
+      "origin": "docx",
+      "needs_redraw": false,
+      "option_key": "A"
+    },
+    {
+      "id": "P000168-opt-B",
+      "role": "option",
+      "file": "P000/P000168-opt-B.png",
+      "format": "png",
+      "width": 775,
+      "height": 471,
+      "alt": "Velocity against position: a sideways parabola opening to the left, positive velocity in the upper half and negative in the lower half, meeting the position axis at its farthest point.",
+      "origin": "docx",
+      "needs_redraw": false,
+      "option_key": "B"
+    },
+    {
+      "id": "P000168-opt-C",
+      "role": "option",
+      "file": "P000/P000168-opt-C.png",
+      "format": "png",
+      "width": 643,
+      "height": 525,
+      "alt": "Distance against time: an S-shaped curve starting flat at zero, rising steeply in the middle and levelling off.",
+      "origin": "docx",
+      "needs_redraw": false,
+      "option_key": "C"
+    },
+    {
+      "id": "P000168-opt-D",
+      "role": "option",
+      "file": "P000/P000168-opt-D.png",
+      "format": "png",
+      "width": 644,
+      "height": 473,
+      "alt": "Position against time: an arch starting at zero, rising to a maximum and returning to zero.",
+      "origin": "docx",
+      "needs_redraw": false,
+      "option_key": "D"
+    },
+    {
+      "id": "P000168-sol-1",
+      "role": "solution",
+      "file": "P000/P000168-sol-1.png",
+      "format": "png",
+      "width": 990,
+      "height": 458,
+      "alt": "Two distance–time graphs side by side. Left (correct for a vertical throw): steep at first, flat at the top, steep again. Right, labelled option (C): flat at the start and at the end.",
       "origin": "docx",
       "needs_redraw": false
     }
   ],
   "rights": "unverified",
-  "content_hash": "83ee338921278f89",
+  "content_hash": "1f33b0b0fdbbc137",
   "duplicate_of": null,
   "variant_of": null,
   "created": "2026-11-08",
-  "updated": "2026-11-08"
+  "updated": "2026-11-12"
 }

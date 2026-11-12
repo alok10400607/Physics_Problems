@@ -35,11 +35,23 @@
       "qno": 72
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "id": "P000156-sol-1",
+      "role": "solution",
+      "file": "P000/P000156-sol-1.png",
+      "format": "png",
+      "width": 606,
+      "height": 435,
+      "alt": "Graph of v² against x: a straight line v² = α²x through the origin, reaching α²S at x = S. A note says the straight line means uniform acceleration a = α²/2.",
+      "origin": "docx",
+      "needs_redraw": false
+    }
+  ],
   "rights": "unverified",
   "content_hash": "f55ff0e372e5f963",
   "duplicate_of": null,
   "variant_of": null,
   "created": "2026-11-08",
-  "updated": "2026-11-08"
+  "updated": "2026-11-12"
 }

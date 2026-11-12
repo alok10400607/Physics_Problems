@@ -35,11 +35,23 @@
       "qno": 55
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "id": "P000139-sol-1",
+      "role": "solution",
+      "file": "P000/P000139-sol-1.png",
+      "format": "png",
+      "width": 532,
+      "height": 464,
+      "alt": "A tower 90 m tall. Ball A, thrown down at 2v from the top, and ball B, thrown up at v from the ground, meet 30 m below the top and 60 m above the ground.",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
   "rights": "unverified",
   "content_hash": "1f88f1e4af611378",
   "duplicate_of": null,
   "variant_of": null,
   "created": "2026-11-08",
-  "updated": "2026-11-08"
+  "updated": "2026-11-12"
 }

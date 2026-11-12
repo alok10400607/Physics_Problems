@@ -46,11 +46,23 @@
       "year": 2019
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "id": "P000129-sol-1",
+      "role": "solution",
+      "file": "P000/P000129-sol-1.png",
+      "format": "png",
+      "width": 746,
+      "height": 530,
+      "alt": "Velocity–time graph: A's steeper line reaches v_A at t_A, B's gentler line reaches v_B at t_B, a time t later. The triangles under both lines have equal areas (the same distance d); v marks the difference v_A − v_B.",
+      "origin": "docx",
+      "needs_redraw": false
+    }
+  ],
   "rights": "past-paper",
   "content_hash": "bcc75433ce1100c4",
   "duplicate_of": null,
   "variant_of": null,
   "created": "2026-11-08",
-  "updated": "2026-11-08"
+  "updated": "2026-11-12"
 }

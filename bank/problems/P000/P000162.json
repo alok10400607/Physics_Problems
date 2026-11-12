@@ -46,6 +46,17 @@
       "alt": "Velocity in cm/s against time in s: rises steadily from 0 to 20 cm/s at 20 s, stays at 20 cm/s until 30 s, rises to 80 cm/s at 40 s, then falls steadily to 0 at 80 s.",
       "origin": "docx",
       "needs_redraw": true
+    },
+    {
+      "id": "P000162-sol-1",
+      "role": "solution",
+      "file": "P000/P000162-sol-1.png",
+      "format": "png",
+      "width": 754,
+      "height": 407,
+      "alt": "Velocity–time graph in cm/s and s: rising to 20 at 20 s (slope 1), flat to 30 s (slope 0), rising steeply to 80 at 40 s (slope 6), then falling to zero at 80 s (slope −2). Slopes are in cm/s².",
+      "origin": "docx",
+      "needs_redraw": false
     }
   ],
   "rights": "unverified",
@@ -53,5 +64,5 @@
   "duplicate_of": null,
   "variant_of": null,
   "created": "2026-11-08",
-  "updated": "2026-11-08"
+  "updated": "2026-11-12"
 }

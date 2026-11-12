@@ -1,0 +1,28 @@
+{
+  "id": "P000143",
+  "problem_version": 1,
+  "status": "ai_solved",
+  "hints": [
+    "The acceleration changes with time, so v = u + at does not apply. The change in velocity is the area under the a–t graph."
+  ],
+  "worded": "1. Acceleration grows with time, so the “v = u + at” shortcut is out: it assumes constant a.\n\n2. Change in velocity = area under the a–t graph. Here the graph is a straight line from 0 to αt: a triangle of area ½ × t × αt = ½αt².\n\n3. So v = u + ½αt². (B)\n\n4. Option (A) is what you get by wrongly putting a = αt into v = u + at.",
+  "conventional": "![](asset:P000143-sol-1)\n\n$$\\frac{dv}{dt} = \\alpha t\\  \\Rightarrow \\ \\int_{u}^{v}dv = \\int_{0}^{t}\\alpha t\\, dt\\  \\Rightarrow \\ v = u + \\frac{1}{2}\\alpha t^{2}.$$",
+  "mistakes": [
+    "Putting a = αt into v = u + at gives option (A): wrong, because a is not constant."
+  ],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "solved_answer": "(B) $v = u + \\frac{1}{2}\\alpha t^{2}$.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": "03MSL_Solutions_v8",
+    "date": "2026-11-12"
+  },
+  "reviewed_by": null
+}

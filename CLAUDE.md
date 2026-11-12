@@ -14,7 +14,7 @@ A bank of JEE/NEET physics problems with three-level solutions, and the website 
 
 ## Skills
 
-- `bank-import`: import a DOCX worksheet or CSV question list (also runs unattended from `inbox/`).
+- `bank-import`: import a DOCX worksheet, a new version of one, its solutions file, or a CSV question list (also runs unattended from `inbox/`).
 - `solution-writer`: write hints, worded and full solutions for a subtopic.
 - `solution-review`: a conversational review session that saves approved work.
 
@@ -55,6 +55,8 @@ To apply one:
 | Command | Does |
 |---|---|
 | `python3 -I tools/import_docx.py <docx> <map> --check/--write` | Worksheet import |
+| `python3 -I tools/import_docx.py <docx> <map> --update --check/--write` | New version of a worksheet already in the bank (keeps IDs) |
+| `python3 -I tools/import_solutions.py <docx> --check/--write [--only 0305]` | Solutions file (`<collection>_Solutions_v<n>.docx`) |
 | `python3 -I tools/make_map.py <docx>` | Draft a worksheet's topic map |
 | `python3 -I tools/import_csv.py <csv> --collection <ID> --title "<t>" [--codes <json>] --check/--write` | CSV import |
 | `python3 -I tools/set_alt.py <json>` | Set figure alt text |

@@ -1,0 +1,28 @@
+{
+  "id": "P000155",
+  "problem_version": 1,
+  "status": "ai_solved",
+  "hints": [
+    "Where does the particle turn round? Compare the positions at 0 s, at the turn, and at 6 s."
+  ],
+  "worded": "1. v = 4 − (4/3)t is zero at t = 3 s, inside the interval, so the particle turns round.\n\n2. Positions: 2 m at 0 s, 8 m at 3 s, 2 m at 6 s.\n\n3. It goes up 6 m and comes back 6 m: distance 12 m, although the displacement is zero. (D)\n\n4. Option (A) is the displacement, the trap.",
+  "conventional": "![](asset:P000155-sol-1)\n\n$v = \\frac{dy}{dt} = 4 - \\frac{4}{3}t = 0$ at $t = 3$ s.\n\n$y(0) = 2$ m, $y(3) = - 6 + 12 + 2 = 8$ m, $y(6) = - 24 + 24 + 2 = 2$ m.\n\n$$d = |8 - 2| + |2 - 8| = 12\\unit{m}.$$",
+  "mistakes": [
+    "y(6) − y(0) = 0 is the displacement (option A), not the distance."
+  ],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "solved_answer": "(D) 12 m.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": "03MSL_Solutions_v8",
+    "date": "2026-11-12"
+  },
+  "reviewed_by": null
+}

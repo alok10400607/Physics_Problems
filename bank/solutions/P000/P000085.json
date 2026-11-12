@@ -1,23 +1,31 @@
 {
   "id": "P000085",
-  "problem_version": 1,
-  "status": "draft",
+  "problem_version": 2,
+  "status": "ai_solved",
   "hints": [
-    "> Distance travelled is equal to length of the arc and displacement is along the chord"
+    "Distance is the length of the path the tip actually traces, which is the arc it sweeps in 15 s. For displacement, ask only where the tip starts and where it ends."
   ],
-  "worded": null,
-  "conventional": null,
-  "mistakes": [],
+  "worded": "1. The tip moves on a circle of radius 2 cm about the centre of the clock. So “distance” means the length of arc it sweeps, and “displacement” means the straight arrow from where it starts to where it ends.\n\n2. A full turn takes 60 s, so 15 s is a quarter turn: say from the 12 to the 3.\n\n3. The full circle is 2π × 2 = 4π cm, so the quarter arc is π cm, about 3.14 cm.\n\n4. For the displacement, the start and the end are each 2 cm from the centre, and the two radii are at right angles. The arrow joining them is the hypotenuse of a right isosceles triangle with legs of 2 cm, so it is 2√2 ≈ 2.83 cm, pointing from the 12 mark to the 3 mark.\n\n5. Check: 2.83 cm is less than 3.14 cm, as it must be for a curved path.\n\n**Another way: the chord rule.** On a circle, the chord joining two points that subtend angle θ at the centre is 2R sin(θ/2). Here that is 2 × 2 × sin 45° = 2√2 cm. The same rule gives any fraction of a turn at once: after 20 s (120°) the displacement is 2√3 cm, and after 30 s (180°) it is the diameter, 4 cm.",
+  "conventional": "![](asset:P000085-sol-1)\n\nTake the centre $O$ as origin, with $x$ to the right and $y$ up. In 15 s the hand turns through\n\n$$\\theta = \\frac{15}{60} \\times 360^{\\circ} = 90^{\\circ} = \\frac{\\pi}{2}\\unit{rad}.$$\n\nDistance travelled = arc AB:\n\n$$s = R\\theta = 2 \\times \\frac{\\pi}{2} = \\pi\\unit{cm} \\approx 3.14\\unit{cm}.$$\n\nPosition vectors: $\\vec{r}_{A} = 2\\jhat $ cm and $\\vec{r}_{B} = 2\\ihat $ cm. So\n\n$$\\Delta\\vec{r} = \\vec{r}_{B} - \\vec{r}_{A} = \\left( 2\\ihat  - 2\\jhat  \\right)\\unit{cm},\\quad\\quad\\left| \\Delta\\vec{r} \\right| = \\sqrt{2^{2} + 2^{2}} = 2\\sqrt{2}\\unit{cm} \\approx 2.83\\unit{cm},$$\n\ndirected at 45° below the horizontal, from the 12 mark towards the 3 mark.",
+  "mistakes": [
+    "Displacement is the chord (2√2 cm), not the arc (π cm). It is a vector: say which way it points.",
+    "15 s is a quarter turn for the *second* hand; for a minute hand it would be a tiny fraction of a turn."
+  ],
   "distractors": {},
   "extension": null,
   "check": {
-    "issues": []
+    "solved_answer": "Distance = π cm ≈ 3.14 cm; displacement = 2√2 cm ≈ 2.83 cm.",
+    "resolve_answer": null,
+    "agrees_with_key": null,
+    "issues": [
+      "answer to be compared with the key by the reviewer"
+    ]
   },
   "generated_by": {
     "author": "worksheet",
     "model": null,
-    "prompt_version": null,
-    "date": "2026-11-08"
+    "prompt_version": "03MSL_Solutions_v8",
+    "date": "2026-11-12"
   },
   "reviewed_by": null
 }

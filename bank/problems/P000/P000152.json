@@ -35,11 +35,23 @@
       "qno": 68
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "id": "P000152-sol-1",
+      "role": "solution",
+      "file": "P000/P000152-sol-1.png",
+      "format": "png",
+      "width": 640,
+      "height": 517,
+      "alt": "Graph of v and a against t in s: velocity v = t² − t (solid parabola, negative between 0 and 1) and acceleration a = 2t − 1 (dashed line, crossing zero at ½). The band from ½ to 1 is shaded: v < 0, a > 0.",
+      "origin": "docx",
+      "needs_redraw": false
+    }
+  ],
   "rights": "unverified",
   "content_hash": "b9e8e09c056a94a8",
   "duplicate_of": null,
   "variant_of": null,
   "created": "2026-11-08",
-  "updated": "2026-11-08"
+  "updated": "2026-11-12"
 }

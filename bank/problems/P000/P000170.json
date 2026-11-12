@@ -38,6 +38,17 @@
       "alt": "Velocity v in m/s against position x in m: a straight line falling from 10 m/s at x = 0 to 0 at x = 40 m.",
       "origin": "docx",
       "needs_redraw": true
+    },
+    {
+      "id": "P000170-sol-1",
+      "role": "solution",
+      "file": "P000/P000170-sol-1.png",
+      "format": "png",
+      "width": 1020,
+      "height": 457,
+      "alt": "Two graphs side by side. Left: velocity in m/s against x in m, a straight line from 10 at x = 0 to zero at 40 m. Right: acceleration in m/s² against x, a straight line rising from −2.5 to zero at 40 m.",
+      "origin": "docx",
+      "needs_redraw": false
     }
   ],
   "rights": "unverified",
@@ -45,5 +56,5 @@
   "duplicate_of": null,
   "variant_of": null,
   "created": "2026-11-08",
-  "updated": "2026-11-08"
+  "updated": "2026-11-12"
 }

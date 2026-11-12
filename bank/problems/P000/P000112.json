@@ -27,11 +27,23 @@
       "qno": 28
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "id": "P000112-sol-1",
+      "role": "solution",
+      "file": "P000/P000112-sol-1.png",
+      "format": "png",
+      "width": 541,
+      "height": 544,
+      "alt": "Three balls from the top of a tower of height H: one thrown up at u (time t₁), one thrown down at u (time t₂) and one dropped (time t₃, dashed).",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
   "rights": "unverified",
   "content_hash": "13852b6d66055042",
   "duplicate_of": null,
   "variant_of": null,
   "created": "2026-11-08",
-  "updated": "2026-11-08"
+  "updated": "2026-11-12"
 }

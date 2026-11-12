@@ -1,8 +1,8 @@
 {
   "id": "P000167",
   "status": "imported",
-  "version": 1,
-  "type": "subjective",
+  "version": 2,
+  "type": "mcq_single",
   "topic_code": "0335",
   "concepts": [],
   "exams": [
@@ -18,9 +18,11 @@
   },
   "time_estimate_s": null,
   "passage_id": null,
-  "stem": "![](asset:P000167-stem-1) If the velocity–time graph has the shape AMB, what would be the shape of the corresponding acceleration–time graph?\n![](asset:P000167-stem-2)",
+  "stem": "![](asset:P000167-stem-1) If the velocity–time graph has the shape AMB, what would be the shape of the corresponding acceleration–time graph?",
   "answer": {
-    "text": "B"
+    "keys": [
+      "B"
+    ]
   },
   "sources": [
     {
@@ -51,21 +53,75 @@
       "needs_redraw": true
     },
     {
-      "id": "P000167-stem-2",
-      "role": "stem",
-      "file": "P000/P000167-stem-2.png",
+      "id": "P000167-opt-A",
+      "role": "option",
+      "file": "P000/P000167-opt-A.png",
       "format": "png",
-      "width": 897,
-      "height": 93,
-      "alt": "Four acceleration–time graphs labelled A to D: A a square wave alternating above and below the axis; B a step that is negative, then positive; C a wave-shaped curve; D a triangle above the axis.",
+      "width": 468,
+      "height": 273,
+      "alt": "Acceleration a against time t: a square wave, negative constant, then positive constant, then negative, then positive, alternating in equal steps.",
       "origin": "docx",
-      "needs_redraw": false
+      "needs_redraw": true,
+      "option_key": "A"
+    },
+    {
+      "id": "P000167-opt-B",
+      "role": "option",
+      "file": "P000/P000167-opt-B.png",
+      "format": "png",
+      "width": 447,
+      "height": 273,
+      "alt": "Acceleration a against time t: a negative constant for the first half, then a positive constant of the same size for the second half.",
+      "origin": "docx",
+      "needs_redraw": true,
+      "option_key": "B"
+    },
+    {
+      "id": "P000167-opt-C",
+      "role": "option",
+      "file": "P000/P000167-opt-C.png",
+      "format": "png",
+      "width": 450,
+      "height": 261,
+      "alt": "Acceleration a against time t: a smooth curve that dips negative in the first half and rises to a positive hump in the second half.",
+      "origin": "docx",
+      "needs_redraw": true,
+      "option_key": "C"
+    },
+    {
+      "id": "P000167-opt-D",
+      "role": "option",
+      "file": "P000/P000167-opt-D.png",
+      "format": "png",
+      "width": 453,
+      "height": 255,
+      "alt": "Acceleration a against time t: a straight line rising from zero to a peak at the middle, then falling straight back to zero (a triangle above the axis).",
+      "origin": "docx",
+      "needs_redraw": true,
+      "option_key": "D"
+    },
+    {
+      "id": "P000167-sol-1",
+      "role": "solution",
+      "file": "P000/P000167-sol-1.png",
+      "format": "png",
+      "width": 528,
+      "height": 551,
+      "alt": "Two graphs one above the other: a velocity–time V shape from A down to M and up to B, and below it the acceleration, a negative constant before M and a positive constant after.",
+      "origin": "docx",
+      "needs_redraw": true
     }
   ],
   "rights": "past-paper",
-  "content_hash": "a5c97f65df2640b4",
+  "content_hash": "8a7bf778a019ea01",
   "duplicate_of": null,
   "variant_of": null,
   "created": "2026-11-08",
-  "updated": "2026-11-08"
+  "updated": "2026-11-12",
+  "options": {
+    "A": "![](asset:P000167-opt-A)",
+    "B": "![](asset:P000167-opt-B)",
+    "C": "![](asset:P000167-opt-C)",
+    "D": "![](asset:P000167-opt-D)"
+  }
 }

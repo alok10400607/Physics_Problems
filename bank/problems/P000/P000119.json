@@ -27,11 +27,23 @@
       "qno": 35
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "id": "P000119-sol-1",
+      "role": "solution",
+      "file": "P000/P000119-sol-1.png",
+      "format": "png",
+      "width": 724,
+      "height": 493,
+      "alt": "Velocity–time graph: rising with slope α to v_max at t₁, then falling with slope −β to zero at T. Below the axis, t₁ = v_max/α and t₂ = v_max/β.",
+      "origin": "docx",
+      "needs_redraw": false
+    }
+  ],
   "rights": "unverified",
   "content_hash": "a2538a4ecb037ff8",
   "duplicate_of": null,
   "variant_of": null,
   "created": "2026-11-08",
-  "updated": "2026-11-08"
+  "updated": "2026-11-12"
 }

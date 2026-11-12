@@ -46,6 +46,17 @@
       "alt": "Acceleration a in m/s² against time t in s: rises in a straight line from 0 to 4 m/s² at 2 s, then falls back to 0 at 4 s.",
       "origin": "docx",
       "needs_redraw": true
+    },
+    {
+      "id": "P000172-sol-1",
+      "role": "solution",
+      "file": "P000/P000172-sol-1.png",
+      "format": "png",
+      "width": 622,
+      "height": 393,
+      "alt": "Acceleration–time graph in m/s² and s: a triangle rising to 4 at t = 2 s and back to zero at t = 4 s. Its area is Δv = 8.",
+      "origin": "docx",
+      "needs_redraw": false
     }
   ],
   "rights": "unverified",
@@ -53,5 +64,5 @@
   "duplicate_of": null,
   "variant_of": null,
   "created": "2026-11-08",
-  "updated": "2026-11-08"
+  "updated": "2026-11-12"
 }

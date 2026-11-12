@@ -1,0 +1,29 @@
+{
+  "id": "P000114",
+  "problem_version": 1,
+  "status": "ai_solved",
+  "hints": [
+    "Speeds at two heights and no times: work with v². How much does v² change between the two points, 9 m apart?"
+  ],
+  "worded": "1. Speeds at two heights, no time involved: think in v², which changes by 2g = 20 per metre of height.\n\n2. The two points are 9 m apart, so v² at the lower point exceeds v² at the upper point by 180.\n\n3. The lower speed is twice the upper, so its v² is four times as large. “Four times, and 180 more” means the upper v² is 60 and the lower is 240.\n\n4. At the upper point (4.5 m above the tower) v² = 60, so the ball rises a further 60/20 = 3 m. The top of its flight is 4.5 + 3 = 7.5 m above the tower.\n\n5. Above the ground: 40 + 7.5 = 47.5 m. (B)",
+  "conventional": "![](asset:P000114-sol-1)\n\nLet $u$ be the speed of projection at the top of the tower. Using $v^{2} = u^{2} - 2gy$:\n\nAt $y = + 4.5$ m: $v_{1}^{2} = u^{2} - 90$. At $y = - 4.5$ m: $v_{2}^{2} = u^{2} + 90$.\n\nGiven $v_{2} = 2v_{1}$:\n\n$$u^{2} + 90 = 4\\left( u^{2} - 90 \\right)\\  \\Rightarrow \\ u^{2} = 150.$$\n\nMaximum height above the tower:\n\n$$H\\prime = \\frac{u^{2}}{2g} = \\frac{150}{20} = 7.5\\unit{m}.$$\n\nAbove the ground: $40 + 7.5 = 47.5$ m.",
+  "mistakes": [
+    "The question asks for height above the *ground*: add the 40 m tower (7.5 m alone is the height above the top).",
+    "Double the speed means four times v², not double."
+  ],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "solved_answer": "(B) 47.5 m.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": "03MSL_Solutions_v8",
+    "date": "2026-11-12"
+  },
+  "reviewed_by": null
+}

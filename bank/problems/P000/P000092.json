@@ -27,11 +27,23 @@
       "qno": 8
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "id": "P000092-sol-1",
+      "role": "solution",
+      "file": "P000/P000092-sol-1.png",
+      "format": "png",
+      "width": 679,
+      "height": 601,
+      "alt": "A circle of radius R starting at the top. The first quarter (blue) is covered at v, the next third (green) at 2v, and the remaining five-twelfths (red) at 3v, back to the start.",
+      "origin": "docx",
+      "needs_redraw": false
+    }
+  ],
   "rights": "unverified",
   "content_hash": "a0b9ffad6e17e68e",
   "duplicate_of": null,
   "variant_of": null,
   "created": "2026-11-08",
-  "updated": "2026-11-08"
+  "updated": "2026-11-12"
 }

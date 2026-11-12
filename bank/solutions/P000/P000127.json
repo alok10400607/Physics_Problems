@@ -1,23 +1,28 @@
 {
   "id": "P000127",
   "problem_version": 1,
-  "status": "draft",
+  "status": "ai_solved",
   "hints": [
-    "> Velocity of A at 4.5 s after its motion started = Velocity of B at 2.5 s after its motion has started"
+    "Displacement in a one-second interval equals the velocity at its middle. Where is each body, on its own clock, at the middle of that interval?"
   ],
-  "worded": null,
-  "conventional": null,
-  "mistakes": [],
+  "worded": "1. The interval is A’s 5th second: A’s clock reads 4 to 5 s. B started 2 s later, so on B’s clock the same interval is 2 to 3 s.\n\n2. Over a one-second interval, displacement equals the velocity at the middle instant. That is A at 4.5 s and B at 2.5 s.\n\n3. Equal displacements mean 4.5 a₁ = 2.5 a₂, so a₁ : a₂ = 2.5 : 4.5 = 5 : 9. (B)",
+  "conventional": "![](asset:P000127-sol-1)\n\nA from $t = 4$ to 5 s: $s_{A} = \\frac{1}{2}a_{1}\\left( 5^{2} - 4^{2} \\right) = 4.5\\, a_{1}$.\n\nB over the same interval (its own times 2 to 3 s): $s_{B} = \\frac{1}{2}a_{2}\\left( 3^{2} - 2^{2} \\right) = 2.5\\, a_{2}$.\n\n$$4.5\\, a_{1} = 2.5\\, a_{2}\\  \\Rightarrow \\ \\frac{a_{1}}{a_{2}} = \\frac{5}{9}.$$",
+  "mistakes": [
+    "“The same interval” is the same clock time, which is B’s 3rd second, not B’s 5th second."
+  ],
   "distractors": {},
   "extension": null,
   "check": {
+    "solved_answer": "(B) 5 : 9.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
     "issues": []
   },
   "generated_by": {
     "author": "worksheet",
     "model": null,
-    "prompt_version": null,
-    "date": "2026-11-08"
+    "prompt_version": "03MSL_Solutions_v8",
+    "date": "2026-11-12"
   },
   "reviewed_by": null
 }

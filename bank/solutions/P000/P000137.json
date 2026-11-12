@@ -1,0 +1,28 @@
+{
+  "id": "P000137",
+  "problem_version": 1,
+  "status": "ai_solved",
+  "hints": [
+    "The two flights are identical, just shifted by 2 s. When they meet, one must be coming down while the other is going up. Where is that by symmetry?"
+  ],
+  "worded": "1. Each ball spends 4 s going up and 4 s coming down. The second ball’s flight is the first one’s, shifted 2 s later.\n\n2. They meet at the same height at the same instant: the first on its way down, the second on its way up. By symmetry the first must be as far past its top as the second is short of its top: 1 s each.\n\n3. So the meeting is at t = 5 s (first ball 1 s after its top). In 1 s from the top a body falls 5 m: height 80 − 5 = 75 m. (A)\n\n**Another way: relative motion.** When the second ball is thrown, the first is at 60 m moving up at 20 m/s. Their relative speed, 40 − 20 = 20 m/s, stays constant, so the 60 m gap closes in 3 s (t = 5 s). Height of the second ball then: 40 × 3 − 5 × 9 = 75 m.",
+  "conventional": "![](asset:P000137-sol-1)\n\nLet them meet at time $t$ after the first throw:\n\n$$40t - 5t^{2} = 40(t - 2) - 5(t - 2)^{2}\\  \\Rightarrow \\ 0 = - 80 + 20t - 20\\  \\Rightarrow \\ t = 5\\unit{s}.$$\n\n$$h = 40(5) - 5(25) = 75\\unit{m}.$$",
+  "mistakes": [
+    "The maximum height is 80 m; the collision is just below it, not at it."
+  ],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "solved_answer": "(A) 75 m.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": "03MSL_Solutions_v8",
+    "date": "2026-11-12"
+  },
+  "reviewed_by": null
+}

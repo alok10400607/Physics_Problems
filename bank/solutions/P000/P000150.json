@@ -1,23 +1,28 @@
 {
   "id": "P000150",
   "problem_version": 1,
-  "status": "draft",
+  "status": "ai_solved",
   "hints": [
-    "> $\\frac{dv}{dx} = - 2n\\beta x^{- 2n - 1}$; hence $a = v\\frac{dv}{dx} = (\\beta x^{- 2n})( - 2n\\beta x^{- 2n - 1})$"
+    "Velocity is given as a function of position. Use a = v dv/dx."
   ],
-  "worded": null,
-  "conventional": null,
-  "mistakes": [],
+  "worded": "1. With v given as a function of x, the acceleration is v × dv/dx.\n\n2. dv/dx = −2nβx^(−2n−1). Multiplying by v = βx^(−2n) adds the powers: −2nβ²x^(−4n−1). (A)\n\n3. Quick check: a must contain β² (one β from v, one from dv/dx). (D) has β² but the wrong power, because it forgets the extra factor x^(−2n) from v.",
+  "conventional": "$$a = v\\frac{dv}{dx} = \\left( \\beta x^{- 2n} \\right)\\left( - 2n\\beta x^{- 2n - 1} \\right) = - 2n\\beta^{2}x^{- 4n - 1}.$$",
+  "mistakes": [
+    "a is v dv/dx, not dv/dx alone (option D is close to dv/dx with β² attached)."
+  ],
   "distractors": {},
   "extension": null,
   "check": {
+    "solved_answer": "(A) $- 2n\\beta^{2}x^{- 4n - 1}$.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
     "issues": []
   },
   "generated_by": {
     "author": "worksheet",
     "model": null,
-    "prompt_version": null,
-    "date": "2026-11-08"
+    "prompt_version": "03MSL_Solutions_v8",
+    "date": "2026-11-12"
   },
   "reviewed_by": null
 }

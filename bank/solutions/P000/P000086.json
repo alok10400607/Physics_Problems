@@ -1,23 +1,29 @@
 {
   "id": "P000086",
   "problem_version": 1,
-  "status": "draft",
+  "status": "ai_solved",
   "hints": [
-    "> Horizontal component of displacement is equal to half the perimeter"
+    "Picture the wheel at the start and after half a turn: where is that point now? Then think of its displacement as a horizontal part and a vertical part."
   ],
-  "worded": null,
-  "conventional": null,
-  "mistakes": [],
+  "worded": "1. Displacement depends only on where the point P starts and where it ends, not on the curved path in between. So find the end position.\n\n2. After half a revolution the wheel has turned through 180°. The point that was at the bottom is now at the top.\n\n3. How far forward has the wheel gone? In rolling without slipping, each bit of rim that touches the ground lays down an equal length of ground. Half the rim, πR, has touched the ground, so the centre has moved forward πR.\n\n4. Now see P’s displacement as two parts. The centre carries P forward by πR. Relative to the centre, P has gone from directly below it to directly above it, 2R upward.\n\n5. These two parts are at right angles, so the displacement is √((πR)² + (2R)²) = R√(π² + 4) ≈ 3.72R, at tan⁻¹(2/π) ≈ 32.5° above the ground.\n\n6. Check: the distance P actually travels along its curved path (half an arch of a cycloid) is 4R. That is more than 3.72R, as it must be.\n\n**Another way: coordinates.** Put the origin at P’s starting point. At the end P is at height 2R (top of the wheel) and directly above the new contact point, which is πR ahead. So P’s end coordinates are (πR, 2R), and the magnitude follows by Pythagoras.",
+  "conventional": "![](asset:P000086-sol-1)\n\nTake the origin at the initial point of contact $P$, with $x$ along the ground and $y$ upward.\n\nFor rolling without slipping, the centre moves forward by the arc length that has touched the ground:\n\n$$x_{C} = R\\theta = R\\pi\\quad\\quad(\\theta = \\pi\\text{ for half a revolution}).$$\n\nAfter half a revolution, $P$ is at the top of the wheel, vertically above the new point of contact:\n\n$$\\vec{r}_{P}(end) = \\pi R\\,\\ihat  + 2R\\,\\jhat .$$\n\nSince $\\vec{r}_{P}(start) = 0$,\n\n$$\\left| \\Delta\\vec{r} \\right| = \\sqrt{(\\pi R)^{2} + (2R)^{2}} = R\\sqrt{\\pi^{2} + 4} \\approx 3.72R.$$",
+  "mistakes": [
+    "πR is only the horizontal part and 2R only the vertical part; the displacement is their vector sum.",
+    "The distance travelled (4R, along the curved path) is not the displacement."
+  ],
   "distractors": {},
   "extension": null,
   "check": {
+    "solved_answer": "$R\\sqrt{\\pi^{2} + 4}$ m (≈ 3.72R), at tan⁻¹(2/π) ≈ 32.5° to the ground.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
     "issues": []
   },
   "generated_by": {
     "author": "worksheet",
     "model": null,
-    "prompt_version": null,
-    "date": "2026-11-08"
+    "prompt_version": "03MSL_Solutions_v8",
+    "date": "2026-11-12"
   },
   "reviewed_by": null
 }

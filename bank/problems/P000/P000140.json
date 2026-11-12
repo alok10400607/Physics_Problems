@@ -46,11 +46,23 @@
       "year": 2021
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "id": "P000140-sol-1",
+      "role": "solution",
+      "file": "P000/P000140-sol-1.png",
+      "format": "png",
+      "width": 610,
+      "height": 461,
+      "alt": "Beside a tower, stone 1 is thrown down at 10 m/s from 5 m above the level where stone 2 is released from rest; the gap between them is 20 m, and stone 2 is 20 m above the ground.",
+      "origin": "docx",
+      "needs_redraw": false
+    }
+  ],
   "rights": "past-paper",
   "content_hash": "9bff58405bc1ace4",
   "duplicate_of": null,
   "variant_of": null,
   "created": "2026-11-08",
-  "updated": "2026-11-08"
+  "updated": "2026-11-12"
 }

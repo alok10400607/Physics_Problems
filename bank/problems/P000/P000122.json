@@ -27,11 +27,23 @@
       "qno": 38
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "id": "P000122-sol-1",
+      "role": "solution",
+      "file": "P000/P000122-sol-1.png",
+      "format": "png",
+      "width": 694,
+      "height": 466,
+      "alt": "Velocity–time graph of two cars: car 1 starts at u₁ with acceleration α (gentle line), car 2 starts lower at u₂ with acceleration β (steeper line). The areas under both lines are equal up to time T.",
+      "origin": "docx",
+      "needs_redraw": false
+    }
+  ],
   "rights": "unverified",
   "content_hash": "3b5d76b1594d1c28",
   "duplicate_of": null,
   "variant_of": null,
   "created": "2026-11-08",
-  "updated": "2026-11-08"
+  "updated": "2026-11-12"
 }

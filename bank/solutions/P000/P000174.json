@@ -1,21 +1,29 @@
 {
   "id": "P000174",
-  "problem_version": 1,
-  "status": "draft",
-  "hints": [],
-  "worded": null,
-  "conventional": "> Let us focus on downward motion (fall from h) with $x$ being the distance fallen\n\n>\n\n> Option B: the speed increases at increasing rate as it falls (slope of tangent gets steeper as ‘h’ decreases)\n\n>\n\n> Option C: speed increases linearly\n\n>\n\n> Option D: it increases at decreasing rate\n\n>\n\n> The key is to find the relationship between $v - x$ which is $v = \\sqrt{2gx}$\n\n>\n\n> $\\frac{dv}{dx}\\  \\propto \\frac{1}{\\sqrt{x}}$ or the velocity will keep increasing at decreasing rate (increase in speed for a unit fall will keep decreasing as it falls)",
-  "mistakes": [],
+  "problem_version": 2,
+  "status": "ai_solved",
+  "hints": [
+    "Take up as positive. Falling, v is negative and v² = 2g(h − y). After the bounce, v is positive and v² = 2g(h/2 − y). Where is each branch steepest?"
+  ],
+  "worded": "1. Falling from h: v is downward (negative). Its size grows with the drop: v² = 2g(h − y), a sideways parabola. At y = h, v = 0 and the curve leaves the axis vertically (tangent along the v-axis direction).\n\n2. At y = 0 the speed is largest, √(2gh), and v jumps from negative to positive at the bounce (with smaller size, since it only reaches h/2).\n\n3. Rising: v is positive and v² = 2g(h/2 − y), falling to zero at y = h/2, again meeting the axis vertically.\n\n4. So: a lower curve from h down to a large negative value at y = 0, and an upper curve from a smaller positive value at y = 0 down to zero at h/2, both with vertical tangents where v = 0. That is (D).\n\n5. (C) uses straight lines (that would be v ∝ height, not v² ∝ height); (B) has the curvature the wrong way; (A) wrongly links the branches in loops.",
+  "conventional": "![](asset:P000174-sol-1)\n\nTaking up as positive:\n\nFalling ($h \\rightarrow 0$): $v = - \\sqrt{2g(h - y)}$.\n\nRising ($0 \\rightarrow h/2$): $v = + \\sqrt{2g(h/2 - y)} = + \\sqrt{g(h - 2y)}$.\n\nBoth are half-parabolas with $dv/dy \\rightarrow \\infty$ where $v = 0$: graph (D).",
+  "mistakes": [
+    "v against height is not linear: v² is linear in height, so each branch is a parabola lying on its side.",
+    "The rebound speed is smaller (it reaches only h/2), so the positive branch starts lower than the negative branch ends."
+  ],
   "distractors": {},
   "extension": null,
   "check": {
+    "solved_answer": "(D).",
+    "resolve_answer": null,
+    "agrees_with_key": true,
     "issues": []
   },
   "generated_by": {
     "author": "worksheet",
     "model": null,
-    "prompt_version": null,
-    "date": "2026-11-08"
+    "prompt_version": "03MSL_Solutions_v8",
+    "date": "2026-11-12"
   },
   "reviewed_by": null
 }

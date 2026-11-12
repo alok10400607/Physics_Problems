@@ -1,0 +1,29 @@
+{
+  "id": "P000170",
+  "problem_version": 1,
+  "status": "ai_solved",
+  "hints": [
+    "Write the straight line v = intercept + slope × x. Then a = v dv/dx."
+  ],
+  "worded": "1. The line runs from 10 m/s at x = 0 to 0 at x = 40 m: slope −¼ per second. So v = 10 − x/4.\n\n2. a = v × dv/dx = (10 − x/4)(−¼) = x/16 − 5/2.\n\n3. Check: at x = 0, a = −2.5 m/s² (slowing down from 10 m/s); at x = 40 m, where the particle stops, a = 0. The particle approaches x = 40 m ever more slowly, like the drag case a = −kv.",
+  "conventional": "![](asset:P000170-sol-1)\n\n$$v = 10 - \\frac{x}{4},\\quad\\quad a = v\\frac{dv}{dx} = \\left( 10 - \\frac{x}{4} \\right)\\left( - \\frac{1}{4} \\right) = \\frac{x}{16} - \\frac{5}{2}.$$",
+  "mistakes": [
+    "The acceleration is not the constant slope (−¼); multiply by v.",
+    "a here is proportional to −v (a = −v/4), so the particle never actually reaches 40 m in finite time."
+  ],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "solved_answer": "$v = 10 - \\frac{x}{4}$ m/s; $a = \\frac{x}{16} - \\frac{5}{2}$ m/s².",
+    "resolve_answer": null,
+    "agrees_with_key": true,
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": "03MSL_Solutions_v8",
+    "date": "2026-11-12"
+  },
+  "reviewed_by": null
+}

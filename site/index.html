@@ -128,6 +128,22 @@ a.row:hover{background:var(--surface)}
 .btn.ghost{background:transparent;border:1.5px solid var(--line);color:var(--ink)}
 .btn[disabled]{opacity:.4;cursor:not-allowed}
 .fb{border-radius:8px;padding:12px 14px;display:flex;flex-direction:column;gap:6px}
+.sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.qtext ol{margin:0 0 .7em;padding-left:1.5em;display:flex;flex-direction:column;gap:6px}.qtext ol:last-child{margin:0}
+/* solution links: Hint · Word solution · Conventional solution */
+.sollinks{display:flex;flex-wrap:wrap;align-items:center;gap:2px 0;border-top:1px solid var(--line);padding-top:14px}
+.sollinks .sl{white-space:nowrap}
+.sollinks .sep{color:var(--line);padding:0 8px;user-select:none}
+.sollink{background:none;border:0;padding:4px 0;font-weight:600;color:var(--accent);text-decoration:underline;text-decoration-color:transparent;text-underline-offset:4px;transition:text-decoration-color .15s}
+.sollink:hover:not([disabled]),.sollink[aria-expanded="true"]{text-decoration-color:currentColor}
+.sollink[disabled]{color:var(--muted);cursor:not-allowed;font-weight:500}
+.sollink .lock{display:inline-block;width:.8em;height:.8em;margin-right:5px;vertical-align:-.05em;background:currentColor;
+  -webkit-mask:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath d='M4 7V5a4 4 0 1 1 8 0v2h1v8H3V7zm2 0h4V5a2 2 0 1 0-4 0z'/%3E%3C/svg%3E") center/contain no-repeat;
+  mask:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath d='M4 7V5a4 4 0 1 1 8 0v2h1v8H3V7zm2 0h4V5a2 2 0 1 0-4 0z'/%3E%3C/svg%3E") center/contain no-repeat}
+.locknote{display:flex;flex-wrap:wrap;align-items:center;gap:8px 12px;font-size:.88rem;color:var(--muted)}
+.locknote .btn{padding:6px 12px;font-size:.88rem}
+.why{display:grid;grid-template-columns:auto minmax(0,1fr);gap:6px 10px;align-items:baseline}
+.why .k{font:600 .78rem var(--mono);color:var(--muted)}
 .fb.good{background:var(--good-soft)}.fb.bad{background:var(--bad-soft)}.fb.info{background:var(--accent-soft)}
 .fb strong{font-family:var(--display)}
 .fb.good strong{color:var(--good)}.fb.bad strong{color:var(--bad)}.fb.info strong{color:var(--accent)}
@@ -173,8 +189,11 @@ function md(s){
     try { return hold(katex.renderToString(d || i, { displayMode: !!d, throwOnError: false, strict: "ignore", macros: { ...S.macros } })); }
     catch (e) { return hold(`<code>${esc(d || i)}</code>`); }
   });
-  s = s.replace(/<(?!\/?(sup|sub)>)/g, "&lt;").replace(/\*\*([^*]+)\*\*/g, "<strong>$1</strong>");
-  s = s.split(/\n\n+/).map(p => { const L = p.trim().split("\n"); return L.every(l => /^- /.test(l)) ? `<ul>${L.map(l => `<li>${l.slice(2)}</li>`).join("")}</ul>` : `<p>${p.trim()}</p>`; }).join("");
+  s = s.replace(/<(?!\/?(sup|sub)>)/g, "&lt;").replace(/\*\*([^*]+)\*\*/g, "<strong>$1</strong>").replace(/(^|[^*\w])\*([^*\n]+?)\*(?![*\w])/g, "$1<em>$2</em>");
+  s = s.split(/\n\n+/).map(p => { const L = p.trim().split("\n"), n = p.trim().match(/^(\d+)\.\s+/);
+    return L.every(l => /^- /.test(l)) ? `<ul>${L.map(l => `<li>${l.slice(2)}</li>`).join("")}</ul>`
+      : n ? `<ol start="${n[1]}"><li>${p.trim().slice(n[0].length)}</li></ol>` : `<p>${p.trim()}</p>`; }).join("")
+    .replace(/<\/li><\/ol><ol start="\d+"><li>/g, "</li><li>");
   return s.replace(/\u0000(\d+)\u0000/g, (_, n) => keep[n]);
 }
 const inline = s => md(s).replace(/^<p>|<\/p>$/g, "");
@@ -357,14 +376,11 @@ function viewRun(){
       `<div class="extras"><span style="align-self:center">How did you do?</span><button class="btn ghost" data-self="correct">I got it</button><button class="btn ghost" data-self="wrong">I missed it</button></div>`}</div>`;
   } else if (done) {
     const ok = res.status === "correct";
-    fb = `<div class="fb ${ok ? "good" : "bad"}"><strong>${ok ? "Correct" : "Not quite"}</strong>${ok ? "" : `<span>The answer is <b>${esc(q.answer)}${q.unit ? " " + esc(q.unit) : ""}</b>.</span>`}</div>`;
+    fb = `<div class="fb ${ok ? "good" : res.gaveUp ? "info" : "bad"}"><strong>${ok ? "Correct" : res.gaveUp ? "Answer" : "Not quite"}</strong>${ok ? "" : `<span>The answer is <b>${esc(q.answer)}${q.unit ? " " + esc(q.unit) : ""}</b>.</span>`}</div>`;
   } else if (test && res) {
     fb = `<p class="lede" style="font-size:.9rem">Answer saved. You can change it until you submit.</p>`;
   }
-  const hints = q.hints || [], shown = done ? hints.length : (sh.hints || 0);
-  const hintHtml = test ? "" : hints.slice(0, shown).map((h, k) => `<div class="aside"><div class="t">Hint ${hints.length > 1 ? k + 1 : ""}</div><div class="qtext">${md(h)}</div></div>`).join("");
-  const hintBtn = !test && !done && shown < hints.length ? `<div class="extras"><button class="btn ghost" id="hintbtn">${shown ? "Next hint" : "Show a hint"}</button></div>` : "";
-  const sol = done ? solutionBlock(q, sh) : "";
+  const sol = test ? "" : solutionBlock(q, sh, done || (q.type === "subjective" && sh.answer));
   app.innerHTML = `
     <div class="bar"><button class="link" id="leave">‹ ${esc(sub.name)}</button>
       <span style="display:flex;gap:10px;align-items:center">${r.ends ? `<span class="timer" id="timer" aria-label="Time left">${fmt(r.ends - Date.now())}</span>` : ""}<span class="prog">${r.i + 1} / ${r.qs.length}</span></span></div>
@@ -372,7 +388,7 @@ function viewRun(){
     <article class="card">
       <div class="meta"><span class="qn">Q${r.i + 1}</span>${levelTag(q.level)}${q.type === "numerical" ? `<span class="tag">numerical answer</span>` : q.type === "subjective" ? `<span class="tag">written</span>` : ""}${q.source ? `<span class="tag">${esc(q.source)}</span>` : ""}</div>
       <div class="qtext">${md(q.question)}</div>
-      ${body}${fb}${hintHtml}${hintBtn}${sol}
+      ${body}${fb}${sol}
     </article>
     <div class="nav"><button class="btn ghost" id="prev" ${r.i ? "" : "disabled"}>Previous</button>
       ${test && last ? `<button class="btn" id="submit">Submit test</button>` : `<button class="btn" id="next">${last ? "Finish" : done || (test && res) ? "Next" : "Skip"}</button>`}</div>
@@ -381,13 +397,37 @@ function viewRun(){
   wireRun(q, sh);
   startTimer();
 }
-function solutionBlock(q, sh){
-  const levels = [["worded", "Explained in words"], ["conventional", "Full solution"]].filter(([k]) => q[k]);
-  if (!levels.length && !q.extension) return "";
-  return `<div class="sol"><div class="extras">${levels.map(([k, l]) => `<button class="btn ${sh[k] ? "" : "ghost"}" data-level="${k}">${l}</button>`).join("")}</div>
-    ${levels.filter(([k]) => sh[k]).map(([k, l]) => `<div class="aside"><div class="t">${l}</div><div class="qtext">${md(q[k])}</div></div>`).join("")}
-    ${sh.conventional && q.mistakes && q.mistakes.length ? `<div class="aside"><div class="t">Common mistake${q.mistakes.length > 1 ? "s" : ""}</div><div class="qtext">${q.mistakes.map(m => md(m)).join("")}</div></div>` : ""}
-    ${q.extension ? `<div class="aside"><div class="t">Think further</div><div class="qtext">${md(q.extension)}</div></div>` : ""}</div>`;
+// Hint is always open; the two solutions unlock after an attempt (an answer, or "I give up").
+// "Watch out" and "Why not the other options" come with the conventional solution.
+function solutionBlock(q, sh, unlocked){
+  const hints = q.hints || [];
+  const links = [["hint", "Hint", hints.length], ["worded", "Word solution", q.worded], ["conventional", "Conventional solution", q.conventional]].filter(x => x[2]);
+  if (!links.length) return "";
+  const open = sh.open && (sh.open === "hint" || unlocked) ? sh.open : null;
+  const bar = `<div class="sollinks" role="group" aria-label="Help with this question">${links.map(([k, l], i) => {
+    const locked = k !== "hint" && !unlocked;
+    return `<span class="sl">${i ? `<span class="sep" aria-hidden="true">·</span>` : ""}<button class="sollink" data-open="${k}" aria-expanded="${open === k}" ${locked ? `disabled title="Answer the question, or give up, to see this"` : ""}>${locked ? `<span class="lock" aria-hidden="true"></span>` : ""}${l}${locked ? `<span class="sr-only"> (locked until you answer)</span>` : ""}</button></span>`;
+  }).join("")}</div>`;
+  const lockedSome = !unlocked && links.some(([k]) => k !== "hint");
+  // written questions already have "Show answer" above; that counts as the attempt
+  const giveUp = q.type === "subjective" ? "" : `<button class="btn ghost" id="giveup">I give up</button>`;
+  const note = lockedSome && !open ? `<div class="locknote"><span>${q.type === "subjective" ? "The solutions open once you check your answer." : "The solutions open once you answer."}</span>${giveUp}</div>` : "";
+  let panel = "";
+  if (open === "hint") {
+    const n = Math.min(Math.max(sh.hints || 1, 1), hints.length);
+    panel = hints.slice(0, n).map((h, k) => `<div class="aside"><div class="t">Hint${hints.length > 1 ? " " + (k + 1) : ""}</div><div class="qtext">${md(h)}</div></div>`).join("")
+      + (n < hints.length ? `<div class="extras"><button class="btn ghost" id="hintbtn">Next hint</button></div>` : "")
+      + (lockedSome ? `<div class="locknote"><span>Still stuck? The solutions open once you ${q.type === "subjective" ? "check your answer" : "answer"}.</span>${giveUp}</div>` : "");
+  } else if (open === "worded") {
+    panel = `<div class="aside"><div class="t">Word solution</div><div class="qtext">${md(q.worded)}</div></div>`;
+  } else if (open === "conventional") {
+    const why = Object.entries(q.distractors || {}).sort();
+    panel = `<div class="aside"><div class="t">Conventional solution</div><div class="qtext">${md(q.conventional)}</div></div>`
+      + (why.length ? `<div class="aside"><div class="t">Why not the other options</div><div class="why">${why.map(([k, v]) => `<span class="k">(${esc(k)})</span><div class="qtext">${md(v)}</div>`).join("")}</div></div>` : "")
+      + (q.mistakes && q.mistakes.length ? `<div class="aside"><div class="t">Watch out</div><div class="qtext">${q.mistakes.length > 1 ? `<ul>${q.mistakes.map(m => `<li>${inline(m)}</li>`).join("")}</ul>` : md(q.mistakes[0])}</div></div>` : "")
+      + (q.extension ? `<div class="aside"><div class="t">Think further</div><div class="qtext">${md(q.extension)}</div></div>` : "");
+  }
+  return `<div class="sol">${bar}${note}${panel}</div>`;
 }
 function wireRun(q, sh){
   const r = S.run, $ = s => app.querySelector(s);
@@ -397,8 +437,9 @@ function wireRun(q, sh){
   const nf = $("#numform"); if (nf) nf.onsubmit = e => { e.preventDefault(); const v = nf.querySelector("input").value.trim(); if (v) answer(q, v); };
   const rv = $("#reveal"); if (rv) rv.onclick = () => { r.show[q.id] = { ...sh, answer: true }; viewRun(); };
   app.querySelectorAll("[data-self]").forEach(b => b.onclick = () => { r.res[q.id] = { status: b.dataset.self, chosen: null }; viewRun(); });
-  const hb = $("#hintbtn"); if (hb) hb.onclick = () => { r.show[q.id] = { ...sh, hints: (sh.hints || 0) + 1 }; viewRun(); };
-  app.querySelectorAll("[data-level]").forEach(b => b.onclick = () => { const k = b.dataset.level; r.show[q.id] = { ...sh, [k]: !sh[k] }; viewRun(); });
+  const hb = $("#hintbtn"); if (hb) hb.onclick = () => { r.show[q.id] = { ...sh, hints: Math.max(sh.hints || 1, 1) + 1 }; viewRun(); };
+  app.querySelectorAll("[data-open]").forEach(b => b.onclick = () => { const k = b.dataset.open; r.show[q.id] = { ...sh, open: sh.open === k ? null : k }; viewRun(); });
+  const gu = $("#giveup"); if (gu) gu.onclick = () => { r.res[q.id] = { status: "wrong", chosen: null, gaveUp: true }; r.show[q.id] = { ...sh, open: "worded" }; viewRun(); };
   $("#prev").onclick = () => { if (r.i) { r.i--; viewRun(); toTop(); } };
   const nx = $("#next"); if (nx) nx.onclick = next;
   app.querySelectorAll("#submit").forEach(b => b.onclick = () => finish());

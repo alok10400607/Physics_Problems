@@ -1,0 +1,28 @@
+{
+  "id": "P000101",
+  "problem_version": 1,
+  "status": "ai_solved",
+  "hints": [
+    "“Midway” is about distance, not time. Which equation links velocity with distance, and how does v² change along the path?"
+  ],
+  "worded": "1. “Midway” is about distance, not time, so the useful relation is the one without time: v² = u² + 2as.\n\n2. That relation says v² grows by equal amounts over equal distances. Half the distance gives half the rise in v².\n\n3. So at the mid-point v² is halfway between u² and v², that is (u² + v²)/2, and the speed is √((u² + v²)/2).\n\n4. Compare with the mid-time velocity (u + v)/2. The root-mean-square is always larger (unless u = v). If the body is speeding up, it spends more than half the time on the slower first half, so it passes the mid-point after the mid-time, when it is already faster.",
+  "conventional": "![](asset:P000101-sol-1)\n\nLet $AB = 2s$ and let $v_{m}$ be the velocity at the mid-point M.\n\nFrom A to B:\n\n$$v^{2} = u^{2} + 2a(2s).$$\n\nFrom A to M:\n\n$$v_{m}^{2} = u^{2} + 2as.$$\n\nEliminating $2as = \\left( v^{2} - u^{2} \\right)/2$:\n\n$$v_{m}^{2} = u^{2} + \\frac{v^{2} - u^{2}}{2} = \\frac{u^{2} + v^{2}}{2}\\  \\Rightarrow \\ v_{m} = \\sqrt{\\frac{u^{2} + v^{2}}{2}}.$$",
+  "mistakes": [
+    "The mid-point (in distance) is not the mid-time: (u + v)/2 is the velocity at mid-time, and it is smaller."
+  ],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "solved_answer": "$\\sqrt{\\frac{u^{2} + v^{2}}{2}}$.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": "03MSL_Solutions_v8",
+    "date": "2026-11-12"
+  },
+  "reviewed_by": null
+}

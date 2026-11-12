@@ -36,11 +36,23 @@
       "qno": 11
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "id": "P000095-sol-1",
+      "role": "solution",
+      "file": "P000/P000095-sol-1.png",
+      "format": "png",
+      "width": 662,
+      "height": 441,
+      "alt": "Velocity–time graph: a straight line from 0 at time 0 to v at time t. A dashed line at v/2 marks the average velocity v̄; the shaded triangle has area ½vt.",
+      "origin": "docx",
+      "needs_redraw": false
+    }
+  ],
   "rights": "unverified",
   "content_hash": "ec18c817a3ebf642",
   "duplicate_of": null,
   "variant_of": null,
   "created": "2026-11-08",
-  "updated": "2026-11-08"
+  "updated": "2026-11-12"
 }

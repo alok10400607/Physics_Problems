@@ -35,11 +35,23 @@
       "qno": 94
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "id": "P000178-sol-1",
+      "role": "solution",
+      "file": "P000/P000178-sol-1.png",
+      "format": "png",
+      "width": 583,
+      "height": 372,
+      "alt": "A balloon accelerating upward at a_B = 5 up drops a stone. Relative to the balloon, the stone starts at 4 down and accelerates at 15 down.",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
   "rights": "unverified",
   "content_hash": "d42ebfdecc3dd6fd",
   "duplicate_of": null,
   "variant_of": null,
   "created": "2026-11-08",
-  "updated": "2026-11-08"
+  "updated": "2026-11-12"
 }

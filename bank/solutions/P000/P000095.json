@@ -1,0 +1,28 @@
+{
+  "id": "P000095",
+  "problem_version": 1,
+  "status": "ai_solved",
+  "hints": [
+    "With constant acceleration, average velocity = (u + v)/2. Put u = 0 and test each statement."
+  ],
+  "worded": "1. Acceleration is constant, so velocity changes at a steady rate. The average over the interval is then the mean of the first and last values, (u + v)/2.\n\n2. The particle starts from rest, so u = 0 and the average is v/2. (D) is true.\n\n3. Half of a positive number is less than the number, so the average is less than the final velocity at every instant after the start. (A) is true and (B) is false.\n\n4. Could the average velocity be zero? That needs zero displacement, which means coming back to the start. A body starting from rest with a constant acceleration speeds up in one direction and never turns back. (C) is false.\n\n**Another way: v–t graph.** The v–t graph is a straight line from the origin. The displacement is the triangle’s area, ½vt. Dividing by t gives v/2, and the dashed line at v/2 cuts off equal areas above and below the graph.",
+  "conventional": "![](asset:P000095-sol-1)\n\nWith $u = 0$ and constant $a$:\n\n$$v = at,\\quad\\quad s = \\frac{1}{2}at^{2}.$$\n\n$$\\bar{v} = \\frac{s}{t} = \\frac{\\frac{1}{2}at^{2}}{t} = \\frac{1}{2}at = \\frac{v}{2}.$$\n\nFor $t > 0$, $v > 0$, so $\\bar{v} = v/2 < v$. Since $s = \\frac{1}{2}at^{2} > 0$ for all $t > 0$, $\\bar{v} \\neq 0$.",
+  "mistakes": [
+    "From rest with constant acceleration the body never reverses, so its average velocity can never be zero."
+  ],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "solved_answer": "(A) and (D).",
+    "resolve_answer": null,
+    "agrees_with_key": true,
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": "03MSL_Solutions_v8",
+    "date": "2026-11-12"
+  },
+  "reviewed_by": null
+}

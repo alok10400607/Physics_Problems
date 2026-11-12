@@ -46,6 +46,17 @@
       "alt": "Velocity v in m/s against time t in s: 4 m/s from 0 to 2 s, −2 m/s from 2 to 4 s, and 2 m/s from 4 to 6 s.",
       "origin": "docx",
       "needs_redraw": true
+    },
+    {
+      "id": "P000161-sol-1",
+      "role": "solution",
+      "file": "P000/P000161-sol-1.png",
+      "format": "png",
+      "width": 698,
+      "height": 441,
+      "alt": "Velocity–time graph in m/s and s: 4 m/s from 0 to 2 s (area +8), −2 m/s from 2 to 4 s (area −4), and 2 m/s from 4 to 6 s (area +4).",
+      "origin": "docx",
+      "needs_redraw": false
     }
   ],
   "rights": "unverified",
@@ -53,5 +64,5 @@
   "duplicate_of": null,
   "variant_of": null,
   "created": "2026-11-08",
-  "updated": "2026-11-08"
+  "updated": "2026-11-12"
 }

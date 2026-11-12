@@ -1,21 +1,29 @@
 {
   "id": "P000123",
   "problem_version": 1,
-  "status": "draft",
-  "hints": [],
-  "worded": null,
-  "conventional": "> Displacement of cyclist has to be 96 m compared to displacement of bus at time t\n\n>\n\n> Or $20t - \\frac{1}{2} \\times 2 \\times t^{2} = 96$; has two positive real roots\n\n>\n\n> First cyclist will overtake the bus at t = 8 sec when the speed of bus is 16 m/s (less than cyclist)\n\n>\n\n> Then at t = 12 s the bus will overtake the cyclist with bus having speed of 24 m/s",
-  "mistakes": [],
+  "status": "ai_solved",
+  "hints": [
+    "The cyclist starts faster but the bus keeps speeding up. Could they be side by side more than once?"
+  ],
+  "worded": "1. They are side by side when the cyclist has covered 96 m more than the bus.\n\n2. The cyclist covers 20t; the bus covers t². So 20t − t² = 96, a quadratic with two positive roots: 8 s and 12 s.\n\n3. Meaning: at 8 s the cyclist (20 m/s) passes the bus (then at 16 m/s). The bus keeps accelerating, catches up and passes him back at 12 s (bus at 24 m/s). (D)\n\n4. Check by symmetry: the gap is smallest when the speeds are equal (10 s), and the two meetings are equally spaced about it.\n\n**Another way: bus frame.** In the bus frame the cyclist starts at 20 m/s with a retardation of 2 m/s², like a ball thrown up. He reaches 96 m “up” going out at 8 s and coming back at 12 s; his peak is 100 m at 10 s.",
+  "conventional": "![](asset:P000123-sol-1)\n\nOrigin at the cyclist’s start. Cyclist: $x_{c} = 20t$. Bus: $x_{b} = 96 + t^{2}$.\n\n$$20t = 96 + t^{2}\\  \\Rightarrow \\ t^{2} - 20t + 96 = 0\\  \\Rightarrow \\ t = 8\\unit{s}\\ or\\ 12\\unit{s}.$$",
+  "mistakes": [
+    "Don’t keep only the first root: the bus overtakes the cyclist again at 12 s.",
+    "10 s is when the gap is least (equal speeds), not a meeting time."
+  ],
   "distractors": {},
   "extension": null,
   "check": {
+    "solved_answer": "(D) at 8 s and at 12 s.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
     "issues": []
   },
   "generated_by": {
     "author": "worksheet",
     "model": null,
-    "prompt_version": null,
-    "date": "2026-11-08"
+    "prompt_version": "03MSL_Solutions_v8",
+    "date": "2026-11-12"
   },
   "reviewed_by": null
 }

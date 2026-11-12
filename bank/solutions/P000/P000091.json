@@ -1,23 +1,29 @@
 {
   "id": "P000091",
   "problem_version": 1,
-  "status": "draft",
+  "status": "ai_solved",
   "hints": [
-    "> Average speed for the second half of the journey (equal time): 6 m/s\n\n>\n\n> Average speed for first and second half at 3 m/s and 6 m/s: 4 m/s"
+    "Average the second half first: equal times give the simple mean, 6 m/s. Now you have two equal distances at 3 m/s and 6 m/s."
   ],
-  "worded": null,
-  "conventional": null,
-  "mistakes": [],
+  "worded": "1. There are two kinds of “equal” here: equal distances (the two halves) and, inside the second half, equal times. Work from the inside out.\n\n2. Inside: the second half is covered in two equal times at 4.5 and 7.5 m/s. For equal times the average is the simple mean, 6 m/s. In any time t the particle covers 4.5t + 7.5t = 12t in 2t.\n\n3. Outside: the motion is now one half at 3 m/s and one half at an effective 6 m/s. For equal distances the average is the harmonic mean: 2 × 3 × 6 / (3 + 6) = 4 m/s.\n\n4. Sense check: 4 lies between 3 and 6 and closer to 3, as it should, because the particle spends twice as long on the slow half.\n\n**No-pen route: choose a convenient distance.** Let each half be 6 m, which divides neatly by 3 and by 6. The first half takes 2 s and the second half takes 1 s. That is 12 m in 3 s, so 4 m/s.",
+  "conventional": "![](asset:P000091-sol-1)\n\nLet the total distance be $2s$.\n\nFirst half:\n\n$$t_{1} = \\frac{s}{3}.$$\n\nSecond half, two intervals of $t$ each:\n\n$$4.5t + 7.5t = s\\mkern6mu  \\Rightarrow \\mkern6mu  t = \\frac{s}{12},\\quad\\quad t_{2} = 2t = \\frac{s}{6}.$$\n\n$$\\bar{v} = \\frac{2s}{t_{1} + t_{2}} = \\frac{2s}{\\frac{s}{3} + \\frac{s}{6}} = \\frac{2s}{s/2} = 4\\unit{m/s}.$$",
+  "mistakes": [
+    "Don’t average 3, 4.5 and 7.5 (giving 5 m/s): the three stages are neither equal times nor equal distances.",
+    "Combine the equal-time part first, then the two equal-distance halves."
+  ],
   "distractors": {},
   "extension": null,
   "check": {
+    "solved_answer": "4 m/s.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
     "issues": []
   },
   "generated_by": {
     "author": "worksheet",
     "model": null,
-    "prompt_version": null,
-    "date": "2026-11-08"
+    "prompt_version": "03MSL_Solutions_v8",
+    "date": "2026-11-12"
   },
   "reviewed_by": null
 }

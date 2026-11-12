@@ -1,0 +1,28 @@
+{
+  "id": "P000163",
+  "problem_version": 1,
+  "status": "ai_solved",
+  "hints": [
+    "The height climbed is the area under the speed–time graph. What shape is it?"
+  ],
+  "worded": "1. The lift moves only upward, so height = area under the graph.\n\n2. The graph is a trapezium: 0 to 3.6 m/s in 2 s, steady until 10 s, back to 0 at 12 s.\n\n3. Area = average of the parallel sides × height = ½(12 + 8) × 3.6 = 36 m. (C)\n\n4. Trap: 28.8 m (B) counts only the steady part; 3.6 m (A) is just the speed.",
+  "conventional": "![](asset:P000163-sol-1)\n\n$$h = \\frac{1}{2}(2)(3.6) + (8)(3.6) + \\frac{1}{2}(2)(3.6) = 3.6 + 28.8 + 3.6 = 36\\unit{m}.$$",
+  "mistakes": [
+    "Include the speeding-up and slowing-down triangles, not just the constant-speed rectangle."
+  ],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "solved_answer": "(C) 36.0 m.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": "03MSL_Solutions_v8",
+    "date": "2026-11-12"
+  },
+  "reviewed_by": null
+}

@@ -1,21 +1,29 @@
 {
   "id": "P000110",
   "problem_version": 1,
-  "status": "draft",
-  "hints": [],
-  "worded": null,
-  "conventional": "> The stone comes to a momentary rest and reverses its direction of motion at time $v_{0}/g$.\n\n>\n\n> Hence distance travelled = distance travelled during upward motion ( t = 0 to t = $\\frac{v_{0}}{g})$ =$\\frac{v_{0}^{2}}{2g}$\n\n>\n\n> \\+ distance fallen between time $v_{0}/g$ and $\\frac{{4v}_{0}}{3g} =$( $\\frac{1}{2}g\\left( \\frac{v_{0}}{3g} \\right)^{2})$",
-  "mistakes": [],
+  "status": "ai_solved",
+  "hints": [
+    "Distance, not displacement. When does the stone turn round, and is $4v_{0}/3g$ before or after that?"
+  ],
+  "worded": "1. The question asks for distance, so first check whether the stone reverses within the time. It stops at the top after $v_{0}/g$, and $4v_{0}/3g$ is later than that. So split the motion at the top.\n\n2. Going up, it climbs the full maximum height, $v_{0}^{2}/2g$.\n\n3. It then falls for the remaining third of $v_{0}/g$. A body dropped from rest falls distances in proportion to the square of time, so in one-third of the ascent time it falls one-ninth of the maximum height: $v_{0}^{2}/18g$.\n\n4. Total distance: $v_{0}^{2}/2g + v_{0}^{2}/18g$ = 10/18 of $v_{0}^{2}/g$ = $5v_{0}^{2}/9g$. (A)\n\n5. Check: the displacement at that instant is only $v_{0}^{2}/2g - v_{0}^{2}/18g = 4v_{0}^{2}/9g$, which is option (B), the trap.\n\n**Another way: v–t graph.** The v–t graph is a straight line from $v_{0}$, crossing zero at $v_{0}/g$ and reaching $- v_{0}/3$ at $4v_{0}/3g$. The distance is the total unsigned area: a large triangle ($v_{0}^{2}/2g$) above the axis plus a small similar triangle, one-third the size in each direction, below it (one-ninth of the area).",
+  "conventional": "![](asset:P000110-sol-1)\n\nTake up as positive. The stone stops at\n\n$$t_{a} = \\frac{v_{0}}{g} < \\frac{4v_{0}}{3g},$$\n\nso it reverses within the interval. Distance going up:\n\n$$h_{1} = \\frac{v_{0}^{2}}{2g}.$$\n\nIt then falls from rest for $\\frac{4v_{0}}{3g} - \\frac{v_{0}}{g} = \\frac{v_{0}}{3g}$:\n\n$$h_{2} = \\frac{1}{2}g\\left( \\frac{v_{0}}{3g} \\right)^{2} = \\frac{v_{0}^{2}}{18g}.$$\n\n$$d = h_{1} + h_{2} = \\frac{9v_{0}^{2} + v_{0}^{2}}{18g} = \\frac{5v_{0}^{2}}{9g}.$$",
+  "mistakes": [
+    "Putting $t = 4v_{0}/3g$ into $s = ut - \\frac{1}{2}gt^{2}$ gives the displacement, $4v_{0}^{2}/9g$ (option B), not the distance.",
+    "Always find the turning time first when distance is asked."
+  ],
   "distractors": {},
   "extension": null,
   "check": {
+    "solved_answer": "(A) $\\frac{5v_{0}^{2}}{9g}$.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
     "issues": []
   },
   "generated_by": {
     "author": "worksheet",
     "model": null,
-    "prompt_version": null,
-    "date": "2026-11-08"
+    "prompt_version": "03MSL_Solutions_v8",
+    "date": "2026-11-12"
   },
   "reviewed_by": null
 }

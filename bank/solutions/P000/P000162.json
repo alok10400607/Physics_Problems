@@ -1,0 +1,29 @@
+{
+  "id": "P000162",
+  "problem_version": 1,
+  "status": "ai_solved",
+  "hints": [
+    "Acceleration is the slope of the v–t graph. Which segment is steepest?"
+  ],
+  "worded": "1. Acceleration is the slope of each straight segment.\n\n2. 0–20 s: 20 cm/s in 20 s, slope 1. 20–30 s: flat, 0. 30–40 s: 60 cm/s in 10 s, slope 6. 40–80 s: −80 in 40 s, slope −2.\n\n3. Steepest rise: 6 cm/s². (D)",
+  "conventional": "![](asset:P000162-sol-1)\n\n$$a_{30 - 40} = \\frac{80 - 20}{40 - 30} = 6\\ {cm/s}^{2},$$\n\nthe largest of the slopes 1, 0, 6 and −2 cm/s².",
+  "mistakes": [
+    "Read the steepness, not the height: the highest point (80 cm/s) is not where the acceleration is largest.",
+    "Units are cm/s and s, so the answer is in cm/s²."
+  ],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "solved_answer": "(D) 6 cm/s².",
+    "resolve_answer": null,
+    "agrees_with_key": true,
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": "03MSL_Solutions_v8",
+    "date": "2026-11-12"
+  },
+  "reviewed_by": null
+}

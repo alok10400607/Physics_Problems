@@ -35,11 +35,23 @@
       "qno": 51
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "id": "P000135-sol-1",
+      "role": "solution",
+      "file": "P000/P000135-sol-1.png",
+      "format": "png",
+      "width": 713,
+      "height": 451,
+      "alt": "A vertical line: ball 1 starts at the top and has fallen 30 m at 2 s; it falls 70 m more to the meeting point at 4 s. Ball 2 covers 100 m in 2 s to meet it.",
+      "origin": "docx",
+      "needs_redraw": false
+    }
+  ],
   "rights": "unverified",
   "content_hash": "d67fb96e0309426d",
   "duplicate_of": null,
   "variant_of": null,
   "created": "2026-11-08",
-  "updated": "2026-11-08"
+  "updated": "2026-11-12"
 }

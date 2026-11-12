@@ -1,23 +1,29 @@
 {
   "id": "P000096",
   "problem_version": 1,
-  "status": "draft",
+  "status": "ai_solved",
   "hints": [
-    "> Note: Difference in displacements during equal successive time intervals $(\\mathrm{\\Delta}t)$ is constant = $a\\mathrm{\\Delta}t$"
+    "With constant acceleration, how do the displacements in successive equal time intervals change from one interval to the next?"
   ],
-  "worded": null,
-  "conventional": null,
-  "mistakes": [],
+  "worded": "1. Under constant acceleration, each equal interval’s displacement differs from the previous one by the same amount (aτ²), because the velocity changes by the same amount in each interval.\n\n2. The first two intervals give 10 m and then 8 m, a drop of 2 m. So the next interval gives 8 − 2 = 6 m. (B)\n\n3. One check before trusting this: the progression is for displacement. If the particle stopped and turned back within the third interval, the distance would differ. Its average velocity falls from 2 m/s to 1.6 m/s over 5 s, so it loses 0.4 m/s every 5 s. It is still moving at about 1 m/s at the end of the third interval, so there is no reversal, and distance = displacement = 6 m.\n\n**Another way: mid-interval velocities.** Average velocity over an interval = velocity at its middle instant. So v = 2 m/s at t = 2.5 s and v = 1.6 m/s at t = 7.5 s, giving a = −0.08 m/s². At t = 12.5 s, v = 1.2 m/s, so the third interval covers 1.2 × 5 = 6 m.",
+  "conventional": "![](asset:P000096-sol-1)\n\nLet the initial velocity be $u$ and the acceleration $a$; take $\\tau = 5$ s.\n\nFirst 5 s:\n\n$$10 = 5u + \\frac{1}{2}a(25).$$\n\nFirst 10 s:\n\n$$10 + 8 = 10u + \\frac{1}{2}a(100).$$\n\nSolving: $a = - 0.08$ m/s² and $u = 2.2$ m/s.\n\nDisplacement in the first 15 s:\n\n$$s_{15} = 2.2(15) + \\frac{1}{2}( - 0.08)(225) = 33 - 9 = 24\\unit{m}.$$\n\nSo the third interval covers $24 - 18 = 6$ m. Velocity at 15 s: $2.2 - 0.08(15) = 1.0$ m/s > 0, so the particle has not reversed and the distance is 6 m.\n\n(Check by the progression rule: $s_{2} - s_{1} = a\\tau^{2} = - 0.08 \\times 25 = - 2$ m.)",
+  "mistakes": [
+    "The constant difference is $a\\tau^{2}$, not $a\\tau$.",
+    "The progression holds for displacement. Check that the body has not stopped and reversed inside an interval before calling it distance."
+  ],
   "distractors": {},
   "extension": null,
   "check": {
+    "solved_answer": "(B) 6 m.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
     "issues": []
   },
   "generated_by": {
     "author": "worksheet",
     "model": null,
-    "prompt_version": null,
-    "date": "2026-11-08"
+    "prompt_version": "03MSL_Solutions_v8",
+    "date": "2026-11-12"
   },
   "reviewed_by": null
 }

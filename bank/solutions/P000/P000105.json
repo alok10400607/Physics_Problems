@@ -1,0 +1,28 @@
+{
+  "id": "P000105",
+  "problem_version": 1,
+  "status": "ai_solved",
+  "hints": [
+    "Run the motion backwards from the top: it becomes a body dropped from rest. How far does a dropped body fall in half the time it takes to fall all the way?"
+  ],
+  "worded": "1. The climb from the ground to the top, run backwards, is exactly a drop from rest at the top: same g, same path, same times.\n\n2. Seen that way, the instant $t_{0}/2$ is half-way through a fall that takes $t_{0}$ to cover h.\n\n3. Falling from rest, distance grows as the square of time. In half the time a body falls a quarter of the distance: ¼h.\n\n4. So at $t_{0}/2$ the body is ¼h below the top, which is ¾h above the ground.\n\n5. Check: the body is fastest near the ground, so it covers more than half the height in the first half of the time. ¾h fits.",
+  "conventional": "![](asset:P000105-sol-1)\n\nTake up as positive. At the top $v = 0$:\n\n$$t_{0} = \\frac{u}{g},\\quad\\quad h = \\frac{u^{2}}{2g}.$$\n\nAt $t = t_{0}/2 = u/2g$:\n\n$$y = u\\left( \\frac{u}{2g} \\right) - \\frac{1}{2}g\\left( \\frac{u}{2g} \\right)^{2} = \\frac{u^{2}}{2g} - \\frac{u^{2}}{8g} = \\frac{3u^{2}}{8g} = \\frac{3}{4}h.$$",
+  "mistakes": [
+    "Half the time is not half the height (h/2): the body is slowing down, so it covers more height in the first half of the time."
+  ],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "solved_answer": "$\\frac{3}{4}h$.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": "03MSL_Solutions_v8",
+    "date": "2026-11-12"
+  },
+  "reviewed_by": null
+}

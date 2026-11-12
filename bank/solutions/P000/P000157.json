@@ -1,21 +1,28 @@
 {
   "id": "P000157",
   "problem_version": 1,
-  "status": "draft",
-  "hints": [],
-  "worded": null,
-  "conventional": "> Average velocity during a time interval = (Displacement / time)\n\n>\n\n> $\\frac{dv}{dt} = a_{0}(1 - \\frac{t}{T})$; on integration $v = a_{0}(t - \\frac{t^{2}}{2T})$\n\n>\n\n> Further integration $\\mathrm{\\Delta}x = a_{0}\\frac{T^{2}}{3}$",
-  "mistakes": [],
+  "status": "ai_solved",
+  "hints": [
+    "Integrate a to get v(t), then integrate again for the displacement over 0 to T, and divide by T."
+  ],
+  "worded": "1. The acceleration is not constant, so average velocity must come from displacement ÷ time.\n\n2. v(t) = a₀(t − t²/2T), reaching ½a₀T at t = T.\n\n3. Displacement = area under v(t) = a₀(T²/2 − T²/6) = a₀T²/3. Average velocity = a₀T/3. (A)\n\n4. Sense check: the v–t curve is concave (rises quickly, then levels off), so the average lies above the simple ¼a₀T of a straight line through the origin to ½a₀T; ⅓a₀T fits.",
+  "conventional": "![](asset:P000157-sol-1)\n\n$$v = \\int_{0}^{t}a_{0}\\left( 1 - \\frac{t}{T} \\right)dt = a_{0}\\left( t - \\frac{t^{2}}{2T} \\right).$$\n\n$$\\Delta x = \\int_{0}^{T}a_{0}\\left( t - \\frac{t^{2}}{2T} \\right)dt = a_{0}\\left( \\frac{T^{2}}{2} - \\frac{T^{2}}{6} \\right) = \\frac{a_{0}T^{2}}{3},\\quad\\quad\\bar{v} = \\frac{\\Delta x}{T} = \\frac{a_{0}T}{3}.$$",
+  "mistakes": [
+    "½a₀T (option B) is the final velocity, not the average."
+  ],
   "distractors": {},
   "extension": null,
   "check": {
+    "solved_answer": "(A) $\\frac{1}{3}a_{0}T$.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
     "issues": []
   },
   "generated_by": {
     "author": "worksheet",
     "model": null,
-    "prompt_version": null,
-    "date": "2026-11-08"
+    "prompt_version": "03MSL_Solutions_v8",
+    "date": "2026-11-12"
   },
   "reviewed_by": null
 }

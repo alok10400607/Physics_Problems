@@ -46,11 +46,23 @@
       "year": 2019
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "id": "P000177-sol-1",
+      "role": "solution",
+      "file": "P000/P000177-sol-1.png",
+      "format": "png",
+      "width": 804,
+      "height": 356,
+      "alt": "A passenger train 60 m long on one track and a freight train 120 m long on the next. The relative distance to cross is 60 + 120 = 180 m.",
+      "origin": "docx",
+      "needs_redraw": false
+    }
+  ],
   "rights": "past-paper",
   "content_hash": "e60c9fb2d1d97c5e",
   "duplicate_of": null,
   "variant_of": null,
   "created": "2026-11-08",
-  "updated": "2026-11-08"
+  "updated": "2026-11-12"
 }

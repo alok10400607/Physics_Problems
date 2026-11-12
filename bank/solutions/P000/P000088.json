@@ -1,0 +1,32 @@
+{
+  "id": "P000088",
+  "problem_version": 1,
+  "status": "ai_solved",
+  "hints": [
+    "Follow one point, the front of the engine. Between the moment it enters the bridge and the moment the last coach leaves, it travels the bridge length plus the train length."
+  ],
+  "worded": "1. “Crossing” begins when the front of the engine reaches the bridge and ends when the last coach leaves it.\n\n2. A train in uniform motion is a rigid body in translation, so every point on it moves the same way. Follow just the front of the engine.\n\n3. The front must cover the bridge, 850 m. At that moment the rest of the train, 150 m, is still on the bridge, so the front must go another 150 m. Total: 1000 m.\n\n4. 1000 m is exactly 1 km. At 45 km/h, 1 km takes 1/45 of an hour, which is 3600/45 = 80 s. (C)\n\n**Another way: convert to m/s.** Convert first: 45 × 5/18 = 12.5 m/s, and 1000/12.5 = 80 s.",
+  "conventional": "![](asset:P000088-sol-1)\n\nDistance to be covered by the front of the engine:\n\n$$s = B + L = 850 + 150 = 1000\\unit{m}.$$\n\nSpeed:\n\n$$v = 45 \\times \\frac{5}{18} = 12.5\\unit{m/s}.$$\n\nTime:\n\n$$t = \\frac{s}{v} = \\frac{1000}{12.5} = 80\\unit{s}.$$",
+  "mistakes": [
+    "Crossing ends when the last coach leaves the bridge: add the train’s length (850 m alone gives the distractor 68 s).",
+    "Convert 45 km/h to m/s (× 5/18) before dividing metres by speed, or keep everything in km and hours."
+  ],
+  "distractors": {
+    "B": "Using only the bridge length gives 850/12.5 = 68 s (B).",
+    "A": "Subtracting the train length gives 700/12.5 = 56 s (A)."
+  },
+  "extension": null,
+  "check": {
+    "solved_answer": "(C) 80 s.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": "03MSL_Solutions_v8",
+    "date": "2026-11-12"
+  },
+  "reviewed_by": null
+}

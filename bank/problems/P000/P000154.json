@@ -27,11 +27,23 @@
       "qno": 70
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "id": "P000154-sol-1",
+      "role": "solution",
+      "file": "P000/P000154-sol-1.png",
+      "format": "png",
+      "width": 679,
+      "height": 476,
+      "alt": "Position–time graph in m and s: a parabola starting at 10 m at t = 0, dipping to −15 m at t = 5 s and back to 10 m at t = 10 s.",
+      "origin": "docx",
+      "needs_redraw": false
+    }
+  ],
   "rights": "unverified",
   "content_hash": "c002f1745f2210bd",
   "duplicate_of": null,
   "variant_of": null,
   "created": "2026-11-08",
-  "updated": "2026-11-08"
+  "updated": "2026-11-12"
 }

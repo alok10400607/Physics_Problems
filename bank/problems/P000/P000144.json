@@ -35,11 +35,23 @@
       "qno": 60
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "id": "P000144-sol-1",
+      "role": "solution",
+      "file": "P000/P000144-sol-1.png",
+      "format": "png",
+      "width": 638,
+      "height": 433,
+      "alt": "Velocity–time graph in m/s and s: a straight line from 0 to 6 m/s at t = 3 s. The shaded area under it is 9 m.",
+      "origin": "docx",
+      "needs_redraw": false
+    }
+  ],
   "rights": "unverified",
   "content_hash": "1b80582742e096e8",
   "duplicate_of": null,
   "variant_of": null,
   "created": "2026-11-08",
-  "updated": "2026-11-08"
+  "updated": "2026-11-12"
 }

@@ -1,0 +1,29 @@
+{
+  "id": "P000107",
+  "problem_version": 1,
+  "status": "ai_solved",
+  "hints": [
+    "The ball spends 3 s above the boy, half going up and half coming down. How fast must it be moving as it passes him?"
+  ],
+  "worded": "1. The ball passes the top of the tower going up and again coming down, 3 s apart. By symmetry it takes 1.5 s from the boy up to its highest point.\n\n2. To stop in 1.5 s under g, it must pass the boy at 15 m/s.\n\n3. So between the ground and the top of the tower the speed falls from 25 to 15 m/s. That takes 1 s, at an average speed of 20 m/s: 20 m. (B)\n\n4. Check: the top of the flight is 25²/20 = 31.25 m, and 15²/20 = 11.25 m above the tower top. 20 + 11.25 = 31.25. It fits.\n\n**Another way: product of the two times.** The ball is at height h at two instants whose difference is 3 s and whose sum is the whole flight time 2 × 25/10 = 5 s. So the instants are 1 s and 4 s, and h = ½g × (1 × 4) = 20 m.",
+  "conventional": "![](asset:P000107-sol-1)\n\nTake up as positive. The ball spends 3 s above the top of the tower, so by symmetry the speed there is\n\n$$v = g\\left( \\frac{3}{2} \\right) = 15\\unit{m/s}.$$\n\nFrom the ground to the top of the tower, using $v^{2} = u^{2} - 2gh$:\n\n$$15^{2} = 25^{2} - 2(10)h\\  \\Rightarrow \\ h = \\frac{625 - 225}{20} = 20\\unit{m}.$$",
+  "mistakes": [
+    "The 3 s is spent above the boy (up and back down), so use 1.5 s, not 3 s, for the time to the top.",
+    "The tower height is not the maximum height (31.25 m); the ball goes 11.25 m above the boy."
+  ],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "solved_answer": "(B) 20 m.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": "03MSL_Solutions_v8",
+    "date": "2026-11-12"
+  },
+  "reviewed_by": null
+}

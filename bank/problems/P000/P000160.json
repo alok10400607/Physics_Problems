@@ -35,11 +35,23 @@
       "qno": 76
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "id": "P000160-sol-1",
+      "role": "solution",
+      "file": "P000/P000160-sol-1.png",
+      "format": "png",
+      "width": 525,
+      "height": 437,
+      "alt": "Position–time graph: two straight lines from the origin, A at 30° and B at 60° to the time axis. A note says slope = velocity.",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
   "rights": "unverified",
   "content_hash": "7c763f8e6499d356",
   "duplicate_of": null,
   "variant_of": null,
   "created": "2026-11-08",
-  "updated": "2026-11-08"
+  "updated": "2026-11-12"
 }

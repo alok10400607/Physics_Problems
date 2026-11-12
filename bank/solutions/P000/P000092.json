@@ -1,0 +1,31 @@
+{
+  "id": "P000092",
+  "problem_version": 1,
+  "status": "ai_solved",
+  "hints": [
+    "The remaining part is 1 − ¼ − ⅓ = 5/12 of the circle. Time for each part = (its share of the circumference) ÷ (its speed)."
+  ],
+  "worded": "1. Only fractions of the circumference and the speeds enter. The radius will cancel, so call the circumference C.\n\n2. The parts are ¼, ⅓ and 1 − ¼ − ⅓ = 5/12 of C.\n\n3. Pick a convenient C, say 36 units (divisible by 4, 3 and 12, and the pieces divide neatly by the speeds). The pieces are 9, 12 and 15 units.\n\n4. Times: 9 units at v takes 9/v; 12 at 2v takes 6/v; 15 at 3v takes 5/v. Total time 20/v.\n\n5. Average speed = 36 ÷ (20/v) = 1.8v.\n\n6. Sense check: the answer lies between v and 3v and below 2v, because nearly half the time (9 of 20 parts) is spent on the slowest stretch.\n\n7. The particle completes the circle, so its average velocity is zero.",
+  "conventional": "![](asset:P000092-sol-1)\n\nLet $L = 2\\pi R$.\n\n$$t_{1} = \\frac{L/4}{v} = \\frac{L}{4v},\\quad t_{2} = \\frac{L/3}{2v} = \\frac{L}{6v},\\quad t_{3} = \\frac{5L/12}{3v} = \\frac{5L}{36v}.$$\n\n$$t_{1} + t_{2} + t_{3} = \\frac{L}{36v}(9 + 6 + 5) = \\frac{5L}{9v}.$$\n\n$$\\bar{v} = \\frac{L}{5L/9v} = \\frac{9v}{5} = 1.8\\, v.$$",
+  "mistakes": [
+    "Averaging v, 2v and 3v (giving 2v) is wrong: each speed must be weighted by the time spent at it.",
+    "The last part is 5/12 of the circle, not ⅓."
+  ],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "solved_answer": "1.8v (independent of R). The average velocity over the full circle is zero.",
+    "resolve_answer": null,
+    "agrees_with_key": null,
+    "issues": [
+      "answer to be compared with the key by the reviewer"
+    ]
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": "03MSL_Solutions_v8",
+    "date": "2026-11-12"
+  },
+  "reviewed_by": null
+}

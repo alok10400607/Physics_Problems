@@ -1,23 +1,28 @@
 {
   "id": "P000158",
   "problem_version": 1,
-  "status": "draft",
+  "status": "ai_solved",
   "hints": [
-    "As the problem requires relationship between $v\\ and\\ x$: use $a = v\\frac{dv}{dx} = - k\\sqrt{v}$"
+    "Distance and velocity, no time: write the acceleration as v dv/dx and separate the variables."
   ],
-  "worded": null,
-  "conventional": null,
-  "mistakes": [],
+  "worded": "1. Acceleration depends on v, and the question links v with distance. So use a = v dv/dx.\n\n2. v dv/dx = −k√v gives √v dv = −k dx.\n\n3. Integrating √v from u down to 0 gives ⅔u^(3/2), which equals k times the distance. So the distance is 2u^(3/2)/3k. (B)\n\n4. Units check: k has units m^½ s^(−3/2), and u^(3/2)/k comes out in metres. Option (C) and (D) have k in the numerator and fail this check.",
+  "conventional": "![](asset:P000158-sol-1)\n\n$$v\\frac{dv}{dx} = - k\\sqrt{v}\\  \\Rightarrow \\ \\sqrt{v}\\, dv = - k\\, dx.$$\n\n$$\\int_{u}^{0}v^{1/2}\\, dv = - k\\int_{0}^{s}dx\\  \\Rightarrow \\  - \\frac{2}{3}u^{3/2} = - ks\\  \\Rightarrow \\ s = \\frac{2u^{3/2}}{3k}.$$",
+  "mistakes": [
+    "Use a = v dv/dx (for distance), not a = dv/dt (which gives the stopping time, 2√u/k)."
+  ],
   "distractors": {},
   "extension": null,
   "check": {
+    "solved_answer": "(B) $\\frac{2}{3k}u^{3/2}$.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
     "issues": []
   },
   "generated_by": {
     "author": "worksheet",
     "model": null,
-    "prompt_version": null,
-    "date": "2026-11-08"
+    "prompt_version": "03MSL_Solutions_v8",
+    "date": "2026-11-12"
   },
   "reviewed_by": null
 }

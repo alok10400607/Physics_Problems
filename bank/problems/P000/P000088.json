@@ -35,11 +35,23 @@
       "qno": 4
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "id": "P000088-sol-1",
+      "role": "solution",
+      "file": "P000/P000088-sol-1.png",
+      "format": "png",
+      "width": 1276,
+      "height": 501,
+      "alt": "Two snapshots of a train and a bridge. At the start the front of the engine is at the near end of the bridge; at the end the train has just left the far end. Dimension lines show bridge B = 850 m, train L = 150 m, and the front of the engine travelling B + L = 1000 m.",
+      "origin": "docx",
+      "needs_redraw": false
+    }
+  ],
   "rights": "unverified",
   "content_hash": "cc2950a99e9f02b6",
   "duplicate_of": null,
   "variant_of": null,
   "created": "2026-11-08",
-  "updated": "2026-11-08"
+  "updated": "2026-11-12"
 }

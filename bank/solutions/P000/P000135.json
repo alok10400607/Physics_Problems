@@ -1,0 +1,28 @@
+{
+  "id": "P000135",
+  "problem_version": 1,
+  "status": "ai_solved",
+  "hints": [
+    "Find where the first ball is 4 s after its throw. The second ball must cover that distance in its 2 s."
+  ],
+  "worded": "1. The first ball, thrown down at 5 m/s, is 5 × 4 + 5 × 16 = 100 m below the start after 4 s.\n\n2. The second ball must cover those 100 m in 2 s. Gravity gives it 20 m in 2 s on its own, so its throw must supply the other 80 m: 40 m/s. (A)\n\n3. Check: the second ball must be faster than the first at the meeting, or it could never catch up. The first is moving at 45 m/s at t = 4 s; the second at 40 + 20 = 60 m/s. It fits.\n\n**Another way: relative motion.** At t = 2 s the first ball is 30 m down, moving at 25 m/s. Both then have the same acceleration, so the second ball must close the 30 m gap in 2 s with a relative speed of 15 m/s: 25 + 15 = 40 m/s.",
+  "conventional": "![](asset:P000135-sol-1)\n\nBall 1 at $t = 4$ s: $s_{1} = 5(4) + \\frac{1}{2}(10)(4)^{2} = 100$ m.\n\nBall 2 over 2 s: $u(2) + \\frac{1}{2}(10)(2)^{2} = 100\\  \\Rightarrow \\ u = 40$ m/s.",
+  "mistakes": [
+    "Use the first ball’s total time (4 s), not 2 s, for its position."
+  ],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "solved_answer": "(A) 40 m/s.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": "03MSL_Solutions_v8",
+    "date": "2026-11-12"
+  },
+  "reviewed_by": null
+}

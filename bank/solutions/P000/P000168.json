@@ -1,23 +1,31 @@
 {
   "id": "P000168",
-  "problem_version": 1,
-  "status": "draft",
+  "problem_version": 2,
+  "status": "ai_solved",
   "hints": [
-    "Other three represent a vertical projectile with instantaneous rest at highest point. Option C has max slope at mid-point (implying maximum speed) which doesn’t match with the rest"
+    "Three of the graphs describe a ball thrown straight up that comes back down. Name that motion from the clearest graph, then ask of each other graph: what should its slope be at the start, at the top, and at the end?"
   ],
-  "worded": null,
-  "conventional": null,
-  "mistakes": [],
+  "worded": "1. Graph (A): velocity starts positive, falls at a steady rate, passes through zero and becomes negative. That is constant downward acceleration: a body thrown up that stops at the top and comes back.\n\n2. Graph (D): position rises, flattens, and falls back to zero along a symmetric arch. That is the same throw: it returns to the starting point.\n\n3. Graph (B): velocity against position. Going up, v falls from u to zero as the position grows; coming down, v is negative and grows in size as the position shrinks back to zero. v² falls linearly with height, so each half is a sideways parabola. That fits too.\n\n4. Graph (C): distance only ever grows, at a rate equal to the speed. The speed is largest at the start, zero at the top, and largest again at the end. So the distance–time curve must start steep, go flat at the top, and end steep.\n\n5. Graph (C) does the opposite: it starts flat (zero speed at launch) and ends flat (zero speed at the end). It is the incorrect one. (C)\n\n**No-pen route.** Speed at launch and at return is the largest in the whole flight, so any distance–time graph for this motion must be steepest at both ends. (C) is flattest at both ends.",
+  "conventional": "![](asset:P000168-sol-1)\n\nTake up as positive with launch speed $u$:\n\n-   Graph (A): $v = u - gt$: straight line, slope $- g$. Correct.\n\n-   Graph (D): $x = ut - \\frac{1}{2}gt^{2}$: arch returning to zero at $t = 2u/g$. Correct.\n\n-   Graph (B): $v^{2} = u^{2} - 2gx$: $v = \\pm \\sqrt{u^{2} - 2gx}$, a sideways parabola, upper half going out and lower half coming back. Correct.\n\n-   Graph (C): distance $d(t)$ has slope = speed $= |u - gt|$: largest ($u$) at $t = 0$ and at $t = 2u/g$, zero at the top. The graph shown has zero slope at both ends. Incorrect.",
+  "mistakes": [
+    "Distance–time and position–time differ: position comes back down, but distance never decreases; its slope is the speed, never negative.",
+    "A flat start on a distance–time graph means the body starts from rest; a thrown body starts at its fastest."
+  ],
   "distractors": {},
   "extension": null,
   "check": {
-    "issues": []
+    "solved_answer": "(C).",
+    "resolve_answer": null,
+    "agrees_with_key": true,
+    "issues": [
+      "problem text differs from the bank (similarity 0.89)"
+    ]
   },
   "generated_by": {
     "author": "worksheet",
     "model": null,
-    "prompt_version": null,
-    "date": "2026-11-08"
+    "prompt_version": "03MSL_Solutions_v8",
+    "date": "2026-11-12"
   },
   "reviewed_by": null
 }

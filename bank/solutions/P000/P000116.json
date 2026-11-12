@@ -1,23 +1,32 @@
 {
   "id": "P000116",
-  "problem_version": 1,
-  "status": "draft",
+  "problem_version": 2,
+  "status": "ai_solved",
   "hints": [
-    "> Net downward acceleration during upward motion (A – B): $(g + a)$, and $(g - a)$ during downward motion."
+    "Resistance always opposes motion. So which way does it point going up, and going down? That gives two different constant accelerations."
   ],
-  "worded": null,
-  "conventional": null,
-  "mistakes": [],
+  "worded": "1. Resistance opposes the motion. Going up, it acts downward, with gravity: the deceleration is g + a. Going down, it acts upward, against gravity: the acceleration is g − a. Each phase has its own constant acceleration, so treat them separately.\n\n2. Ascent: the speed u falls to zero at the rate g + a, taking u/(g + a). The height is u²/2(g + a), lower than without air.\n\n3. Descent: the same height is covered from rest with the smaller acceleration g − a. Smaller acceleration over the same distance means more time: descent takes longer than ascent.\n\n4. The landing speed comes from v² = 2(g − a)H, which is less than u. Air has taken energy away on both legs.\n\n5. At the same height, D (going up) is faster than E (coming down). The body is on its way to stopping, and air resistance only ever removes speed.\n\n**Another way: v–t graph.** The graph is two straight lines: steep (slope −(g + a)) up to the top, then gentler (slope −(g − a)) below the axis. The two triangles have equal areas (same height H). The gentler triangle must be longer and shallower: longer descent, smaller landing speed.",
+  "conventional": "![](asset:P000116-sol-1)\n\n![](asset:P000116-sol-2)\n\nTake up as positive for the ascent and down as positive for the descent.\n\n(i) Ascent, deceleration $g + a$:\n\n$$t_{a} = \\frac{u}{g + a}.$$\n\n(iii) Maximum height:\n\n$$H = \\frac{u^{2}}{2(g + a)}.$$\n\n(ii) Descent from rest through $H$ with acceleration $g - a$:\n\n$$t_{d} = \\sqrt{\\frac{2H}{g - a}} = \\frac{u}{\\sqrt{(g + a)(g - a)}} = \\frac{u}{\\sqrt{g^{2} - a^{2}}}.$$\n\nNote $t_{d}/t_{a} = \\sqrt{(g + a)/(g - a)} > 1$.\n\n(iv) Speed at the ground:\n\n$$v_{C} = \\sqrt{2(g - a)H} = u\\sqrt{\\frac{g - a}{g + a}} < u.$$\n\n(v) At height $y$: going up, $v_{D}^{2} = u^{2} - 2(g + a)y = 2(g + a)(H - y)$; coming down, $v_{E}^{2} = 2(g - a)(H - y)$. Since $g + a > g - a$, $v_{D} > v_{E}$.",
+  "mistakes": [
+    "The resistance flips direction at the top, so the acceleration is g + a going up and g − a coming down; one SUVAT equation cannot cover the whole flight.",
+    "The descent time is not u/(g − a): the body does not start the descent with speed u. Use the height: $t_{d} = \\sqrt{2H/(g - a)}$."
+  ],
   "distractors": {},
   "extension": null,
   "check": {
-    "issues": []
+    "solved_answer": "(i) $t_{a} = \\frac{u}{g + a}$; (ii) $t_{d} = \\frac{u}{\\sqrt{g^{2} - a^{2}}}$; (iii) $H = \\frac{u^{2}}{2(g + a)}$; (iv) $v_{C} = u\\sqrt{\\frac{g - a}{g + a}}$; (v) D (going up) is faster than E.",
+    "resolve_answer": null,
+    "agrees_with_key": null,
+    "issues": [
+      "problem text differs from the bank (similarity 0.57)",
+      "answer to be compared with the key by the reviewer"
+    ]
   },
   "generated_by": {
     "author": "worksheet",
     "model": null,
-    "prompt_version": null,
-    "date": "2026-11-08"
+    "prompt_version": "03MSL_Solutions_v8",
+    "date": "2026-11-12"
   },
   "reviewed_by": null
 }

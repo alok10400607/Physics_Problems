@@ -35,11 +35,23 @@
       "qno": 54
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "id": "P000138-sol-1",
+      "role": "solution",
+      "file": "P000/P000138-sol-1.png",
+      "format": "png",
+      "width": 733,
+      "height": 419,
+      "alt": "Velocity–time graph: rising with slope a to aT at time T, then falling with slope −b to zero. A dashed line at aT/2 marks the average velocity.",
+      "origin": "docx",
+      "needs_redraw": false
+    }
+  ],
   "rights": "unverified",
   "content_hash": "d13815291fe23cbb",
   "duplicate_of": null,
   "variant_of": null,
   "created": "2026-11-08",
-  "updated": "2026-11-08"
+  "updated": "2026-11-12"
 }

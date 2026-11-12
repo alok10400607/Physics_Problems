@@ -6,17 +6,19 @@ Read this first in a new session, together with `CLAUDE.md`.
 
 | Item | State |
 |---|---|
-| Bank | 534 problems, P000001–P000534, in 6 chapters (03, 04, 05, 07, 08, 17), on `main` |
-| PR #5 | Energy in SHM (1715) pilot solutions and the `@claude` review-request rules. **Open.** Merge before #6. |
-| PR #6 | Student view: chapters → subtopics → Practice / Custom test / Notes / Exemplars tabs. **Open.** |
+| Bank | 534 problems, P000001–P000534, in 6 chapters (03, 04, 05, 07, 08, 17) |
+| PRs #5, #6 | Merged into `main` on 8 November |
+| This branch | `next/solutions-importer`: 03MSL v3 applied, 03MSL solutions v8 imported, solution links on the student page. Open as a PR. |
 | Live site | https://physics-problems.alok1040.workers.dev (Cloudflare builds from `main` automatically) |
-| Review page (1715) | https://claude.ai/artifact/4ggmBak5o3DRwFVd9rw51B, built by `tools/review_workbench.js`, published with `capabilities: {"sample": {}}` |
-| Automation | `inbox/` uploads and `@claude` comments work (secret `CLAUDE_CODE_OAUTH_TOKEN` is set) |
+| Review pages | 1715: https://claude.ai/artifact/4ggmBak5o3DRwFVd9rw51B · 0305 (03MSL Q1–Q10): https://claude.ai/artifact/NBp75iWxkb4DfeDKGdnaua. Both built by `tools/review_workbench.js`, with `capabilities: {"sample": {}}` |
+| Automation | `inbox/` uploads (now including problems + solutions pairs) and `@claude` comments work |
 | Open decision | Cloudflare Access to make the site private. The site is currently public. |
 | Known issue | Cloudflare preview builds of branches fail (production builds of `main` succeed); likely branch names with `/` and capitals |
-| Source fixes owed by the owner | 03MSL Q84 (P000168) and 04MIP Q72 (P000252) lack their four option graphs; JeeProblems.csv needs an Answer column |
+| Source fixes owed by the owner | 04MIP Q72 (P000252) lacks its four option graphs; 03MSL Q82 (P000166) still has four unlabelled pictures instead of (A)–(D) options; JeeProblems.csv needs an Answer column. (03MSL Q84 was fixed in v3.) |
+| Older debt | 46 problems still have maths typed with `<sup>` tags (e.g. P000113's options); fix during solution writing or review |
+| Not stored | The solutions file's "Notes: Sec. …" lines (links to the revision notes). If the owner wants them on the site, add a `notes_ref` field to the solution schema and re-import |
 
-## The next task: separate problem and solution files
+## Done on 12 November: separate problem and solution files
 
 From now on, each topic comes as two files:
 - **Problems:** e.g. `worksheets/03MSL_v3.docx` (a new version of the already-imported 03MSL_v2, P000085–P000180)
@@ -55,6 +57,19 @@ Both sample files are on this branch (`next/solutions-importer`, which is based 
    - "Watch out" shows with the conventional solution.
 4. Extend the `bank-import` skill and `inbox/` workflow to accept a problems + solutions pair.
 5. Rebuild the review page for a 03MSL subtopic so the owner can review the imported solutions.
+
+### What was built
+
+1. `tools/import_solutions.py` (`--check`, `--write`, `--only`, `--replace`, `--report`). "No-pen route" sections are treated like "Another way". "Why the other options are there" goes to `distractors` when each sentence names one option. Word's equations are brought to the maths style (`\unit{}`, `\vec`, `\ihat`, `\mkern`, `\text{}`). 03MSL: 96 solutions, all answers agree with the key, all `ai_solved`, 94 solution figures with alt text.
+2. `tools/import_docx.py --update`: matches by question number after a text check, rewrites only changed problems (type, stem, options, answer, figures), keeps IDs and alt text. 03MSL v3 changed 10 problems; see the PR.
+3. Student page: Hint · Word solution · Conventional solution under each question. Hint is open from the start; the solutions unlock after an answer, "I give up", or "Show answer" on written questions. Watch out and "Why not the other options" come with the conventional solution. Nothing shows during a timed test until it is submitted.
+4. `bank-import` skill, `inbox/README.md`, the Actions prompt and `docs/worksheet-contract.md` describe pairs and new versions.
+5. Review page for 0305 (link above); the workbench now shows "Why not the other options" and uses the new level names.
+
+### Next
+
+- The owner reviews 0305, then the other 03MSL subtopics: `node tools/review_workbench.js --topic <code> --out <file>`.
+- The review JSON cannot yet change `distractors`; add it to the workbench and `solution_fingerprint.js` if reviewers want to edit them.
 
 ## How to start the new session
 

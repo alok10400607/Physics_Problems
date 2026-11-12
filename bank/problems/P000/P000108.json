@@ -27,11 +27,23 @@
       "qno": 24
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "id": "P000108-sol-1",
+      "role": "solution",
+      "file": "P000/P000108-sol-1.png",
+      "format": "png",
+      "width": 700,
+      "height": 537,
+      "alt": "A body thrown up from A on the ground passes point B (height h_B) going up after t₁, rises to the top and returns to B after t₂ − t₁, then takes t₁ more (by symmetry) to reach the ground. The whole flight is T = t₁ + t₂.",
+      "origin": "docx",
+      "needs_redraw": false
+    }
+  ],
   "rights": "unverified",
   "content_hash": "eef7ba481e6b9b91",
   "duplicate_of": null,
   "variant_of": null,
   "created": "2026-11-08",
-  "updated": "2026-11-08"
+  "updated": "2026-11-12"
 }

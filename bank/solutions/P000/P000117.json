@@ -1,0 +1,29 @@
+{
+  "id": "P000117",
+  "problem_version": 1,
+  "status": "ai_solved",
+  "hints": [
+    "The particle covers the same height going up (acceleration 16 m/s²) and coming down (4 m/s²). For the same distance from or to rest, how does time depend on acceleration?"
+  ],
+  "worded": "1. Going up, gravity and resistance both act downward: deceleration 10 + 6 = 16 m/s². Coming down, resistance acts upward: acceleration 10 − 6 = 4 m/s².\n\n2. Both legs cover the same height, each between rest and motion (ascent ends at rest; descent starts from rest).\n\n3. For a given distance from rest, time goes as one over the square root of acceleration. The descent acceleration is one-quarter of the ascent value, so the descent takes √4 = 2 times as long. (A)",
+  "conventional": "![](asset:P000117-sol-1)\n\nAscent (run backwards from the top): $H = \\frac{1}{2}(g + a)t_{a}^{2}$. Descent: $H = \\frac{1}{2}(g - a)t_{d}^{2}$. So\n\n$$\\frac{t_{d}}{t_{a}} = \\sqrt{\\frac{g + a}{g - a}} = \\sqrt{\\frac{16}{4}} = 2.$$",
+  "mistakes": [
+    "The ratio of accelerations is 4, but times go as the square root: 2, not 4 (option C).",
+    "Without resistance the ratio would be 1 (option D); resistance always makes the descent longer."
+  ],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "solved_answer": "(A) 2.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": "03MSL_Solutions_v8",
+    "date": "2026-11-12"
+  },
+  "reviewed_by": null
+}

@@ -28,11 +28,23 @@
       "qno": 7
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "id": "P000091-sol-1",
+      "role": "solution",
+      "file": "P000/P000091-sol-1.png",
+      "format": "png",
+      "width": 982,
+      "height": 282,
+      "alt": "A line split into a first half of the distance at 3 m/s and a second half, which is divided into two equal times t at 4.5 m/s and 7.5 m/s.",
+      "origin": "docx",
+      "needs_redraw": false
+    }
+  ],
   "rights": "unverified",
   "content_hash": "2e2cc8600e3ff65c",
   "duplicate_of": null,
   "variant_of": null,
   "created": "2026-11-08",
-  "updated": "2026-11-08"
+  "updated": "2026-11-12"
 }

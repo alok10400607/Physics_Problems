@@ -1,0 +1,28 @@
+{
+  "id": "P000145",
+  "problem_version": 1,
+  "status": "ai_solved",
+  "hints": [
+    "Is v ever negative between 1 s and 2 s? If not, distance is just the integral of v over that interval."
+  ],
+  "worded": "1. A, B and t are all positive, so v stays positive: no reversal, and distance equals displacement.\n\n2. Distance = area under v from 1 to 2. The At part gives A(4 − 1)/2 = 3A/2; the Bt² part gives B(8 − 1)/3 = 7B/3. (C)\n\n3. Sense check: (A) and (B) have no division by the powers, the sign of forgetting to integrate properly.",
+  "conventional": "![](asset:P000145-sol-1)\n\n$$s = \\int_{1}^{2}\\left( At + Bt^{2} \\right)\\, dt = \\left\\lbrack \\frac{At^{2}}{2} + \\frac{Bt^{3}}{3} \\right\\rbrack_{1}^{2} = \\frac{3}{2}A + \\frac{7}{3}B.$$",
+  "mistakes": [
+    "Check that v doesn’t change sign in the interval before equating distance with ∫v dt."
+  ],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "solved_answer": "(C) $\\frac{3}{2}A + \\frac{7}{3}B$.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": "03MSL_Solutions_v8",
+    "date": "2026-11-12"
+  },
+  "reviewed_by": null
+}

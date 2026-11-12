@@ -1,23 +1,28 @@
 {
   "id": "P000147",
   "problem_version": 1,
-  "status": "draft",
+  "status": "ai_solved",
   "hints": [
-    "> ![](/tmp/import-bzoi1s3c/media/image35.png){width=\"1.5748031496062993in\" height=\"0.9330708661417323in\"}The acceleration is a linear function of time as shown\n\n>\n\n> The area under the graph will give change in velocity"
+    "Sketch f against t: a straight line from f₀ down to zero. The velocity gained is the area under it."
   ],
-  "worded": null,
-  "conventional": null,
-  "mistakes": [],
+  "worded": "1. f becomes zero at t = T.\n\n2. Starting from rest, the velocity at T equals the area under the f–t graph from 0 to T.\n\n3. That graph is a triangle with height f₀ and base T: area ½f₀T. (A)\n\n4. Units check: (C) and (D) have units of distance, not velocity.",
+  "conventional": "![](asset:P000147-sol-1)\n\n$f = 0$ at $t = T$.\n\n$$v = \\int_{0}^{T}f_{0}\\left( 1 - \\frac{t}{T} \\right)dt = f_{0}\\left\\lbrack t - \\frac{t^{2}}{2T} \\right\\rbrack_{0}^{T} = \\frac{1}{2}f_{0}T.$$",
+  "mistakes": [
+    "v = f₀T (option B) wrongly assumes the acceleration stays f₀ throughout."
+  ],
   "distractors": {},
   "extension": null,
   "check": {
+    "solved_answer": "(A) ½$f_{0}T$.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
     "issues": []
   },
   "generated_by": {
     "author": "worksheet",
     "model": null,
-    "prompt_version": null,
-    "date": "2026-11-08"
+    "prompt_version": "03MSL_Solutions_v8",
+    "date": "2026-11-12"
   },
   "reviewed_by": null
 }

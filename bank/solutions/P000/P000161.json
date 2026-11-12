@@ -1,23 +1,28 @@
 {
   "id": "P000161",
   "problem_version": 1,
-  "status": "draft",
+  "status": "ai_solved",
   "hints": [
-    "Displacements: 0 – 2 sec: +$8m$; 2 – 4 sec: $- 4m$ and 4 – 6 sec: $+ 4m$;\n\nDistance travelled is sum of magnitude of displacements"
+    "Area under a v–t graph is displacement. Areas below the time axis count as negative for displacement but positive for distance."
   ],
-  "worded": null,
-  "conventional": null,
-  "mistakes": [],
+  "worded": "1. Three rectangles: 4 m/s for 2 s, −2 m/s for 2 s, +2 m/s for 2 s.\n\n2. Signed areas: +8, −4, +4. Displacement = 8 m.\n\n3. Distance adds the sizes: 8 + 4 + 4 = 16 m. (A)\n\n4. Check: distance is at least the displacement, and larger here because the body reverses for 2 s.",
+  "conventional": "![](asset:P000161-sol-1)\n\n$$s = 4(2) + ( - 2)(2) + 2(2) = 8\\unit{m},\\quad\\quad d = 8 + 4 + 4 = 16\\unit{m}.$$",
+  "mistakes": [
+    "Don’t add the area below the axis to the displacement: it is negative."
+  ],
   "distractors": {},
   "extension": null,
   "check": {
+    "solved_answer": "(A) 8 m, 16 m.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
     "issues": []
   },
   "generated_by": {
     "author": "worksheet",
     "model": null,
-    "prompt_version": null,
-    "date": "2026-11-08"
+    "prompt_version": "03MSL_Solutions_v8",
+    "date": "2026-11-12"
   },
   "reviewed_by": null
 }

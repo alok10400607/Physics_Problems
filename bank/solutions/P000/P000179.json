@@ -1,0 +1,29 @@
+{
+  "id": "P000179",
+  "problem_version": 1,
+  "status": "ai_solved",
+  "hints": [
+    "In the lift’s frame the bolt starts at rest. What is its acceleration relative to the floor?"
+  ],
+  "worded": "1. At the instant it comes loose, the bolt shares the lift’s velocity, so relative to the lift it starts from rest. The “2 seconds” only sets that common velocity, which drops out.\n\n2. Relative to the lift, the bolt accelerates down at g + a = 12 m/s².\n\n3. 2.7 = ½ × 12 × t², so t² = 0.45 = 9/20. (B)",
+  "conventional": "![](asset:P000179-sol-1)\n\nIn the lift’s frame: $u_{rel} = 0$, $a_{rel} = g + a = 12$ m/s², $s_{rel} = 2.7$ m.\n\n$$2.7 = \\frac{1}{2}(12)t^{2}\\  \\Rightarrow \\ t = \\sqrt{\\frac{9}{20}}\\unit{s}.$$",
+  "mistakes": [
+    "The 2 s is a distractor: the time the lift has been moving does not affect the relative motion.",
+    "Use g + a, not g: the floor rises to meet the bolt."
+  ],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "solved_answer": "(B) $\\sqrt{9/20}$ s.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": "03MSL_Solutions_v8",
+    "date": "2026-11-12"
+  },
+  "reviewed_by": null
+}

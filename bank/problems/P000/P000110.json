@@ -35,11 +35,23 @@
       "qno": 26
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "id": "P000110-sol-1",
+      "role": "solution",
+      "file": "P000/P000110-sol-1.png",
+      "format": "png",
+      "width": 705,
+      "height": 554,
+      "alt": "Velocity–time graph: a straight line from v₀ at t = 0, crossing zero at v₀/g and reaching −v₀/3 at 4v₀/3g. The area above the axis is v₀²/2g (up); the small area below is v₀²/18g (down).",
+      "origin": "docx",
+      "needs_redraw": false
+    }
+  ],
   "rights": "unverified",
   "content_hash": "2f30997f7e3461f5",
   "duplicate_of": null,
   "variant_of": null,
   "created": "2026-11-08",
-  "updated": "2026-11-08"
+  "updated": "2026-11-12"
 }

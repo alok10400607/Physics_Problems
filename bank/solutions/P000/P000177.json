@@ -1,0 +1,28 @@
+{
+  "id": "P000177",
+  "problem_version": 1,
+  "status": "ai_solved",
+  "hints": [
+    "In either case the relative distance is the sum of the lengths. Only the relative speed changes."
+  ],
+  "worded": "1. To cross completely, the passenger train must move 60 + 120 = 180 m relative to the freight train, in both cases.\n\n2. Same direction: relative speed 80 − 30 = 50 km/h. Opposite: 80 + 30 = 110 km/h.\n\n3. Same distance, so time ∝ 1/speed: t₁/t₂ = 110/50 = 11/5. (C)",
+  "conventional": "![](asset:P000177-sol-1)\n\n$$\\frac{t_{1}}{t_{2}} = \\frac{180/(80 - 30)}{180/(80 + 30)} = \\frac{110}{50} = \\frac{11}{5}.$$",
+  "mistakes": [
+    "The ratio is inverse to the relative speeds; don’t invert it to 5/11."
+  ],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "solved_answer": "(C) 11/5.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": "03MSL_Solutions_v8",
+    "date": "2026-11-12"
+  },
+  "reviewed_by": null
+}

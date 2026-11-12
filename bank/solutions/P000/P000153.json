@@ -1,0 +1,28 @@
+{
+  "id": "P000153",
+  "problem_version": 1,
+  "status": "ai_solved",
+  "hints": [
+    "Average speed is total distance ÷ total time. Distance is the area under v from 0 to T."
+  ],
+  "worded": "1. v is never negative, so distance = area under ½kt² from 0 to T = kT³/6.\n\n2. Dividing by T gives kT²/6. (D)\n\n3. Sense check: the average of t² over 0 to T is T²/3 (not T²/2, because the curve is low for most of the time). Then ½k × T²/3 = kT²/6.",
+  "conventional": "![](asset:P000153-sol-1)\n\n$$s = \\int_{0}^{T}\\frac{1}{2}kt^{2}\\, dt = \\frac{kT^{3}}{6},\\quad\\quad\\bar{v} = \\frac{s}{T} = \\frac{kT^{2}}{6}.$$",
+  "mistakes": [
+    "Averaging the first and last speeds (½ × ½kT² = ¼kT²) works only for constant acceleration; here a is not constant."
+  ],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "solved_answer": "(D) $\\frac{1}{6}kT^{2}$.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": "03MSL_Solutions_v8",
+    "date": "2026-11-12"
+  },
+  "reviewed_by": null
+}

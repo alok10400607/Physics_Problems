@@ -1,0 +1,28 @@
+{
+  "id": "P000148",
+  "problem_version": 1,
+  "status": "ai_solved",
+  "hints": [
+    "Differentiate twice and set the result to zero."
+  ],
+  "worded": "1. v = 2at − 3bt², and a(t) = 2a − 6bt.\n\n2. Acceleration starts positive (2a) and falls linearly; it is zero when 6bt = 2a, i.e. t = a/3b. (C)\n\n3. Option (B), 2a/3b, is where the velocity is zero, not the acceleration.",
+  "conventional": "![](asset:P000148-sol-1)\n\n$$v = \\frac{dx}{dt} = 2at - 3bt^{2},\\quad\\quad\\frac{dv}{dt} = 2a - 6bt = 0\\  \\Rightarrow \\ t = \\frac{a}{3b}.$$",
+  "mistakes": [
+    "Setting v = 0 gives t = 2a/3b (option B): that’s when the particle turns round, not when a = 0."
+  ],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "solved_answer": "(C) $\\frac{a}{3b}$.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": "03MSL_Solutions_v8",
+    "date": "2026-11-12"
+  },
+  "reviewed_by": null
+}

@@ -1,0 +1,29 @@
+{
+  "id": "P000109",
+  "problem_version": 1,
+  "status": "ai_solved",
+  "hints": [
+    "Under gravity, v² falls by the same amount for every metre of rise. What fraction of the starting u² is lost between P and Q?"
+  ],
+  "worded": "1. Speeds at two heights, and a height gap, with no time anywhere: think of v², which falls steadily with height (by 2g per metre).\n\n2. Going from the launch point to the top, v² falls from u² to 0. That whole drop corresponds to the maximum height H.\n\n3. Between P and Q, v² falls from u²/4 to u²/9, a drop of 5u²/36. That is 5/36 of the whole drop.\n\n4. So h is 5/36 of H, and H = 36h/5. (D)",
+  "conventional": "![](asset:P000109-sol-1)\n\nFrom P to Q, using $v^{2} = u^{2} - 2gh$:\n\n$$\\left( \\frac{u}{3} \\right)^{2} = \\left( \\frac{u}{2} \\right)^{2} - 2gh\\  \\Rightarrow \\ 2gh = u^{2}\\left( \\frac{1}{4} - \\frac{1}{9} \\right) = \\frac{5u^{2}}{36}.$$\n\nMaximum height:\n\n$$H = \\frac{u^{2}}{2g} = \\frac{36}{5}\\, h.$$",
+  "mistakes": [
+    "Speeds don’t change linearly with height; v² does. Using u/2 − u/3 = u/6 leads nowhere.",
+    "H is measured from the point of projection, not from P."
+  ],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "solved_answer": "(D) $36h/5$.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": "03MSL_Solutions_v8",
+    "date": "2026-11-12"
+  },
+  "reviewed_by": null
+}

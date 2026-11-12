@@ -35,11 +35,23 @@
       "qno": 20
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "id": "P000104-sol-1",
+      "role": "solution",
+      "file": "P000/P000104-sol-1.png",
+      "format": "png",
+      "width": 468,
+      "height": 445,
+      "alt": "A ball dropped from O at the top of a building passes a window 3 m tall in 0.5 s, with speed v_t at the top of the window and v_b at the bottom.",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
   "rights": "unverified",
   "content_hash": "aeb8df0aa1d9b0c1",
   "duplicate_of": null,
   "variant_of": null,
   "created": "2026-11-08",
-  "updated": "2026-11-08"
+  "updated": "2026-11-12"
 }

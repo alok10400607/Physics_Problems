@@ -1,0 +1,29 @@
+{
+  "id": "P000128",
+  "problem_version": 1,
+  "status": "ai_solved",
+  "hints": [
+    "Collision is avoided if both trains stop within the 2 km between them. Add their stopping distances."
+  ],
+  "worded": "1. Each train brakes to rest independently. They avoid a collision if their two stopping distances together fit in 2000 m.\n\n2. Stopping distance = speed²/(2 × deceleration). A (deceleration a) needs 800/a; B (deceleration 2a) needs half of that, 400/a.\n\n3. Together 1200/a ≤ 2000, so a ≥ 0.6 m/s². (B)",
+  "conventional": "![](asset:P000128-sol-1)\n\nLet A’s deceleration be $a$ and B’s $2a$.\n\n$$s_{A} = \\frac{40^{2}}{2a} = \\frac{800}{a},\\quad\\quad s_{B} = \\frac{40^{2}}{2(2a)} = \\frac{400}{a}.$$\n\n$$s_{A} + s_{B} \\leq 2000\\  \\Rightarrow \\ \\frac{1200}{a} \\leq 2000\\  \\Rightarrow \\ a \\geq 0.6\\ {m/s}^{2}.$$",
+  "mistakes": [
+    "Don’t give B’s deceleration (1.2 m/s², option C); the question asks for A’s.",
+    "A relative-motion shortcut with relative retardation 3a fails after B stops; adding stopping distances avoids that trap."
+  ],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "solved_answer": "(B) 0.6 m/s².",
+    "resolve_answer": null,
+    "agrees_with_key": true,
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": "03MSL_Solutions_v8",
+    "date": "2026-11-12"
+  },
+  "reviewed_by": null
+}

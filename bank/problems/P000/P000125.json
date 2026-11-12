@@ -28,11 +28,23 @@
       "qno": 41
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "id": "P000125-sol-1",
+      "role": "solution",
+      "file": "P000/P000125-sol-1.png",
+      "format": "png",
+      "width": 774,
+      "height": 571,
+      "alt": "Position–time graph in m and s: a bus's parabola t² from 0, and a man's straight line 10t − 25 from −25 m that is tangent to it at t = 5 s, where both have speed 10 m/s.",
+      "origin": "docx",
+      "needs_redraw": false
+    }
+  ],
   "rights": "unverified",
   "content_hash": "1e66ef434873957f",
   "duplicate_of": null,
   "variant_of": null,
   "created": "2026-11-08",
-  "updated": "2026-11-08"
+  "updated": "2026-11-12"
 }

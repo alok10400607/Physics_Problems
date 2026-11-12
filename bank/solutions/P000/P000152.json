@@ -1,0 +1,28 @@
+{
+  "id": "P000152",
+  "problem_version": 1,
+  "status": "ai_solved",
+  "hints": [
+    "Retarding means slowing down: v and a have opposite signs. Find where each changes sign."
+  ],
+  "worded": "1. A body slows down when its acceleration opposes its velocity, so look at the signs of both.\n\n2. v = t(t − 1) is negative for 0 \\< t \\< 1 and positive after 1 s. a = 2t − 1 is negative before ½ s and positive after.\n\n3. Before ½ s, both are negative: the particle speeds up in the negative direction. Between ½ and 1 s, v \\< 0 and a > 0: it slows down. After 1 s, both positive: speeding up.\n\n4. So it retards only for ½ \\< t \\< 1. (B)",
+  "conventional": "![](asset:P000152-sol-1)\n\n$v = t^{2} - t = t(t - 1)$, $a = \\frac{dv}{dt} = 2t - 1$.\n\n-   $0 < t < \\frac{1}{2}$: $v < 0$, $a < 0$, speeding up.\n\n-   $\\frac{1}{2} < t < 1$: $v < 0$, $a > 0$, retarding.\n\n-   $t > 1$: $v > 0$, $a > 0$, speeding up.",
+  "mistakes": [
+    "Retardation is not “a \\< 0” (option A): it is a opposite to v."
+  ],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "solved_answer": "(B) 1/2 \\< t \\< 1.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": "03MSL_Solutions_v8",
+    "date": "2026-11-12"
+  },
+  "reviewed_by": null
+}

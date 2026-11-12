@@ -35,11 +35,23 @@
       "qno": 12
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "id": "P000096-sol-1",
+      "role": "solution",
+      "file": "P000/P000096-sol-1.png",
+      "format": "png",
+      "width": 675,
+      "height": 578,
+      "alt": "Velocity–time graph in m/s and s: a straight line falling from 2.2 at t = 0 to 1.0 at t = 15 s. The area under it is split into strips of 10 m (0–5 s), 8 m (5–10 s) and 6 m (10–15 s).",
+      "origin": "docx",
+      "needs_redraw": false
+    }
+  ],
   "rights": "unverified",
   "content_hash": "8425eb0452273883",
   "duplicate_of": null,
   "variant_of": null,
   "created": "2026-11-08",
-  "updated": "2026-11-08"
+  "updated": "2026-11-12"
 }

@@ -35,11 +35,23 @@
       "qno": 61
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "id": "P000145-sol-1",
+      "role": "solution",
+      "file": "P000/P000145-sol-1.png",
+      "format": "png",
+      "width": 605,
+      "height": 468,
+      "alt": "Velocity–time graph: an upward-curving line v = At + Bt². The area under it between t = 1 s and t = 2 s is shaded.",
+      "origin": "docx",
+      "needs_redraw": false
+    }
+  ],
   "rights": "unverified",
   "content_hash": "228dc502f9a05b32",
   "duplicate_of": null,
   "variant_of": null,
   "created": "2026-11-08",
-  "updated": "2026-11-08"
+  "updated": "2026-11-12"
 }

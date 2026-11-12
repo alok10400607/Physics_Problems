@@ -1,7 +1,7 @@
 {
   "id": "P000164",
   "status": "imported",
-  "version": 1,
+  "version": 2,
   "type": "mcq_single",
   "topic_code": "0330",
   "concepts": [],
@@ -51,11 +51,22 @@
       "role": "stem",
       "file": "P000/P000164-stem-1.png",
       "format": "png",
-      "width": 155,
-      "height": 139,
+      "width": 894,
+      "height": 715,
       "alt": "Velocity in m/s against time in s for a car and a scooter. The car's line rises from 0 at O to 45 m/s at A (15 s), then stays at 45 m/s to B (25 s). The scooter's line is constant at 30 m/s from E to G. C and D mark 15 s and 25 s on the time axis.",
       "origin": "docx",
-      "needs_redraw": true
+      "needs_redraw": false
+    },
+    {
+      "id": "P000164-sol-1",
+      "role": "solution",
+      "file": "P000/P000164-sol-1.png",
+      "format": "png",
+      "width": 722,
+      "height": 430,
+      "alt": "Velocity–time graph in m/s and s: the scooter's flat line at 30 and the car's line rising from zero to 45 at t = 15 s, then flat. The shaded area 150 is the scooter's lead up to 10 s, and 37.5 is marked between 10 and 15 s; dashed lines at 15 s and 22.5 s.",
+      "origin": "docx",
+      "needs_redraw": false
     }
   ],
   "rights": "past-paper",
@@ -63,5 +74,5 @@
   "duplicate_of": null,
   "variant_of": null,
   "created": "2026-11-08",
-  "updated": "2026-11-08"
+  "updated": "2026-11-12"
 }

@@ -1,23 +1,28 @@
 {
   "id": "P000172",
   "problem_version": 1,
-  "status": "draft",
+  "status": "ai_solved",
   "hints": [
-    "> Area under $a - t$ graph during a time interval $0$ to $t$ $\\neq$ $v$ but $= v_{t} - v_{0}$ (change in velocity)"
+    "Area under the a–t graph = change in velocity. Don’t forget the starting 2 m/s."
   ],
-  "worded": null,
-  "conventional": null,
-  "mistakes": [],
+  "worded": "1. The change in velocity is the area under the a–t graph: a triangle with base 4 s and height 4 m/s², area 8 m/s.\n\n2. The particle started at 2 m/s, so at 4 s it moves at 2 + 8 = 10 m/s. (C)\n\n3. Option (B) forgets the initial velocity.",
+  "conventional": "![](asset:P000172-sol-1)\n\n$$v(4) = v(0) + \\int_{0}^{4}a\\, dt = 2 + \\frac{1}{2}(4)(4) = 10\\unit{m/s}.$$",
+  "mistakes": [
+    "Add the initial velocity: the area gives only the change (8 m/s, option B)."
+  ],
   "distractors": {},
   "extension": null,
   "check": {
+    "solved_answer": "(C) 10 m/s.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
     "issues": []
   },
   "generated_by": {
     "author": "worksheet",
     "model": null,
-    "prompt_version": null,
-    "date": "2026-11-08"
+    "prompt_version": "03MSL_Solutions_v8",
+    "date": "2026-11-12"
   },
   "reviewed_by": null
 }

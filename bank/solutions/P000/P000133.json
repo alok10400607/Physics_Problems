@@ -1,0 +1,29 @@
+{
+  "id": "P000133",
+  "problem_version": 1,
+  "status": "ai_solved",
+  "hints": [
+    "At release the particle keeps the helicopter’s velocity (upward), not its acceleration. What is that velocity after rising h with acceleration g?"
+  ],
+  "worded": "1. At release the particle shares the helicopter’s velocity: having risen h from rest at g, that is √(2gh), upward.\n\n2. From then on only gravity acts. It is like a ball thrown up at √(2gh) from height h.\n\n3. It first rises a further h (since √(2gh) is exactly the speed to rise h), reaching 2h above the ground, which takes √(2h/g).\n\n4. Then it falls 2h from rest, which takes √(4h/g) = √2 × √(2h/g).\n\n5. Total: (1 + √2)√(2h/g).",
+  "conventional": "![](asset:P000133-sol-1)\n\nVelocity at release: $v^{2} = 2gh$, so $u = \\sqrt{2gh}$ upward. Take up as positive, origin at the release point; the ground is at $- h$:\n\n$$- h = \\sqrt{2gh}\\, t - \\frac{1}{2}gt^{2}.$$\n\n$$t = \\frac{\\sqrt{2gh} + \\sqrt{2gh + 2gh}}{g} = \\frac{\\sqrt{2gh}\\left( 1 + \\sqrt{2} \\right)}{g} = \\left( 1 + \\sqrt{2} \\right)\\sqrt{\\frac{2h}{g}}.$$",
+  "mistakes": [
+    "The particle is not released from rest: don’t use √(2h/g).",
+    "After release its acceleration is g downward, not the helicopter’s g upward."
+  ],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "solved_answer": "$t = \\left( 1 + \\sqrt{2} \\right)\\sqrt{2h/g}$.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": "03MSL_Solutions_v8",
+    "date": "2026-11-12"
+  },
+  "reviewed_by": null
+}

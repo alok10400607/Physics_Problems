@@ -1,0 +1,29 @@
+{
+  "id": "P000178",
+  "problem_version": 1,
+  "status": "ai_solved",
+  "hints": [
+    "Work in the balloon’s frame. What are the stone’s initial velocity and acceleration relative to the balloon?"
+  ],
+  "worded": "1. In the balloon’s frame, the stone starts at 4 m/s downward.\n\n2. The stone accelerates down at g; the balloon accelerates up at 5. Relative to the balloon, the stone accelerates down at 10 + 5 = 15 m/s².\n\n3. In 2 s: 4 × 2 + ½ × 15 × 4 = 8 + 30 = 38 m. (D)\n\n4. The balloon’s own velocity cancels out: it is shared by both at the instant of the throw.",
+  "conventional": "![](asset:P000178-sol-1)\n\nRelative to the balloon (down positive): $u_{rel} = 4$ m/s, $a_{rel} = g + 5 = 15$ m/s².\n\n$$s_{rel} = 4(2) + \\frac{1}{2}(15)(2)^{2} = 38\\unit{m}.$$",
+  "mistakes": [
+    "Relative acceleration is g + 5 (they accelerate in opposite directions), not g − 5 or g.",
+    "The balloon’s velocity at the instant of the throw is not given and is not needed."
+  ],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "solved_answer": "(D) 38 m.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": "03MSL_Solutions_v8",
+    "date": "2026-11-12"
+  },
+  "reviewed_by": null
+}

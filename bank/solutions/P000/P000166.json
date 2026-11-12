@@ -1,21 +1,30 @@
 {
   "id": "P000166",
   "problem_version": 1,
-  "status": "draft",
-  "hints": [],
-  "worded": null,
-  "conventional": null,
-  "mistakes": [],
+  "status": "ai_solved",
+  "hints": [
+    "Constant acceleration means a horizontal a–t line, a straight v–t line, and a parabolic x–t curve. And the three must agree with each other."
+  ],
+  "worded": "1. Constant acceleration: the a–t graph is flat. All options have that, so look at the others.\n\n2. v changes at a constant rate, so the v–t graph must be a straight line. (B) has a curved v–t graph: out.\n\n3. x then changes at a steadily changing rate, so the x–t graph must be a parabola. (C) has a straight x–t line: out.\n\n4. The graphs must also be consistent. In (A) velocity decreases, but the x–t curve gets steeper (velocity increasing): out.\n\n5. (D): curved x–t getting steeper, straight rising v–t, positive constant a. All consistent. (D)",
+  "conventional": "For constant $a$: $v = u + at$ (straight line, slope $a$), $x = x_{0} + ut + \\frac{1}{2}at^{2}$ (parabola, getting steeper when $a > 0$).\n\n(A) slope of x–t increases but v–t falls: inconsistent. (B) v–t curved: a not constant. (C) x–t straight: v would be constant. (D) fits all three.",
+  "mistakes": [
+    "Each graph alone may look right; check that the slope of one matches the next."
+  ],
   "distractors": {},
-  "extension": "> Draw the x–t and a–t graphs for the v–t graph in option A.",
+  "extension": null,
   "check": {
-    "issues": []
+    "solved_answer": "(D).",
+    "resolve_answer": null,
+    "agrees_with_key": true,
+    "issues": [
+      "problem text differs from the bank (similarity 0.86)"
+    ]
   },
   "generated_by": {
     "author": "worksheet",
     "model": null,
-    "prompt_version": null,
-    "date": "2026-11-08"
+    "prompt_version": "03MSL_Solutions_v8",
+    "date": "2026-11-12"
   },
   "reviewed_by": null
 }

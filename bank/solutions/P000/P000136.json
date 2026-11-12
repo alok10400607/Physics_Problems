@@ -1,0 +1,29 @@
+{
+  "id": "P000136",
+  "problem_version": 1,
+  "status": "ai_solved",
+  "hints": [
+    "Both have the same acceleration, so they close the gap h at a constant relative speed. When do they meet, and how far has the dropped body fallen by then?"
+  ],
+  "worded": "1. The lower body is thrown up at u = √(2gh), just enough to reach the top.\n\n2. Both fall equally under gravity, so relative to each other they move uniformly: the gap h closes at speed u. They meet after h/u.\n\n3. In that time the dropped body falls ½g(h/u)² = ½g h²/(2gh) = h/4.\n\n4. So they meet h/4 below the top, at height 3h/4. (D)",
+  "conventional": "![](asset:P000136-sol-1)\n\n$u = \\sqrt{2gh}$. Meeting time (relative motion uniform):\n\n$$t = \\frac{h}{u} = \\frac{h}{\\sqrt{2gh}}.$$\n\nFall of the dropped body: $\\frac{1}{2}gt^{2} = \\frac{1}{2}g\\frac{h^{2}}{2gh} = \\frac{h}{4}$. Height of meeting:\n\n$$h - \\frac{h}{4} = \\frac{3h}{4}.$$",
+  "mistakes": [
+    "They do not meet half-way (option A): the upper body is slow and the lower body fast at the start.",
+    "h/4 is the fall from the top (option B), not the height of the meeting point."
+  ],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "solved_answer": "(D) 3h/4.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": "03MSL_Solutions_v8",
+    "date": "2026-11-12"
+  },
+  "reviewed_by": null
+}

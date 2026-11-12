@@ -1,0 +1,29 @@
+{
+  "id": "P000111",
+  "problem_version": 1,
+  "status": "ai_solved",
+  "hints": [
+    "Follow the ball thrown up until it is back at the top of the tower. How is it moving then, compared with the other ball at the start?"
+  ],
+  "worded": "1. The ball thrown up at 10 m/s rises, stops and falls back. By symmetry it passes the top of the tower again after 2 s, moving down at 10 m/s.\n\n2. From then on it is in exactly the situation the second ball was in at the start: at the top, moving down at 10 m/s.\n\n3. So it repeats the second ball’s journey, just 2 s late. The difference is 2 s, whatever the height of the tower. (B)\n\n**No-pen route.** The answer is the time to go up and come back: 2u/g = 2 s. The 200 m is not needed.",
+  "conventional": "![](asset:P000111-sol-1)\n\nTake up as positive and the top of the tower as origin; the ground is at $y = - 200$ m.\n\nBall thrown up: $- 200 = 10t_{1} - 5t_{1}^{2}$, so $t_{1}^{2} - 2t_{1} - 40 = 0$ and $t_{1} = 1 + \\sqrt{41}$ s.\n\nBall thrown down: $- 200 = - 10t_{2} - 5t_{2}^{2}$, so $t_{2}^{2} + 2t_{2} - 40 = 0$ and $t_{2} = - 1 + \\sqrt{41}$ s.\n\n$$t_{1} - t_{2} = 2\\unit{s} = \\frac{2u}{g}.$$",
+  "mistakes": [
+    "No need to solve two quadratics: the difference is just the extra up-and-back time, 2u/g.",
+    "Both balls hit the ground with the same speed; only their times differ."
+  ],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "solved_answer": "(B) 2 s.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": "03MSL_Solutions_v8",
+    "date": "2026-11-12"
+  },
+  "reviewed_by": null
+}
