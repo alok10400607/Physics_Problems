@@ -1,7 +1,7 @@
 {
   "id": "P000104",
   "problem_version": 1,
-  "status": "ai_solved",
+  "status": "reviewed",
   "hints": [
     "Over the window you know the time and the distance. What do they tell you about the average of $v_{t}$ and $v_{b}$, and what does 0.5 s of free fall do to the speed?"
   ],
@@ -25,5 +25,9 @@
     "prompt_version": "03MSL_Solutions_v8",
     "date": "2026-11-12"
   },
-  "reviewed_by": null
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 03MSL_Solutions_v8.docx"
+  }
 }

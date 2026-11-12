@@ -1,7 +1,7 @@
 {
   "id": "P000122",
   "problem_version": 1,
-  "status": "ai_solved",
+  "status": "reviewed",
   "hints": [
     "Same distance, same time. Write each car’s distance in time T and set them equal; then T follows, and the range from either car."
   ],
@@ -26,5 +26,9 @@
     "prompt_version": "03MSL_Solutions_v8",
     "date": "2026-11-12"
   },
-  "reviewed_by": null
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 03MSL_Solutions_v8.docx"
+  }
 }

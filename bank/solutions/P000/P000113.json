@@ -1,7 +1,7 @@
 {
   "id": "P000113",
   "problem_version": 1,
-  "status": "ai_solved",
+  "status": "reviewed",
   "hints": [
     "Time to the top is u/g, so the whole flight lasts nu/g. Use one equation for the whole flight from the top of the tower to the ground."
   ],
@@ -27,5 +27,9 @@
     "prompt_version": "03MSL_Solutions_v8",
     "date": "2026-11-12"
   },
-  "reviewed_by": null
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 03MSL_Solutions_v8.docx"
+  }
 }

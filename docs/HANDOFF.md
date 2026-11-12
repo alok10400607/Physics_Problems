@@ -10,7 +10,7 @@ Read this first in a new session, together with `CLAUDE.md`.
 | PRs #5, #6 | Merged into `main` on 8 November |
 | This branch | `next/solutions-importer`: 03MSL v3 applied, 03MSL solutions v8 imported, solution links on the student page. Open as a PR. |
 | Live site | https://physics-problems.alok1040.workers.dev (Cloudflare builds from `main` automatically) |
-| Review pages | 1715: https://claude.ai/artifact/4ggmBak5o3DRwFVd9rw51B · 0305 (03MSL Q1–Q10): https://claude.ai/artifact/NBp75iWxkb4DfeDKGdnaua. Both built by `tools/review_workbench.js`, with `capabilities: {"sample": {}}` |
+| Review page | 1715 (Claude-written pilot solutions): https://claude.ai/artifact/4ggmBak5o3DRwFVd9rw51B, built by `tools/review_workbench.js`. Solutions files are reviewed before upload, so they need no review page. |
 | Automation | `inbox/` uploads (now including problems + solutions pairs) and `@claude` comments work |
 | Open decision | Cloudflare Access to make the site private. The site is currently public. |
 | Known issue | Cloudflare preview builds of branches fail (production builds of `main` succeed); likely branch names with `/` and capitals |
@@ -56,20 +56,20 @@ Both sample files are on this branch (`next/solutions-importer`, which is based 
    - The owner's choice: **Hint is always available; the two solutions unlock after an attempt** (answering, or "I give up").
    - "Watch out" shows with the conventional solution.
 4. Extend the `bank-import` skill and `inbox/` workflow to accept a problems + solutions pair.
-5. Rebuild the review page for a 03MSL subtopic so the owner can review the imported solutions.
+5. ~~Rebuild the review page for a 03MSL subtopic.~~ Dropped: the owner reviews solutions files before upload, so they are imported as `reviewed`.
 
 ### What was built
 
-1. `tools/import_solutions.py` (`--check`, `--write`, `--only`, `--replace`, `--report`). "No-pen route" sections are treated like "Another way". "Why the other options are there" goes to `distractors` when each sentence names one option. Word's equations are brought to the maths style (`\unit{}`, `\vec`, `\ihat`, `\mkern`, `\text{}`). 03MSL: 96 solutions, all answers agree with the key, all `ai_solved`, 94 solution figures with alt text.
+1. `tools/import_solutions.py` (`--check`, `--write`, `--only`, `--replace`, `--report`, `--reviewer`, `--unreviewed`). Complete solutions that agree with the key are saved as `reviewed`, and so are their problems. "No-pen route" sections are treated like "Another way". "Why the other options are there" goes to `distractors` when each sentence names one option. Word's equations are brought to the maths style (`\unit{}`, `\vec`, `\ihat`, `\mkern`, `\text{}`). 03MSL: 96 solutions, all answers agree with the key, all 96 `reviewed`, 94 solution figures with alt text.
 2. `tools/import_docx.py --update`: matches by question number after a text check, rewrites only changed problems (type, stem, options, answer, figures), keeps IDs and alt text. 03MSL v3 changed 10 problems; see the PR.
 3. Student page: Hint · Word solution · Conventional solution under each question. Hint is open from the start; the solutions unlock after an answer, "I give up", or "Show answer" on written questions. Watch out and "Why not the other options" come with the conventional solution. Nothing shows during a timed test until it is submitted.
 4. `bank-import` skill, `inbox/README.md`, the Actions prompt and `docs/worksheet-contract.md` describe pairs and new versions.
-5. Review page for 0305 (link above); the workbench now shows "Why not the other options" and uses the new level names.
+5. The question and result screens have an "All chapters ›" link home. The review workbench (still used for Claude-written solutions) shows "Why not the other options" and uses the new level names.
 
 ### Next
 
-- The owner reviews 0305, then the other 03MSL subtopics: `node tools/review_workbench.js --topic <code> --out <file>`.
-- The review JSON cannot yet change `distractors`; add it to the workbench and `solution_fingerprint.js` if reviewers want to edit them.
+- Import the next topic's problems + solutions pair (through `inbox/` or the `bank-import` skill).
+- The site's banner still says questions and solutions are being reviewed; change it when enough chapters are reviewed.
 
 ## How to start the new session
 

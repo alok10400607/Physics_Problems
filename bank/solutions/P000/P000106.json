@@ -1,7 +1,7 @@
 {
   "id": "P000106",
   "problem_version": 1,
-  "status": "ai_solved",
+  "status": "reviewed",
   "hints": [
     "Between the two instants, the ball goes from 80 m to the top and back. By symmetry, how long does it take to rise from 80 m to the top, and what speed must it have at 80 m?"
   ],
@@ -25,5 +25,9 @@
     "prompt_version": "03MSL_Solutions_v8",
     "date": "2026-11-12"
   },
-  "reviewed_by": null
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 03MSL_Solutions_v8.docx"
+  }
 }

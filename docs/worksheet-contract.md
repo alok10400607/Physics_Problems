@@ -42,7 +42,9 @@ A file such as `03MSL_v3.docx`, when `03MSL` was imported from `03MSL_v2.docx`, 
 
 ## Solutions files
 
-Solutions come in their own file, named `<collection>_Solutions_v<n>.docx` (e.g. `03MSL_Solutions_v8.docx`), written with the `jee-worksheet-solutions` skill. `tools/import_solutions.py --check` tests it.
+Solutions come in their own file, named `<collection>_Solutions_v<n>.docx` (e.g. `03MSL_Solutions_v8.docx`), written with the `jee-worksheet-solutions` skill and reviewed before upload. `tools/import_solutions.py --check` tests it.
+
+The file is already reviewed, so there is no review session afterwards: a complete solution whose answer agrees with the key is saved as `reviewed` (and its problem too), with `reviewed_by` naming the file. A solution with a part missing is saved as `draft`; one whose answer disagrees with the key is saved as `ai_solved` and listed for the owner. `--unreviewed` saves everything as `ai_solved`, for a file that has not been reviewed.
 
     # <subtopic name>
     ## Q<n> · <short title>
@@ -57,12 +59,12 @@ Solutions come in their own file, named `<collection>_Solutions_v<n>.docx` (e.g.
 | Another way: …, No-pen route | appended to `worded`, under their own title in bold |
 | Why the other options are there | `distractors`, when each sentence names one option; otherwise appended to `worded` |
 | Worked solution | `conventional`; its figures become `<problem>-sol-<n>` |
-| Answer | checked against the answer key; a disagreement is flagged for the reviewer, never fixed by changing the key |
+| Answer | checked against the answer key; a disagreement is flagged for the owner, never fixed by changing the key |
 | Watch out | `mistakes`, one per bullet. The closing `Notes: Sec. …` line is reported, not stored |
 
 **Blocking:** a question that matches no problem (or the wrong one), a formula that does not render, a missing figure, and a problem whose solutions are already reviewed or published (those are never overwritten), or written by Claude or an expert (overwritten only with `--replace`).
 
-**Warnings:** problem text that differs from the bank, missing sections (saved as `draft`), answers that disagree with the key, topic codes that differ, problems of the collection with no solution in the file.
+**Warnings:** problem text that differs from the bank, missing sections (saved as `draft`), answers that disagree with the key (saved as `ai_solved`, not reviewed), topic codes that differ, problems of the collection with no solution in the file.
 
 Import the problems file first when both arrive together, so the solutions are matched against the latest problem text.
 

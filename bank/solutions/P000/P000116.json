@@ -1,7 +1,7 @@
 {
   "id": "P000116",
   "problem_version": 2,
-  "status": "ai_solved",
+  "status": "reviewed",
   "hints": [
     "Resistance always opposes motion. So which way does it point going up, and going down? That gives two different constant accelerations."
   ],
@@ -28,5 +28,9 @@
     "prompt_version": "03MSL_Solutions_v8",
     "date": "2026-11-12"
   },
-  "reviewed_by": null
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 03MSL_Solutions_v8.docx"
+  }
 }

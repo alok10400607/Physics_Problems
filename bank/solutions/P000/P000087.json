@@ -1,7 +1,7 @@
 {
   "id": "P000087",
   "problem_version": 2,
-  "status": "ai_solved",
+  "status": "reviewed",
   "hints": [
     "Average velocity is displacement ÷ time. To find the displacement, identify the particle’s initial and final positions; the path in between does not matter."
   ],
@@ -25,5 +25,9 @@
     "prompt_version": "03MSL_Solutions_v8",
     "date": "2026-11-12"
   },
-  "reviewed_by": null
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 03MSL_Solutions_v8.docx"
+  }
 }

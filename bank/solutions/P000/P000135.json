@@ -1,7 +1,7 @@
 {
   "id": "P000135",
   "problem_version": 1,
-  "status": "ai_solved",
+  "status": "reviewed",
   "hints": [
     "Find where the first ball is 4 s after its throw. The second ball must cover that distance in its 2 s."
   ],
@@ -24,5 +24,9 @@
     "prompt_version": "03MSL_Solutions_v8",
     "date": "2026-11-12"
   },
-  "reviewed_by": null
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 03MSL_Solutions_v8.docx"
+  }
 }

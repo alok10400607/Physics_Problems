@@ -90,19 +90,19 @@ The check lists under **EDITS** the problems that will change and how (type, ste
 
 ## Solutions files (`<collection>_Solutions_v<n>.docx`)
 
-These carry hints, the worded solution, the conventional solution and "Watch out" for each question of a worksheet already in the bank. The layout and mapping are in `docs/worksheet-contract.md`, "Solutions files".
+These carry hints, the worded solution, the conventional solution and "Watch out" for each question of a worksheet already in the bank. They are reviewed by the owner before upload, so they go in as `reviewed`: do not build a review page or start a `solution-review` session for them. The layout and mapping are in `docs/worksheet-contract.md`, "Solutions files".
 
 1. **Order.** If the problems file arrived too, import it first (new, or `--update`), on the same branch, and make one PR for the pair: `import/<collection>-<problems version>`.
 2. **Pre-flight:** `python3 -I tools/import_solutions.py worksheets/<file>.docx --check --report /tmp/sol-report.json`. Report:
    - **Blocking** items, as for worksheets. Reviewed or published solutions are never overwritten; solutions written by Claude or an expert need the owner's yes, then `--replace`.
    - **Answers that disagree with the key**, each with both answers. Never change the key: list them under **Needs your decision**.
-   - **Written answers to compare** (`answers_to_compare` in the report): read each one against the key yourself and say whether it agrees.
-   - **Problem text differs**: a short list; the reviewer decides whether the bank's wording or the solutions file's is better.
-   - Counts: saved as `ai_solved` / `draft`, figures, formulas tidied.
+   - **Written answers to compare** (`answers_to_compare` in the report): read each one against the key yourself. If one disagrees, re-import that question with `--only <n> --unreviewed` and list it under **Needs your decision**.
+   - **Problem text differs**: a short list; the owner decides whether the bank's wording or the solutions file's is better.
+   - Counts: saved as `reviewed` / `ai_solved` (answer disagrees) / `draft` (a part missing), figures, formulas tidied.
 3. **Import:** the same command with `--write`. Part of a file: `--only 0305` (a topic) or `--only 1-10` (question numbers).
 4. **Alt text** for every new `-sol-<n>` figure, as in step 4 above. Solution figures may show the working and the answer; describe what is drawn.
 5. **Check, build, look** as in step 5: open a question with a solution figure, answer it, and open the Hint, Word solution and Conventional solution links at phone width.
-6. **PR body:** what was imported, the edits from a new problems version, answers to decide, problem-text differences, and that solutions are `ai_solved` until reviewed with the `solution-review` skill.
+6. **PR body:** what was imported, the edits from a new problems version, answers to decide, problem-text differences, and how many solutions went in as `reviewed`. Merging publishes them to students.
 
 ## CSV question lists
 

@@ -1,7 +1,7 @@
 {
   "id": "P000117",
   "problem_version": 1,
-  "status": "ai_solved",
+  "status": "reviewed",
   "hints": [
     "The particle covers the same height going up (acceleration 16 m/s²) and coming down (4 m/s²). For the same distance from or to rest, how does time depend on acceleration?"
   ],
@@ -25,5 +25,9 @@
     "prompt_version": "03MSL_Solutions_v8",
     "date": "2026-11-12"
   },
-  "reviewed_by": null
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 03MSL_Solutions_v8.docx"
+  }
 }

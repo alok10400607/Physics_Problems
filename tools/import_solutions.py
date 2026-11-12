@@ -9,6 +9,13 @@
 Options: --report <file.json> saves the report; --force re-imports a file already logged;
          --replace overwrites solutions written by Claude (llm) or an expert that are not yet reviewed.
          --only <Q list or topic code>, e.g. --only 0305 or --only 1-10, imports part of the file.
+         --reviewer "<name>" is recorded as the reviewer (default "Owner (solutions file)").
+         --unreviewed saves the solutions as ai_solved, for a file that has not been reviewed yet.
+
+Solutions files are written and reviewed before they reach the bank, so by default a complete solution whose
+answer agrees with the key is saved as "reviewed" (and its problem too), with no separate review session.
+A solution missing a part is saved as "draft"; one whose answer disagrees with the key stays "ai_solved" and is
+flagged, never approved.
 
 Layout of the file (docs/worksheet-contract.md, "Solutions files"):
     # <subtopic name>
@@ -34,7 +41,8 @@ ap.add_argument("docx")
 g = ap.add_mutually_exclusive_group(required=True)
 g.add_argument("--check", action="store_true"); g.add_argument("--write", action="store_true")
 ap.add_argument("--report"); ap.add_argument("--force", action="store_true"); ap.add_argument("--replace", action="store_true")
-ap.add_argument("--only")
+ap.add_argument("--only"); ap.add_argument("--reviewer", default="Owner (solutions file)")
+ap.add_argument("--unreviewed", action="store_true")
 args = ap.parse_args()
 
 docx = pathlib.Path(args.docx).resolve()
@@ -299,14 +307,14 @@ for it in items:
     figures_total += len(figs)
     hints = [hint] if hint else []
     complete = bool(hints and worded and conventional)
-    status = "ai_solved" if complete and agrees is not False else "draft"
+    status = "draft" if not complete else "ai_solved" if (agrees is False or args.unreviewed) else "reviewed"
     issues = [x for x in r["issues"]]
     r.update({"status": status, "figures": len(figs)})
     r["record"] = {"id": pid, "problem_version": p["version"], "status": status, "hints": hints, "worded": worded,
                    "conventional": conventional, "mistakes": mistakes, "distractors": distractors, "extension": None,
                    "check": {"solved_answer": ans or None, "resolve_answer": None, "agrees_with_key": agrees, "issues": issues},
                    "generated_by": {"author": "worksheet", "model": None, "prompt_version": docx.stem, "date": TODAY},
-                   "reviewed_by": None}
+                   "reviewed_by": {"name": args.reviewer, "date": TODAY, "notes": f"Reviewed in {docx.name}"} if status == "reviewed" else None}
     r["figs"] = figs
     results.append(r)
 
@@ -359,7 +367,7 @@ disagree = [f"Q{r['q']} {r['id']}" for r in results if r["agrees"] is False]
 to_compare = [f"Q{r['q']} {r['id']}" for r in results if r["agrees"] is None]
 report = {"file": docx.name, "sha256": sha, "kind": "solutions", "questions": len(items), "matched": len(results),
           "matched_by": {k: sum(1 for r in results if r["matched_by"] == k) for k in ("tag", "number")},
-          "status": {s: sum(1 for r in results if r["status"] == s) for s in ("ai_solved", "draft")},
+          "status": {s: sum(1 for r in results if r["status"] == s) for s in ("reviewed", "ai_solved", "draft")},
           "figures": figures_total, "answers_disagree": disagree, "answers_to_compare": to_compare,
           "notes_lines_not_stored": notes_lines, "blocking": blocking, "warnings": warnings, "auto_fixes": fixes,
           "per_question": [{k: v for k, v in r.items() if k not in ("record", "figs", "fig_paths")} for r in results]}
@@ -367,9 +375,9 @@ report = {"file": docx.name, "sha256": sha, "kind": "solutions", "questions": le
 def show():
     print(f"\n{docx.name}: {len(items)} solutions, {len(results)} matched "
           f"({report['matched_by']['tag']} by ID tag, {report['matched_by']['number']} by question number), {figures_total} figures")
-    print(f"  would be saved as: {report['status']['ai_solved']} ai_solved, {report['status']['draft']} draft")
+    print(f"  saved as: {report['status']['reviewed']} reviewed, {report['status']['ai_solved']} ai_solved (answer disagrees, or --unreviewed), {report['status']['draft']} draft (a part missing)")
     print(f"  answers: {len(results) - len(disagree) - len(to_compare)} agree with the key, {len(disagree)} disagree, "
-          f"{len(to_compare)} written answers for the reviewer to compare")
+          f"{len(to_compare)} written answers to compare with the key by eye")
     print(f"\nBLOCKING ({len(blocking)})" if blocking else "\nBLOCKING: none")
     for b in blocking: print("  ✗", b)
     print(f"\nWARNINGS ({len(warnings)})")
@@ -417,6 +425,7 @@ for r in results:
                      "alt": prev["alt"] if prev else "", "origin": "docx", "needs_redraw": bool(w and w < 600)})
     p["assets"] = keep + recs
     p["updated"] = TODAY
+    if r["status"] == "reviewed" and p["status"] in ("imported", "ai_tagged", "ai_solved"): p["status"] = "reviewed"
     write_json(BANK / "problems" / pid[:4] / f"{pid}.json", p)
     write_json(BANK / "solutions" / pid[:4] / f"{pid}.json", r["record"])
 

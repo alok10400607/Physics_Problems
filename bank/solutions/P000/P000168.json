@@ -1,7 +1,7 @@
 {
   "id": "P000168",
   "problem_version": 2,
-  "status": "ai_solved",
+  "status": "reviewed",
   "hints": [
     "Three of the graphs describe a ball thrown straight up that comes back down. Name that motion from the clearest graph, then ask of each other graph: what should its slope be at the start, at the top, and at the end?"
   ],
@@ -27,5 +27,9 @@
     "prompt_version": "03MSL_Solutions_v8",
     "date": "2026-11-12"
   },
-  "reviewed_by": null
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 03MSL_Solutions_v8.docx"
+  }
 }

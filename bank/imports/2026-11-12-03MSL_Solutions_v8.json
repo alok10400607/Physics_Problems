@@ -9,7 +9,8 @@
     "number": 96
   },
   "status": {
-    "ai_solved": 96,
+    "reviewed": 96,
+    "ai_solved": 0,
     "draft": 0
   },
   "figures": 94,
@@ -118,8 +119,8 @@
       "notes": "Sec. 1 (distance vs displacement; quarter-circle example).",
       "answer": "Distance = π cm ≈ 3.14 cm; displacement = 2√2 cm ≈ 2.83 cm.",
       "agrees": null,
-      "replaces": "draft by worksheet; its hint was: > Distance travelled is equal to length of the arc and displacement is along the",
-      "status": "ai_solved",
+      "replaces": "ai_solved by worksheet; its hint was: Distance is the length of the path the tip actually traces, which is the arc it ",
+      "status": "reviewed",
       "figures": 1
     },
     {
@@ -132,8 +133,8 @@
       "notes": "Sec. 1.1 (rolling-wheel example).",
       "answer": "$R\\sqrt{\\pi^{2} + 4}$ m (≈ 3.72R), at tan⁻¹(2/π) ≈ 32.5° to the ground.",
       "agrees": true,
-      "replaces": "draft by worksheet; its hint was: > Horizontal component of displacement is equal to half the perimeter",
-      "status": "ai_solved",
+      "replaces": "ai_solved by worksheet; its hint was: Picture the wheel at the start and after half a turn: where is that point now? T",
+      "status": "reviewed",
       "figures": 1
     },
     {
@@ -146,7 +147,8 @@
       "notes": "Sec. 2.1 (average velocity); Sec. 2.2 (average speed ≥ \\|average velocity\\|).",
       "answer": "5 m/s, directed from A to D.",
       "agrees": true,
-      "status": "ai_solved",
+      "replaces": "ai_solved by worksheet; its hint was: Average velocity is displacement ÷ time. To find the displacement, identify the ",
+      "status": "reviewed",
       "figures": 1
     },
     {
@@ -159,7 +161,8 @@
       "notes": "Sec. 1 (Common traps: a train of length L crossing a bridge of length B covers L + B).",
       "answer": "(C) 80 s.",
       "agrees": true,
-      "status": "ai_solved",
+      "replaces": "ai_solved by worksheet; its hint was: Follow one point, the front of the engine. Between the moment it enters the brid",
+      "status": "reviewed",
       "figures": 1
     },
     {
@@ -172,7 +175,8 @@
       "notes": "Sec. 1 (full lap: displacement = 0); Sec. 2.2 (average speed).",
       "answer": "(B) 0, 10 m/s.",
       "agrees": true,
-      "status": "ai_solved",
+      "replaces": "ai_solved by worksheet; its hint was: After a full lap the car is back where it started. Then notice that 62.8 = 20π.",
+      "status": "reviewed",
       "figures": 0
     },
     {
@@ -185,7 +189,8 @@
       "notes": "Sec. 2.2 (equal distances: harmonic mean; example a: 30 and 60 km/h give 40 km/h).",
       "answer": "(B) $\\frac{2v_{u}v_{d}}{v_{u} + v_{d}}$, the harmonic mean of the two speeds.",
       "agrees": true,
-      "status": "ai_solved",
+      "replaces": "ai_solved by worksheet; its hint was: The two legs cover equal *distances*, not equal times, so the slower leg lasts l",
+      "status": "reviewed",
       "figures": 0
     },
     {
@@ -198,8 +203,8 @@
       "notes": "Sec. 2.2 (unequal pieces; nested problems solved stage by stage).",
       "answer": "4 m/s.",
       "agrees": true,
-      "replaces": "draft by worksheet; its hint was: > Average speed for the second half of the journey (equal time): 6 m/s\n\n>\n\n> Ave",
-      "status": "ai_solved",
+      "replaces": "ai_solved by worksheet; its hint was: Average the second half first: equal times give the simple mean, 6 m/s. Now you ",
+      "status": "reviewed",
       "figures": 1
     },
     {
@@ -214,7 +219,8 @@
       "notes": "Sec. 2.2 (unequal pieces, distances given).",
       "answer": "1.8v (independent of R). The average velocity over the full circle is zero.",
       "agrees": null,
-      "status": "ai_solved",
+      "replaces": "ai_solved by worksheet; its hint was: The remaining part is 1 − ¼ − ⅓ = 5/12 of the circle. Time for each part = (its ",
+      "status": "reviewed",
       "figures": 1
     },
     {
@@ -227,8 +233,8 @@
       "notes": "Sec. 1.2 (least time with two speeds: sin θ = v₂/v₁).",
       "answer": "(D) d/√3.",
       "agrees": true,
-      "replaces": "draft by worksheet",
-      "status": "ai_solved",
+      "replaces": "ai_solved by worksheet; its hint was: At the best turning point R, turning off a tiny distance later should neither sa",
+      "status": "reviewed",
       "figures": 2
     },
     {
@@ -241,8 +247,8 @@
       "notes": "Sec. 1.2 (unfold the surfaces).",
       "answer": "5 m.",
       "agrees": true,
-      "replaces": "draft by worksheet; its hint was: > Imagine flattening out two adjacent wall like a cardboard box, then minimum di",
-      "status": "ai_solved",
+      "replaces": "ai_solved by worksheet; its hint was: Unfold the two walls the ant crosses into one flat sheet, like opening a cardboa",
+      "status": "reviewed",
       "figures": 2
     },
     {
@@ -255,7 +261,8 @@
       "notes": "Sec. 3.1 (average velocity = mean of u and v for constant a); Sec. 3.2A (starting from rest).",
       "answer": "(A) and (D).",
       "agrees": true,
-      "status": "ai_solved",
+      "replaces": "ai_solved by worksheet; its hint was: With constant acceleration, average velocity = (u + v)/2. Put u = 0 and test eac",
+      "status": "reviewed",
       "figures": 1
     },
     {
@@ -268,8 +275,8 @@
       "notes": "Sec. 3.1 (equal successive intervals: displacements in AP, difference aτ²).",
       "answer": "(B) 6 m.",
       "agrees": true,
-      "replaces": "draft by worksheet; its hint was: > Note: Difference in displacements during equal successive time intervals $(\\ma",
-      "status": "ai_solved",
+      "replaces": "ai_solved by worksheet; its hint was: With constant acceleration, how do the displacements in successive equal time in",
+      "status": "reviewed",
       "figures": 1
     },
     {
@@ -282,8 +289,8 @@
       "notes": "Sec. 3.2B (time-reversal trick: … : 5 : 3 : 1); Sec. 3.1 (equation 6, nth-second displacement).",
       "answer": "(D) 8 m.",
       "agrees": true,
-      "replaces": "draft by worksheet",
-      "status": "ai_solved",
+      "replaces": "ai_solved by worksheet; its hint was: Run the motion backwards: from rest, distances in successive seconds go as 1 : 3",
+      "status": "reviewed",
       "figures": 1
     },
     {
@@ -298,7 +305,8 @@
       "notes": "Sec. 3.2B (stopping distance ∝ u²).",
       "answer": "$n^{2}s$.",
       "agrees": true,
-      "status": "ai_solved",
+      "replaces": "ai_solved by worksheet; its hint was: Which equation of motion links speed and distance without time? With the same re",
+      "status": "reviewed",
       "figures": 1
     },
     {
@@ -311,8 +319,8 @@
       "notes": "Sec. 3.2B (stopping distance with a reaction time: ut_r + u²/2a).",
       "answer": "(D) 0.5 s.",
       "agrees": true,
-      "replaces": "draft by worksheet; its hint was: > Stopping distance after braking + distance travelled during reaction time ($40",
-      "status": "ai_solved",
+      "replaces": "ai_solved by worksheet; its hint was: The 120 m is shared by two phases: the reaction time, at a constant 40 m/s, and ",
+      "status": "reviewed",
       "figures": 1
     },
     {
@@ -325,8 +333,8 @@
       "notes": "Sec. 3.2B (v² ∝ distance still to go; example b; time-reversal trick).",
       "answer": "1 cm more (total penetration 4 cm).",
       "agrees": true,
-      "replaces": "draft by worksheet",
-      "status": "ai_solved",
+      "replaces": "ai_solved by worksheet; its hint was: Under constant retardation, how does v² change with distance? Compare the share ",
+      "status": "reviewed",
       "figures": 2
     },
     {
@@ -339,7 +347,8 @@
       "notes": "Sec. 3.1 (velocity at the mid-point of the path).",
       "answer": "$\\sqrt{\\frac{u^{2} + v^{2}}{2}}$.",
       "agrees": true,
-      "status": "ai_solved",
+      "replaces": "ai_solved by worksheet; its hint was: “Midway” is about distance, not time. Which equation links velocity with distanc",
+      "status": "reviewed",
       "figures": 1
     },
     {
@@ -352,7 +361,8 @@
       "notes": "Sec. 4 (motion under gravity: same constant acceleration g); Sec. 3.2A (starting from rest).",
       "answer": "4 m/s.",
       "agrees": true,
-      "status": "ai_solved",
+      "replaces": "ai_solved by worksheet; its hint was: The two motions start together and end together. Which one tells you how long th",
+      "status": "reviewed",
       "figures": 1
     },
     {
@@ -365,8 +375,8 @@
       "notes": "Sec. 4.2 (last-second problems); Sec. 3.2A (successive intervals 1 : 3 : 5 : 7).",
       "answer": "h = 125 m.",
       "agrees": true,
-      "replaces": "draft by worksheet; its hint was: > Let the total time of fall be T. Distance in the last second = average velocit",
-      "status": "ai_solved",
+      "replaces": "ai_solved by worksheet; its hint was: The first three seconds are easy: 45 m. In which second does a falling body cove",
+      "status": "reviewed",
       "figures": 1
     },
     {
@@ -379,8 +389,8 @@
       "notes": "Sec. 3.1 (average velocity = mean of u and v for constant a; velocity at mid-time); Sec. 4 (motion under gravity).",
       "answer": "(D) $v_{b}$ = 8.5 m/s ($v_{t}$ = 3.5 m/s).",
       "agrees": true,
-      "replaces": "draft by worksheet; its hint was: > Average speed $\\frac{1}{2}(v_{t} + v_{b})$ is 6 m/s and $v_{b} - v_{t} = 5\\ m/",
-      "status": "ai_solved",
+      "replaces": "ai_solved by worksheet; its hint was: Over the window you know the time and the distance. What do they tell you about ",
+      "status": "reviewed",
       "figures": 1
     },
     {
@@ -393,7 +403,8 @@
       "notes": "Sec. 4.1 (symmetry; last second of ascent = first second of descent); Sec. 3.2B (time-reversal trick).",
       "answer": "$\\frac{3}{4}h$.",
       "agrees": true,
-      "status": "ai_solved",
+      "replaces": "ai_solved by worksheet; its hint was: Run the motion backwards from the top: it becomes a body dropped from rest. How ",
+      "status": "reviewed",
       "figures": 1
     },
     {
@@ -406,8 +417,8 @@
       "notes": "Sec. 4.2 (two instants at the same height: speed there = ½g times the difference of the times).",
       "answer": "(B) 50 m/s.",
       "agrees": true,
-      "replaces": "draft by worksheet; its hint was: > Speed at height of 80 m is 30 m/s as the times of ascent / descent is 3 s",
-      "status": "ai_solved",
+      "replaces": "ai_solved by worksheet; its hint was: Between the two instants, the ball goes from 80 m to the top and back. By symmet",
+      "status": "reviewed",
       "figures": 1
     },
     {
@@ -420,7 +431,8 @@
       "notes": "Sec. 4.2 (two instants at the same height: speed there = ½g times the difference of the times; h = ½g t₁t₂).",
       "answer": "(B) 20 m.",
       "agrees": true,
-      "status": "ai_solved",
+      "replaces": "ai_solved by worksheet; its hint was: The ball spends 3 s above the boy, half going up and half coming down. How fast ",
+      "status": "reviewed",
       "figures": 1
     },
     {
@@ -435,8 +447,8 @@
       "notes": "Sec. 4.2 (two instants at the same height: t₁ + t₂ = T, h = ½g t₁t₂).",
       "answer": "$h_{B} = \\frac{1}{2}g\\, t_{1}t_{2}$.",
       "agrees": true,
-      "replaces": "draft by worksheet; its hint was: The total time of flight is $T = (t_{1} + t_{2})$ or $u = gT/2$",
-      "status": "ai_solved",
+      "replaces": "ai_solved by worksheet; its hint was: The particle is at B twice. At what two instants (measured from launch) is it th",
+      "status": "reviewed",
       "figures": 1
     },
     {
@@ -449,7 +461,8 @@
       "notes": "Sec. 4.2 (speed at height h); Sec. 3.2B (v² ∝ distance still to go).",
       "answer": "(D) $36h/5$.",
       "agrees": true,
-      "status": "ai_solved",
+      "replaces": "ai_solved by worksheet; its hint was: Under gravity, v² falls by the same amount for every metre of rise. What fractio",
+      "status": "reviewed",
       "figures": 1
     },
     {
@@ -462,8 +475,8 @@
       "notes": "Sec. 3.2C (distance for t beyond the turning point: split at the top); Sec. 4.2 (example d: distance vs displacement).",
       "answer": "(A) $\\frac{5v_{0}^{2}}{9g}$.",
       "agrees": true,
-      "replaces": "draft by worksheet",
-      "status": "ai_solved",
+      "replaces": "ai_solved by worksheet; its hint was: Distance, not displacement. When does the stone turn round, and is $4v_{0}/3g$ b",
+      "status": "reviewed",
       "figures": 1
     },
     {
@@ -476,7 +489,8 @@
       "notes": "Sec. 4.2 (projection from a tower: t₁ − t₂ = 2u/g).",
       "answer": "(B) 2 s.",
       "agrees": true,
-      "status": "ai_solved",
+      "replaces": "ai_solved by worksheet; its hint was: Follow the ball thrown up until it is back at the top of the tower. How is it mo",
+      "status": "reviewed",
       "figures": 1
     },
     {
@@ -489,7 +503,8 @@
       "notes": "Sec. 4.2 (projection from a tower: t₃ is the geometric mean of t₁ and t₂; example a).",
       "answer": "$t_{3} = \\sqrt{t_{1}t_{2}}$ (and $t_{1} - t_{2} = 2u/g$).",
       "agrees": true,
-      "status": "ai_solved",
+      "replaces": "ai_solved by worksheet; its hint was: Write the equation for reaching the ground for the stone thrown up. What are its",
+      "status": "reviewed",
       "figures": 1
     },
     {
@@ -504,7 +519,8 @@
       "notes": "Sec. 4.2 (projection from a tower: one equation for the whole flight); Sec. 4 (Common traps: no need to split at the top).",
       "answer": "(C) $2gH = nu^{2}(n - 2)$.",
       "agrees": true,
-      "status": "ai_solved",
+      "replaces": "ai_solved by worksheet; its hint was: Time to the top is u/g, so the whole flight lasts nu/g. Use one equation for the",
+      "status": "reviewed",
       "figures": 1
     },
     {
@@ -517,7 +533,8 @@
       "notes": "Sec. 4.2 (speed at height h); Sec. 4.1 (symmetry: same speed at a height going up and coming down).",
       "answer": "(B) 47.5 m.",
       "agrees": true,
-      "status": "ai_solved",
+      "replaces": "ai_solved by worksheet; its hint was: Speeds at two heights and no times: work with v². How much does v² change betwee",
+      "status": "reviewed",
       "figures": 1
     },
     {
@@ -532,7 +549,8 @@
       "notes": "Sec. 4.2 (released from a moving body); Sec. 10.3 (accelerating frames: lift).",
       "answer": "g, downward (relative to the ground).",
       "agrees": null,
-      "status": "ai_solved",
+      "replaces": "ai_solved by worksheet; its hint was: What acts on the stone once it is no longer in contact with the elevator?",
+      "status": "reviewed",
       "figures": 1
     },
     {
@@ -548,8 +566,8 @@
       "notes": "Sec. 4.2 (constant air resistance: tₐ, H, t_d/tₐ, return speed).",
       "answer": "(i) $t_{a} = \\frac{u}{g + a}$; (ii) $t_{d} = \\frac{u}{\\sqrt{g^{2} - a^{2}}}$; (iii) $H = \\frac{u^{2}}{2(g + a)}$; (iv) $v_{C} = u\\sqrt{\\frac{g - a}{g + a}}$; (v) D (going up) is faster than E.",
       "agrees": null,
-      "replaces": "draft by worksheet; its hint was: > Net downward acceleration during upward motion (A – B): $(g + a)$, and $(g - a",
-      "status": "ai_solved",
+      "replaces": "ai_solved by worksheet; its hint was: Resistance always opposes motion. So which way does it point going up, and going",
+      "status": "reviewed",
       "figures": 2
     },
     {
@@ -562,7 +580,8 @@
       "notes": "Sec. 4.2 (constant air resistance: ratio of descent to ascent times).",
       "answer": "(A) 2.",
       "agrees": true,
-      "status": "ai_solved",
+      "replaces": "ai_solved by worksheet; its hint was: The particle covers the same height going up (acceleration 16 m/s²) and coming d",
+      "status": "reviewed",
       "figures": 1
     },
     {
@@ -575,7 +594,8 @@
       "notes": "Sec. 3.3 (two-phase motion: times inversely proportional to accelerations; average speed = v_max/2).",
       "answer": "(i) 2T; (ii) 1 : 2; (iii) $\\frac{3}{2}aT^{2}$; (iv) $\\frac{1}{2}aT$.",
       "agrees": true,
-      "status": "ai_solved",
+      "replaces": "ai_solved by worksheet; its hint was: Draw the v–t graph: a rise to aT, then a fall at half the slope. Everything (tim",
+      "status": "reviewed",
       "figures": 1
     },
     {
@@ -590,7 +610,8 @@
       "notes": "Sec. 3.3 (two-phase motion: t₁ = βT over the sum of the accelerations; v_max, distance, average speed).",
       "answer": "(i) $\\frac{\\beta T}{\\alpha + \\beta}$; (ii) $\\frac{\\alpha\\beta T}{\\alpha + \\beta}$; (iii) $\\frac{\\alpha\\beta T^{2}}{2(\\alpha + \\beta)}$; (iv) $\\frac{\\alpha\\beta T}{2(\\alpha + \\beta)}$.",
       "agrees": null,
-      "status": "ai_solved",
+      "replaces": "ai_solved by worksheet; its hint was: Both phases share one number: the maximum speed. Each phase time is that speed d",
+      "status": "reviewed",
       "figures": 1
     },
     {
@@ -603,7 +624,8 @@
       "notes": "Sec. 3.3 (minimum time from rest to rest).",
       "answer": "$t_{\\min} = 2\\sqrt{d/a}$.",
       "agrees": true,
-      "status": "ai_solved",
+      "replaces": "ai_solved by worksheet; its hint was: On the v–t graph the distance d is a fixed area and the slopes cannot exceed a. ",
+      "status": "reviewed",
       "figures": 1
     },
     {
@@ -616,8 +638,8 @@
       "notes": "Sec. 6 (area under the v–t graph = displacement); Sec. 3.1 (equations of motion).",
       "answer": "(C) 5/7.",
       "agrees": true,
-      "replaces": "draft by worksheet; its hint was: > Use area under $v - t\\ $graph",
-      "status": "ai_solved",
+      "replaces": "ai_solved by worksheet; its hint was: Sketch both v–t graphs. They end at the same speed. Which one is higher in betwe",
+      "status": "reviewed",
       "figures": 1
     },
     {
@@ -632,8 +654,8 @@
       "notes": "Sec. 3.4 (chasing, overtaking and meeting: set the two positions equal).",
       "answer": "$R = \\frac{2\\left( u_{1} - u_{2} \\right)\\left( u_{1}\\beta - u_{2}\\alpha \\right)}{(\\beta - \\alpha)^{2}}$.",
       "agrees": null,
-      "replaces": "draft by worksheet; its hint was: > Let the time to finish the race be $T$: then $u_{1}T + \\frac{1}{2}\\alpha T^{2}",
-      "status": "ai_solved",
+      "replaces": "ai_solved by worksheet; its hint was: Same distance, same time. Write each car’s distance in time T and set them equal",
+      "status": "reviewed",
       "figures": 1
     },
     {
@@ -646,8 +668,8 @@
       "notes": "Sec. 3.4 (two positive roots: A overtakes B, then B overtakes A).",
       "answer": "(D) at 8 s and at 12 s.",
       "agrees": true,
-      "replaces": "draft by worksheet",
-      "status": "ai_solved",
+      "replaces": "ai_solved by worksheet; its hint was: The cyclist starts faster but the bus keeps speeding up. Could they be side by s",
+      "status": "reviewed",
       "figures": 1
     },
     {
@@ -660,7 +682,8 @@
       "notes": "Sec. 3.4 (relative-frame shortcut: catch only if the gap is at most u_rel² over 2a_rel).",
       "answer": "(C) $v^{2} \\geq 2\\alpha x$.",
       "agrees": true,
-      "status": "ai_solved",
+      "replaces": "ai_solved by worksheet; its hint was: Sit on the motorcycle. The jeep then approaches at v but is “decelerated” at α. ",
+      "status": "reviewed",
       "figures": 1
     },
     {
@@ -673,7 +696,8 @@
       "notes": "Sec. 3.4 (relative-frame shortcut; example: largest gap the cyclist can close).",
       "answer": "$x_{\\max} = 25$ m.",
       "agrees": true,
-      "status": "ai_solved",
+      "replaces": "ai_solved by worksheet; its hint was: The man gains on the bus only while he is faster than it. How much ground can he",
+      "status": "reviewed",
       "figures": 1
     },
     {
@@ -686,7 +710,8 @@
       "notes": "Sec. 3.4 (chasing: set the two positions equal).",
       "answer": "(C) 1 km.",
       "agrees": true,
-      "status": "ai_solved",
+      "replaces": "ai_solved by worksheet; its hint was: When the jeep reaches the turning, how far ahead is the bike, and how fast does ",
+      "status": "reviewed",
       "figures": 1
     },
     {
@@ -699,8 +724,8 @@
       "notes": "Sec. 3.1 (average velocity over an interval = velocity at its middle; nth-second displacement).",
       "answer": "(B) 5 : 9.",
       "agrees": true,
-      "replaces": "draft by worksheet; its hint was: > Velocity of A at 4.5 s after its motion started = Velocity of B at 2.5 s after",
-      "status": "ai_solved",
+      "replaces": "ai_solved by worksheet; its hint was: Displacement in a one-second interval equals the velocity at its middle. Where i",
+      "status": "reviewed",
       "figures": 1
     },
     {
@@ -713,7 +738,8 @@
       "notes": "Sec. 3.2B (stopping distance); Sec. 3.4 (chasing, overtaking and meeting).",
       "answer": "(B) 0.6 m/s².",
       "agrees": true,
-      "status": "ai_solved",
+      "replaces": "ai_solved by worksheet; its hint was: Collision is avoided if both trains stop within the 2 km between them. Add their",
+      "status": "reviewed",
       "figures": 1
     },
     {
@@ -726,7 +752,8 @@
       "notes": "Sec. 3.2A (starting from rest); Sec. 3.1 (equations of motion).",
       "answer": "(D) $\\sqrt{a_{1}a_{2}}\\, t$.",
       "agrees": true,
-      "status": "ai_solved",
+      "replaces": "ai_solved by worksheet; its hint was: For the same distance d from rest, speed goes as √a and time as 1/√a. Write the ",
+      "status": "reviewed",
       "figures": 1
     },
     {
@@ -739,7 +766,8 @@
       "notes": "Sec. 3.2A (starting from rest); Sec. 4 (motion under gravity).",
       "answer": "(H − 40) m.",
       "agrees": true,
-      "status": "ai_solved",
+      "replaces": "ai_solved by worksheet; its hint was: After being stopped, the body is released from rest again. So the next 2 s are j",
+      "status": "reviewed",
       "figures": 1
     },
     {
@@ -752,8 +780,8 @@
       "notes": "Sec. 4.2 (time of flight); Sec. 4.1 (symmetry).",
       "answer": "0.5 s.",
       "agrees": true,
-      "replaces": "draft by worksheet; its hint was: > The fifth throw involves the first ball which is 2 sec after the first throw (",
-      "status": "ai_solved",
+      "replaces": "ai_solved by worksheet; its hint was: How long is each ball in the air? The juggler must throw four balls in that time",
+      "status": "reviewed",
       "figures": 1
     },
     {
@@ -766,8 +794,8 @@
       "notes": "Sec. 3.3 (two-phase motion); Sec. 4.2 (released from a moving body).",
       "answer": "(D) 36 km.",
       "agrees": true,
-      "replaces": "draft by worksheet; its hint was: > Acceleration is 10 m/s<sup>2</sup> upward during first 60 s resulting in displ",
-      "status": "ai_solved",
+      "replaces": "ai_solved by worksheet; its hint was: Two phases with different constant accelerations. The second phase starts with t",
+      "status": "reviewed",
       "figures": 1
     },
     {
@@ -780,7 +808,8 @@
       "notes": "Sec. 4.2 (released from a moving body); Sec. 4.2 (projection from a tower).",
       "answer": "$t = \\left( 1 + \\sqrt{2} \\right)\\sqrt{2h/g}$.",
       "agrees": true,
-      "status": "ai_solved",
+      "replaces": "ai_solved by worksheet; its hint was: At release the particle keeps the helicopter’s velocity (upward), not its accele",
+      "status": "reviewed",
       "figures": 1
     },
     {
@@ -793,7 +822,8 @@
       "notes": "Sec. 10.2 (two bodies under gravity: relative motion is uniform).",
       "answer": "(C) 4 s.",
       "agrees": true,
-      "status": "ai_solved",
+      "replaces": "ai_solved by worksheet; its hint was: Once both are falling, their relative acceleration is zero. What is the gap and ",
+      "status": "reviewed",
       "figures": 1
     },
     {
@@ -806,7 +836,8 @@
       "notes": "Sec. 10.2 (two bodies under gravity: relative motion is uniform).",
       "answer": "(A) 40 m/s.",
       "agrees": true,
-      "status": "ai_solved",
+      "replaces": "ai_solved by worksheet; its hint was: Find where the first ball is 4 s after its throw. The second ball must cover tha",
+      "status": "reviewed",
       "figures": 1
     },
     {
@@ -819,7 +850,8 @@
       "notes": "Sec. 10.2 (two bodies under gravity; dropped and thrown up meet at 3h/4).",
       "answer": "(D) 3h/4.",
       "agrees": true,
-      "status": "ai_solved",
+      "replaces": "ai_solved by worksheet; its hint was: Both have the same acceleration, so they close the gap h at a constant relative ",
+      "status": "reviewed",
       "figures": 1
     },
     {
@@ -832,7 +864,8 @@
       "notes": "Sec. 10.2 (two bodies under gravity; example: balls thrown up 2 s apart).",
       "answer": "(A) 75 m.",
       "agrees": true,
-      "status": "ai_solved",
+      "replaces": "ai_solved by worksheet; its hint was: The two flights are identical, just shifted by 2 s. When they meet, one must be ",
+      "status": "reviewed",
       "figures": 1
     },
     {
@@ -845,7 +878,8 @@
       "notes": "Sec. 3.3 (average speed = v_max/2, independent of the accelerations).",
       "answer": "(C) $\\frac{aT}{2}$.",
       "agrees": true,
-      "status": "ai_solved",
+      "replaces": "ai_solved by worksheet; its hint was: Rest → top speed → rest with constant rates: what is the average speed in each p",
+      "status": "reviewed",
       "figures": 1
     },
     {
@@ -858,8 +892,8 @@
       "notes": "Sec. 10.2 (two bodies under gravity); Sec. 3.1 (average velocity = mean of u and v for constant a).",
       "answer": "(B) 60 m.",
       "agrees": true,
-      "replaces": "draft by worksheet",
-      "status": "ai_solved",
+      "replaces": "ai_solved by worksheet; its hint was: In the same time, A gains exactly the speed that B loses. If B has v left at the",
+      "status": "reviewed",
       "figures": 1
     },
     {
@@ -872,7 +906,8 @@
       "notes": "Sec. 10.2 (two bodies under gravity: relative motion is uniform).",
       "answer": "(D) 45 m.",
       "agrees": true,
-      "status": "ai_solved",
+      "replaces": "ai_solved by worksheet; its hint was: When the second stone starts, the first is 20 m above it and 10 m/s faster. With",
+      "status": "reviewed",
       "figures": 1
     },
     {
@@ -885,7 +920,8 @@
       "notes": "Sec. 5.1 (useful recognitions: x quadratic in t means uniform acceleration 2a₂).",
       "answer": "(C) $2a_{2}$.",
       "agrees": true,
-      "status": "ai_solved",
+      "replaces": "ai_solved by worksheet; its hint was: Compare with x = x₀ + ut + ½at². Which coefficient is “½a”?",
+      "status": "reviewed",
       "figures": 0
     },
     {
@@ -898,7 +934,8 @@
       "notes": "Sec. 5.1 (useful recognitions: x ∝ t³ gives a ∝ t).",
       "answer": "(A) Increasing with time.",
       "agrees": true,
-      "status": "ai_solved",
+      "replaces": "ai_solved by worksheet; its hint was: Differentiate x ∝ t³ twice. What power of t is left?",
+      "status": "reviewed",
       "figures": 1
     },
     {
@@ -911,7 +948,8 @@
       "notes": "Sec. 5.1 (a of t given: integrate; Common traps: a = αt gives u + ½αt²).",
       "answer": "(B) $v = u + \\frac{1}{2}\\alpha t^{2}$.",
       "agrees": true,
-      "status": "ai_solved",
+      "replaces": "ai_solved by worksheet; its hint was: The acceleration changes with time, so v = u + at does not apply. The change in ",
+      "status": "reviewed",
       "figures": 1
     },
     {
@@ -924,7 +962,8 @@
       "notes": "Sec. 5.1 (v of t given: integrate for x); Sec. 3.2A (starting from rest).",
       "answer": "(A) 9 m.",
       "agrees": true,
-      "status": "ai_solved",
+      "replaces": "ai_solved by worksheet; its hint was: Velocity linear in time means constant acceleration k. Find the area under the v",
+      "status": "reviewed",
       "figures": 1
     },
     {
@@ -937,7 +976,8 @@
       "notes": "Sec. 5.1 (v of t given: distance = integral of \\|v\\|, split at the roots of v = 0).",
       "answer": "(C) $\\frac{3}{2}A + \\frac{7}{3}B$.",
       "agrees": true,
-      "status": "ai_solved",
+      "replaces": "ai_solved by worksheet; its hint was: Is v ever negative between 1 s and 2 s? If not, distance is just the integral of",
+      "status": "reviewed",
       "figures": 1
     },
     {
@@ -950,7 +990,8 @@
       "notes": "Sec. 5.1 (x of t given: differentiate).",
       "answer": "(B) $\\frac{f - a}{2(1 + b)}$.",
       "agrees": true,
-      "status": "ai_solved",
+      "replaces": "ai_solved by worksheet; its hint was: Differentiate each position to get each velocity, then set them equal.",
+      "status": "reviewed",
       "figures": 1
     },
     {
@@ -963,8 +1004,8 @@
       "notes": "Sec. 5.1 (a of t given: v = u plus the integral of a); Sec. 6 (area under the a–t graph).",
       "answer": "(A) ½$f_{0}T$.",
       "agrees": true,
-      "replaces": "draft by worksheet; its hint was: > ![](/tmp/import-bzoi1s3c/media/image35.png){width=\"1.5748031496062993in\" heigh",
-      "status": "ai_solved",
+      "replaces": "ai_solved by worksheet; its hint was: Sketch f against t: a straight line from f₀ down to zero. The velocity gained is",
+      "status": "reviewed",
       "figures": 1
     },
     {
@@ -977,7 +1018,8 @@
       "notes": "Sec. 5.1 (useful recognitions: a = 0 where v is extremum).",
       "answer": "(C) $\\frac{a}{3b}$.",
       "agrees": true,
-      "status": "ai_solved",
+      "replaces": "ai_solved by worksheet; its hint was: Differentiate twice and set the result to zero.",
+      "status": "reviewed",
       "figures": 1
     },
     {
@@ -990,8 +1032,8 @@
       "notes": "Sec. 5.1 (t of x given: v is 1 over dt/dx; a = −v³ times d²t/dx²).",
       "answer": "(A) $2\\alpha v^{3}$.",
       "agrees": true,
-      "replaces": "draft by worksheet; its hint was: > Differentiating wrt t: $1 = 2\\alpha x\\frac{dx}{dt} + \\beta\\frac{dx}{dt}$ or $v",
-      "status": "ai_solved",
+      "replaces": "ai_solved by worksheet; its hint was: Here t is given as a function of x. dt/dx is 1/v. Differentiate that with respec",
+      "status": "reviewed",
       "figures": 0
     },
     {
@@ -1004,8 +1046,8 @@
       "notes": "Sec. 5.1 (v of x given: a = v dv/dx).",
       "answer": "(A) $- 2n\\beta^{2}x^{- 4n - 1}$.",
       "agrees": true,
-      "replaces": "draft by worksheet; its hint was: > $\\frac{dv}{dx} = - 2n\\beta x^{- 2n - 1}$; hence $a = v\\frac{dv}{dx} = (\\beta x",
-      "status": "ai_solved",
+      "replaces": "ai_solved by worksheet; its hint was: Velocity is given as a function of position. Use a = v dv/dx.",
+      "status": "reviewed",
       "figures": 0
     },
     {
@@ -1018,7 +1060,8 @@
       "notes": "Sec. 5.1 (x of t given: differentiate).",
       "answer": "(B) $(velocity)^{3/2}$.",
       "agrees": true,
-      "status": "ai_solved",
+      "replaces": "ai_solved by worksheet; its hint was: Write v and a in powers of (t + 5), then express a through the power of v.",
+      "status": "reviewed",
       "figures": 0
     },
     {
@@ -1031,7 +1074,8 @@
       "notes": "Sec. 5.1 (Common traps: retarding interval is where v and a have opposite signs).",
       "answer": "(B) 1/2 \\< t \\< 1.",
       "agrees": true,
-      "status": "ai_solved",
+      "replaces": "ai_solved by worksheet; its hint was: Retarding means slowing down: v and a have opposite signs. Find where each chang",
+      "status": "reviewed",
       "figures": 1
     },
     {
@@ -1044,7 +1088,8 @@
       "notes": "Sec. 5.1 (time-average of v = Δx over Δt).",
       "answer": "(D) $\\frac{1}{6}kT^{2}$.",
       "agrees": true,
-      "status": "ai_solved",
+      "replaces": "ai_solved by worksheet; its hint was: Average speed is total distance ÷ total time. Distance is the area under v from ",
+      "status": "reviewed",
       "figures": 1
     },
     {
@@ -1057,8 +1102,8 @@
       "notes": "Sec. 5.1 (distance: split at the roots of v = 0); Sec. 2.2 (average speed).",
       "answer": "(i) 0; (ii) 5 m/s.",
       "agrees": true,
-      "replaces": "draft by worksheet; its hint was: > $v(t) = 2t - 10$; the particle reverses its direction of motion at t = 5 s;\n\n>",
-      "status": "ai_solved",
+      "replaces": "ai_solved by worksheet; its hint was: Check positions at 0 and 10 s first. Then find where v = 0 inside the interval: ",
+      "status": "reviewed",
       "figures": 1
     },
     {
@@ -1071,7 +1116,8 @@
       "notes": "Sec. 5.1 (distance: split at the roots of v = 0); Sec. 3.2C (reversal).",
       "answer": "(D) 12 m.",
       "agrees": true,
-      "status": "ai_solved",
+      "replaces": "ai_solved by worksheet; its hint was: Where does the particle turn round? Compare the positions at 0 s, at the turn, a",
+      "status": "reviewed",
       "figures": 1
     },
     {
@@ -1084,8 +1130,8 @@
       "notes": "Sec. 5.1 (useful recognitions: v² linear in x means uniform acceleration).",
       "answer": "(D) $\\frac{1}{2}\\alpha\\sqrt{S}$.",
       "agrees": true,
-      "replaces": "draft by worksheet; its hint was: > Comparing with a uniformly accelerated motion $v = \\sqrt{u^{2} + 2ax}$; $u = 0",
-      "status": "ai_solved",
+      "replaces": "ai_solved by worksheet; its hint was: Square the velocity: v² = α²x. What kind of motion has v² growing linearly with ",
+      "status": "reviewed",
       "figures": 1
     },
     {
@@ -1098,8 +1144,8 @@
       "notes": "Sec. 5.1 (a of t given: integrate twice); Sec. 5.1 (time-average of v).",
       "answer": "(A) $\\frac{1}{3}a_{0}T$.",
       "agrees": true,
-      "replaces": "draft by worksheet",
-      "status": "ai_solved",
+      "replaces": "ai_solved by worksheet; its hint was: Integrate a to get v(t), then integrate again for the displacement over 0 to T, ",
+      "status": "reviewed",
       "figures": 1
     },
     {
@@ -1112,8 +1158,8 @@
       "notes": "Sec. 5.1 (a of v given: for distance dx = v dv over a of v; example c).",
       "answer": "(B) $\\frac{2}{3k}u^{3/2}$.",
       "agrees": true,
-      "replaces": "draft by worksheet; its hint was: As the problem requires relationship between $v\\ and\\ x$: use $a = v\\frac{dv}{dx",
-      "status": "ai_solved",
+      "replaces": "ai_solved by worksheet; its hint was: Distance and velocity, no time: write the acceleration as v dv/dx and separate t",
+      "status": "reviewed",
       "figures": 1
     },
     {
@@ -1126,8 +1172,8 @@
       "notes": "Sec. 5.1 (a of t given: integrate twice; a = 0 where v is extremum).",
       "answer": "(i) 15 m/s; (ii) 80/9 m ≈ 8.9 m.",
       "agrees": true,
-      "replaces": "draft by worksheet; its hint was: > Here $a = 5 - \\frac{5}{6}t$ Speed $v$ is maximum when $\\frac{dv}{dt} = a = 0$;",
-      "status": "ai_solved",
+      "replaces": "ai_solved by worksheet; its hint was: The speed keeps rising as long as the acceleration is positive. When does it sto",
+      "status": "reviewed",
       "figures": 2
     },
     {
@@ -1140,7 +1186,8 @@
       "notes": "Sec. 6 (x–t graph: slope = velocity).",
       "answer": "(D) 1 : 3.",
       "agrees": true,
-      "status": "ai_solved",
+      "replaces": "ai_solved by worksheet; its hint was: On an x–t graph, velocity is the slope. What is the slope of a line at 30°, and ",
+      "status": "reviewed",
       "figures": 1
     },
     {
@@ -1153,8 +1200,8 @@
       "notes": "Sec. 6 (v–t graph: area = displacement; total unsigned area = distance).",
       "answer": "(A) 8 m, 16 m.",
       "agrees": true,
-      "replaces": "draft by worksheet; its hint was: Displacements: 0 – 2 sec: +$8m$; 2 – 4 sec: $- 4m$ and 4 – 6 sec: $+ 4m$;\n\nDista",
-      "status": "ai_solved",
+      "replaces": "ai_solved by worksheet; its hint was: Area under a v–t graph is displacement. Areas below the time axis count as negat",
+      "status": "reviewed",
       "figures": 1
     },
     {
@@ -1167,7 +1214,8 @@
       "notes": "Sec. 6 (v–t graph: slope = acceleration).",
       "answer": "(D) 6 cm/s².",
       "agrees": true,
-      "status": "ai_solved",
+      "replaces": "ai_solved by worksheet; its hint was: Acceleration is the slope of the v–t graph. Which segment is steepest?",
+      "status": "reviewed",
       "figures": 1
     },
     {
@@ -1180,7 +1228,8 @@
       "notes": "Sec. 6 (v–t graph: area = displacement).",
       "answer": "(C) 36.0 m.",
       "agrees": true,
-      "status": "ai_solved",
+      "replaces": "ai_solved by worksheet; its hint was: The height climbed is the area under the speed–time graph. What shape is it?",
+      "status": "reviewed",
       "figures": 1
     },
     {
@@ -1193,8 +1242,8 @@
       "notes": "Sec. 6 (v–t graph: area = displacement); Sec. 3.4 (chasing, overtaking and meeting).",
       "answer": "(A) 112.5 m and 22.5 s.",
       "agrees": true,
-      "replaces": "draft by worksheet",
-      "status": "ai_solved",
+      "replaces": "ai_solved by worksheet; its hint was: Compare areas under the two graphs. After 15 s the car is 15 m/s faster: how lon",
+      "status": "reviewed",
       "figures": 1
     },
     {
@@ -1207,8 +1256,8 @@
       "notes": "Sec. 6.1 (reading shapes: v is the slope of x–t).",
       "answer": "(C).",
       "agrees": true,
-      "replaces": "draft by worksheet; its hint was: > Note: $x - t$ graph is $- sin$ curve and $v - t$ graph will be its derivative",
-      "status": "ai_solved",
+      "replaces": "ai_solved by worksheet; its hint was: Velocity is the slope of the x–t curve. What is the slope at t = 0, and where is",
+      "status": "reviewed",
       "figures": 1
     },
     {
@@ -1223,8 +1272,8 @@
       "notes": "Sec. 6.1 (reading shapes); Sec. 3.1 (equations of motion).",
       "answer": "(D).",
       "agrees": true,
-      "replaces": "draft by worksheet",
-      "status": "ai_solved",
+      "replaces": "ai_solved by worksheet; its hint was: Constant acceleration means a horizontal a–t line, a straight v–t line, and a pa",
+      "status": "reviewed",
       "figures": 0
     },
     {
@@ -1239,8 +1288,8 @@
       "notes": "Sec. 6.1 (reading shapes: a is the slope of v–t).",
       "answer": "(B).",
       "agrees": true,
-      "replaces": "draft by worksheet; its hint was: > A-M: uniform deceleration and M-B: uniform acceleration",
-      "status": "ai_solved",
+      "replaces": "ai_solved by worksheet; its hint was: Acceleration is the slope of the v–t graph. What are the slopes of AM and MB?",
+      "status": "reviewed",
       "figures": 1
     },
     {
@@ -1255,8 +1304,8 @@
       "notes": "Sec. 6.1 (reading shapes); Sec. 4.1 (symmetry); Sec. 3.2C (reversal).",
       "answer": "(C).",
       "agrees": true,
-      "replaces": "draft by worksheet; its hint was: Other three represent a vertical projectile with instantaneous rest at highest p",
-      "status": "ai_solved",
+      "replaces": "ai_solved by worksheet; its hint was: Three of the graphs describe a ball thrown straight up that comes back down. Nam",
+      "status": "reviewed",
       "figures": 1
     },
     {
@@ -1269,8 +1318,8 @@
       "notes": "Sec. 5.1 (v of x given: a = v dv/dx); Sec. 6.1 (reading shapes).",
       "answer": "(B).",
       "agrees": true,
-      "replaces": "draft by worksheet; its hint was: > Key Concept: 0 – 200 m, straight line $\\rightarrow$ $\\frac{dv}{dx}$ is constan",
-      "status": "ai_solved",
+      "replaces": "ai_solved by worksheet; its hint was: With v given against x, a = v dv/dx. On the first part, dv/dx is constant; what ",
+      "status": "reviewed",
       "figures": 1
     },
     {
@@ -1283,7 +1332,8 @@
       "notes": "Sec. 5.1 (v of x given: a = v dv/dx; example b: drag a = −kv).",
       "answer": "$v = 10 - \\frac{x}{4}$ m/s; $a = \\frac{x}{16} - \\frac{5}{2}$ m/s².",
       "agrees": true,
-      "status": "ai_solved",
+      "replaces": "ai_solved by worksheet; its hint was: Write the straight line v = intercept + slope × x. Then a = v dv/dx.",
+      "status": "reviewed",
       "figures": 1
     },
     {
@@ -1296,7 +1346,8 @@
       "notes": "Sec. 5.1 (a of x given: area under the a–x graph = ½ times the change in v²).",
       "answer": "(D) √3 m/s.",
       "agrees": true,
-      "status": "ai_solved",
+      "replaces": "ai_solved by worksheet; its hint was: For an a–x graph, the area under it gives the change in ½v².",
+      "status": "reviewed",
       "figures": 1
     },
     {
@@ -1309,8 +1360,8 @@
       "notes": "Sec. 6 (a–t graph: area = change in velocity).",
       "answer": "(C) 10 m/s.",
       "agrees": true,
-      "replaces": "draft by worksheet; its hint was: > Area under $a - t$ graph during a time interval $0$ to $t$ $\\neq$ $v$ but $= v",
-      "status": "ai_solved",
+      "replaces": "ai_solved by worksheet; its hint was: Area under the a–t graph = change in velocity. Don’t forget the starting 2 m/s.",
+      "status": "reviewed",
       "figures": 1
     },
     {
@@ -1323,7 +1374,8 @@
       "notes": "Sec. 6 (a–t graph: area = change in velocity).",
       "answer": "(D) −2 m/s.",
       "agrees": true,
-      "status": "ai_solved",
+      "replaces": "ai_solved by worksheet; its hint was: The line starts at −1 and falls at tan 37° = ¾ per second. Find a at 4 s, then t",
+      "status": "reviewed",
       "figures": 1
     },
     {
@@ -1336,8 +1388,8 @@
       "notes": "Sec. 4.2 (speed at height h); Sec. 6.1 (reading shapes).",
       "answer": "(D).",
       "agrees": true,
-      "replaces": "draft by worksheet",
-      "status": "ai_solved",
+      "replaces": "ai_solved by worksheet; its hint was: Take up as positive. Falling, v is negative and v² = 2g(h − y). After the bounce",
+      "status": "reviewed",
       "figures": 1
     },
     {
@@ -1350,7 +1402,8 @@
       "notes": "Sec. 10 (relative motion: work in the frame of one body).",
       "answer": "(A) 40 km/h.",
       "agrees": true,
-      "status": "ai_solved",
+      "replaces": "ai_solved by worksheet; its hint was: In the cars’ frame, the two cars are fixed points 5 km apart. How fast must the ",
+      "status": "reviewed",
       "figures": 1
     },
     {
@@ -1363,7 +1416,8 @@
       "notes": "Sec. 10 (relative velocity = velocity of A minus velocity of B).",
       "answer": "(C) 29.5 m/s.",
       "agrees": true,
-      "status": "ai_solved",
+      "replaces": "ai_solved by worksheet; its hint was: First find the person’s velocity relative to the ground, then subtract train B’s",
+      "status": "reviewed",
       "figures": 1
     },
     {
@@ -1376,7 +1430,8 @@
       "notes": "Sec. 10 (relative motion); Sec. 1 (Common traps: crossing covers both lengths).",
       "answer": "(C) 11/5.",
       "agrees": true,
-      "status": "ai_solved",
+      "replaces": "ai_solved by worksheet; its hint was: In either case the relative distance is the sum of the lengths. Only the relativ",
+      "status": "reviewed",
       "figures": 1
     },
     {
@@ -1389,7 +1444,8 @@
       "notes": "Sec. 10.3 (accelerating frames: lift, train).",
       "answer": "(D) 38 m.",
       "agrees": true,
-      "status": "ai_solved",
+      "replaces": "ai_solved by worksheet; its hint was: Work in the balloon’s frame. What are the stone’s initial velocity and accelerat",
+      "status": "reviewed",
       "figures": 1
     },
     {
@@ -1402,7 +1458,8 @@
       "notes": "Sec. 10.3 (accelerating frames: lift).",
       "answer": "(B) $\\sqrt{9/20}$ s.",
       "agrees": true,
-      "status": "ai_solved",
+      "replaces": "ai_solved by worksheet; its hint was: In the lift’s frame the bolt starts at rest. What is its acceleration relative t",
+      "status": "reviewed",
       "figures": 1
     },
     {
@@ -1415,7 +1472,8 @@
       "notes": "Sec. 10 (relative velocity = velocity of A minus velocity of B).",
       "answer": "v = 580.",
       "agrees": true,
-      "status": "ai_solved",
+      "replaces": "ai_solved by worksheet; its hint was: Find each velocity at t = 1 s. They are at right angles, so the relative speed c",
+      "status": "reviewed",
       "figures": 1
     }
   ],

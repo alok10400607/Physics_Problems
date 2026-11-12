@@ -1,7 +1,7 @@
 {
   "id": "P000169",
   "problem_version": 2,
-  "status": "ai_solved",
+  "status": "reviewed",
   "hints": [
     "With v given against x, a = v dv/dx. On the first part, dv/dx is constant; what happens to a as v grows? On the flat part?"
   ],
@@ -25,5 +25,9 @@
     "prompt_version": "03MSL_Solutions_v8",
     "date": "2026-11-12"
   },
-  "reviewed_by": null
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 03MSL_Solutions_v8.docx"
+  }
 }

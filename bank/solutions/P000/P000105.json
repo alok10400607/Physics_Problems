@@ -1,7 +1,7 @@
 {
   "id": "P000105",
   "problem_version": 1,
-  "status": "ai_solved",
+  "status": "reviewed",
   "hints": [
     "Run the motion backwards from the top: it becomes a body dropped from rest. How far does a dropped body fall in half the time it takes to fall all the way?"
   ],
@@ -24,5 +24,9 @@
     "prompt_version": "03MSL_Solutions_v8",
     "date": "2026-11-12"
   },
-  "reviewed_by": null
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 03MSL_Solutions_v8.docx"
+  }
 }

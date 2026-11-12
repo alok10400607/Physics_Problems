@@ -1,7 +1,7 @@
 {
   "id": "P000092",
   "problem_version": 1,
-  "status": "ai_solved",
+  "status": "reviewed",
   "hints": [
     "The remaining part is 1 − ¼ − ⅓ = 5/12 of the circle. Time for each part = (its share of the circumference) ÷ (its speed)."
   ],
@@ -27,5 +27,9 @@
     "prompt_version": "03MSL_Solutions_v8",
     "date": "2026-11-12"
   },
-  "reviewed_by": null
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 03MSL_Solutions_v8.docx"
+  }
 }

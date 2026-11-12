@@ -1,7 +1,7 @@
 {
   "id": "P000174",
   "problem_version": 2,
-  "status": "ai_solved",
+  "status": "reviewed",
   "hints": [
     "Take up as positive. Falling, v is negative and v² = 2g(h − y). After the bounce, v is positive and v² = 2g(h/2 − y). Where is each branch steepest?"
   ],
@@ -25,5 +25,9 @@
     "prompt_version": "03MSL_Solutions_v8",
     "date": "2026-11-12"
   },
-  "reviewed_by": null
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 03MSL_Solutions_v8.docx"
+  }
 }

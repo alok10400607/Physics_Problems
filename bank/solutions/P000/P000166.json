@@ -1,7 +1,7 @@
 {
   "id": "P000166",
   "problem_version": 1,
-  "status": "ai_solved",
+  "status": "reviewed",
   "hints": [
     "Constant acceleration means a horizontal a–t line, a straight v–t line, and a parabolic x–t curve. And the three must agree with each other."
   ],
@@ -26,5 +26,9 @@
     "prompt_version": "03MSL_Solutions_v8",
     "date": "2026-11-12"
   },
-  "reviewed_by": null
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 03MSL_Solutions_v8.docx"
+  }
 }

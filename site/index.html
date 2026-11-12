@@ -91,6 +91,7 @@ a.row:hover{background:var(--surface)}
 /* question card */
 .bar{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:8px}
 .link{background:none;border:0;padding:4px 0;color:var(--accent);font-weight:500}
+.crumbs .link{padding:0;font:inherit}
 .prog{font:500 .85rem var(--mono);color:var(--muted);font-variant-numeric:tabular-nums}
 .timer{font:600 .95rem var(--mono);font-variant-numeric:tabular-nums;padding:3px 10px;border-radius:6px;background:var(--accent-soft);color:var(--accent)}
 .timer.low{background:var(--bad-soft);color:var(--bad)}
@@ -382,7 +383,7 @@ function viewRun(){
   }
   const sol = test ? "" : solutionBlock(q, sh, done || (q.type === "subjective" && sh.answer));
   app.innerHTML = `
-    <div class="bar"><button class="link" id="leave">‹ ${esc(sub.name)}</button>
+    <div class="bar"><nav class="crumbs" aria-label="You are here"><a href="#home" id="home">All chapters</a><span>›</span><button class="link" id="leave">${esc(sub.name)}</button></nav>
       <span style="display:flex;gap:10px;align-items:center">${r.ends ? `<span class="timer" id="timer" aria-label="Time left">${fmt(r.ends - Date.now())}</span>` : ""}<span class="prog">${r.i + 1} / ${r.qs.length}</span></span></div>
     <div class="dots">${r.qs.map((x, k) => `<button class="dot ${dotClass(x)} ${k === r.i ? "cur" : ""}" data-go="${k}" aria-label="Question ${k + 1}">${k + 1}</button>`).join("")}</div>
     <article class="card">
@@ -432,6 +433,7 @@ function solutionBlock(q, sh, unlocked){
 function wireRun(q, sh){
   const r = S.run, $ = s => app.querySelector(s);
   $("#leave").onclick = () => { if (r.mode === "test" && !r.done && Object.keys(r.res).length && !confirmLeave()) return; S.run = null; go("st-" + r.code); };
+  $("#home").onclick = e => { e.preventDefault(); if (r.mode === "test" && !r.done && Object.keys(r.res).length && !confirmLeave()) return; S.run = null; go("home"); };
   app.querySelectorAll("[data-go]").forEach(b => b.onclick = () => { r.i = +b.dataset.go; viewRun(); });
   app.querySelectorAll("[data-opt]").forEach(b => b.onclick = () => answer(q, b.dataset.opt));
   const nf = $("#numform"); if (nf) nf.onsubmit = e => { e.preventDefault(); const v = nf.querySelector("input").value.trim(); if (v) answer(q, v); };
@@ -473,7 +475,7 @@ function viewResult(){
   const marks = got * 4 - wrong;
   const missed = r.qs.filter(q => r.res[q.id]?.status !== "correct");
   app.innerHTML = `
-    <div class="bar"><button class="link" id="leave">‹ ${esc(sub.name)}</button></div>
+    <div class="bar"><nav class="crumbs" aria-label="You are here"><a href="#home">All chapters</a><span>›</span><button class="link" id="leave">${esc(sub.name)}</button></nav></div>
     <section style="display:flex;flex-direction:column;gap:10px"><h3>${test ? "Test result" : "Practice result"}</h3><h1>${esc(sub.name)}</h1></section>
     <div class="score">${test ? `<span class="big">${marks}</span><span class="of">marks out of ${r.qs.length * 4} · ${got} correct · ${wrong} wrong · ${skipped} skipped</span>`
       : `<span class="big">${got}</span><span class="of">of ${r.qs.length} correct · ${skipped} skipped</span>`}</div>

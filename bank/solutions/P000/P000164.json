@@ -1,7 +1,7 @@
 {
   "id": "P000164",
   "problem_version": 2,
-  "status": "ai_solved",
+  "status": "reviewed",
   "hints": [
     "Compare areas under the two graphs. After 15 s the car is 15 m/s faster: how long to make up the deficit?"
   ],
@@ -24,5 +24,9 @@
     "prompt_version": "03MSL_Solutions_v8",
     "date": "2026-11-12"
   },
-  "reviewed_by": null
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 03MSL_Solutions_v8.docx"
+  }
 }

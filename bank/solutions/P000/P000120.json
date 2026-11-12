@@ -1,7 +1,7 @@
 {
   "id": "P000120",
   "problem_version": 1,
-  "status": "ai_solved",
+  "status": "reviewed",
   "hints": [
     "On the v–t graph the distance d is a fixed area and the slopes cannot exceed a. What shape covers that area in the shortest base?"
   ],
@@ -24,5 +24,9 @@
     "prompt_version": "03MSL_Solutions_v8",
     "date": "2026-11-12"
   },
-  "reviewed_by": null
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 03MSL_Solutions_v8.docx"
+  }
 }

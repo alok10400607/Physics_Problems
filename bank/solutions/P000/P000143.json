@@ -1,7 +1,7 @@
 {
   "id": "P000143",
   "problem_version": 1,
-  "status": "ai_solved",
+  "status": "reviewed",
   "hints": [
     "The acceleration changes with time, so v = u + at does not apply. The change in velocity is the area under the a–t graph."
   ],
@@ -24,5 +24,9 @@
     "prompt_version": "03MSL_Solutions_v8",
     "date": "2026-11-12"
   },
-  "reviewed_by": null
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 03MSL_Solutions_v8.docx"
+  }
 }
