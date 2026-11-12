@@ -1,6 +1,6 @@
 {
   "id": "P000086",
-  "status": "imported",
+  "status": "reviewed",
   "version": 1,
   "type": "subjective",
   "topic_code": "0305",
@@ -27,11 +27,23 @@
       "qno": 2
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "id": "P000086-sol-1",
+      "role": "solution",
+      "file": "P000/P000086-sol-1.png",
+      "format": "png",
+      "width": 793,
+      "height": 450,
+      "alt": "A wheel rolling to the right. The start position (dashed circle, centre C) has point P at the bottom; the end position (solid circle, centre C′) is πR further on, with P at the top. A dashed blue arc shows P's curved path; a red arrow Δr joins P (start) to P (end), spanning πR horizontally and 2R vertically.",
+      "origin": "docx",
+      "needs_redraw": false
+    }
+  ],
   "rights": "unverified",
   "content_hash": "194e3e8c34d30244",
   "duplicate_of": null,
   "variant_of": null,
   "created": "2026-11-08",
-  "updated": "2026-11-08"
+  "updated": "2026-11-12"
 }

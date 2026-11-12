@@ -1,0 +1,32 @@
+{
+  "id": "P000142",
+  "problem_version": 1,
+  "status": "reviewed",
+  "hints": [
+    "Differentiate x ∝ t³ twice. What power of t is left?"
+  ],
+  "worded": "1. Each differentiation lowers the power of t by one. From t³, velocity goes as t² and acceleration as t.\n\n2. Acceleration proportional to t grows steadily with time. (A)\n\n3. Contrast: constant acceleration would need x ∝ t² (option C belongs to that case).",
+  "conventional": "![](asset:P000142-sol-1)\n\n$x = kt^{3} \\Rightarrow v = 3kt^{2} \\Rightarrow a = 6kt$, which increases linearly with time.",
+  "mistakes": [
+    "x ∝ t³ is not uniformly accelerated motion; don’t use SUVAT for it."
+  ],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "solved_answer": "(A) Increasing with time.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": "03MSL_Solutions_v8",
+    "date": "2026-11-12"
+  },
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 03MSL_Solutions_v8.docx"
+  }
+}

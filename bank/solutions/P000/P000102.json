@@ -1,0 +1,33 @@
+{
+  "id": "P000102",
+  "problem_version": 1,
+  "status": "reviewed",
+  "hints": [
+    "The two motions start together and end together. Which one tells you how long that is?"
+  ],
+  "worded": "1. The object and the boat are independent: the object falls straight down, the boat moves horizontally. They are linked only by time, because both start at the release and end at the impact.\n\n2. The fall decides the time. Dropped from rest, a body falls 5 m in the first second, 20 m in two seconds and 45 m in three seconds. So the fall takes 3 s.\n\n3. In those same 3 s the boat must cover its 12 m to the impact point. That is 4 m every second.\n\n4. Check: a row-boat at 4 m/s (about 14 km/h) is brisk but believable.",
+  "conventional": "![](asset:P000102-sol-1)\n\nTime of fall from rest through $h = 45$ m, using $h = \\frac{1}{2}gt^{2}$:\n\n$$t = \\sqrt{\\frac{2h}{g}} = \\sqrt{\\frac{2(45)}{10}} = 3\\unit{s}.$$\n\nThe boat covers 12 m in the same time at constant velocity:\n\n$$v_{b} = \\frac{12}{3} = 4\\unit{m/s}.$$",
+  "mistakes": [
+    "The boat’s speed does not affect the fall; only the common time links the two motions.",
+    "Use the fall from rest ($u = 0$) to get the time, not 45/12 or any mix of the two distances."
+  ],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "solved_answer": "4 m/s.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": "03MSL_Solutions_v8",
+    "date": "2026-11-12"
+  },
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 03MSL_Solutions_v8.docx"
+  }
+}

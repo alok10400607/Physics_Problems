@@ -1,6 +1,6 @@
 {
   "id": "P000136",
-  "status": "imported",
+  "status": "reviewed",
   "version": 1,
   "type": "mcq_single",
   "topic_code": "0320",
@@ -35,11 +35,23 @@
       "qno": 52
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "id": "P000136-sol-1",
+      "role": "solution",
+      "file": "P000/P000136-sol-1.png",
+      "format": "png",
+      "width": 517,
+      "height": 511,
+      "alt": "A tower of height h. One ball is dropped from the top and another is thrown up from the ground at u = √(2gh). They meet h/4 below the top, 3h/4 above the ground.",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
   "rights": "unverified",
   "content_hash": "bde2e2cd616a2686",
   "duplicate_of": null,
   "variant_of": null,
   "created": "2026-11-08",
-  "updated": "2026-11-08"
+  "updated": "2026-11-12"
 }

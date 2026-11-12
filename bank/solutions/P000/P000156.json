@@ -1,23 +1,32 @@
 {
   "id": "P000156",
   "problem_version": 1,
-  "status": "draft",
+  "status": "reviewed",
   "hints": [
-    "> Comparing with a uniformly accelerated motion $v = \\sqrt{u^{2} + 2ax}$; $u = 0\\ and\\ v = \\alpha\\sqrt{S}$\n\n>\n\n> Average velocity = $\\frac{(u + v)}{2}$"
+    "Square the velocity: v² = α²x. What kind of motion has v² growing linearly with distance?"
   ],
-  "worded": null,
-  "conventional": null,
-  "mistakes": [],
+  "worded": "1. v² = α²x is linear in x, exactly like v² = 2ax from rest. So the motion is uniformly accelerated from rest, with a = α²/2.\n\n2. For uniform acceleration from rest, the mean velocity is half the final velocity.\n\n3. Final velocity after S is α√S, so the mean is ½α√S. (D)\n\n4. Units check: α has units m^½/s, so α√S is a velocity; (B) and (C) are not.",
+  "conventional": "![](asset:P000156-sol-1)\n\n$v = \\alpha\\sqrt{x}$ gives $a = v\\frac{dv}{dx} = \\alpha\\sqrt{x} \\cdot \\frac{\\alpha}{2\\sqrt{x}} = \\frac{\\alpha^{2}}{2}$ (constant). Starting from rest:\n\n$$t = \\frac{v}{a} = \\frac{\\alpha\\sqrt{S}}{\\alpha^{2}/2} = \\frac{2\\sqrt{S}}{\\alpha},\\quad\\quad\\bar{v} = \\frac{S}{t} = \\frac{\\alpha\\sqrt{S}}{2}.$$",
+  "mistakes": [
+    "The mean over time is v/2 only because the acceleration turns out constant; check that before using it."
+  ],
   "distractors": {},
   "extension": null,
   "check": {
+    "solved_answer": "(D) $\\frac{1}{2}\\alpha\\sqrt{S}$.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
     "issues": []
   },
   "generated_by": {
     "author": "worksheet",
     "model": null,
-    "prompt_version": null,
-    "date": "2026-11-08"
+    "prompt_version": "03MSL_Solutions_v8",
+    "date": "2026-11-12"
   },
-  "reviewed_by": null
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 03MSL_Solutions_v8.docx"
+  }
 }

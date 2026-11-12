@@ -1,6 +1,6 @@
 {
   "id": "P000109",
-  "status": "imported",
+  "status": "reviewed",
   "version": 1,
   "type": "mcq_single",
   "topic_code": "0315",
@@ -35,11 +35,23 @@
       "qno": 25
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "id": "P000109-sol-1",
+      "role": "solution",
+      "file": "P000/P000109-sol-1.png",
+      "format": "png",
+      "width": 830,
+      "height": 594,
+      "alt": "Graph of v² against height y: a straight line falling from u² at the ground to zero at the top, height H. Points P and Q, where v² is u²/4 and u²/9, are a height h apart.",
+      "origin": "docx",
+      "needs_redraw": false
+    }
+  ],
   "rights": "unverified",
   "content_hash": "3590f382b6aee525",
   "duplicate_of": null,
   "variant_of": null,
   "created": "2026-11-08",
-  "updated": "2026-11-08"
+  "updated": "2026-11-12"
 }

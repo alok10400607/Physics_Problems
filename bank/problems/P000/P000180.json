@@ -1,6 +1,6 @@
 {
   "id": "P000180",
-  "status": "imported",
+  "status": "reviewed",
   "version": 1,
   "type": "integer",
   "topic_code": "0340",
@@ -38,11 +38,23 @@
       "year": 2020
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "id": "P000180-sol-1",
+      "role": "solution",
+      "file": "P000/P000180-sol-1.png",
+      "format": "png",
+      "width": 588,
+      "height": 471,
+      "alt": "Vector diagram: v₁ = 2 along x, v₂ = 24 straight down along −y, and the green vector v₂ − v₁ joining their tips. |v₂₁|² = 2² + 24² = 580.",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
   "rights": "past-paper",
   "content_hash": "f5c19d11d84359f3",
   "duplicate_of": null,
   "variant_of": null,
   "created": "2026-11-08",
-  "updated": "2026-11-08"
+  "updated": "2026-11-12"
 }

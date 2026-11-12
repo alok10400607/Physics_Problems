@@ -1,0 +1,32 @@
+{
+  "id": "P000176",
+  "problem_version": 1,
+  "status": "reviewed",
+  "hints": [
+    "First find the person’s velocity relative to the ground, then subtract train B’s velocity (with signs)."
+  ],
+  "worded": "1. Take A’s direction as positive. Speeds in m/s: A +10, B −20, person relative to A −0.5.\n\n2. Person relative to ground: 10 − 0.5 = +9.5 m/s.\n\n3. Relative to B: 9.5 − (−20) = 29.5 m/s. (C)",
+  "conventional": "![](asset:P000176-sol-1)\n\n$$v_{P,g} = v_{A} + v_{P,A} = 10 - 0.5 = 9.5\\unit{m/s},\\quad\\quad v_{P,B} = v_{P,g} - v_{B} = 9.5 - ( - 20) = 29.5\\unit{m/s}.$$",
+  "mistakes": [
+    "Keep the signs: B moves opposite to A, so subtracting its velocity adds 20 m/s."
+  ],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "solved_answer": "(C) 29.5 m/s.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": "03MSL_Solutions_v8",
+    "date": "2026-11-12"
+  },
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 03MSL_Solutions_v8.docx"
+  }
+}

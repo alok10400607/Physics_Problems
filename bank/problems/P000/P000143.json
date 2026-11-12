@@ -1,6 +1,6 @@
 {
   "id": "P000143",
-  "status": "imported",
+  "status": "reviewed",
   "version": 1,
   "type": "mcq_single",
   "topic_code": "0325",
@@ -35,11 +35,23 @@
       "qno": 59
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "id": "P000143-sol-1",
+      "role": "solution",
+      "file": "P000/P000143-sol-1.png",
+      "format": "png",
+      "width": 524,
+      "height": 417,
+      "alt": "Acceleration–time graph: a straight line a = αt through the origin. The shaded triangle up to time t has area ½αt² = Δv.",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
   "rights": "unverified",
   "content_hash": "94b69ef7dfb7d49b",
   "duplicate_of": null,
   "variant_of": null,
   "created": "2026-11-08",
-  "updated": "2026-11-08"
+  "updated": "2026-11-12"
 }

@@ -1,23 +1,33 @@
 {
   "id": "P000094",
   "problem_version": 1,
-  "status": "draft",
+  "status": "reviewed",
   "hints": [
-    "> Imagine flattening out two adjacent wall like a cardboard box, then minimum distance is along the diagonal"
+    "Unfold the two walls the ant crosses into one flat sheet, like opening a cardboard box. On a flat sheet the shortest path is a straight line."
   ],
-  "worded": null,
-  "conventional": null,
-  "mistakes": [],
+  "worded": "1. The ant stays on the vertical walls and goes from a floor corner to the diagonally opposite ceiling corner. It must cross two adjacent walls, passing over the vertical edge where they meet.\n\n2. On one flat surface the shortest path is a straight line. Two walls meeting at an edge can be unfolded flat without changing any length drawn on them.\n\n3. Unfolded, the two walls form a rectangle 2 + 2 = 4 m wide and 3 m high. The ant goes from one bottom corner to the opposite top corner.\n\n4. The straight line is the hypotenuse of a 3–4–5 triangle: 5 m.\n\n5. The line crosses the shared edge halfway up, at 1.5 m. So the ant should aim for the middle of the corner edge.\n\n6. Check against other routes: up the corner edge and along two top edges is 3 + 2 + 2 = 7 m; across one wall diagonally and then along a top edge is √13 + 2 ≈ 5.6 m. Both are longer.",
+  "conventional": "![](asset:P000094-sol-1)\n\n![](asset:P000094-sol-2)\n\nThe ant goes from $A$ to $G$ over wall 1 (front) and wall 2 (side), crossing the common edge at $K$.\n\nUnfold wall 2 about the common edge into the plane of wall 1. The two walls form a 4 m × 3 m rectangle, and the shortest path is its diagonal:\n\n$$AG = \\sqrt{(2 + 2)^{2} + 3^{2}} = \\sqrt{25} = 5\\unit{m}.$$\n\nBy similar triangles, $K$ is at height $3 \\times \\frac{2}{4} = 1.5$ m on the common edge.",
+  "mistakes": [
+    "The space diagonal of the room, √(2² + 2² + 3²) = √17 ≈ 4.1 m, is shorter than 5 m but passes through the air: the ant must stay on the walls.",
+    "Adding the diagonals of the two walls separately (√13 + …) is not the shortest; unfold first, then draw one straight line."
+  ],
   "distractors": {},
   "extension": null,
   "check": {
+    "solved_answer": "5 m.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
     "issues": []
   },
   "generated_by": {
     "author": "worksheet",
     "model": null,
-    "prompt_version": null,
-    "date": "2026-11-08"
+    "prompt_version": "03MSL_Solutions_v8",
+    "date": "2026-11-12"
   },
-  "reviewed_by": null
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 03MSL_Solutions_v8.docx"
+  }
 }

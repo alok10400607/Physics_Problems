@@ -1,6 +1,6 @@
 {
   "id": "P000173",
-  "status": "imported",
+  "status": "reviewed",
   "version": 1,
   "type": "mcq_single",
   "topic_code": "0335",
@@ -46,6 +46,17 @@
       "alt": "Acceleration a in m/s² against time t in s: a straight line starting at −1 m/s² at t = 0 and sloping downwards at 37° below the horizontal until t = 4 s.",
       "origin": "docx",
       "needs_redraw": true
+    },
+    {
+      "id": "P000173-sol-1",
+      "role": "solution",
+      "file": "P000/P000173-sol-1.png",
+      "format": "png",
+      "width": 635,
+      "height": 423,
+      "alt": "Acceleration–time graph in m/s² and s: a straight line from −1 at t = 0, at 37° below the horizontal, to −4 at t = 4 s. The shaded area is −10.",
+      "origin": "docx",
+      "needs_redraw": false
     }
   ],
   "rights": "unverified",
@@ -53,5 +64,5 @@
   "duplicate_of": null,
   "variant_of": null,
   "created": "2026-11-08",
-  "updated": "2026-11-08"
+  "updated": "2026-11-12"
 }

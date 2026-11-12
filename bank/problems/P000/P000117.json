@@ -1,6 +1,6 @@
 {
   "id": "P000117",
-  "status": "imported",
+  "status": "reviewed",
   "version": 1,
   "type": "mcq_single",
   "topic_code": "0315",
@@ -35,11 +35,23 @@
       "qno": 33
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "id": "P000117-sol-1",
+      "role": "solution",
+      "file": "P000/P000117-sol-1.png",
+      "format": "png",
+      "width": 619,
+      "height": 589,
+      "alt": "Velocity–time graph: a line of slope −16 falling to zero at t_a, then a line of slope −4 going negative over t_d = 2t_a. The two triangles are shaded.",
+      "origin": "docx",
+      "needs_redraw": false
+    }
+  ],
   "rights": "unverified",
   "content_hash": "7ea7db630c597563",
   "duplicate_of": null,
   "variant_of": null,
   "created": "2026-11-08",
-  "updated": "2026-11-08"
+  "updated": "2026-11-12"
 }

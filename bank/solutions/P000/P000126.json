@@ -1,0 +1,33 @@
+{
+  "id": "P000126",
+  "problem_version": 1,
+  "status": "reviewed",
+  "hints": [
+    "When the jeep reaches the turning, how far ahead is the bike, and how fast does the jeep close that gap?"
+  ],
+  "worded": "1. Speeds: bike 20 m/s, jeep 25 m/s.\n\n2. When the jeep reaches the turning, the bike is 10 s × 20 m/s = 200 m ahead.\n\n3. The jeep closes the gap at 5 m/s, which takes 40 s.\n\n4. In 40 s the jeep goes 25 × 40 = 1000 m from the turning: 1 km. (C)",
+  "conventional": "![](asset:P000126-sol-1)\n\nTake $t = 0$ when the bike crosses the turning. Bike: $x = 20t$. Jeep: $x = 25(t - 10)$.\n\n$$20t = 25t - 250\\  \\Rightarrow \\ t = 50\\unit{s},\\quad\\quad x = 20(50) = 1000\\unit{m} = 1\\unit{km}.$$",
+  "mistakes": [
+    "Convert km/h to m/s (× 5/18) before combining with seconds.",
+    "The answer is measured from the turning, not from where the jeep was when the bike passed."
+  ],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "solved_answer": "(C) 1 km.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": "03MSL_Solutions_v8",
+    "date": "2026-11-12"
+  },
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 03MSL_Solutions_v8.docx"
+  }
+}

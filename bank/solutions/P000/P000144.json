@@ -1,0 +1,32 @@
+{
+  "id": "P000144",
+  "problem_version": 1,
+  "status": "reviewed",
+  "hints": [
+    "Velocity linear in time means constant acceleration k. Find the area under the v–t line."
+  ],
+  "worded": "1. v = kt is a straight line through the origin: uniform acceleration of 2 m/s² from rest.\n\n2. At 3 s the speed is 6 m/s. The distance is the triangle under the line: ½ × 3 × 6 = 9 m. (A)\n\n3. Check: the average speed over the 3 s is half the final speed, 3 m/s, and 3 m/s × 3 s = 9 m.\n\n**Another way: SUVAT.** From rest with a = 2 m/s²: s = ½ × 2 × 3² = 9 m.",
+  "conventional": "![](asset:P000144-sol-1)\n\n$$s = \\int_{0}^{3}2t\\, dt = \\left\\lbrack t^{2} \\right\\rbrack_{0}^{3} = 9\\unit{m}.$$",
+  "mistakes": [
+    "Don’t multiply the final speed by the time (6 × 3 = 18 m): the speed is not 6 m/s throughout."
+  ],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "solved_answer": "(A) 9 m.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": "03MSL_Solutions_v8",
+    "date": "2026-11-12"
+  },
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 03MSL_Solutions_v8.docx"
+  }
+}

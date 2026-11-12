@@ -1,21 +1,33 @@
 {
   "id": "P000100",
   "problem_version": 1,
-  "status": "draft",
-  "hints": [],
-  "worded": null,
-  "conventional": "> ![](/tmp/import-bzoi1s3c/media/image32.png){width=\"2.7559055118110236in\" height=\"0.8858267716535433in\"}Method 1: Visualize motion in reverse order\n\n>\n\n> Starting from C\n\n>\n\n> Then time to travel C to B = time from B to A\n\n>\n\n> (as change in velocities are equal)\n\n>\n\n> Hence 3 cm = 3 times $x$\n\n>\n\n> Method 2: $v - t$ graph:\n\n>\n\n> Area of small triangle will be one fourth of area under triangle + trapezium",
-  "mistakes": [],
+  "status": "reviewed",
+  "hints": [
+    "Under constant retardation, how does v² change with distance? Compare the share of v² lost in the first 3 cm with the share still left."
+  ],
+  "worded": "1. Constant resistance means constant retardation, and the question links speed with distance, not time. So think of v² = u² − 2as: v² drops by equal amounts over equal distances.\n\n2. The bullet starts with u² and must lose all of it to stop. Losing half the speed takes v² to u²/4, so ¾ of the total has gone in 3 cm.\n\n3. The remaining ¼ is one-third of what has already gone, so it needs one-third of the distance: 1 cm.\n\n**Another way: time reversal.** Run the motion backwards: the bullet starts from rest at C and speeds up uniformly. Its speed goes 0 → u/2 → u in two equal times (equal changes of velocity at constant a). From rest, distances in successive equal times are in the ratio 1 : 3, so CB : BA = 1 : 3 and CB = 1 cm.\n\n**Another way: v–t graph.** The speed falls linearly from u to u/2 and then to 0, in equal times τ. The areas (the penetrations) of the trapezium and the small triangle are in the ratio 3 : 1.",
+  "conventional": "![](asset:P000100-sol-1)\n\n![](asset:P000100-sol-2)\n\nFrom A to B ($s = 3$ cm), using $v^{2} = u^{2} - 2as$ with distances in cm:\n\n$$\\left( \\frac{u}{2} \\right)^{2} = u^{2} - 2a(3)\\  \\Rightarrow \\ a = \\frac{u^{2}}{8}.$$\n\nFrom B to C (comes to rest after a further $x$):\n\n$$0 = \\left( \\frac{u}{2} \\right)^{2} - 2ax\\  \\Rightarrow \\ x = \\frac{u^{2}/4}{2\\left( u^{2}/8 \\right)} = 1\\unit{cm}.$$",
+  "mistakes": [
+    "Losing half the speed is not losing half of v²: v² falls to ¼, so ¾ of the stopping “budget” is used.",
+    "The question asks for the *further* penetration (1 cm), not the total (4 cm)."
+  ],
   "distractors": {},
   "extension": null,
   "check": {
+    "solved_answer": "1 cm more (total penetration 4 cm).",
+    "resolve_answer": null,
+    "agrees_with_key": true,
     "issues": []
   },
   "generated_by": {
     "author": "worksheet",
     "model": null,
-    "prompt_version": null,
-    "date": "2026-11-08"
+    "prompt_version": "03MSL_Solutions_v8",
+    "date": "2026-11-12"
   },
-  "reviewed_by": null
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 03MSL_Solutions_v8.docx"
+  }
 }

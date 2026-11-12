@@ -1,6 +1,6 @@
 {
   "id": "P000126",
-  "status": "imported",
+  "status": "reviewed",
   "version": 1,
   "type": "mcq_single",
   "topic_code": "0320",
@@ -35,11 +35,23 @@
       "qno": 42
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "id": "P000126-sol-1",
+      "role": "solution",
+      "file": "P000/P000126-sol-1.png",
+      "format": "png",
+      "width": 800,
+      "height": 454,
+      "alt": "Position–time graph in m and s: a bike's line at 20 m/s from t = 0, and a jeep's line at 25 m/s starting at t = 10 s. They meet at 1000 m at t = 50 s.",
+      "origin": "docx",
+      "needs_redraw": false
+    }
+  ],
   "rights": "unverified",
   "content_hash": "40c548d7a9631040",
   "duplicate_of": null,
   "variant_of": null,
   "created": "2026-11-08",
-  "updated": "2026-11-08"
+  "updated": "2026-11-12"
 }

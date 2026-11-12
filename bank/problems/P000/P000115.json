@@ -1,6 +1,6 @@
 {
   "id": "P000115",
-  "status": "imported",
+  "status": "reviewed",
   "version": 1,
   "type": "subjective",
   "topic_code": "0315",
@@ -27,11 +27,23 @@
       "qno": 31
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "id": "P000115-sol-1",
+      "role": "solution",
+      "file": "P000/P000115-sol-1.png",
+      "format": "png",
+      "width": 583,
+      "height": 452,
+      "alt": "A stone and a lift. Just after release the stone has velocity v upward (the lift's) and acceleration g downward, while the lift keeps accelerating upward at a.",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
   "rights": "unverified",
   "content_hash": "ab03dacac13ae3d9",
   "duplicate_of": null,
   "variant_of": null,
   "created": "2026-11-08",
-  "updated": "2026-11-08"
+  "updated": "2026-11-12"
 }

@@ -1,6 +1,6 @@
 {
   "id": "P000101",
-  "status": "imported",
+  "status": "reviewed",
   "version": 1,
   "type": "subjective",
   "topic_code": "0310",
@@ -27,11 +27,23 @@
       "qno": 17
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "id": "P000101-sol-1",
+      "role": "solution",
+      "file": "P000/P000101-sol-1.png",
+      "format": "png",
+      "width": 710,
+      "height": 517,
+      "alt": "Graph of v² against position x: a straight line from u² at A to v² at B (v² = u² + 2ax). At the mid-point between A and B the value is (u² + v²)/2.",
+      "origin": "docx",
+      "needs_redraw": false
+    }
+  ],
   "rights": "unverified",
   "content_hash": "e01f6c17c20d93de",
   "duplicate_of": null,
   "variant_of": null,
   "created": "2026-11-08",
-  "updated": "2026-11-08"
+  "updated": "2026-11-12"
 }

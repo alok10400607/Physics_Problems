@@ -1,23 +1,33 @@
 {
   "id": "P000159",
   "problem_version": 1,
-  "status": "draft",
+  "status": "reviewed",
   "hints": [
-    "> Here $a = 5 - \\frac{5}{6}t$ Speed $v$ is maximum when $\\frac{dv}{dt} = a = 0$; i.e., at $t = 6s$\n\n>\n\n> On integrating twice $x = \\frac{5t^{2}}{2} - \\frac{5t^{3}}{36}$"
+    "The speed keeps rising as long as the acceleration is positive. When does it stop rising? The gain is the area under the a–t graph up to then."
   ],
-  "worded": null,
-  "conventional": null,
-  "mistakes": [],
+  "worded": "1. a = 5 − (5/6)t, positive until 6 s. So the speed grows all the way to 6 s: that is the maximum.\n\n2. Velocity gained = area of the a–t triangle: ½ × 6 × 5 = 15 m/s.\n\n3. For (ii), integrate twice: v = 5t − (5/12)t², and x = (5/2)t² − (5/36)t³. At 2 s: 10 − 10/9 = 80/9 ≈ 8.9 m.\n\n4. Sense check: at a constant 5 m/s² it would cover 10 m in 2 s; the acceleration is falling, so a little less.",
+  "conventional": "![](asset:P000159-sol-1)\n\n![](asset:P000159-sol-2)\n\n$$a = 5 - \\frac{5}{6}t\\quad(0 \\leq t \\leq 6\\unit{s}).$$\n\n(i) $v = \\int_{0}^{t}a\\, dt = 5t - \\frac{5}{12}t^{2}$. Maximum when $a = 0$, at $t = 6$ s:\n\n$$v_{\\max} = 30 - 15 = 15\\unit{m/s}.$$\n\n(ii) $x = \\int_{0}^{t}v\\, dt = \\frac{5}{2}t^{2} - \\frac{5}{36}t^{3}$:\n\n$$x(2) = 10 - \\frac{10}{9} = \\frac{80}{9}\\unit{m} \\approx 8.9\\unit{m}.$$",
+  "mistakes": [
+    "Maximum speed is where a = 0 (at 6 s), not where a is largest (at 0 s).",
+    "Don’t use s = ½at² with a = 5: the acceleration is falling."
+  ],
   "distractors": {},
   "extension": null,
   "check": {
+    "solved_answer": "(i) 15 m/s; (ii) 80/9 m ≈ 8.9 m.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
     "issues": []
   },
   "generated_by": {
     "author": "worksheet",
     "model": null,
-    "prompt_version": null,
-    "date": "2026-11-08"
+    "prompt_version": "03MSL_Solutions_v8",
+    "date": "2026-11-12"
   },
-  "reviewed_by": null
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 03MSL_Solutions_v8.docx"
+  }
 }

@@ -1,7 +1,7 @@
 {
   "id": "P000130",
-  "status": "imported",
-  "version": 1,
+  "status": "reviewed",
+  "version": 2,
   "type": "subjective",
   "topic_code": "0320",
   "concepts": [],
@@ -16,7 +16,7 @@
   },
   "time_estimate_s": null,
   "passage_id": null,
-  "stem": "A body is released from the top of a tower of height H metre. After 2 seconds it is stopped and then instantaneously released. What will be its height after next 2 seconds?",
+  "stem": "A body is released from the top of a tower of height H metre (H \\> 40 m). After 2 seconds it is stopped and then instantaneously released. What will be its height after next 2 seconds?",
   "answer": {
     "text": "H-40"
   },
@@ -27,11 +27,23 @@
       "qno": 46
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "id": "P000130-sol-1",
+      "role": "solution",
+      "file": "P000/P000130-sol-1.png",
+      "format": "png",
+      "width": 617,
+      "height": 537,
+      "alt": "A body falls from rest at the top of a tower for 2 s (20 m), is stopped, and then falls another 20 m in the next 2 s, leaving H − 40 above the ground.",
+      "origin": "docx",
+      "needs_redraw": false
+    }
+  ],
   "rights": "unverified",
-  "content_hash": "5b29aa68e3ae72c4",
+  "content_hash": "c5abbf0c168c4dd5",
   "duplicate_of": null,
   "variant_of": null,
   "created": "2026-11-08",
-  "updated": "2026-11-08"
+  "updated": "2026-11-12"
 }

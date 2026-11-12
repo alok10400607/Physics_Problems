@@ -1,23 +1,32 @@
 {
   "id": "P000131",
   "problem_version": 1,
-  "status": "draft",
+  "status": "reviewed",
   "hints": [
-    "> The fifth throw involves the first ball which is 2 sec after the first throw (equal to time of flight). First at 0 s, second 0.5 s, third 1 s, fourth 1.5 s, fifth 2 s (soon after it reaches the juggler)"
+    "How long is each ball in the air? The juggler must throw four balls in that time before the first one comes back."
   ],
-  "worded": null,
-  "conventional": null,
-  "mistakes": [],
+  "worded": "1. A ball rising 5 m takes 1 s up and 1 s down: 2 s in the air.\n\n2. In a steady pattern, the first ball lands just as the next throw is due, and in between the other three are thrown.\n\n3. So the 2 s of one flight are shared among four equal gaps: 0.5 s between throws.",
+  "conventional": "![](asset:P000131-sol-1)\n\nSpeed of throw: $u = \\sqrt{2gh} = \\sqrt{2(10)(5)} = 10$ m/s. Time of flight: $T = 2u/g = 2$ s.\n\nWith $n = 4$ balls in a steady cycle, $n$ throws fill one flight time:\n\n$$\\Delta t = \\frac{T}{n} = \\frac{2}{4} = 0.5\\unit{s}.$$",
+  "mistakes": [
+    "Divide the flight time by the number of balls (4), not by 3: the first ball is caught and rethrown as the fifth throw, so four equal gaps fill one flight."
+  ],
   "distractors": {},
   "extension": null,
   "check": {
+    "solved_answer": "0.5 s.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
     "issues": []
   },
   "generated_by": {
     "author": "worksheet",
     "model": null,
-    "prompt_version": null,
-    "date": "2026-11-08"
+    "prompt_version": "03MSL_Solutions_v8",
+    "date": "2026-11-12"
   },
-  "reviewed_by": null
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 03MSL_Solutions_v8.docx"
+  }
 }

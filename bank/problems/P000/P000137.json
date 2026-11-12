@@ -1,6 +1,6 @@
 {
   "id": "P000137",
-  "status": "imported",
+  "status": "reviewed",
   "version": 1,
   "type": "mcq_single",
   "topic_code": "0320",
@@ -35,11 +35,23 @@
       "qno": 53
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "id": "P000137-sol-1",
+      "role": "solution",
+      "file": "P000/P000137-sol-1.png",
+      "format": "png",
+      "width": 816,
+      "height": 432,
+      "alt": "Height–time graph in m and s: two equal arches, the second starting 2 s after the first. They cross at 75 m at t = 5 s; the first peaks at t = 4 s and the second at t = 6 s.",
+      "origin": "docx",
+      "needs_redraw": false
+    }
+  ],
   "rights": "unverified",
   "content_hash": "53818206f79cc633",
   "duplicate_of": null,
   "variant_of": null,
   "created": "2026-11-08",
-  "updated": "2026-11-08"
+  "updated": "2026-11-12"
 }

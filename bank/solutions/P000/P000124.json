@@ -1,0 +1,33 @@
+{
+  "id": "P000124",
+  "problem_version": 1,
+  "status": "reviewed",
+  "hints": [
+    "Sit on the motorcycle. The jeep then approaches at v but is “decelerated” at α. How far can it get before its relative speed is used up?"
+  ],
+  "worded": "1. The gap closes only while the jeep is faster than the bike. Once the bike’s speed exceeds v, the gap grows for ever.\n\n2. From the bike’s frame, the jeep starts at relative speed v with a relative retardation α. Like a ball thrown up, it can travel at most v²/2α before its relative speed falls to zero.\n\n3. To catch the bike, that reach must be at least the gap x: v²/2α ≥ x, i.e. v² ≥ 2αx. (C)\n\n**Another way: quadratic.** vt = x + ½αt² must have a real root, so its discriminant v² − 2αx ≥ 0.",
+  "conventional": "![](asset:P000124-sol-1)\n\nPositions from the jeep’s starting point: jeep $vt$, bike $x + \\frac{1}{2}\\alpha t^{2}$. Catching requires\n\n$$\\frac{1}{2}\\alpha t^{2} - vt + x = 0$$\n\nto have a real root: discriminant $v^{2} - 2\\alpha x \\geq 0$, so\n\n$$v^{2} \\geq 2\\alpha x.$$",
+  "mistakes": [
+    "Equality means the jeep just touches the bike at the instant their speeds are equal; any less and it never catches up.",
+    "Relative distance under relative retardation is v²/2α, not v²/α."
+  ],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "solved_answer": "(C) $v^{2} \\geq 2\\alpha x$.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": "03MSL_Solutions_v8",
+    "date": "2026-11-12"
+  },
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 03MSL_Solutions_v8.docx"
+  }
+}

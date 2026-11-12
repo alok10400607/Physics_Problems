@@ -91,6 +91,7 @@ a.row:hover{background:var(--surface)}
 /* question card */
 .bar{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:8px}
 .link{background:none;border:0;padding:4px 0;color:var(--accent);font-weight:500}
+.crumbs .link{padding:0;font:inherit}
 .prog{font:500 .85rem var(--mono);color:var(--muted);font-variant-numeric:tabular-nums}
 .timer{font:600 .95rem var(--mono);font-variant-numeric:tabular-nums;padding:3px 10px;border-radius:6px;background:var(--accent-soft);color:var(--accent)}
 .timer.low{background:var(--bad-soft);color:var(--bad)}
@@ -128,6 +129,22 @@ a.row:hover{background:var(--surface)}
 .btn.ghost{background:transparent;border:1.5px solid var(--line);color:var(--ink)}
 .btn[disabled]{opacity:.4;cursor:not-allowed}
 .fb{border-radius:8px;padding:12px 14px;display:flex;flex-direction:column;gap:6px}
+.sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.qtext ol{margin:0 0 .7em;padding-left:1.5em;display:flex;flex-direction:column;gap:6px}.qtext ol:last-child{margin:0}
+/* solution links: Hint · Word solution · Conventional solution */
+.sollinks{display:flex;flex-wrap:wrap;align-items:center;gap:4px 22px;border-top:1px solid var(--line);padding-top:14px}
+.sollinks .sl{white-space:nowrap}
+.sollinks .sep{color:var(--line);padding:0 8px;user-select:none}
+.sollink{background:none;border:0;padding:4px 0;font-weight:600;color:var(--accent);text-decoration:underline;text-decoration-color:transparent;text-underline-offset:4px;transition:text-decoration-color .15s}
+.sollink:hover:not([disabled]),.sollink[aria-expanded="true"]{text-decoration-color:currentColor}
+.sollink[disabled]{color:var(--muted);cursor:not-allowed;font-weight:500}
+.sollink .lock{display:inline-block;width:.8em;height:.8em;margin-right:5px;vertical-align:-.05em;background:currentColor;
+  -webkit-mask:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath d='M4 7V5a4 4 0 1 1 8 0v2h1v8H3V7zm2 0h4V5a2 2 0 1 0-4 0z'/%3E%3C/svg%3E") center/contain no-repeat;
+  mask:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath d='M4 7V5a4 4 0 1 1 8 0v2h1v8H3V7zm2 0h4V5a2 2 0 1 0-4 0z'/%3E%3C/svg%3E") center/contain no-repeat}
+.locknote{display:flex;flex-wrap:wrap;align-items:center;gap:8px 12px;font-size:.88rem;color:var(--muted)}
+.locknote .btn{padding:6px 12px;font-size:.88rem}
+.why{display:grid;grid-template-columns:auto minmax(0,1fr);gap:6px 10px;align-items:baseline}
+.why .k{font:600 .78rem var(--mono);color:var(--muted)}
 .fb.good{background:var(--good-soft)}.fb.bad{background:var(--bad-soft)}.fb.info{background:var(--accent-soft)}
 .fb strong{font-family:var(--display)}
 .fb.good strong{color:var(--good)}.fb.bad strong{color:var(--bad)}.fb.info strong{color:var(--accent)}
@@ -173,8 +190,11 @@ function md(s){
     try { return hold(katex.renderToString(d || i, { displayMode: !!d, throwOnError: false, strict: "ignore", macros: { ...S.macros } })); }
     catch (e) { return hold(`<code>${esc(d || i)}</code>`); }
   });
-  s = s.replace(/<(?!\/?(sup|sub)>)/g, "&lt;").replace(/\*\*([^*]+)\*\*/g, "<strong>$1</strong>");
-  s = s.split(/\n\n+/).map(p => { const L = p.trim().split("\n"); return L.every(l => /^- /.test(l)) ? `<ul>${L.map(l => `<li>${l.slice(2)}</li>`).join("")}</ul>` : `<p>${p.trim()}</p>`; }).join("");
+  s = s.replace(/<(?!\/?(sup|sub)>)/g, "&lt;").replace(/\*\*([^*]+)\*\*/g, "<strong>$1</strong>").replace(/(^|[^*\w])\*([^*\n]+?)\*(?![*\w])/g, "$1<em>$2</em>");
+  s = s.split(/\n\n+/).map(p => { const L = p.trim().split("\n"), n = p.trim().match(/^(\d+)\.\s+/);
+    return L.every(l => /^- /.test(l)) ? `<ul>${L.map(l => `<li>${l.slice(2)}</li>`).join("")}</ul>`
+      : n ? `<ol start="${n[1]}"><li>${p.trim().slice(n[0].length)}</li></ol>` : `<p>${p.trim()}</p>`; }).join("")
+    .replace(/<\/li><\/ol><ol start="\d+"><li>/g, "</li><li>");
   return s.replace(/\u0000(\d+)\u0000/g, (_, n) => keep[n]);
 }
 const inline = s => md(s).replace(/^<p>|<\/p>$/g, "");
@@ -348,7 +368,7 @@ function viewRun(){
       <input id="num" inputmode="decimal" autocomplete="off" value="${esc(res ? res.chosen : "")}" ${done ? "disabled" : ""}>
       <button class="btn" ${done ? "disabled" : ""}>${test ? "Save answer" : "Check"}</button></form>`;
   } else {
-    body = done || sh.answer ? "" : `<div class="extras"><button class="btn" id="reveal">Show answer</button></div>`;
+    body = "";
   }
   let fb = "";
   if (q.type === "subjective" && (sh.answer || done)) {
@@ -357,22 +377,19 @@ function viewRun(){
       `<div class="extras"><span style="align-self:center">How did you do?</span><button class="btn ghost" data-self="correct">I got it</button><button class="btn ghost" data-self="wrong">I missed it</button></div>`}</div>`;
   } else if (done) {
     const ok = res.status === "correct";
-    fb = `<div class="fb ${ok ? "good" : "bad"}"><strong>${ok ? "Correct" : "Not quite"}</strong>${ok ? "" : `<span>The answer is <b>${esc(q.answer)}${q.unit ? " " + esc(q.unit) : ""}</b>.</span>`}</div>`;
+    fb = `<div class="fb ${ok ? "good" : res.gaveUp ? "info" : "bad"}"><strong>${ok ? "Correct" : res.gaveUp ? "Answer" : "Not quite"}</strong>${ok ? "" : `<span>The answer is <b>${esc(q.answer)}${q.unit ? " " + esc(q.unit) : ""}</b>.</span>`}</div>`;
   } else if (test && res) {
     fb = `<p class="lede" style="font-size:.9rem">Answer saved. You can change it until you submit.</p>`;
   }
-  const hints = q.hints || [], shown = done ? hints.length : (sh.hints || 0);
-  const hintHtml = test ? "" : hints.slice(0, shown).map((h, k) => `<div class="aside"><div class="t">Hint ${hints.length > 1 ? k + 1 : ""}</div><div class="qtext">${md(h)}</div></div>`).join("");
-  const hintBtn = !test && !done && shown < hints.length ? `<div class="extras"><button class="btn ghost" id="hintbtn">${shown ? "Next hint" : "Show a hint"}</button></div>` : "";
-  const sol = done ? solutionBlock(q, sh) : "";
+  const sol = test ? "" : solutionBlock(q, sh, done || (q.type === "subjective" && sh.answer));
   app.innerHTML = `
-    <div class="bar"><button class="link" id="leave">‹ ${esc(sub.name)}</button>
+    <div class="bar"><nav class="crumbs" aria-label="You are here"><a href="#home" id="home">All chapters</a><span>›</span><button class="link" id="leave">${esc(sub.name)}</button></nav>
       <span style="display:flex;gap:10px;align-items:center">${r.ends ? `<span class="timer" id="timer" aria-label="Time left">${fmt(r.ends - Date.now())}</span>` : ""}<span class="prog">${r.i + 1} / ${r.qs.length}</span></span></div>
     <div class="dots">${r.qs.map((x, k) => `<button class="dot ${dotClass(x)} ${k === r.i ? "cur" : ""}" data-go="${k}" aria-label="Question ${k + 1}">${k + 1}</button>`).join("")}</div>
     <article class="card">
       <div class="meta"><span class="qn">Q${r.i + 1}</span>${levelTag(q.level)}${q.type === "numerical" ? `<span class="tag">numerical answer</span>` : q.type === "subjective" ? `<span class="tag">written</span>` : ""}${q.source ? `<span class="tag">${esc(q.source)}</span>` : ""}</div>
       <div class="qtext">${md(q.question)}</div>
-      ${body}${fb}${hintHtml}${hintBtn}${sol}
+      ${body}${fb}${sol}
     </article>
     <div class="nav"><button class="btn ghost" id="prev" ${r.i ? "" : "disabled"}>Previous</button>
       ${test && last ? `<button class="btn" id="submit">Submit test</button>` : `<button class="btn" id="next">${last ? "Finish" : done || (test && res) ? "Next" : "Skip"}</button>`}</div>
@@ -381,24 +398,57 @@ function viewRun(){
   wireRun(q, sh);
   startTimer();
 }
-function solutionBlock(q, sh){
-  const levels = [["worded", "Explained in words"], ["conventional", "Full solution"]].filter(([k]) => q[k]);
-  if (!levels.length && !q.extension) return "";
-  return `<div class="sol"><div class="extras">${levels.map(([k, l]) => `<button class="btn ${sh[k] ? "" : "ghost"}" data-level="${k}">${l}</button>`).join("")}</div>
-    ${levels.filter(([k]) => sh[k]).map(([k, l]) => `<div class="aside"><div class="t">${l}</div><div class="qtext">${md(q[k])}</div></div>`).join("")}
-    ${sh.conventional && q.mistakes && q.mistakes.length ? `<div class="aside"><div class="t">Common mistake${q.mistakes.length > 1 ? "s" : ""}</div><div class="qtext">${q.mistakes.map(m => md(m)).join("")}</div></div>` : ""}
-    ${q.extension ? `<div class="aside"><div class="t">Think further</div><div class="qtext">${md(q.extension)}</div></div>` : ""}</div>`;
+// The links follow the solutions file: Hint · Think it Through · Worked Solution · Watch Out · Answer.
+// Hint is always open. Answer shows the answer (before an attempt this counts as giving up).
+// Think it Through, Worked Solution and Watch Out unlock once the question is answered or Answer is clicked.
+// "Why the other options are there" and "Think further" come with the worked solution.
+function solutionBlock(q, sh, unlocked){
+  const hints = q.hints || [];
+  const links = [["hint", "Hint", hints.length], ["worded", "Think it Through", q.worded], ["conventional", "Worked Solution", q.conventional],
+    ["mistakes", "Watch Out", q.mistakes && q.mistakes.length], ["answer", "Answer", true]].filter(x => x[2]);
+  const gated = k => k === "worded" || k === "conventional" || k === "mistakes";
+  const open = sh.open && (!gated(sh.open) || unlocked) ? sh.open : null;
+  const bar = `<div class="sollinks" role="group" aria-label="Help with this question">${links.map(([k, l], i) => {
+    const locked = gated(k) && !unlocked, current = k === "answer" ? unlocked : open === k;
+    return `<span class="sl"><button class="sollink" data-open="${k}" aria-${k === "answer" ? "pressed" : "expanded"}="${current}" ${locked ? `disabled title="Answer the question, or click Answer, to see this"` : ""}>${locked ? `<span class="lock" aria-hidden="true"></span>` : ""}${l}${locked ? `<span class="sr-only"> (locked until you answer)</span>` : ""}</button></span>`;
+  }).join("")}</div>`;
+  const note = !unlocked && !open ? `<div class="locknote"><span>Think it Through, Worked Solution and Watch Out open once you answer.${q.type === "subjective" ? " Click Answer to check yours." : " Answer shows the answer now, and counts the question as missed."}</span></div>` : "";
+  let panel = "";
+  if (open === "hint") {
+    const n = Math.min(Math.max(sh.hints || 1, 1), hints.length);
+    panel = hints.slice(0, n).map((h, k) => `<div class="aside"><div class="t">Hint${hints.length > 1 ? " " + (k + 1) : ""}</div><div class="qtext">${md(h)}</div></div>`).join("")
+      + (n < hints.length ? `<div class="extras"><button class="btn ghost" id="hintbtn">Next hint</button></div>` : "");
+  } else if (open === "worded") {
+    panel = `<div class="aside"><div class="t">Think it Through</div><div class="qtext">${md(q.worded)}</div></div>`;
+  } else if (open === "conventional") {
+    const why = Object.entries(q.distractors || {}).sort();
+    panel = `<div class="aside"><div class="t">Worked Solution</div><div class="qtext">${md(q.conventional)}</div></div>`
+      + (why.length ? `<div class="aside"><div class="t">Why the other options are there</div><div class="why">${why.map(([k, v]) => `<span class="k">(${esc(k)})</span><div class="qtext">${md(v)}</div>`).join("")}</div></div>` : "")
+      + (q.extension ? `<div class="aside"><div class="t">Think further</div><div class="qtext">${md(q.extension)}</div></div>` : "");
+  } else if (open === "mistakes") {
+    panel = `<div class="aside"><div class="t">Watch Out</div><div class="qtext">${q.mistakes.length > 1 ? `<ul>${q.mistakes.map(m => `<li>${inline(m)}</li>`).join("")}</ul>` : md(q.mistakes[0])}</div></div>`;
+  }
+  return `<div class="sol">${bar}${note}${panel}</div>`;
 }
 function wireRun(q, sh){
   const r = S.run, $ = s => app.querySelector(s);
   $("#leave").onclick = () => { if (r.mode === "test" && !r.done && Object.keys(r.res).length && !confirmLeave()) return; S.run = null; go("st-" + r.code); };
+  $("#home").onclick = e => { e.preventDefault(); if (r.mode === "test" && !r.done && Object.keys(r.res).length && !confirmLeave()) return; S.run = null; go("home"); };
   app.querySelectorAll("[data-go]").forEach(b => b.onclick = () => { r.i = +b.dataset.go; viewRun(); });
   app.querySelectorAll("[data-opt]").forEach(b => b.onclick = () => answer(q, b.dataset.opt));
   const nf = $("#numform"); if (nf) nf.onsubmit = e => { e.preventDefault(); const v = nf.querySelector("input").value.trim(); if (v) answer(q, v); };
-  const rv = $("#reveal"); if (rv) rv.onclick = () => { r.show[q.id] = { ...sh, answer: true }; viewRun(); };
   app.querySelectorAll("[data-self]").forEach(b => b.onclick = () => { r.res[q.id] = { status: b.dataset.self, chosen: null }; viewRun(); });
-  const hb = $("#hintbtn"); if (hb) hb.onclick = () => { r.show[q.id] = { ...sh, hints: (sh.hints || 0) + 1 }; viewRun(); };
-  app.querySelectorAll("[data-level]").forEach(b => b.onclick = () => { const k = b.dataset.level; r.show[q.id] = { ...sh, [k]: !sh[k] }; viewRun(); });
+  const hb = $("#hintbtn"); if (hb) hb.onclick = () => { r.show[q.id] = { ...sh, hints: Math.max(sh.hints || 1, 1) + 1 }; viewRun(); };
+  app.querySelectorAll("[data-open]").forEach(b => b.onclick = () => {
+    const k = b.dataset.open;
+    if (k === "answer") {
+      if (q.type === "subjective") { if (!sh.answer) { r.show[q.id] = { ...sh, answer: true, open: null }; viewRun(); } }
+      else if (!r.res[q.id]) { r.res[q.id] = { status: "wrong", chosen: null, gaveUp: true }; r.show[q.id] = { ...sh, open: null }; viewRun(); }
+      const f = app.querySelector(".fb"); if (f) { f.scrollIntoView({ block: "nearest", behavior: "smooth" }); f.setAttribute("tabindex", "-1"); f.focus({ preventScroll: true }); }
+      return;
+    }
+    r.show[q.id] = { ...sh, open: sh.open === k ? null : k }; viewRun();
+  });
   $("#prev").onclick = () => { if (r.i) { r.i--; viewRun(); toTop(); } };
   const nx = $("#next"); if (nx) nx.onclick = next;
   app.querySelectorAll("#submit").forEach(b => b.onclick = () => finish());
@@ -432,7 +482,7 @@ function viewResult(){
   const marks = got * 4 - wrong;
   const missed = r.qs.filter(q => r.res[q.id]?.status !== "correct");
   app.innerHTML = `
-    <div class="bar"><button class="link" id="leave">‹ ${esc(sub.name)}</button></div>
+    <div class="bar"><nav class="crumbs" aria-label="You are here"><a href="#home">All chapters</a><span>›</span><button class="link" id="leave">${esc(sub.name)}</button></nav></div>
     <section style="display:flex;flex-direction:column;gap:10px"><h3>${test ? "Test result" : "Practice result"}</h3><h1>${esc(sub.name)}</h1></section>
     <div class="score">${test ? `<span class="big">${marks}</span><span class="of">marks out of ${r.qs.length * 4} · ${got} correct · ${wrong} wrong · ${skipped} skipped</span>`
       : `<span class="big">${got}</span><span class="of">of ${r.qs.length} correct · ${skipped} skipped</span>`}</div>

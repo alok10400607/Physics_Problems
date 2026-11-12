@@ -1,6 +1,6 @@
 {
   "id": "P000155",
-  "status": "imported",
+  "status": "reviewed",
   "version": 1,
   "type": "mcq_single",
   "topic_code": "0325",
@@ -35,11 +35,23 @@
       "qno": 71
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "id": "P000155-sol-1",
+      "role": "solution",
+      "file": "P000/P000155-sol-1.png",
+      "format": "png",
+      "width": 679,
+      "height": 391,
+      "alt": "Position–time graph in m and s: a downward parabola from 2 m at t = 0, peaking at 8 m at t = 3 s, and back to 2 m at t = 6 s.",
+      "origin": "docx",
+      "needs_redraw": false
+    }
+  ],
   "rights": "unverified",
   "content_hash": "e8ee527896132ae8",
   "duplicate_of": null,
   "variant_of": null,
   "created": "2026-11-08",
-  "updated": "2026-11-08"
+  "updated": "2026-11-12"
 }

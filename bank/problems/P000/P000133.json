@@ -1,6 +1,6 @@
 {
   "id": "P000133",
-  "status": "imported",
+  "status": "reviewed",
   "version": 1,
   "type": "subjective",
   "topic_code": "0320",
@@ -38,11 +38,23 @@
       "year": 2020
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "id": "P000133-sol-1",
+      "role": "solution",
+      "file": "P000/P000133-sol-1.png",
+      "format": "png",
+      "width": 632,
+      "height": 433,
+      "alt": "A packet released from a helicopter at height h, moving up with v = √(2gh). It rises, turns and falls to the ground.",
+      "origin": "docx",
+      "needs_redraw": false
+    }
+  ],
   "rights": "past-paper",
   "content_hash": "30acca406d4e5fbe",
   "duplicate_of": null,
   "variant_of": null,
   "created": "2026-11-08",
-  "updated": "2026-11-08"
+  "updated": "2026-11-12"
 }

@@ -1,0 +1,32 @@
+{
+  "id": "P000171",
+  "problem_version": 1,
+  "status": "reviewed",
+  "hints": [
+    "For an a–x graph, the area under it gives the change in ½v²."
+  ],
+  "worded": "1. With acceleration given against position, use v dv = a dx: the area under the a–x graph equals the change in ½v².\n\n2. The area is a triangle: ½ × 1 × 3 = 1.5.\n\n3. So ½v² = 1.5, v² = 3 and v = √3 m/s. (D)\n\n4. Trap: reading the area as the velocity gives 1.5, and multiplying a × x gives 3 (option A).",
+  "conventional": "![](asset:P000171-sol-1)\n\n$a = 3x$. Using $v\\, dv = a\\, dx$:\n\n$$\\int_{0}^{v}v\\, dv = \\int_{0}^{1}3x\\, dx\\  \\Rightarrow \\ \\frac{v^{2}}{2} = \\frac{3}{2}\\  \\Rightarrow \\ v = \\sqrt{3}\\unit{m/s}.$$",
+  "mistakes": [
+    "Area under an a–x graph is ½(v² − u²), not the change in v."
+  ],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "solved_answer": "(D) √3 m/s.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": "03MSL_Solutions_v8",
+    "date": "2026-11-12"
+  },
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 03MSL_Solutions_v8.docx"
+  }
+}

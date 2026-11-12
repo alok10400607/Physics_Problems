@@ -1,0 +1,32 @@
+{
+  "id": "P000089",
+  "problem_version": 1,
+  "status": "reviewed",
+  "hints": [
+    "After a full lap the car is back where it started. Then notice that 62.8 = 20π."
+  ],
+  "worded": "1. After one complete lap the car is back at its starting point. Displacement is zero, so the average velocity is zero. That rules out (C) and (D).\n\n2. The car did move, so the distance is not zero and the average speed cannot be zero. That rules out (A).\n\n3. Average speed = circumference ÷ lap time = 2π × 100 / 62.8. Since 62.8 = 20π, this is 200π/20π = 10 m/s. (B)\n\n4. Note: the speed is 10 m/s at every instant, but the velocity keeps turning. It averages to zero over a lap because it points in every direction equally.\n\n**No-pen route.** Steps 1 and 2 alone pick (B); the value 10 m/s only confirms it.",
+  "conventional": "For one lap, initial and final positions coincide:\n\n$$\\Delta\\vec{r} = 0\\mkern6mu  \\Rightarrow \\mkern6mu \\vec{v}_{av} = \\frac{\\Delta\\vec{r}}{T} = 0.$$\n\nDistance in one lap $= 2\\pi R = 2\\pi(100) = 628$ m. So\n\n$$average\\text{ speed} = \\frac{628}{62.8} = 10\\unit{m/s}.$$",
+  "mistakes": [
+    "Average velocity over a closed loop is zero even though the car never stopped; average speed is not."
+  ],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "solved_answer": "(B) 0, 10 m/s.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": "03MSL_Solutions_v8",
+    "date": "2026-11-12"
+  },
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 03MSL_Solutions_v8.docx"
+  }
+}

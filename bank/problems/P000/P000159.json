@@ -1,6 +1,6 @@
 {
   "id": "P000159",
-  "status": "imported",
+  "status": "reviewed",
   "version": 1,
   "type": "subjective",
   "topic_code": "0325",
@@ -27,11 +27,34 @@
       "qno": 75
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "id": "P000159-sol-1",
+      "role": "solution",
+      "file": "P000/P000159-sol-1.png",
+      "format": "png",
+      "width": 646,
+      "height": 416,
+      "alt": "Acceleration–time graph in m/s² and s: a straight line falling from 5 at t = 0 to zero at t = 6 s. The shaded triangle is Δv = 15.",
+      "origin": "docx",
+      "needs_redraw": false
+    },
+    {
+      "id": "P000159-sol-2",
+      "role": "solution",
+      "file": "P000/P000159-sol-2.png",
+      "format": "png",
+      "width": 638,
+      "height": 410,
+      "alt": "Velocity–time graph in m/s and s: a curve rising from zero and levelling off at 15 m/s at t = 6 s. The area up to t = 2 s, 80/9, is shaded.",
+      "origin": "docx",
+      "needs_redraw": false
+    }
+  ],
   "rights": "unverified",
   "content_hash": "dd244a864e944c8d",
   "duplicate_of": null,
   "variant_of": null,
   "created": "2026-11-08",
-  "updated": "2026-11-08"
+  "updated": "2026-11-12"
 }

@@ -1,23 +1,33 @@
 {
   "id": "P000104",
   "problem_version": 1,
-  "status": "draft",
+  "status": "reviewed",
   "hints": [
-    "> Average speed $\\frac{1}{2}(v_{t} + v_{b})$ is 6 m/s and $v_{b} - v_{t} = 5\\ m/s$"
+    "Over the window you know the time and the distance. What do they tell you about the average of $v_{t}$ and $v_{b}$, and what does 0.5 s of free fall do to the speed?"
   ],
-  "worded": null,
-  "conventional": null,
-  "mistakes": [],
+  "worded": "1. Look only at the window stretch. The ball covers 3 m in 0.5 s, so its average speed there is 6 m/s.\n\n2. With constant acceleration the average is the mean of the speeds at the two ends. So $v_{t}$ and $v_{b}$ add up to 12 m/s.\n\n3. In 0.5 s gravity adds 10 × 0.5 = 5 m/s. So $v_{b}$ is 5 m/s more than $v_{t}$.\n\n4. Two numbers that add to 12 and differ by 5: 3.5 and 8.5. So $v_{t}$ = 3.5 m/s and $v_{b}$ = 8.5 m/s. (D)\n\n5. Option (A) is the trap: 6 m/s is the *average* speed over the window, not the speed at its top.\n\n**Another way: velocity at mid-time.** The average speed over the 0.5 s, 6 m/s, is the speed at the middle of that interval. A quarter of a second later (at the bottom) gravity has added 2.5 m/s: 8.5 m/s. A quarter of a second earlier (at the top) it was 3.5 m/s.",
+  "conventional": "![](asset:P000104-sol-1)\n\nTake downward as positive. Across the window ($s = 3$ m, $t = 0.5$ s):\n\n$$s = \\frac{v_{t} + v_{b}}{2}\\, t\\  \\Rightarrow \\ v_{t} + v_{b} = \\frac{2(3)}{0.5} = 12\\unit{m/s}.$$\n\n$$v_{b} = v_{t} + gt\\  \\Rightarrow \\ v_{b} - v_{t} = 10(0.5) = 5\\unit{m/s}.$$\n\nSolving: $v_{t} = 3.5$ m/s and $v_{b} = 8.5$ m/s.\n\n(The top of the window is $v_{t}^{2}/2g = 0.61$ m below the roof.)",
+  "mistakes": [
+    "6 m/s is the average speed across the window, not the speed at its top (option A).",
+    "The ball is already moving at the top of the window. Don’t use $s = \\frac{1}{2}gt^{2}$ for the window stretch as if it started from rest."
+  ],
   "distractors": {},
   "extension": null,
   "check": {
+    "solved_answer": "(D) $v_{b}$ = 8.5 m/s ($v_{t}$ = 3.5 m/s).",
+    "resolve_answer": null,
+    "agrees_with_key": true,
     "issues": []
   },
   "generated_by": {
     "author": "worksheet",
     "model": null,
-    "prompt_version": null,
-    "date": "2026-11-08"
+    "prompt_version": "03MSL_Solutions_v8",
+    "date": "2026-11-12"
   },
-  "reviewed_by": null
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 03MSL_Solutions_v8.docx"
+  }
 }

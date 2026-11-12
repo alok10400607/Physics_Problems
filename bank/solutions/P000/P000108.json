@@ -1,23 +1,35 @@
 {
   "id": "P000108",
   "problem_version": 1,
-  "status": "draft",
+  "status": "reviewed",
   "hints": [
-    "The total time of flight is $T = (t_{1} + t_{2})$ or $u = gT/2$"
+    "The particle is at B twice. At what two instants (measured from launch) is it there?"
   ],
-  "worded": null,
-  "conventional": null,
-  "mistakes": [],
+  "worded": "1. The whole flight lasts $t_{1} + t_{2}$.\n\n2. The particle passes B going up at $t_{1}$. By symmetry, the time from B down to the ground equals the time from the ground up to B, which is $t_{1}$. So it passes B going down at $\\left( t_{1} + t_{2} \\right) - t_{1} = t_{2}$ after launch.\n\n3. For any height, the two passing instants multiply to give 2h/g. Here they are $t_{1}$ and $t_{2}$, so the height of B is ½g$t_{1}t_{2}$.\n\n**Another way: use the launch speed.** The flight time $t_{1} + t_{2}$ equals 2u/g, so u = ½g($t_{1} + t_{2}$). Then the height after time $t_{1}$ is u$t_{1}$ − ½g$t_{1}^{2}$ = ½g$t_{1}t_{2}$.",
+  "conventional": "![](asset:P000108-sol-1)\n\nTake up as positive, with $u$ the speed of projection. Time of flight:\n\n$$T = t_{1} + t_{2} = \\frac{2u}{g}\\  \\Rightarrow \\ u = \\frac{g\\left( t_{1} + t_{2} \\right)}{2}.$$\n\nHeight at time $t_{1}$:\n\n$$h_{B} = ut_{1} - \\frac{1}{2}gt_{1}^{2} = \\frac{g\\left( t_{1} + t_{2} \\right)t_{1}}{2} - \\frac{gt_{1}^{2}}{2} = \\frac{1}{2}g\\, t_{1}t_{2}.$$",
+  "mistakes": [
+    "$t_{2}$ is the time from B to the ground (going over the top), not from the top to the ground.",
+    "Don’t use $\\frac{1}{2}gt_{1}^{2}$: the particle does not start from rest; it is slowing down on the way to B."
+  ],
   "distractors": {},
   "extension": null,
   "check": {
-    "issues": []
+    "solved_answer": "$h_{B} = \\frac{1}{2}g\\, t_{1}t_{2}$.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
+    "issues": [
+      "problem text differs from the bank (similarity 0.65)"
+    ]
   },
   "generated_by": {
     "author": "worksheet",
     "model": null,
-    "prompt_version": null,
-    "date": "2026-11-08"
+    "prompt_version": "03MSL_Solutions_v8",
+    "date": "2026-11-12"
   },
-  "reviewed_by": null
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 03MSL_Solutions_v8.docx"
+  }
 }

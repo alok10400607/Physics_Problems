@@ -1,0 +1,33 @@
+{
+  "id": "P000130",
+  "problem_version": 2,
+  "status": "reviewed",
+  "hints": [
+    "After being stopped, the body is released from rest again. So the next 2 s are just like the first 2 s."
+  ],
+  "worded": "1. In the first 2 s from rest it falls ½ × 10 × 4 = 20 m.\n\n2. It is then stopped: all its speed is removed. Released again, it starts from rest, exactly as at the top.\n\n3. So the next 2 s also give 20 m. Total fall 40 m; height above the ground H − 40 (provided H ≥ 40 m).",
+  "conventional": "![](asset:P000130-sol-1)\n\nEach stage starts from rest: $s = \\frac{1}{2}gt^{2} = \\frac{1}{2}(10)(2)^{2} = 20$ m.\n\n$$h = H - 20 - 20 = (H - 40)\\unit{m}.$$",
+  "mistakes": [
+    "Don’t treat it as a 4 s continuous fall (80 m): stopping resets the speed to zero.",
+    "If H \\< 40 m the body reaches the ground before the 4 s are up."
+  ],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "solved_answer": "(H − 40) m.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": "03MSL_Solutions_v8",
+    "date": "2026-11-12"
+  },
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 03MSL_Solutions_v8.docx"
+  }
+}

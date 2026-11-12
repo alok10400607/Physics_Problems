@@ -1,6 +1,6 @@
 {
   "id": "P000111",
-  "status": "imported",
+  "status": "reviewed",
   "version": 1,
   "type": "mcq_single",
   "topic_code": "0315",
@@ -35,11 +35,23 @@
       "qno": 27
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "id": "P000111-sol-1",
+      "role": "solution",
+      "file": "P000/P000111-sol-1.png",
+      "format": "png",
+      "width": 566,
+      "height": 649,
+      "alt": "Two balls at the top of a 200 m tower, one thrown up at 10 m/s and one thrown down. The upward ball comes back to the top after 2 s, moving at 10 m/s down; from there both move the same way to the ground.",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
   "rights": "unverified",
   "content_hash": "b2d9f75531d85ab3",
   "duplicate_of": null,
   "variant_of": null,
   "created": "2026-11-08",
-  "updated": "2026-11-08"
+  "updated": "2026-11-12"
 }

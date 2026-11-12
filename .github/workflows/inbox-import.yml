@@ -57,7 +57,8 @@ jobs:
           # replace this line with: anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           prompt: |
-            /bank-import Unattended mode (GitHub Actions). Import these files from inbox/, one pull request per file:
+            /bank-import Unattended mode (GitHub Actions). Import these files from inbox/, one pull request per collection
+            (a problems file and its <collection>_Solutions_v<n>.docx go into the same pull request, problems first):
             ${{ steps.files.outputs.list }}
           claude_args: |
             --max-turns 200

@@ -1,23 +1,32 @@
 {
   "id": "P000149",
   "problem_version": 1,
-  "status": "draft",
+  "status": "reviewed",
   "hints": [
-    "> Differentiating wrt t: $1 = 2\\alpha x\\frac{dx}{dt} + \\beta\\frac{dx}{dt}$ or $v = \\frac{1}{2\\alpha x + \\beta}$\n\n>\n\n> Differentiating again and substituting v: $a = - 2\\alpha v^{3}$ $-$ve for retardation"
+    "Here t is given as a function of x. dt/dx is 1/v. Differentiate that with respect to time."
   ],
-  "worded": null,
-  "conventional": null,
-  "mistakes": [],
+  "worded": "1. dt/dx = 2αx + β, and this equals 1/v.\n\n2. Differentiate 1/v = 2αx + β with respect to time: the left side gives −a/v², the right side gives 2α × dx/dt = 2αv.\n\n3. So a = −2αv³: a retardation of magnitude 2αv³. (A)\n\n4. β disappears because it is a constant term in 1/v; that rules out (B) and (C).",
+  "conventional": "$$\\frac{dt}{dx} = 2\\alpha x + \\beta = \\frac{1}{v}.$$\n\nDifferentiating with respect to $t$:\n\n$$- \\frac{1}{v^{2}}\\frac{dv}{dt} = 2\\alpha\\frac{dx}{dt} = 2\\alpha v\\  \\Rightarrow \\ a = - 2\\alpha v^{3}.$$\n\nRetardation $= 2\\alpha v^{3}$.",
+  "mistakes": [
+    "Don’t differentiate 1/v with respect to x and stop there: the chain rule must bring in dx/dt = v."
+  ],
   "distractors": {},
   "extension": null,
   "check": {
+    "solved_answer": "(A) $2\\alpha v^{3}$.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
     "issues": []
   },
   "generated_by": {
     "author": "worksheet",
     "model": null,
-    "prompt_version": null,
-    "date": "2026-11-08"
+    "prompt_version": "03MSL_Solutions_v8",
+    "date": "2026-11-12"
   },
-  "reviewed_by": null
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 03MSL_Solutions_v8.docx"
+  }
 }

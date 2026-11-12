@@ -1,0 +1,34 @@
+{
+  "id": "P000098",
+  "problem_version": 1,
+  "status": "reviewed",
+  "hints": [
+    "Which equation of motion links speed and distance without time? With the same retardation, how does stopping distance change with speed?"
+  ],
+  "worded": "1. The brakes give the same retardation a in both cases. Time is not involved, so think of v² = u² − 2as: to bring v² to zero, the distance must be u²/2a.\n\n2. So stopping distance goes as the square of the speed. n times the speed needs n² times the distance: n²s.\n\n3. Why it is a square: at n times the speed, the car takes n times as long to stop, and it also moves n times as fast on average. n × n = n².\n\n**No-pen route: v–t graph.** Both stops are straight lines of the same slope (−a). The second triangle is the first enlarged n times in both height and base, so its area, the stopping distance, is n² times as large.",
+  "conventional": "![](asset:P000098-sol-1)\n\nUsing $v^{2} = u^{2} - 2as$ with $v = 0$:\n\n$$s = \\frac{u^{2}}{2a}.$$\n\nWith the same $a$ and initial speed $nu$:\n\n$$s\\prime = \\frac{(nu)^{2}}{2a} = n^{2}\\,\\frac{u^{2}}{2a} = n^{2}s.$$",
+  "mistakes": [
+    "The answer is not ns: with constant retardation, stopping distance grows as the *square* of the speed."
+  ],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "solved_answer": "$n^{2}s$.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
+    "issues": [
+      "problem text differs from the bank (similarity 0.88)"
+    ]
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": "03MSL_Solutions_v8",
+    "date": "2026-11-12"
+  },
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 03MSL_Solutions_v8.docx"
+  }
+}

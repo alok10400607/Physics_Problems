@@ -1,8 +1,8 @@
 {
   "id": "P000165",
-  "status": "imported",
-  "version": 1,
-  "type": "subjective",
+  "status": "reviewed",
+  "version": 2,
+  "type": "mcq_single",
   "topic_code": "0335",
   "concepts": [],
   "exams": [],
@@ -16,9 +16,11 @@
   },
   "time_estimate_s": null,
   "passage_id": null,
-  "stem": "![](asset:P000165-stem-1)If position-time graph of a particle is a sine curve as shown, then which one will be the corresponding velocity-time graph:\n![](asset:P000165-stem-2)",
+  "stem": "![](asset:P000165-stem-1)If position-time graph of a particle is a sine curve as shown, then which one will be the corresponding velocity-time graph:",
   "answer": {
-    "text": "C"
+    "keys": [
+      "C"
+    ]
   },
   "sources": [
     {
@@ -40,21 +42,75 @@
       "needs_redraw": true
     },
     {
-      "id": "P000165-stem-2",
-      "role": "stem",
-      "file": "P000/P000165-stem-2.png",
+      "id": "P000165-opt-A",
+      "role": "option",
+      "file": "P000/P000165-opt-A.png",
       "format": "png",
-      "width": 543,
-      "height": 96,
-      "alt": "Four velocity–time graphs labelled (A) to (D), each a wave-shaped curve with a different starting value and direction.",
+      "width": 333,
+      "height": 243,
+      "alt": "Velocity v against time t: starts at a positive maximum, falls through zero to a negative minimum and rises back to the maximum (a cosine-shaped curve starting high).",
       "origin": "docx",
-      "needs_redraw": true
+      "needs_redraw": true,
+      "option_key": "A"
+    },
+    {
+      "id": "P000165-opt-B",
+      "role": "option",
+      "file": "P000/P000165-opt-B.png",
+      "format": "png",
+      "width": 309,
+      "height": 243,
+      "alt": "Velocity v against time t: starts at zero, dips negative, then rises to a positive hump and returns to zero (a sine-shaped curve starting downward).",
+      "origin": "docx",
+      "needs_redraw": true,
+      "option_key": "B"
+    },
+    {
+      "id": "P000165-opt-C",
+      "role": "option",
+      "file": "P000/P000165-opt-C.png",
+      "format": "png",
+      "width": 306,
+      "height": 246,
+      "alt": "Velocity v against time t: starts at a negative minimum, rises through zero to a positive maximum and falls back to the negative minimum (a negative-cosine curve).",
+      "origin": "docx",
+      "needs_redraw": true,
+      "option_key": "C"
+    },
+    {
+      "id": "P000165-opt-D",
+      "role": "option",
+      "file": "P000/P000165-opt-D.png",
+      "format": "png",
+      "width": 306,
+      "height": 246,
+      "alt": "Velocity v against time t: starts at zero, rises to a positive hump, then dips negative and returns to zero (a sine-shaped curve starting upward).",
+      "origin": "docx",
+      "needs_redraw": true,
+      "option_key": "D"
+    },
+    {
+      "id": "P000165-sol-1",
+      "role": "solution",
+      "file": "P000/P000165-sol-1.png",
+      "format": "png",
+      "width": 670,
+      "height": 483,
+      "alt": "Two graphs one above the other: position x = −A sin ωt, and velocity v = −Aω cos ωt. A dashed line through the lowest point of x meets v at zero; note: x lowest ⇒ v = 0.",
+      "origin": "docx",
+      "needs_redraw": false
     }
   ],
   "rights": "unverified",
-  "content_hash": "ae56ccfaa2e23bdd",
+  "content_hash": "8cc275d801085388",
   "duplicate_of": null,
   "variant_of": null,
   "created": "2026-11-08",
-  "updated": "2026-11-08"
+  "updated": "2026-11-12",
+  "options": {
+    "A": "![](asset:P000165-opt-A)",
+    "B": "![](asset:P000165-opt-B)",
+    "C": "![](asset:P000165-opt-C)",
+    "D": "![](asset:P000165-opt-D)"
+  }
 }

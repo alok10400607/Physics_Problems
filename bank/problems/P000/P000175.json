@@ -1,6 +1,6 @@
 {
   "id": "P000175",
-  "status": "imported",
+  "status": "reviewed",
   "version": 1,
   "type": "mcq_single",
   "topic_code": "0340",
@@ -35,11 +35,23 @@
       "qno": 91
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "id": "P000175-sol-1",
+      "role": "solution",
+      "file": "P000/P000175-sol-1.png",
+      "format": "png",
+      "width": 793,
+      "height": 325,
+      "alt": "Two cars 5 km apart, both moving right at 60, and a truck moving left at v. The truck meets them 3 min apart.",
+      "origin": "docx",
+      "needs_redraw": false
+    }
+  ],
   "rights": "unverified",
   "content_hash": "5edbb454bef27a6e",
   "duplicate_of": null,
   "variant_of": null,
   "created": "2026-11-08",
-  "updated": "2026-11-08"
+  "updated": "2026-11-12"
 }

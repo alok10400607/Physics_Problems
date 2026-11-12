@@ -1,8 +1,8 @@
 {
   "id": "P000169",
-  "status": "imported",
-  "version": 1,
-  "type": "subjective",
+  "status": "reviewed",
+  "version": 2,
+  "type": "mcq_single",
   "topic_code": "0335",
   "concepts": [],
   "exams": [
@@ -18,9 +18,11 @@
   },
   "time_estimate_s": null,
   "passage_id": null,
-  "stem": "![](asset:P000169-stem-1) The velocity-displacement graph describing the motion of a bicycle is shown in the figure. The acceleration–displacement graph of the bicycle's motion is best described by:\n![](asset:P000169-stem-2)",
+  "stem": "![](asset:P000169-stem-1) The velocity-displacement graph describing the motion of a bicycle is shown in the figure. The acceleration–displacement graph of the bicycle's motion is best described by:",
   "answer": {
-    "text": "B"
+    "keys": [
+      "B"
+    ]
   },
   "sources": [
     {
@@ -51,21 +53,75 @@
       "needs_redraw": true
     },
     {
-      "id": "P000169-stem-2",
-      "role": "stem",
-      "file": "P000/P000169-stem-2.png",
+      "id": "P000169-opt-A",
+      "role": "option",
+      "file": "P000/P000169-opt-A.png",
       "format": "png",
-      "width": 1116,
-      "height": 280,
-      "alt": "Four graphs of acceleration a in m/s² against x in m, labelled A to D, with 2 and 10 marked on the a-axis and 200 and 400 on the x-axis. A rises in a curve to 10 at 200, then stays at 10. B rises in a straight line from 2 to 10 at 200, then drops to zero. C rises in a straight line from 2 to 10 at 200, then stays at 10. D rises in a curve from 2 to 10 at 200 and stops there.",
+      "width": 807,
+      "height": 639,
+      "alt": "Acceleration a in m/s² against position x in m: rises along an upward-curving line from 2 at x = 0 to 10 at x = 200 m, then stays at 10 up to x = 400 m.",
+      "origin": "docx",
+      "needs_redraw": false,
+      "option_key": "A"
+    },
+    {
+      "id": "P000169-opt-B",
+      "role": "option",
+      "file": "P000/P000169-opt-B.png",
+      "format": "png",
+      "width": 684,
+      "height": 639,
+      "alt": "Acceleration a in m/s² against position x in m: rises in a straight line from 2 at x = 0 to 10 at x = 200 m, then drops to zero and stays at zero up to x = 400 m.",
+      "origin": "docx",
+      "needs_redraw": false,
+      "option_key": "B"
+    },
+    {
+      "id": "P000169-opt-C",
+      "role": "option",
+      "file": "P000/P000169-opt-C.png",
+      "format": "png",
+      "width": 687,
+      "height": 636,
+      "alt": "Acceleration a in m/s² against position x in m: rises in a straight line from 2 at x = 0 to 10 at x = 200 m, then stays at 10 up to x = 400 m.",
+      "origin": "docx",
+      "needs_redraw": false,
+      "option_key": "C"
+    },
+    {
+      "id": "P000169-opt-D",
+      "role": "option",
+      "file": "P000/P000169-opt-D.png",
+      "format": "png",
+      "width": 780,
+      "height": 639,
+      "alt": "Acceleration a in m/s² against position x in m: rises along an upward-curving line from 2 at x = 0 to 10 at x = 200 m, then drops to zero and stays at zero up to x = 400 m.",
+      "origin": "docx",
+      "needs_redraw": false,
+      "option_key": "D"
+    },
+    {
+      "id": "P000169-sol-1",
+      "role": "solution",
+      "file": "P000/P000169-sol-1.png",
+      "format": "png",
+      "width": 1114,
+      "height": 331,
+      "alt": "Two graphs side by side. Left: velocity in m/s against x in m, rising from 10 to 50 at 200 m, then flat to 400 m. Right: acceleration in m/s² against x, rising in a straight line from 2 to 10 at 200 m, then zero to 400 m.",
       "origin": "docx",
       "needs_redraw": false
     }
   ],
   "rights": "past-paper",
-  "content_hash": "def5d7e682b45456",
+  "content_hash": "0e71f79bb75b2cbd",
   "duplicate_of": null,
   "variant_of": null,
   "created": "2026-11-08",
-  "updated": "2026-11-08"
+  "updated": "2026-11-12",
+  "options": {
+    "A": "![](asset:P000169-opt-A)",
+    "B": "![](asset:P000169-opt-B)",
+    "C": "![](asset:P000169-opt-C)",
+    "D": "![](asset:P000169-opt-D)"
+  }
 }

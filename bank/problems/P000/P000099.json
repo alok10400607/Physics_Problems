@@ -1,6 +1,6 @@
 {
   "id": "P000099",
-  "status": "imported",
+  "status": "reviewed",
   "version": 1,
   "type": "mcq_single",
   "topic_code": "0310",
@@ -35,11 +35,23 @@
       "qno": 15
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "id": "P000099-sol-1",
+      "role": "solution",
+      "file": "P000/P000099-sol-1.png",
+      "format": "png",
+      "width": 745,
+      "height": 494,
+      "alt": "Velocity–time graph in m/s and s: constant at 40 for a reaction time δt (shaded area 40δt), then a straight fall to zero over 40/8 = 5 s (area 100 m). Total area = 120 m.",
+      "origin": "docx",
+      "needs_redraw": false
+    }
+  ],
   "rights": "unverified",
   "content_hash": "93aa2830d95d2c9f",
   "duplicate_of": null,
   "variant_of": null,
   "created": "2026-11-08",
-  "updated": "2026-11-08"
+  "updated": "2026-11-12"
 }

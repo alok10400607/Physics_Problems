@@ -1,0 +1,32 @@
+{
+  "id": "P000146",
+  "problem_version": 1,
+  "status": "reviewed",
+  "hints": [
+    "Differentiate each position to get each velocity, then set them equal."
+  ],
+  "worded": "1. Velocity is the slope of each position formula: v_P = a + 2bt and v_Q = f − 2t.\n\n2. P starts at a and speeds up; Q starts at f and slows down. If f > a they cross once.\n\n3. Equal when a + 2bt = f − 2t, i.e. t = (f − a)/2(1 + b). (B)",
+  "conventional": "![](asset:P000146-sol-1)\n\n$$v_{P} = a + 2bt,\\quad\\quad v_{Q} = f - 2t.$$\n\n$$a + 2bt = f - 2t\\  \\Rightarrow \\ t = \\frac{f - a}{2(1 + b)}.$$",
+  "mistakes": [
+    "Equal velocities is not the same as equal positions (meeting); don’t set x_P = x_Q."
+  ],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "solved_answer": "(B) $\\frac{f - a}{2(1 + b)}$.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": "03MSL_Solutions_v8",
+    "date": "2026-11-12"
+  },
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 03MSL_Solutions_v8.docx"
+  }
+}

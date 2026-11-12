@@ -32,6 +32,42 @@ At the start of a question, in square brackets, in any order:
 - Source: `[JEE Main 2014, 12 Apr (Online)]`, `[JEE Main 2015 (Offline)]`, `[JEE Main 2019, 10 Jan, Shift 2]`, `[AIEEE 2007]`, `[IIT-JEE 2011]`, `[NEET 2023]`
 - After the first import, the regenerated worksheet carries each question's ID: `[P000214]`. Re-importing uses it to update the right problem.
 
+## A new version of a worksheet already in the bank
+
+A file such as `03MSL_v3.docx`, when `03MSL` was imported from `03MSL_v2.docx`, updates the problems in place (`import_docx.py … --update`):
+- Each question is matched to the problem imported from the same question number, or by its `[P000123]` tag if it has one. The question text must still agree (similarity 0.6 or more); otherwise the import stops and asks for an ID tag.
+- Only problems that changed are rewritten, with their version raised by one. The stem, options, answer, question type and figures are compared; whitespace alone is not a change. Changed answers are reported as major.
+- New question numbers become new problems. A problem missing from the new version stops the import until the owner decides whether to retire it.
+- Hints & Solutions in the new version are ignored for problems already in the bank; solutions come from the solutions file.
+
+## Solutions files
+
+Solutions come in their own file, named `<collection>_Solutions_v<n>.docx` (e.g. `03MSL_Solutions_v8.docx`), written with the `jee-worksheet-solutions` skill and reviewed before upload. `tools/import_solutions.py --check` tests it.
+
+The file is already reviewed, so there is no review session afterwards: a complete solution whose answer agrees with the key is saved as `reviewed` (and its problem too), with `reviewed_by` naming the file. A solution with a part missing is saved as `draft`; one whose answer disagrees with the key is saved as `ai_solved` and listed for the owner. `--unreviewed` saves everything as `ai_solved`, for a file that has not been reviewed.
+
+    # <subtopic name>
+    ## Q<n> · <short title>
+    ID <id> · Code <topic code> · Worksheet <collection>_v<k> Q<n>
+    ### Problem / Hint / Think it through / Another way: … / No-pen route / Why the other options are there / Worked solution / Answer / Watch out
+
+| Section | Goes to |
+|---|---|
+| Problem | not stored; compared with the bank (a small difference is a warning, a large one stops the import) |
+| Hint | `hints` |
+| Think it through | `worded` |
+| Another way: …, No-pen route | appended to `worded`, under their own title in bold |
+| Why the other options are there | `distractors`, when each sentence names one option; otherwise appended to `worded` |
+| Worked solution | `conventional`; its figures become `<problem>-sol-<n>` |
+| Answer | checked against the answer key; a disagreement is flagged for the owner, never fixed by changing the key |
+| Watch out | `mistakes`, one per bullet. The closing `Notes: Sec. …` line is reported, not stored |
+
+**Blocking:** a question that matches no problem (or the wrong one), a formula that does not render, a missing figure, and a problem whose solutions are already reviewed or published (those are never overwritten), or written by Claude or an expert (overwritten only with `--replace`).
+
+**Warnings:** problem text that differs from the bank, missing sections (saved as `draft`), answers that disagree with the key (saved as `ai_solved`, not reviewed), topic codes that differ, problems of the collection with no solution in the file.
+
+Import the problems file first when both arrive together, so the solutions are matched against the latest problem text.
+
 ## CSV question lists
 
 What a `.csv` must contain (checked by `tools/import_csv.py --check`).

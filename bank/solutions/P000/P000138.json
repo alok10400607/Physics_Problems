@@ -1,0 +1,32 @@
+{
+  "id": "P000138",
+  "problem_version": 1,
+  "status": "reviewed",
+  "hints": [
+    "Rest → top speed → rest with constant rates: what is the average speed in each phase?"
+  ],
+  "worded": "1. The top speed is aT.\n\n2. Each phase is uniformly accelerated between rest and aT, so each has average speed aT/2.\n\n3. If every phase averages aT/2, the whole trip does too, however long the braking takes. b changes the time and distance, not the average speed. (C)",
+  "conventional": "![](asset:P000138-sol-1)\n\nPeak speed $v = aT$; braking time $aT/b$. Distance = area of the triangle:\n\n$$s = \\frac{1}{2}aT\\left( T + \\frac{aT}{b} \\right),\\quad\\quad\\bar{v} = \\frac{s}{T + aT/b} = \\frac{aT}{2}.$$",
+  "mistakes": [
+    "Option (D) is tempting, but b cancels: the average speed is half the peak speed for any triangular v–t graph."
+  ],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "solved_answer": "(C) $\\frac{aT}{2}$.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": "03MSL_Solutions_v8",
+    "date": "2026-11-12"
+  },
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 03MSL_Solutions_v8.docx"
+  }
+}

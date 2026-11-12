@@ -1,6 +1,6 @@
 {
   "id": "P000105",
-  "status": "imported",
+  "status": "reviewed",
   "version": 1,
   "type": "subjective",
   "topic_code": "0315",
@@ -27,11 +27,23 @@
       "qno": 21
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "id": "P000105-sol-1",
+      "role": "solution",
+      "file": "P000/P000105-sol-1.png",
+      "format": "png",
+      "width": 514,
+      "height": 636,
+      "alt": "A ball thrown up from the ground at t = 0 reaches the top at t = t₀, height h. At t = t₀/2 it is at height ¾h, with ¼h still to go.",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
   "rights": "unverified",
   "content_hash": "a23122577ba9288e",
   "duplicate_of": null,
   "variant_of": null,
   "created": "2026-11-08",
-  "updated": "2026-11-08"
+  "updated": "2026-11-12"
 }

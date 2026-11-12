@@ -1,0 +1,33 @@
+{
+  "id": "P000118",
+  "problem_version": 1,
+  "status": "reviewed",
+  "hints": [
+    "Draw the v–t graph: a rise to aT, then a fall at half the slope. Everything (times, distances, average speed) can be read off that triangle."
+  ],
+  "worded": "1. The train gains speed aT in time T. It must lose the same speed aT at half the rate, which takes twice as long: 2T.\n\n2. Both phases go between rest and the same top speed aT, so each has average speed aT/2. Distances are then in the ratio of the times: 1 : 2.\n\n3. Acceleration phase: ½aT². Deceleration phase is twice that: aT². Total: 3/2 aT², that is 3 × (½aT²).\n\n4. Average speed = total distance ÷ total time = (3/2 aT²)/(3T) = aT/2. It is half the top speed, as for any rest-to-rest journey with a triangular v–t graph.\n\n**No-pen route.** In any rest → v_max → rest trip with constant acceleration and deceleration, every phase has average speed v_max/2. So the whole trip averages aT/2, and distances go as the times (1 : 2).",
+  "conventional": "![](asset:P000118-sol-1)\n\n(i) The speed reached at time T is $v = aT$. During deceleration ($a/2$):\n\n$$0 = aT - \\frac{a}{2}t_{2}\\  \\Rightarrow \\ t_{2} = 2T.$$\n\n(ii) Areas under the v–t graph:\n\n$$s_{1} = \\frac{1}{2}(aT)(T) = \\frac{1}{2}aT^{2},\\quad\\quad s_{2} = \\frac{1}{2}(aT)(2T) = aT^{2},\\quad\\quad s_{1}:s_{2} = 1:2.$$\n\n(iii) Total distance:\n\n$$s = s_{1} + s_{2} = \\frac{3}{2}aT^{2} = 3\\left( \\frac{1}{2}aT^{2} \\right).$$\n\n(iv) Average speed:\n\n$$\\bar{v} = \\frac{\\frac{3}{2}aT^{2}}{3T} = \\frac{aT}{2}.$$",
+  "mistakes": [
+    "Halving the deceleration doubles the time, not halves it.",
+    "Average speed is total distance ÷ total time (3T), not the mean of the two accelerations."
+  ],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "solved_answer": "(i) 2T; (ii) 1 : 2; (iii) $\\frac{3}{2}aT^{2}$; (iv) $\\frac{1}{2}aT$.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": "03MSL_Solutions_v8",
+    "date": "2026-11-12"
+  },
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 03MSL_Solutions_v8.docx"
+  }
+}

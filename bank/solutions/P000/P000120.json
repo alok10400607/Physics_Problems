@@ -1,0 +1,32 @@
+{
+  "id": "P000120",
+  "problem_version": 1,
+  "status": "reviewed",
+  "hints": [
+    "On the v–t graph the distance d is a fixed area and the slopes cannot exceed a. What shape covers that area in the shortest base?"
+  ],
+  "worded": "1. The train starts and ends at rest. On the v–t graph, the distance d is the area, and the steepest allowed slopes are +a and −a.\n\n2. To cover a fixed area in the least time, the speed should be as high as possible at every instant. So accelerate as hard as allowed, then brake as hard as allowed, with no cruising.\n\n3. Equal rates up and down make the triangle symmetric: accelerate for half the time, brake for the other half.\n\n4. Each half covers ½a(t/2)² = at²/8, so d = at²/4 and t = 2√(d/a).",
+  "conventional": "![](asset:P000120-sol-1)\n\nWith maximum acceleration for $t/2$ and maximum deceleration for $t/2$, the peak speed is $a\\, t/2$ and\n\n$$d = \\frac{1}{2}\\left( a\\frac{t}{2} \\right)t = \\frac{at^{2}}{4}\\  \\Rightarrow \\ t_{\\min} = 2\\sqrt{\\frac{d}{a}}.$$\n\nAny other plan (smaller rates, or a cruising stretch) gives a lower v–t curve, which needs a longer base for the same area.",
+  "mistakes": [
+    "Don’t use √(2d/a): that is the time to cover d from rest without stopping at the end."
+  ],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "solved_answer": "$t_{\\min} = 2\\sqrt{d/a}$.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": "03MSL_Solutions_v8",
+    "date": "2026-11-12"
+  },
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 03MSL_Solutions_v8.docx"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "P000160",
+  "problem_version": 1,
+  "status": "reviewed",
+  "hints": [
+    "On an x–t graph, velocity is the slope. What is the slope of a line at 30°, and at 60°?"
+  ],
+  "worded": "1. Straight x–t lines mean constant velocities, each equal to the slope of its line.\n\n2. Slope = tan of the angle with the time axis: tan 30° = 1/√3 and tan 60° = √3.\n\n3. Ratio = (1/√3) : √3 = 1 : 3. (D)\n\n4. Trap: the ratio of the angles (1 : 2, option A) means nothing; it’s the tangents that matter.",
+  "conventional": "![](asset:P000160-sol-1)\n\n$$\\frac{V_{A}}{V_{B}} = \\frac{\\tan 30^{\\circ}}{\\tan 60^{\\circ}} = \\frac{1/\\sqrt{3}}{\\sqrt{3}} = \\frac{1}{3}.$$",
+  "mistakes": [
+    "Velocity is tan θ, not θ; 30° : 60° is not 1 : 2 in velocity.",
+    "Reading slopes as tan θ only works when both axes use the same scale; here the question intends that."
+  ],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "solved_answer": "(D) 1 : 3.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": "03MSL_Solutions_v8",
+    "date": "2026-11-12"
+  },
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 03MSL_Solutions_v8.docx"
+  }
+}

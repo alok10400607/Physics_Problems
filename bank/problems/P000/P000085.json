@@ -1,7 +1,7 @@
 {
   "id": "P000085",
-  "status": "imported",
-  "version": 1,
+  "status": "reviewed",
+  "version": 2,
   "type": "subjective",
   "topic_code": "0305",
   "concepts": [],
@@ -18,7 +18,7 @@
   "passage_id": null,
   "stem": "A clock has its second hand 2 cm long. Find the distance travelled and displacement of the tip of the second hand in 15 seconds.",
   "answer": {
-    "text": "π cm;$2\\sqrt{2}$ cm"
+    "text": "π cm;$2\\sqrt{2}$ cm (from the 12 mark to the 3 mark)"
   },
   "sources": [
     {
@@ -27,11 +27,23 @@
       "qno": 1
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "id": "P000085-sol-1",
+      "role": "solution",
+      "file": "P000/P000085-sol-1.png",
+      "format": "png",
+      "width": 737,
+      "height": 584,
+      "alt": "Clock face of radius 2 cm with centre O. The tip moves from A at the top (t = 0) along a blue quarter arc, labelled arc = π cm, to B on the right (t = 15 s). A red arrow Δr runs straight from A to B; the radii OA and OB meet at a right angle.",
+      "origin": "docx",
+      "needs_redraw": false
+    }
+  ],
   "rights": "unverified",
   "content_hash": "bb54032ad4aa0b9d",
   "duplicate_of": null,
   "variant_of": null,
   "created": "2026-11-08",
-  "updated": "2026-11-08"
+  "updated": "2026-11-12"
 }

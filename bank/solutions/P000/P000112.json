@@ -1,0 +1,32 @@
+{
+  "id": "P000112",
+  "problem_version": 1,
+  "status": "reviewed",
+  "hints": [
+    "Write the equation for reaching the ground for the stone thrown up. What are its two roots, and how is the second one related to $t_{2}$?"
+  ],
+  "worded": "1. The dropped stone is the simplest: H = ½g$t_{3}^{2}$.\n\n2. For the stone thrown up, reaching the ground is a quadratic in time. Its positive root is $t_{1}$.\n\n3. Its negative root has a meaning: running time backwards, a stone thrown up at u is the same as one thrown down at u. So the negative root is −$t_{2}$.\n\n4. The product of the roots of that quadratic is −2H/g. So $t_{1}t_{2}$ = 2H/g = $t_{3}^{2}$.\n\n5. Hence $t_{3} = \\sqrt{t_{1}t_{2}}$: the dropped stone’s time is the geometric mean of the other two.\n\n**Another way: solve both and multiply.** Solving gives $t_{1} = \\left( u + \\sqrt{u^{2} + 2gH} \\right)/g$ and $t_{2} = \\left( - u + \\sqrt{u^{2} + 2gH} \\right)/g$. Their product is $\\left( u^{2} + 2gH - u^{2} \\right)/g^{2} = 2H/g$, which is $t_{3}^{2}$.",
+  "conventional": "![](asset:P000112-sol-1)\n\nTake up as positive, origin at the top; the ground is at $y = - H$.\n\nStone thrown up: $- H = ut - \\frac{1}{2}gt^{2}$, i.e.\n\n$$\\frac{1}{2}gt^{2} - ut - H = 0.$$\n\nStone thrown down: $- H = - ut - \\frac{1}{2}gt^{2}$, i.e. $\\frac{1}{2}gt^{2} + ut - H = 0$, which is the first equation with $t$ replaced by $- t$. So the roots of the first equation are $t_{1}$ and $- t_{2}$. Product of the roots:\n\n$$t_{1}\\left( - t_{2} \\right) = - \\frac{2H}{g}\\  \\Rightarrow \\ t_{1}t_{2} = \\frac{2H}{g}.$$\n\nDropped stone: $H = \\frac{1}{2}gt_{3}^{2}$, so $t_{3}^{2} = 2H/g$. Hence\n\n$$t_{3} = \\sqrt{t_{1}t_{2}}.$$",
+  "mistakes": [
+    "It is the geometric mean, not the arithmetic mean $\\left( t_{1} + t_{2} \\right)/2$."
+  ],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "solved_answer": "$t_{3} = \\sqrt{t_{1}t_{2}}$ (and $t_{1} - t_{2} = 2u/g$).",
+    "resolve_answer": null,
+    "agrees_with_key": true,
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": "03MSL_Solutions_v8",
+    "date": "2026-11-12"
+  },
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 03MSL_Solutions_v8.docx"
+  }
+}

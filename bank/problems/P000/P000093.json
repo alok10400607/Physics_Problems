@@ -1,6 +1,6 @@
 {
   "id": "P000093",
-  "status": "imported",
+  "status": "reviewed",
   "version": 1,
   "type": "mcq_single",
   "topic_code": "0305",
@@ -46,6 +46,28 @@
       "alt": "Points Q, R and M lie along a horizontal strip, and point P is a distance d from M, perpendicular to the strip. A dashed path runs from Q along the strip to R, then straight from R to P; a dashed line also joins M and P.",
       "origin": "docx",
       "needs_redraw": false
+    },
+    {
+      "id": "P000093-sol-1",
+      "role": "solution",
+      "file": "P000/P000093-sol-1.png",
+      "format": "png",
+      "width": 933,
+      "height": 563,
+      "alt": "A man at Q runs along the road at speed v to a point R, then crosses the field at speed v/2 straight to P, at angle θ to the perpendicular PM. P is a distance d from the road; R is a distance x from M.",
+      "origin": "docx",
+      "needs_redraw": false
+    },
+    {
+      "id": "P000093-sol-2",
+      "role": "solution",
+      "file": "P000/P000093-sol-2.png",
+      "format": "png",
+      "width": 520,
+      "height": 660,
+      "alt": "Close-up of two neighbouring paths to P, from R and from R′ a small distance δ along the road. A perpendicular from R′ meets RP at N, so the field path is shorter by about δ sin θ.",
+      "origin": "docx",
+      "needs_redraw": true
     }
   ],
   "rights": "unverified",
@@ -53,5 +75,5 @@
   "duplicate_of": null,
   "variant_of": null,
   "created": "2026-11-08",
-  "updated": "2026-11-08"
+  "updated": "2026-11-12"
 }

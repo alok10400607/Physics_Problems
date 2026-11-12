@@ -1,0 +1,32 @@
+{
+  "id": "P000141",
+  "problem_version": 1,
+  "status": "reviewed",
+  "hints": [
+    "Compare with x = x₀ + ut + ½at². Which coefficient is “½a”?"
+  ],
+  "worded": "1. Position quadratic in time means constant acceleration: the motion is ordinary SUVAT motion.\n\n2. Matching with x₀ + ut + ½at²: a₀ is the starting position, a₁ the initial velocity, and a₂ is half the acceleration.\n\n3. So the acceleration is 2a₂. (C)\n\n**Another way: differentiate.** v = dx/dt = a₁ + 2a₂t, and a = dv/dt = 2a₂.",
+  "conventional": "$$v = \\frac{dx}{dt} = a_{1} + 2a_{2}t,\\quad\\quad a = \\frac{dv}{dt} = 2a_{2}.$$",
+  "mistakes": [
+    "a₂ is half the acceleration (option D is the trap): x = ut + ½at² has a ½ in front of a."
+  ],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "solved_answer": "(C) $2a_{2}$.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": "03MSL_Solutions_v8",
+    "date": "2026-11-12"
+  },
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 03MSL_Solutions_v8.docx"
+  }
+}

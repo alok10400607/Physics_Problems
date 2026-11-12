@@ -5,6 +5,11 @@
         Pre-flight only. Prints the report and writes nothing.
     python3 -I tools/import_docx.py <worksheet.docx> <topic-map.json> --write
         Imports (refuses if any blocking issue remains).
+    python3 -I tools/import_docx.py <new-version.docx> <topic-map.json> --update --check/--write
+        A new version of a worksheet already in the bank (e.g. 03MSL_v3 after 03MSL_v2). Each question
+        without an ID tag is matched to the problem imported from the same question number, after
+        checking that the text still agrees. Only problems that changed are rewritten; IDs are kept.
+        New questions get new IDs; a question that has disappeared blocks the import until the owner decides.
 
 Options: --report <file.json> saves the report; --force re-imports a file already logged.
 Rules are in docs/worksheet-contract.md and docs/maths-style.md.
@@ -20,6 +25,7 @@ ap.add_argument("docx"); ap.add_argument("topic_map")
 g = ap.add_mutually_exclusive_group(required=True)
 g.add_argument("--check", action="store_true"); g.add_argument("--write", action="store_true")
 ap.add_argument("--report"); ap.add_argument("--force", action="store_true")
+ap.add_argument("--update", action="store_true", help="new version of a worksheet already in the bank")
 args = ap.parse_args()
 
 docx = pathlib.Path(args.docx).resolve()
@@ -225,6 +231,7 @@ for line in body.splitlines():
         if code is None: block(f"Section '{title}' is not in the topic map {args.topic_map}")
         section = {"title": title, "topic_code": code}
         sections.append(section); continue
+    if section: line = re.sub(r'^>\s?', '', line)   # options laid out in a quote block (e.g. a 2 x 2 grid of graphs)
     m = re.match(r'(\d+)\.\s+(.*)', line)
     if m and section:
         finish(q); q = {"n": int(m.group(1)), "lines": [m.group(2)]}; continue
@@ -286,8 +293,9 @@ for x in questions:
     for k, v in x["sol"].items():
         for s in (v if isinstance(v, list) else [v]): fields.append((f"Q{x['n']} {k}", s))
 res = subprocess.run(["node", str(ROOT / "tools" / "katex_check.js")], input=json.dumps(fields), capture_output=True, text=True)
-if res.returncode not in (0, 1): block("The formula checker failed to run: " + res.stderr[-300:])
-for e in json.loads(res.stdout or "[]"): block(f"{e['where']}: formula does not render: {e['tex']} ({e['error']})")
+try: bad_tex = json.loads(res.stdout)
+except ValueError: bad_tex = []; block("The formula checker failed to run (run `npm ci` in tools/): " + res.stderr.strip()[-300:])
+for e in bad_tex: block(f"{e['where']}: formula does not render: {e['tex']} ({e['error']})")
 
 # ---------- duplicates ----------
 existing = {}
@@ -310,10 +318,64 @@ for i, x in enumerate(questions):
             dups.append({"question": f"Q{x['n']}", "matches": f"Q{y['n']} (same worksheet)", "similarity": round(sm.ratio(), 3)})
 for d in dups: warn(f"{d['question']}: possible duplicate of {d['matches']} (similarity {d['similarity']})")
 
-# updates (questions carrying an ID tag)
+# --update: match untagged questions to the problems imported from the same question number
+removed, matched_by_number = [], []
+if args.update:
+    cpath = BANK / "collections" / f"{tmap['collection']}.json"
+    if not cpath.exists(): block(f"--update: collection {tmap['collection']} is not in the bank; import it without --update")
+    else:
+        in_coll = [pid for s in json.loads(cpath.read_text())["sections"] for pid in s["problems"]]
+        by_no = {}
+        for pid in in_coll:
+            p = existing.get(pid)
+            ws = next((s for s in (p or {}).get("sources", []) if s["kind"] == "worksheet"), None)
+            if ws: by_no[ws["qno"]] = pid
+        tagged = {x["pid"] for x in questions if x["pid"]}
+        for x in questions:
+            if x["pid"] or x["n"] not in by_no: continue
+            pid = by_no[x["n"]]
+            if pid in tagged: continue
+            p = existing[pid]
+            a = re.sub(r'\s+', ' ', norm(x["stem"])); b = re.sub(r'\s+', ' ', norm(p["stem"]))
+            r = difflib.SequenceMatcher(None, a, b).ratio()
+            if r < 0.6:
+                block(f"Q{x['n']}: text differs too much from {pid}, imported as Q{x['n']} (similarity {r:.2f}). "
+                      f"If it is the same problem, add the tag [{pid}]; if it is a new problem, renumber or tell the importer.")
+                continue
+            x["pid"] = pid; matched_by_number.append(f"Q{x['n']}→{pid}")
+            dups[:] = [d for d in dups if d["question"] != f"Q{x['n']}"]
+        seen = {x["pid"] for x in questions if x["pid"]}
+        removed = [pid for pid in in_coll if pid not in seen]
+        for pid in removed:
+            block(f"{pid} (was Q{next((s['qno'] for s in existing[pid]['sources'] if s['kind'] == 'worksheet'), '?')}) is not in the new version. "
+                  "Tell the importer whether to retire it or keep it outside the worksheet.")
+    warnings[:] = [w for w in warnings if not re.search(r'possible duplicate of', w)]
+    for d in dups: warn(f"{d['question']}: possible duplicate of {d['matches']} (similarity {d['similarity']})")
+
+# updates (questions carrying an ID tag, or matched by number with --update)
 updates = [x for x in questions if x["pid"]]
 for x in updates:
     if x["pid"] not in existing: block(f"Q{x['n']}: tagged [{x['pid']}] but no such problem in the bank")
+
+# preview of the edits (what --write would change). Whitespace-only differences are not edits.
+def ws_norm(v):
+    if isinstance(v, str): return re.sub(r'\s+', ' ', v).strip()
+    if isinstance(v, dict): return {k: ws_norm(w) for k, w in v.items()}
+    if isinstance(v, list): return [ws_norm(w) for w in v]
+    return v
+preview = []
+for x in updates:
+    old = existing.get(x["pid"])
+    if not old: continue
+    pid = x["pid"]
+    ch = []
+    if old["type"] != x["type"]: ch.append(f"type {old['type']} → {x['type']}")
+    if ws_norm(old["stem"]) != ws_norm(x["stem"].replace("{ID}", pid)): ch.append("stem")
+    if old.get("options", {}) != {k: v.replace("{ID}", pid) for k, v in x["options"].items()}: ch.append("options")
+    if old["answer"] != x["answer"]: ch.append(f"answer {json.dumps(old['answer'], ensure_ascii=False)} → {json.dumps(x['answer'], ensure_ascii=False)}")
+    nfig = len([a for a in old["assets"] if a["role"] != "solution"])
+    if nfig != len(x["figs"]): ch.append(f"figures {nfig} → {len(x['figs'])}")
+    if ch: preview.append({"id": pid, "q": f"Q{x['n']}", "changes": ch})
 
 # ---------- report ----------
 sha = hashlib.sha256(docx.read_bytes()).hexdigest()
@@ -326,7 +388,7 @@ report = {"file": docx.name, "sha256": sha, "collection": tmap["collection"], "q
           "new": len(questions) - len(updates), "updates": len(updates), "types": types,
           "sections": [{"topic_code": s["topic_code"], "title": s["title"], "count": sum(1 for x in questions if x["section"] is s)} for s in sections],
           "figures": sum(len(x["figs"]) for x in questions), "blocking": blocking, "warnings": warnings,
-          "auto_fixes": fixes, "duplicates": dups}
+          "auto_fixes": fixes, "duplicates": dups, "matched_by_number": len(matched_by_number), "removed": removed, "edits": preview}
 
 def show(r):
     print(f"\n{r['file']}: {r['questions']} questions ({r['new']} new, {r['updates']} updates), {r['figures']} figures, types {r['types']}")
@@ -335,6 +397,9 @@ def show(r):
     for b in blocking: print("  ✗", b)
     print(f"\nWARNINGS ({len(warnings)})")
     for w in warnings: print("  !", w)
+    if r["updates"]:
+        print(f"\nEDITS ({len(r['edits'])} of {r['updates']} matched problems change; figure bytes are compared on --write)")
+        for e in r["edits"]: print(f"  ✎ {e['id']} ({e['q']}): {'; '.join(e['changes'])}")
     print(f"\nAUTO-FIXES ({len(fixes)})")
     for f in fixes: print("  ~", f)
 
@@ -375,12 +440,30 @@ collection = {"id": tmap["collection"], "kind": "worksheet", "title": tmap["titl
 for x in questions:
     if x["pid"]:
         pid = x["pid"]; old = existing[pid]
-        new_fields = {"stem": x["stem"].replace("{ID}", pid), "options": {k: v.replace("{ID}", pid) for k, v in x["options"].items()}, "answer": x["answer"]}
-        changed = [k for k, v in new_fields.items() if old.get(k, {} if k == "options" else None) != v]
+        new_fields = {"type": x["type"], "stem": x["stem"].replace("{ID}", pid), "options": {k: v.replace("{ID}", pid) for k, v in x["options"].items()}, "answer": x["answer"]}
+        changed = [k for k, v in new_fields.items() if ws_norm(old.get(k, {} if k == "options" else None)) != ws_norm(v)]
+        # figures: compare the pictures themselves, not just the references
+        old_figs = {a["id"]: a for a in old["assets"] if a["role"] != "solution"}
+        new_ids = [(f"{pid}-stem-{f['seq']}" if f["role"] == "stem" else f"{pid}-opt-{f['key']}") for f in x["figs"] if f.get("path")]
+        def same_bytes(aid, f):
+            a = old_figs.get(aid)
+            return bool(a) and (BANK / "assets" / a["file"]).exists() and (BANK / "assets" / a["file"]).read_bytes() == pathlib.Path(f["path"]).read_bytes()
+        if set(new_ids) != set(old_figs) or not all(same_bytes(i, f) for i, f in zip(new_ids, [f for f in x["figs"] if f.get("path")])):
+            changed.append("figures")
         if changed:
-            major = "answer" in changed or "options" in changed or (re.sub(r'\D', '', old["stem"]) != re.sub(r'\D', '', new_fields["stem"]))
+            major = bool({"answer", "options", "type", "figures"} & set(changed)) or (re.sub(r'\D', '', old["stem"]) != re.sub(r'\D', '', new_fields["stem"]))
+            if not new_fields["options"]: old.pop("options", None); new_fields.pop("options")
             old.update(new_fields); old["version"] += 1; old["updated"] = TODAY
             old["content_hash"] = chash(old["stem"], old.get("options", {}))
+            if "figures" in changed:
+                recs = asset_records(x, pid)
+                for r in recs:   # keep alt text written earlier; a changed picture keeps it too but is listed for a check
+                    if r["id"] in old_figs:
+                        r["alt"] = old_figs[r["id"]]["alt"]
+                for aid, a in old_figs.items():
+                    if aid not in {r["id"] for r in recs}:
+                        (BANK / "assets" / a["file"]).unlink(missing_ok=True)
+                old["assets"] = recs + [a for a in old["assets"] if a["role"] == "solution"]
             if major and old["status"] in ("ai_solved", "reviewed", "published"):
                 old["status"] = "ai_tagged"
                 sp = BANK / "solutions" / pid[:4] / f"{pid}.json"
@@ -389,7 +472,8 @@ for x in questions:
                     s.setdefault("check", {}).setdefault("issues", []).append(f"Problem changed (version {old['version']}): re-solve and re-check")
                     write_json(sp, s)
             write_json(BANK / "problems" / pid[:4] / f"{pid}.json", old)
-            updated.append({"id": pid, "fields": changed, "major": major})
+            updated.append({"id": pid, "qno": x["n"], "fields": changed, "major": major,
+                            "new_figures_without_alt": [a["id"] for a in old["assets"] if not a["alt"]]})
     else:
         pid = f"P{reg['next_problem_id']:06d}"; reg["next_problem_id"] += 1
         exams = sorted({EXAM_RELEVANCE[s["exam"]] for s in x["sources"]})
@@ -421,3 +505,6 @@ report.update({"created_ids": created, "updated": updated, "date": TODAY})
 write_json(BANK / "imports" / f"{TODAY}-{tmap['collection']}.json", report)
 show(report)
 print(f"\nWritten: {len(created)} new problems ({created[0] if created else '-'} to {created[-1] if created else '-'}), {len(updated)} updated.")
+for u in updated:
+    print(f"  {u['id']} (Q{u['qno']}): {', '.join(u['fields'])}{' [major]' if u['major'] else ''}"
+          + (f"; needs alt text: {', '.join(u['new_figures_without_alt'])}" if u["new_figures_without_alt"] else ""))

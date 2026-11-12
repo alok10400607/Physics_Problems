@@ -1,21 +1,33 @@
 {
   "id": "P000093",
   "problem_version": 1,
-  "status": "draft",
-  "hints": [],
-  "worded": null,
-  "conventional": "> ![](/tmp/import-bzoi1s3c/media/image3.png){width=\"1.9680555555555554in\" height=\"1.0743055555555556in\"}Here D and d are constant.\n\n>\n\n> Let the path be QRP, where RM = $x$ is the variable\n\n>\n\n> The time taken (T) to traverse QRP is a function of $x$\n\n>\n\n> $$T = \\frac{D - x}{v} + \\frac{2\\sqrt{d^{2} + x^{2}}}{v}$$\n\n>\n\n> For time to be minimum $\\frac{dT}{dx} = 0$",
-  "mistakes": [],
+  "status": "reviewed",
+  "hints": [
+    "At the best turning point R, turning off a tiny distance later should neither save nor lose time. Compare the extra road time with the field time saved."
+  ],
+  "worded": "1. The car is fast on the road and slow in the field. Turning off early means a long, slow field leg. Turning off late shortens the field leg but adds road. The best point R balances the two.\n\n2. Balance test: suppose R is the best point, and imagine turning off a tiny distance δ later, at R′.\n\n3. The extra road costs δ at speed v, a time of δ/v.\n\n4. The field leg gets shorter by the part of δ that lies along the field path. If the field path makes angle θ with the perpendicular PM, it meets the road at 90° − θ. So the field leg shortens by δ cos(90° − θ) = δ sin θ, which saves δ sin θ at speed v/2, a time of 2δ sin θ/v.\n\n5. At the best point the loss and the saving must be equal (otherwise moving R would help). So δ/v = 2δ sin θ/v, giving sin θ = ½ and θ = 30°.\n\n6. In the right triangle PMR, RM = d tan 30° = d/√3. (D)\n\n7. This is Snell’s law in disguise: light, too, takes the path of least time, and sin θ = (slow speed)/(fast speed).\n\n8. Check: this works only if Q is more than d/√3 from M. Otherwise the car should head into the field straight from Q.\n\n**Another way: calculus.** Write the total time as a function of x = RM and set its derivative to zero (worked solution below).",
+  "conventional": "![](asset:P000093-sol-1)\n\nLet $QM = D$ (fixed) and $RM = x$ (variable). The car covers $QR = D - x$ at speed $v$ and $RP = \\sqrt{d^{2} + x^{2}}$ at speed $v/2$:\n\n$$T(x) = \\frac{D - x}{v} + \\frac{2\\sqrt{d^{2} + x^{2}}}{v}.$$\n\nFor minimum time:\n\n$$\\frac{dT}{dx} = - \\frac{1}{v} + \\frac{2x}{v\\sqrt{d^{2} + x^{2}}} = 0\\mkern6mu  \\Rightarrow \\mkern6mu \\frac{x}{\\sqrt{d^{2} + x^{2}}} = \\frac{1}{2}.$$\n\nSquaring: $4x^{2} = d^{2} + x^{2}$, so\n\n$$x = \\frac{d}{\\sqrt{3}}.$$\n\n$d^{2}T/dx^{2} = 2d^{2}/\\left\\lbrack v\\left( d^{2} + x^{2} \\right)^{3/2} \\right\\rbrack > 0$, so this is a minimum. Note that $x/\\sqrt{d^{2} + x^{2}} = \\sin\\theta$, where $\\theta = \\angle RPM$, so the condition is $\\sin\\theta = \\frac{1}{2}$ ($\\theta = 30^{\\circ}$).\n\n![](asset:P000093-sol-2)\n\n**Check by small shift (figure above).** Moving the turning point from R to R′ by δ adds road time δ/v. The field path shortens by RN = δ sin θ, saving 2δ sin θ/v. These are equal when sin θ = ½.\n\nThe minimum time is $T_{\\min} = \\left( D + \\sqrt{3}\\, d \\right)/v$.",
+  "mistakes": [
+    "θ is measured from the perpendicular PM, not from the road.",
+    "The question asks for RM (how far before M to leave the road), not QR."
+  ],
   "distractors": {},
   "extension": null,
   "check": {
+    "solved_answer": "(D) d/√3.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
     "issues": []
   },
   "generated_by": {
     "author": "worksheet",
     "model": null,
-    "prompt_version": null,
-    "date": "2026-11-08"
+    "prompt_version": "03MSL_Solutions_v8",
+    "date": "2026-11-12"
   },
-  "reviewed_by": null
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 03MSL_Solutions_v8.docx"
+  }
 }

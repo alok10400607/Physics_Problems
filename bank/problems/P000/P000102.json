@@ -1,6 +1,6 @@
 {
   "id": "P000102",
-  "status": "imported",
+  "status": "reviewed",
   "version": 1,
   "type": "integer",
   "topic_code": "0315",
@@ -28,11 +28,23 @@
       "qno": 18
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "id": "P000102-sol-1",
+      "role": "solution",
+      "file": "P000/P000102-sol-1.png",
+      "format": "png",
+      "width": 580,
+      "height": 643,
+      "alt": "A stone dropped from a bridge 45 m above the water falls straight down (red dashed arrow). A boat moving right at speed v_b is 12 m short of the drop point at the moment of release and reaches it as the stone hits the water.",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
   "rights": "unverified",
   "content_hash": "e796b9b4208205da",
   "duplicate_of": null,
   "variant_of": null,
   "created": "2026-11-08",
-  "updated": "2026-11-08"
+  "updated": "2026-11-12"
 }

@@ -1,0 +1,33 @@
+{
+  "id": "P000087",
+  "problem_version": 2,
+  "status": "reviewed",
+  "hints": [
+    "Average velocity is displacement ÷ time. To find the displacement, identify the particle’s initial and final positions; the path in between does not matter."
+  ],
+  "worded": "1. Average velocity is displacement divided by time. The route matters only through the time it takes.\n\n2. Time: three sides, 75 m, at a steady 15 m/s take 5 s.\n\n3. Displacement: going round three sides of a square, A → B → C → D, brings the particle to D, the corner next to A. So the displacement is just the side AD: 25 m, pointing from A to D.\n\n4. Average velocity = 25 m in 5 s = 5 m/s, directed from A to D.\n\n5. Compare: average speed = 75/5 = 15 m/s, three times as large, because the path is three times the displacement.\n\n**No-pen route.** For three sides of a square at a constant speed v, the path is three sides but the displacement is one side. So the average velocity is always v/3: 15/3 = 5 m/s.",
+  "conventional": "![](asset:P000087-sol-1)\n\nTotal distance $= AB + BC + CD = 3 \\times 25 = 75$ m.\n\nTime taken:\n\n$$t = \\frac{75}{15} = 5\\unit{s}.$$\n\nDisplacement $= \\vec{AD}$, of magnitude 25 m, directed from A to D. So\n\n$$\\left| \\vec{v}_{av} \\right| = \\frac{\\left| \\Delta\\vec{r} \\right|}{t} = \\frac{25}{5} = 5\\unit{m/s}\\quad along\\ AD.$$",
+  "mistakes": [
+    "Average velocity uses the displacement (25 m), not the path length (75 m). 15 m/s is the average *speed*.",
+    "Give the direction (along AD): average velocity is a vector."
+  ],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "solved_answer": "5 m/s, directed from A to D.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": "03MSL_Solutions_v8",
+    "date": "2026-11-12"
+  },
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 03MSL_Solutions_v8.docx"
+  }
+}

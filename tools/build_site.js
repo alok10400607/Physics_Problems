@@ -61,7 +61,9 @@ function toQuestion(p) {
     answer: p.answer.keys ? p.answer.keys.join(',') : p.answer.value != null ? String(p.answer.value) : resolve(p, p.answer.text),
     unit: p.answer.unit || null, tolerance: p.answer.tolerance,
     hints: (sol.hints || []).map(h => resolve(p, h)), worded: resolve(p, sol.worded || null), conventional: resolve(p, sol.conventional || null),
-    mistakes: (sol.mistakes || []).map(m => resolve(p, m)), extension: resolve(p, sol.extension || null), solution_status: sol.status || null
+    mistakes: (sol.mistakes || []).map(m => resolve(p, m)),
+    distractors: sol.distractors && Object.keys(sol.distractors).length ? Object.fromEntries(Object.entries(sol.distractors).map(([k, v]) => [k, resolve(p, v)])) : undefined,
+    extension: resolve(p, sol.extension || null), solution_status: sol.status || null
   };
 }
 

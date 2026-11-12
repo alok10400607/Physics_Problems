@@ -1,6 +1,6 @@
 {
   "id": "P000118",
-  "status": "imported",
+  "status": "reviewed",
   "version": 1,
   "type": "subjective",
   "topic_code": "0320",
@@ -27,11 +27,23 @@
       "qno": 34
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "id": "P000118-sol-1",
+      "role": "solution",
+      "file": "P000/P000118-sol-1.png",
+      "format": "png",
+      "width": 691,
+      "height": 419,
+      "alt": "Velocity–time graph: a line rising with slope a to aT at time T (area ½aT²), then falling with slope a/2 to zero at 3T (area aT²).",
+      "origin": "docx",
+      "needs_redraw": false
+    }
+  ],
   "rights": "unverified",
   "content_hash": "b78b149494f02a5e",
   "duplicate_of": null,
   "variant_of": null,
   "created": "2026-11-08",
-  "updated": "2026-11-08"
+  "updated": "2026-11-12"
 }

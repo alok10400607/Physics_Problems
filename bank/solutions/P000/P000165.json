@@ -1,23 +1,32 @@
 {
   "id": "P000165",
-  "problem_version": 1,
-  "status": "draft",
+  "problem_version": 2,
+  "status": "reviewed",
   "hints": [
-    "> Note: $x - t$ graph is $- sin$ curve and $v - t$ graph will be its derivative"
+    "Velocity is the slope of the x–t curve. What is the slope at t = 0, and where is it zero?"
   ],
-  "worded": null,
-  "conventional": null,
-  "mistakes": [],
+  "worded": "1. Velocity is the slope of the x–t graph, so read slopes, not heights.\n\n2. At t = 0 the curve heads downward at its steepest: the velocity starts at its most negative value.\n\n3. At the lowest point of x the slope is zero, and after it the curve rises, so v becomes positive. At the top of x, v is zero again and then turns negative.\n\n4. So v starts at a negative maximum, rises through zero, peaks, and comes back: a negative cosine shape. (C)\n\n5. (B) and (D) start at v = 0, which would need a flat x–t curve at t = 0; (A) starts positive. All three are out.",
+  "conventional": "![](asset:P000165-sol-1)\n\nThe curve is $x = - A\\sin\\omega t$, so\n\n$$v = \\frac{dx}{dt} = - A\\omega\\cos\\omega t,$$\n\nwhich is $- A\\omega$ at $t = 0$, zero when $x$ is lowest ($\\omega t = \\pi/2$), and so on: graph (C).",
+  "mistakes": [
+    "Don’t copy the shape of the x–t graph: v is its slope, shifted by a quarter cycle."
+  ],
   "distractors": {},
   "extension": null,
   "check": {
+    "solved_answer": "(C).",
+    "resolve_answer": null,
+    "agrees_with_key": true,
     "issues": []
   },
   "generated_by": {
     "author": "worksheet",
     "model": null,
-    "prompt_version": null,
-    "date": "2026-11-08"
+    "prompt_version": "03MSL_Solutions_v8",
+    "date": "2026-11-12"
   },
-  "reviewed_by": null
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 03MSL_Solutions_v8.docx"
+  }
 }

@@ -1,6 +1,6 @@
 {
   "id": "P000153",
-  "status": "imported",
+  "status": "reviewed",
   "version": 1,
   "type": "mcq_single",
   "topic_code": "0325",
@@ -35,11 +35,23 @@
       "qno": 69
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "id": "P000153-sol-1",
+      "role": "solution",
+      "file": "P000/P000153-sol-1.png",
+      "format": "png",
+      "width": 524,
+      "height": 419,
+      "alt": "Velocity–time graph: an upward-curving line v = ½kt². The shaded area up to T is ⅙kT³.",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
   "rights": "unverified",
   "content_hash": "21ca97c22146a590",
   "duplicate_of": null,
   "variant_of": null,
   "created": "2026-11-08",
-  "updated": "2026-11-08"
+  "updated": "2026-11-12"
 }

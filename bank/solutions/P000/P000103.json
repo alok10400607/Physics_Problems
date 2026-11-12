@@ -1,23 +1,33 @@
 {
   "id": "P000103",
   "problem_version": 1,
-  "status": "draft",
+  "status": "reviewed",
   "hints": [
-    "> Let the total time of fall be T. Distance in the last second = average velocity over that second = velocity at (T − 0.5) s\n\n>\n\n> Or $g(T - 0.5) = \\frac{1}{2}g(3)^{2}$"
+    "The first three seconds are easy: 45 m. In which second does a falling body cover 45 m?"
   ],
-  "worded": null,
-  "conventional": null,
-  "mistakes": [],
+  "worded": "1. Dropped from rest, the ball covers 5, 15, 25, 35, 45 m, … in successive seconds: each second 10 m more than the last, because its speed grows by 10 m/s every second.\n\n2. The first three seconds give 5 + 15 + 25 = 45 m.\n\n3. The last second must also be 45 m. In the list, 45 m is the 5th second. So the ball is in the air for 5 s.\n\n4. In 5 s from rest it falls ½ × 10 × 25 = 125 m. So h = 125 m.\n\n**Another way: velocity at the middle of the last second.** The distance covered in any one second equals the velocity at the middle of that second (constant acceleration). If the fall lasts T seconds, the last second is centred at T − ½, where the velocity is 10(T − ½). Setting this equal to 45 gives T = 5 s, and h = 125 m.",
+  "conventional": "![](asset:P000103-sol-1)\n\nDistance in the first 3 s:\n\n$$s_{3} = \\frac{1}{2}g(3)^{2} = 45\\unit{m}.$$\n\nLet the total time of fall be $T$. Distance in the last second:\n\n$$h(T) - h(T - 1) = \\frac{1}{2}gT^{2} - \\frac{1}{2}g(T - 1)^{2} = g\\left( T - \\frac{1}{2} \\right).$$\n\nSetting the two equal:\n\n$$10\\left( T - \\frac{1}{2} \\right) = 45\\  \\Rightarrow \\ T = 5\\unit{s}.$$\n\n$$h = \\frac{1}{2}gT^{2} = \\frac{1}{2}(10)(25) = 125\\unit{m}.$$",
+  "mistakes": [
+    "The last second is the interval from T − 1 to T, not the 1st or the 3rd second.",
+    "The distance in the last second is g(T − ½), not gT: the body is not moving at its final speed throughout that second."
+  ],
   "distractors": {},
   "extension": null,
   "check": {
+    "solved_answer": "h = 125 m.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
     "issues": []
   },
   "generated_by": {
     "author": "worksheet",
     "model": null,
-    "prompt_version": null,
-    "date": "2026-11-08"
+    "prompt_version": "03MSL_Solutions_v8",
+    "date": "2026-11-12"
   },
-  "reviewed_by": null
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 03MSL_Solutions_v8.docx"
+  }
 }

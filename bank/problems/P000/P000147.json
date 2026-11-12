@@ -1,6 +1,6 @@
 {
   "id": "P000147",
-  "status": "imported",
+  "status": "reviewed",
   "version": 1,
   "type": "mcq_single",
   "topic_code": "0325",
@@ -46,11 +46,23 @@
       "year": 2007
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "id": "P000147-sol-1",
+      "role": "solution",
+      "file": "P000/P000147-sol-1.png",
+      "format": "png",
+      "width": 587,
+      "height": 414,
+      "alt": "Graph of force f against time t: a straight line falling from f₀ at t = 0 to zero at T. The shaded triangle is Δv = ½f₀T.",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
   "rights": "past-paper",
   "content_hash": "68df4f3a02d4218e",
   "duplicate_of": null,
   "variant_of": null,
   "created": "2026-11-08",
-  "updated": "2026-11-08"
+  "updated": "2026-11-12"
 }

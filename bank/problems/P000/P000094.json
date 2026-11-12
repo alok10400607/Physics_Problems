@@ -1,6 +1,6 @@
 {
   "id": "P000094",
-  "status": "imported",
+  "status": "reviewed",
   "version": 1,
   "type": "integer",
   "topic_code": "0305",
@@ -28,11 +28,34 @@
       "qno": 10
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "id": "P000094-sol-1",
+      "role": "solution",
+      "file": "P000/P000094-sol-1.png",
+      "format": "png",
+      "width": 614,
+      "height": 614,
+      "alt": "A cuboid room 2 m by 2 m by 3 m high. An ant goes from corner A on the floor across one wall to point K on the vertical edge and then across the next wall to the opposite top corner G.",
+      "origin": "docx",
+      "needs_redraw": false
+    },
+    {
+      "id": "P000094-sol-2",
+      "role": "solution",
+      "file": "P000/P000094-sol-2.png",
+      "format": "png",
+      "width": 707,
+      "height": 555,
+      "alt": "The two walls unfolded flat into a 4 m by 3 m rectangle. The straight red line from A to G is 5 m long and crosses the shared edge at K, 1.5 m up.",
+      "origin": "docx",
+      "needs_redraw": false
+    }
+  ],
   "rights": "unverified",
   "content_hash": "842faf27b5bf642b",
   "duplicate_of": null,
   "variant_of": null,
   "created": "2026-11-08",
-  "updated": "2026-11-08"
+  "updated": "2026-11-12"
 }

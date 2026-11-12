@@ -1,23 +1,34 @@
 {
   "id": "P000122",
   "problem_version": 1,
-  "status": "draft",
+  "status": "reviewed",
   "hints": [
-    "> Let the time to finish the race be $T$: then $u_{1}T + \\frac{1}{2}\\alpha T^{2} = u_{2}T + \\frac{1}{2}\\beta T^{2} = R$"
+    "Same distance, same time. Write each car’s distance in time T and set them equal; then T follows, and the range from either car."
   ],
-  "worded": null,
-  "conventional": null,
-  "mistakes": [],
+  "worded": "1. Both cars cover the race length R in the same time T, starting together.\n\n2. Setting u₁T + ½αT² equal to u₂T + ½βT² and cancelling one T gives T = 2(u₁ − u₂)/(β − α). The car with the higher start speed must have the lower acceleration for this to be positive.\n\n3. Put this T back into either car’s distance to get R.\n\n**Another way: relative motion.** In car 2’s frame, car 1 starts at relative speed u₁ − u₂ with relative acceleration −(β − α). It returns to “level” after 2(u₁ − u₂)/(β − α), the time to go out and come back, as for a vertical throw.",
+  "conventional": "![](asset:P000122-sol-1)\n\n$$R = u_{1}T + \\frac{1}{2}\\alpha T^{2} = u_{2}T + \\frac{1}{2}\\beta T^{2}\\  \\Rightarrow \\ T = \\frac{2\\left( u_{1} - u_{2} \\right)}{\\beta - \\alpha}.$$\n\n$$R = T\\left( u_{1} + \\frac{\\alpha T}{2} \\right) = \\frac{2\\left( u_{1} - u_{2} \\right)}{\\beta - \\alpha} \\cdot \\frac{u_{1}(\\beta - \\alpha) + \\alpha\\left( u_{1} - u_{2} \\right)}{\\beta - \\alpha} = \\frac{2\\left( u_{1} - u_{2} \\right)\\left( u_{1}\\beta - u_{2}\\alpha \\right)}{(\\beta - \\alpha)^{2}}.$$",
+  "mistakes": [
+    "Don’t cancel T = 0: that root is the start, not the finish."
+  ],
   "distractors": {},
   "extension": null,
   "check": {
-    "issues": []
+    "solved_answer": "$R = \\frac{2\\left( u_{1} - u_{2} \\right)\\left( u_{1}\\beta - u_{2}\\alpha \\right)}{(\\beta - \\alpha)^{2}}$.",
+    "resolve_answer": null,
+    "agrees_with_key": null,
+    "issues": [
+      "answer to be compared with the key by the reviewer"
+    ]
   },
   "generated_by": {
     "author": "worksheet",
     "model": null,
-    "prompt_version": null,
-    "date": "2026-11-08"
+    "prompt_version": "03MSL_Solutions_v8",
+    "date": "2026-11-12"
   },
-  "reviewed_by": null
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 03MSL_Solutions_v8.docx"
+  }
 }

@@ -1,6 +1,6 @@
 {
   "id": "P000098",
-  "status": "imported",
+  "status": "reviewed",
   "version": 1,
   "type": "subjective",
   "topic_code": "0310",
@@ -27,11 +27,23 @@
       "qno": 14
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "id": "P000098-sol-1",
+      "role": "solution",
+      "file": "P000/P000098-sol-1.png",
+      "format": "png",
+      "width": 667,
+      "height": 505,
+      "alt": "Velocity–time graph with two parallel lines of slope −a. The smaller triangle starts at u and ends at u/a, with area s; the larger starts at nu and ends at nu/a, with area n²s. A note says same slope −a: similar triangles.",
+      "origin": "docx",
+      "needs_redraw": false
+    }
+  ],
   "rights": "unverified",
   "content_hash": "f2a2344d6170ea29",
   "duplicate_of": null,
   "variant_of": null,
   "created": "2026-11-08",
-  "updated": "2026-11-08"
+  "updated": "2026-11-12"
 }

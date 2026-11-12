@@ -1,0 +1,35 @@
+{
+  "id": "P000113",
+  "problem_version": 1,
+  "status": "reviewed",
+  "hints": [
+    "Time to the top is u/g, so the whole flight lasts nu/g. Use one equation for the whole flight from the top of the tower to the ground."
+  ],
+  "worded": "1. Time to the highest point is u/g, so the time to the ground is nu/g.\n\n2. Over the whole flight the displacement is H downward. One equation of motion, with the time nu/g, links H, u and n.\n\n3. Quick check on the options: if n = 2 the particle is back at the top of the tower exactly when it “hits the ground”, so H must be 0. (A) fails this; (B), (C) and (D) pass.\n\n4. Second check: for a very tall tower (large n) the short climb hardly matters, and the flight is almost a drop lasting nu/g. Then H ≈ ½g(nu/g)², i.e. 2gH ≈ n²u². (C) matches this; (B) gives twice as much and (D) grows only like n. So (C).\n\n**No-pen route: limiting cases.** Steps 3 and 4 settle it without algebra: H = 0 at n = 2 rules out (A), and “almost a drop” for large n (2gH ≈ n²u²) rules out (B) and (D).",
+  "conventional": "![](asset:P000113-sol-1)\n\nTake up as positive, origin at the top of the tower; the ground is at $y = - H$. Time to the ground $t = nu/g$:\n\n$$- H = u\\left( \\frac{nu}{g} \\right) - \\frac{1}{2}g\\left( \\frac{nu}{g} \\right)^{2} = \\frac{nu^{2}}{g} - \\frac{n^{2}u^{2}}{2g}.$$\n\n$$2gH = n^{2}u^{2} - 2nu^{2} = nu^{2}(n - 2).$$",
+  "mistakes": [
+    "Take the displacement to the ground as −H (below the launch point), not +H.",
+    "Use one equation for the whole flight; there is no need to split it at the top."
+  ],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "solved_answer": "(C) $2gH = nu^{2}(n - 2)$.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
+    "issues": [
+      "problem text differs from the bank (similarity 0.77)"
+    ]
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": "03MSL_Solutions_v8",
+    "date": "2026-11-12"
+  },
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 03MSL_Solutions_v8.docx"
+  }
+}

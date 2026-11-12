@@ -1,23 +1,33 @@
 {
   "id": "P000099",
   "problem_version": 1,
-  "status": "draft",
+  "status": "reviewed",
   "hints": [
-    "> Stopping distance after braking + distance travelled during reaction time ($40\\delta t)$ = 120 m"
+    "The 120 m is shared by two phases: the reaction time, at a constant 40 m/s, and braking, which needs 40²/(2 × 8) m."
   ],
-  "worded": null,
-  "conventional": null,
-  "mistakes": [],
+  "worded": "1. During the reaction time nothing changes: the car keeps going at 40 m/s.\n\n2. Once the brakes act, the car needs a fixed braking distance: speed squared over twice the retardation, 1600/16 = 100 m.\n\n3. The truck is 120 m away, so only 20 m can be spent reacting. At 40 m/s, 20 m takes 0.5 s. (D)\n\n4. Any longer reaction and the braking starts less than 100 m from the truck: collision.",
+  "conventional": "![](asset:P000099-sol-1)\n\nDistance during reaction: $40\\,\\delta t$. Braking distance:\n\n$$s_{b} = \\frac{u^{2}}{2a} = \\frac{40^{2}}{2(8)} = 100\\unit{m}.$$\n\nTo just avoid collision:\n\n$$40\\,\\delta t + 100 = 120\\  \\Rightarrow \\ \\delta t = 0.5\\unit{s}.$$\n\nOn the v–t graph, the total area (rectangle + triangle) must not exceed 120 m.",
+  "mistakes": [
+    "There is no braking during the reaction time: the car covers 40δt at full speed first.",
+    "The braking distance is u²/2a = 100 m, not u²/a."
+  ],
   "distractors": {},
   "extension": null,
   "check": {
+    "solved_answer": "(D) 0.5 s.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
     "issues": []
   },
   "generated_by": {
     "author": "worksheet",
     "model": null,
-    "prompt_version": null,
-    "date": "2026-11-08"
+    "prompt_version": "03MSL_Solutions_v8",
+    "date": "2026-11-12"
   },
-  "reviewed_by": null
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 03MSL_Solutions_v8.docx"
+  }
 }

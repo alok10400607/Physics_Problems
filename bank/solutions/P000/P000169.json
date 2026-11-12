@@ -1,23 +1,33 @@
 {
   "id": "P000169",
-  "problem_version": 1,
-  "status": "draft",
+  "problem_version": 2,
+  "status": "reviewed",
   "hints": [
-    "> Key Concept: 0 – 200 m, straight line $\\rightarrow$ $\\frac{dv}{dx}$ is constant; hence use $a = v\\frac{dv}{dx} = v \\times constant$\n\n>\n\n> Here v = 10 + 0.2x, so a = 0.2v = 2 + 0.04x: a straight line rising from 2 m/s² at x = 0 to 10 m/s² at x = 200 m; beyond 200 m, v is constant and a = 0."
+    "With v given against x, a = v dv/dx. On the first part, dv/dx is constant; what happens to a as v grows? On the flat part?"
   ],
-  "worded": null,
-  "conventional": null,
-  "mistakes": [],
+  "worded": "1. When v is given as a function of x, a = v × (slope of the v–x graph).\n\n2. Up to 200 m, the slope is (50 − 10)/200 = 0.2 per second, constant. So a = 0.2v, which grows with v: from 2 m/s² at x = 0 to 10 m/s² at x = 200 m.\n\n3. Since v itself grows linearly with x there, a = 0.2v also grows linearly with x: a straight line from 2 to 10.\n\n4. Beyond 200 m the velocity is constant, so a = 0.\n\n5. Straight line from 2 to 10, then zero: (B).",
+  "conventional": "![](asset:P000169-sol-1)\n\nFor $0 \\leq x \\leq 200$ m: $v = 10 + 0.2x$, $\\frac{dv}{dx} = 0.2$ s⁻¹,\n\n$$a = v\\frac{dv}{dx} = 0.2(10 + 0.2x) = 2 + 0.04x,$$\n\nlinear from 2 m/s² to 10 m/s². For $x > 200$ m: $v = 50$ m/s (constant), $a = 0$.",
+  "mistakes": [
+    "a is not the slope of the v–x graph (that would give a constant 0.2); it is v times that slope.",
+    "Constant velocity beyond 200 m means a = 0, not a constant 10 m/s² (options A and C)."
+  ],
   "distractors": {},
   "extension": null,
   "check": {
+    "solved_answer": "(B).",
+    "resolve_answer": null,
+    "agrees_with_key": true,
     "issues": []
   },
   "generated_by": {
     "author": "worksheet",
     "model": null,
-    "prompt_version": null,
-    "date": "2026-11-08"
+    "prompt_version": "03MSL_Solutions_v8",
+    "date": "2026-11-12"
   },
-  "reviewed_by": null
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 03MSL_Solutions_v8.docx"
+  }
 }

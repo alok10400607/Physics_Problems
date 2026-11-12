@@ -1,7 +1,7 @@
 {
   "id": "P000116",
-  "status": "imported",
-  "version": 1,
+  "status": "reviewed",
+  "version": 2,
   "type": "subjective",
   "topic_code": "0315",
   "concepts": [],
@@ -18,7 +18,7 @@
   "passage_id": null,
   "stem": "![](asset:P000116-stem-1)A vertical projectile experiences a retarding acceleration of $a$ opposite to the direction of motion of the projectile. If the speed of projection is $u$, then:\n(i) Time of ascent\n(ii) Time of descent\n(iii) Maximum height reached\n(iv) Speed just before it hits the ground\n(v) Point D and E are at same height during upward and downward motion of projectile. Which point will have greater speed?",
   "answer": {
-    "text": "$t_{a} = \\frac{u}{g + a}$; $t_{d} = \\frac{u}{g - a}$; Max height H: $\\frac{u^{2}}{2(g + a)}$; Speed at C: $\\sqrt{2(g - a)H} = u\\sqrt{\\frac{g - a}{g + a}}$; (v) Point D: the speed at D (going up) is greater than at E (coming down), because the retarding acceleration removes speed throughout the flight"
+    "text": "$t_{a} = \\frac{u}{g + a}$; $t_{d} = \\frac{u}{\\sqrt{g^{2} - a^{2}}}$; Max height H: $\\frac{u^{2}}{2(g + a)}$; Speed at C: $\\sqrt{2(g - a)H} = u\\sqrt{\\frac{g - a}{g + a}}$; (v) Point D: the speed at D (going up) is greater than at E (coming down), because the retarding acceleration removes speed throughout the flight"
   },
   "sources": [
     {
@@ -38,6 +38,28 @@
       "alt": "A ball thrown up with speed u from A rises to its top point B and comes down to C, next to A. Points D (going up) and E (coming down) are at the same height. Gravity g points down.",
       "origin": "docx",
       "needs_redraw": true
+    },
+    {
+      "id": "P000116-sol-1",
+      "role": "solution",
+      "file": "P000/P000116-sol-1.png",
+      "format": "png",
+      "width": 447,
+      "height": 536,
+      "alt": "A projectile goes up from A to the top B and comes down to C. Going up its retardation is g + a; coming down its acceleration is g − a. D and E are at the same height on the way up and down.",
+      "origin": "docx",
+      "needs_redraw": true
+    },
+    {
+      "id": "P000116-sol-2",
+      "role": "solution",
+      "file": "P000/P000116-sol-2.png",
+      "format": "png",
+      "width": 680,
+      "height": 554,
+      "alt": "Velocity–time graph: a steep line from u down to zero at t_a, then a gentler line down to −v_C at t_a + t_d. The two triangles have equal areas H.",
+      "origin": "docx",
+      "needs_redraw": false
     }
   ],
   "rights": "unverified",
@@ -45,5 +67,5 @@
   "duplicate_of": null,
   "variant_of": null,
   "created": "2026-11-08",
-  "updated": "2026-11-08"
+  "updated": "2026-11-12"
 }

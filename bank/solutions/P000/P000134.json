@@ -1,0 +1,32 @@
+{
+  "id": "P000134",
+  "problem_version": 1,
+  "status": "reviewed",
+  "hints": [
+    "Once both are falling, their relative acceleration is zero. What is the gap and the relative speed when the second one is released?"
+  ],
+  "worded": "1. When the second body is released (t = 2 s), the first has fallen 20 m and is moving at 20 m/s.\n\n2. After that both accelerate equally, so the first stays 20 m/s faster: the gap grows steadily by 20 m every second.\n\n3. From 20 m to 60 m takes 2 more seconds: t = 4 s from the first release. (C)\n\n**Another way: v–t graph.** The two v–t lines are parallel, 2 s apart. The gap is the area between them: 20 m for the first 2 s, then 20 m per second. 60 m at t = 4 s.",
+  "conventional": "![](asset:P000134-sol-1)\n\nFor $t \\geq 2$ s:\n\n$$\\Delta y = \\frac{1}{2}gt^{2} - \\frac{1}{2}g(t - 2)^{2} = g(2t - 2) = 20t - 20.$$\n\n$$20t - 20 = 60\\  \\Rightarrow \\ t = 4\\unit{s}.$$",
+  "mistakes": [
+    "Measure t from the first release, as asked; the second body has fallen for only 2 s at that moment."
+  ],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "solved_answer": "(C) 4 s.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": "03MSL_Solutions_v8",
+    "date": "2026-11-12"
+  },
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 03MSL_Solutions_v8.docx"
+  }
+}

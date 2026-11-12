@@ -1,0 +1,32 @@
+{
+  "id": "P000125",
+  "problem_version": 1,
+  "status": "reviewed",
+  "hints": [
+    "The man gains on the bus only while he is faster than it. How much ground can he gain before the bus matches his speed?"
+  ],
+  "worded": "1. The man gains ground only while he is faster than the bus. The bus reaches 10 m/s after 5 s; after that it pulls away.\n\n2. In those 5 s the man runs 50 m and the bus covers 25 m. He gains 25 m.\n\n3. So he can catch the bus only if he started at most 25 m behind.\n\n**No-pen route: bus frame.** Relative speed 10 m/s, relative retardation 2 m/s²: maximum gain = 10²/(2 × 2) = 25 m.",
+  "conventional": "![](asset:P000125-sol-1)\n\nCatching requires $10t = x + t^{2}$ to have a real root: $100 - 4x \\geq 0$, so $x \\leq 25$ m. At the limit they meet at $t = 5$ s, when both move at 10 m/s.",
+  "mistakes": [
+    "Don’t use the bus’s distance at the meeting alone; it’s the gain (50 − 25) that matters."
+  ],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "solved_answer": "$x_{\\max} = 25$ m.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": "03MSL_Solutions_v8",
+    "date": "2026-11-12"
+  },
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 03MSL_Solutions_v8.docx"
+  }
+}

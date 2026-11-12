@@ -1,23 +1,33 @@
 {
   "id": "P000132",
   "problem_version": 1,
-  "status": "draft",
+  "status": "reviewed",
   "hints": [
-    "> Acceleration is 10 m/s<sup>2</sup> upward during first 60 s resulting in displacement of 18,000 m and final velocity of 600 m/s. Thereafter, the acceleration will be 10 m/s<sup>2</sup> downward (like a projectile) resulting in further rise of $\\frac{600^{2}}{2 \\times 10}$"
+    "Two phases with different constant accelerations. The second phase starts with the speed reached at burn-out."
   ],
-  "worded": null,
-  "conventional": null,
-  "mistakes": [],
+  "worded": "1. Phase 1 (fuel on): from rest at 10 m/s² for 60 s, so speed 600 m/s and height ½ × 10 × 3600 = 18 km.\n\n2. Phase 2 (fuel out): the rocket still moves up at 600 m/s but now decelerates at g = 10 m/s². It rises another 600²/20 = 18 km.\n\n3. Maximum height 18 + 18 = 36 km. (D)\n\n4. Symmetry check: the free phase has the same rate (10) as the powered phase, so it is a mirror image and covers the same height.",
+  "conventional": "![](asset:P000132-sol-1)\n\nPhase 1: $v = at = 10(60) = 600$ m/s, $h_{1} = \\frac{1}{2}at^{2} = \\frac{1}{2}(10)(60)^{2} = 18\\, 000$ m.\n\nPhase 2: $h_{2} = \\frac{v^{2}}{2g} = \\frac{600^{2}}{20} = 18\\, 000$ m.\n\n$$H = h_{1} + h_{2} = 36\\unit{km}.$$",
+  "mistakes": [
+    "The rocket doesn’t stop when the fuel runs out; it keeps rising (18 km alone is option A).",
+    "After burn-out the acceleration is g downward, not zero."
+  ],
   "distractors": {},
   "extension": null,
   "check": {
+    "solved_answer": "(D) 36 km.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
     "issues": []
   },
   "generated_by": {
     "author": "worksheet",
     "model": null,
-    "prompt_version": null,
-    "date": "2026-11-08"
+    "prompt_version": "03MSL_Solutions_v8",
+    "date": "2026-11-12"
   },
-  "reviewed_by": null
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 03MSL_Solutions_v8.docx"
+  }
 }

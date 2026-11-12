@@ -1,0 +1,33 @@
+{
+  "id": "P000129",
+  "problem_version": 1,
+  "status": "reviewed",
+  "hints": [
+    "For the same distance d from rest, speed goes as √a and time as 1/√a. Write the speed gap and the time gap in terms of √a₁ and √a₂ and divide."
+  ],
+  "worded": "1. Same distance d from rest: final speed √(2a d) and time √(2d/a).\n\n2. Speed gap v = √(2d)(√a₁ − √a₂). Time gap t = √(2d)(1/√a₂ − 1/√a₁) = √(2d)(√a₁ − √a₂)/√(a₁a₂).\n\n3. Dividing, v/t = √(a₁a₂). (D)\n\n4. Sense check: if a₁ = a₂ both gaps vanish together, and v/t tends to the common acceleration, which the geometric mean gives.\n\n**Another way: v–t graph.** Both graphs are lines from the origin enclosing equal areas. With v_A = a₁t_A and v_B = a₂t_B and equal areas, v_A t_A = v_B t_B. Then v_A − v_B and t_B − t_A combine to give √(a₁a₂).",
+  "conventional": "![](asset:P000129-sol-1)\n\nLet the race length be $d$:\n\n$$v_{A} = \\sqrt{2a_{1}d},\\quad v_{B} = \\sqrt{2a_{2}d},\\quad t_{A} = \\sqrt{\\frac{2d}{a_{1}}},\\quad t_{B} = \\sqrt{\\frac{2d}{a_{2}}}.$$\n\n$$v = v_{A} - v_{B} = \\sqrt{2d}\\,\\left( \\sqrt{a_{1}} - \\sqrt{a_{2}} \\right),\\quad\\quad t = t_{B} - t_{A} = \\sqrt{2d}\\,\\frac{\\sqrt{a_{1}} - \\sqrt{a_{2}}}{\\sqrt{a_{1}a_{2}}}.$$\n\n$$\\frac{v}{t} = \\sqrt{a_{1}a_{2}}\\  \\Rightarrow \\ v = \\sqrt{a_{1}a_{2}}\\, t.$$",
+  "mistakes": [
+    "t is the time difference, not the time of either car.",
+    "Speed ∝ √a for a fixed distance, not ∝ a."
+  ],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "solved_answer": "(D) $\\sqrt{a_{1}a_{2}}\\, t$.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": "03MSL_Solutions_v8",
+    "date": "2026-11-12"
+  },
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 03MSL_Solutions_v8.docx"
+  }
+}

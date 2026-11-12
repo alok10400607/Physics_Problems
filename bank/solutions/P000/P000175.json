@@ -1,0 +1,33 @@
+{
+  "id": "P000175",
+  "problem_version": 1,
+  "status": "reviewed",
+  "hints": [
+    "In the cars’ frame, the two cars are fixed points 5 km apart. How fast must the truck move in that frame to cover 5 km in 3 minutes?"
+  ],
+  "worded": "1. The cars move together, so in their frame they are two fixed markers 5 km apart.\n\n2. The truck goes from one to the other in 3 min = 1/20 h, so its speed relative to the cars is 5 × 20 = 100 km/h.\n\n3. Moving opposite to the cars, its relative speed is its own speed plus 60. So the truck moves at 100 − 60 = 40 km/h. (A)",
+  "conventional": "![](asset:P000175-sol-1)\n\nRelative speed of the truck with respect to the cars: $v + 60$ km/h. Covering 5 km in $\\frac{3}{60}$ h:\n\n$$(v + 60)\\frac{3}{60} = 5\\  \\Rightarrow \\ v + 60 = 100\\  \\Rightarrow \\ v = 40\\unit{km/h}.$$",
+  "mistakes": [
+    "Opposite directions: relative speed is the sum (v + 60), not the difference.",
+    "Convert 3 min to hours (1/20 h) when speeds are in km/h."
+  ],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "solved_answer": "(A) 40 km/h.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": "03MSL_Solutions_v8",
+    "date": "2026-11-12"
+  },
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 03MSL_Solutions_v8.docx"
+  }
+}

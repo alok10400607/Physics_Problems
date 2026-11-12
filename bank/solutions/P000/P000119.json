@@ -1,0 +1,35 @@
+{
+  "id": "P000119",
+  "problem_version": 1,
+  "status": "reviewed",
+  "hints": [
+    "Both phases share one number: the maximum speed. Each phase time is that speed divided by its own acceleration, and the two times add up to T."
+  ],
+  "worded": "1. The peak speed v links the two phases. Acceleration takes v/α and deceleration takes v/β.\n\n2. These add up to T. So v(1/α + 1/β) = T, giving v = αβT/(α + β).\n\n3. Time of acceleration = v/α = βT/(α + β). Each time is inversely proportional to its own acceleration: the gentler phase lasts longer.\n\n4. The v–t graph is a triangle of base T and height v, so the distance is ½vT = αβT²/2(α + β).\n\n5. Average speed = distance/T = v/2 = αβT/2(α + β).\n\n6. Check with α = β: each phase takes T/2 and v = αT/2. The formulas give exactly that.",
+  "conventional": "![](asset:P000119-sol-1)\n\nLet $t_{1}$, $t_{2}$ be the times of acceleration and deceleration and $v$ the maximum speed:\n\n$$v = \\alpha t_{1} = \\beta t_{2},\\quad\\quad t_{1} + t_{2} = T.$$\n\n$$\\frac{v}{\\alpha} + \\frac{v}{\\beta} = T\\  \\Rightarrow \\ v = \\frac{\\alpha\\beta}{\\alpha + \\beta}T,\\quad\\quad t_{1} = \\frac{v}{\\alpha} = \\frac{\\beta}{\\alpha + \\beta}T.$$\n\nDistance = area of the triangle:\n\n$$s = \\frac{1}{2}vT = \\frac{\\alpha\\beta}{2(\\alpha + \\beta)}T^{2},\\quad\\quad\\bar{v} = \\frac{s}{T} = \\frac{\\alpha\\beta}{2(\\alpha + \\beta)}T.$$",
+  "mistakes": [
+    "The time of acceleration has β (not α) on top: the phase with the smaller rate lasts longer.",
+    "Average speed is v_max/2, not v_max."
+  ],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "solved_answer": "(i) $\\frac{\\beta T}{\\alpha + \\beta}$; (ii) $\\frac{\\alpha\\beta T}{\\alpha + \\beta}$; (iii) $\\frac{\\alpha\\beta T^{2}}{2(\\alpha + \\beta)}$; (iv) $\\frac{\\alpha\\beta T}{2(\\alpha + \\beta)}$.",
+    "resolve_answer": null,
+    "agrees_with_key": null,
+    "issues": [
+      "answer to be compared with the key by the reviewer"
+    ]
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": "03MSL_Solutions_v8",
+    "date": "2026-11-12"
+  },
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 03MSL_Solutions_v8.docx"
+  }
+}

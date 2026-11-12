@@ -1,6 +1,6 @@
 {
   "id": "P000128",
-  "status": "imported",
+  "status": "reviewed",
   "version": 1,
   "type": "mcq_single",
   "topic_code": "0320",
@@ -35,11 +35,23 @@
       "qno": 44
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "id": "P000128-sol-1",
+      "role": "solution",
+      "file": "P000/P000128-sol-1.png",
+      "format": "png",
+      "width": 982,
+      "height": 294,
+      "alt": "Two cars A and B 2000 m apart, moving towards each other at 40 m/s each. A stops in 40²/2a and B in 40²/4a.",
+      "origin": "docx",
+      "needs_redraw": false
+    }
+  ],
   "rights": "unverified",
   "content_hash": "deecc9629161517c",
   "duplicate_of": null,
   "variant_of": null,
   "created": "2026-11-08",
-  "updated": "2026-11-08"
+  "updated": "2026-11-12"
 }

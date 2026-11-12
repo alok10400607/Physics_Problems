@@ -1,0 +1,32 @@
+{
+  "id": "P000090",
+  "problem_version": 1,
+  "status": "reviewed",
+  "hints": [
+    "The two legs cover equal *distances*, not equal times, so the slower leg lasts longer and counts for more. Average speed is total distance ÷ total time."
+  ],
+  "worded": "1. Average speed is always total distance ÷ total time. It equals the simple mean of two speeds only when the two speeds last for equal times.\n\n2. Here the distances are equal, so the car spends longer at the slower speed. The answer must be pulled towards the slower speed, below the simple mean. So (A) is wrong.\n\n3. Let XY = d. The times are d/v_u and d/v_d, and the total distance is 2d. The d cancels, leaving 2v_u v_d/(v_u + v_d): the harmonic mean. (B)\n\n**No-pen route: limiting cases.** Test each option on cases whose answer is obvious.\n\n-   If both speeds are equal to v, the average must be v. (A), (B) and (C) give v; (D) gives v/2. So (D) is out.\n\n-   If the return is almost instant ($v_{d}$ huge), the whole 2d is covered in the time d/v_u, so the average approaches 2v_u. (B) tends to 2v_u; (A) and (C) grow without limit. Only (B) survives.",
+  "conventional": "Let $XY = d$. Then\n\n$$t_{1} = \\frac{d}{v_{u}},\\quad\\quad t_{2} = \\frac{d}{v_{d}}.$$\n\n$$\\bar{v} = \\frac{2d}{t_{1} + t_{2}} = \\frac{2d}{d\\left( \\frac{1}{v_{u}} + \\frac{1}{v_{d}} \\right)} = \\frac{2v_{u}v_{d}}{v_{u} + v_{d}}.$$",
+  "mistakes": [
+    "“Average speed = mean of the speeds” is true only for equal times. For equal distances it is the harmonic mean."
+  ],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "solved_answer": "(B) $\\frac{2v_{u}v_{d}}{v_{u} + v_{d}}$, the harmonic mean of the two speeds.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": "03MSL_Solutions_v8",
+    "date": "2026-11-12"
+  },
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 03MSL_Solutions_v8.docx"
+  }
+}

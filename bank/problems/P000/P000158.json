@@ -1,6 +1,6 @@
 {
   "id": "P000158",
-  "status": "imported",
+  "status": "reviewed",
   "version": 1,
   "type": "mcq_single",
   "topic_code": "0325",
@@ -35,11 +35,23 @@
       "qno": 74
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "id": "P000158-sol-1",
+      "role": "solution",
+      "file": "P000/P000158-sol-1.png",
+      "format": "png",
+      "width": 582,
+      "height": 437,
+      "alt": "Velocity–position graph: a curve falling from u at x = 0 to zero at x = 2u^{3/2}/3k. A note gives a = −k√v, so √v dv = −k dx.",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
   "rights": "unverified",
   "content_hash": "a9a2cb94583d2537",
   "duplicate_of": null,
   "variant_of": null,
   "created": "2026-11-08",
-  "updated": "2026-11-08"
+  "updated": "2026-11-12"
 }

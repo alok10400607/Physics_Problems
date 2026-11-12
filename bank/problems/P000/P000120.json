@@ -1,6 +1,6 @@
 {
   "id": "P000120",
-  "status": "imported",
+  "status": "reviewed",
   "version": 1,
   "type": "subjective",
   "topic_code": "0320",
@@ -27,11 +27,23 @@
       "qno": 36
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "id": "P000120-sol-1",
+      "role": "solution",
+      "file": "P000/P000120-sol-1.png",
+      "format": "png",
+      "width": 619,
+      "height": 424,
+      "alt": "Velocity–time graph: a symmetric triangle rising with acceleration +a to the middle at t/2, then falling with −a to zero at t. The area is d.",
+      "origin": "docx",
+      "needs_redraw": false
+    }
+  ],
   "rights": "unverified",
   "content_hash": "6203c36477b4e47c",
   "duplicate_of": null,
   "variant_of": null,
   "created": "2026-11-08",
-  "updated": "2026-11-08"
+  "updated": "2026-11-12"
 }

@@ -16,6 +16,8 @@ const qno = new Map();
 for (const f of walk(path.join(BANK, 'collections'))) { let n = 0; for (const s of readJSON(f).sections) for (const pid of s.problems) qno.set(pid, ++n); }
 const problems = walk(path.join(BANK, 'problems')).filter(f => f.endsWith('.json')).map(readJSON)
   .filter(p => p.topic_code === String(topic) && p.status !== 'retired').sort((a, b) => a.id.localeCompare(b.id));
+// the worksheet's own question number (03MSL Q4), shown so the reviewer can find it in the DOCX
+const wsno = p => { const w = p.sources.find(x => x.kind === 'worksheet'); return w ? w.ref.replace(/_v\d+$/, '') + ' Q' + w.qno : null; };
 
 const data = problems.map(p => {
   const sf = path.join(BANK, 'solutions', p.id.slice(0, 4), `${p.id}.json`);
@@ -26,7 +28,7 @@ const data = problems.map(p => {
     figs[a.id] = { src: `data:image/${a.format === 'jpg' ? 'jpeg' : a.format};base64,${b64}`, alt: a.alt };
   }
   return {
-    id: p.id, qno: qno.get(p.id) || null, version: p.version, status: p.status, type: p.type,
+    id: p.id, qno: qno.get(p.id) || null, ws: wsno(p), version: p.version, status: p.status, type: p.type,
     source: p.sources.filter(x => x.kind === 'exam').map(x => x.raw).join('; ') || null,
     difficulty: p.difficulty, stem: p.stem, options: p.options || null, answer: p.answer, figs,
     sol: s ? { hints: s.hints || [], worded: s.worded || '', conventional: s.conventional || '', mistakes: s.mistakes || [],
@@ -44,7 +46,9 @@ const kcss = fs.readFileSync(path.join(kdir, 'katex.min.css'), 'utf8')
 const payload = JSON.stringify({ topic: t.code, topicName: t.name, chapter: t.chapter, repo, guide, style, macros, problems: data })
   .replace(/</g, '\\u003c');
 
-const html = String.raw`<title>${t.name} Review</title>
+const html = String.raw`<!DOCTYPE html>
+<html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>${t.name} Review</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500&display=swap">
 <style>${kcss}</style>
@@ -125,7 +129,7 @@ const D = ${payload};
 const S = {};                 // per problem: {versions:[{fields, note, instr}], sel, compare, busy, ctl, level, approve}
 let sample = null, sampleChecked = false;
 const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
-const LEVELS = [["hints", "Hints"], ["worded", "Explained in words"], ["conventional", "Full solution"], ["mistakes", "Common mistakes"]];
+const LEVELS = [["hints", "Hints"], ["worded", "Think it Through"], ["conventional", "Worked Solution"], ["mistakes", "Watch Out"]];
 
 function texOk(s) {
   const bad = [];
@@ -173,7 +177,9 @@ function card(p) {
   if (p.sol) {
     const vers = '<div class="vers" role="group" aria-label="Versions">' + ['Original'].concat(st.versions.map((_, i) => "Version " + (i + 1))).map((l, i) => '<button data-v="' + i + '" class="' + (i === st.sel ? "on" : "") + '">' + l + "</button>").join("") +
       (st.versions.length ? '<label><input type="checkbox" data-cmp ' + (st.compare ? "checked" : "") + "> Show what changed</label>" : "") + "</div>";
-    const lv = LEVELS.map(([k, l]) => levelHTML(p, k, l, cur[k], st.sel ? base[k] : undefined, st.compare)).join("");
+    const why = Object.entries(p.sol.distractors || {}).sort();
+    const whyHTML = why.length ? '<div class="aside"><div class="t">Why the other options are there (not changed here)</div><div class="qtext">' + why.map(([k, v]) => "<p><b>(" + esc(k) + ")</b> " + inline(p, v) + "</p>").join("") + "</div></div>" : "";
+    const lv = LEVELS.map(([k, l]) => levelHTML(p, k, l, cur[k], st.sel ? base[k] : undefined, st.compare) + (k === "conventional" ? whyHTML : "")).join("");
     const v = st.sel ? st.versions[st.sel - 1] : null;
     const note = v ? '<div class="note"><b>Claude:</b> ' + esc(v.note || "Revised.") + (v.check ? ' <span class="status">' + esc(v.check) + "</span>" : "") + (v.bad && v.bad.length ? '<br><span class="status err">Some formulas don\'t display. Ask Claude to fix them before sending.</span>' : "") + "</div>" : "";
     sol = vers + note + lv;
@@ -182,7 +188,7 @@ function card(p) {
   const revise = p.sol ? '<section class="revise" aria-label="Revise with Claude"><h4>Revise with Claude</h4>' +
     '<label class="status" for="ins-' + p.id + '">What should change? Claude edits the version shown above.</label>' +
     '<textarea id="ins-' + p.id + '" placeholder="e.g. Hint 2 gives away the answer; make it point to the phase only."></textarea>' +
-    '<div class="row"><label class="status" for="lvl-' + p.id + '">Change</label><select id="lvl-' + p.id + '"><option value="all">any part, as needed</option><option value="hints">hints only</option><option value="worded">explanation in words only</option><option value="conventional">full solution only</option><option value="mistakes">common mistakes only</option></select>' +
+    '<div class="row"><label class="status" for="lvl-' + p.id + '">Change</label><select id="lvl-' + p.id + '"><option value="all">any part, as needed</option><option value="hints">hints only</option><option value="worded">Think it Through only</option><option value="conventional">Worked Solution only</option><option value="mistakes">Watch Out only</option></select>' +
     '<button class="btn" data-rev ' + (st.busy || sample === false ? "disabled" : "") + ">" + (st.busy ? "Revising…" : "Revise") + "</button>" + (st.busy ? '<button class="btn ghost" data-stop>Stop</button>' : "") +
     '</div><div class="status" id="msg-' + p.id + '" role="status">' + esc(st.msg || "") + "</div>" + hist + "</section>" : "";
   const levelSel = '<label class="status" for="xl-' + p.id + '">Difficulty</label><select id="xl-' + p.id + '">' + [1, 2, 3, 4, 5, 6].map(n => '<option ' + (n === (st.level || d.expert || d.ai) ? "selected" : "") + ">" + n + "</option>").join("") + "</select>";
@@ -191,7 +197,7 @@ function card(p) {
     '<label class="status"><input type="checkbox" data-appr ' + (st.approve !== false ? "checked" : "") + "> Mark as reviewed when applied</label></div>" +
     '<div class="row">' + (changed ? '<a class="btn go" data-send target="_blank" rel="noopener" href="#">Request a change</a>' : '<a class="btn go" data-send target="_blank" rel="noopener" href="#">Approve as is</a>') +
     '<button class="btn ghost" data-copy>Copy the text</button></div><div class="status" id="send-' + p.id + '"></div></section>' : "";
-  return '<article class="card" id="' + p.id + '"><div class="idline"><span class="qn">Q' + (p.qno || "?") + '</span><span class="pid">' + p.id + '</span><span class="tag">v' + p.version + '</span><span class="tag">' + esc((p.sol ? p.sol.status : p.status).replace("_", " ")) + "</span></div>" +
+  return '<article class="card" id="' + p.id + '"><div class="idline"><span class="qn">Q' + (p.qno || "?") + '</span><span class="pid">' + p.id + '</span>' + (p.ws ? '<span class="tag">' + esc(p.ws) + '</span>' : '') + '<span class="tag">v' + p.version + '</span><span class="tag">' + esc((p.sol ? p.sol.status : p.status).replace("_", " ")) + "</span></div>" +
     '<div class="meta">' + esc(p.source || "No source tag") + (d.ai ? " · AI level " + d.ai + (d.ai_reason ? ": " + esc(d.ai_reason) : "") : "") + "</div>" +
     (issues.length ? '<div class="flags"><b>Needs your eye</b><ul>' + issues.map(i => "<li>" + esc(i) + "</li>").join("") + "</ul></div>" : "") +
     '<div class="qtext">' + md(p, p.stem) + "</div>" + opts + '<div class="keynote">' + key + "</div>" +

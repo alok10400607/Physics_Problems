@@ -1,0 +1,35 @@
+{
+  "id": "P000115",
+  "problem_version": 1,
+  "status": "reviewed",
+  "hints": [
+    "What acts on the stone once it is no longer in contact with the elevator?"
+  ],
+  "worded": "1. While inside, the floor pushed the stone and gave it the lift’s acceleration a.\n\n2. Once released, nothing touches it. The only force is its weight, so its acceleration is g, downward, at once.\n\n3. Its velocity does not change suddenly: at the instant of release it is moving up with the lift’s velocity. So it first rises, slowing down, and then falls.\n\n4. Seen from inside the lift, the stone’s acceleration is g + a downward (the lift accelerates up away from it).",
+  "conventional": "![](asset:P000115-sol-1)\n\nAfter release the only force on the stone is $mg$ (downward). By Newton’s second law,\n\n$$\\vec{a}_{stone} = \\vec{g}\\quad(magnitude\\ g,\\text{ downward}),$$\n\nindependent of the lift’s acceleration $a$. Its initial velocity equals the lift’s velocity at that instant (upward).\n\nRelative to the lift: $\\vec{a}_{stone,\\text{ lift}} = \\vec{g} - \\vec{a}$, of magnitude $g + a$, downward.",
+  "mistakes": [
+    "The stone does not keep the lift’s acceleration a: that came from the floor’s push, which stops at release.",
+    "It does keep the lift’s velocity, so it moves up first."
+  ],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "solved_answer": "g, downward (relative to the ground).",
+    "resolve_answer": null,
+    "agrees_with_key": null,
+    "issues": [
+      "answer to be compared with the key by the reviewer"
+    ]
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": "03MSL_Solutions_v8",
+    "date": "2026-11-12"
+  },
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 03MSL_Solutions_v8.docx"
+  }
+}
