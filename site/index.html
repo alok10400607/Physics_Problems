@@ -132,7 +132,7 @@ a.row:hover{background:var(--surface)}
 .sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
 .qtext ol{margin:0 0 .7em;padding-left:1.5em;display:flex;flex-direction:column;gap:6px}.qtext ol:last-child{margin:0}
 /* solution links: Hint · Word solution · Conventional solution */
-.sollinks{display:flex;flex-wrap:wrap;align-items:center;gap:2px 0;border-top:1px solid var(--line);padding-top:14px}
+.sollinks{display:flex;flex-wrap:wrap;align-items:center;gap:4px 22px;border-top:1px solid var(--line);padding-top:14px}
 .sollinks .sl{white-space:nowrap}
 .sollinks .sep{color:var(--line);padding:0 8px;user-select:none}
 .sollink{background:none;border:0;padding:4px 0;font-weight:600;color:var(--accent);text-decoration:underline;text-decoration-color:transparent;text-underline-offset:4px;transition:text-decoration-color .15s}
@@ -368,7 +368,7 @@ function viewRun(){
       <input id="num" inputmode="decimal" autocomplete="off" value="${esc(res ? res.chosen : "")}" ${done ? "disabled" : ""}>
       <button class="btn" ${done ? "disabled" : ""}>${test ? "Save answer" : "Check"}</button></form>`;
   } else {
-    body = done || sh.answer ? "" : `<div class="extras"><button class="btn" id="reveal">Show answer</button></div>`;
+    body = "";
   }
   let fb = "";
   if (q.type === "subjective" && (sh.answer || done)) {
@@ -398,35 +398,35 @@ function viewRun(){
   wireRun(q, sh);
   startTimer();
 }
-// Hint is always open; the two solutions unlock after an attempt (an answer, or "I give up").
-// "Watch out" and "Why not the other options" come with the conventional solution.
+// The links follow the solutions file: Hint · Think it Through · Worked Solution · Watch Out · Answer.
+// Hint is always open. Answer shows the answer (before an attempt this counts as giving up).
+// Think it Through, Worked Solution and Watch Out unlock once the question is answered or Answer is clicked.
+// "Why the other options are there" and "Think further" come with the worked solution.
 function solutionBlock(q, sh, unlocked){
   const hints = q.hints || [];
-  const links = [["hint", "Hint", hints.length], ["worded", "Word solution", q.worded], ["conventional", "Conventional solution", q.conventional]].filter(x => x[2]);
-  if (!links.length) return "";
-  const open = sh.open && (sh.open === "hint" || unlocked) ? sh.open : null;
+  const links = [["hint", "Hint", hints.length], ["worded", "Think it Through", q.worded], ["conventional", "Worked Solution", q.conventional],
+    ["mistakes", "Watch Out", q.mistakes && q.mistakes.length], ["answer", "Answer", true]].filter(x => x[2]);
+  const gated = k => k === "worded" || k === "conventional" || k === "mistakes";
+  const open = sh.open && (!gated(sh.open) || unlocked) ? sh.open : null;
   const bar = `<div class="sollinks" role="group" aria-label="Help with this question">${links.map(([k, l], i) => {
-    const locked = k !== "hint" && !unlocked;
-    return `<span class="sl">${i ? `<span class="sep" aria-hidden="true">·</span>` : ""}<button class="sollink" data-open="${k}" aria-expanded="${open === k}" ${locked ? `disabled title="Answer the question, or give up, to see this"` : ""}>${locked ? `<span class="lock" aria-hidden="true"></span>` : ""}${l}${locked ? `<span class="sr-only"> (locked until you answer)</span>` : ""}</button></span>`;
+    const locked = gated(k) && !unlocked, current = k === "answer" ? unlocked : open === k;
+    return `<span class="sl"><button class="sollink" data-open="${k}" aria-${k === "answer" ? "pressed" : "expanded"}="${current}" ${locked ? `disabled title="Answer the question, or click Answer, to see this"` : ""}>${locked ? `<span class="lock" aria-hidden="true"></span>` : ""}${l}${locked ? `<span class="sr-only"> (locked until you answer)</span>` : ""}</button></span>`;
   }).join("")}</div>`;
-  const lockedSome = !unlocked && links.some(([k]) => k !== "hint");
-  // written questions already have "Show answer" above; that counts as the attempt
-  const giveUp = q.type === "subjective" ? "" : `<button class="btn ghost" id="giveup">I give up</button>`;
-  const note = lockedSome && !open ? `<div class="locknote"><span>${q.type === "subjective" ? "The solutions open once you check your answer." : "The solutions open once you answer."}</span>${giveUp}</div>` : "";
+  const note = !unlocked && !open ? `<div class="locknote"><span>Think it Through, Worked Solution and Watch Out open once you answer.${q.type === "subjective" ? " Click Answer to check yours." : " Answer shows the answer now, and counts the question as missed."}</span></div>` : "";
   let panel = "";
   if (open === "hint") {
     const n = Math.min(Math.max(sh.hints || 1, 1), hints.length);
     panel = hints.slice(0, n).map((h, k) => `<div class="aside"><div class="t">Hint${hints.length > 1 ? " " + (k + 1) : ""}</div><div class="qtext">${md(h)}</div></div>`).join("")
-      + (n < hints.length ? `<div class="extras"><button class="btn ghost" id="hintbtn">Next hint</button></div>` : "")
-      + (lockedSome ? `<div class="locknote"><span>Still stuck? The solutions open once you ${q.type === "subjective" ? "check your answer" : "answer"}.</span>${giveUp}</div>` : "");
+      + (n < hints.length ? `<div class="extras"><button class="btn ghost" id="hintbtn">Next hint</button></div>` : "");
   } else if (open === "worded") {
-    panel = `<div class="aside"><div class="t">Word solution</div><div class="qtext">${md(q.worded)}</div></div>`;
+    panel = `<div class="aside"><div class="t">Think it Through</div><div class="qtext">${md(q.worded)}</div></div>`;
   } else if (open === "conventional") {
     const why = Object.entries(q.distractors || {}).sort();
-    panel = `<div class="aside"><div class="t">Conventional solution</div><div class="qtext">${md(q.conventional)}</div></div>`
-      + (why.length ? `<div class="aside"><div class="t">Why not the other options</div><div class="why">${why.map(([k, v]) => `<span class="k">(${esc(k)})</span><div class="qtext">${md(v)}</div>`).join("")}</div></div>` : "")
-      + (q.mistakes && q.mistakes.length ? `<div class="aside"><div class="t">Watch out</div><div class="qtext">${q.mistakes.length > 1 ? `<ul>${q.mistakes.map(m => `<li>${inline(m)}</li>`).join("")}</ul>` : md(q.mistakes[0])}</div></div>` : "")
+    panel = `<div class="aside"><div class="t">Worked Solution</div><div class="qtext">${md(q.conventional)}</div></div>`
+      + (why.length ? `<div class="aside"><div class="t">Why the other options are there</div><div class="why">${why.map(([k, v]) => `<span class="k">(${esc(k)})</span><div class="qtext">${md(v)}</div>`).join("")}</div></div>` : "")
       + (q.extension ? `<div class="aside"><div class="t">Think further</div><div class="qtext">${md(q.extension)}</div></div>` : "");
+  } else if (open === "mistakes") {
+    panel = `<div class="aside"><div class="t">Watch Out</div><div class="qtext">${q.mistakes.length > 1 ? `<ul>${q.mistakes.map(m => `<li>${inline(m)}</li>`).join("")}</ul>` : md(q.mistakes[0])}</div></div>`;
   }
   return `<div class="sol">${bar}${note}${panel}</div>`;
 }
@@ -437,11 +437,18 @@ function wireRun(q, sh){
   app.querySelectorAll("[data-go]").forEach(b => b.onclick = () => { r.i = +b.dataset.go; viewRun(); });
   app.querySelectorAll("[data-opt]").forEach(b => b.onclick = () => answer(q, b.dataset.opt));
   const nf = $("#numform"); if (nf) nf.onsubmit = e => { e.preventDefault(); const v = nf.querySelector("input").value.trim(); if (v) answer(q, v); };
-  const rv = $("#reveal"); if (rv) rv.onclick = () => { r.show[q.id] = { ...sh, answer: true }; viewRun(); };
   app.querySelectorAll("[data-self]").forEach(b => b.onclick = () => { r.res[q.id] = { status: b.dataset.self, chosen: null }; viewRun(); });
   const hb = $("#hintbtn"); if (hb) hb.onclick = () => { r.show[q.id] = { ...sh, hints: Math.max(sh.hints || 1, 1) + 1 }; viewRun(); };
-  app.querySelectorAll("[data-open]").forEach(b => b.onclick = () => { const k = b.dataset.open; r.show[q.id] = { ...sh, open: sh.open === k ? null : k }; viewRun(); });
-  const gu = $("#giveup"); if (gu) gu.onclick = () => { r.res[q.id] = { status: "wrong", chosen: null, gaveUp: true }; r.show[q.id] = { ...sh, open: "worded" }; viewRun(); };
+  app.querySelectorAll("[data-open]").forEach(b => b.onclick = () => {
+    const k = b.dataset.open;
+    if (k === "answer") {
+      if (q.type === "subjective") { if (!sh.answer) { r.show[q.id] = { ...sh, answer: true, open: null }; viewRun(); } }
+      else if (!r.res[q.id]) { r.res[q.id] = { status: "wrong", chosen: null, gaveUp: true }; r.show[q.id] = { ...sh, open: null }; viewRun(); }
+      const f = app.querySelector(".fb"); if (f) { f.scrollIntoView({ block: "nearest", behavior: "smooth" }); f.setAttribute("tabindex", "-1"); f.focus({ preventScroll: true }); }
+      return;
+    }
+    r.show[q.id] = { ...sh, open: sh.open === k ? null : k }; viewRun();
+  });
   $("#prev").onclick = () => { if (r.i) { r.i--; viewRun(); toTop(); } };
   const nx = $("#next"); if (nx) nx.onclick = next;
   app.querySelectorAll("#submit").forEach(b => b.onclick = () => finish());

@@ -129,7 +129,7 @@ const D = ${payload};
 const S = {};                 // per problem: {versions:[{fields, note, instr}], sel, compare, busy, ctl, level, approve}
 let sample = null, sampleChecked = false;
 const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
-const LEVELS = [["hints", "Hints"], ["worded", "Word solution"], ["conventional", "Conventional solution"], ["mistakes", "Watch out"]];
+const LEVELS = [["hints", "Hints"], ["worded", "Think it Through"], ["conventional", "Worked Solution"], ["mistakes", "Watch Out"]];
 
 function texOk(s) {
   const bad = [];
@@ -178,7 +178,7 @@ function card(p) {
     const vers = '<div class="vers" role="group" aria-label="Versions">' + ['Original'].concat(st.versions.map((_, i) => "Version " + (i + 1))).map((l, i) => '<button data-v="' + i + '" class="' + (i === st.sel ? "on" : "") + '">' + l + "</button>").join("") +
       (st.versions.length ? '<label><input type="checkbox" data-cmp ' + (st.compare ? "checked" : "") + "> Show what changed</label>" : "") + "</div>";
     const why = Object.entries(p.sol.distractors || {}).sort();
-    const whyHTML = why.length ? '<div class="aside"><div class="t">Why not the other options (from the solutions file; not changed here)</div><div class="qtext">' + why.map(([k, v]) => "<p><b>(" + esc(k) + ")</b> " + inline(p, v) + "</p>").join("") + "</div></div>" : "";
+    const whyHTML = why.length ? '<div class="aside"><div class="t">Why the other options are there (not changed here)</div><div class="qtext">' + why.map(([k, v]) => "<p><b>(" + esc(k) + ")</b> " + inline(p, v) + "</p>").join("") + "</div></div>" : "";
     const lv = LEVELS.map(([k, l]) => levelHTML(p, k, l, cur[k], st.sel ? base[k] : undefined, st.compare) + (k === "conventional" ? whyHTML : "")).join("");
     const v = st.sel ? st.versions[st.sel - 1] : null;
     const note = v ? '<div class="note"><b>Claude:</b> ' + esc(v.note || "Revised.") + (v.check ? ' <span class="status">' + esc(v.check) + "</span>" : "") + (v.bad && v.bad.length ? '<br><span class="status err">Some formulas don\'t display. Ask Claude to fix them before sending.</span>' : "") + "</div>" : "";
@@ -188,7 +188,7 @@ function card(p) {
   const revise = p.sol ? '<section class="revise" aria-label="Revise with Claude"><h4>Revise with Claude</h4>' +
     '<label class="status" for="ins-' + p.id + '">What should change? Claude edits the version shown above.</label>' +
     '<textarea id="ins-' + p.id + '" placeholder="e.g. Hint 2 gives away the answer; make it point to the phase only."></textarea>' +
-    '<div class="row"><label class="status" for="lvl-' + p.id + '">Change</label><select id="lvl-' + p.id + '"><option value="all">any part, as needed</option><option value="hints">hints only</option><option value="worded">word solution only</option><option value="conventional">conventional solution only</option><option value="mistakes">watch out only</option></select>' +
+    '<div class="row"><label class="status" for="lvl-' + p.id + '">Change</label><select id="lvl-' + p.id + '"><option value="all">any part, as needed</option><option value="hints">hints only</option><option value="worded">Think it Through only</option><option value="conventional">Worked Solution only</option><option value="mistakes">Watch Out only</option></select>' +
     '<button class="btn" data-rev ' + (st.busy || sample === false ? "disabled" : "") + ">" + (st.busy ? "Revising…" : "Revise") + "</button>" + (st.busy ? '<button class="btn ghost" data-stop>Stop</button>' : "") +
     '</div><div class="status" id="msg-' + p.id + '" role="status">' + esc(st.msg || "") + "</div>" + hist + "</section>" : "";
   const levelSel = '<label class="status" for="xl-' + p.id + '">Difficulty</label><select id="xl-' + p.id + '">' + [1, 2, 3, 4, 5, 6].map(n => '<option ' + (n === (st.level || d.expert || d.ai) ? "selected" : "") + ">" + n + "</option>").join("") + "</select>";
