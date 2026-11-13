@@ -84,6 +84,24 @@ a.row:hover{background:var(--surface)}
 .qrow .s .katex{font-size:1em}.qrow .s .katex-display{display:inline;margin:0}.qrow .s .katex-display>.katex{display:inline}
 .lvl{font:500 .72rem var(--mono);padding:3px 7px;border-radius:4px;white-space:nowrap;background:var(--accent-soft);color:var(--accent)}
 .lvl.m{background:var(--warn-soft);color:var(--warn)}.lvl.h{background:var(--bad-soft);color:var(--bad)}.lvl.u{background:transparent;border:1px solid var(--line);color:var(--muted)}
+/* exemplars & animations */
+.wrap.wide{max-width:1180px}
+.labseries{display:flex;flex-direction:column;gap:10px}
+.labseries h2{font:600 1.1rem var(--display);margin:0}
+.labseries>p{margin:0;color:var(--muted);font-size:.95rem}
+.lablist{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:8px}
+.labcard{display:grid;grid-template-columns:auto minmax(0,1fr);gap:2px 14px;align-items:center;padding:12px 14px;background:var(--surface);border:1px solid var(--line);border-radius:10px;color:inherit;text-decoration:none;transition:border-color .15s}
+.labcard:hover{border-color:var(--accent)}
+.labcard .lk{grid-row:1 / span 2;display:grid;place-items:center;width:38px;height:38px;border-radius:9px;background:var(--accent-soft);color:var(--accent);font:600 1rem var(--mono)}
+.labcard .lg{font-weight:600;line-height:1.35}
+.labcard .lt{font-size:.82rem;color:var(--muted)}
+.labbar{display:flex;flex-wrap:wrap;align-items:center;gap:8px 14px;justify-content:space-between}
+.labkeys{display:flex;flex-wrap:wrap;gap:4px}
+.labkeys a{display:grid;place-items:center;min-width:34px;height:34px;padding:0 6px;border:1px solid var(--line);border-radius:8px;background:var(--surface);color:var(--ink);font:600 .85rem var(--mono);text-decoration:none}
+.labkeys a[aria-current="page"]{background:var(--accent);border-color:var(--accent);color:#fff}
+.labframe{display:block;width:100%;height:calc(100dvh - 230px);min-height:620px;border:1px solid var(--line);border-radius:10px;background:var(--surface)}
+.labnav{display:flex;justify-content:space-between;gap:10px}
+@media (max-width:899px){.labframe{height:calc(100dvh - 16px);min-height:560px}}
 .soonbox{background:var(--surface);border:1px dashed var(--line);border-radius:10px;padding:22px;display:flex;flex-direction:column;gap:6px}
 .soonbox b{font:600 1.05rem var(--display)}
 .soonbox span{color:var(--muted)}
@@ -125,6 +143,7 @@ a.row:hover{background:var(--surface)}
 .numrow{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
 .numrow input,select{font:500 1rem var(--body);padding:9px 12px;border:1.5px solid var(--line);border-radius:8px;background:var(--bg);color:var(--ink)}
 .numrow input{font-family:var(--mono);width:9rem}
+a.btn{text-decoration:none;display:inline-flex;align-items:center;justify-content:center}
 .btn{border:0;border-radius:8px;padding:10px 18px;font-weight:600;background:var(--accent);color:var(--accent-ink)}
 .btn.ghost{background:transparent;border:1.5px solid var(--line);color:var(--ink)}
 .btn[disabled]{opacity:.4;cursor:not-allowed}
@@ -220,7 +239,9 @@ async function route(){
     if (!S.catalog) S.catalog = await getJSON("data/catalog.json");
     let m;
     if ((m = h.match(/^ch-(\d{2})$/))) return viewChapter(m[1]);
+    app.classList.remove("wide");
     if ((m = h.match(/^st-(\d{4})$/))) return viewSubtopic(m[1]);
+    if ((m = h.match(/^lab-([a-z0-9-]+-[A-Za-z0-9]+)$/))) return viewLab(m[1]);
     if (h === "run" && S.run) return S.run.done ? viewResult() : viewRun();
     return viewHome();
   } catch (e) {
@@ -261,8 +282,45 @@ function viewChapter(code){
     <section style="display:flex;flex-direction:column;gap:8px"><h1>${esc(ch.name)}</h1>
       <p class="lede">${ch.count ? `${ch.count} questions across ${ch.subtopics.filter(s => s.count).length} subtopics.` : "Questions for this chapter are coming soon."}</p></section>
     <div class="list">${ch.subtopics.map((s, i) => s.count
-      ? `<a class="row" href="#st-${s.code}"><span class="num">${i + 1}</span><span class="name">${esc(s.name)}</span><span class="sub">${esc(s.covers)}</span><span class="count">${s.count} Q</span></a>`
+      ? `<a class="row" href="#st-${s.code}"><span class="num">${i + 1}</span><span class="name">${esc(s.name)}</span><span class="sub">${esc(s.covers)}${s.labs ? ` · ${s.labs} interactive page${s.labs > 1 ? "s" : ""}` : ""}</span><span class="count">${s.count} Q</span></a>`
       : `<div class="row off"><span class="num">${i + 1}</span><span class="name">${esc(s.name)}</span><span class="sub">${esc(s.covers)}</span><span class="soon">Coming soon</span></div>`).join("")}</div>`;
+  toTop();
+}
+
+// ---------- exemplars & animations ----------
+// The pages live in bank/labs/; each lists the subtopics it belongs to (the first is its home).
+const labsFor = code => (S.catalog.labs || []).filter(l => l.topics.includes(code));
+function labsPanel(code){
+  const pages = labsFor(code), series = [...new Set(pages.map(l => l.series))];
+  return series.map(id => {
+    const ps = pages.filter(l => l.series === id), first = ps[0];
+    return `<section class="labseries"><h2>${esc(first.seriesTitle)}</h2>${first.seriesSummary ? `<p>${esc(first.seriesSummary)}</p>` : ""}
+      <ol class="lablist">${ps.map(l => {
+        const home = l.topics[0] !== code ? findSub(l.topics[0]) : null;
+        return `<li><a class="labcard" href="#lab-${l.id}" data-lab="${l.id}"><span class="lk" aria-hidden="true">${esc(l.key)}</span><span class="lg">${esc(l.goal)}</span>
+          <span class="lt">${l.kind === "practice" ? "Practise" : "Watch and learn"}${home ? ` · from ${esc(home.name)}` : ""}</span></a></li>`;
+      }).join("")}</ol></section>`;
+  }).join("");
+}
+function viewLab(id){
+  const all = S.catalog.labs || [], lab = all.find(l => l.id === id);
+  if (!lab) return viewHome();
+  const from = S.labFrom && lab.topics.includes(S.labFrom) ? S.labFrom : lab.topics[0];
+  S.labFrom = from;
+  const sub = findSub(from), ch = findChapter(from.slice(0, 2));
+  const series = all.filter(l => l.series === lab.series), i = series.indexOf(lab);
+  const prev = series[i - 1], next = series[i + 1];
+  document.title = `${lab.seriesTitle} ${lab.key} · Physics Practice`;
+  app.classList.add("wide");
+  app.innerHTML = `
+    <nav class="crumbs" aria-label="You are here"><a href="#home">All chapters</a><span>›</span><a href="#ch-${ch.code}">${esc(ch.name)}</a><span>›</span><a href="#st-${from}" id="labback">${esc(sub.name)}</a></nav>
+    <div class="labbar"><span class="lede" style="font-size:.9rem">${esc(lab.seriesTitle)}: page ${esc(lab.key)} of ${series.length}</span>
+      <nav class="labkeys" aria-label="Pages of ${esc(lab.seriesTitle)}">${series.map(l => `<a href="#lab-${l.id}" ${l === lab ? 'aria-current="page"' : ""} title="${esc(l.goal)}">${esc(l.key)}</a>`).join("")}</nav></div>
+    <iframe class="labframe" src="${esc(lab.url)}" title="${esc(lab.seriesTitle)} ${esc(lab.key)}: ${esc(lab.goal)}"></iframe>
+    <div class="labnav">${prev ? `<a class="btn ghost" href="#lab-${prev.id}">‹ ${esc(prev.key)}</a>` : "<span></span>"}
+      <a class="btn ghost" href="#st-${from}" id="labback2">All pages</a>
+      ${next ? `<a class="btn ghost" href="#lab-${next.id}">${esc(next.key)} ›</a>` : "<span></span>"}</div>`;
+  app.querySelectorAll("#labback, #labback2").forEach(a => a.onclick = () => { S.tab = "labs"; });
   toTop();
 }
 
@@ -270,7 +328,8 @@ function viewChapter(code){
 async function viewSubtopic(code){
   const sub = findSub(code); if (!sub) return viewHome();
   const ch = findChapter(code.slice(0, 2));
-  if (!sub.count) return viewChapter(ch.code);
+  if (!sub.count && !sub.labs) return viewChapter(ch.code);
+  if (!sub.count) S.tab = "labs";
   const data = await chapterData(ch.code);
   const qs = data.subtopics[code] || [];
   document.title = `${sub.name} · Physics Practice`;
@@ -296,6 +355,8 @@ async function viewSubtopic(code){
       <label class="field"><span>Time limit</span><select id="tt"><option value="1" ${S.test.timed ? "selected" : ""}>2 minutes per question</option><option value="0" ${S.test.timed ? "" : "selected"}>No time limit</option></select></label>
       <p class="lede" style="font-size:.9rem">Marking: +4 for a correct answer, −1 for a wrong one, 0 if you skip.</p>
       <div class="actions"><button class="btn" id="startt" ${testable.length ? "" : "disabled"}>Start test</button></div>`;
+  } else if (S.tab === "labs" && sub.labs) {
+    panel = labsPanel(code);
   } else {
     const what = S.tab === "notes" ? ["Revision notes", "Short, printable notes for this subtopic: key ideas, formulas and the traps examiners like."]
       : ["Exemplars & animations", "Interactive pages that let you change a setting and watch the physics respond, plus animations of the key ideas."];
@@ -304,9 +365,11 @@ async function viewSubtopic(code){
   app.innerHTML = `
     <nav class="crumbs" aria-label="You are here"><a href="#home">All chapters</a><span>›</span><a href="#ch-${ch.code}">${esc(ch.name)}</a></nav>
     <section style="display:flex;flex-direction:column;gap:8px"><h1>${esc(sub.name)}</h1>${sub.covers ? `<p class="lede">${esc(sub.covers)}</p>` : ""}</section>
-    <div class="tabs" role="tablist">${tabs.map(([k, l]) => `<button role="tab" aria-selected="${S.tab === k}" data-tab="${k}">${l}</button>`).join("")}</div>
+    <div class="tabs" role="tablist">${tabs.map(([k, l]) => `<button role="tab" aria-selected="${S.tab === k}" data-tab="${k}">${l}${k === "labs" && sub.labs ? ` (${sub.labs})` : ""}</button>`).join("")}</div>
     <section class="panel" role="tabpanel">${panel}</section>`;
   app.querySelectorAll("[data-tab]").forEach(b => b.onclick = () => { S.tab = b.dataset.tab; viewSubtopic(code); });
+  app.querySelectorAll("[data-lab]").forEach(a => a.onclick = () => { S.labFrom = code; });
+  const selTab = app.querySelector('.tabs [aria-selected="true"]'); if (selTab) selTab.scrollIntoView({ block: "nearest", inline: "nearest" });
   app.querySelectorAll("[data-lv]").forEach(b => b.onclick = () => { S.levelFilter = b.dataset.lv; viewSubtopic(code); });
   app.querySelectorAll("[data-ty]").forEach(b => b.onclick = () => { const t = b.dataset.ty; if (S.typeFilter.has(t) && S.typeFilter.size > 1) S.typeFilter.delete(t); else S.typeFilter.add(t); viewSubtopic(code); });
   app.querySelectorAll("[data-tl]").forEach(b => b.onclick = () => { S.test.level = b.dataset.tl; viewSubtopic(code); });

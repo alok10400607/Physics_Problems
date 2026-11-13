@@ -102,8 +102,40 @@ for (const f of collections) {
   }
 }
 
+// ---- exemplars & animations (bank/labs) ----
+let labCount = 0;
+const labsIndex = path.join(BANK, 'labs', 'index.json');
+if (fs.existsSync(labsIndex)) {
+  const seenSeries = new Set();
+  for (const se of readJSON(labsIndex).series || []) {
+    const sid = `labs/${se.id}`;
+    if (!/^[a-z0-9-]+$/.test(se.id || '')) err(sid, 'series id must be lowercase letters, digits and hyphens');
+    if (seenSeries.has(se.id)) err(sid, 'series listed twice'); seenSeries.add(se.id);
+    if (!se.title) err(sid, 'no title');
+    const keys = new Set();
+    for (const pg of se.pages || []) {
+      const id = `${sid}/${pg.key}`; labCount++;
+      if (!/^[A-Za-z0-9]+$/.test(pg.key || '')) err(id, 'key must be letters or digits');
+      if (keys.has(pg.key)) err(id, 'key used twice'); keys.add(pg.key);
+      const f = path.join(BANK, 'labs', se.id, pg.file || '');
+      if (!pg.file || !fs.existsSync(f)) { err(id, `file ${pg.file} is missing`); continue; }
+      const html = fs.readFileSync(f, 'utf8');
+      if (!/^\s*<!DOCTYPE html>/i.test(html)) err(id, 'the page must start with <!DOCTYPE html>');
+      if (!/<title>[^<]+<\/title>/i.test(html)) warn(id, 'the page has no <title>');
+      if (/<script[^>]+src=["']https?:/i.test(html)) warn(id, 'the page loads a script from another site; it may not work offline');
+      if (!pg.goal) err(id, 'no goal');
+      if (!['practice', 'learn'].includes(pg.kind)) err(id, 'kind must be "practice" or "learn"');
+      if (!Array.isArray(pg.topics) || !pg.topics.length) err(id, 'no topic codes');
+      for (const t of pg.topics || []) {
+        if (!topics.has(t)) err(id, `topic code ${t} is not in topics.json`);
+        else if (topics.get(t).status !== 'active') warn(id, `topic code ${t} is not active`);
+      }
+    }
+  }
+}
+
 const statusCount = {}; for (const p of problems.values()) statusCount[p.status] = (statusCount[p.status] || 0) + 1;
-console.log(`Bank: ${problems.size} problems ${JSON.stringify(statusCount)}, ${solCount} solution files, ${collections.length} collections, ${formulas} formulas rendered.`);
+console.log(`Bank: ${problems.size} problems ${JSON.stringify(statusCount)}, ${solCount} solution files, ${collections.length} collections, ${labCount} interactive pages, ${formulas} formulas rendered.`);
 if (!quiet || errors.length) { console.log(errors.length ? `\nERRORS (${errors.length})\n  ` + errors.join('\n  ') : '\nNo errors.'); }
 if (!quiet) console.log(warnings.length ? `\nWARNINGS (${warnings.length})\n  ` + warnings.slice(0, 60).join('\n  ') + (warnings.length > 60 ? `\n  … ${warnings.length - 60} more` : '') : '\nNo warnings.');
 process.exit(errors.length ? 1 : 0);

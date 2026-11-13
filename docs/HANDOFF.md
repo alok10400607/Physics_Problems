@@ -71,6 +71,10 @@ Both sample files are on this branch (`next/solutions-importer`, which is based 
 - Import the next topic's problems + solutions pair (through `inbox/` or the `bank-import` skill).
 - The site's banner still says questions and solutions are being reviewed; change it when enough chapters are reviewed.
 
+## Exemplars & animations (13 November)
+
+The subtopic tab "Exemplars & animations" now shows interactive pages from `bank/labs/` (index: `bank/labs/index.json`). First series: **Vertical Throw Practice**, pages A–H, from the owner. Placement: A–G under 0315 (Free Fall & Vertical Throw); C also under 0310, E and F also under 0330; H under 0410 (Ground-to-Ground Projectile) and 0315. Pages open inside the site (`#lab-vertical-throw-A`) with the crumbs home, A–H navigation and Previous/Next. `check_bank.js` checks the index (files present, topic codes real, `kind` = practice or learn).
+
 ## How to start the new session
 
 Attach the repository `alok10400607/Physics_Problems` (GitHub is already connected), then check out `next/solutions-importer`.
