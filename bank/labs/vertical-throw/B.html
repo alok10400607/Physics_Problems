@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Vertical Throw Practice</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=JetBrains+Mono:wght@400;600&family=Literata:opsz,wght@7..72,600&display=swap">
+<style>
+html,body{margin:0}
+/* Layout follows Vertical Throw Lab: goal and Observe above one figure; Reason and Check open on demand. */
+:root{
+  --bg:#f2f4f8; --card:#ffffff; --ink:#18202b; --muted:#5b6777; --line:#d3dae4; --soft:#e9edf3;
+  --vel:#0b8585; --grav:#cc3a31; --pause:#6748c2; --ball:#dd8616; --teal:#0b6f73;
+  --pause-bg:#f0ecfb; --teal-bg:#e6f4f3;
+  --f-display:"Literata",Georgia,serif; --f-body:"Atkinson Hyperlegible",system-ui,sans-serif; --f-mono:"JetBrains Mono",ui-monospace,Menlo,monospace;
+}
+@media (prefers-color-scheme: dark){ :root:not([data-theme="light"]){
+  --bg:#10141a; --card:#19202a; --ink:#e7ebf1; --muted:#98a4b4; --line:#2d3644; --soft:#222a36;
+  --vel:#3fc6c1; --grav:#f06a60; --pause:#a890f2; --ball:#f0a640; --teal:#5fd0cb;
+  --pause-bg:#251f3d; --teal-bg:#14302f; color-scheme:dark } }
+[hidden]{display:none !important}
+*{box-sizing:border-box}
+html,body{height:100%}
+body{background:var(--bg);color:var(--ink);font-family:var(--f-body);font-size:16px;line-height:1.45;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));
+  padding-top:max(8px,env(safe-area-inset-top,0px));padding-bottom:max(8px,env(safe-area-inset-bottom,0px))}
+button{font:inherit;color:inherit;cursor:pointer}
+button:disabled{opacity:.4;cursor:default}
+button:focus-visible{outline:2px solid var(--pause);outline-offset:2px}
+.app{position:relative;height:100%;min-height:520px;max-width:1120px;margin:0 auto;display:flex;flex-direction:column;gap:8px}
+.hd{display:flex;align-items:center;gap:10px;justify-content:space-between}
+.hd h1{font-family:var(--f-display);font-size:1.05rem;margin:0;font-weight:600;white-space:nowrap;min-width:0;overflow:hidden;text-overflow:ellipsis}
+.tabs{display:flex;gap:3px;flex:0 0 auto}
+.tabs span{display:grid;place-items:center;width:30px;height:34px;border-radius:8px;background:var(--pause);color:#fff;font-family:var(--f-mono);font-size:.82rem}
+.k{display:block;font-size:.68rem;letter-spacing:.09em;text-transform:uppercase;font-weight:700}
+.text{display:grid;gap:6px}
+.goal{background:var(--pause-bg);border-radius:8px;padding:8px 12px}
+.goal .k{color:var(--pause)}
+.goal b{font-family:var(--f-display);font-weight:600;font-size:1.02rem}
+.obs{margin:0;padding:0 2px;font-size:.95rem}
+.obs .k{color:var(--muted)}
+.figwrap{flex:1;min-height:0;background:var(--card);border:1px solid var(--line);border-radius:10px;display:flex;flex-direction:column;padding:8px 10px}
+.pill{font-family:var(--f-mono);font-size:.8rem;min-height:2.6em;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;color:var(--ink)}
+.pill .nx{color:var(--pause);font-weight:600}
+#fig{flex:1;min-height:0;width:100%;display:block}
+#fig text{font-family:var(--f-mono)}
+@media (max-width:899px){ #fig text[font-size="10"]{font-size:12.5px} #fig text[font-size="11"]{font-size:13px} }
+.ctl{display:flex;gap:6px;flex-wrap:wrap;justify-content:center;align-items:center;padding-top:6px}
+.ctl button{min-width:42px;height:36px;border:1px solid var(--line);border-radius:8px;background:var(--card);padding:0 10px;font-family:var(--f-mono);font-size:.8rem}
+.ctl button.pri{background:var(--ink);color:var(--card);border-color:var(--ink)}
+.ctl .seg{display:inline-flex;border:1px solid var(--line);border-radius:8px;overflow:hidden}
+.ctl .seg button{border:0;border-radius:0;border-left:1px solid var(--line);min-width:38px;padding:0 8px}
+.ctl .seg button:first-child{border-left:0}
+.ctl .seg button.on{background:var(--ink);color:var(--card)}
+.ctl .lab{font-size:.78rem;color:var(--muted)}
+.side{display:grid;gap:8px;align-content:start}
+.sec{background:var(--card);border:1px solid var(--line);border-radius:10px;overflow:hidden}
+.sec>button{display:flex;width:100%;justify-content:space-between;align-items:center;border:0;background:none;min-height:44px;padding:8px 12px;font-weight:700;text-align:left}
+.sec>button i{font-style:normal;font-family:var(--f-mono);color:var(--muted)}
+.sec .bd{padding:0 12px 12px}
+#secR>button{color:var(--teal)}
+.bd p{margin:0 0 6px} .bd ul{margin:0 0 6px;padding-left:18px;display:grid;gap:4px}
+.eq{font-family:var(--f-mono);font-size:.9rem;font-weight:600;background:var(--teal-bg);border-radius:6px;padding:6px 10px;margin:4px 0 8px}
+.ans{color:var(--teal);font-weight:700}
+.link{border:1px solid var(--line);background:var(--card);border-radius:8px;min-height:40px;padding:6px 12px}
+.nav{display:flex;gap:6px;height:48px;flex:0 0 auto}
+.nav button{flex:1;border:1px solid var(--line);border-radius:8px;background:var(--card);padding:0 8px}
+.nav button.on{background:var(--teal-bg);border-color:var(--teal)}
+@media (max-width:899px){
+  .side{position:absolute;left:0;right:0;bottom:56px;max-height:62%;overflow:auto;z-index:5;box-shadow:0 -10px 24px -12px rgba(0,0,0,.45);border-radius:10px}
+  .side[data-open=""]{display:none}
+  .side[data-open="reason"] #secC,.side[data-open="check"] #secR{display:none}
+}
+@media (max-width:899px) and (max-height:700px){
+  .goal{padding:6px 10px} .goal b{font-size:.95rem} .obs{font-size:.88rem;line-height:1.35} .pill{font-size:.74rem}
+}
+@media (min-width:900px){
+  body{padding-top:14px;padding-bottom:14px}
+  .app{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);grid-template-rows:auto auto minmax(0,1fr);
+    grid-template-areas:"hd hd" "fig text" "fig side";gap:12px 16px}
+  .hd{grid-area:hd} .text{grid-area:text} .figwrap{grid-area:fig} .side{grid-area:side;overflow:auto}
+  .hd h1{font-size:1.25rem} .goal b{font-size:1.15rem} .obs{font-size:1rem}
+  .nav{display:none}
+}
+</style>
+</head>
+<body>
+
+<div class="app">
+  <header class="hd"><h1>Vertical Throw Practice</h1><div class="tabs" aria-label="Page"><span>B</span></div></header>
+  <div class="text">
+    <div class="goal"><span class="k">Learning goal B</span><b>Calculate the time of ascent (tₐ) in your head.</b></div>
+    <p class="obs"><span class="k">Observe and practice</span>Calculate tₐ for u = 25 m/s, then click <b>▶ Play</b> to verify your answer. Repeat for u = 30 m/s and 35 m/s.</p>
+  </div>
+  <section class="figwrap" aria-label="Figure">
+    <div class="pill" id="pill" aria-live="polite"></div>
+    <svg id="fig" viewBox="0 0 360 400" role="img" aria-label="Ball thrown up from the ground and its velocity–time graph up to the top"></svg>
+    <div class="ctl" id="ctl"><span class="lab">u (m/s)</span><span class="seg" id="useg"></span><button class="pri" id="bPlay">▶ Play</button></div>
+  </section>
+  <div class="side" id="side" data-open="">
+    <section class="sec" id="secR"><button id="tR" aria-expanded="false"><span>Reason</span><i>show +</i></button><div class="bd" id="bdR" hidden><p>The time of ascent is the time taken for the velocity v to become zero: the ball stops moving up.</p><p>Notice how this relates to page A: v = 35 − 10t becomes 0 at t = 3.5 s.</p><p>Using the formula v = u + at, with v = 0 at the top and a = −10 m/s²:</p><div class="eq">0 = u − 10tₐ &nbsp;⇒&nbsp; tₐ = u/10</div></div></section>
+    <section class="sec" id="secC"><button id="tC" aria-expanded="false"><span>Check yourself</span><i>show +</i></button><div class="bd" id="bdC" hidden><p>Is the same tₐ valid if the particle is projected from a height?</p><button class="link" id="bAns">Show the answer</button><p class="ans" id="ans" hidden>Yes. The time of ascent depends only on u, not on the height of projection. When projected from a height, the time of descent is greater than the time of ascent.</p></div></section>
+  </div>
+  <nav class="nav" aria-label="Panels">
+    <button id="nR">Reason</button>
+    <button id="nC">Check</button>
+  </nav>
+</div>
+
+<script>
+/* ===== Shell: Reason / Check panels ===== */
+const $ = id => document.getElementById(id);
+let open='';
+function renderSide(){
+  $('side').dataset.open=open;
+  const r=open==='reason', c=open==='check';
+  $('bdR').hidden=!r; $('bdC').hidden=!c;
+  $('tR').setAttribute('aria-expanded',r); $('tC').setAttribute('aria-expanded',c);
+  $('tR').querySelector('i').textContent=r?'close ×':'show +'; $('tC').querySelector('i').textContent=c?'close ×':'show +';
+  $('nR').classList.toggle('on',r); $('nC').classList.toggle('on',c);
+}
+const toggle=n=>{ open = open===n ? '' : n; renderSide(); };
+$('nR').onclick=$('tR').onclick=()=>toggle('reason');
+$('nC').onclick=$('tC').onclick=()=>toggle('check');
+$('bAns').onclick=()=>{ $('ans').hidden=false; $('bAns').hidden=true; };
+renderSide();
+
+/* ===== Shared helpers ===== */
+const G=10;
+const fmt=n=>String(Math.round((Math.abs(n)<1e-9?0:n)*100)/100).replace('-','−');
+const sg=n=>{n=Math.round(n*100)/100;return n>0?'+'+fmt(n):n<0?'−'+fmt(-n):'0';};
+const reduced=()=>{try{return matchMedia('(prefers-reduced-motion: reduce)').matches;}catch(e){return false;}};
+function arrow(p1,p2,c,w=3,head=9){
+  const dx=p2[0]-p1[0],dy=p2[1]-p1[1],L=Math.hypot(dx,dy); if(L<2) return '';
+  const ux=dx/L,uy=dy/L,h=Math.min(head,L),bx=p2[0]-ux*h,by=p2[1]-uy*h,nx=-uy*head/2,ny=ux*head/2;
+  return `<line x1="${p1[0]}" y1="${p1[1]}" x2="${bx}" y2="${by}" stroke="var(${c})" stroke-width="${w}"/><polygon points="${p2[0]},${p2[1]} ${bx+nx},${by+ny} ${bx-nx},${by-ny}" fill="var(${c})"/>`;
+}
+const T=(x,y,s,c='--ink',o={})=>`<text x="${x}" y="${y}" font-size="${o.size||12}" text-anchor="${o.a||'start'}" fill="var(${c})" ${o.b?'font-weight="600"':''}>${s}</text>`;
+const pill=(a,nx)=>{ $('pill').innerHTML=`<span>${a}</span>`+(nx?`<span class="nx">${nx}</span>`:''); };
+
+/* ===== Page ===== */
+const US=[25,30,35], HMAX=35*35/(2*G), SPEED=1/0.8;
+const st={u:25,t:0,playing:false,done:new Set()};
+
+
+function draw(){
+  const u=st.u, ta=u/G, t=st.t, v=u-G*t, y=u*t-G*t*t/2, H=u*u/(2*G), fin=t>=ta-1e-9;
+  let s='';
+  // ball track from the ground (same scale for every u)
+  const Y0=356, k=290/HMAX, Yb=h=>Y0-k*h, bx=34;
+  s+=`<rect x="4" y="${Y0}" width="62" height="10" fill="var(--soft)"/><line x1="4" y1="${Y0}" x2="66" y2="${Y0}" stroke="var(--ink)" stroke-width="2"/>`;
+  s+=T(35,Y0+24,'ground','--muted',{a:'middle',size:10});
+  s+=arrow([10,Y0-40],[10,Y0-72],'--pause',2.2,8)+T(15,Y0-52,'+','--pause',{b:1,size:14});
+  if(fin) s+=`<line x1="4" y1="${Yb(H)}" x2="66" y2="${Yb(H)}" stroke="var(--muted)" stroke-dasharray="3 5"/>`;
+  const by=Yb(y)-10;
+  if(v>0.05) s+=arrow([bx+16,by],[bx+16,by-1.2*v],'--vel',2.6,8);
+  s+=`<circle cx="${bx}" cy="${by}" r="10" fill="var(--ball)" stroke="var(--ink)" stroke-width="1.2"/>`;
+  if(fin) s+=T(bx,by+26,'v = 0','--vel',{a:'middle',b:1,size:11});
+  // v–t graph, 0–4 s, 0–40 m/s
+  const gx=104, gw=240, X=q=>gx+gw*q/4, Y=vv=>330-7*vv;
+  for(let q=0;q<=40;q+=10){ s+=`<line x1="${gx}" y1="${Y(q)}" x2="${gx+gw}" y2="${Y(q)}" stroke="var(${q?'--soft':'--ink'})" stroke-width="${q?1:1.6}"/>`+T(gx-6,Y(q)+4,sg(q),'--muted',{a:'end',size:10}); }
+  for(let q=0;q<=4;q+=0.5){ const whole=q%1===0;
+    s+=`<line x1="${X(q)}" y1="${Y(40)}" x2="${X(q)}" y2="${Y(0)}" stroke="var(--soft)" ${whole?'':'stroke-dasharray="2 4"'}/>`;
+    if(whole) s+=T(X(q),Y(0)+16,q,'--muted',{a:'middle',size:10}); }
+  s+=T(gx-6,Y(40)-14,'v (m/s)','--vel',{a:'end',size:11})+T(gx+gw,Y(0)+44,'t (s)','--muted',{a:'end',size:11});
+  // faint traces of runs already verified
+  st.done.forEach(w=>{ if(w===u) return;
+    s+=`<line x1="${X(0)}" y1="${Y(w)}" x2="${X(w/G)}" y2="${Y(0)}" stroke="var(--muted)" stroke-width="1.6" stroke-dasharray="4 4" opacity=".7"/>`;
+    s+=T(X(w/G),Y(0)-8,fmt(w/G),'--muted',{a:'middle',size:10})+`<circle cx="${X(w/G)}" cy="${Y(0)}" r="3" fill="var(--muted)"/>`; });
+  // current run
+  if(t>0){
+    s+=`<line x1="${X(0)}" y1="${Y(u)}" x2="${X(t)}" y2="${Y(v)}" stroke="var(--vel)" stroke-width="2.4"/>`;
+    for(let q=0;q<=t+1e-9;q+=0.5) s+=`<circle cx="${X(q)}" cy="${Y(u-G*q)}" r="3.6" fill="var(--vel)"/>`;
+  }
+  s+=`<circle cx="${X(0)}" cy="${Y(u)}" r="3.6" fill="var(--vel)"/>`+T(X(0)+8,Y(u)+4,`u = ${sg(u)}`,'--vel',{b:1,size:11});
+  if(t>0&&!fin) s+=`<circle cx="${X(t)}" cy="${Y(v)}" r="5" fill="var(--ball)" stroke="var(--ink)"/>`;
+  if(fin){
+    s+=`<circle cx="${X(ta)}" cy="${Y(0)}" r="7" fill="none" stroke="var(--pause)" stroke-width="2.2"/>`;
+    s+=T(X(ta)+10,Y(0)-10,'v = 0','--pause',{b:1,size:12});
+    s+=T(X(ta),Y(0)+30,`tₐ = ${fmt(ta)} s`,'--pause',{a:'middle',b:1,size:13});
+  }
+  $('fig').innerHTML=s;
+
+  let a, nx='';
+  if(t===0){ a=`u = ${sg(u)} m/s · tₐ = ?`; nx='Find tₐ in your head, then press ▶ Play.'; }
+  else if(!fin){ a=`u = ${sg(u)} m/s · tₐ = ?`; }
+  else { a=`v = 0 at t = ${fmt(ta)} s, so tₐ = ${fmt(ta)} s (${u} m/s lost at 10 m/s every second)`;
+    const left=US.filter(w=>!st.done.has(w));
+    nx = left.length ? `Now try u = ${left[0]} m/s.` : 'All three done: tₐ = 2.5 s, 3 s, 3.5 s.'; }
+  pill(a,nx);
+  $('bPlay').textContent = st.playing ? '❚❚ Pause' : fin ? '↺ Replay' : t>0 ? '▶ Resume' : '▶ Play';
+}
+function finish(){ st.t=st.u/G; st.playing=false; st.done.add(st.u); draw(); }
+function play(){
+  const ta=st.u/G;
+  if(st.playing){ st.playing=false; draw(); return; }
+  if(st.t>=ta-1e-9) st.t=0;
+  if(reduced()){ finish(); return; }
+  st.playing=true; let last=performance.now();
+  const f=now=>{ if(!st.playing) return;
+    st.t+=Math.min(0.05,(now-last)/1000)*SPEED; last=now;
+    if(st.t>=ta-1e-9){ finish(); return; }
+    draw(); requestAnimationFrame(f); };
+  draw(); requestAnimationFrame(f);
+}
+function buildSeg(){ $('useg').innerHTML=US.map(u=>`<button data-u="${u}" class="${u===st.u?'on':''}" aria-pressed="${u===st.u}">${u}</button>`).join(''); }
+$('useg').onclick=e=>{ const b=e.target.closest('[data-u]'); if(!b) return; st.u=+b.dataset.u; st.t=0; st.playing=false; buildSeg(); draw(); };
+$('bPlay').onclick=play;
+buildSeg(); draw();
+
+</script>
+
+</body>
+</html>

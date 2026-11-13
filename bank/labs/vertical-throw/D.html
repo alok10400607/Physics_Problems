@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Vertical Throw Practice</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=JetBrains+Mono:wght@400;600&family=Literata:opsz,wght@7..72,600&display=swap">
+<style>
+html,body{margin:0}
+/* Layout follows Vertical Throw Lab: goal and Observe above one figure; Reason and Check open on demand. */
+:root{
+  --bg:#f2f4f8; --card:#ffffff; --ink:#18202b; --muted:#5b6777; --line:#d3dae4; --soft:#e9edf3;
+  --vel:#0b8585; --grav:#cc3a31; --pause:#6748c2; --ball:#dd8616; --teal:#0b6f73;
+  --pause-bg:#f0ecfb; --teal-bg:#e6f4f3;
+  --f-display:"Literata",Georgia,serif; --f-body:"Atkinson Hyperlegible",system-ui,sans-serif; --f-mono:"JetBrains Mono",ui-monospace,Menlo,monospace;
+}
+@media (prefers-color-scheme: dark){ :root:not([data-theme="light"]){
+  --bg:#10141a; --card:#19202a; --ink:#e7ebf1; --muted:#98a4b4; --line:#2d3644; --soft:#222a36;
+  --vel:#3fc6c1; --grav:#f06a60; --pause:#a890f2; --ball:#f0a640; --teal:#5fd0cb;
+  --pause-bg:#251f3d; --teal-bg:#14302f; color-scheme:dark } }
+[hidden]{display:none !important}
+*{box-sizing:border-box}
+html,body{height:100%}
+body{background:var(--bg);color:var(--ink);font-family:var(--f-body);font-size:16px;line-height:1.45;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));
+  padding-top:max(8px,env(safe-area-inset-top,0px));padding-bottom:max(8px,env(safe-area-inset-bottom,0px))}
+button{font:inherit;color:inherit;cursor:pointer}
+button:disabled{opacity:.4;cursor:default}
+button:focus-visible{outline:2px solid var(--pause);outline-offset:2px}
+.app{position:relative;height:100%;min-height:520px;max-width:1120px;margin:0 auto;display:flex;flex-direction:column;gap:8px}
+.hd{display:flex;align-items:center;gap:10px;justify-content:space-between}
+.hd h1{font-family:var(--f-display);font-size:1.05rem;margin:0;font-weight:600;white-space:nowrap;min-width:0;overflow:hidden;text-overflow:ellipsis}
+.tabs{display:flex;gap:3px;flex:0 0 auto}
+.tabs span{display:grid;place-items:center;width:30px;height:34px;border-radius:8px;background:var(--pause);color:#fff;font-family:var(--f-mono);font-size:.82rem}
+.k{display:block;font-size:.68rem;letter-spacing:.09em;text-transform:uppercase;font-weight:700}
+.text{display:grid;gap:6px}
+.goal{background:var(--pause-bg);border-radius:8px;padding:8px 12px}
+.goal .k{color:var(--pause)}
+.goal b{font-family:var(--f-display);font-weight:600;font-size:1.02rem}
+.obs{margin:0;padding:0 2px;font-size:.95rem}
+.obs .k{color:var(--muted)}
+.obs p{margin:0 0 2px}
+.obs ol.iv{list-style:none;margin:0 0 2px;padding:0;display:grid;grid-template-columns:1fr 1fr;gap:0 12px;font-family:var(--f-mono);font-size:.85em}
+.obs ol.iv3{grid-template-columns:repeat(3,auto);justify-content:start;gap:0 18px}
+.figwrap{flex:1;min-height:0;background:var(--card);border:1px solid var(--line);border-radius:10px;display:flex;flex-direction:column;padding:8px 10px}
+.pill{font-family:var(--f-mono);font-size:.8rem;min-height:2.6em;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;color:var(--ink)}
+.pill .nx{color:var(--pause);font-weight:600}
+#fig{flex:1;min-height:0;width:100%;display:block}
+#fig text{font-family:var(--f-mono)}
+@media (max-width:899px){ #fig text[font-size="10"]{font-size:12.5px} #fig text[font-size="11"]{font-size:13px} }
+.ctl{display:flex;gap:6px;flex-wrap:wrap;justify-content:center;align-items:center;padding-top:6px}
+.ctl button{min-width:42px;height:36px;border:1px solid var(--line);border-radius:8px;background:var(--card);padding:0 10px;font-family:var(--f-mono);font-size:.8rem}
+.ctl button.pri{background:var(--ink);color:var(--card);border-color:var(--ink)}
+.ctl .seg{display:inline-flex;border:1px solid var(--line);border-radius:8px;overflow:hidden}
+.ctl .seg button{border:0;border-radius:0;border-left:1px solid var(--line);min-width:38px;padding:0 8px}
+.ctl .seg button:first-child{border-left:0}
+.ctl .seg button.on{background:var(--ink);color:var(--card)}
+.ctl .lab{font-size:.78rem;color:var(--muted)}
+.side{display:grid;gap:8px;align-content:start}
+.sec{background:var(--card);border:1px solid var(--line);border-radius:10px;overflow:hidden}
+.sec>button{display:flex;width:100%;justify-content:space-between;align-items:center;border:0;background:none;min-height:44px;padding:8px 12px;font-weight:700;text-align:left}
+.sec>button i{font-style:normal;font-family:var(--f-mono);color:var(--muted)}
+.sec .bd{padding:0 12px 12px}
+#secR>button{color:var(--teal)}
+.bd p{margin:0 0 6px} .bd ul{margin:0 0 6px;padding-left:18px;display:grid;gap:4px}
+.eq{font-family:var(--f-mono);font-size:.9rem;font-weight:600;background:var(--teal-bg);border-radius:6px;padding:6px 10px;margin:4px 0 8px}
+.ans{color:var(--teal);font-weight:700}
+.link{border:1px solid var(--line);background:var(--card);border-radius:8px;min-height:40px;padding:6px 12px}
+.nav{display:flex;gap:6px;height:48px;flex:0 0 auto}
+.nav button{flex:1;border:1px solid var(--line);border-radius:8px;background:var(--card);padding:0 8px}
+.nav button.on{background:var(--teal-bg);border-color:var(--teal)}
+@media (max-width:899px){
+  .side{position:absolute;left:0;right:0;bottom:56px;max-height:62%;overflow:auto;z-index:5;box-shadow:0 -10px 24px -12px rgba(0,0,0,.45);border-radius:10px}
+  .side[data-open=""]{display:none}
+  .side[data-open="reason"] #secC,.side[data-open="check"] #secR{display:none}
+}
+@media (max-width:899px) and (max-height:700px){
+  .goal{padding:6px 10px} .goal b{font-size:.95rem} .obs{font-size:.88rem;line-height:1.35} .pill{font-size:.74rem}
+}
+@media (min-width:900px){
+  body{padding-top:14px;padding-bottom:14px}
+  .app{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);grid-template-rows:auto auto minmax(0,1fr);
+    grid-template-areas:"hd hd" "fig text" "fig side";gap:12px 16px}
+  .hd{grid-area:hd} .text{grid-area:text} .figwrap{grid-area:fig} .side{grid-area:side;overflow:auto}
+  .hd h1{font-size:1.25rem} .goal b{font-size:1.15rem} .obs{font-size:1rem}
+  .nav{display:none}
+}
+</style>
+</head>
+<body>
+
+<div class="app">
+  <header class="hd"><h1>Vertical Throw Practice</h1><div class="tabs" aria-label="Page"><span>D</span></div></header>
+  <div class="text">
+    <div class="goal"><span class="k">Learning goal D</span><b>Calculate the maximum height reached, in your head.</b></div>
+    <div class="obs"><span class="k">Observe and practice</span><p>Condition for maximum height: v = 0.</p><p>Maximum height H<sub>max</sub> = ½ u tₐ</p><p>Calculate the maximum height, then verify by clicking the matching button:</p><ol class="iv iv3"><li>1) u = 20 m/s</li><li>2) u = 25 m/s</li><li>3) u = 30 m/s</li></ol><p>Hint: use the page B practice to find tₐ mentally.</p></div>
+  </div>
+  <section class="figwrap" aria-label="Figure">
+    <div class="pill" id="pill" aria-live="polite"></div>
+    <svg id="fig" viewBox="0 0 360 330" role="img" aria-label="Ball at launch and at the top, with u, v = 0 and the maximum height"></svg>
+    <div class="ctl" id="ctl"><span class="seg" id="useg" aria-label="Launch velocity"></span></div>
+  </section>
+  <div class="side" id="side" data-open="">
+    <section class="sec" id="secR"><button id="tR" aria-expanded="false"><span>Reason</span><i>show +</i></button><div class="bd" id="bdR" hidden><p>Maximum height is a special case of finding the displacement when u, v and the time interval are known: here v = 0 and the time interval is tₐ.</p><div class="eq">H<sub>max</sub> = ½ (u + 0) tₐ = ½ u tₐ</div></div></section>
+    <section class="sec" id="secC"><button id="tC" aria-expanded="false"><span>Check yourself</span><i>show +</i></button><div class="bd" id="bdC" hidden><p>An object is projected up with a speed of 20 m/s from the top of a tower 30 m high. What is the maximum height reached above the ground?</p><button class="link" id="bAns">Show the answer</button><p class="ans" id="ans" hidden>50 m. H<sub>max</sub> = ½ × 20 × 2 = 20 m above the top of the tower. Height above the ground = H<sub>max</sub> + height of the tower = 20 + 30 = 50 m.</p></div></section>
+  </div>
+  <nav class="nav" aria-label="Panels">
+    <button id="nR">Reason</button>
+    <button id="nC">Check</button>
+  </nav>
+</div>
+
+<script>
+/* ===== Shell: Reason / Check panels ===== */
+const $ = id => document.getElementById(id);
+let open='';
+function renderSide(){
+  $('side').dataset.open=open;
+  const r=open==='reason', c=open==='check';
+  $('bdR').hidden=!r; $('bdC').hidden=!c;
+  $('tR').setAttribute('aria-expanded',r); $('tC').setAttribute('aria-expanded',c);
+  $('tR').querySelector('i').textContent=r?'close ×':'show +'; $('tC').querySelector('i').textContent=c?'close ×':'show +';
+  $('nR').classList.toggle('on',r); $('nC').classList.toggle('on',c);
+}
+const toggle=n=>{ open = open===n ? '' : n; renderSide(); };
+$('nR').onclick=$('tR').onclick=()=>toggle('reason');
+$('nC').onclick=$('tC').onclick=()=>toggle('check');
+$('bAns').onclick=()=>{ $('ans').hidden=false; $('bAns').hidden=true; };
+renderSide();
+
+/* ===== Shared helpers ===== */
+const G=10;
+const fmt=n=>String(Math.round((Math.abs(n)<1e-9?0:n)*100)/100).replace('-','−');
+const sg=n=>{n=Math.round(n*100)/100;return n>0?'+'+fmt(n):n<0?'−'+fmt(-n):'0';};
+const reduced=()=>{try{return matchMedia('(prefers-reduced-motion: reduce)').matches;}catch(e){return false;}};
+function arrow(p1,p2,c,w=3,head=9){
+  const dx=p2[0]-p1[0],dy=p2[1]-p1[1],L=Math.hypot(dx,dy); if(L<2) return '';
+  const ux=dx/L,uy=dy/L,h=Math.min(head,L),bx=p2[0]-ux*h,by=p2[1]-uy*h,nx=-uy*head/2,ny=ux*head/2;
+  return `<line x1="${p1[0]}" y1="${p1[1]}" x2="${bx}" y2="${by}" stroke="var(${c})" stroke-width="${w}"/><polygon points="${p2[0]},${p2[1]} ${bx+nx},${by+ny} ${bx-nx},${by-ny}" fill="var(${c})"/>`;
+}
+const T=(x,y,s,c='--ink',o={})=>`<text x="${x}" y="${y}" font-size="${o.size||12}" text-anchor="${o.a||'start'}" fill="var(${c})" ${o.b?'font-weight="600"':''}>${s}</text>`;
+const pill=(a,nx)=>{ $('pill').innerHTML=`<span>${a}</span>`+(nx?`<span class="nx">${nx}</span>`:''); };
+
+/* ===== Page ===== */
+const US=[20,25,30], HT=45;
+const st={u:0};
+const HM=`H<tspan font-size="9" dy="3">max</tspan><tspan dy="-3">`;
+function draw(){
+  const u=st.u;
+  let s='';
+  const Y0=300, k=232/HT, Yb=h=>Y0-k*h, ax=52, X1=110, X2=190, XD=250, VS=1.6;
+  s+=`<line x1="${ax-12}" y1="${Y0}" x2="${XD+10}" y2="${Y0}" stroke="var(--ink)" stroke-width="2"/><line x1="${ax}" y1="${Yb(HT)}" x2="${ax}" y2="${Y0}" stroke="var(--muted)" stroke-width="1.2"/>`;
+  for(let m=0;m<=HT;m+=5) s+=`<line x1="${ax-(m%10?4:6)}" y1="${Yb(m)}" x2="${ax}" y2="${Yb(m)}" stroke="var(--muted)" stroke-width="1.2"/>`+(m%10?'':T(ax-9,Yb(m)+4,m,'--muted',{a:'end',size:10}));
+  s+=T(ax,Yb(HT)-16,'y (m)','--muted',{a:'middle',size:10});
+  s+=arrow([10,Y0-40],[10,Y0-72],'--pause',2.2,8)+T(14,Y0-52,'+','--pause',{b:1,size:14});
+  const ball=(x,cy)=>`<circle cx="${x}" cy="${cy}" r="10" fill="var(--ball)" stroke="var(--ink)" stroke-width="1.2"/>`;
+  if(!u){ const cy=Y0-10; s+=ball(X1,cy)+T(X1,cy-18,'u = ?','--vel',{a:'middle',b:1,size:13}); }
+  else {
+    const ta=u/G, H=u*u/(2*G), ya=Y0-10, yb=Yb(H)-10;
+    s+=`<line x1="${X1+10}" y1="${ya}" x2="${XD}" y2="${ya}" stroke="var(--pause)" stroke-dasharray="2 4" opacity=".7"/><line x1="${X2+10}" y1="${yb}" x2="${XD}" y2="${yb}" stroke="var(--pause)" stroke-dasharray="2 4" opacity=".7"/>`;
+    s+=T(X1,Y0+20,'launch','--muted',{a:'middle',size:11})+T(X2,Y0+20,'top','--muted',{a:'middle',size:11});
+    s+=ball(X1,ya)+T(X1-14,ya+4,'0 s','--ink',{a:'end',size:11});
+    const y1=ya-11-VS*u; s+=arrow([X1,ya-11],[X1,y1],'--vel',3,9)+T(X1,y1-6,`u = ${sg(u)}`,'--vel',{a:'middle',b:1,size:13});
+    s+=ball(X2,yb)+T(X2-14,yb+4,`tₐ = ${fmt(ta)} s`,'--ink',{a:'end',size:11})+T(X2,yb-16,'v = 0','--vel',{a:'middle',b:1,size:13});
+    s+=arrow([XD,ya],[XD,yb],'--pause',4,11)+T(XD+8,(ya+yb)/2+5,`${HM} = ${fmt(H)} m</tspan>`,'--pause',{b:1,size:13});
+  }
+  $('fig').innerHTML=s;
+  let a,nx;
+  if(!u){ a='Condition for maximum height: v = 0'; nx='Calculate H<sub>max</sub> for u = 20 m/s, then click its button to verify.'; }
+  else { const ta=u/G, H=u*u/(2*G);
+    a=`u = ${sg(u)} m/s, v = 0 at the top, tₐ = ${fmt(ta)} s`;
+    nx=`H<sub>max</sub> = ½ × u × tₐ = ½ × ${u} × ${fmt(ta)} = ${fmt(H)} m`; }
+  pill(a,nx);
+  document.querySelectorAll('#useg button').forEach(b=>{ const on=+b.dataset.u===st.u; b.classList.toggle('on',on); b.setAttribute('aria-pressed',on); });
+}
+$('useg').innerHTML=US.map((u,i)=>`<button data-u="${u}" aria-pressed="false" aria-label="Case ${i+1}: u = ${u} m/s">u = ${u}</button>`).join('');
+$('useg').onclick=e=>{ const b=e.target.closest('[data-u]'); if(!b) return; st.u=+b.dataset.u; draw(); };
+draw();
+
+</script>
+
+</body>
+</html>

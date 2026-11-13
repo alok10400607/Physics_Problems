@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Vertical Throw Practice</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=JetBrains+Mono:wght@400;600&family=Literata:opsz,wght@7..72,600&display=swap">
+<style>
+html,body{margin:0}
+/* Layout follows Vertical Throw Lab: goal and Observe above one figure; Reason and Check open on demand. */
+:root{
+  --bg:#f2f4f8; --card:#ffffff; --ink:#18202b; --muted:#5b6777; --line:#d3dae4; --soft:#e9edf3;
+  --vel:#0b8585; --grav:#cc3a31; --pause:#6748c2; --ball:#dd8616; --teal:#0b6f73;
+  --pause-bg:#f0ecfb; --teal-bg:#e6f4f3;
+  --f-display:"Literata",Georgia,serif; --f-body:"Atkinson Hyperlegible",system-ui,sans-serif; --f-mono:"JetBrains Mono",ui-monospace,Menlo,monospace;
+}
+@media (prefers-color-scheme: dark){ :root:not([data-theme="light"]){
+  --bg:#10141a; --card:#19202a; --ink:#e7ebf1; --muted:#98a4b4; --line:#2d3644; --soft:#222a36;
+  --vel:#3fc6c1; --grav:#f06a60; --pause:#a890f2; --ball:#f0a640; --teal:#5fd0cb;
+  --pause-bg:#251f3d; --teal-bg:#14302f; color-scheme:dark } }
+[hidden]{display:none !important}
+*{box-sizing:border-box}
+html,body{height:100%}
+body{background:var(--bg);color:var(--ink);font-family:var(--f-body);font-size:16px;line-height:1.45;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));
+  padding-top:max(8px,env(safe-area-inset-top,0px));padding-bottom:max(8px,env(safe-area-inset-bottom,0px))}
+button{font:inherit;color:inherit;cursor:pointer}
+button:disabled{opacity:.4;cursor:default}
+button:focus-visible{outline:2px solid var(--pause);outline-offset:2px}
+.app{position:relative;height:100%;min-height:520px;max-width:1120px;margin:0 auto;display:flex;flex-direction:column;gap:8px}
+.hd{display:flex;align-items:center;gap:10px;justify-content:space-between}
+.hd h1{font-family:var(--f-display);font-size:1.05rem;margin:0;font-weight:600;white-space:nowrap;min-width:0;overflow:hidden;text-overflow:ellipsis}
+.tabs{display:flex;gap:3px;flex:0 0 auto}
+.tabs span{display:grid;place-items:center;width:30px;height:34px;border-radius:8px;background:var(--pause);color:#fff;font-family:var(--f-mono);font-size:.82rem}
+.k{display:block;font-size:.68rem;letter-spacing:.09em;text-transform:uppercase;font-weight:700}
+.text{display:grid;gap:6px}
+.goal{background:var(--pause-bg);border-radius:8px;padding:8px 12px}
+.goal .k{color:var(--pause)}
+.goal b{font-family:var(--f-display);font-weight:600;font-size:1.02rem}
+.obs{margin:0;padding:0 2px;font-size:.95rem}
+.obs .k{color:var(--muted)}
+.obs p{margin:0 0 2px}
+.obs ol.iv{list-style:none;margin:0 0 2px;padding:0;display:grid;grid-template-columns:1fr 1fr;gap:0 12px;font-family:var(--f-mono);font-size:.85em}
+.figwrap{flex:1;min-height:0;background:var(--card);border:1px solid var(--line);border-radius:10px;display:flex;flex-direction:column;padding:8px 10px}
+.pill{font-family:var(--f-mono);font-size:.8rem;min-height:2.6em;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;color:var(--ink)}
+.pill .nx{color:var(--pause);font-weight:600}
+#fig{flex:1;min-height:0;width:100%;display:block}
+#fig text{font-family:var(--f-mono)}
+@media (max-width:899px){ #fig text[font-size="10"]{font-size:12.5px} #fig text[font-size="11"]{font-size:13px} }
+.ctl{display:flex;gap:6px;flex-wrap:wrap;justify-content:center;align-items:center;padding-top:6px}
+.ctl button{min-width:42px;height:36px;border:1px solid var(--line);border-radius:8px;background:var(--card);padding:0 10px;font-family:var(--f-mono);font-size:.8rem}
+.ctl button.pri{background:var(--ink);color:var(--card);border-color:var(--ink)}
+.ctl .seg{display:inline-flex;border:1px solid var(--line);border-radius:8px;overflow:hidden}
+.ctl .seg button{border:0;border-radius:0;border-left:1px solid var(--line);min-width:38px;padding:0 8px}
+.ctl .seg button:first-child{border-left:0}
+.ctl .seg button.on{background:var(--ink);color:var(--card)}
+.ctl .lab{font-size:.78rem;color:var(--muted)}
+.side{display:grid;gap:8px;align-content:start}
+.sec{background:var(--card);border:1px solid var(--line);border-radius:10px;overflow:hidden}
+.sec>button{display:flex;width:100%;justify-content:space-between;align-items:center;border:0;background:none;min-height:44px;padding:8px 12px;font-weight:700;text-align:left}
+.sec>button i{font-style:normal;font-family:var(--f-mono);color:var(--muted)}
+.sec .bd{padding:0 12px 12px}
+#secR>button{color:var(--teal)}
+.bd p{margin:0 0 6px} .bd ul{margin:0 0 6px;padding-left:18px;display:grid;gap:4px}
+.eq{font-family:var(--f-mono);font-size:.9rem;font-weight:600;background:var(--teal-bg);border-radius:6px;padding:6px 10px;margin:4px 0 8px}
+.ans{color:var(--teal);font-weight:700}
+.link{border:1px solid var(--line);background:var(--card);border-radius:8px;min-height:40px;padding:6px 12px}
+.nav{display:flex;gap:6px;height:48px;flex:0 0 auto}
+.nav button{flex:1;border:1px solid var(--line);border-radius:8px;background:var(--card);padding:0 8px}
+.nav button.on{background:var(--teal-bg);border-color:var(--teal)}
+@media (max-width:899px){
+  .side{position:absolute;left:0;right:0;bottom:56px;max-height:62%;overflow:auto;z-index:5;box-shadow:0 -10px 24px -12px rgba(0,0,0,.45);border-radius:10px}
+  .side[data-open=""]{display:none}
+  .side[data-open="reason"] #secC,.side[data-open="check"] #secR{display:none}
+}
+@media (max-width:899px) and (max-height:700px){
+  .goal{padding:6px 10px} .goal b{font-size:.95rem} .obs{font-size:.88rem;line-height:1.35} .pill{font-size:.74rem}
+}
+@media (min-width:900px){
+  body{padding-top:14px;padding-bottom:14px}
+  .app{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);grid-template-rows:auto auto minmax(0,1fr);
+    grid-template-areas:"hd hd" "fig text" "fig side";gap:12px 16px}
+  .hd{grid-area:hd} .text{grid-area:text} .figwrap{grid-area:fig} .side{grid-area:side;overflow:auto}
+  .hd h1{font-size:1.25rem} .goal b{font-size:1.15rem} .obs{font-size:1rem}
+  .nav{display:none}
+}
+</style>
+</head>
+<body>
+
+<div class="app">
+  <header class="hd"><h1>Vertical Throw Practice</h1><div class="tabs" aria-label="Page"><span>G</span></div></header>
+  <div class="text">
+    <div class="goal"><span class="k">Learning goal G</span><b>Find the time of flight of an object thrown up from a height.</b></div>
+    <div class="obs"><span class="k">Observe and learn</span><p>A ball is thrown up at 30 m/s from a 35 m tower. Find the time it takes to hit the ground, without pen and paper. Then press <b>▶ Play</b>, and <b>Continue</b> for the fall.</p><p>Hint: starting down at 30 m/s, how far does it go in 1 s?</p></div>
+  </div>
+  <section class="figwrap" aria-label="Figure">
+    <div class="pill" id="pill" aria-live="polite"></div>
+    <svg id="fig" viewBox="0 0 360 330" role="img" aria-label="Ball thrown up from a 35 m tower, back to the launch level and then down to the ground"></svg>
+    <div class="ctl" id="ctl"><button class="pri" id="bPlay">▶ Play</button></div>
+  </section>
+  <div class="side" id="side" data-open="">
+    <section class="sec" id="secR"><button id="tR" aria-expanded="false"><span>Reason</span><i>show +</i></button><div class="bd" id="bdR" hidden><p>The ball reaches the level of projection with a velocity of equal magnitude but opposite direction: v = −30 m/s, after 2tₐ = 6 s.</p><p>From there it falls 35 m, starting at 30 m/s. After 1 s its speed is 40 m/s, so the mean speed is 35 m/s and it covers 35 × 1 = 35 m. The last part takes exactly 1 s.</p><div class="eq">Time of flight = 6 s + 1 s = 7 s<br>Check: −35 = 30t − 5t² ⇒ t = 7 s</div></div></section>
+    <section class="sec" id="secC"><button id="tC" aria-expanded="false"><span>Check yourself</span><i>show +</i></button><div class="bd" id="bdC" hidden><p>What will be the time of flight of an object projected up at 25 m/s from a height of 30 m?</p><button class="link" id="bAns">Show the answer</button><p class="ans" id="ans" hidden>6 s. It returns to the launch level after 2 × 2.5 = 5 s, moving down at 25 m/s. In the next 1 s its speed goes from 25 to 35 m/s: mean 30 m/s × 1 s = 30 m, exactly the height. Total 5 + 1 = 6 s.</p></div></section>
+  </div>
+  <nav class="nav" aria-label="Panels">
+    <button id="nR">Reason</button>
+    <button id="nC">Check</button>
+  </nav>
+</div>
+
+<script>
+/* ===== Shell: Reason / Check panels ===== */
+const $ = id => document.getElementById(id);
+let open='';
+function renderSide(){
+  $('side').dataset.open=open;
+  const r=open==='reason', c=open==='check';
+  $('bdR').hidden=!r; $('bdC').hidden=!c;
+  $('tR').setAttribute('aria-expanded',r); $('tC').setAttribute('aria-expanded',c);
+  $('tR').querySelector('i').textContent=r?'close ×':'show +'; $('tC').querySelector('i').textContent=c?'close ×':'show +';
+  $('nR').classList.toggle('on',r); $('nC').classList.toggle('on',c);
+}
+const toggle=n=>{ open = open===n ? '' : n; renderSide(); };
+$('nR').onclick=$('tR').onclick=()=>toggle('reason');
+$('nC').onclick=$('tC').onclick=()=>toggle('check');
+$('bAns').onclick=()=>{ $('ans').hidden=false; $('bAns').hidden=true; };
+renderSide();
+
+/* ===== Shared helpers ===== */
+const G=10;
+const fmt=n=>String(Math.round((Math.abs(n)<1e-9?0:n)*100)/100).replace('-','−');
+const sg=n=>{n=Math.round(n*100)/100;return n>0?'+'+fmt(n):n<0?'−'+fmt(-n):'0';};
+const reduced=()=>{try{return matchMedia('(prefers-reduced-motion: reduce)').matches;}catch(e){return false;}};
+function arrow(p1,p2,c,w=3,head=9){
+  const dx=p2[0]-p1[0],dy=p2[1]-p1[1],L=Math.hypot(dx,dy); if(L<2) return '';
+  const ux=dx/L,uy=dy/L,h=Math.min(head,L),bx=p2[0]-ux*h,by=p2[1]-uy*h,nx=-uy*head/2,ny=ux*head/2;
+  return `<line x1="${p1[0]}" y1="${p1[1]}" x2="${bx}" y2="${by}" stroke="var(${c})" stroke-width="${w}"/><polygon points="${p2[0]},${p2[1]} ${bx+nx},${by+ny} ${bx-nx},${by-ny}" fill="var(${c})"/>`;
+}
+const T=(x,y,s,c='--ink',o={})=>`<text x="${x}" y="${y}" font-size="${o.size||12}" text-anchor="${o.a||'start'}" fill="var(${c})" ${o.b?'font-weight="600"':''}>${s}</text>`;
+const pill=(a,nx)=>{ $('pill').innerHTML=`<span>${a}</span>`+(nx?`<span class="nx">${nx}</span>`:''); };
+
+/* ===== Page ===== */
+const U=30, H0=35, T1=2*U/G, T2=7, SPEED=1/0.7;
+const st={t:0,playing:false};
+const hAt=t=>H0+U*t-G*t*t/2, vAt=t=>U-G*t;
+function draw(){
+  const t=st.t, h=hAt(t), v=vAt(t), p1=t>=T1-1e-9, end=t>=T2-1e-9;
+  let s='';
+  const Y0=300, k=262/80, Yb=y=>Y0-k*y, ax=50, XU=158, XD=196;
+  s+=`<line x1="${ax-10}" y1="${Y0}" x2="226" y2="${Y0}" stroke="var(--ink)" stroke-width="2"/><line x1="${ax}" y1="${Yb(80)}" x2="${ax}" y2="${Y0}" stroke="var(--muted)" stroke-width="1.2"/>`;
+  for(let m=0;m<=80;m+=10) s+=`<line x1="${ax-(m%20?4:6)}" y1="${Yb(m)}" x2="${ax}" y2="${Yb(m)}" stroke="var(--muted)" stroke-width="1.2"/>`+(m%20?'':T(ax-8,Yb(m)+4,m,'--muted',{a:'end',size:10}));
+  s+=T(ax,Yb(80)-10,'y (m)','--muted',{a:'middle',size:10});
+  s+=`<rect x="98" y="${Yb(H0)}" width="46" height="${k*H0}" fill="var(--soft)" stroke="var(--muted)"/>`+T(121,Yb(H0/2)+4,'35 m','--muted',{a:'middle',size:11});
+  s+=`<line x1="${ax}" y1="${Yb(H0)}" x2="226" y2="${Yb(H0)}" stroke="var(--muted)" stroke-dasharray="3 5"/>`+T(ax+4,Yb(H0)-5,'launch level','--muted',{size:10});
+  s+=`<line x1="${ax}" y1="${Yb(80)}" x2="226" y2="${Yb(80)}" stroke="var(--soft)" stroke-dasharray="3 5"/>`;
+  s+=arrow([12,Y0-40],[12,Y0-72],'--pause',2.2,8)+T(16,Y0-52,'+','--pause',{b:1,size:14});
+  // rings at each whole second passed
+  for(let q=0;q<=Math.floor(t+1e-9);q++){ const x=q<=3?XU:XD; s+=`<circle cx="${x}" cy="${Yb(hAt(q))}" r="5" fill="var(--card)" stroke="var(--muted)" stroke-width="1.4"/>`; }
+  const bx=t<=3?XU:XD, by=Yb(Math.max(0,h));
+  if(Math.abs(v)>0.05){ const len=Math.min(60,1.3*Math.abs(v)); s+=arrow([bx+16,by],[bx+16,by+(v>0?-len:len)],'--vel',2.6,8); }
+  s+=`<circle cx="${bx}" cy="${by}" r="9" fill="var(--ball)" stroke="var(--ink)" stroke-width="1.2"/>`;
+  // tally
+  const R=232; let ry=60;
+  const line=(txt,c,o={})=>{ s+=T(R,ry,txt,c,o); ry+=o.gap||20; };
+  const tw=Math.floor(t+1e-9);
+  line(`t = ${tw} s`,'--ink',{b:1,size:14});
+  line(`v = ${sg(vAt(tw))} m/s`,'--vel',{b:1,size:13});
+  line(`y = ${fmt(hAt(tw))} m`,'--ink',{size:13,gap:34});
+  if(p1){ line('Up and back to','--muted',{size:11,gap:15}); line('launch level','--muted',{size:11,gap:16}); line('= 6 s','--pause',{b:1,size:13,gap:26}); }
+  if(end){ line('Last 35 m','--muted',{size:11,gap:16}); line('= 1 s','--pause',{b:1,size:13,gap:28});
+    s+=`<line x1="${R}" y1="${ry-18}" x2="354" y2="${ry-18}" stroke="var(--line)"/>`; line('Time of flight','--ink',{size:12,gap:18}); line('= 6 + 1 = 7 s','--pause',{b:1,size:14}); }
+  $('fig').innerHTML=s;
+  let a,nx='';
+  if(t===0){ a='u = +30 m/s from a height of 35 m'; nx='Find the time to hit the ground in your head, then press ▶ Play.'; }
+  else if(!p1||(!end&&st.playing)){ a='u = +30 m/s from a height of 35 m'; }
+  else if(!end){ a='Back at the launch level after 6 s, with v = −30 m/s'; nx='How long for the last 35 m? Then press Continue.'; }
+  else { a='Hits the ground at t = 7 s'; nx='Last 35 m: v goes from −30 to −40 m/s, mean 35 m/s, so 1 s.'; }
+  pill(a,nx);
+  const b=$('bPlay');
+  b.textContent = st.playing ? '❚❚ Pause' : end ? '↺ Replay' : (p1 ? 'Continue ▶' : (t>0 ? '▶ Resume' : '▶ Play'));
+}
+function run(target){
+  if(reduced()){ st.t=target; draw(); return; }
+  st.playing=true; let last=performance.now();
+  const f=now=>{ if(!st.playing) return;
+    st.t=Math.min(target,st.t+Math.min(0.05,(now-last)/1000)*SPEED); last=now;
+    if(st.t>=target-1e-9){ st.t=target; st.playing=false; draw(); return; }
+    draw(); requestAnimationFrame(f); };
+  draw(); requestAnimationFrame(f);
+}
+$('bPlay').onclick=()=>{
+  if(st.playing){ st.playing=false; draw(); return; }
+  if(st.t>=T2-1e-9){ st.t=0; draw(); return; }
+  run(st.t<T1-1e-9 ? T1 : T2);
+};
+draw();
+
+</script>
+
+</body>
+</html>

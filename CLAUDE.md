@@ -9,6 +9,7 @@ A bank of JEE/NEET physics problems with three-level solutions, and the website 
 - **Problem IDs are permanent.** Only the importers assign them, from `bank/registry.json`. Never reuse, renumber or hand-assign an ID.
 - **Never change an answer key silently.** If your solution disagrees with the key, flag it for the reviewer.
 - **Topic codes** come only from `bank/topics.json`, as 4-digit text (e.g. "0211").
+- **Interactive pages** (the "Exemplars & animations" tab) live in `bank/labs/<series>/`, listed in `bank/labs/index.json` with the subtopics each page belongs to (the first is its home). Add a page by copying the HTML there and adding a line to the index; the build copies it to `site/labs/`. Never edit `site/labs/`.
 - **Maths** is Markdown with LaTeX, following `docs/maths-style.md`. Figures are referred to as `![](asset:<asset id>)`.
 - Before every commit: `node tools/check_bank.js` must show no errors, then run `node tools/build_site.js`.
 
