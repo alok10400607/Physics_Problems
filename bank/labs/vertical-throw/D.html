@@ -7,7 +7,8 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=JetBrains+Mono:wght@400;600&family=Literata:opsz,wght@7..72,600&display=swap">
 <style>
 html,body{margin:0}
-/* Layout follows Vertical Throw Lab: goal and Observe above one figure; Reason and Check open on demand. */
+/* Layout follows Vertical Throw Lab: goal and Observe above one figure; Reason and Check open on demand.
+   The status line above the figure keeps room for three lines, so the figure never jumps when its text changes. */
 :root{
   --bg:#f2f4f8; --card:#ffffff; --ink:#18202b; --muted:#5b6777; --line:#d3dae4; --soft:#e9edf3;
   --vel:#0b8585; --grav:#cc3a31; --pause:#6748c2; --ball:#dd8616; --teal:#0b6f73;
@@ -43,7 +44,7 @@ button:focus-visible{outline:2px solid var(--pause);outline-offset:2px}
 .obs ol.iv{list-style:none;margin:0 0 2px;padding:0;display:grid;grid-template-columns:1fr 1fr;gap:0 12px;font-family:var(--f-mono);font-size:.85em}
 .obs ol.iv3{grid-template-columns:repeat(3,auto);justify-content:start;gap:0 18px}
 .figwrap{flex:1;min-height:0;background:var(--card);border:1px solid var(--line);border-radius:10px;display:flex;flex-direction:column;padding:8px 10px}
-.pill{font-family:var(--f-mono);font-size:.8rem;min-height:2.6em;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;color:var(--ink)}
+.pill{font-family:var(--f-mono);font-size:.8rem;min-height:4.6em;flex:0 0 auto;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;color:var(--ink)}
 .pill .nx{color:var(--pause);font-weight:600}
 #fig{flex:1;min-height:0;width:100%;display:block}
 #fig text{font-family:var(--f-mono)}

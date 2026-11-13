@@ -7,7 +7,8 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=JetBrains+Mono:wght@400;600&family=Literata:opsz,wght@7..72,600&display=swap">
 <style>
 html,body{margin:0}
-/* Layout follows Vertical Throw Lab: goal and Observe above one figure; Reason and Check open on demand. */
+/* Layout follows Vertical Throw Lab: goal and Observe above one figure; Reason and Check open on demand.
+   The status line above the figure keeps room for three lines, so the figure never jumps when its text changes. */
 :root{
   --bg:#f2f4f8; --card:#ffffff; --ink:#18202b; --muted:#5b6777; --line:#d3dae4; --soft:#e9edf3;
   --vel:#0b8585; --grav:#cc3a31; --pause:#6748c2; --ball:#dd8616; --teal:#0b6f73;
@@ -40,7 +41,7 @@ button:focus-visible{outline:2px solid var(--pause);outline-offset:2px}
 .obs{margin:0;padding:0 2px;font-size:.95rem}
 .obs .k{color:var(--muted)}
 .figwrap{flex:1;min-height:0;background:var(--card);border:1px solid var(--line);border-radius:10px;display:flex;flex-direction:column;padding:8px 10px}
-.pill{font-family:var(--f-mono);font-size:.8rem;min-height:2.6em;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;color:var(--ink)}
+.pill{font-family:var(--f-mono);font-size:.8rem;min-height:4.6em;flex:0 0 auto;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;color:var(--ink)}
 .pill .nx{color:var(--pause);font-weight:600}
 #fig{flex:1;min-height:0;width:100%;display:block}
 #fig text{font-family:var(--f-mono)}
@@ -87,19 +88,19 @@ button:focus-visible{outline:2px solid var(--pause);outline-offset:2px}
 <body>
 
 <div class="app">
-  <header class="hd"><h1>Vertical Throw Practice</h1><div class="tabs" aria-label="Page"><span>A</span></div></header>
+  <header class="hd"><h1>Vertical Throw Practice</h1><div class="tabs" aria-label="Page"><span>B</span></div></header>
   <div class="text">
-    <div class="goal"><span class="k">Learning goal A</span><b>Find the velocity at any instant by mental calculation.</b></div>
-    <p class="obs"><span class="k">Observe and practice</span>A ball is thrown up from the ground at u = 35 m/s. Before each click, find v at the next time in your head. Then click <b>+0.5 s</b> and check your answer on the graph.</p>
+    <div class="goal"><span class="k">Learning goal B</span><b>Calculate the time of ascent (tₐ) in your head.</b></div>
+    <p class="obs"><span class="k">Observe and practice</span>Calculate tₐ for u = 25 m/s, then click <b>▶ Play</b> to verify your answer. Repeat for u = 30 m/s and 35 m/s.</p>
   </div>
   <section class="figwrap" aria-label="Figure">
     <div class="pill" id="pill" aria-live="polite"></div>
-    <svg id="fig" viewBox="0 0 360 400" role="img" aria-label="Ball thrown up from the ground and its velocity–time graph"></svg>
-    <div class="ctl" id="ctl"><button class="pri" id="bStep">+0.5 s</button><button id="bReset" aria-label="Start again">↺</button></div>
+    <svg id="fig" viewBox="0 0 360 400" role="img" aria-label="Ball thrown up from the ground and its velocity–time graph up to the top"></svg>
+    <div class="ctl" id="ctl"><span class="lab">u (m/s)</span><span class="seg" id="useg"></span><button class="pri" id="bPlay">▶ Play</button></div>
   </section>
   <div class="side" id="side" data-open="">
-    <section class="sec" id="secR"><button id="tR" aria-expanded="false"><span>Reason</span><i>show +</i></button><div class="bd" id="bdR" hidden><p>v changes by −10 m/s every second, so by −5 m/s every half second.</p><p>After t seconds:</p><div class="eq">v = u − 10t = 35 − 10t</div><p>v positive: moving up. v = 0: the top. v negative: moving down.</p></div></section>
-    <section class="sec" id="secC"><button id="tC" aria-expanded="false"><span>Check yourself</span><i>show +</i></button><div class="bd" id="bdC" hidden><p>For u = 35 m/s, after how many seconds will the ball be moving <b>downwards</b> with a speed of 10 m/s?</p><button class="link" id="bAns">Show the answer</button><p class="ans" id="ans" hidden>4.5 s. Moving down at 10 m/s means v = −10 m/s. From +35 m/s to −10 m/s, v must decrease by 45 m/s. At 10 m/s every second, that takes 4.5 s.</p></div></section>
+    <section class="sec" id="secR"><button id="tR" aria-expanded="false"><span>Reason</span><i>show +</i></button><div class="bd" id="bdR" hidden><p>The time of ascent is the time taken for the velocity v to become zero: the ball stops moving up.</p><p>Notice how this relates to page A: v = 35 − 10t becomes 0 at t = 3.5 s.</p><p>Using the formula v = u + at, with v = 0 at the top and a = −10 m/s²:</p><div class="eq">0 = u − 10tₐ &nbsp;⇒&nbsp; tₐ = u/10</div></div></section>
+    <section class="sec" id="secC"><button id="tC" aria-expanded="false"><span>Check yourself</span><i>show +</i></button><div class="bd" id="bdC" hidden><p>Is the same tₐ valid if the particle is projected from a height?</p><button class="link" id="bAns">Show the answer</button><p class="ans" id="ans" hidden>Yes. The time of ascent depends only on u, not on the height of projection. When projected from a height, the time of descent is greater than the time of ascent.</p></div></section>
   </div>
   <nav class="nav" aria-label="Panels">
     <button id="nR">Reason</button>
@@ -139,56 +140,74 @@ const T=(x,y,s,c='--ink',o={})=>`<text x="${x}" y="${y}" font-size="${o.size||12
 const pill=(a,nx)=>{ $('pill').innerHTML=`<span>${a}</span>`+(nx?`<span class="nx">${nx}</span>`:''); };
 
 /* ===== Page ===== */
-const U=35, TF=2*U/G, H=U*U/(2*G);
-const st={t:0,shown:0,anim:false};
+const US=[25,30,35], HMAX=35*35/(2*G), SPEED=1/0.8;
+const st={u:25,t:0,playing:false,done:new Set()};
 
 
 function draw(){
-  const ts=st.shown, v=U-G*ts, y=U*ts-G*ts*ts/2;
+  const u=st.u, ta=u/G, t=st.t, v=u-G*t, y=u*t-G*t*t/2, H=u*u/(2*G), fin=t>=ta-1e-9;
   let s='';
-  // ball track from the ground
-  const Y0=372, k=300/H, Yb=h=>Y0-k*h, bx=34;
+  // ball track from the ground (same scale for every u)
+  const Y0=356, k=290/HMAX, Yb=h=>Y0-k*h, bx=34;
   s+=`<rect x="4" y="${Y0}" width="62" height="10" fill="var(--soft)"/><line x1="4" y1="${Y0}" x2="66" y2="${Y0}" stroke="var(--ink)" stroke-width="2"/>`;
   s+=T(35,Y0+24,'ground','--muted',{a:'middle',size:10});
-  s+=`<line x1="4" y1="${Yb(H)}" x2="66" y2="${Yb(H)}" stroke="var(--muted)" stroke-dasharray="3 5"/>`;
-  s+=arrow([10,70],[10,40],'--pause',2.2,8)+T(15,58,'+','--pause',{b:1,size:14});
-  const by=Yb(Math.max(0,y))-10;
-  if(Math.abs(v)>0.05) s+=arrow([bx+16,by],[bx+16,by-1.2*v],'--vel',2.6,8);
+  s+=arrow([10,Y0-40],[10,Y0-72],'--pause',2.2,8)+T(15,Y0-52,'+','--pause',{b:1,size:14});
+  if(fin) s+=`<line x1="4" y1="${Yb(H)}" x2="66" y2="${Yb(H)}" stroke="var(--muted)" stroke-dasharray="3 5"/>`;
+  const by=Yb(y)-10;
+  if(v>0.05) s+=arrow([bx+16,by],[bx+16,by-1.2*v],'--vel',2.6,8);
   s+=`<circle cx="${bx}" cy="${by}" r="10" fill="var(--ball)" stroke="var(--ink)" stroke-width="1.2"/>`;
-  // v–t graph
-  const gx=104, gw=242, X=t=>gx+gw*t/TF, Y=vv=>200-4*vv;
-  for(let q=-40;q<=40;q+=10){ s+=`<line x1="${gx}" y1="${Y(q)}" x2="${gx+gw}" y2="${Y(q)}" stroke="var(${q?'--soft':'--ink'})" stroke-width="${q?1:1.6}"/>`+T(gx-6,Y(q)+4,sg(q),'--muted',{a:'end',size:10}); }
-  for(let q=0;q<=TF;q++){ s+=`<line x1="${X(q)}" y1="${Y(40)}" x2="${X(q)}" y2="${Y(-40)}" stroke="var(--soft)"/>`+T(X(q),Y(-40)+16,q,'--muted',{a:'middle',size:10}); }
-  s+=T(gx-6,Y(40)-14,'v (m/s)','--vel',{a:'end',size:11})+T(gx+gw,Y(-40)+32,'t (s)','--muted',{a:'end',size:11});
-  const pts=[]; for(let q=0;q<=st.t+1e-9;q+=0.5) pts.push(q);
-  if(pts.length>1) s+=`<polyline points="${pts.map(q=>X(q)+','+Y(U-G*q)).join(' ')}" fill="none" stroke="var(--vel)" stroke-width="2" opacity=".6"/>`;
-  if(st.anim) s+=`<line x1="${X(st.t)}" y1="${Y(U-G*st.t)}" x2="${X(ts)}" y2="${Y(v)}" stroke="var(--vel)" stroke-width="2" opacity=".6"/>`;
-  pts.forEach(q=>{ s+=`<circle cx="${X(q)}" cy="${Y(U-G*q)}" r="3.6" fill="var(--vel)"/>`; });
-  if(!st.anim){ const q=st.t, vq=U-G*q, lx=X(q), ly=Y(vq);
-    s+=`<circle cx="${lx}" cy="${ly}" r="6.5" fill="none" stroke="var(--pause)" stroke-width="2"/>`;
-    const right=lx<gx+gw-70;
-    s+=T(right?lx+10:lx-10,ly+(vq>=0?-8:16),`${sg(vq)} m/s`,'--pause',{a:right?'start':'end',b:1,size:13}); }
+  if(fin) s+=T(bx,by+26,'v = 0','--vel',{a:'middle',b:1,size:11});
+  // v–t graph, 0–4 s, 0–40 m/s
+  const gx=104, gw=240, X=q=>gx+gw*q/4, Y=vv=>330-7*vv;
+  for(let q=0;q<=40;q+=10){ s+=`<line x1="${gx}" y1="${Y(q)}" x2="${gx+gw}" y2="${Y(q)}" stroke="var(${q?'--soft':'--ink'})" stroke-width="${q?1:1.6}"/>`+T(gx-6,Y(q)+4,sg(q),'--muted',{a:'end',size:10}); }
+  for(let q=0;q<=4;q+=0.5){ const whole=q%1===0;
+    s+=`<line x1="${X(q)}" y1="${Y(40)}" x2="${X(q)}" y2="${Y(0)}" stroke="var(--soft)" ${whole?'':'stroke-dasharray="2 4"'}/>`;
+    if(whole) s+=T(X(q),Y(0)+16,q,'--muted',{a:'middle',size:10}); }
+  s+=T(gx-6,Y(40)-14,'v (m/s)','--vel',{a:'end',size:11})+T(gx+gw,Y(0)+44,'t (s)','--muted',{a:'end',size:11});
+  // faint traces of runs already verified
+  st.done.forEach(w=>{ if(w===u) return;
+    s+=`<line x1="${X(0)}" y1="${Y(w)}" x2="${X(w/G)}" y2="${Y(0)}" stroke="var(--muted)" stroke-width="1.6" stroke-dasharray="4 4" opacity=".7"/>`;
+    s+=T(X(w/G),Y(0)-8,fmt(w/G),'--muted',{a:'middle',size:10})+`<circle cx="${X(w/G)}" cy="${Y(0)}" r="3" fill="var(--muted)"/>`; });
+  // current run
+  if(t>0){
+    s+=`<line x1="${X(0)}" y1="${Y(u)}" x2="${X(t)}" y2="${Y(v)}" stroke="var(--vel)" stroke-width="2.4"/>`;
+    for(let q=0;q<=t+1e-9;q+=0.5) s+=`<circle cx="${X(q)}" cy="${Y(u-G*q)}" r="3.6" fill="var(--vel)"/>`;
+  }
+  s+=`<circle cx="${X(0)}" cy="${Y(u)}" r="3.6" fill="var(--vel)"/>`+T(X(0)+8,Y(u)+4,`u = ${sg(u)}`,'--vel',{b:1,size:11});
+  if(t>0&&!fin) s+=`<circle cx="${X(t)}" cy="${Y(v)}" r="5" fill="var(--ball)" stroke="var(--ink)"/>`;
+  if(fin){
+    s+=`<circle cx="${X(ta)}" cy="${Y(0)}" r="7" fill="none" stroke="var(--pause)" stroke-width="2.2"/>`;
+    s+=T(X(ta)+10,Y(0)-10,'v = 0','--pause',{b:1,size:12});
+    s+=T(X(ta),Y(0)+30,`tₐ = ${fmt(ta)} s`,'--pause',{a:'middle',b:1,size:13});
+  }
   $('fig').innerHTML=s;
 
-  const t=st.t, vt=U-G*t;
-  let a = t===0 ? `t = 0 · v = u = +35 m/s`
-    : `t = ${fmt(t)} s: v = 35 − ${fmt(G*t)} = ${sg(vt)} m/s · ` + (Math.abs(vt)<1e-9?'the top':vt>0?'moving up':t>=TF-1e-9?'back on the ground':'moving down');
-  const nx = t<TF-1e-9 ? `Next: t = ${fmt(t+0.5)} s. v = ?` : 'Done. Press ↺ to start again.';
+  let a, nx='';
+  if(t===0){ a=`u = ${sg(u)} m/s · tₐ = ?`; nx='Find tₐ in your head, then press ▶ Play.'; }
+  else if(!fin){ a=`u = ${sg(u)} m/s · tₐ = ?`; }
+  else { a=`v = 0 at t = ${fmt(ta)} s, so tₐ = ${fmt(ta)} s (${u} m/s lost at 10 m/s every second)`;
+    const left=US.filter(w=>!st.done.has(w));
+    nx = left.length ? `Now try u = ${left[0]} m/s.` : 'All three done: tₐ = 2.5 s, 3 s, 3.5 s.'; }
   pill(a,nx);
-  $('bStep').disabled=st.anim||t>=TF-1e-9;
+  $('bPlay').textContent = st.playing ? '❚❚ Pause' : fin ? '↺ Replay' : t>0 ? '▶ Resume' : '▶ Play';
 }
-function step(){
-  if(st.anim||st.t>=TF-1e-9) return;
-  const from=st.t, to=from+0.5;
-  if(reduced()){ st.t=st.shown=to; draw(); return; }
-  st.anim=true; const t0=performance.now();
-  const f=now=>{ const k=Math.min(1,(now-t0)/600); st.shown=from+(to-from)*k;
-    if(k>=1){ st.t=st.shown=to; st.anim=false; } draw(); if(st.anim) requestAnimationFrame(f); };
-  requestAnimationFrame(f);
+function finish(){ st.t=st.u/G; st.playing=false; st.done.add(st.u); draw(); }
+function play(){
+  const ta=st.u/G;
+  if(st.playing){ st.playing=false; draw(); return; }
+  if(st.t>=ta-1e-9) st.t=0;
+  if(reduced()){ finish(); return; }
+  st.playing=true; let last=performance.now();
+  const f=now=>{ if(!st.playing) return;
+    st.t+=Math.min(0.05,(now-last)/1000)*SPEED; last=now;
+    if(st.t>=ta-1e-9){ finish(); return; }
+    draw(); requestAnimationFrame(f); };
+  draw(); requestAnimationFrame(f);
 }
-$('bStep').onclick=step;
-$('bReset').onclick=()=>{ st.t=st.shown=0; st.anim=false; draw(); };
-draw();
+function buildSeg(){ $('useg').innerHTML=US.map(u=>`<button data-u="${u}" class="${u===st.u?'on':''}" aria-pressed="${u===st.u}">${u}</button>`).join(''); }
+$('useg').onclick=e=>{ const b=e.target.closest('[data-u]'); if(!b) return; st.u=+b.dataset.u; st.t=0; st.playing=false; buildSeg(); draw(); };
+$('bPlay').onclick=play;
+buildSeg(); draw();
 
 </script>
 
