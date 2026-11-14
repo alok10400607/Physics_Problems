@@ -7,7 +7,8 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=JetBrains+Mono:wght@400;600&family=Literata:opsz,wght@7..72,600&display=swap">
 <style>
 html,body{margin:0}
-/* Layout follows Vertical Throw Lab: goal and Observe above one figure; Reason and Check open on demand. */
+/* Layout follows Vertical Throw Lab: goal and Observe above one figure; Reason and Check open on demand.
+   The status line above the figure keeps room for three lines, so the figure never jumps when its text changes. */
 :root{
   --bg:#f2f4f8; --card:#ffffff; --ink:#18202b; --muted:#5b6777; --line:#d3dae4; --soft:#e9edf3;
   --vel:#0b8585; --grav:#cc3a31; --pause:#6748c2; --ball:#dd8616; --teal:#0b6f73;
@@ -39,8 +40,10 @@ button:focus-visible{outline:2px solid var(--pause);outline-offset:2px}
 .goal b{font-family:var(--f-display);font-weight:600;font-size:1.02rem}
 .obs{margin:0;padding:0 2px;font-size:.95rem}
 .obs .k{color:var(--muted)}
+.obs p{margin:0 0 2px}
+.obs ol.iv{list-style:none;margin:0 0 2px;padding:0;display:grid;grid-template-columns:1fr 1fr;gap:0 12px;font-family:var(--f-mono);font-size:.85em}
 .figwrap{flex:1;min-height:0;background:var(--card);border:1px solid var(--line);border-radius:10px;display:flex;flex-direction:column;padding:8px 10px}
-.pill{font-family:var(--f-mono);font-size:.8rem;min-height:2.6em;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;color:var(--ink)}
+.pill{font-family:var(--f-mono);font-size:.8rem;min-height:4.6em;flex:0 0 auto;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;color:var(--ink)}
 .pill .nx{color:var(--pause);font-weight:600}
 #fig{flex:1;min-height:0;width:100%;display:block}
 #fig text{font-family:var(--f-mono)}
@@ -87,19 +90,19 @@ button:focus-visible{outline:2px solid var(--pause);outline-offset:2px}
 <body>
 
 <div class="app">
-  <header class="hd"><h1>Vertical Throw Practice</h1><div class="tabs" aria-label="Page"><span>B</span></div></header>
+  <header class="hd"><h1>Vertical Throw Practice</h1><div class="tabs" aria-label="Page"><span>C</span></div></header>
   <div class="text">
-    <div class="goal"><span class="k">Learning goal B</span><b>Calculate the time of ascent (tₐ) in your head.</b></div>
-    <p class="obs"><span class="k">Observe and practice</span>Calculate tₐ for u = 25 m/s, then click <b>▶ Play</b> to verify your answer. Repeat for u = 30 m/s and 35 m/s.</p>
+    <div class="goal"><span class="k">Learning goal C</span><b>Calculate the displacement in your head from the velocities at the start and end of a time interval.</b></div>
+    <div class="obs"><span class="k">Observe and practice</span><p>Displacement = mean velocity × time interval (uniformly accelerated motion).</p><p>Calculate the displacement, then verify by clicking the matching button:</p><ol class="iv"><li>1) t = 0 to 3 s</li><li>2) t = 0 to 3.5 s</li><li>3) t = 0 to 4 s</li><li>4) t = 3 to 5 s</li></ol><p>Hint: use the page A practice to find v mentally.</p></div>
   </div>
   <section class="figwrap" aria-label="Figure">
     <div class="pill" id="pill" aria-live="polite"></div>
-    <svg id="fig" viewBox="0 0 360 400" role="img" aria-label="Ball thrown up from the ground and its velocity–time graph up to the top"></svg>
-    <div class="ctl" id="ctl"><span class="lab">u (m/s)</span><span class="seg" id="useg"></span><button class="pri" id="bPlay">▶ Play</button></div>
+    <svg id="fig" viewBox="0 0 360 330" role="img" aria-label="Ball thrown up at 35 m/s shown at the start and end of the chosen interval, with u, v and the displacement"></svg>
+    <div class="ctl" id="ctl"><span class="seg" id="ivseg" aria-label="Time interval"></span></div>
   </section>
   <div class="side" id="side" data-open="">
-    <section class="sec" id="secR"><button id="tR" aria-expanded="false"><span>Reason</span><i>show +</i></button><div class="bd" id="bdR" hidden><p>The time of ascent is the time taken for the velocity v to become zero: the ball stops moving up.</p><p>Notice how this relates to page A: v = 35 − 10t becomes 0 at t = 3.5 s.</p><p>Using the formula v = u + at, with v = 0 at the top and a = −10 m/s²:</p><div class="eq">0 = u − 10tₐ &nbsp;⇒&nbsp; tₐ = u/10</div></div></section>
-    <section class="sec" id="secC"><button id="tC" aria-expanded="false"><span>Check yourself</span><i>show +</i></button><div class="bd" id="bdC" hidden><p>Is the same tₐ valid if the particle is projected from a height?</p><button class="link" id="bAns">Show the answer</button><p class="ans" id="ans" hidden>Yes. The time of ascent depends only on u, not on the height of projection. When projected from a height, the time of descent is greater than the time of ascent.</p></div></section>
+    <section class="sec" id="secR"><button id="tR" aria-expanded="false"><span>Reason</span><i>show +</i></button><div class="bd" id="bdR" hidden><p>In uniformly accelerated motion, the average velocity over an interval is the mean of the velocities at its start and end. So:</p><div class="eq">s = ½ (u + v)(t₂ − t₁)</div><p>where u and v are the velocities at t₁ and t₂.</p><p><b>Trap:</b> always use a consistent sign convention for u and v (up is +). For 3 → 5 s: u = +5 m/s and v = −15 m/s, so s = ½ (+5 − 15) × 2 = −10 m.</p></div></section>
+    <section class="sec" id="secC"><button id="tC" aria-expanded="false"><span>Check yourself</span><i>show +</i></button><div class="bd" id="bdC" hidden><p>When is the displacement equal to the distance travelled?</p><button class="link" id="bAns">Show the answer</button><p class="ans" id="ans" hidden>When the motion during the interval is in one direction only: u and v have the same sign (or one of them is zero), so the ball does not turn around in between.</p></div></section>
   </div>
   <nav class="nav" aria-label="Panels">
     <button id="nR">Reason</button>
@@ -139,75 +142,47 @@ const T=(x,y,s,c='--ink',o={})=>`<text x="${x}" y="${y}" font-size="${o.size||12
 const pill=(a,nx)=>{ $('pill').innerHTML=`<span>${a}</span>`+(nx?`<span class="nx">${nx}</span>`:''); };
 
 /* ===== Page ===== */
-const US=[25,30,35], HMAX=35*35/(2*G), SPEED=1/0.8;
-const st={u:25,t:0,playing:false,done:new Set()};
-
-
+const U=35, H=U*U/(2*G), IV=[[0,3],[0,3.5],[0,4],[3,5]];
+const st={iv:0};
+const ph=t=>({v:U-G*t, y:U*t-G*t*t/2});
 function draw(){
-  const u=st.u, ta=u/G, t=st.t, v=u-G*t, y=u*t-G*t*t/2, H=u*u/(2*G), fin=t>=ta-1e-9;
+  const iv=st.iv?IV[st.iv-1]:null;
   let s='';
-  // ball track from the ground (same scale for every u)
-  const Y0=356, k=290/HMAX, Yb=h=>Y0-k*h, bx=34;
-  s+=`<rect x="4" y="${Y0}" width="62" height="10" fill="var(--soft)"/><line x1="4" y1="${Y0}" x2="66" y2="${Y0}" stroke="var(--ink)" stroke-width="2"/>`;
-  s+=T(35,Y0+24,'ground','--muted',{a:'middle',size:10});
-  s+=arrow([10,Y0-40],[10,Y0-72],'--pause',2.2,8)+T(15,Y0-52,'+','--pause',{b:1,size:14});
-  if(fin) s+=`<line x1="4" y1="${Yb(H)}" x2="66" y2="${Yb(H)}" stroke="var(--muted)" stroke-dasharray="3 5"/>`;
-  const by=Yb(y)-10;
-  if(v>0.05) s+=arrow([bx+16,by],[bx+16,by-1.2*v],'--vel',2.6,8);
-  s+=`<circle cx="${bx}" cy="${by}" r="10" fill="var(--ball)" stroke="var(--ink)" stroke-width="1.2"/>`;
-  if(fin) s+=T(bx,by+26,'v = 0','--vel',{a:'middle',b:1,size:11});
-  // v–t graph, 0–4 s, 0–40 m/s
-  const gx=104, gw=240, X=q=>gx+gw*q/4, Y=vv=>330-7*vv;
-  for(let q=0;q<=40;q+=10){ s+=`<line x1="${gx}" y1="${Y(q)}" x2="${gx+gw}" y2="${Y(q)}" stroke="var(${q?'--soft':'--ink'})" stroke-width="${q?1:1.6}"/>`+T(gx-6,Y(q)+4,sg(q),'--muted',{a:'end',size:10}); }
-  for(let q=0;q<=4;q+=0.5){ const whole=q%1===0;
-    s+=`<line x1="${X(q)}" y1="${Y(40)}" x2="${X(q)}" y2="${Y(0)}" stroke="var(--soft)" ${whole?'':'stroke-dasharray="2 4"'}/>`;
-    if(whole) s+=T(X(q),Y(0)+16,q,'--muted',{a:'middle',size:10}); }
-  s+=T(gx-6,Y(40)-14,'v (m/s)','--vel',{a:'end',size:11})+T(gx+gw,Y(0)+44,'t (s)','--muted',{a:'end',size:11});
-  // faint traces of runs already verified
-  st.done.forEach(w=>{ if(w===u) return;
-    s+=`<line x1="${X(0)}" y1="${Y(w)}" x2="${X(w/G)}" y2="${Y(0)}" stroke="var(--muted)" stroke-width="1.6" stroke-dasharray="4 4" opacity=".7"/>`;
-    s+=T(X(w/G),Y(0)-8,fmt(w/G),'--muted',{a:'middle',size:10})+`<circle cx="${X(w/G)}" cy="${Y(0)}" r="3" fill="var(--muted)"/>`; });
-  // current run
-  if(t>0){
-    s+=`<line x1="${X(0)}" y1="${Y(u)}" x2="${X(t)}" y2="${Y(v)}" stroke="var(--vel)" stroke-width="2.4"/>`;
-    for(let q=0;q<=t+1e-9;q+=0.5) s+=`<circle cx="${X(q)}" cy="${Y(u-G*q)}" r="3.6" fill="var(--vel)"/>`;
-  }
-  s+=`<circle cx="${X(0)}" cy="${Y(u)}" r="3.6" fill="var(--vel)"/>`+T(X(0)+8,Y(u)+4,`u = ${sg(u)}`,'--vel',{b:1,size:11});
-  if(t>0&&!fin) s+=`<circle cx="${X(t)}" cy="${Y(v)}" r="5" fill="var(--ball)" stroke="var(--ink)"/>`;
-  if(fin){
-    s+=`<circle cx="${X(ta)}" cy="${Y(0)}" r="7" fill="none" stroke="var(--pause)" stroke-width="2.2"/>`;
-    s+=T(X(ta)+10,Y(0)-10,'v = 0','--pause',{b:1,size:12});
-    s+=T(X(ta),Y(0)+30,`tₐ = ${fmt(ta)} s`,'--pause',{a:'middle',b:1,size:13});
+  const Y0=300, k=232/H, Yb=h=>Y0-k*h, ax=52, X1=110, X2=190, XD=250, VS=1.6;
+  s+=`<line x1="${ax-12}" y1="${Y0}" x2="${XD+10}" y2="${Y0}" stroke="var(--ink)" stroke-width="2"/><line x1="${ax}" y1="${Yb(60)}" x2="${ax}" y2="${Y0}" stroke="var(--muted)" stroke-width="1.2"/>`;
+  for(let m=0;m<=60;m+=10) s+=`<line x1="${ax-6}" y1="${Yb(m)}" x2="${ax}" y2="${Yb(m)}" stroke="var(--muted)" stroke-width="1.2"/>`+T(ax-9,Yb(m)+4,m,'--muted',{a:'end',size:10});
+  s+=T(ax,Yb(60)-16,'y (m)','--muted',{a:'middle',size:10});
+  s+=`<line x1="${ax}" y1="${Yb(H)}" x2="${XD+10}" y2="${Yb(H)}" stroke="var(--muted)" stroke-dasharray="3 5"/>`;
+  s+=arrow([10,Y0-40],[10,Y0-72],'--pause',2.2,8)+T(14,Y0-52,'+','--pause',{b:1,size:14});
+  const inst=(x,t,nm)=>{ const q=ph(t), cy=Yb(q.y)-10; let h='';
+    h+=`<circle cx="${x}" cy="${cy}" r="10" fill="var(--ball)" stroke="var(--ink)" stroke-width="1.2"/>`+T(x-14,cy+4,`${fmt(t)} s`,'--ink',{a:'end',size:11});
+    if(Math.abs(q.v)<1e-9) h+=T(x,cy-16,`${nm} = 0`,'--vel',{a:'middle',b:1,size:13});
+    else { const up=q.v>0, y0=cy+(up?-11:11), y1=y0+(up?-1:1)*VS*Math.abs(q.v);
+      h+=arrow([x,y0],[x,y1],'--vel',3,9)+T(x,y1+(up?-6:15),`${nm} = ${sg(q.v)}`,'--vel',{a:'middle',b:1,size:13}); }
+    return h; };
+  if(!iv){ s+=inst(X1,0,'u'); }
+  else {
+    const A=ph(iv[0]), B=ph(iv[1]), ya=Yb(A.y)-10, yb=Yb(B.y)-10, d=B.y-A.y;
+    s+=`<line x1="${X1+10}" y1="${ya}" x2="${XD}" y2="${ya}" stroke="var(--pause)" stroke-dasharray="2 4" opacity=".7"/><line x1="${X2+10}" y1="${yb}" x2="${XD}" y2="${yb}" stroke="var(--pause)" stroke-dasharray="2 4" opacity=".7"/>`;
+    s+=T(X1,Y0+20,'start','--muted',{a:'middle',size:11})+T(X2,Y0+20,'end','--muted',{a:'middle',size:11});
+    s+=inst(X1,iv[0],'u')+inst(X2,iv[1],'v');
+    if(Math.abs(yb-ya)>2) s+=arrow([XD,ya],[XD,yb],'--pause',4,11);
+    const turn=A.v>1e-9&&B.v<-1e-9, ly=Math.max((ya+yb)/2+5,Yb(H)+22);
+    s+=T(XD+8,ly,`Δy = ${sg(d)} m`,'--pause',{b:1,size:13});
+    if(turn) s+=T(XD+8,ly+17,'distance','--muted',{size:12})+T(XD+8,ly+32,`${fmt(A.v*A.v/20+B.v*B.v/20)} m`,'--muted',{size:12});
   }
   $('fig').innerHTML=s;
-
-  let a, nx='';
-  if(t===0){ a=`u = ${sg(u)} m/s · tₐ = ?`; nx='Find tₐ in your head, then press ▶ Play.'; }
-  else if(!fin){ a=`u = ${sg(u)} m/s · tₐ = ?`; }
-  else { a=`v = 0 at t = ${fmt(ta)} s, so tₐ = ${fmt(ta)} s (${u} m/s lost at 10 m/s every second)`;
-    const left=US.filter(w=>!st.done.has(w));
-    nx = left.length ? `Now try u = ${left[0]} m/s.` : 'All three done: tₐ = 2.5 s, 3 s, 3.5 s.'; }
+  let a,nx='';
+  if(!iv){ a='u = +35 m/s · up is +'; nx='Calculate Δy for interval 1, then click its button to verify.'; }
+  else { const A=ph(iv[0]), B=ph(iv[1]), d=B.y-A.y, m=(A.v+B.v)/2, dt=iv[1]-iv[0];
+    a=`u = ${sg(A.v)} m/s, v = ${sg(B.v)} m/s, time = ${fmt(dt)} s`;
+    nx=`Δy = mean × time = ${sg(m)} × ${fmt(dt)} = ${sg(d)} m`; }
   pill(a,nx);
-  $('bPlay').textContent = st.playing ? '❚❚ Pause' : fin ? '↺ Replay' : t>0 ? '▶ Resume' : '▶ Play';
+  document.querySelectorAll('#ivseg button').forEach(b=>{ const on=+b.dataset.i===st.iv; b.classList.toggle('on',on); b.setAttribute('aria-pressed',on); });
 }
-function finish(){ st.t=st.u/G; st.playing=false; st.done.add(st.u); draw(); }
-function play(){
-  const ta=st.u/G;
-  if(st.playing){ st.playing=false; draw(); return; }
-  if(st.t>=ta-1e-9) st.t=0;
-  if(reduced()){ finish(); return; }
-  st.playing=true; let last=performance.now();
-  const f=now=>{ if(!st.playing) return;
-    st.t+=Math.min(0.05,(now-last)/1000)*SPEED; last=now;
-    if(st.t>=ta-1e-9){ finish(); return; }
-    draw(); requestAnimationFrame(f); };
-  draw(); requestAnimationFrame(f);
-}
-function buildSeg(){ $('useg').innerHTML=US.map(u=>`<button data-u="${u}" class="${u===st.u?'on':''}" aria-pressed="${u===st.u}">${u}</button>`).join(''); }
-$('useg').onclick=e=>{ const b=e.target.closest('[data-u]'); if(!b) return; st.u=+b.dataset.u; st.t=0; st.playing=false; buildSeg(); draw(); };
-$('bPlay').onclick=play;
-buildSeg(); draw();
-
+$('ivseg').innerHTML=IV.map((p,i)=>`<button data-i="${i+1}" aria-pressed="false" aria-label="Interval ${i+1}: ${fmt(p[0])} to ${fmt(p[1])} seconds">${fmt(p[0])}→${fmt(p[1])} s</button>`).join('');
+$('ivseg').onclick=e=>{ const b=e.target.closest('[data-i]'); if(!b) return; st.iv=+b.dataset.i; draw(); };
+draw();
 </script>
 
 </body>

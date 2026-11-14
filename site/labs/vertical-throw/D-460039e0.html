@@ -7,7 +7,8 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=JetBrains+Mono:wght@400;600&family=Literata:opsz,wght@7..72,600&display=swap">
 <style>
 html,body{margin:0}
-/* Layout follows Vertical Throw Lab: goal and Observe above one figure; Reason and Check open on demand. */
+/* Layout follows Vertical Throw Lab: goal and Observe above one figure; Reason and Check open on demand.
+   The status line above the figure keeps room for three lines, so the figure never jumps when its text changes. */
 :root{
   --bg:#f2f4f8; --card:#ffffff; --ink:#18202b; --muted:#5b6777; --line:#d3dae4; --soft:#e9edf3;
   --vel:#0b8585; --grav:#cc3a31; --pause:#6748c2; --ball:#dd8616; --teal:#0b6f73;
@@ -41,8 +42,9 @@ button:focus-visible{outline:2px solid var(--pause);outline-offset:2px}
 .obs .k{color:var(--muted)}
 .obs p{margin:0 0 2px}
 .obs ol.iv{list-style:none;margin:0 0 2px;padding:0;display:grid;grid-template-columns:1fr 1fr;gap:0 12px;font-family:var(--f-mono);font-size:.85em}
+.obs ol.iv3{grid-template-columns:repeat(3,auto);justify-content:start;gap:0 18px}
 .figwrap{flex:1;min-height:0;background:var(--card);border:1px solid var(--line);border-radius:10px;display:flex;flex-direction:column;padding:8px 10px}
-.pill{font-family:var(--f-mono);font-size:.8rem;min-height:2.6em;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;color:var(--ink)}
+.pill{font-family:var(--f-mono);font-size:.8rem;min-height:4.6em;flex:0 0 auto;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;color:var(--ink)}
 .pill .nx{color:var(--pause);font-weight:600}
 #fig{flex:1;min-height:0;width:100%;display:block}
 #fig text{font-family:var(--f-mono)}
@@ -89,19 +91,19 @@ button:focus-visible{outline:2px solid var(--pause);outline-offset:2px}
 <body>
 
 <div class="app">
-  <header class="hd"><h1>Vertical Throw Practice</h1><div class="tabs" aria-label="Page"><span>F</span></div></header>
+  <header class="hd"><h1>Vertical Throw Practice</h1><div class="tabs" aria-label="Page"><span>D</span></div></header>
   <div class="text">
-    <div class="goal"><span class="k">Learning goal F</span><b>What does the area under a v–t graph represent?</b></div>
-    <div class="obs"><span class="k">Observe and learn</span><p>For u = 30 m/s, imagine the v–t graph from t = 0 to t = 2 s. What would the area under it represent?</p><p>Click <b>▶ Play</b> to see the graph and the area take shape, and the result emerge.</p></div>
+    <div class="goal"><span class="k">Learning goal D</span><b>Calculate the maximum height reached, in your head.</b></div>
+    <div class="obs"><span class="k">Observe and practice</span><p>Condition for maximum height: v = 0.</p><p>Maximum height H<sub>max</sub> = ½ u tₐ</p><p>Calculate the maximum height, then verify by clicking the matching button:</p><ol class="iv iv3"><li>1) u = 20 m/s</li><li>2) u = 25 m/s</li><li>3) u = 30 m/s</li></ol><p>Hint: use the page B practice to find tₐ mentally.</p></div>
   </div>
   <section class="figwrap" aria-label="Figure">
     <div class="pill" id="pill" aria-live="polite"></div>
-    <svg id="fig" viewBox="0 0 360 330" role="img" aria-label="Velocity–time graph from 0 to 2 s with the area under it shaded, beside the ball rising"></svg>
-    <div class="ctl" id="ctl"><button class="pri" id="bPlay">▶ Play</button></div>
+    <svg id="fig" viewBox="0 0 360 330" role="img" aria-label="Ball at launch and at the top, with u, v = 0 and the maximum height"></svg>
+    <div class="ctl" id="ctl"><span class="seg" id="useg" aria-label="Launch velocity"></span></div>
   </section>
   <div class="side" id="side" data-open="">
-    <section class="sec" id="secR"><button id="tR" aria-expanded="false"><span>Reason</span><i>show +</i></button><div class="bd" id="bdR" hidden><p>The v–t graph is a straight line, so the area under it is a trapezium. Its parallel sides are the velocities u = 30 m/s and v = 10 m/s, and its width is Δt = 2 s.</p><div class="eq">Area = ½ (u + v) Δt = ½ (30 + 10) × 2 = 40 m</div><p>That is the displacement formula from page C. So the area under a v–t graph between two instants equals the displacement during that interval.</p></div></section>
-    <section class="sec" id="secC"><button id="tC" aria-expanded="false"><span>Check yourself</span><i>show +</i></button><div class="bd" id="bdC" hidden><p>What is the displacement between t = 2 s and t = 4 s?</p><button class="link" id="bAns">Show the answer</button><p class="ans" id="ans" hidden>Zero. v goes from +10 m/s to −10 m/s, so the mean velocity is 0. On the graph, the area above the time axis (2 → 3 s, +5 m) cancels the area below it (3 → 4 s, −5 m): the ball rises 5 m and falls back 5 m.</p></div></section>
+    <section class="sec" id="secR"><button id="tR" aria-expanded="false"><span>Reason</span><i>show +</i></button><div class="bd" id="bdR" hidden><p>Maximum height is a special case of finding the displacement when u, v and the time interval are known: here v = 0 and the time interval is tₐ.</p><div class="eq">H<sub>max</sub> = ½ (u + 0) tₐ = ½ u tₐ</div></div></section>
+    <section class="sec" id="secC"><button id="tC" aria-expanded="false"><span>Check yourself</span><i>show +</i></button><div class="bd" id="bdC" hidden><p>An object is projected up with a speed of 20 m/s from the top of a tower 30 m high. What is the maximum height reached above the ground?</p><button class="link" id="bAns">Show the answer</button><p class="ans" id="ans" hidden>50 m. H<sub>max</sub> = ½ × 20 × 2 = 20 m above the top of the tower. Height above the ground = H<sub>max</sub> + height of the tower = 20 + 30 = 50 m.</p></div></section>
   </div>
   <nav class="nav" aria-label="Panels">
     <button id="nR">Reason</button>
@@ -141,58 +143,39 @@ const T=(x,y,s,c='--ink',o={})=>`<text x="${x}" y="${y}" font-size="${o.size||12
 const pill=(a,nx)=>{ $('pill').innerHTML=`<span>${a}</span>`+(nx?`<span class="nx">${nx}</span>`:''); };
 
 /* ===== Page ===== */
-const U=30, T2=2, SPEED=1/1.2;
-const st={t:0,playing:false};
-const vAt=t=>U-G*t, yAt=t=>U*t-G*t*t/2;
+const US=[20,25,30], HT=45;
+const st={u:0};
+const HM=`H<tspan font-size="9" dy="3">max</tspan><tspan dy="-3">`;
 function draw(){
-  const t=st.t, fin=t>=T2-1e-9, v=vAt(t), y=yAt(t);
+  const u=st.u;
   let s='';
-  // height track
-  const Y0=300, k=230/50, Yb=h=>Y0-k*h, ax=34, bx=66;
-  s+=`<line x1="${ax-10}" y1="${Y0}" x2="96" y2="${Y0}" stroke="var(--ink)" stroke-width="2"/><line x1="${ax}" y1="${Yb(46)}" x2="${ax}" y2="${Y0}" stroke="var(--muted)" stroke-width="1.2"/>`;
-  for(let m=0;m<=40;m+=10) s+=`<line x1="${ax-5}" y1="${Yb(m)}" x2="${ax}" y2="${Yb(m)}" stroke="var(--muted)" stroke-width="1.2"/>`+T(ax-8,Yb(m)+4,m,'--muted',{a:'end',size:10});
-  s+=T(ax,Yb(46)-12,'y (m)','--muted',{a:'middle',size:10});
-  if(t>0) s+=arrow([88,Y0],[88,Yb(y)],'--pause',3,9);
-  if(fin) s+=T(60,Y0+20,'Δy = 40 m','--pause',{a:'middle',b:1,size:13});
-  s+=`<circle cx="${bx}" cy="${Yb(y)-10}" r="9" fill="var(--ball)" stroke="var(--ink)" stroke-width="1.2"/>`;
-  // v–t graph
-  const gx=132, gw=212, X=q=>gx+gw*q/4, Y=vv=>238-6*vv;
-  for(let q=-10;q<=30;q+=10) s+=`<line x1="${gx}" y1="${Y(q)}" x2="${gx+gw}" y2="${Y(q)}" stroke="var(${q?'--soft':'--ink'})" stroke-width="${q?1:1.6}"/>`+T(gx-6,Y(q)+4,sg(q),'--muted',{a:'end',size:10});
-  for(let q=0;q<=4;q++) s+=`<line x1="${X(q)}" y1="${Y(35)}" x2="${X(q)}" y2="${Y(-12)}" stroke="var(--soft)"/>`+T(X(q),Y(-12)+14,q,'--muted',{a:'middle',size:10});
-  s+=T(gx-6,Y(35)-8,'v (m/s)','--vel',{a:'end',size:11})+T(gx+gw,Y(0)-6,'t (s)','--muted',{a:'end',size:11});
-  if(t>0){
-    s+=`<polygon points="${X(0)},${Y(0)} ${X(0)},${Y(U)} ${X(t)},${Y(v)} ${X(t)},${Y(0)}" fill="var(--pause)" opacity=".22"/>`;
-    s+=`<line x1="${X(0)}" y1="${Y(U)}" x2="${X(t)}" y2="${Y(v)}" stroke="var(--vel)" stroke-width="2.6"/>`;
-    s+=`<line x1="${X(t)}" y1="${Y(0)}" x2="${X(t)}" y2="${Y(v)}" stroke="var(--vel)" stroke-width="${fin?2.4:1.2}" ${fin?'':'stroke-dasharray="3 3"'}/>`;
-  }
-  s+=`<circle cx="${X(0)}" cy="${Y(U)}" r="4" fill="var(--vel)"/>`;
-  if(t>0&&!fin) s+=`<circle cx="${X(t)}" cy="${Y(v)}" r="5" fill="var(--ball)" stroke="var(--ink)"/>`;
-  if(fin){
-    s+=`<line x1="${X(0)}" y1="${Y(0)}" x2="${X(0)}" y2="${Y(U)}" stroke="var(--vel)" stroke-width="2.4"/><circle cx="${X(T2)}" cy="${Y(vAt(T2))}" r="4" fill="var(--vel)"/>`;
-    s+=T(X(0)+6,Y(U)-8,'u = 30','--vel',{b:1,size:12})+T(X(T2)+6,Y(vAt(T2))-6,'v = 10','--vel',{b:1,size:12});
-    s+=arrow([X(1),Y(0)+22],[X(0),Y(0)+22],'--ink',1.2,6)+arrow([X(1),Y(0)+22],[X(T2),Y(0)+22],'--ink',1.2,6)+T(X(1),Y(0)+36,'Δt = 2 s','--ink',{a:'middle',b:1,size:12});
-    s+=T(X(1),Y(9),'area','--pause',{a:'middle',b:1,size:13})+T(X(1),Y(9)+17,'= 40 m','--pause',{a:'middle',b:1,size:14});
+  const Y0=300, k=232/HT, Yb=h=>Y0-k*h, ax=52, X1=110, X2=190, XD=250, VS=1.6;
+  s+=`<line x1="${ax-12}" y1="${Y0}" x2="${XD+10}" y2="${Y0}" stroke="var(--ink)" stroke-width="2"/><line x1="${ax}" y1="${Yb(HT)}" x2="${ax}" y2="${Y0}" stroke="var(--muted)" stroke-width="1.2"/>`;
+  for(let m=0;m<=HT;m+=5) s+=`<line x1="${ax-(m%10?4:6)}" y1="${Yb(m)}" x2="${ax}" y2="${Yb(m)}" stroke="var(--muted)" stroke-width="1.2"/>`+(m%10?'':T(ax-9,Yb(m)+4,m,'--muted',{a:'end',size:10}));
+  s+=T(ax,Yb(HT)-16,'y (m)','--muted',{a:'middle',size:10});
+  s+=arrow([10,Y0-40],[10,Y0-72],'--pause',2.2,8)+T(14,Y0-52,'+','--pause',{b:1,size:14});
+  const ball=(x,cy)=>`<circle cx="${x}" cy="${cy}" r="10" fill="var(--ball)" stroke="var(--ink)" stroke-width="1.2"/>`;
+  if(!u){ const cy=Y0-10; s+=ball(X1,cy)+T(X1,cy-18,'u = ?','--vel',{a:'middle',b:1,size:13}); }
+  else {
+    const ta=u/G, H=u*u/(2*G), ya=Y0-10, yb=Yb(H)-10;
+    s+=`<line x1="${X1+10}" y1="${ya}" x2="${XD}" y2="${ya}" stroke="var(--pause)" stroke-dasharray="2 4" opacity=".7"/><line x1="${X2+10}" y1="${yb}" x2="${XD}" y2="${yb}" stroke="var(--pause)" stroke-dasharray="2 4" opacity=".7"/>`;
+    s+=T(X1,Y0+20,'launch','--muted',{a:'middle',size:11})+T(X2,Y0+20,'top','--muted',{a:'middle',size:11});
+    s+=ball(X1,ya)+T(X1-14,ya+4,'0 s','--ink',{a:'end',size:11});
+    const y1=ya-11-VS*u; s+=arrow([X1,ya-11],[X1,y1],'--vel',3,9)+T(X1,y1-6,`u = ${sg(u)}`,'--vel',{a:'middle',b:1,size:13});
+    s+=ball(X2,yb)+T(X2-14,yb+4,`tₐ = ${fmt(ta)} s`,'--ink',{a:'end',size:11})+T(X2,yb-16,'v = 0','--vel',{a:'middle',b:1,size:13});
+    s+=arrow([XD,ya],[XD,yb],'--pause',4,11)+T(XD+8,(ya+yb)/2+5,`${HM} = ${fmt(H)} m</tspan>`,'--pause',{b:1,size:13});
   }
   $('fig').innerHTML=s;
-  let a,nx='';
-  if(t===0){ a='u = +30 m/s · interval 0 → 2 s'; nx='Imagine the v–t graph. What does the area under it represent? Then press ▶ Play.'; }
-  else if(!fin){ a='u = +30 m/s · interval 0 → 2 s'; nx='Watch the area grow as the ball rises.'; }
-  else { a='Area = ½ (30 + 10) × 2 = 40 m'; nx='= displacement: the ball rose 40 m in the same 2 s.'; }
+  let a,nx;
+  if(!u){ a='Condition for maximum height: v = 0'; nx='Calculate H<sub>max</sub> for u = 20 m/s, then click its button to verify.'; }
+  else { const ta=u/G, H=u*u/(2*G);
+    a=`u = ${sg(u)} m/s, v = 0 at the top, tₐ = ${fmt(ta)} s`;
+    nx=`H<sub>max</sub> = ½ × u × tₐ = ½ × ${u} × ${fmt(ta)} = ${fmt(H)} m`; }
   pill(a,nx);
-  $('bPlay').textContent = st.playing ? '❚❚ Pause' : fin ? '↺ Replay' : t>0 ? '▶ Resume' : '▶ Play';
+  document.querySelectorAll('#useg button').forEach(b=>{ const on=+b.dataset.u===st.u; b.classList.toggle('on',on); b.setAttribute('aria-pressed',on); });
 }
-function play(){
-  if(st.playing){ st.playing=false; draw(); return; }
-  if(st.t>=T2-1e-9) st.t=0;
-  if(reduced()){ st.t=T2; draw(); return; }
-  st.playing=true; let last=performance.now();
-  const f=now=>{ if(!st.playing) return;
-    st.t=Math.min(T2,st.t+Math.min(0.05,(now-last)/1000)*SPEED); last=now;
-    if(st.t>=T2-1e-9){ st.t=T2; st.playing=false; draw(); return; }
-    draw(); requestAnimationFrame(f); };
-  draw(); requestAnimationFrame(f);
-}
-$('bPlay').onclick=play;
+$('useg').innerHTML=US.map((u,i)=>`<button data-u="${u}" aria-pressed="false" aria-label="Case ${i+1}: u = ${u} m/s">u = ${u}</button>`).join('');
+$('useg').onclick=e=>{ const b=e.target.closest('[data-u]'); if(!b) return; st.u=+b.dataset.u; draw(); };
 draw();
 
 </script>
