@@ -1,0 +1,33 @@
+{
+  "id": "P000283",
+  "problem_version": 1,
+  "status": "reviewed",
+  "hints": [
+    "Take x along the current and y across it. Find x(t) and y(t) separately, then eliminate t."
+  ],
+  "worded": "1. Take x along the current and y across. The swimmer’s acceleration relative to the water is 2t across, starting from rest.\n\n2. Across: v_y = t², so y = t³/3.\n\n3. Along: the water carries the swimmer at v, and he has no velocity of his own along the current, so x = vt.\n\n4. Eliminate t = x/v: y = (x/v)³/3 = x³/(3v³). (D)\n\n5. Check: early on the swimmer has almost no velocity across, so the path must leave the bank tangent to the flow; y ∝ x³ does. Also x/v is a time, so only (D) gives y ∝ t³ as found.",
+  "conventional": "![](asset:P000283-sol-1)\n\n$$\\frac{dv_{y}}{dt} = 2t,\\ v_{y}(0) = 0 \\Rightarrow v_{y} = t^{2} \\Rightarrow y = \\frac{t^{3}}{3};\\quad\\quad x = vt.$$\n\n$$y = \\frac{1}{3}\\left( \\frac{x}{v} \\right)^{3} = \\frac{x^{3}}{3v^{3}}.$$",
+  "mistakes": [
+    "Integrate twice from rest: v_y = t², y = t³/3 (not t²).",
+    "Replace t by x/v, so v appears cubed."
+  ],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "solved_answer": "(D) $y = \\frac{x^{3}}{3v^{3}}$.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": "04MIP_Solutions_v1",
+    "date": "2026-11-12"
+  },
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 04MIP_Solutions_v1.docx"
+  }
+}

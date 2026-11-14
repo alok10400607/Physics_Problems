@@ -1,6 +1,6 @@
 {
   "id": "P000235",
-  "status": "imported",
+  "status": "reviewed",
   "version": 1,
   "type": "integer",
   "topic_code": "0420",
@@ -27,11 +27,23 @@
       "qno": 55
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "id": "P000235-sol-1",
+      "role": "solution",
+      "file": "P000/P000235-sol-1.png",
+      "format": "png",
+      "width": 800,
+      "height": 337,
+      "alt": "A projectile thrown from a tower of height h rises H above it to the top at time T, then falls 4H to the ground in 2T.",
+      "origin": "docx",
+      "needs_redraw": false
+    }
+  ],
   "rights": "unverified",
   "content_hash": "cac3f16d2a70c8db",
   "duplicate_of": null,
   "variant_of": null,
   "created": "2026-11-08",
-  "updated": "2026-11-08"
+  "updated": "2026-11-12"
 }

@@ -1,0 +1,79 @@
+{
+  "id": "P000559",
+  "status": "reviewed",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0615",
+  "concepts": [],
+  "exams": [
+    "JEE Main"
+  ],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000559-stem-1) A block of mass 10 kg is kept on a rough inclined plane as shown in the figure. A force of 3 N is applied on the block. The coefficient of static friction between the plane and the block is 0.6. What should be the minimum value of force P, such that the block doesn’t move downward?",
+  "options": {
+    "A": "32 N",
+    "B": "25 N",
+    "C": "23 N",
+    "D": "18 N"
+  },
+  "answer": {
+    "keys": [
+      "A"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "06FRI_v1",
+      "qno": 25
+    },
+    {
+      "kind": "exam",
+      "exam": "JEE Main",
+      "date": "2019-01-09",
+      "shift": 1,
+      "mode": null,
+      "raw": "JEE Main 2019, 9 Jan, Shift 1",
+      "year": 2019
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000559-stem-1",
+      "role": "stem",
+      "file": "P000/P000559-stem-1.png",
+      "format": "png",
+      "width": 325,
+      "height": 229,
+      "alt": "A 10 kg block on a 45° incline with μ = 0.6, pushed up the slope by a force P while a 3 N force pulls it down the slope.",
+      "origin": "docx",
+      "needs_redraw": true
+    },
+    {
+      "id": "P000559-sol-1",
+      "role": "solution",
+      "file": "P000/P000559-sol-1.png",
+      "format": "png",
+      "width": 513,
+      "height": 368,
+      "alt": "A block on a 45° incline: P up the slope, 3 + mg sin 45° down the slope, and friction μN up the slope.",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
+  "rights": "past-paper",
+  "content_hash": "a9564879350398aa",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-12",
+  "updated": "2026-11-12"
+}

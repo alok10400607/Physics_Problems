@@ -1,0 +1,57 @@
+{
+  "id": "P000577",
+  "status": "reviewed",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0630",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "The rear side of a truck is open and a box of mass 20 kg is placed on the truck 4 m away from the rear end. The truck starts from rest with an acceleration of 2 m/$s^{2}$on a straight road. The distance moved by the truck before the box starts to fall off? ($\\mu = 0.15)$",
+  "options": {
+    "A": "4 m",
+    "B": "8 m",
+    "C": "16 m",
+    "D": "32 m"
+  },
+  "answer": {
+    "keys": [
+      "C"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "06FRI_v1",
+      "qno": 43
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000577-sol-1",
+      "role": "solution",
+      "file": "P000/P000577-sol-1.png",
+      "format": "png",
+      "width": 762,
+      "height": 388,
+      "alt": "Velocity–time graph in m/s and s: the truck's line with a = 2 and a box's line with a = 1.5, both from zero; the shaded gap up to t = 4 s is 4 m.",
+      "origin": "docx",
+      "needs_redraw": false
+    }
+  ],
+  "rights": "unverified",
+  "content_hash": "6eefe1d28ca76142",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-12",
+  "updated": "2026-11-12"
+}

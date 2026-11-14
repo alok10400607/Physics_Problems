@@ -1,0 +1,33 @@
+{
+  "id": "P000197",
+  "problem_version": 1,
+  "status": "reviewed",
+  "hints": [
+    "Only the vertical component of the kick decides both answers. How long does it take for that component to fall to zero?"
+  ],
+  "worded": "1. Both the maximum height and the time to reach it depend only on the vertical motion.\n\n2. The vertical component is 25 sin 45° = 25/√2 ≈ 17.7 m/s.\n\n3. It falls at 10 m/s each second, so it reaches zero after 17.7/10 ≈ 1.77 s. That is the time to the top, not the time of flight.\n\n4. Height: u_y²/2g = (625/2)/20 = 15.625 m. (C)\n\n5. Check: (B) gives 3.54 s, which is the whole time of flight; the question asks for the time to the highest point.",
+  "conventional": "![](asset:P000197-sol-1)\n\n$u_{y} = 25\\sin 45^{\\circ} = \\frac{25}{\\sqrt{2}}$ m/s.\n\n$$T_{top} = \\frac{u_{y}}{g} = \\frac{25}{10\\sqrt{2}} \\approx 1.77\\unit{s},\\quad\\quad H_{m} = \\frac{u_{y}^{2}}{2g} = \\frac{625/2}{20} = 15.625\\unit{m}.$$",
+  "mistakes": [
+    "3.54 s is the full time of flight, twice the time to the top.",
+    "Use $u\\sin\\theta$ for the height, not the full 25 m/s."
+  ],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "solved_answer": "(C) $H_{m}$ = 15.625 m, T = 1.77 s.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": "04MIP_Solutions_v1",
+    "date": "2026-11-12"
+  },
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 04MIP_Solutions_v1.docx"
+  }
+}

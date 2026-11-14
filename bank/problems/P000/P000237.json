@@ -1,6 +1,6 @@
 {
   "id": "P000237",
-  "status": "imported",
+  "status": "reviewed",
   "version": 1,
   "type": "mcq_single",
   "topic_code": "0425",
@@ -35,11 +35,23 @@
       "qno": 57
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "id": "P000237-sol-1",
+      "role": "solution",
+      "file": "P000/P000237-sol-1.png",
+      "format": "png",
+      "width": 630,
+      "height": 342,
+      "alt": "An incline at 30°; a projectile launched at 30 m/s at 60° to the horizontal. At one point on its path the velocity v is parallel to the plane.",
+      "origin": "docx",
+      "needs_redraw": false
+    }
+  ],
   "rights": "unverified",
   "content_hash": "eab9e0deac5d7d3f",
   "duplicate_of": null,
   "variant_of": null,
   "created": "2026-11-08",
-  "updated": "2026-11-08"
+  "updated": "2026-11-12"
 }

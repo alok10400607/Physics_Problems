@@ -1,0 +1,33 @@
+{
+  "id": "P000199",
+  "problem_version": 1,
+  "status": "reviewed",
+  "hints": [
+    "The vertical component decides how long the projectile stays up. What does the horizontal component do during that time?"
+  ],
+  "worded": "1. Range = horizontal speed × time of flight, because the horizontal velocity never changes.\n\n2. Time of flight depends on the vertical component v₀ only: up and back down takes 2v₀/g.\n\n3. So range = u₀ × 2v₀/g = 2u₀v₀/g. (B)\n\n4. Check: this is the familiar u² sin 2θ/g, since u₀ = u cos θ and v₀ = u sin θ.\n\n**No-pen route: units and limits.** If u₀ = 0 (straight up) the range must be 0, which rules out (C). If v₀ = 0 there is no flight time and the range is 0, which rules out (A). Between (B) and (D), the time of flight is 2v₀/g, not 4v₀/g.",
+  "conventional": "![](asset:P000199-sol-1)\n\n$$T = \\frac{2v_{0}}{g},\\quad\\quad R = u_{0}T = \\frac{2u_{0}v_{0}}{g}.$$",
+  "mistakes": [
+    "(C) is the maximum height, not the range.",
+    "Do not use u₀ in the time of flight: horizontal velocity does not affect how long it stays up."
+  ],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "solved_answer": "(B) $\\frac{2u_{0}v_{0}}{g}$.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": "04MIP_Solutions_v1",
+    "date": "2026-11-12"
+  },
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 04MIP_Solutions_v1.docx"
+  }
+}

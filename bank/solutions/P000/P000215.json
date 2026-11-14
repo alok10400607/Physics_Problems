@@ -1,23 +1,33 @@
 {
   "id": "P000215",
   "problem_version": 1,
-  "status": "draft",
+  "status": "reviewed",
   "hints": [
-    "> Difference of two vectors of equal magnitude at right angle to each other"
+    "Between P and Q, which component of the velocity is unchanged and which one reverses?"
   ],
-  "worded": null,
-  "conventional": null,
-  "mistakes": [],
+  "worded": "1. P and Q are the launch and landing points on level ground. The horizontal component is the same at both; the vertical component has the same size but has reversed.\n\n2. u_y = 5√2 sin 45° = 5 m/s up at P, 5 m/s down at Q. So the change in velocity is 10 m/s, straight down.\n\n3. Change in momentum = m × 10 = 0.005 × 10 = 0.05 kg m/s = 5 × 10⁻² kg m/s.\n\n4. x = 5.\n\n5. Check by impulse: gravity acts for the time of flight 2u_y/g = 1 s, giving mg × 1 = 0.005 × 10 = 0.05. ✓\n\n**Another way: impulse of gravity.** The only force is mg, for the time of flight T = 2u sin45°/g = 1 s. Δp = mgT = 0.005 × 10 × 1 = 0.05 kg m/s.",
+  "conventional": "![](asset:P000215-sol-1)\n\n$u_{x} = u_{y} = 5\\sqrt{2} \\cdot \\frac{1}{\\sqrt{2}} = 5$ m/s. At Q, $v_{x} = 5$, $v_{y} = - 5$ m/s.\n\n$$\\Delta\\vec{p} = m\\left( \\vec{v}_{Q} - \\vec{v}_{P} \\right) = 0.005\\,\\left\\lbrack \\left( 5\\ihat  - 5\\jhat  \\right) - \\left( 5\\ihat  + 5\\jhat  \\right) \\right\\rbrack = - 0.05\\,\\jhat \\ kg\\ m/s.$$\n\n$$\\left| \\Delta\\vec{p} \\right| = 5 \\times 10^{- 2}\\unit{kg}\\ m/s\\  \\Rightarrow \\ x = 5.$$",
+  "mistakes": [
+    "The speeds at P and Q are equal, but the momentum change is not zero: it is a vector change.",
+    "Use the mass in kg: 5 g = 0.005 kg."
+  ],
   "distractors": {},
   "extension": null,
   "check": {
+    "solved_answer": "x = 5 (Δp = 0.05 kg m/s, vertically downward).",
+    "resolve_answer": null,
+    "agrees_with_key": true,
     "issues": []
   },
   "generated_by": {
     "author": "worksheet",
     "model": null,
-    "prompt_version": null,
-    "date": "2026-11-08"
+    "prompt_version": "04MIP_Solutions_v1",
+    "date": "2026-11-12"
   },
-  "reviewed_by": null
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 04MIP_Solutions_v1.docx"
+  }
 }

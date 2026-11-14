@@ -1,0 +1,32 @@
+{
+  "id": "P000538",
+  "problem_version": 1,
+  "status": "reviewed",
+  "hints": [
+    "Look at the block face-on, in the plane of the wall. Which forces act in that plane, and in which direction would the block slide?"
+  ],
+  "worded": "1. In the plane of the wall two forces act: the weight 6 N (down) and the 8 N horizontal push. Their resultant is 10 N, at an angle below the horizontal.\n\n2. The wall’s normal force is 10 N (balancing the push into the wall), so friction can be at most 0.25 × 10 = 2.5 N.\n\n3. 10 N exceeds 2.5 N, so the block slides along the resultant’s direction, and kinetic friction acts directly against it.\n\n4. Net force 10 − 2.5 = 7.5 N, so a = 7.5/0.6 = 12.5 m/s². (C)",
+  "conventional": "![](asset:P000538-sol-1)\n\nIn the plane of the wall: $F_{in - plane} = \\sqrt{6^{2} + 8^{2}} = 10$ N. Normal force $N = 10$ N, so $f = \\mu N = 2.5$ N, opposite to the motion.\n\n$$a = \\frac{10 - 2.5}{0.6} = 12.5\\ {m/s}^{2}.$$",
+  "mistakes": [
+    "Friction opposes the actual direction of sliding (along the 10 N resultant), not just the weight."
+  ],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "solved_answer": "(C) 12.5 m/s², along the resultant of the weight and the 8 N force.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": "06FRI_Solutions_v1",
+    "date": "2026-11-12"
+  },
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 06FRI_Solutions_v1.docx"
+  }
+}

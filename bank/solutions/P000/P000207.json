@@ -1,23 +1,33 @@
 {
   "id": "P000207",
   "problem_version": 1,
-  "status": "draft",
+  "status": "reviewed",
   "hints": [
-    "> For $\\theta = 45{^\\circ}$: $R = 4h$ (we can think of this as the case of $h_{1} = h_{2} = h)$"
+    "Same speed and same range means the two launch angles are complementary. Write each height using sin² of its angle and multiply them."
   ],
-  "worded": null,
-  "conventional": null,
-  "mistakes": [],
+  "worded": "1. Same speed and same range on level ground means the angles are θ and 90° − θ.\n\n2. h₁ = u² sin²θ/2g and h₂ = u² cos²θ/2g. Their product is u⁴ sin²θ cos²θ/4g².\n\n3. R = u² sin 2θ/g = 2u² sinθ cosθ/g, so R² = 4u⁴ sin²θ cos²θ/g².\n\n4. Comparing, R² = 16 h₁h₂. (B)\n\n5. Check at 45°, where both throws coincide: R = 4h, so R² = 16h² = 16h₁h₂. That matches the worksheet’s own hint.\n\n**No-pen route: the 45° case.** Any correct relation must hold when the two throws coincide at 45°, where h₁ = h₂ = h and R = 4h. Then R² = 16h², which picks (B) at once.",
+  "conventional": "![](asset:P000207-sol-1)\n\nWith angles $\\theta$ and $90^{\\circ} - \\theta$:\n\n$$h_{1}h_{2} = \\frac{u^{2}\\sin^{2}\\theta}{2g} \\cdot \\frac{u^{2}\\cos^{2}\\theta}{2g} = \\frac{u^{4}\\sin^{2}\\theta\\cos^{2}\\theta}{4g^{2}},\\quad\\quad R^{2} = \\frac{4u^{4}\\sin^{2}\\theta\\cos^{2}\\theta}{g^{2}}.$$\n\n$$\\therefore\\ R^{2} = 16h_{1}h_{2}.$$",
+  "mistakes": [
+    "Square R correctly: (2 sinθ cosθ)² = 4 sin²θ cos²θ.",
+    "(A) R² = 4h₁h₂ would make R = 2h at 45°; it is 4h."
+  ],
   "distractors": {},
   "extension": null,
   "check": {
+    "solved_answer": "(B) $R^{2} = 16h_{1}h_{2}$.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
     "issues": []
   },
   "generated_by": {
     "author": "worksheet",
     "model": null,
-    "prompt_version": null,
-    "date": "2026-11-08"
+    "prompt_version": "04MIP_Solutions_v1",
+    "date": "2026-11-12"
   },
-  "reviewed_by": null
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 04MIP_Solutions_v1.docx"
+  }
 }

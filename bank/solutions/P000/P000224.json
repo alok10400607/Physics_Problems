@@ -1,0 +1,33 @@
+{
+  "id": "P000224",
+  "problem_version": 1,
+  "status": "reviewed",
+  "hints": [
+    "The object keeps the plane’s horizontal velocity. What vertical velocity has it gained after 10 s of falling?"
+  ],
+  "worded": "1. Released from a plane flying horizontally, the object starts with the plane’s velocity: 100 m/s horizontal, zero vertical.\n\n2. Its horizontal velocity stays 100 m/s. Its vertical velocity grows by 10 m/s each second, reaching 100 m/s after 10 s.\n\n3. Equal horizontal and vertical components mean the velocity is at 45° below the horizontal at impact.\n\n4. Check: the height must have been ½ × 10 × 100 = 500 m, a sensible altitude.",
+  "conventional": "![](asset:P000224-sol-1)\n\n$$v_{x} = 100\\unit{m/s},\\quad\\quad v_{y} = gt = 10(10) = 100\\unit{m/s}.$$\n\n$$\\tan\\beta = \\frac{v_{y}}{v_{x}} = 1\\  \\Rightarrow \\ \\beta = 45^{\\circ}\\text{ below the horizontal}.$$",
+  "mistakes": [
+    "The object does not fall straight down: it keeps the plane’s 100 m/s forward.",
+    "tan β uses velocities, not the height and horizontal distance (500 m and 1000 m would give 26.6°)."
+  ],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "solved_answer": "45° below the horizontal.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": "04MIP_Solutions_v1",
+    "date": "2026-11-12"
+  },
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 04MIP_Solutions_v1.docx"
+  }
+}

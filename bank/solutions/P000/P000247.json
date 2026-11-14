@@ -1,0 +1,33 @@
+{
+  "id": "P000247",
+  "problem_version": 1,
+  "status": "reviewed",
+  "hints": [
+    "Work in the train’s frame. The ball goes up and down as usual, but what extra acceleration does it seem to have along the floor?"
+  ],
+  "worded": "1. Once released, the ball has only g; the train keeps accelerating at 3 m/s² forward. So, relative to the train, the ball has an extra 3 m/s² backward.\n\n2. Vertically it goes up at 5 m/s and returns after 2 × 5/10 = 1 s.\n\n3. Relative to the train it starts with zero horizontal velocity (it shared the train’s velocity at release) and drifts backward ½ × 3 × 1² = 1.5 m.\n\n4. So it lands 1.5 m behind the point of projection. (C)\n\n**Another way: ground frame.** Let the train’s speed at launch be V. The ball keeps V horizontally for 1 s, covering V × 1. The floor point covers V × 1 + ½ × 3 × 1². The difference is 1.5 m, with the floor ahead: the ball lands 1.5 m behind.",
+  "conventional": "![](asset:P000247-sol-1)\n\nIn the train frame: $u_{y} = 5$ m/s, $a_{y} = - 10$ m/s², $u_{x} = 0$, $a_{x} = - 3$ m/s² (backward).\n\n$$T = \\frac{2u_{y}}{g} = 1\\unit{s},\\quad\\quad x = \\frac{1}{2}a_{x}T^{2} = - \\frac{1}{2}(3)(1)^{2} = - 1.5\\unit{m}.$$",
+  "mistakes": [
+    "The ball does not keep accelerating with the train after release.",
+    "In a train moving at constant velocity it would land at the same spot (option A)."
+  ],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "solved_answer": "(C) 1.5 m behind.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": "04MIP_Solutions_v1",
+    "date": "2026-11-12"
+  },
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 04MIP_Solutions_v1.docx"
+  }
+}

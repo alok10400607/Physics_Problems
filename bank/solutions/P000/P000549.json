@@ -1,0 +1,32 @@
+{
+  "id": "P000549",
+  "problem_version": 1,
+  "status": "reviewed",
+  "hints": [
+    "For each block, compare the spring’s push with the largest static friction it can get. Only then decide whether it moves."
+  ],
+  "worded": "1. The spring pushes each block outward with 0.5mg.\n\n2. Block m: largest static friction 0.2mg, less than 0.5mg, so it slides; kinetic friction 0.2mg opposes, net 0.3mg, a = 0.3g.\n\n3. Block 2m: largest static friction 0.5 × 2mg = mg, more than 0.5mg, so it stays put; static friction is just 0.5mg and a = 0.\n\n4. So 0.3g and zero. (C)",
+  "conventional": "![](asset:P000549-sol-1)\n\n$m$: $0.5mg > 0.2mg$ $\\Rightarrow$ slides, $ma = 0.5mg - 0.2mg \\Rightarrow a = 0.3g$.\n$2m$: $0.5mg < 0.5(2mg)$ $\\Rightarrow$ at rest, $a = 0$.",
+  "mistakes": [
+    "Test each block for slipping before using μN; the heavy block’s friction is only 0.5mg."
+  ],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "solved_answer": "(C) 0.3g, zero.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": "06FRI_Solutions_v1",
+    "date": "2026-11-12"
+  },
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 06FRI_Solutions_v1.docx"
+  }
+}

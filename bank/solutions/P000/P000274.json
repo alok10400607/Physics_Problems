@@ -1,0 +1,33 @@
+{
+  "id": "P000274",
+  "problem_version": 1,
+  "status": "reviewed",
+  "hints": [
+    "What decides the crossing time, and how do the two boats’ across components compare?"
+  ],
+  "worded": "1. Crossing time depends only on the across component of each boat’s velocity relative to the water.\n\n2. Both head 20° from north, one to each side, with the same speed: both have v cos 20° across.\n\n3. The river flows along the banks and adds nothing across. So they reach the northern bank together. (C)\n\n4. They land at different points (one drifts more than the other), but at the same time.",
+  "conventional": "![](asset:P000274-sol-1)\n\n$$t_{A} = \\frac{W}{v\\cos 20^{\\circ}} = t_{B}.$$",
+  "mistakes": [
+    "The river speed changes where they land, not when they land.",
+    "“Rowing towards” a direction means the heading relative to the water."
+  ],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "solved_answer": "(C) Both reach at the same time.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": "04MIP_Solutions_v1",
+    "date": "2026-11-12"
+  },
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 04MIP_Solutions_v1.docx"
+  }
+}

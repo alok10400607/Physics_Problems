@@ -1,0 +1,33 @@
+{
+  "id": "P000255",
+  "problem_version": 1,
+  "status": "reviewed",
+  "hints": [
+    "In the lift’s frame, what is the effective gravity? Then it is an ordinary projectile."
+  ],
+  "worded": "1. In the frame of a lift accelerating up at 2 m/s², every free body seems to have a downward acceleration g + a = 12 m/s².\n\n2. Relative to the lift the bullet leaves at 10 m/s at 30°, so its vertical component is 5 m/s.\n\n3. Time of flight (back to the floor level of the gun) = 2 × 5/12 = 5/6 s. (C)\n\n4. Check: in a lift at rest it would be 1 s (option A); the upward acceleration of the lift shortens it.",
+  "conventional": "![](asset:P000255-sol-1)\n\n$$g_{e} = g + a = 12\\ {m/s}^{2},\\quad\\quad T = \\frac{2u\\sin 30^{\\circ}}{g_{e}} = \\frac{2(10)(0.5)}{12} = \\frac{5}{6}\\unit{s}.$$",
+  "mistakes": [
+    "An upward-accelerating lift increases the effective g (to g + a), not decreases it.",
+    "The lift’s velocity is irrelevant; only its acceleration matters."
+  ],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "solved_answer": "(C) 5/6 s.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": "04MIP_Solutions_v1",
+    "date": "2026-11-12"
+  },
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 04MIP_Solutions_v1.docx"
+  }
+}

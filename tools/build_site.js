@@ -3,6 +3,7 @@
 //   site/data/catalog.json     every chapter and subtopic in TopicCode_v2, with how many problems each has
 //   site/data/ch/<CC>.json     the problems of one chapter, grouped by subtopic, with their solutions
 //   site/data/figures/         figures, with a short content fingerprint in the name so browsers never show a stale copy
+//   site/labs/<series>/        the interactive pages from bank/labs/, listed in catalog.json under "labs"
 // Students browse chapter → subtopic → questions; the order inside a subtopic follows the worksheets.
 const fs = require('fs'), path = require('path'), crypto = require('crypto');
 const ROOT = path.resolve(__dirname, '..'), BANK = path.join(ROOT, 'bank'), OUT = path.join(ROOT, 'site', 'data');
@@ -89,6 +90,23 @@ for (const ch of chapters) {
   fs.writeFileSync(path.join(OUT, 'ch', `${ch.code}.json`), JSON.stringify(data));
 }
 const groups = GROUPS.map(g => ({ name: g.name, chapters: chapters.filter(c => +c.code >= g.from && +c.code <= g.to).map(c => c.code) }));
-fs.writeFileSync(path.join(OUT, 'catalog.json'), JSON.stringify({ built: new Date().toISOString().slice(0, 10), groups, chapters }));
+// Exemplars & animations: bank/labs/<series>/*.html copied to site/labs/, listed in the catalog by subtopic
+const LABS_OUT = path.join(ROOT, 'site', 'labs');
+fs.rmSync(LABS_OUT, { recursive: true, force: true });
+const labsIndex = path.join(BANK, 'labs', 'index.json');
+const labs = [];
+if (fs.existsSync(labsIndex)) {
+  for (const se of readJSON(labsIndex).series) {
+    fs.mkdirSync(path.join(LABS_OUT, se.id), { recursive: true });
+    for (const pg of se.pages) {
+      const buf = fs.readFileSync(path.join(BANK, 'labs', se.id, pg.file));
+      const name = pg.file.replace(/\.html$/, '') + '-' + crypto.createHash('sha256').update(buf).digest('hex').slice(0, 8) + '.html';
+      fs.writeFileSync(path.join(LABS_OUT, se.id, name), buf);
+      labs.push({ id: `${se.id}-${pg.key}`, series: se.id, seriesTitle: se.title, seriesSummary: se.summary || '', key: pg.key, kind: pg.kind, goal: pg.goal, topics: pg.topics, url: `labs/${se.id}/${name}` });
+    }
+  }
+}
+for (const ch of chapters) for (const s of ch.subtopics) s.labs = labs.filter(l => l.topics.includes(s.code)).length;
+fs.writeFileSync(path.join(OUT, 'catalog.json'), JSON.stringify({ built: new Date().toISOString().slice(0, 10), groups, chapters, labs }));
 const withProblems = chapters.filter(c => c.count);
-console.log(`Built ${chapters.length} chapters (${withProblems.length} with problems: ${withProblems.map(c => `${c.code} (${c.count})`).join(', ')}); ${published.size} figures.`);
+console.log(`Built ${chapters.length} chapters (${withProblems.length} with problems: ${withProblems.map(c => `${c.code} (${c.count})`).join(', ')}); ${published.size} figures; ${labs.length} interactive pages.`);

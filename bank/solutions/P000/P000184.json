@@ -1,23 +1,33 @@
 {
   "id": "P000184",
   "problem_version": 1,
-  "status": "draft",
+  "status": "reviewed",
   "hints": [
-    "> $\\overrightarrow{v}(2) = 2\\widehat{i} + 6\\widehat{j} + 9\\widehat{k}$ $\\tan \\alpha(x - axis):\\frac{\\sqrt{v_{y}^{2} + v_{z}^{2}}}{v_{x}}$"
+    "Find $\\vec{v}$ at t = 2 s first. The angle with the x-axis comes from a right triangle: one leg along x, the other leg is everything perpendicular to x."
   ],
-  "worded": null,
-  "conventional": null,
-  "mistakes": [],
+  "worded": "1. Asked: the direction of motion at t = 2 s, which is the direction of the velocity vector then.\n\n2. Substitute t = 2: v_x = 0.5 × 4 = 2, v_y = 3 × 2 = 6, v_z = 9.\n\n3. The angle with the x-axis compares the part along x (2) with the part perpendicular to x. That perpendicular part combines v_y and v_z: √(36 + 81) = √117.\n\n4. So tan α = √117 / 2, measured from the x-axis. (B)\n\n5. Check the decoys: tan⁻¹(2/3) and tan⁻¹(5/2) use only two of the three components, which cannot fix a direction in 3-D.\n\n**Why the other options are there.** (A) and (D) use 2 and 3, the x-component and the coefficient “3t” before substituting t. (C) uses 5/2, an arbitrary pair. Only (B) uses all three components.",
+  "conventional": "![](asset:P000184-sol-1)\n\n$$\\vec{v}(2) = 0.5(2)^{2}\\ihat  + 3(2)\\jhat  + 9\\khat  = 2\\ihat  + 6\\jhat  + 9\\khat \\ m/s.$$\n\nThe angle α with the x-axis satisfies\n\n$$\\tan\\alpha = \\frac{\\sqrt{v_{y}^{2} + v_{z}^{2}}}{v_{x}} = \\frac{\\sqrt{36 + 81}}{2} = \\frac{\\sqrt{117}}{2}.$$",
+  "mistakes": [
+    "In 3-D, the side opposite the angle with the x-axis is $\\sqrt{v_{y}^{2} + v_{z}^{2}}$, not just $v_{y}$.",
+    "“Accelerating in uniform conditions” is filler: the velocity is already given as a function of time."
+  ],
   "distractors": {},
   "extension": null,
   "check": {
+    "solved_answer": "(B) $\\tan^{- 1}\\left( \\sqrt{117}/2 \\right)$ from the x-axis.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
     "issues": []
   },
   "generated_by": {
     "author": "worksheet",
     "model": null,
-    "prompt_version": null,
-    "date": "2026-11-08"
+    "prompt_version": "04MIP_Solutions_v1",
+    "date": "2026-11-12"
   },
-  "reviewed_by": null
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 04MIP_Solutions_v1.docx"
+  }
 }

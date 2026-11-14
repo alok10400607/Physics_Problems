@@ -1,6 +1,6 @@
 {
   "id": "P000236",
-  "status": "imported",
+  "status": "reviewed",
   "version": 1,
   "type": "integer",
   "topic_code": "0420",
@@ -39,6 +39,17 @@
       "alt": "From the top of a 25 m tower, two balls are thrown at 10 m/s: one at 15° above the horizontal and one at 15° below it.",
       "origin": "docx",
       "needs_redraw": false
+    },
+    {
+      "id": "P000236-sol-1",
+      "role": "solution",
+      "file": "P000/P000236-sol-1.png",
+      "format": "png",
+      "width": 545,
+      "height": 493,
+      "alt": "A 25 m tower with two paths from its top: one starting level (blue) and one starting downward (green); they land 5 m apart, the level range being 5 m.",
+      "origin": "docx",
+      "needs_redraw": true
     }
   ],
   "rights": "unverified",
@@ -46,5 +57,5 @@
   "duplicate_of": null,
   "variant_of": null,
   "created": "2026-11-08",
-  "updated": "2026-11-08"
+  "updated": "2026-11-12"
 }

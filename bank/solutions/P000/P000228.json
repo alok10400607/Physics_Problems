@@ -1,23 +1,33 @@
 {
   "id": "P000228",
   "problem_version": 1,
-  "status": "draft",
+  "status": "reviewed",
   "hints": [
-    "> It should travel a minimum horizontal distance of 40 m by the time it falls by 10 m."
+    "Read the figure: by the time the ball has gone 40 m forward, how far below A may it be? That vertical drop fixes the time."
   ],
-  "worded": null,
-  "conventional": null,
-  "mistakes": [],
+  "worded": "1. A is 26 m above the ground and the top of B is 16 m up, so the ball may drop at most 10 m by the time it is 40 m forward.\n\n2. Thrown horizontally, the drop is like a fall from rest: ½ × 9.8 × t² = 10 gives t = √(20/9.8) = 1/0.7 ≈ 1.43 s.\n\n3. It must cover 40 m in that time: u = 40 × 0.7 = 28 m/s. (C)\n\n4. “Minimum”: any slower and the ball drops more than 10 m before reaching B and hits it.",
+  "conventional": "![](asset:P000228-sol-1)\n\nDrop allowed: $26 - 16 = 10$ m over a horizontal distance of 40 m.\n\n$$10 = \\frac{1}{2}(9.8)t^{2}\\  \\Rightarrow \\ t = \\sqrt{\\frac{20}{9.8}} = \\frac{1}{0.7}\\unit{s}.$$\n\n$$u_{\\min} = \\frac{40}{t} = 40 \\times 0.7 = 28\\unit{m/s}.$$",
+  "mistakes": [
+    "Use the drop of 10 m (26 − 16), not the full 26 m.",
+    "This problem uses g = 9.8 m/s²; with g = 10 the answer would come out as 28.3 m/s."
+  ],
   "distractors": {},
   "extension": null,
   "check": {
+    "solved_answer": "(C) 28 m/s.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
     "issues": []
   },
   "generated_by": {
     "author": "worksheet",
     "model": null,
-    "prompt_version": null,
-    "date": "2026-11-08"
+    "prompt_version": "04MIP_Solutions_v1",
+    "date": "2026-11-12"
   },
-  "reviewed_by": null
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 04MIP_Solutions_v1.docx"
+  }
 }

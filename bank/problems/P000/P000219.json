@@ -1,6 +1,6 @@
 {
   "id": "P000219",
-  "status": "imported",
+  "status": "reviewed",
   "version": 1,
   "type": "mcq_single",
   "topic_code": "0410",
@@ -35,11 +35,23 @@
       "qno": 39
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "id": "P000219-sol-1",
+      "role": "solution",
+      "file": "P000/P000219-sol-1.png",
+      "format": "png",
+      "width": 592,
+      "height": 355,
+      "alt": "A projectile path: the displacement Δr from launch to the top at t = T/2 reaches height H and horizontal distance R/2.",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
   "rights": "unverified",
   "content_hash": "e237f57d371a4cba",
   "duplicate_of": null,
   "variant_of": null,
   "created": "2026-11-08",
-  "updated": "2026-11-08"
+  "updated": "2026-11-12"
 }

@@ -1,0 +1,33 @@
+{
+  "id": "P000187",
+  "problem_version": 1,
+  "status": "reviewed",
+  "hints": [
+    "Differentiate each coordinate twice. What does a coordinate that is linear in t contribute to the acceleration?"
+  ],
+  "worded": "1. Asked: the acceleration vector at t = 5 s. Acceleration is the second time-derivative of position, component by component.\n\n2. x = 7t + 4t²: the second derivative is 8, the same at every instant.\n\n3. y = 5t is linear in t: its velocity is a constant 5 and its acceleration is 0.\n\n4. So $\\vec{a}$ = 8 î at all times, including t = 5 s. (D)\n\n5. Check: “t = 5 s” is a decoy, since neither second derivative contains t.\n\n**Why the other options are there.** (A) adds the y-velocity 5 as if it were an acceleration. (B) uses the coefficient 4 instead of 2 × 4. (C) invents a y-acceleration of 2.",
+  "conventional": "$$\\vec{v} = \\frac{dx}{dt}\\ihat  + \\frac{dy}{dt}\\jhat  = (7 + 8t)\\ihat  + 5\\jhat ,$$\n\n$$\\vec{a} = \\frac{d\\vec{v}}{dt} = 8\\ihat \\ {m/s}^{2}\\quad(for\\text{ all t},\\text{ including t} = 5\\unit{s}).$$",
+  "mistakes": [
+    "The second derivative of 4t² is 8, not 4.",
+    "A constant velocity component (5 m/s along y) gives zero acceleration along y."
+  ],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "solved_answer": "(D) $8\\ihat $ m/s².",
+    "resolve_answer": null,
+    "agrees_with_key": true,
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": "04MIP_Solutions_v1",
+    "date": "2026-11-12"
+  },
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 04MIP_Solutions_v1.docx"
+  }
+}

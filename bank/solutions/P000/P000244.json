@@ -1,23 +1,33 @@
 {
   "id": "P000244",
   "problem_version": 1,
-  "status": "draft",
+  "status": "reviewed",
   "hints": [
-    "Similar to Q59, the angle of projection for it to strike the plane horizontally $\\tan \\alpha = 2\\tan 37{^\\circ} = \\frac{3}{2}$\n\nHence $u_{y} = \\frac{3u}{2}$; time to strike the plane = $\\frac{u_{y}}{g}$"
+    "The particle lands when its drop and its horizontal distance are in the ratio of the slope. Write both in terms of t."
   ],
-  "worded": null,
-  "conventional": null,
-  "mistakes": [],
+  "worded": "1. From the launch point, the slope falls 3 for every 4 across (tan 37° = ¾).\n\n2. After time t the particle has moved ut across and fallen ½gt².\n\n3. It reaches the slope when ½gt²/(ut) = ¾, so gt/(2u) = ¾ and t = 3u/2g. (C)\n\n4. Same result as Q59 run backwards: the particle would have been launched from the landing point at tan⁻¹(2 tan 37°) = tan⁻¹(3/2) to strike horizontally at the top; its vertical speed at landing, 3u/2, takes 3u/2g to build up.\n\n**Another way: reversal of Q59.** Run the film backwards: the particle leaves the landing point and arrives at the launch point moving horizontally, so the launch point is the top of its path. Then tan(launch angle) = 2 tan 37° = 3/2, the vertical speed is 3u/2, and the time is (3u/2)/g. This is the worksheet hint’s route.",
+  "conventional": "![](asset:P000244-sol-1)\n\n$$\\tan 37^{\\circ} = \\frac{\\frac{1}{2}gt^{2}}{ut} = \\frac{gt}{2u}\\  \\Rightarrow \\ t = \\frac{2u\\tan 37^{\\circ}}{g} = \\frac{2u(3/4)}{g} = \\frac{3u}{2g}.$$",
+  "mistakes": [
+    "The ratio is drop : horizontal = tan θ, not cot θ (which gives 8u/3g).",
+    "Do not use g sin θ or g cos θ here: in normal axes, the drop is just ½gt²."
+  ],
   "distractors": {},
   "extension": null,
   "check": {
+    "solved_answer": "(C) $\\frac{3u}{2g}$.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
     "issues": []
   },
   "generated_by": {
     "author": "worksheet",
     "model": null,
-    "prompt_version": null,
-    "date": "2026-11-08"
+    "prompt_version": "04MIP_Solutions_v1",
+    "date": "2026-11-12"
   },
-  "reviewed_by": null
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 04MIP_Solutions_v1.docx"
+  }
 }

@@ -1,0 +1,32 @@
+{
+  "id": "P000556",
+  "problem_version": 1,
+  "status": "reviewed",
+  "hints": [
+    "Speed gained on one half must be lost on the other, over the same length. What does that say about the two accelerations?"
+  ],
+  "worded": "1. On the smooth half the body speeds up at g sin φ; on the rough half it must slow down by the same amount over the same length.\n\n2. Equal lengths and equal changes in v² mean equal and opposite accelerations: g(μ cos φ − sin φ) = g sin φ.\n\n3. So μ cos φ = 2 sin φ, μ = 2 tan φ. (C)\n\n4. Energy check: gravity does work over the whole length; friction only over half, so it must be twice gravity’s component.\n\n**Another way: work–energy.** From rest to rest: mg sin φ × L = μmg cos φ × L/2, so μ = 2 tan φ.",
+  "conventional": "![](asset:P000556-sol-1)\n\nEach half has length $L/2$. Work–energy from rest at the top to rest at the bottom:\n\n$$mg\\sin\\varphi\\, L - \\mu mg\\cos\\varphi\\,\\frac{L}{2} = 0\\mkern6mu  \\Rightarrow \\mkern6mu \\mu = 2\\tan\\varphi.$$",
+  "mistakes": [
+    "Friction acts only on half the length, so μ is twice tan φ, not tan φ."
+  ],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "solved_answer": "(C) 2 tan φ.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": "06FRI_Solutions_v1",
+    "date": "2026-11-12"
+  },
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 06FRI_Solutions_v1.docx"
+  }
+}

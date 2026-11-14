@@ -1,0 +1,79 @@
+{
+  "id": "P000568",
+  "status": "reviewed",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0620",
+  "concepts": [],
+  "exams": [
+    "JEE Main"
+  ],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000568-stem-1) Two blocks A and B of masses 1 kg and 3 kg respectively are kept on the table as shown in the figure. The coefficient of friction between A and B and between B and the surface of the table is also 0.2. The maximum force F that can be applied on B horizontally so that the block A does not slide over block B is:",
+  "options": {
+    "A": "12 N",
+    "B": "16 N",
+    "C": "8 N",
+    "D": "40 N"
+  },
+  "answer": {
+    "keys": [
+      "B"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "06FRI_v1",
+      "qno": 34
+    },
+    {
+      "kind": "exam",
+      "exam": "JEE Main",
+      "date": "2019-04-10",
+      "shift": 2,
+      "mode": null,
+      "raw": "JEE Main 2019, 10 Apr, Shift 2",
+      "year": 2019
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000568-stem-1",
+      "role": "stem",
+      "file": "P000/P000568-stem-1.png",
+      "format": "png",
+      "width": 375,
+      "height": 125,
+      "alt": "Block A (1 kg) on block B (3 kg) on a table; μ = 0.2 between A and B and μ = 0.2 between B and the table; a force F pulls B.",
+      "origin": "docx",
+      "needs_redraw": true
+    },
+    {
+      "id": "P000568-sol-1",
+      "role": "solution",
+      "file": "P000/P000568-sol-1.png",
+      "format": "png",
+      "width": 714,
+      "height": 263,
+      "alt": "A 1 kg block on a 3 kg block pulled by F; table friction 0.2(40) = 8 N acts back on B. a_max = μg = 2, so F − 8 = 4(2).",
+      "origin": "docx",
+      "needs_redraw": false
+    }
+  ],
+  "rights": "past-paper",
+  "content_hash": "db4092c391ca5960",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-12",
+  "updated": "2026-11-12"
+}

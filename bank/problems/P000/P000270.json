@@ -1,6 +1,6 @@
 {
   "id": "P000270",
-  "status": "imported",
+  "status": "reviewed",
   "version": 1,
   "type": "mcq_single",
   "topic_code": "0435",
@@ -35,11 +35,23 @@
       "qno": 90
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "id": "P000270-sol-1",
+      "role": "solution",
+      "file": "P000/P000270-sol-1.png",
+      "format": "png",
+      "width": 1534,
+      "height": 498,
+      "alt": "N–E axes with ship A at the origin and B to the east; A moves 10 SE and B 20 SW. The relative velocity v_BA = v_B − v_A is drawn from B, and d_min is the perpendicular distance from A to it.",
+      "origin": "docx",
+      "needs_redraw": false
+    }
+  ],
   "rights": "unverified",
   "content_hash": "d24ef98c5e4cb2f0",
   "duplicate_of": null,
   "variant_of": null,
   "created": "2026-11-08",
-  "updated": "2026-11-08"
+  "updated": "2026-11-12"
 }

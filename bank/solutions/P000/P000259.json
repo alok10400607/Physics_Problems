@@ -1,0 +1,33 @@
+{
+  "id": "P000259",
+  "problem_version": 1,
+  "status": "reviewed",
+  "hints": [
+    "The ground track must be due north. Which part of the plane’s own velocity has to cancel the wind?"
+  ],
+  "worded": "1. The wind blows from the west, i.e. towards the east at 60 km/h.\n\n2. To travel due north, the plane’s velocity relative to the air must have a westward part that cancels the 60 km/h east wind.\n\n3. With an air speed of 500 km/h, the heading θ west of north has sin θ = 60/500 = 3/25.\n\n4. Then cos θ = √(625 − 9)/25 = √616/25, so tan θ = 3/√616. (C)\n\n5. Check against the options: (B) sin⁻¹(4/25) has the wrong number; (D) tan⁻¹(3/25) uses the sine ratio as a tangent.",
+  "conventional": "![](asset:P000259-sol-1)\n\nLet the heading be θ west of north. For the resultant to point north:\n\n$$500\\sin\\theta = 60\\  \\Rightarrow \\ \\sin\\theta = \\frac{3}{25},\\quad\\quad\\tan\\theta = \\frac{3}{\\sqrt{25^{2} - 3^{2}}} = \\frac{3}{\\sqrt{616}}.$$\n\nGround speed $= 500\\cos\\theta = 20\\sqrt{616} \\approx 496$ km/h (not needed).",
+  "mistakes": [
+    "“Wind from the west” blows towards the east, so the plane heads slightly west.",
+    "sin θ = 3/25, not tan θ = 3/25: the 500 km/h is the hypotenuse."
+  ],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "solved_answer": "(C) $\\tan^{- 1}\\frac{3}{\\sqrt{616}}$ (west of north), i.e. $\\sin^{- 1}(3/25)$.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": "04MIP_Solutions_v1",
+    "date": "2026-11-12"
+  },
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 04MIP_Solutions_v1.docx"
+  }
+}

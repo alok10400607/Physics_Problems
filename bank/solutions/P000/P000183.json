@@ -1,0 +1,33 @@
+{
+  "id": "P000183",
+  "problem_version": 1,
+  "status": "reviewed",
+  "hints": [
+    "The particle does not start at the origin. Find its position vector at t = 2 s, including the starting position, and only then take its length."
+  ],
+  "worded": "1. Asked: the distance from the origin at t = 2 s, which is the magnitude of the position vector then, not of the displacement.\n\n2. Acceleration is constant, so position = start + ut + ½at², component by component.\n\n3. x: 2 + 5 × 2 + ½ × 4 × 4 = 2 + 10 + 8 = 20 m. y: 4 + 4 × 2 + ½ × 4 × 4 = 4 + 8 + 8 = 20 m.\n\n4. So the particle is at (20, 20), whose distance from the origin is 20√2 m. (A)\n\n5. Check: forgetting the start gives (18, 16), length about 24 m, which is none of the options; dropping the ½ gives (28, 28). The clean 20√2 confirms the bookkeeping.",
+  "conventional": "![](asset:P000183-sol-1)\n\n$$\\vec{r} = \\vec{r}_{0} + \\vec{u}t + \\frac{1}{2}\\vec{a}t^{2} = \\left( 2\\ihat  + 4\\jhat  \\right) + \\left( 5\\ihat  + 4\\jhat  \\right)(2) + \\frac{1}{2}\\left( 4\\ihat  + 4\\jhat  \\right)(2)^{2}$$\n\n$$\\vec{r} = 20\\ihat  + 20\\jhat \\ m,\\quad\\quad\\left| \\vec{r} \\right| = 20\\sqrt{2}\\unit{m}.$$",
+  "mistakes": [
+    "Distance from the origin needs $\\vec{r}$, not the displacement $\\vec{r} - \\vec{r}_{0}$.",
+    "The force is irrelevant here: only the acceleration it produces is used."
+  ],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "solved_answer": "(A) $20\\sqrt{2}$ m.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": "04MIP_Solutions_v1",
+    "date": "2026-11-12"
+  },
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 04MIP_Solutions_v1.docx"
+  }
+}

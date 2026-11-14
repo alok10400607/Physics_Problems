@@ -1,0 +1,57 @@
+{
+  "id": "P000553",
+  "status": "reviewed",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0615",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A body is projected up a $45{^\\circ}$ rough incline. If the coefficient of friction is 0.5, then the retardation of the block is",
+  "options": {
+    "A": "$\\frac{g}{2\\sqrt{2}}$",
+    "B": "$\\ \\frac{g}{\\sqrt{2}}$",
+    "C": "$\\frac{3g}{2\\sqrt{2}}$",
+    "D": "$\\frac{g}{2}$"
+  },
+  "answer": {
+    "keys": [
+      "C"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "06FRI_v1",
+      "qno": 19
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000553-sol-1",
+      "role": "solution",
+      "file": "P000/P000553-sol-1.png",
+      "format": "png",
+      "width": 612,
+      "height": 345,
+      "alt": "A block moving up a 45° incline with velocity v; mg sin 45° + μmg cos 45° acts down the slope.",
+      "origin": "docx",
+      "needs_redraw": false
+    }
+  ],
+  "rights": "unverified",
+  "content_hash": "7169474f5ad89644",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-12",
+  "updated": "2026-11-12"
+}

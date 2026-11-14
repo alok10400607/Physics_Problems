@@ -1,6 +1,6 @@
 {
   "id": "P000231",
-  "status": "imported",
+  "status": "reviewed",
   "version": 1,
   "type": "integer",
   "topic_code": "0415",
@@ -27,11 +27,23 @@
       "qno": 51
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "id": "P000231-sol-1",
+      "role": "solution",
+      "file": "P000/P000231-sol-1.png",
+      "format": "png",
+      "width": 1117,
+      "height": 454,
+      "alt": "A ball leaves the top of a staircase at 4.5 m/s and lands on the edge of step 9; each step is 0.2 m high and 0.3 m wide.",
+      "origin": "docx",
+      "needs_redraw": false
+    }
+  ],
   "rights": "unverified",
   "content_hash": "c4d515ca98e267f2",
   "duplicate_of": null,
   "variant_of": null,
   "created": "2026-11-08",
-  "updated": "2026-11-08"
+  "updated": "2026-11-12"
 }

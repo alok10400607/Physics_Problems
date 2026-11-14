@@ -1,6 +1,6 @@
 {
   "id": "P000240",
-  "status": "imported",
+  "status": "reviewed",
   "version": 1,
   "type": "mcq_single",
   "topic_code": "0425",
@@ -46,6 +46,17 @@
       "alt": "A particle launched with speed u perpendicular to the surface of an incline of angle θ = 37°.",
       "origin": "docx",
       "needs_redraw": true
+    },
+    {
+      "id": "P000240-sol-1",
+      "role": "solution",
+      "file": "P000/P000240-sol-1.png",
+      "format": "png",
+      "width": 756,
+      "height": 656,
+      "alt": "A projectile on a downward incline with axes along (x) and across the plane: along, u_x = 0 and a_x = g sin θ; across, u_y = u and a_y = −g cos θ. Range R = ½g sin θ T².",
+      "origin": "docx",
+      "needs_redraw": false
     }
   ],
   "rights": "unverified",
@@ -53,5 +64,5 @@
   "duplicate_of": null,
   "variant_of": null,
   "created": "2026-11-08",
-  "updated": "2026-11-08"
+  "updated": "2026-11-12"
 }

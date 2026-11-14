@@ -9,7 +9,7 @@
   "conventional": "![](asset:P000130-sol-1)\n\nEach stage starts from rest: $s = \\frac{1}{2}gt^{2} = \\frac{1}{2}(10)(2)^{2} = 20$ m.\n\n$$h = H - 20 - 20 = (H - 40)\\unit{m}.$$",
   "mistakes": [
     "Don’t treat it as a 4 s continuous fall (80 m): stopping resets the speed to zero.",
-    "If H \\< 40 m the body reaches the ground before the 4 s are up."
+    "If H < 40 m the body reaches the ground before the 4 s are up."
   ],
   "distractors": {},
   "extension": null,

@@ -1,6 +1,6 @@
 {
   "id": "P000242",
-  "status": "imported",
+  "status": "reviewed",
   "version": 1,
   "type": "mcq_single",
   "topic_code": "0425",
@@ -46,6 +46,17 @@
       "alt": "A smooth incline at 30° to the horizontal. A particle on its surface is launched at 60° to the line Y across the incline; X points up the slope.",
       "origin": "docx",
       "needs_redraw": true
+    },
+    {
+      "id": "P000242-sol-1",
+      "role": "solution",
+      "file": "P000/P000242-sol-1.png",
+      "format": "png",
+      "width": 829,
+      "height": 468,
+      "alt": "View looking straight at an inclined plane: X up the slope, Y horizontal; launch at 3 m/s at 60° to Y; acceleration g sin 30° down the slope; at the top of the path v_X = 0.",
+      "origin": "docx",
+      "needs_redraw": false
     }
   ],
   "rights": "unverified",
@@ -53,5 +64,5 @@
   "duplicate_of": null,
   "variant_of": null,
   "created": "2026-11-08",
-  "updated": "2026-11-08"
+  "updated": "2026-11-12"
 }

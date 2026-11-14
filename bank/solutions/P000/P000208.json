@@ -1,23 +1,33 @@
 {
   "id": "P000208",
   "problem_version": 1,
-  "status": "draft",
+  "status": "reviewed",
   "hints": [
-    "> $t_{1} = \\frac{2u\\sin \\alpha}{g}$; $t_{2} = \\frac{2u\\sin (90 - \\alpha)}{g} = \\frac{2u\\cos \\alpha}{g}$ and $R = \\frac{2u\\sin \\alpha \\cos \\alpha}{g}$"
+    "The two ways of hitting the target are complementary angles. Write each time of flight and compare their product with the range formula."
   ],
-  "worded": null,
-  "conventional": null,
-  "mistakes": [],
+  "worded": "1. Two ways to hit a target at range R with the same speed: angles θ and 90° − θ.\n\n2. t₁ = 2u sinθ/g and t₂ = 2u cosθ/g. Product = 4u² sinθ cosθ/g².\n\n3. R = 2u² sinθ cosθ/g, so the product is (2/g) × R = 2R/g. (D)\n\n4. Check units: R/g has units of s², as a product of two times must. (A) Rg fails this test.",
+  "conventional": "![](asset:P000208-sol-1)\n\n$$t_{1}t_{2} = \\frac{2u\\sin\\theta}{g} \\cdot \\frac{2u\\cos\\theta}{g} = \\frac{2}{g} \\cdot \\frac{2u^{2}\\sin\\theta\\cos\\theta}{g} = \\frac{2R}{g}.$$",
+  "mistakes": [
+    "Rg has units of m²/s², not s²: check units on product-of-times answers.",
+    "The product is independent of u and θ once R is fixed."
+  ],
   "distractors": {},
   "extension": null,
   "check": {
+    "solved_answer": "(D) $2R/g$.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
     "issues": []
   },
   "generated_by": {
     "author": "worksheet",
     "model": null,
-    "prompt_version": null,
-    "date": "2026-11-08"
+    "prompt_version": "04MIP_Solutions_v1",
+    "date": "2026-11-12"
   },
-  "reviewed_by": null
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 04MIP_Solutions_v1.docx"
+  }
 }

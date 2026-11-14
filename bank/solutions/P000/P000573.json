@@ -1,0 +1,32 @@
+{
+  "id": "P000573",
+  "problem_version": 1,
+  "status": "reviewed",
+  "hints": [
+    "Constant speed means zero net force. Which way does friction act on A in each case?"
+  ],
+  "worded": "1. Constant velocity: forces balance, and T = m_B g.\n\n2. A’s weight component down the slope: 50 N. Kinetic friction: 0.2 × 100 cos 30° = 17.3 N, opposite to A’s motion.\n\n3. (i) A moving down: friction up the slope. T = 50 − 17.3 = 32.7 N, so m_B = 3.27 kg.\n\n4. (ii) A moving up: friction down the slope. T = 50 + 17.3 = 67.3 N, so m_B = 6.73 kg.",
+  "conventional": "![](asset:P000573-sol-1)\n\n$f_{k} = 0.2(100)\\cos 30^{\\circ} = 17.32$ N.\n(i) $m_{B}g = 50 - 17.32 \\Rightarrow m_{B} = 3.27$ kg. (ii) $m_{B}g = 50 + 17.32 \\Rightarrow m_{B} = 6.73$ kg.",
+  "mistakes": [
+    "Friction’s direction flips with the direction of motion, so the two answers differ by 2f/g."
+  ],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "solved_answer": "(i) 3.27 kg; (ii) 6.73 kg.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": "06FRI_Solutions_v1",
+    "date": "2026-11-12"
+  },
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 06FRI_Solutions_v1.docx"
+  }
+}

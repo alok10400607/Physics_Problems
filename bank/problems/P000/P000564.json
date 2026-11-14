@@ -1,0 +1,68 @@
+{
+  "id": "P000564",
+  "status": "reviewed",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0620",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000564-stem-1)A system of three blocks is being pushed by a horizontal force F as shown. The horizontal surface is smooth, whereas the coefficient of friction between A-B and B-C is $\\mu$. Find minimum value of F to prevent block B from slipping down?",
+  "options": {
+    "A": "$2mg/\\mu$",
+    "B": "$mg/\\mu$",
+    "C": "$2mg/3\\mu$",
+    "D": "$mg/2\\mu$"
+  },
+  "answer": {
+    "keys": [
+      "B"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "06FRI_v1",
+      "qno": 30
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000564-stem-1",
+      "role": "stem",
+      "file": "P000/P000564-stem-1.png",
+      "format": "png",
+      "width": 351,
+      "height": 133,
+      "alt": "Three blocks on a floor: A (2m) pushed by F, B (m) resting across the tops of A and C, and C (2m).",
+      "origin": "docx",
+      "needs_redraw": true
+    },
+    {
+      "id": "P000564-sol-1",
+      "role": "solution",
+      "file": "P000/P000564-sol-1.png",
+      "format": "png",
+      "width": 1033,
+      "height": 361,
+      "alt": "Blocks of 2m and 2m joined across the top by B (m), with F pushing the first block; on B, friction f₁ and f₂ up its ends, weight mg down, and horizontal forces 3F/5 and 2F/5.",
+      "origin": "docx",
+      "needs_redraw": false
+    }
+  ],
+  "rights": "unverified",
+  "content_hash": "a9bf501f475ccff9",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-12",
+  "updated": "2026-11-12"
+}

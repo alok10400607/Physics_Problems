@@ -1,21 +1,35 @@
 {
   "id": "P000223",
   "problem_version": 1,
-  "status": "draft",
-  "hints": [],
-  "worded": null,
-  "conventional": null,
-  "mistakes": [],
+  "status": "reviewed",
+  "hints": [
+    "At the required instant $\\vec{v} \\cdot \\vec{u} = 0$. Since $\\vec{v} = \\vec{u} + \\vec{g}t$, the change $\\vec{g}t$ must cancel all of $\\vec{u}$’s length along $\\vec{u}$."
+  ],
+  "worded": "1. Asked: when the velocity is at 90° to the launch velocity. Then $\\vec{v} \\cdot \\vec{u}$ = 0.\n\n2. $\\vec{v} = \\vec{u} + \\vec{g}t$, so $\\vec{v} \\cdot \\vec{u}$ = u² + ($\\vec{g} \\cdot \\vec{u}$)t = u² − g u sin 60° t.\n\n3. Setting it to zero: t = u/(g sin 60°) = 2u/(√3 g).\n\n4. Check this is before landing: the time of flight is 2u sin 60°/g = √3u/g ≈ 1.73u/g, more than 1.15u/g. ✓ (This needs θ > 45°.)\n\n5. Same answer as Q65, and for the same reason: in both, the component of $\\vec{g}$ along the initial direction must cancel the initial speed.\n\n**Another way: tilted axes.** Take one axis along $\\vec{u}$. Along it, the velocity starts at u and decreases at g sin 60° (the part of g along $\\vec{u}$). It is zero, so the velocity is perpendicular to $\\vec{u}$, after u/(g sin 60°).",
+  "conventional": "![](asset:P000223-sol-1)\n\n$$\\vec{v} \\cdot \\vec{u} = \\left( \\vec{u} + \\vec{g}t \\right) \\cdot \\vec{u} = u^{2} - gt\\, u\\sin 60^{\\circ} = 0\\  \\Rightarrow \\ t = \\frac{u}{g\\sin 60^{\\circ}} = \\frac{2u}{\\sqrt{3}\\, g}.$$\n\nTime of flight $= \\frac{2u\\sin 60^{\\circ}}{g} = \\frac{\\sqrt{3}u}{g} > \\frac{2u}{\\sqrt{3}g}$, so this happens in flight.",
+  "mistakes": [
+    "Use sin 60° (the component of g along $\\vec{u}$), not cos 60°.",
+    "For launch angles below 45° this never happens before landing."
+  ],
   "distractors": {},
-  "extension": "> Why is this answer the same as the answer to Q65?",
+  "extension": null,
   "check": {
-    "issues": []
+    "solved_answer": "$t = \\frac{2u}{\\sqrt{3}\\, g}$.",
+    "resolve_answer": null,
+    "agrees_with_key": null,
+    "issues": [
+      "answer to be compared with the key by the reviewer"
+    ]
   },
   "generated_by": {
     "author": "worksheet",
     "model": null,
-    "prompt_version": null,
-    "date": "2026-11-08"
+    "prompt_version": "04MIP_Solutions_v1",
+    "date": "2026-11-12"
   },
-  "reviewed_by": null
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 04MIP_Solutions_v1.docx"
+  }
 }

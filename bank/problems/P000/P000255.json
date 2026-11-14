@@ -1,6 +1,6 @@
 {
   "id": "P000255",
-  "status": "imported",
+  "status": "reviewed",
   "version": 1,
   "type": "mcq_single",
   "topic_code": "0430",
@@ -35,11 +35,23 @@
       "qno": 75
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "id": "P000255-sol-1",
+      "role": "solution",
+      "file": "P000/P000255-sol-1.png",
+      "format": "png",
+      "width": 775,
+      "height": 329,
+      "alt": "A ball thrown at 10 m/s at 30° inside a lift accelerating at a = 2 upward; in the lift g_e = g + a = 12.",
+      "origin": "docx",
+      "needs_redraw": false
+    }
+  ],
   "rights": "unverified",
   "content_hash": "cefe784f97d9f5c8",
   "duplicate_of": null,
   "variant_of": null,
   "created": "2026-11-08",
-  "updated": "2026-11-08"
+  "updated": "2026-11-12"
 }

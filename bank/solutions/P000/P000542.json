@@ -1,0 +1,33 @@
+{
+  "id": "P000542",
+  "problem_version": 1,
+  "status": "reviewed",
+  "hints": [
+    "Find N first: does the force lift the block or press it down? Then friction opposes the sliding."
+  ],
+  "worded": "1. The figure is missing; the options show N = mg − F sin θ, so the force pulls upward at θ above the horizontal.\n\n2. The upward component F sin θ reduces the normal force: N = mg − F sin θ.\n\n3. The block slides forward, so kinetic friction μ_K N acts backward.\n\n4. a = (F cos θ − μ_K(mg − F sin θ))/m. (B)\n\n5. (D) adds friction (it would help motion); (C) is the push-down case; (A) has the driving force backward.",
+  "conventional": "![](asset:P000542-sol-1)\n\n$$N = mg - F\\sin\\theta,\\quad\\quad ma = F\\cos\\theta - \\mu_{K}\\left( mg - F\\sin\\theta \\right).$$\n\n$$a = \\frac{F}{m}\\cos\\theta - \\mu_{K}\\left( g - \\frac{F}{m}\\sin\\theta \\right).$$",
+  "mistakes": [
+    "A pull above the horizontal reduces N; a push below it increases N.",
+    "No figure is printed; the direction of F is read from the options."
+  ],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "solved_answer": "(B) $\\frac{F}{m}\\cos\\theta - \\mu_{K}\\left( g - \\frac{F}{m}\\sin\\theta \\right)$.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": "06FRI_Solutions_v1",
+    "date": "2026-11-12"
+  },
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 06FRI_Solutions_v1.docx"
+  }
+}

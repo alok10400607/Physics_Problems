@@ -1,0 +1,34 @@
+{
+  "id": "P000563",
+  "problem_version": 1,
+  "status": "reviewed",
+  "hints": [
+    "Imagine the blocks a little apart. Which would slide faster on its own? A push between them exists only if the upper block would catch the lower one."
+  ],
+  "worded": "1. Alone, each block would accelerate at g(0.6 − 0.8μ). A is the lower block.\n\n2. (i) A alone: 10(0.6 − 0.16) = 4.4; B alone: 10(0.6 − 0.24) = 3.6. A runs ahead, so they separate: A’s acceleration is 4.4 m/s².\n\n3. (ii) A alone: 3.6; B alone: 4.4. B catches A and pushes it, so they move together.\n\n4. Together: driving 6 × 6 = 36 N; friction 0.3 × 16 + 0.2 × 32 = 11.2 N. a = 24.8/6 = 4.13 m/s².\n\n5. Check: the contact force on A is 2(4.13) − (12 − 4.8) = 1.07 N > 0, so they do stay in contact.",
+  "conventional": "![](asset:P000563-sol-1)\n\n(i) $a_{A} = g\\left( \\sin 37^{\\circ} - \\mu_{1}\\cos 37^{\\circ} \\right) = 10(0.6 - 0.16) = 4.4$ m/s² (B lags behind: $a_{B} = 3.6$).\n(ii) Together:\n\n$$a = g\\sin 37^{\\circ} - \\frac{\\left( \\mu_{1}m_{A} + \\mu_{2}m_{B} \\right)g\\cos 37^{\\circ}}{m_{A} + m_{B}} = 6 - \\frac{(0.6 + 0.8)(8)}{6} = 4.13\\ {m/s}^{2}.$$",
+  "mistakes": [
+    "Decide first whether the blocks push each other: they do only if the upper block would go faster alone."
+  ],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "solved_answer": "(i) 4.4 m/s²; (ii) 4.13 m/s² (both down the slope).",
+    "resolve_answer": null,
+    "agrees_with_key": null,
+    "issues": [
+      "answer to be compared with the key by the reviewer"
+    ]
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": "06FRI_Solutions_v1",
+    "date": "2026-11-12"
+  },
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 06FRI_Solutions_v1.docx"
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "file": "06FRI_v1.docx",
+  "sha256": "62b72f5110367ba023afaa9e009ac391537c8f693cfc218645534bcad9f0932a",
+  "collection": "06FRI",
+  "questions": 43,
+  "new": 43,
+  "updates": 0,
+  "types": {
+    "mcq_single": 30,
+    "integer": 8,
+    "numerical": 1,
+    "subjective": 4
+  },
+  "sections": [
+    {
+      "topic_code": "0605",
+      "title": "Laws of Friction; Angle of Friction & Repose",
+      "count": 6
+    },
+    {
+      "topic_code": "0610",
+      "title": "Rough Horizontal Surface; Force at an Angle",
+      "count": 9
+    },
+    {
+      "topic_code": "0615",
+      "title": "Rough Inclined Plane",
+      "count": 14
+    },
+    {
+      "topic_code": "0620",
+      "title": "Stacked Blocks & Relative Slipping",
+      "count": 7
+    },
+    {
+      "topic_code": "0625",
+      "title": "Friction in Pulley & Connected Systems",
+      "count": 6
+    },
+    {
+      "topic_code": "0630",
+      "title": "Friction with Variable Forces & Accelerated Frames",
+      "count": 1
+    }
+  ],
+  "figures": 24,
+  "blocking": [],
+  "warnings": [
+    "22 questions have no source tag and will be marked rights 'unverified': Q1, Q4, Q7, Q12, Q15, Q16, Q17, Q18, Q19, Q21, Q24, Q29, Q30, Q31, Q32, Q35, Q37, Q38, Q39, Q41, Q42, Q43",
+    "42 questions have no level tag: Q1, Q2, Q3, Q4, Q5, Q6, Q7, Q8, Q9, Q10, Q11, Q12, Q13, Q14, Q15, Q16, Q17, Q18, Q19, Q20, Q21, Q22, Q23, Q24, Q25, Q26, Q27, Q28, Q29, Q30, Q31, Q32, Q33, Q34, Q35, Q36, Q37, Q38, Q39, Q40, Q41, Q43",
+    "13 questions have maths typed as plain text instead of equations (fix during solution writing): Q1, Q5, Q7, Q8, Q9, Q10, Q12, Q16, Q22, Q24, Q26, Q28, Q29",
+    "24 questions have figures narrower than 600 px (marked needs_redraw): Q3, Q4, Q7, Q9, Q11, Q14, Q15, Q17, Q18, Q22, Q23, Q25, Q29, Q30, Q32, Q33, Q34, Q35, Q37, Q38, Q39, Q40, Q41, Q42"
+  ],
+  "auto_fixes": [
+    "Q8 option A: `- \\frac{F}{m}\\ cos\\theta - \\mu_{K}(g - \\frac{F}{m}\\ sin\\theta)` → `- \\frac{F}{m}\\ \\cos \\theta - \\mu_{K}(g - \\frac{F}{m}\\ \\sin \\theta)`",
+    "Q8 option B: `\\frac{F}{m}\\ cos\\theta - \\mu_{K}(g - \\frac{F}{m}\\ sin\\theta)` → `\\frac{F}{m}\\ \\cos \\theta - \\mu_{K}(g - \\frac{F}{m}\\ \\sin \\theta)`",
+    "Q8 option C: `\\frac{F}{m}\\ cos\\theta - \\mu_{K}(g + \\frac{F}{m}\\ sin\\theta)` → `\\frac{F}{m}\\ \\cos \\theta - \\mu_{K}(g + \\frac{F}{m}\\ \\sin \\theta)`",
+    "Q8 option D: `\\frac{F}{m}\\ cos\\theta + \\mu_{K}(g - \\frac{F}{m}\\ sin\\theta)` → `\\frac{F}{m}\\ \\cos \\theta + \\mu_{K}(g - \\frac{F}{m}\\ \\sin \\theta)`",
+    "Q23: `\\mu = ktan\\theta\\ ` → `\\mu = k\\tan \\theta\\ `",
+    "Q23 option B: `\\ ½` → `\\ \\frac{1}{2}`"
+  ],
+  "duplicates": [],
+  "matched_by_number": 0,
+  "removed": [],
+  "edits": [],
+  "created_ids": [
+    "P000535",
+    "P000536",
+    "P000537",
+    "P000538",
+    "P000539",
+    "P000540",
+    "P000541",
+    "P000542",
+    "P000543",
+    "P000544",
+    "P000545",
+    "P000546",
+    "P000547",
+    "P000548",
+    "P000549",
+    "P000550",
+    "P000551",
+    "P000552",
+    "P000553",
+    "P000554",
+    "P000555",
+    "P000556",
+    "P000557",
+    "P000558",
+    "P000559",
+    "P000560",
+    "P000561",
+    "P000562",
+    "P000563",
+    "P000564",
+    "P000565",
+    "P000566",
+    "P000567",
+    "P000568",
+    "P000569",
+    "P000570",
+    "P000571",
+    "P000572",
+    "P000573",
+    "P000574",
+    "P000575",
+    "P000576",
+    "P000577"
+  ],
+  "updated": [],
+  "date": "2026-11-12"
+}

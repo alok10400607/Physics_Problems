@@ -1,0 +1,33 @@
+{
+  "id": "P000185",
+  "problem_version": 1,
+  "status": "reviewed",
+  "hints": [
+    "The x-motion starts from zero x-velocity, so use it alone to find t. Then put that t into the y-equation."
+  ],
+  "worded": "1. Asked: the time to reach x = 20 m and the y-coordinate then. The two components are independent motions sharing the same clock.\n\n2. Along x: no initial velocity, acceleration 10, so x = 5t². Setting 5t² = 20 gives t = 2 s.\n\n3. Along y: initial velocity 5, acceleration 4, so y = 5t + 2t². At t = 2: 10 + 8 = 18 m.\n\n4. So t = 2 s and y₀ = 18 m. (A)\n\n5. Check: (C) has the right time but y = 24 would need 5t + 2t² with the ½ dropped (10 + 16 = 26) or similar slips; only 18 follows from the equations.",
+  "conventional": "![](asset:P000185-sol-1)\n\n$$x = \\frac{1}{2}a_{x}t^{2} = 5t^{2} = 20\\  \\Rightarrow \\ t = 2\\unit{s}.$$\n\n$$y_{0} = u_{y}t + \\frac{1}{2}a_{y}t^{2} = 5(2) + \\frac{1}{2}(4)(2)^{2} = 18\\unit{m}.$$",
+  "mistakes": [
+    "The initial velocity is entirely along y, so it does not appear in the x-equation.",
+    "Keep the ½ in ½at² for both components."
+  ],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "solved_answer": "(A) 2 s and 18 m.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": "04MIP_Solutions_v1",
+    "date": "2026-11-12"
+  },
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 04MIP_Solutions_v1.docx"
+  }
+}

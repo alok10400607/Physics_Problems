@@ -1,6 +1,6 @@
 {
   "id": "P000252",
-  "status": "imported",
+  "status": "reviewed",
   "version": 1,
   "type": "mcq_single",
   "topic_code": "0430",
@@ -46,6 +46,17 @@
       "alt": "Graph of (y₂ − y₁) in m against time t in s: rises in a straight line from 0 to 240 m at 8 s, then curves down to 0 at 12 s.",
       "origin": "docx",
       "needs_redraw": true
+    },
+    {
+      "id": "P000252-sol-1",
+      "role": "solution",
+      "file": "P000/P000252-sol-1.png",
+      "format": "png",
+      "width": 779,
+      "height": 486,
+      "alt": "Graph of y₂ − y₁ in m against t in s: a straight line 30t rising to 240 at t = 8 s (marked straight), then a downward-curving drop to zero at t = 12 s (marked concave down: stone 2 still falling).",
+      "origin": "docx",
+      "needs_redraw": false
     }
   ],
   "rights": "unverified",
@@ -53,5 +64,5 @@
   "duplicate_of": null,
   "variant_of": null,
   "created": "2026-11-08",
-  "updated": "2026-11-08"
+  "updated": "2026-11-12"
 }

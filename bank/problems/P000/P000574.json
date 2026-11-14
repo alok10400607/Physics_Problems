@@ -1,0 +1,79 @@
+{
+  "id": "P000574",
+  "status": "reviewed",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0625",
+  "concepts": [],
+  "exams": [
+    "JEE Main"
+  ],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000574-stem-1) Two masses $m_{1}$ = 5 kg and $m_{2}$ = 10 kg, connected by an inextensible string over a frictionless pulley, are moving as shown in the figure. The coefficient of friction of horizontal surface is 0.15. The minimum weight m that should be put on top of $m_{2}$ to stop the motion is:",
+  "options": {
+    "A": "10.3 kg",
+    "B": "23.3 kg",
+    "C": "27.3 kg",
+    "D": "43.3 kg"
+  },
+  "answer": {
+    "keys": [
+      "B"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "06FRI_v1",
+      "qno": 40
+    },
+    {
+      "kind": "exam",
+      "exam": "JEE Main",
+      "date": null,
+      "shift": null,
+      "mode": "Offline",
+      "raw": "JEE Main 2018 (Offline)",
+      "year": 2018
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000574-stem-1",
+      "role": "stem",
+      "file": "P000/P000574-stem-1.png",
+      "format": "png",
+      "width": 228,
+      "height": 212,
+      "alt": "Block m resting on block m₂ on a horizontal table, m₂ tied by a string over a pulley at the edge to block m₁ hanging below.",
+      "origin": "docx",
+      "needs_redraw": true
+    },
+    {
+      "id": "P000574-sol-1",
+      "role": "solution",
+      "file": "P000/P000574-sol-1.png",
+      "format": "png",
+      "width": 811,
+      "height": 403,
+      "alt": "Blocks m on m₂ on a table, tied over a pulley to hanging m₁; friction μ(m₂ + m)g opposes and m₁g = 50 N pulls down.",
+      "origin": "docx",
+      "needs_redraw": false
+    }
+  ],
+  "rights": "past-paper",
+  "content_hash": "99185ea2ab438683",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-12",
+  "updated": "2026-11-12"
+}

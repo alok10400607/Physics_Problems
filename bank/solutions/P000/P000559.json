@@ -1,0 +1,32 @@
+{
+  "id": "P000559",
+  "problem_version": 1,
+  "status": "reviewed",
+  "hints": [
+    "On the verge of moving down, friction helps P. List what pulls down the slope."
+  ],
+  "worded": "1. Down the slope: gravity’s component mg sin 45° ≈ 70.7 N and the 3 N force.\n\n2. On the verge of moving down, friction acts up the slope at its limit: 0.6 × 70.7 ≈ 42.4 N.\n\n3. P + 42.4 = 70.7 + 3, so P ≈ 31.3 N.\n\n4. The nearest option is 32 N. (A) (With g = 9.8 the value is 30.7 N.)",
+  "conventional": "![](asset:P000559-sol-1)\n\n$$P + \\mu mg\\cos 45^{\\circ} = mg\\sin 45^{\\circ} + 3\\mkern6mu  \\Rightarrow \\mkern6mu  P = 70.7 + 3 - 42.4 = 31.3\\unit{N}.$$",
+  "mistakes": [
+    "The 3 N acts down the slope here, adding to gravity’s pull."
+  ],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "solved_answer": "(A) 32 N (exactly 31.3 N with g = 10).",
+    "resolve_answer": null,
+    "agrees_with_key": true,
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": "06FRI_Solutions_v1",
+    "date": "2026-11-12"
+  },
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 06FRI_Solutions_v1.docx"
+  }
+}

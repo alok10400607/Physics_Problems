@@ -1,0 +1,33 @@
+{
+  "id": "P000280",
+  "problem_version": 1,
+  "status": "reviewed",
+  "hints": [
+    "Reaching the opposite point means no net motion along the river. What is the swimmer’s component along the flow when he swims at 120° to it?"
+  ],
+  "worded": "1. Swimming at 120° to the flow, his component along the flow is 10 cos 120° = −5 m/s, i.e. 5 m/s upstream.\n\n2. He lands directly opposite, so this must exactly cancel the river: x = 5.\n\n3. Answer: 5.",
+  "conventional": "![](asset:P000280-sol-1)\n\n$$v_{r} + 10\\cos 120^{\\circ} = 0\\  \\Rightarrow \\ x = v_{r} = 5\\unit{m/s}.$$",
+  "mistakes": [
+    "cos 120° is negative: the 120° heading is partly upstream.",
+    "10 sin 120° (≈ 8.7) is the across component, not the one that cancels the flow."
+  ],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "solved_answer": "x = 5.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": "04MIP_Solutions_v1",
+    "date": "2026-11-12"
+  },
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 04MIP_Solutions_v1.docx"
+  }
+}

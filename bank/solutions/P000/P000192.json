@@ -1,23 +1,33 @@
 {
   "id": "P000192",
   "problem_version": 1,
-  "status": "draft",
+  "status": "reviewed",
   "hints": [
-    "> X and Y components of acceleration are zero.\n\n>\n\n> $\\frac{dz}{dt} = 3ax^{2}\\left( \\frac{dx}{dt} \\right) + 2by\\left( \\frac{dy}{dt} \\right) = 3acx^{2} + 2bcy$; then differentiate again"
+    "x and y change at a constant rate, so their accelerations vanish. For z, differentiate z = ax³ + by² with respect to time using the chain rule, then differentiate again."
   ],
-  "worded": null,
-  "conventional": null,
-  "mistakes": [],
+  "worded": "1. Asked: the acceleration vector. The particle stays on the surface, so z is tied to x and y at every instant.\n\n2. dx/dt = dy/dt = c (constants), so the x- and y-accelerations are zero. Only z can accelerate.\n\n3. Differentiate z = ax³ + by² in time (chain rule): dz/dt = 3ax² (dx/dt) + 2by (dy/dt) = 3acx² + 2bcy.\n\n4. Differentiate again, again using dx/dt = dy/dt = c: d²z/dt² = 6acx · c + 2bc · c = 6ac²x + 2bc².\n\n5. So $\\vec{a}$ = (6ac²x + 2bc²) k̂, along z only, and it depends on x.",
+  "conventional": "Since $\\dot{x} = \\dot{y} = c$ are constant, $\\ddot{x} = \\ddot{y} = 0$.\n\n$$\\dot{z} = 3ax^{2}\\dot{x} + 2by\\,\\dot{y} = 3acx^{2} + 2bcy,$$\n\n$$\\ddot{z} = 6acx\\,\\dot{x} + 2bc\\,\\dot{y} = 6ac^{2}x + 2bc^{2}.$$\n\n$$\\vec{a} = \\left( 6ac^{2}x + 2bc^{2} \\right)\\khat .$$",
+  "mistakes": [
+    "Differentiating with respect to x instead of t (giving 6ax) drops the factors of c.",
+    "The acceleration is not constant: it varies with x."
+  ],
   "distractors": {},
   "extension": null,
   "check": {
+    "solved_answer": "$\\vec{a} = \\left( 6ac^{2}x + 2bc^{2} \\right)\\khat $.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
     "issues": []
   },
   "generated_by": {
     "author": "worksheet",
     "model": null,
-    "prompt_version": null,
-    "date": "2026-11-08"
+    "prompt_version": "04MIP_Solutions_v1",
+    "date": "2026-11-12"
   },
-  "reviewed_by": null
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 04MIP_Solutions_v1.docx"
+  }
 }

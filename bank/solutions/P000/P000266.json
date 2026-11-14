@@ -1,0 +1,33 @@
+{
+  "id": "P000266",
+  "problem_version": 1,
+  "status": "reviewed",
+  "hints": [
+    "Colliding means being at the same place at the same time. Write both positions at t = 2 s and set them equal."
+  ],
+  "worded": "1. Position of each particle at time t: start + velocity × t.\n\n2. Particle 1 at t = 2: (3 + 8, 5 + 6) = (11, 11).\n\n3. Particle 2 at t = 2: (−5 + 2a, −3 + 14) = (−5 + 2a, 11). The y-coordinates already agree, a good check.\n\n4. Matching x: −5 + 2a = 11, so a = 8.\n\n**Another way: relative velocity.** Relative position r₁ − r₂ = (8, 8) must be closed in 2 s, so v₂ − v₁ = (4, 4): a − 4 = 4 and 7 − 3 = 4 ✓. So a = 8.",
+  "conventional": "![](asset:P000266-sol-1)\n\n$$\\vec{r}_{1} + 2\\vec{v}_{1} = \\vec{r}_{2} + 2\\vec{v}_{2}:\\quad(3 + 8)\\ihat  + (5 + 6)\\jhat  = ( - 5 + 2a)\\ihat  + ( - 3 + 14)\\jhat .$$\n\n$$11 = - 5 + 2a\\  \\Rightarrow \\ a = 8.$$",
+  "mistakes": [
+    "Always check the other component: here both y-coordinates are 11 at t = 2 s, so a collision is possible.",
+    "Do not equate velocities; equate positions at the same instant."
+  ],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "solved_answer": "a = 8 m/s.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": "04MIP_Solutions_v1",
+    "date": "2026-11-12"
+  },
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 04MIP_Solutions_v1.docx"
+  }
+}

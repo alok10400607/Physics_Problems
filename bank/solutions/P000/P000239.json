@@ -1,21 +1,33 @@
 {
   "id": "P000239",
   "problem_version": 1,
-  "status": "draft",
-  "hints": [],
-  "worded": null,
-  "conventional": "> It strikes the inclined plane at the instant it is at its maximum height;\n\n>\n\n> The angle between the highest point and the point of projection is $45{^\\circ}$\n\n>\n\n> Or $\\tan 45{^\\circ} = 1 = \\frac{H_{m}}{\\frac{R}{2}} = \\frac{u_{y}^{2}}{2g}/(\\frac{u_{x}u_{y}}{g})$",
-  "mistakes": [],
+  "status": "reviewed",
+  "hints": [
+    "When is a projectile’s velocity horizontal? So where on its path must it meet the incline?"
+  ],
+  "worded": "1. The velocity is horizontal only at the top of the trajectory, so the particle must meet the incline exactly at its highest point.\n\n2. From the launch point, the top is seen at elevation φ with tan φ = ½ tan θ.\n\n3. The top lies on the incline, so φ = 45°: ½ tan θ = 1, tan θ = 2. (D)\n\n4. Check: tan θ = 2 means θ ≈ 63°, steeper than the incline, as it must be for the particle to rise above the slope at all.\n\n**Another way: coordinates of the top.** The top is at (u_xu_y/g, u_y²/2g). It lies on y = x tan 45° = x when u_y²/2g = u_xu_y/g, i.e. u_y = 2u_x, tan θ = 2.",
+  "conventional": "![](asset:P000239-sol-1)\n\nThe particle strikes horizontally only at the top of its path, $\\left( \\frac{u_{x}u_{y}}{g},\\ \\frac{u_{y}^{2}}{2g} \\right)$. This point is on the incline:\n\n$$\\tan 45^{\\circ} = \\frac{u_{y}^{2}/2g}{u_{x}u_{y}/g} = \\frac{u_{y}}{2u_{x}} = \\frac{1}{2}\\tan\\theta\\  \\Rightarrow \\ \\tan\\theta = 2.$$",
+  "mistakes": [
+    "Horizontal at impact means the top of the path, not that θ equals the incline angle.",
+    "(C) tan θ = 1 is the incline itself: a particle launched along the plane never leaves it."
+  ],
   "distractors": {},
   "extension": null,
   "check": {
+    "solved_answer": "(D) 2.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
     "issues": []
   },
   "generated_by": {
     "author": "worksheet",
     "model": null,
-    "prompt_version": null,
-    "date": "2026-11-08"
+    "prompt_version": "04MIP_Solutions_v1",
+    "date": "2026-11-12"
   },
-  "reviewed_by": null
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 04MIP_Solutions_v1.docx"
+  }
 }

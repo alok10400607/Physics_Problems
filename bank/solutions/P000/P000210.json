@@ -1,23 +1,33 @@
 {
   "id": "P000210",
   "problem_version": 1,
-  "status": "draft",
+  "status": "reviewed",
   "hints": [
-    "> Angle of elevation $\\tan \\alpha = \\frac{H_{m}}{\\frac{R}{2}}$"
+    "The highest point is directly above the middle of the range. Compare its height with half the range."
   ],
-  "worded": null,
-  "conventional": null,
-  "mistakes": [],
+  "worded": "1. From the launch point, the top is at horizontal distance R/2 and height H.\n\n2. At 45°, R = 4H, so R/2 = 2H.\n\n3. The elevation angle φ has tan φ = H/(R/2) = H/2H = ½. (C)\n\n4. Check: the elevation of the top is always smaller than the launch angle (the path bends down), so 45° and 60° are out at once.",
+  "conventional": "![](asset:P000210-sol-1)\n\n$$\\tan\\varphi = \\frac{H}{R/2} = \\frac{u^{2}\\sin^{2}\\theta/2g}{u^{2}\\sin\\theta\\cos\\theta/g} = \\frac{1}{2}\\tan\\theta = \\frac{1}{2}\\tan 45^{\\circ} = \\frac{1}{2}.$$",
+  "mistakes": [
+    "φ is the angle of the line joining the launch point to the top, not the launch angle.",
+    "tan φ = H/(R/2), not H/R."
+  ],
   "distractors": {},
   "extension": null,
   "check": {
+    "solved_answer": "(C) $\\tan^{- 1}(1/2)$.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
     "issues": []
   },
   "generated_by": {
     "author": "worksheet",
     "model": null,
-    "prompt_version": null,
-    "date": "2026-11-08"
+    "prompt_version": "04MIP_Solutions_v1",
+    "date": "2026-11-12"
   },
-  "reviewed_by": null
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 04MIP_Solutions_v1.docx"
+  }
 }

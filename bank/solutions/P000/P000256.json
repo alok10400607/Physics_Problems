@@ -1,0 +1,33 @@
+{
+  "id": "P000256",
+  "problem_version": 1,
+  "status": "reviewed",
+  "hints": [
+    "Work in the coach’s frame. How long does the bullet take to fall 5 m? In that time it must cross the width and also travel the whole length of the coach relative to the coach."
+  ],
+  "worded": "1. The bullet moves horizontally at u across the track and has no velocity along the track (relative to the ground).\n\n2. From the top corner to the diagonally opposite bottom corner, it must drop 5 m, cross 3 m, and shift 15 m along the coach.\n\n3. Dropping 5 m from zero vertical velocity takes 1 s.\n\n4. Across: 3 m in 1 s gives u = 3 m/s.\n\n5. Along: in the coach’s frame the bullet moves backward at v (the coach moves forward under it). Covering 15 m in 1 s gives v = 15 m/s.",
+  "conventional": "![](asset:P000256-sol-1)\n\nFall of 5 m: $5 = \\frac{1}{2}(10)t^{2} \\Rightarrow t = 1$ s.\n\nIn the coach frame the bullet has velocity $u$ across the coach and $- v$ along it:\n\n$$u = \\frac{3}{1} = 3\\unit{m/s},\\quad\\quad v = \\frac{15}{1} = 15\\unit{m/s}.$$",
+  "mistakes": [
+    "The bullet has no velocity along the track; its apparent motion along the coach is entirely due to the coach moving.",
+    "All three displacements happen in the same 1 s fall time."
+  ],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "solved_answer": "v = 15 m/s and u = 3 m/s.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": "04MIP_Solutions_v1",
+    "date": "2026-11-12"
+  },
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 04MIP_Solutions_v1.docx"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "P000570",
+  "problem_version": 1,
+  "status": "reviewed",
+  "hints": [
+    "The friction limit f is the same in both cases. Which block does it drive in each case?"
+  ],
+  "worded": "1. Same limiting friction f = μ m_A g both times.\n\n2. Force on A: B is driven by f, so a = f/m_B and F_A = (m_A + m_B) f/m_B = 9f/5 = 12, giving f = 20/3 N.\n\n3. Force on B: A is driven by f, so a = f/m_A and F_B = 9f/4 = 9 × (20/3)/4 = 15 N. (C)\n\n4. Shortcut: F_B/F_A = m_B/m_A = 5/4, so F_B = 15 N.\n\n**No-pen route: ratio.** F_B/F_A = m_B/m_A = 5/4, so F_B = 12 × 5/4 = 15 N.",
+  "conventional": "![](asset:P000570-sol-1)\n\n$$\\mu m_{A}g = f,\\quad 12 = \\left( m_{A} + m_{B} \\right)\\frac{f}{m_{B}} \\Rightarrow f = \\frac{20}{3}\\unit{N}\\ \\left( \\mu = \\frac{1}{6} \\right).$$\n\n$$F_{B} = \\left( m_{A} + m_{B} \\right)\\frac{f}{m_{A}} = 9 \\cdot \\frac{20/3}{4} = 15\\unit{N}.$$",
+  "mistakes": [
+    "“Minimum force to make A slip” is the same threshold as “maximum force to move together” with F on A."
+  ],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "solved_answer": "(C) 15 N.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": "06FRI_Solutions_v1",
+    "date": "2026-11-12"
+  },
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 06FRI_Solutions_v1.docx"
+  }
+}

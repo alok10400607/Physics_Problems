@@ -1,6 +1,6 @@
 {
   "id": "P000269",
-  "status": "imported",
+  "status": "reviewed",
   "version": 1,
   "type": "mcq_single",
   "topic_code": "0435",
@@ -35,11 +35,23 @@
       "qno": 89
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "id": "P000269-sol-1",
+      "role": "solution",
+      "file": "P000/P000269-sol-1.png",
+      "format": "png",
+      "width": 868,
+      "height": 420,
+      "alt": "A 37° slope; a man moving down it at 4î − 3ĵ sees rain going up the slope. The rain v_R = 4î − 4ĵ, |v_R| = 4√2, and v_R − v_up = 8î − 7ĵ.",
+      "origin": "docx",
+      "needs_redraw": false
+    }
+  ],
   "rights": "unverified",
   "content_hash": "7101a2515836a888",
   "duplicate_of": null,
   "variant_of": null,
   "created": "2026-11-08",
-  "updated": "2026-11-08"
+  "updated": "2026-11-12"
 }

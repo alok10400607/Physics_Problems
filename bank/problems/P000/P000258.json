@@ -1,6 +1,6 @@
 {
   "id": "P000258",
-  "status": "imported",
+  "status": "reviewed",
   "version": 1,
   "type": "mcq_single",
   "topic_code": "0430",
@@ -35,11 +35,23 @@
       "qno": 78
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "id": "P000258-sol-1",
+      "role": "solution",
+      "file": "P000/P000258-sol-1.png",
+      "format": "png",
+      "width": 739,
+      "height": 545,
+      "alt": "3-D axes up, N and E: velocity parts 5 east, 10 north, and v_z = √(2g(0.8)) = 4 downward; v = √(5² + 10² + 4²) = √141 m/s.",
+      "origin": "docx",
+      "needs_redraw": false
+    }
+  ],
   "rights": "unverified",
   "content_hash": "5429f8c8004a048a",
   "duplicate_of": null,
   "variant_of": null,
   "created": "2026-11-08",
-  "updated": "2026-11-08"
+  "updated": "2026-11-12"
 }

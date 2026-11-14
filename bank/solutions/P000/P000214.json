@@ -1,21 +1,33 @@
 {
   "id": "P000214",
   "problem_version": 1,
-  "status": "draft",
-  "hints": [],
-  "worded": null,
-  "conventional": "> The y-component of velocity 1 s before it reaches the top point = g = 10 m/s\n\n>\n\n> As it makes an angle of $30{^\\circ}$ with the horizontal $u_{x} = 10\\sqrt{3}$\n\n>\n\n> Two seconds prior to this, the y-component of velocity will be: 30 m/s",
-  "mistakes": [],
+  "status": "reviewed",
+  "hints": [
+    "“Horizontal at t = 3 s” means v_y = 0 then. How large was v_y one second earlier?"
+  ],
+  "worded": "1. At t = 3 s the velocity is horizontal, so v_y = 0 then. v_y changes by 10 each second.\n\n2. So at t = 2 s, v_y = 10 m/s, and at t = 0, v_y = 30 m/s.\n\n3. At t = 2 s the velocity is at 30° to the horizontal: tan 30° = v_y/v_x = 10/v_x, so v_x = 10√3 m/s (constant).\n\n4. Velocity of projection = 10√3 î + 30 ĵ m/s. (A)",
+  "conventional": "![](asset:P000214-sol-1)\n\nAt $t = 3$ s, $v_{y} = 0$, so $u_{y} = g(3) = 30$ m/s and $v_{y}(2) = 30 - 20 = 10$ m/s.\n\n$$\\tan 30^{\\circ} = \\frac{v_{y}(2)}{u_{x}}\\  \\Rightarrow \\ u_{x} = \\frac{10}{1/\\sqrt{3}} = 10\\sqrt{3}\\unit{m/s}.$$\n\n$$\\vec{u} = 10\\sqrt{3}\\,\\ihat  + 30\\,\\jhat \\ m/s.$$",
+  "mistakes": [
+    "tan 30° = v_y/v_x, so v_x = v_y√3, not v_y/√3.",
+    "The 30° is at t = 2 s, not at launch."
+  ],
   "distractors": {},
   "extension": null,
   "check": {
+    "solved_answer": "(A) $10\\sqrt{3}\\,\\ihat  + 30\\jhat $ m/s.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
     "issues": []
   },
   "generated_by": {
     "author": "worksheet",
     "model": null,
-    "prompt_version": null,
-    "date": "2026-11-08"
+    "prompt_version": "04MIP_Solutions_v1",
+    "date": "2026-11-12"
   },
-  "reviewed_by": null
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 04MIP_Solutions_v1.docx"
+  }
 }

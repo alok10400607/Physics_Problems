@@ -1,0 +1,32 @@
+{
+  "id": "P000555",
+  "problem_version": 1,
+  "status": "reviewed",
+  "hints": [
+    "Same distance from rest: how does the acceleration scale with the time?"
+  ],
+  "worded": "1. From rest over a fixed distance, a ∝ 1/t². Twice the time means a quarter of the acceleration.\n\n2. g(sin 45° − μ cos 45°) = ¼ g sin 45°, so 1 − μ = ¼ and μ = 0.75. (C)\n\n3. Check: μ must stay below tan 45° = 1, or the body would not slide at all. 0.75 does.",
+  "conventional": "![](asset:P000555-sol-1)\n\n$$\\sin 45^{\\circ} - \\mu\\cos 45^{\\circ} = \\frac{1}{4}\\sin 45^{\\circ}\\mkern6mu  \\Rightarrow \\mkern6mu \\mu = \\frac{3}{4}\\tan 45^{\\circ} = 0.75.$$",
+  "mistakes": [
+    "a ∝ 1/t², so twice the time gives a quarter of the acceleration."
+  ],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "solved_answer": "(C) 0.75.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": "06FRI_Solutions_v1",
+    "date": "2026-11-12"
+  },
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 06FRI_Solutions_v1.docx"
+  }
+}

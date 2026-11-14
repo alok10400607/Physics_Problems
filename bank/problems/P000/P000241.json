@@ -1,6 +1,6 @@
 {
   "id": "P000241",
-  "status": "imported",
+  "status": "reviewed",
   "version": 1,
   "type": "mcq_single",
   "topic_code": "0425",
@@ -57,6 +57,17 @@
       "alt": "A projectile launched with speed u from the foot of an incline of angle α = 30°, at θ = 15° above the incline.",
       "origin": "docx",
       "needs_redraw": true
+    },
+    {
+      "id": "P000241-sol-1",
+      "role": "solution",
+      "file": "P000/P000241-sol-1.png",
+      "format": "png",
+      "width": 581,
+      "height": 285,
+      "alt": "A 30° incline; a projectile launched at u = 2 m/s at 15° to the plane lands about 20 cm up the slope.",
+      "origin": "docx",
+      "needs_redraw": true
     }
   ],
   "rights": "past-paper",
@@ -64,5 +75,5 @@
   "duplicate_of": null,
   "variant_of": null,
   "created": "2026-11-08",
-  "updated": "2026-11-08"
+  "updated": "2026-11-12"
 }

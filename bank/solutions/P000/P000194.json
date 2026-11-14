@@ -1,0 +1,33 @@
+{
+  "id": "P000194",
+  "problem_version": 1,
+  "status": "reviewed",
+  "hints": [
+    "The path’s slope at any point is the direction of the velocity there. Write dy/dx as $v_{y}/v_{x}$ and separate the variables."
+  ],
+  "worded": "1. Asked: the equation of the path. Velocity is given as a function of position, not of time, so the time route is closed.\n\n2. Along the path, dy/dx = v_y/v_x = Kx/(Ky) = x/y.\n\n3. Separate: y dy = x dx. Integrate: y²/2 = x²/2 + const, so y² = x² + constant. (C)\n\n4. Check at one point: on y² − x² = c, the slope is x/y; at (1, √2) the velocity K(√2, 1) also has slope 1/√2 = x/y. It matches.",
+  "conventional": "![](asset:P000194-sol-1)\n\n$$\\frac{dy}{dx} = \\frac{v_{y}}{v_{x}} = \\frac{Kx}{Ky} = \\frac{x}{y}\\  \\Rightarrow \\ y\\, dy = x\\, dx.$$\n\n$$\\int y\\, dy = \\int x\\, dx\\  \\Rightarrow \\ y^{2} = x^{2} + constant.$$\n\nThe paths are rectangular hyperbolas $y^{2} - x^{2} = c$.",
+  "mistakes": [
+    "dy/dx is $v_{y}/v_{x}$ = x/y. Inverting it to y/x gives y ∝ x, a straight line, which is none of the options.",
+    "K cancels: the path does not depend on how fast the particle moves."
+  ],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "solved_answer": "(C) $y^{2} = x^{2} +$ constant.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": "04MIP_Solutions_v1",
+    "date": "2026-11-12"
+  },
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 04MIP_Solutions_v1.docx"
+  }
+}

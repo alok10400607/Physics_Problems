@@ -1,6 +1,6 @@
 {
   "id": "P000222",
-  "status": "imported",
+  "status": "reviewed",
   "version": 1,
   "type": "mcq_single",
   "topic_code": "0410",
@@ -35,11 +35,23 @@
       "qno": 42
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "id": "P000222-sol-1",
+      "role": "solution",
+      "file": "P000/P000222-sol-1.png",
+      "format": "png",
+      "width": 648,
+      "height": 490,
+      "alt": "A boy on the ground throws a ball along a line at angle θ to the vertical; a wind gives 4 to the west and g = 10 down, and their resultant a_net points down and west. Note: u must point opposite to a_net.",
+      "origin": "docx",
+      "needs_redraw": false
+    }
+  ],
   "rights": "unverified",
   "content_hash": "44d58fac6dce7cf9",
   "duplicate_of": null,
   "variant_of": null,
   "created": "2026-11-08",
-  "updated": "2026-11-08"
+  "updated": "2026-11-12"
 }

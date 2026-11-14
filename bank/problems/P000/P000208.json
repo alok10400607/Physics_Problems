@@ -1,6 +1,6 @@
 {
   "id": "P000208",
-  "status": "imported",
+  "status": "reviewed",
   "version": 1,
   "type": "mcq_single",
   "topic_code": "0410",
@@ -46,11 +46,23 @@
       "year": 2019
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "id": "P000208-sol-1",
+      "role": "solution",
+      "file": "P000/P000208-sol-1.png",
+      "format": "png",
+      "width": 592,
+      "height": 323,
+      "alt": "Two arcs from the same point to a target at R: a low one taking time t₁ and a high one taking time t₂.",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
   "rights": "past-paper",
   "content_hash": "11e39e2be82528e8",
   "duplicate_of": null,
   "variant_of": null,
   "created": "2026-11-08",
-  "updated": "2026-11-08"
+  "updated": "2026-11-12"
 }

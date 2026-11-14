@@ -1,0 +1,33 @@
+{
+  "id": "P000227",
+  "problem_version": 1,
+  "status": "reviewed",
+  "hints": [
+    "The fall from 150 m to 25 m fixes the time. The ball must cover the 30 m gap in exactly that time."
+  ],
+  "worded": "1. Thrown horizontally, the ball starts with no vertical velocity, so its fall is like a drop from rest.\n\n2. It must fall 150 − 25 = 125 m: ½ × 10 × t² = 125 gives t = 5 s.\n\n3. In those 5 s it must cross 30 m horizontally, so u = 30/5 = 6 m/s. (B)\n\n4. Check: a slower throw drops below the window before arriving; a faster one hits the wall above it.",
+  "conventional": "![](asset:P000227-sol-1)\n\n$$150 - 25 = \\frac{1}{2}gt^{2}\\  \\Rightarrow \\ 125 = 5t^{2}\\  \\Rightarrow \\ t = 5\\unit{s}.$$\n\n$$u = \\frac{30}{5} = 6\\unit{m/s}.$$",
+  "mistakes": [
+    "The fall is 125 m (150 − 25), not 150 m.",
+    "Using 150 m gives t = √30 s and u ≈ 5.5 m/s, close to but not equal to any option."
+  ],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "solved_answer": "(B) 6 m/s.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": "04MIP_Solutions_v1",
+    "date": "2026-11-12"
+  },
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 04MIP_Solutions_v1.docx"
+  }
+}

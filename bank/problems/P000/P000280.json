@@ -1,6 +1,6 @@
 {
   "id": "P000280",
-  "status": "imported",
+  "status": "reviewed",
   "version": 1,
   "type": "integer",
   "topic_code": "0440",
@@ -38,11 +38,23 @@
       "year": 2021
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "id": "P000280-sol-1",
+      "role": "solution",
+      "file": "P000/P000280-sol-1.png",
+      "format": "png",
+      "width": 687,
+      "height": 281,
+      "alt": "A swimmer at 10 m/s heading at 120° to the flow, with current x = 5, moves 5√3 m/s straight across.",
+      "origin": "docx",
+      "needs_redraw": false
+    }
+  ],
   "rights": "past-paper",
   "content_hash": "dd3d28c8c0f620eb",
   "duplicate_of": null,
   "variant_of": null,
   "created": "2026-11-08",
-  "updated": "2026-11-08"
+  "updated": "2026-11-12"
 }

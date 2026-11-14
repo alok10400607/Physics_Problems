@@ -1,6 +1,6 @@
 {
   "id": "P000256",
-  "status": "imported",
+  "status": "reviewed",
   "version": 1,
   "type": "subjective",
   "topic_code": "0430",
@@ -38,6 +38,17 @@
       "alt": "A box 15 m long, 3 m wide and 5 m high moving with velocity v. Inside it, an arrow labelled u points up towards the top front corner, which is marked with a dot.",
       "origin": "docx",
       "needs_redraw": false
+    },
+    {
+      "id": "P000256-sol-1",
+      "role": "solution",
+      "file": "P000/P000256-sol-1.png",
+      "format": "png",
+      "width": 828,
+      "height": 428,
+      "alt": "Side view in a coach's frame: a ball enters at the top right moving back at −v, falls 5 m in 1 s and hits the far bottom corner of a coach 15 m long. Across 3 m in 1 s gives u = 3; back 15 m gives v = 15.",
+      "origin": "docx",
+      "needs_redraw": false
     }
   ],
   "rights": "unverified",
@@ -45,5 +56,5 @@
   "duplicate_of": null,
   "variant_of": null,
   "created": "2026-11-08",
-  "updated": "2026-11-08"
+  "updated": "2026-11-12"
 }

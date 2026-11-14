@@ -1,23 +1,33 @@
 {
   "id": "P000189",
   "problem_version": 1,
-  "status": "draft",
+  "status": "reviewed",
   "hints": [
-    "> $t = 4\\ s$"
+    "The x-motion alone fixes the time. Use that time in the y-motion and in both velocity components."
   ],
-  "worded": null,
-  "conventional": null,
-  "mistakes": [],
+  "worded": "1. Asked: y and the speed at the instant x = 32 m. The time is shared by both components, so find it from x first.\n\n2. x starts at rest with acceleration 4: x = 2t². 2t² = 32 gives t = 4 s.\n\n3. y: initial 8, acceleration 2: y = 8 × 4 + ½ × 2 × 16 = 32 + 16 = 48 m.\n\n4. Velocity: v_x = 4 × 4 = 16; v_y = 8 + 2 × 4 = 16. Speed = 16√2 ≈ 22.6 m/s.\n\n5. Check: the velocity is now at 45°, having started along y; that fits an acceleration that is mostly along x.",
+  "conventional": "![](asset:P000189-sol-1)\n\n$$x = \\frac{1}{2}(4)t^{2} = 32\\  \\Rightarrow \\ t = 4\\unit{s}.$$\n\n$$y = 8(4) + \\frac{1}{2}(2)(4)^{2} = 48\\unit{m}.$$\n\n$$\\vec{v} = \\vec{u} + \\vec{a}t = 8\\jhat  + \\left( 4\\ihat  + 2\\jhat  \\right)(4) = 16\\ihat  + 16\\jhat ,\\quad\\quad\\left| \\vec{v} \\right| = 16\\sqrt{2}\\unit{m/s}.$$",
+  "mistakes": [
+    "The initial velocity is along y; it plays no part in finding t from x.",
+    "Speed needs both components at t = 4 s; 16 m/s alone is only $v_{x}$."
+  ],
   "distractors": {},
   "extension": null,
   "check": {
+    "solved_answer": "(i) y = 48 m; (ii) speed = $16\\sqrt{2}$ m/s ≈ 22.6 m/s.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
     "issues": []
   },
   "generated_by": {
     "author": "worksheet",
     "model": null,
-    "prompt_version": null,
-    "date": "2026-11-08"
+    "prompt_version": "04MIP_Solutions_v1",
+    "date": "2026-11-12"
   },
-  "reviewed_by": null
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 04MIP_Solutions_v1.docx"
+  }
 }

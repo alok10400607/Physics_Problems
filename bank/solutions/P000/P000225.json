@@ -1,0 +1,33 @@
+{
+  "id": "P000225",
+  "problem_version": 1,
+  "status": "reviewed",
+  "hints": [
+    "The packet keeps the helicopter’s horizontal speed. How far forward does it travel while falling h? The question asks for the straight-line distance from the helicopter to the man."
+  ],
+  "worded": "1. The packet falls h in time √(2h/g), the same as if dropped from rest, because it starts with no vertical velocity.\n\n2. Meanwhile it moves forward at v, a horizontal distance v√(2h/g). So the man must be that far ahead horizontally at release.\n\n3. The helicopter is h above the ground, so its straight-line distance to the man is √(x² + h²) = √(2v²h/g + h²). (C)\n\n4. Check units: 2v²h/g has units of m², matching h². (A) and (B) fail this test, and (D) adds m to m².",
+  "conventional": "![](asset:P000225-sol-1)\n\n$$t = \\sqrt{\\frac{2h}{g}},\\quad\\quad x = vt = v\\sqrt{\\frac{2h}{g}}.$$\n\n$$d = \\sqrt{x^{2} + h^{2}} = \\sqrt{\\frac{2v^{2}h}{g} + h^{2}}.$$",
+  "mistakes": [
+    "“Distance of the helicopter from the man” is the line-of-sight distance, not the horizontal distance x.",
+    "(D) puts h² outside the root: check units."
+  ],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "solved_answer": "(C) $\\sqrt{\\frac{2v^{2}h}{g} + h^{2}}$.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": "04MIP_Solutions_v1",
+    "date": "2026-11-12"
+  },
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 04MIP_Solutions_v1.docx"
+  }
+}

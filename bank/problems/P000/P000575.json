@@ -1,0 +1,68 @@
+{
+  "id": "P000575",
+  "status": "reviewed",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0625",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000575-stem-1)Two blocks are placed one-above-other as shown and are connected with string and pulley as shown. The strings are horizontal. The coefficient of friction between two blocks is 0.1 and 0.2 between 4 kg block and the floor. Find the minimum force F required to cause slipping?",
+  "options": {
+    "A": "8 N",
+    "B": "12 N",
+    "C": "14 N",
+    "D": "16 N"
+  },
+  "answer": {
+    "keys": [
+      "D"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "06FRI_v1",
+      "qno": 41
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000575-stem-1",
+      "role": "stem",
+      "file": "P000/P000575-stem-1.png",
+      "format": "png",
+      "width": 314,
+      "height": 167,
+      "alt": "A 2 kg block on a 4 kg block, joined by a string round a pulley fixed to a wall; μ = 0.1 between the blocks and μ = 0.2 under the 4 kg block; a force F pulls the 4 kg block away from the wall.",
+      "origin": "docx",
+      "needs_redraw": true
+    },
+    {
+      "id": "P000575-sol-1",
+      "role": "solution",
+      "file": "P000/P000575-sol-1.png",
+      "format": "png",
+      "width": 1041,
+      "height": 305,
+      "alt": "The 2 kg block moves right as the 4 kg block moves left under F. 2 kg: T = 0.1(20) = 2; 4 kg: F = T + 2 + 0.2(60).",
+      "origin": "docx",
+      "needs_redraw": false
+    }
+  ],
+  "rights": "unverified",
+  "content_hash": "3d7d6684ce1f65ac",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-12",
+  "updated": "2026-11-12"
+}

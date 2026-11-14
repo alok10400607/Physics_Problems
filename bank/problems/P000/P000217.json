@@ -1,6 +1,6 @@
 {
   "id": "P000217",
-  "status": "imported",
+  "status": "reviewed",
   "version": 1,
   "type": "mcq_single",
   "topic_code": "0410",
@@ -35,11 +35,23 @@
       "qno": 37
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "id": "P000217-sol-1",
+      "role": "solution",
+      "file": "P000/P000217-sol-1.png",
+      "format": "png",
+      "width": 569,
+      "height": 397,
+      "alt": "A projectile path near its top at 3.5 s: the points at t = 3 and t = 4 are 15 m apart horizontally.",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
   "rights": "unverified",
   "content_hash": "1d4074850218c396",
   "duplicate_of": null,
   "variant_of": null,
   "created": "2026-11-08",
-  "updated": "2026-11-08"
+  "updated": "2026-11-12"
 }

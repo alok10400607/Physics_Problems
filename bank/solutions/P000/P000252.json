@@ -1,0 +1,33 @@
+{
+  "id": "P000252",
+  "problem_version": 1,
+  "status": "reviewed",
+  "hints": [
+    "While both stones are in the air, what is their relative acceleration? Then ask what changes once the first stone has landed."
+  ],
+  "worded": "1. While both are in flight they have the same acceleration g, so the relative position grows uniformly: y₂ − y₁ = (40 − 10)t = 30t, a straight line.\n\n2. Stone 1 (10 m/s) lands when 10t − 5t² = −240, at t = 8 s. Then y₂ − y₁ = 240 m. So the straight line rises to 240 at 8 s.\n\n3. After that stone 1 is at rest on the ground, and y₂ − y₁ is just stone 2’s height above the ground: 240 + 40t − 5t². That is a parabola, concave down (stone 2 is accelerating downward), reaching 0 when stone 2 lands at t = 12 s.\n\n4. Straight to (8, 240), then a downward-curving arc steepening to 0 at 12 s: graph (C).\n\n5. Why not (D): (D) curves the other way (concave up), which would need an upward acceleration.\n\n**Why the other options are there.** (A) continues with a straight line after 8 s, as if stone 2 kept a constant velocity. (B) drops vertically at 12 s, as if stone 1 had stayed in the air until then. (D) bends the wrong way: after 8 s the curve must be concave down, since stone 2 accelerates downward.",
+  "conventional": "![](asset:P000252-sol-1)\n\nWhile both are in flight, $\\vec{a}_{21} = 0$, so $y_{2} - y_{1} = (40 - 10)t = 30t$.\n\nStone 1 lands when $10t - 5t^{2} = - 240$, i.e. $t^{2} - 2t - 48 = 0$, $t = 8$ s; then $y_{2} - y_{1} = 240$ m.\n\nStone 2 lands when $40t - 5t^{2} = - 240$, i.e. $t^{2} - 8t - 48 = 0$, $t = 12$ s.\n\nFor $8 \\leq t \\leq 12$ s: $y_{2} - y_{1} = 240 + 40t - 5t^{2}$, with $\\frac{d^{2}}{dt^{2}}\\left( y_{2} - y_{1} \\right) = - 10 < 0$ (concave down), falling to 0 at 12 s.",
+  "mistakes": [
+    "Relative motion is uniform only while both bodies are in flight; once one lands, its acceleration is no longer g.",
+    "Concave down, not up: after 8 s the slope becomes steadily more negative."
+  ],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "solved_answer": "(C).",
+    "resolve_answer": null,
+    "agrees_with_key": true,
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": "04MIP_Solutions_v1",
+    "date": "2026-11-12"
+  },
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 04MIP_Solutions_v1.docx"
+  }
+}

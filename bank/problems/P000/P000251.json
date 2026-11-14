@@ -1,6 +1,6 @@
 {
   "id": "P000251",
-  "status": "imported",
+  "status": "reviewed",
   "version": 1,
   "type": "subjective",
   "topic_code": "0430",
@@ -27,11 +27,23 @@
       "qno": 71
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "id": "P000251-sol-1",
+      "role": "solution",
+      "file": "P000/P000251-sol-1.png",
+      "format": "png",
+      "width": 631,
+      "height": 493,
+      "alt": "A gun on the ground fires at 400 m/s at 30° to the vertical (u_x = 200) at a plane flying at 200 m/s, 1.5 km up; the path just reaches the plane's level.",
+      "origin": "docx",
+      "needs_redraw": false
+    }
+  ],
   "rights": "unverified",
   "content_hash": "b2905191ff98eca9",
   "duplicate_of": null,
   "variant_of": null,
   "created": "2026-11-08",
-  "updated": "2026-11-08"
+  "updated": "2026-11-12"
 }

@@ -1,23 +1,33 @@
 {
   "id": "P000245",
   "problem_version": 1,
-  "status": "draft",
+  "status": "reviewed",
   "hints": [
-    "> The final velocity is along AO, or when the component $\\bot$ to AO is zero;\n\n>\n\n> Hence $T = u/a_{y}$ where y is along OB ($\\bot$ to AO) = $\\frac{u}{g\\cos 30{^\\circ}}$"
+    "The two surfaces are at right angles. So the launch direction (perpendicular to A) is parallel to B, and the final direction (perpendicular to B) is parallel to A. Which velocity component must vanish by the end?"
   ],
-  "worded": null,
-  "conventional": null,
-  "mistakes": [],
+  "worded": "1. A is at 30° and B at 60° on opposite sides of O, so the angle between them is 180° − 30° − 60° = 90°: the surfaces are perpendicular.\n\n2. Launched perpendicular to A means launched parallel to OB, with speed u. Hitting B perpendicularly means the final velocity is parallel to AO.\n\n3. Take an axis along OB. At the start the whole velocity, u, lies along it. At the end the velocity is perpendicular to it (parallel to AO), so its component along OB is zero.\n\n4. Along OB, gravity contributes g sin 60° = √3g/2 against the motion. So that component falls from u to 0 in t = u/(g sin 60°) = 2u/(√3g). (A)\n\n5. This is the same as Q43: there too the velocity had to turn perpendicular to its starting direction, with g at 60° to it.",
+  "conventional": "![](asset:P000245-sol-1)\n\nSince $\\angle AOB = 90^{\\circ}$, take the $x$-axis along $OB$ and $y$ along $AO$. Then $u_{x} = u$, $u_{y} = 0$, and the components of $\\vec{g}$ are $a_{x} = - g\\sin 60^{\\circ}$, $a_{y} = - g\\cos 60^{\\circ}$.\n\nStriking B perpendicularly means $v_{x} = 0$:\n\n$$u - g\\sin 60^{\\circ}\\, t = 0\\  \\Rightarrow \\ t = \\frac{u}{g\\sin 60^{\\circ}} = \\frac{2u}{\\sqrt{3}\\, g}.$$",
+  "mistakes": [
+    "The worksheet hint writes this as u/(g cos 30°): the same number, since cos 30° = sin 60°.",
+    "Do not set the whole velocity to zero; only its component along OB vanishes."
+  ],
   "distractors": {},
   "extension": null,
   "check": {
+    "solved_answer": "(A) $\\frac{2u}{g\\sqrt{3}}$.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
     "issues": []
   },
   "generated_by": {
     "author": "worksheet",
     "model": null,
-    "prompt_version": null,
-    "date": "2026-11-08"
+    "prompt_version": "04MIP_Solutions_v1",
+    "date": "2026-11-12"
   },
-  "reviewed_by": null
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 04MIP_Solutions_v1.docx"
+  }
 }

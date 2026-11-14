@@ -1,6 +1,6 @@
 {
   "id": "P000227",
-  "status": "imported",
+  "status": "reviewed",
   "version": 1,
   "type": "mcq_single",
   "topic_code": "0415",
@@ -35,11 +35,23 @@
       "qno": 47
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "id": "P000227-sol-1",
+      "role": "solution",
+      "file": "P000/P000227-sol-1.png",
+      "format": "png",
+      "width": 746,
+      "height": 594,
+      "alt": "Two buildings 30 m apart, 150 m and 25 m tall; a body leaves the taller one and falls 125 m in 5 s onto the roof of the shorter.",
+      "origin": "docx",
+      "needs_redraw": false
+    }
+  ],
   "rights": "unverified",
   "content_hash": "04d8a50872c6126b",
   "duplicate_of": null,
   "variant_of": null,
   "created": "2026-11-08",
-  "updated": "2026-11-08"
+  "updated": "2026-11-12"
 }

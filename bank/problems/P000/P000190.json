@@ -1,6 +1,6 @@
 {
   "id": "P000190",
-  "status": "imported",
+  "status": "reviewed",
   "version": 1,
   "type": "integer",
   "topic_code": "0405",
@@ -44,5 +44,5 @@
   "duplicate_of": null,
   "variant_of": null,
   "created": "2026-11-08",
-  "updated": "2026-11-08"
+  "updated": "2026-11-12"
 }

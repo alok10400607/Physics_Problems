@@ -1,23 +1,33 @@
 {
   "id": "P000217",
   "problem_version": 1,
-  "status": "draft",
+  "status": "reviewed",
   "hints": [
-    "> The projectile will be at the same height at 3 s and 4 s (as it reaches the highest point at time 3.5 s)\n\n>\n\n> Hence the displacement = horizontal distance travelled = $u_{x} = \\frac{105}{7} = 15m$"
+    "The time of flight is 7 s, so where in time is the top? Where is the 4th second relative to it?"
   ],
-  "worded": null,
-  "conventional": null,
-  "mistakes": [],
+  "worded": "1. Time of flight 7 s means the top is at 3.5 s.\n\n2. The 4th second runs from t = 3 s to t = 4 s, which is symmetric about 3.5 s. So the body is at the same height at its start and end: the vertical displacement is zero.\n\n3. The horizontal speed is 105/7 = 15 m/s, so in that second it moves 15 m horizontally.\n\n4. Displacement = 15 m. (C)",
+  "conventional": "![](asset:P000217-sol-1)\n\n$T = 7$ s, so $u_{y} = gT/2 = 35$ m/s and $u_{x} = 105/7 = 15$ m/s.\n\n$$y(4) - y(3) = \\left\\lbrack 35(4) - 5(16) \\right\\rbrack - \\left\\lbrack 35(3) - 5(9) \\right\\rbrack = 60 - 60 = 0,$$\n\n$$x(4) - x(3) = 15\\unit{m}\\  \\Rightarrow \\ \\left| \\Delta\\vec{r} \\right| = 15\\unit{m}\\ (horizontal).$$",
+  "mistakes": [
+    "The 4th second is t = 3 to t = 4, not t = 4 to t = 5.",
+    "Distance along the curved path is slightly more than 15 m; the question asks for the displacement."
+  ],
   "distractors": {},
   "extension": null,
   "check": {
+    "solved_answer": "(C) 15 m (horizontal).",
+    "resolve_answer": null,
+    "agrees_with_key": true,
     "issues": []
   },
   "generated_by": {
     "author": "worksheet",
     "model": null,
-    "prompt_version": null,
-    "date": "2026-11-08"
+    "prompt_version": "04MIP_Solutions_v1",
+    "date": "2026-11-12"
   },
-  "reviewed_by": null
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 04MIP_Solutions_v1.docx"
+  }
 }

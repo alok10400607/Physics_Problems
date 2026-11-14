@@ -1,0 +1,33 @@
+{
+  "id": "P000249",
+  "problem_version": 1,
+  "status": "reviewed",
+  "hints": [
+    "Since they do collide, what must be true of their vertical components? That fixes θ, and then the closing speed."
+  ],
+  "worded": "1. Both fall under g, so relative motion is uniform and straight. A collision means A’s velocity relative to B is along the horizontal line AB.\n\n2. So the vertical components match: 20 sin θ = 10, θ = 30°.\n\n3. Closing speed = A’s horizontal component = 20 cos 30° = 10√3 m/s.\n\n4. Time = 10/(10√3) = 1/√3 s ≈ 0.58 s. (D)\n\n5. Check: in that time each rises 10/√3 − 5/3 ≈ 4.1 m, so they meet in the air, as required.",
+  "conventional": "![](asset:P000249-sol-1)\n\n$$20\\sin\\theta = 10\\  \\Rightarrow \\ \\theta = 30^{\\circ},\\quad\\quad t = \\frac{x}{20\\cos 30^{\\circ}} = \\frac{10}{10\\sqrt{3}} = \\frac{1}{\\sqrt{3}}\\unit{s}.$$",
+  "mistakes": [
+    "(B) 0.5 s uses the full 20 m/s as the closing speed; only the horizontal part closes the gap.",
+    "“Collide in air” is a condition, not extra data: it forces the equal vertical components."
+  ],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "solved_answer": "(D) $\\frac{1}{\\sqrt{3}}$ s.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": "04MIP_Solutions_v1",
+    "date": "2026-11-12"
+  },
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 04MIP_Solutions_v1.docx"
+  }
+}

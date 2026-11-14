@@ -1,6 +1,6 @@
 {
   "id": "P000259",
-  "status": "imported",
+  "status": "reviewed",
   "version": 1,
   "type": "mcq_single",
   "topic_code": "0435",
@@ -35,11 +35,23 @@
       "qno": 79
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "id": "P000259-sol-1",
+      "role": "solution",
+      "file": "P000/P000259-sol-1.png",
+      "format": "png",
+      "width": 760,
+      "height": 534,
+      "alt": "A plane flies from X to Y due north with a wind from the west of 60: the plane's velocity v_p, 500, points slightly west of north at angle θ, and the ground velocity is √(500² − 60²) = √616 × 20.",
+      "origin": "docx",
+      "needs_redraw": false
+    }
+  ],
   "rights": "unverified",
   "content_hash": "3d4de66f4511ee6e",
   "duplicate_of": null,
   "variant_of": null,
   "created": "2026-11-08",
-  "updated": "2026-11-08"
+  "updated": "2026-11-12"
 }

@@ -1,0 +1,33 @@
+{
+  "id": "P000209",
+  "problem_version": 1,
+  "status": "reviewed",
+  "hints": [
+    "Compare y = αx − βx² with the standard trajectory y = x tan θ − gx²/(2u²cos²θ). What is the slope at x = 0, and where is the top?"
+  ],
+  "worded": "1. The slope of the path at the launch point is the launch direction. dy/dx = α − 2βx is α at x = 0, so tan θ = α.\n\n2. The path meets the ground again where αx − βx² = 0, at x = α/β: that is the range.\n\n3. The top is midway, at x = α/2β. There y = α(α/2β) − β(α/2β)² = α²/2β − α²/4β = α²/4β.\n\n4. So θ = tan⁻¹ α and H = α²/4β. (D)\n\n**Another way: complete the square.** y = −β(x − α/2β)² + α²/4β. The largest value of y is α²/4β, reached at x = α/2β.",
+  "conventional": "![](asset:P000209-sol-1)\n\n$$\\left. \\ \\frac{dy}{dx} \\right|_{x = 0} = \\alpha\\  \\Rightarrow \\ \\tan\\theta = \\alpha.$$\n\nThe maximum is where $dy/dx = \\alpha - 2\\beta x = 0$, at $x = \\alpha/2\\beta$:\n\n$$H = \\alpha \\cdot \\frac{\\alpha}{2\\beta} - \\beta \\cdot \\frac{\\alpha^{2}}{4\\beta^{2}} = \\frac{\\alpha^{2}}{4\\beta}.$$",
+  "mistakes": [
+    "(B) α²/2β is y at the top before subtracting βx².",
+    "The launch angle comes from the slope at x = 0, not from α/β (which is the range)."
+  ],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "solved_answer": "(D) $\\tan^{- 1}\\alpha,\\ \\frac{\\alpha^{2}}{4\\beta}$.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": "04MIP_Solutions_v1",
+    "date": "2026-11-12"
+  },
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 04MIP_Solutions_v1.docx"
+  }
+}

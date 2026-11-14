@@ -1,6 +1,6 @@
 {
   "id": "P000197",
-  "status": "imported",
+  "status": "reviewed",
   "version": 1,
   "type": "mcq_single",
   "topic_code": "0410",
@@ -46,11 +46,23 @@
       "year": 2021
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "id": "P000197-sol-1",
+      "role": "solution",
+      "file": "P000/P000197-sol-1.png",
+      "format": "png",
+      "width": 668,
+      "height": 240,
+      "alt": "A projectile launched at 25 m/s at 45°; at the top v_y = 0 at T = 1.77 s, and the maximum height is H_m = 15.6 m.",
+      "origin": "docx",
+      "needs_redraw": false
+    }
+  ],
   "rights": "past-paper",
   "content_hash": "56c56c314c21f55f",
   "duplicate_of": null,
   "variant_of": null,
   "created": "2026-11-08",
-  "updated": "2026-11-08"
+  "updated": "2026-11-12"
 }

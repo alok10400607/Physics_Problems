@@ -1,21 +1,33 @@
 {
   "id": "P000212",
   "problem_version": 1,
-  "status": "draft",
-  "hints": [],
-  "worded": null,
-  "conventional": "> Average velocity in x-direction $u_{x} = 20\\ $m/s\n\n>\n\n> Average velocity in y-direction: 25 m/s = $v_{y}(t = 1)$\n\n>\n\n> Hence $u_{y} = 35$ m/s",
-  "mistakes": [],
+  "status": "reviewed",
+  "hints": [
+    "Average velocity over 0–2 s is (40, 50)/2. Horizontally that is u_x itself. Vertically, the average over an interval with constant acceleration is the velocity at its middle instant."
+  ],
+  "worded": "1. Horizontal motion is uniform: u_x = 40/2 = 20 m/s.\n\n2. Vertical motion has constant acceleration, so the average vertical velocity over 0–2 s equals v_y at the mid-time, t = 1 s. That average is 50/2 = 25 m/s.\n\n3. v_y falls by 10 each second, so at t = 0 it was 25 + 10 = 35 m/s.\n\n4. tan θ = u_y/u_x = 35/20 = 7/4. (D)\n\n5. Check: y = 35 × 2 − 5 × 4 = 50 m. ✓\n\n**Another way: equation of motion.** 50 = u_y(2) − ½(10)(2)² gives u_y = 35 m/s; with u_x = 20 m/s, tan θ = 7/4.",
+  "conventional": "![](asset:P000212-sol-1)\n\n$$u_{x} = \\frac{40}{2} = 20\\unit{m/s}.$$\n\n$$y = u_{y}t - \\frac{1}{2}gt^{2}\\  \\Rightarrow \\ 50 = 2u_{y} - 20\\  \\Rightarrow \\ u_{y} = 35\\unit{m/s}.$$\n\n$$\\tan\\theta = \\frac{u_{y}}{u_{x}} = \\frac{35}{20} = \\frac{7}{4}.$$",
+  "mistakes": [
+    "(A) 4/5 = 40/50 inverts the position ratio and ignores gravity.",
+    "The position direction (50/40) is not the launch direction: gravity has bent the path below the launch line."
+  ],
   "distractors": {},
   "extension": null,
   "check": {
+    "solved_answer": "(D) $\\tan^{- 1}(7/4)$.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
     "issues": []
   },
   "generated_by": {
     "author": "worksheet",
     "model": null,
-    "prompt_version": null,
-    "date": "2026-11-08"
+    "prompt_version": "04MIP_Solutions_v1",
+    "date": "2026-11-12"
   },
-  "reviewed_by": null
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 04MIP_Solutions_v1.docx"
+  }
 }

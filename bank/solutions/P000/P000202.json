@@ -1,23 +1,33 @@
 {
   "id": "P000202",
   "problem_version": 1,
-  "status": "draft",
+  "status": "reviewed",
   "hints": [
-    "> $$\\frac{2u_{x}u_{y}}{g} = \\frac{u_{y}^{2}}{2g}$$"
+    "Write R and H with the same factors, u_x and u_y. Setting them equal fixes the ratio u_y/u_x."
   ],
-  "worded": null,
-  "conventional": null,
-  "mistakes": [],
+  "worded": "1. Range = 2u_xu_y/g and height = u_y²/2g. Both share u_y and g, so their ratio involves only u_x and u_y.\n\n2. Equal: 2u_xu_y/g = u_y²/2g, so u_y = 4u_x.\n\n3. So tan θ = u_y/u_x = 4, θ = tan⁻¹ 4 ≈ 76°. (D)\n\n4. Check: at 45° the range is four times the height, so making them equal needs a much steeper throw, as 76° is.\n\n**Another way: R = 4H cot θ.** Dividing R = 2u²sinθcosθ/g by H = u²sin²θ/2g gives R/H = 4 cot θ. R = H means cot θ = ¼, tan θ = 4.",
+  "conventional": "![](asset:P000202-sol-1)\n\n$$R = H\\  \\Rightarrow \\ \\frac{2u_{x}u_{y}}{g} = \\frac{u_{y}^{2}}{2g}\\  \\Rightarrow \\ u_{y} = 4u_{x}\\  \\Rightarrow \\ \\tan\\theta = 4.$$",
+  "mistakes": [
+    "(C) tan⁻¹(¼) inverts the ratio: that angle would make the range 16 times the height.",
+    "At 45° R = 4H, not R = H."
+  ],
   "distractors": {},
   "extension": null,
   "check": {
+    "solved_answer": "(D) $\\theta = \\tan^{- 1}4$.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
     "issues": []
   },
   "generated_by": {
     "author": "worksheet",
     "model": null,
-    "prompt_version": null,
-    "date": "2026-11-08"
+    "prompt_version": "04MIP_Solutions_v1",
+    "date": "2026-11-12"
   },
-  "reviewed_by": null
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 04MIP_Solutions_v1.docx"
+  }
 }

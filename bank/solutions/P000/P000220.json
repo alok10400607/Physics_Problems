@@ -1,21 +1,33 @@
 {
   "id": "P000220",
   "problem_version": 1,
-  "status": "draft",
-  "hints": [],
-  "worded": null,
-  "conventional": "> Let the angle with horizontal be $\\alpha$ and $(90 - \\alpha)$ when the velocities are 3 m/s and 4 m/s respectively.\n\n>\n\n> Equating horizontal components: $3\\cos \\alpha = 4\\cos (90 - \\alpha)$; $\\tan \\alpha = \\frac{3}{4};\\cos \\alpha = 4/5$\n\n>\n\n> Minimum speed = horizontal component = 3 cos α = 12/5 m/s, so minimum KE = ½ × 2 × (12/5)² = 5.76 J",
-  "mistakes": [],
+  "status": "reviewed",
+  "hints": [
+    "Kinetic energy is least where the speed is least, at the top. What stays the same at every point of the flight, and how can two perpendicular velocities share it?"
+  ],
+  "worded": "1. Least KE is at the top, where the speed equals the horizontal component, which is the same throughout the flight.\n\n2. So both given velocities, 3 m/s and 4 m/s, have the same horizontal component, and they are perpendicular.\n\n3. If the 3 m/s velocity is at α to the horizontal, the 4 m/s velocity is at 90° − α (on the other side). Equal horizontal parts: 3 cos α = 4 sin α, so tan α = ¾, cos α = 4/5.\n\n4. Horizontal component = 3 × 4/5 = 2.4 m/s. Least KE = ½ × 2 × 2.4² = 5.76 J. (D)\n\n5. Check: 2.4 is less than both 3 and 4, as the minimum speed must be.\n\n**Another way: right triangle.** Place the two velocities tail to tail: they are perpendicular legs 3 and 4, and the line joining their tips is vertical (their difference is gΔt). The horizontal component is the altitude from the right angle to the hypotenuse: 3 × 4/5 = 2.4 m/s.",
+  "conventional": "![](asset:P000220-sol-1)\n\nLet the 3 m/s velocity make angle $\\alpha$ above the horizontal; the 4 m/s velocity is then at $90^{\\circ} - \\alpha$ below it. Equal horizontal components:\n\n$$3\\cos\\alpha = 4\\sin\\alpha\\  \\Rightarrow \\ \\tan\\alpha = \\frac{3}{4},\\ \\cos\\alpha = \\frac{4}{5},\\quad\\quad v_{\\min} = 3\\cos\\alpha = \\frac{12}{5}\\unit{m/s}.$$\n\n$$K_{\\min} = \\frac{1}{2}(2)\\left( \\frac{12}{5} \\right)^{2} = 5.76\\unit{J}.$$",
+  "mistakes": [
+    "9 J is the KE at 3 m/s; that point is not the top.",
+    "The minimum speed is u cos θ (at the top), not zero."
+  ],
   "distractors": {},
   "extension": null,
   "check": {
+    "solved_answer": "(D) 5.76 J.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
     "issues": []
   },
   "generated_by": {
     "author": "worksheet",
     "model": null,
-    "prompt_version": null,
-    "date": "2026-11-08"
+    "prompt_version": "04MIP_Solutions_v1",
+    "date": "2026-11-12"
   },
-  "reviewed_by": null
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 04MIP_Solutions_v1.docx"
+  }
 }

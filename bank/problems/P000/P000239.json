@@ -1,6 +1,6 @@
 {
   "id": "P000239",
-  "status": "imported",
+  "status": "reviewed",
   "version": 1,
   "type": "mcq_single",
   "topic_code": "0425",
@@ -46,6 +46,17 @@
       "alt": "A projectile launched with speed u from the foot of an incline of 45°, at angle θ to the incline's surface.",
       "origin": "docx",
       "needs_redraw": true
+    },
+    {
+      "id": "P000239-sol-1",
+      "role": "solution",
+      "file": "P000/P000239-sol-1.png",
+      "format": "png",
+      "width": 460,
+      "height": 339,
+      "alt": "A 45° incline; a projectile launched at angle θ hits the plane while moving horizontally.",
+      "origin": "docx",
+      "needs_redraw": true
     }
   ],
   "rights": "unverified",
@@ -53,5 +64,5 @@
   "duplicate_of": null,
   "variant_of": null,
   "created": "2026-11-08",
-  "updated": "2026-11-08"
+  "updated": "2026-11-12"
 }

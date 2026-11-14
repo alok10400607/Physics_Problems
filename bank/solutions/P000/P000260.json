@@ -1,0 +1,33 @@
+{
+  "id": "P000260",
+  "problem_version": 1,
+  "status": "reviewed",
+  "hints": [
+    "Treat the four sides separately. On which sides does the wind simply add or subtract, and on which must the plane head into it at an angle?"
+  ],
+  "worded": "1. Air speed 100 m/s, wind 60 m/s towards the east. Side = 16 km.\n\n2. Eastward leg: speeds add, 160 m/s: 16 000/160 = 100 s. Westward leg: 40 m/s: 400 s.\n\n3. North and south legs: the plane must cancel the 60 m/s cross-wind, leaving √(100² − 60²) = 80 m/s along the side: 200 s each.\n\n4. Total: 100 + 400 + 200 + 200 = 900 s. (D)\n\n5. Check: in still air it would take 4 × 160 = 640 s (option A). Wind always lengthens a round trip.",
+  "conventional": "![](asset:P000260-sol-1)\n\n$$t_{E} = \\frac{16000}{100 + 60} = 100\\unit{s},\\quad\\quad t_{W} = \\frac{16000}{100 - 60} = 400\\unit{s},$$\n\n$$t_{N} = t_{S} = \\frac{16000}{\\sqrt{100^{2} - 60^{2}}} = \\frac{16000}{80} = 200\\unit{s}\\text{ each}.$$\n\n$$T = 100 + 400 + 200 + 200 = 900\\unit{s}.$$",
+  "mistakes": [
+    "On the N and S legs the ground speed is 80 m/s, not 100 m/s.",
+    "640 s is the still-air time; the wind’s gains on one leg never make up for the losses."
+  ],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "solved_answer": "(D) 900 s.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": "04MIP_Solutions_v1",
+    "date": "2026-11-12"
+  },
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 04MIP_Solutions_v1.docx"
+  }
+}

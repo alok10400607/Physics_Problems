@@ -1,6 +1,6 @@
 {
   "id": "P000266",
-  "status": "imported",
+  "status": "reviewed",
   "version": 1,
   "type": "integer",
   "topic_code": "0435",
@@ -27,11 +27,23 @@
       "qno": 86
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "id": "P000266-sol-1",
+      "role": "solution",
+      "file": "P000/P000266-sol-1.png",
+      "format": "png",
+      "width": 881,
+      "height": 548,
+      "alt": "x–y axes to scale (1 cm = 5 m): particles from r₁ and r₂ move in straight lines and meet at (11, 11) at t = 2 s.",
+      "origin": "docx",
+      "needs_redraw": false
+    }
+  ],
   "rights": "unverified",
   "content_hash": "be1fd79d68f0b6a2",
   "duplicate_of": null,
   "variant_of": null,
   "created": "2026-11-08",
-  "updated": "2026-11-08"
+  "updated": "2026-11-12"
 }

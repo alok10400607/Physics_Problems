@@ -1,6 +1,6 @@
 {
   "id": "P000225",
-  "status": "imported",
+  "status": "reviewed",
   "version": 1,
   "type": "mcq_single",
   "topic_code": "0415",
@@ -46,11 +46,23 @@
       "year": 2021
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "id": "P000225-sol-1",
+      "role": "solution",
+      "file": "P000/P000225-sol-1.png",
+      "format": "png",
+      "width": 699,
+      "height": 458,
+      "alt": "A helicopter at height h moving at speed v releases a packet that lands on a man; the horizontal distance is x = v√(2h/g) and the straight line from helicopter to man is √(x² + h²).",
+      "origin": "docx",
+      "needs_redraw": false
+    }
+  ],
   "rights": "past-paper",
   "content_hash": "a6467c79fa31ca96",
   "duplicate_of": null,
   "variant_of": null,
   "created": "2026-11-08",
-  "updated": "2026-11-08"
+  "updated": "2026-11-12"
 }

@@ -1,6 +1,6 @@
 {
   "id": "P000210",
-  "status": "imported",
+  "status": "reviewed",
   "version": 1,
   "type": "mcq_single",
   "topic_code": "0410",
@@ -35,11 +35,23 @@
       "qno": 30
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "id": "P000210-sol-1",
+      "role": "solution",
+      "file": "P000/P000210-sol-1.png",
+      "format": "png",
+      "width": 632,
+      "height": 256,
+      "alt": "A projectile launched at 45°; a line from the launch point to the top makes angle φ with the ground. The top is at height H above R/2 = 2H.",
+      "origin": "docx",
+      "needs_redraw": false
+    }
+  ],
   "rights": "unverified",
   "content_hash": "73f0500230c457ee",
   "duplicate_of": null,
   "variant_of": null,
   "created": "2026-11-08",
-  "updated": "2026-11-08"
+  "updated": "2026-11-12"
 }

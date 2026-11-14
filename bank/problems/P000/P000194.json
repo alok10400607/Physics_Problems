@@ -1,6 +1,6 @@
 {
   "id": "P000194",
-  "status": "imported",
+  "status": "reviewed",
   "version": 1,
   "type": "mcq_single",
   "topic_code": "0405",
@@ -46,11 +46,23 @@
       "year": 2019
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "id": "P000194-sol-1",
+      "role": "solution",
+      "file": "P000/P000194-sol-1.png",
+      "format": "png",
+      "width": 686,
+      "height": 553,
+      "alt": "The hyperbola y² − x² = c with dashed asymptotes y = ±x; on the upper branch the velocity v = K(yî + xĵ) is drawn along the curve.",
+      "origin": "docx",
+      "needs_redraw": false
+    }
+  ],
   "rights": "past-paper",
   "content_hash": "33e930752e52ff7c",
   "duplicate_of": null,
   "variant_of": null,
   "created": "2026-11-08",
-  "updated": "2026-11-08"
+  "updated": "2026-11-12"
 }

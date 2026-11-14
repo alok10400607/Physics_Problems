@@ -1,0 +1,33 @@
+{
+  "id": "P000196",
+  "problem_version": 1,
+  "status": "reviewed",
+  "hints": [
+    "Both “greatest” throws use the man’s full speed u. Which direction gives the greatest height, and which angle gives the greatest range?"
+  ],
+  "worded": "1. The man has one throwing speed u; “greatest height” and “greatest distance” are two throws with that same speed.\n\n2. Greatest height comes from throwing straight up: h = u²/2g.\n\n3. Greatest range on level ground comes at 45°: R = u²/g.\n\n4. So R = 2 × (u²/2g) = 2h.\n\n5. Check: at 45° the stone rises only to h/2 (since u_y² = u²/2), so the 45° throw is far lower than the vertical one, as expected.",
+  "conventional": "![](asset:P000196-sol-1)\n\nThrowing vertically up with speed $u$: $h = \\frac{u^{2}}{2g}$, so $u^{2} = 2gh$.\n\nThe greatest range on level ground is at $45^{\\circ}$:\n\n$$R_{\\max} = \\frac{u^{2}\\sin 90^{\\circ}}{g} = \\frac{u^{2}}{g} = \\frac{2gh}{g} = 2h.$$",
+  "mistakes": [
+    "“Greatest height” is the vertical throw, not the 45° throw; at 45° the height is only h/2.",
+    "The same speed u is used for both throws."
+  ],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "solved_answer": "$2h$.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": "04MIP_Solutions_v1",
+    "date": "2026-11-12"
+  },
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 04MIP_Solutions_v1.docx"
+  }
+}

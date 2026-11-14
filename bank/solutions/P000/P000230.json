@@ -1,0 +1,33 @@
+{
+  "id": "P000230",
+  "problem_version": 1,
+  "status": "reviewed",
+  "hints": [
+    "Range = speed × fall time, and the fall time depends only on the height. How does the fall time change when the height doubles?"
+  ],
+  "worded": "1. Range = v × √(2h/g). The mass plays no part.\n\n2. Doubling the height multiplies the fall time by √2.\n\n3. To get twice the range with √2 times the time, the speed must be 2/√2 = √2 times as large: √2 v. (B)\n\n4. Check: with the same speed v it would reach only √2 x, short of 2x.",
+  "conventional": "![](asset:P000230-sol-1)\n\n$$x = v\\sqrt{\\frac{2h}{g}},\\quad\\quad 2x = v\\prime\\sqrt{\\frac{2(2h)}{g}} = \\sqrt{2}\\, v\\prime\\sqrt{\\frac{2h}{g}}.$$\n\nDividing: $2 = \\sqrt{2}\\, v\\prime/v$, so $v\\prime = \\sqrt{2}\\, v$.",
+  "mistakes": [
+    "The mass 2m is a distractor: projectile motion does not depend on mass.",
+    "Doubling the height does not double the time; it multiplies it by √2."
+  ],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "solved_answer": "(B) $\\sqrt{2}\\, v$.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": "04MIP_Solutions_v1",
+    "date": "2026-11-12"
+  },
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 04MIP_Solutions_v1.docx"
+  }
+}

@@ -1,6 +1,6 @@
 {
   "id": "P000223",
-  "status": "imported",
+  "status": "reviewed",
   "version": 1,
   "type": "subjective",
   "topic_code": "0410",
@@ -27,11 +27,23 @@
       "qno": 43
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "id": "P000223-sol-1",
+      "role": "solution",
+      "file": "P000/P000223-sol-1.png",
+      "format": "png",
+      "width": 304,
+      "height": 341,
+      "alt": "Vector triangle: initial velocity u, gt straight down, and the final velocity v at right angles to u.",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
   "rights": "unverified",
   "content_hash": "0afef4c6ab213a73",
   "duplicate_of": null,
   "variant_of": null,
   "created": "2026-11-08",
-  "updated": "2026-11-08"
+  "updated": "2026-11-12"
 }

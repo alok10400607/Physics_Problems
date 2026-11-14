@@ -1,0 +1,33 @@
+{
+  "id": "P000264",
+  "problem_version": 1,
+  "status": "reviewed",
+  "hints": [
+    "If the rain looks vertical when he walks at 3 km/h, what is the rain’s own horizontal component? Then use the second observation for the vertical one."
+  ],
+  "worded": "1. Rain appears vertical at 3 km/h, so the rain’s horizontal component equals his speed: 3 km/h, in his direction of walking.\n\n2. At 6 km/h, the apparent horizontal part is 3 − 6 = −3 km/h (towards him), and the vertical part is the rain’s own v_y.\n\n3. 45° with the vertical means equal parts: v_y = 3 km/h.\n\n4. Rain speed = √(3² + 3²) = 3√2 ≈ 4.24 km/h.",
+  "conventional": "![](asset:P000264-sol-1)\n\nLet $\\vec{v}_{R} = p\\ihat  - q\\jhat $ (x along his walk, y up).\n\n(i) $\\vec{v}_{R} - 3\\ihat $ vertical $\\Rightarrow p = 3$.\n\n(ii) $\\vec{v}_{R} - 6\\ihat  = - 3\\ihat  - q\\jhat $ at $45^{\\circ}$ $\\Rightarrow q = 3$.\n\n$$\\left| \\vec{v}_{R} \\right| = \\sqrt{3^{2} + 3^{2}} = 3\\sqrt{2}\\unit{km/h}.$$",
+  "mistakes": [
+    "The real rain is not vertical here: it has a horizontal part of 3 km/h.",
+    "3 km/h alone is only one component."
+  ],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "solved_answer": "$3\\sqrt{2}$ km/h (at 45° to the vertical, slanting forward).",
+    "resolve_answer": null,
+    "agrees_with_key": true,
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": "04MIP_Solutions_v1",
+    "date": "2026-11-12"
+  },
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 04MIP_Solutions_v1.docx"
+  }
+}

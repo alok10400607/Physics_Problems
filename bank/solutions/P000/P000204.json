@@ -1,0 +1,33 @@
+{
+  "id": "P000204",
+  "problem_version": 1,
+  "status": "reviewed",
+  "hints": [
+    "Look at what the three paths share. The same maximum height fixes one velocity component for all three; then compare the ranges."
+  ],
+  "worded": "1. All three paths reach the same maximum height (the dashed line). Height depends only on the vertical launch component, so all three have the same u_y.\n\n2. Time of flight is 2u_y/g, so it is the same for all three: (A) is true.\n\n3. In that same time, C goes farthest, so C has the largest horizontal component: (C) is true.\n\n4. Launch speed is √(u_x² + u_y²). With u_y equal, the largest u_x gives the largest speed, so C is fastest at launch: (B) is true.\n\n5. All three statements hold. (D)",
+  "conventional": "Equal maximum heights $H = u_{y}^{2}/2g$ mean equal $u_{y}$ for A, B and C. Hence\n\n$$T = \\frac{2u_{y}}{g}\\text{ is the same for all three};$$\n\n$$R = u_{x}T\\  \\Rightarrow \\ u_{x} \\propto R,\\text{ largest for C};\\quad\\quad u = \\sqrt{u_{x}^{2} + u_{y}^{2}}\\text{ largest for C}.$$",
+  "mistakes": [
+    "A longer range with the same height does not mean a longer time; the time is set by the height alone.",
+    "Read the figure: the common peak height is the key data."
+  ],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "solved_answer": "(D) All of the above.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": "04MIP_Solutions_v1",
+    "date": "2026-11-12"
+  },
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 04MIP_Solutions_v1.docx"
+  }
+}

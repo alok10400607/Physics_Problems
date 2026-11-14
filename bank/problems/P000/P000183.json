@@ -1,6 +1,6 @@
 {
   "id": "P000183",
-  "status": "imported",
+  "status": "reviewed",
   "version": 1,
   "type": "mcq_single",
   "topic_code": "0405",
@@ -46,11 +46,23 @@
       "year": 2019
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "id": "P000183-sol-1",
+      "role": "solution",
+      "file": "P000/P000183-sol-1.png",
+      "format": "png",
+      "width": 890,
+      "height": 577,
+      "alt": "x–y axes: a particle moves in a straight line from (2, 4) at t = 0 to (20, 20) at t = 2 s; a vector from the origin to (20, 20) is labelled |r| = 20√2 m.",
+      "origin": "docx",
+      "needs_redraw": false
+    }
+  ],
   "rights": "past-paper",
   "content_hash": "b798ea8d2c4c2b14",
   "duplicate_of": null,
   "variant_of": null,
   "created": "2026-11-08",
-  "updated": "2026-11-08"
+  "updated": "2026-11-12"
 }

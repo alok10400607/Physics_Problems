@@ -1,6 +1,6 @@
 {
   "id": "P000218",
-  "status": "imported",
+  "status": "reviewed",
   "version": 1,
   "type": "mcq_single",
   "topic_code": "0410",
@@ -35,11 +35,23 @@
       "qno": 38
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "id": "P000218-sol-1",
+      "role": "solution",
+      "file": "P000/P000218-sol-1.png",
+      "format": "png",
+      "width": 621,
+      "height": 302,
+      "alt": "Two paths reaching the same maximum height of 45, one landing at 90 and the other at 108.",
+      "origin": "docx",
+      "needs_redraw": false
+    }
+  ],
   "rights": "unverified",
   "content_hash": "0d3485a16e9bd745",
   "duplicate_of": null,
   "variant_of": null,
   "created": "2026-11-08",
-  "updated": "2026-11-08"
+  "updated": "2026-11-12"
 }

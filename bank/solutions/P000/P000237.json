@@ -1,23 +1,33 @@
 {
   "id": "P000237",
   "problem_version": 1,
-  "status": "draft",
+  "status": "reviewed",
   "hints": [
-    "> Given $u_{x} = 15$; $v_{y}\\ $when velocity vector is at $30{^\\circ}$ with the horizontal = $5\\sqrt{3}$"
+    "The horizontal component never changes. If the velocity points along the incline, at what angle is it to the horizontal, and what does that make the speed?"
   ],
-  "worded": null,
-  "conventional": null,
-  "mistakes": [],
+  "worded": "1. Velocity parallel to the plane means it points 30° above the horizontal (up the slope, since the particle is still moving forward).\n\n2. The horizontal component is constant: 30 cos 60° = 15 m/s.\n\n3. A velocity at 30° to the horizontal with horizontal part 15 has magnitude 15/cos 30° = 30/√3 = 10√3 ≈ 17.3 m/s. (D)\n\n4. Check: this is the instant the particle is farthest from the incline, halfway through its flight; its speed must be less than 30 m/s, and 17.3 is.\n\n**Another way: tilted axes.** Along the incline the launch velocity has 30 cos 30° = 15√3 and across it 30 sin 30° = 15. The velocity is parallel to the plane when the across part is zero, at t = 15/(g cos 30°) = √3 s. Then the along part is 15√3 − (g sin 30°)(√3) = 15√3 − 5√3 = 10√3 m/s.",
+  "conventional": "![](asset:P000237-sol-1)\n\n$u_{x} = 30\\cos 60^{\\circ} = 15$ m/s, unchanged. When $\\vec{v}$ is parallel to the incline it makes $30^{\\circ}$ with the horizontal, so\n\n$$v = \\frac{v_{x}}{\\cos 30^{\\circ}} = \\frac{15}{\\sqrt{3}/2} = 10\\sqrt{3}\\unit{m/s}.$$\n\n(Then $v_{y} = 15\\tan 30^{\\circ} = 5\\sqrt{3}$ m/s, as in the worksheet hint.)",
+  "mistakes": [
+    "Parallel to the plane means at 30° to the horizontal, not horizontal.",
+    "(C) 20 m/s divides by cos 30° wrongly as 15 × 4/3; check 15/0.866 = 17.3."
+  ],
   "distractors": {},
   "extension": null,
   "check": {
+    "solved_answer": "(D) $10\\sqrt{3}$ m/s.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
     "issues": []
   },
   "generated_by": {
     "author": "worksheet",
     "model": null,
-    "prompt_version": null,
-    "date": "2026-11-08"
+    "prompt_version": "04MIP_Solutions_v1",
+    "date": "2026-11-12"
   },
-  "reviewed_by": null
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 04MIP_Solutions_v1.docx"
+  }
 }

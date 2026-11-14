@@ -1,6 +1,6 @@
 {
   "id": "P000267",
-  "status": "imported",
+  "status": "reviewed",
   "version": 1,
   "type": "integer",
   "topic_code": "0435",
@@ -28,11 +28,23 @@
       "qno": 87
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "id": "P000267-sol-1",
+      "role": "solution",
+      "file": "P000/P000267-sol-1.png",
+      "format": "png",
+      "width": 539,
+      "height": 273,
+      "alt": "A particle P moves on a curve around O with v = 10 at 60° to PO; its component along PO is v cos 60° = 5.",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
   "rights": "unverified",
   "content_hash": "9e5ccdfdf0cbc123",
   "duplicate_of": null,
   "variant_of": null,
   "created": "2026-11-08",
-  "updated": "2026-11-08"
+  "updated": "2026-11-12"
 }

@@ -1,0 +1,35 @@
+{
+  "id": "P000268",
+  "problem_version": 1,
+  "status": "reviewed",
+  "hints": [
+    "Sit on ship A. Then B moves in a straight line with velocity $\\vec{v}_{B} - \\vec{v}_{A}$. When is that straight line nearest to A?"
+  ],
+  "worded": "1. In A’s frame, A is fixed and B starts at (80, 150) km with velocity (−10, 0) − (30, 50) = (−40, −50) km/h.\n\n2. B then moves in a straight line. It is closest to A when its relative position is perpendicular to its relative velocity.\n\n3. t* = −(r·v)/|v|² = (80 × 40 + 150 × 50)/(40² + 50²) = 10 700/4100 ≈ 2.6 h. (B)\n\n4. Check: the minimum distance is |r × v|/|v| = |80(−50) − 150(−40)|/64.0 = 2000/64.0 ≈ 31 km, a sensible near miss.\n\n**Another way: minimise the distance squared.** r(t) = (80 − 40t, 150 − 50t). d² = (80 − 40t)² + (150 − 50t)². Setting d(d²)/dt = 0: −80(80 − 40t) − 100(150 − 50t) = 0, so 4100t = 10 700, t ≈ 2.6 h.",
+  "conventional": "![](asset:P000268-sol-1)\n\n$$\\vec{r}_{BA}(0) = 80\\ihat  + 150\\jhat \\ km,\\quad\\quad\\vec{v}_{BA} = - 10\\ihat  - \\left( 30\\ihat  + 50\\jhat  \\right) = - 40\\ihat  - 50\\jhat \\ km/h.$$\n\n$$t^{*} = - \\frac{\\vec{r}_{BA} \\cdot \\vec{v}_{BA}}{\\left| \\vec{v}_{BA} \\right|^{2}} = \\frac{3200 + 7500}{1600 + 2500} = \\frac{10700}{4100} \\approx 2.6\\unit{h}.$$",
+  "mistakes": [
+    "Use the relative velocity $\\vec{v}_{B} - \\vec{v}_{A}$, including B’s own 10 km/h west.",
+    "A’s velocity (30, 50) is not exactly north-east; use the components given, not 45°."
+  ],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "solved_answer": "(B) 2.6 h.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
+    "issues": [
+      "problem text differs from the bank (similarity 0.89)"
+    ]
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": "04MIP_Solutions_v1",
+    "date": "2026-11-12"
+  },
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 04MIP_Solutions_v1.docx"
+  }
+}

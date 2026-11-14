@@ -1,6 +1,6 @@
 {
   "id": "P000215",
-  "status": "imported",
+  "status": "reviewed",
   "version": 1,
   "type": "integer",
   "topic_code": "0410",
@@ -49,6 +49,17 @@
       "alt": "A projectile launched from P at 45° with velocity V, following an arc to land at Q on the same level, with a horizontal line drawn just above the top of the arc.",
       "origin": "docx",
       "needs_redraw": true
+    },
+    {
+      "id": "P000215-sol-1",
+      "role": "solution",
+      "file": "P000/P000215-sol-1.png",
+      "format": "png",
+      "width": 1240,
+      "height": 449,
+      "alt": "A projectile from P to Q with momentum p_P at launch and p_Q at landing; beside it, the triangle p_P, p_Q and Δp, with |Δp| = √2·mu, pointing down.",
+      "origin": "docx",
+      "needs_redraw": false
     }
   ],
   "rights": "past-paper",
@@ -56,5 +67,5 @@
   "duplicate_of": null,
   "variant_of": null,
   "created": "2026-11-08",
-  "updated": "2026-11-08"
+  "updated": "2026-11-12"
 }

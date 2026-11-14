@@ -1,6 +1,6 @@
 {
   "id": "P000264",
-  "status": "imported",
+  "status": "reviewed",
   "version": 1,
   "type": "subjective",
   "topic_code": "0435",
@@ -27,11 +27,23 @@
       "qno": 84
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "id": "P000264-sol-1",
+      "role": "solution",
+      "file": "P000/P000264-sol-1.png",
+      "format": "png",
+      "width": 855,
+      "height": 330,
+      "alt": "Rain v_R = 3î − 3ĵ appears vertical at 3 km/h; adding −v_M (6) makes it appear at 45° (scale 1 cm = 2.5 km/h).",
+      "origin": "docx",
+      "needs_redraw": false
+    }
+  ],
   "rights": "unverified",
   "content_hash": "060a57dd127ca5e9",
   "duplicate_of": null,
   "variant_of": null,
   "created": "2026-11-08",
-  "updated": "2026-11-08"
+  "updated": "2026-11-12"
 }

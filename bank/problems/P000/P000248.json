@@ -1,6 +1,6 @@
 {
   "id": "P000248",
-  "status": "imported",
+  "status": "reviewed",
   "version": 1,
   "type": "mcq_single",
   "topic_code": "0430",
@@ -46,6 +46,17 @@
       "alt": "Particle A projected at 20 m/s at angle θ to the horizontal, and particle B, a distance x away on the same level, projected vertically upwards at 10 m/s.",
       "origin": "docx",
       "needs_redraw": true
+    },
+    {
+      "id": "P000248-sol-1",
+      "role": "solution",
+      "file": "P000/P000248-sol-1.png",
+      "format": "png",
+      "width": 608,
+      "height": 320,
+      "alt": "A at the left fires at 20 m/s at angle θ, with vertical part 20 sin θ; B at distance x fires 10 m/s straight up. The relative velocity v_AB points along AB.",
+      "origin": "docx",
+      "needs_redraw": false
     }
   ],
   "rights": "unverified",
@@ -53,5 +64,5 @@
   "duplicate_of": null,
   "variant_of": null,
   "created": "2026-11-08",
-  "updated": "2026-11-08"
+  "updated": "2026-11-12"
 }

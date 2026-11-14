@@ -1,0 +1,32 @@
+{
+  "id": "P000561",
+  "problem_version": 1,
+  "status": "reviewed",
+  "hints": [
+    "Same distance up and down: compare v² with (v/2)². What ratio of accelerations does that give?"
+  ],
+  "worded": "1. Up: v² = 2a_u s. Down: (v/2)² = 2a_d s. So a_d = a_u/4.\n\n2. As in Q20, this gives μ = (3/5) tan 30° = √3/5 ≈ 0.3464.\n\n3. N = 346.",
+  "conventional": "![](asset:P000561-sol-1)\n\n$$\\frac{a_{d}}{a_{u}} = \\frac{(v/2)^{2}}{v^{2}} = \\frac{1}{4}\\mkern6mu  \\Rightarrow \\mkern6mu \\mu = \\frac{3}{5}\\tan 30^{\\circ} = 0.3464\\mkern6mu  \\Rightarrow \\mkern6mu  N = 346.$$",
+  "mistakes": [
+    "Speeds halve, so v² falls to a quarter: the accelerations are in the ratio 1 : 4."
+  ],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "solved_answer": "N = 346.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": "06FRI_Solutions_v1",
+    "date": "2026-11-12"
+  },
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 06FRI_Solutions_v1.docx"
+  }
+}

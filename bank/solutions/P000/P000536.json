@@ -1,0 +1,32 @@
+{
+  "id": "P000536",
+  "problem_version": 1,
+  "status": "reviewed",
+  "hints": [
+    "Which force holds the block up, and what sets its largest possible value?"
+  ],
+  "worded": "1. Only friction can hold the block up against its weight of 5 N.\n\n2. The wall’s normal force equals the horizontal push F, so friction can be at most μF = 0.2F.\n\n3. For the block not to slide: 0.2F ≥ 5, so F ≥ 25 N.\n\n4. A larger F does not increase the friction actually acting: it stays at 5 N, just as much as needed.",
+  "conventional": "![](asset:P000536-sol-1)\n\n$$N = F,\\quad\\quad f \\leq \\mu N.\\quad\\quad Need\\ f = mg:\\mkern6mu \\mu F \\geq mg\\mkern6mu  \\Rightarrow \\mkern6mu  F \\geq \\frac{0.5(10)}{0.2} = 25\\unit{N}.$$",
+  "mistakes": [
+    "The friction is 5 N whatever the push; μF is only its upper limit."
+  ],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "solved_answer": "25 N (minimum).",
+    "resolve_answer": null,
+    "agrees_with_key": true,
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": "06FRI_Solutions_v1",
+    "date": "2026-11-12"
+  },
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 06FRI_Solutions_v1.docx"
+  }
+}

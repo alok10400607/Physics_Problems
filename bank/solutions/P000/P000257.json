@@ -1,23 +1,33 @@
 {
   "id": "P000257",
   "problem_version": 1,
-  "status": "draft",
+  "status": "reviewed",
   "hints": [
-    "> First gum ball will fall at $x = 0$, vertically below the starting position of the boy\n\n>\n\n> The second ball will be dropped when boy has travelled 1 m and moving with a speed of 2 m/s. The gum ball will fall at a further horizontal distance of $2\\sqrt{\\frac{2 \\times 0.8}{10}}$ = 0.8 m"
+    "At the instant each ball is let go, it has the train’s velocity at that instant, and from then on only g. Where is the train, and how fast is it going, when the second ball is dropped?"
   ],
-  "worded": null,
-  "conventional": null,
-  "mistakes": [],
+  "worded": "1. Each ball falls 0.8 m, taking √(2 × 0.8/10) = 0.4 s.\n\n2. Ball 1 is dropped at t = 0 with the train at rest, so it lands directly below the drop point: x = 0.\n\n3. Ball 2 is dropped at t = 1 s. The train has then moved ½ × 2 × 1² = 1 m and is moving at 2 m/s.\n\n4. Ball 2 keeps 2 m/s horizontally while falling for 0.4 s: 0.8 m more. It lands at 1 + 0.8 = 1.8 m.\n\n5. Distance between the balls on the ground = 1.8 m. (D)",
+  "conventional": "![](asset:P000257-sol-1)\n\nFall time: $t_{f} = \\sqrt{2(0.8)/10} = 0.4$ s.\n\nBall 1: dropped at rest from $x = 0$, lands at $x_{1} = 0$.\n\nBall 2: dropped at $t = 1$ s from $x = \\frac{1}{2}(2)(1)^{2} = 1$ m with $v = 2(1) = 2$ m/s:\n\n$$x_{2} = 1 + 2(0.4) = 1.8\\unit{m},\\quad\\quad x_{2} - x_{1} = 1.8\\unit{m}.$$",
+  "mistakes": [
+    "After release, the ball does not share the train’s acceleration: it keeps the velocity it had (2 m/s).",
+    "(A) 1 m forgets the forward drift during the fall; (B) 0.8 m forgets the train’s 1 m."
+  ],
   "distractors": {},
   "extension": null,
   "check": {
+    "solved_answer": "(D) 1.8 m.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
     "issues": []
   },
   "generated_by": {
     "author": "worksheet",
     "model": null,
-    "prompt_version": null,
-    "date": "2026-11-08"
+    "prompt_version": "04MIP_Solutions_v1",
+    "date": "2026-11-12"
   },
-  "reviewed_by": null
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 04MIP_Solutions_v1.docx"
+  }
 }

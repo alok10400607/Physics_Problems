@@ -1,0 +1,33 @@
+{
+  "id": "P000201",
+  "problem_version": 1,
+  "status": "reviewed",
+  "hints": [
+    "At the highest point, what is the only part of the velocity that is left?"
+  ],
+  "worded": "1. At the top the vertical velocity is zero, so the speed there is just the horizontal component u cos θ.\n\n2. The horizontal component never changes, so u cos θ = u/2.\n\n3. cos θ = ½ gives θ = 60°. (D)\n\n4. Check: a steep throw keeps little horizontal speed, so a speed at the top only half the launch speed needs a steep angle. 60° fits.",
+  "conventional": "![](asset:P000201-sol-1)\n\nAt the highest point $v_{y} = 0$, so the speed is $v_{x} = u\\cos\\theta$:\n\n$$u\\cos\\theta = \\frac{u}{2}\\  \\Rightarrow \\ \\cos\\theta = \\frac{1}{2}\\  \\Rightarrow \\ \\theta = 60^{\\circ}.$$",
+  "mistakes": [
+    "Writing u sin θ = u/2 (giving 30°) uses the vertical component, which is zero at the top.",
+    "The speed at the top is not zero; only $v_{y}$ is."
+  ],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "solved_answer": "(D) 60°.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": "04MIP_Solutions_v1",
+    "date": "2026-11-12"
+  },
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 04MIP_Solutions_v1.docx"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "id": "P000569",
+  "status": "reviewed",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0620",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000569-stem-1)The maximum value of F so that blocks do not have relative motion between block A and B:",
+  "options": {
+    "A": "15 N",
+    "B": "10 N",
+    "C": "7.5 N",
+    "D": "5 N"
+  },
+  "answer": {
+    "keys": [
+      "C"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "06FRI_v1",
+      "qno": 35
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000569-stem-1",
+      "role": "stem",
+      "file": "P000/P000569-stem-1.png",
+      "format": "png",
+      "width": 388,
+      "height": 145,
+      "alt": "Block A (1 kg) on block B (2 kg), μ = 0.5 between them; B is on a smooth floor and a force F pulls A.",
+      "origin": "docx",
+      "needs_redraw": true
+    },
+    {
+      "id": "P000569-sol-1",
+      "role": "solution",
+      "file": "P000/P000569-sol-1.png",
+      "format": "png",
+      "width": 715,
+      "height": 266,
+      "alt": "A 1 kg block pulled by F on a 2 kg block; friction drives B. a_max = 5/2 and F_max = 3(2.5).",
+      "origin": "docx",
+      "needs_redraw": false
+    }
+  ],
+  "rights": "unverified",
+  "content_hash": "c7e97c6791a24d56",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-12",
+  "updated": "2026-11-12"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "P000203",
+  "problem_version": 1,
+  "status": "reviewed",
+  "hints": [
+    "Maximum height depends on only one component of the launch velocity. If the heights are equal, which component is equal?"
+  ],
+  "worded": "1. Maximum height = u_y²/2g, so equal heights mean equal vertical components.\n\n2. u₁ sin 45° = u₂ sin 60°.\n\n3. u₁/u₂ = sin 60°/sin 45° = (√3/2)/(1/√2) = √3/√2 = √(3/2). (B)\n\n4. Check: the 45° body has the less steep launch, so it needs the greater speed to reach the same height: the ratio u₁/u₂ must exceed 1. √1.5 ≈ 1.22 does.",
+  "conventional": "![](asset:P000203-sol-1)\n\n$$\\frac{u_{1}^{2}\\sin^{2}45^{\\circ}}{2g} = \\frac{u_{2}^{2}\\sin^{2}60^{\\circ}}{2g}\\  \\Rightarrow \\ \\frac{u_{1}}{u_{2}} = \\frac{\\sin 60^{\\circ}}{\\sin 45^{\\circ}} = \\sqrt{\\frac{3}{2}}.$$",
+  "mistakes": [
+    "(A) 3/2 is the ratio of the squares; take the square root.",
+    "Equal heights means equal $u\\sin\\theta$, not equal speeds."
+  ],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "solved_answer": "(B) $\\sqrt{3/2}$.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": "04MIP_Solutions_v1",
+    "date": "2026-11-12"
+  },
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 04MIP_Solutions_v1.docx"
+  }
+}

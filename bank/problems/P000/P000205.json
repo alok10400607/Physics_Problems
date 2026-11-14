@@ -1,6 +1,6 @@
 {
   "id": "P000205",
-  "status": "imported",
+  "status": "reviewed",
   "version": 1,
   "type": "mcq_single",
   "topic_code": "0410",
@@ -46,11 +46,23 @@
       "year": 2019
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "id": "P000205-sol-1",
+      "role": "solution",
+      "file": "P000/P000205-sol-1.png",
+      "format": "png",
+      "width": 697,
+      "height": 577,
+      "alt": "Top view of the ground: a small circle of radius R_A inside a large circle of radius R_B = 4R_A. The area covered is πR²_max ∝ u⁴.",
+      "origin": "docx",
+      "needs_redraw": false
+    }
+  ],
   "rights": "past-paper",
   "content_hash": "24bc5683d2f27120",
   "duplicate_of": null,
   "variant_of": null,
   "created": "2026-11-08",
-  "updated": "2026-11-08"
+  "updated": "2026-11-12"
 }

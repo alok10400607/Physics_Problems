@@ -1,21 +1,33 @@
 {
   "id": "P000240",
   "problem_version": 1,
-  "status": "draft",
-  "hints": [],
-  "worded": null,
-  "conventional": "> Choose down-the-slope as x-axis and $\\bot$ up as y-axis:\n\n>\n\n> Then $u_{x} = 0$ and $a_{x} = g\\sin \\theta = \\frac{3}{5}g$; $u_{y} = u$ and $a_{y} = - g\\cos \\theta = - \\frac{4}{5}g$\n\n>\n\n> Time of flight T = $\\frac{2u_{y}}{a_{y}} = \\frac{5u}{2g}$\n\n>\n\n> Range = Displacement along x-axis in time T = $\\frac{1}{2}a_{x}T^{2}$",
-  "mistakes": [],
+  "status": "reviewed",
+  "hints": [
+    "Use axes along and across the incline. Across it, the particle goes out and comes back like a vertical throw; along it, it starts from rest. What does each component of g do?"
+  ],
+  "worded": "1. Tilt the axes: x down the slope, y perpendicular to it. Gravity has components g sin 37° = 3g/5 along x and g cos 37° = 4g/5 into the plane.\n\n2. Across the plane the particle starts with u and is pulled back at 4g/5, so it returns to the plane after 2u/(4g/5) = 5u/2g.\n\n3. Along the plane it starts from rest and accelerates at 3g/5. In that time it slides ½ × (3g/5) × (5u/2g)² = ½ × 3g/5 × 25u²/4g² = 15u²/8g. (C)\n\n4. Check: it lands down the slope (it has no up-slope velocity at all), and the answer grows with sin θ, as it should.",
+  "conventional": "![](asset:P000240-sol-1)\n\nTake x along the incline (down) and y perpendicular to it. Then $u_{x} = 0$, $a_{x} = g\\sin 37^{\\circ} = \\frac{3}{5}g$; $u_{y} = u$, $a_{y} = - g\\cos 37^{\\circ} = - \\frac{4}{5}g$.\n\n$$T = \\frac{2u_{y}}{\\left| a_{y} \\right|} = \\frac{2u}{4g/5} = \\frac{5u}{2g}.$$\n\n$$R = \\frac{1}{2}a_{x}T^{2} = \\frac{1}{2} \\cdot \\frac{3g}{5} \\cdot \\frac{25u^{2}}{4g^{2}} = \\frac{15u^{2}}{8g}.$$",
+  "mistakes": [
+    "The along-slope motion is accelerated even though it starts from zero.",
+    "Use g cos θ (not g) for the time of flight: only the perpendicular component brings it back."
+  ],
   "distractors": {},
   "extension": null,
   "check": {
+    "solved_answer": "(C) $\\frac{15u^{2}}{8g}$.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
     "issues": []
   },
   "generated_by": {
     "author": "worksheet",
     "model": null,
-    "prompt_version": null,
-    "date": "2026-11-08"
+    "prompt_version": "04MIP_Solutions_v1",
+    "date": "2026-11-12"
   },
-  "reviewed_by": null
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 04MIP_Solutions_v1.docx"
+  }
 }

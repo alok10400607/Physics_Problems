@@ -1,0 +1,68 @@
+{
+  "id": "P000560",
+  "status": "reviewed",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0615",
+  "concepts": [],
+  "exams": [
+    "JEE Main"
+  ],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "A body of mass 2 kg slides down with an acceleration of 3 m/s<sup>2</sup> on a rough inclined plane having a slope of 30°. The external force required to take the same body up the plane with the same acceleration will be :",
+  "options": {
+    "A": "14 N",
+    "B": "20 N",
+    "C": "6 N",
+    "D": "4 N"
+  },
+  "answer": {
+    "keys": [
+      "B"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "06FRI_v1",
+      "qno": 26
+    },
+    {
+      "kind": "exam",
+      "exam": "JEE Main",
+      "date": "2018-04-15",
+      "shift": 2,
+      "mode": null,
+      "raw": "JEE Main 2018, 15 Apr, Shift 2",
+      "year": 2018
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000560-sol-1",
+      "role": "solution",
+      "file": "P000/P000560-sol-1.png",
+      "format": "png",
+      "width": 1036,
+      "height": 275,
+      "alt": "A block on a 30° incline. Note: down, mg sin 30° − f = ma, f = 4 N; up, F − mg sin 30° − f = ma.",
+      "origin": "docx",
+      "needs_redraw": false
+    }
+  ],
+  "rights": "past-paper",
+  "content_hash": "02f22c5d3fcb317e",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-12",
+  "updated": "2026-11-12"
+}

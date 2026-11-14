@@ -1,6 +1,6 @@
 {
   "id": "P000277",
-  "status": "imported",
+  "status": "reviewed",
   "version": 1,
   "type": "mcq_single",
   "topic_code": "0440",
@@ -35,11 +35,23 @@
       "qno": 97
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "id": "P000277-sol-1",
+      "role": "solution",
+      "file": "P000/P000277-sol-1.png",
+      "format": "png",
+      "width": 736,
+      "height": 281,
+      "alt": "A boat at 10 km/h heading 30° upstream of the normal, with a 5 km/h current, moves √(100 − 25) = 5√3 km/h straight across.",
+      "origin": "docx",
+      "needs_redraw": false
+    }
+  ],
   "rights": "unverified",
   "content_hash": "ec9fb33e7a5962ca",
   "duplicate_of": null,
   "variant_of": null,
   "created": "2026-11-08",
-  "updated": "2026-11-08"
+  "updated": "2026-11-12"
 }

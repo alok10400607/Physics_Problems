@@ -1,0 +1,33 @@
+{
+  "id": "P000282",
+  "problem_version": 1,
+  "status": "reviewed",
+  "hints": [
+    "The boat heads due north at 10 m/s, so its distance from the bank grows uniformly. How much does the river carry it sideways while it moves from y to y + dy?"
+  ],
+  "worded": "1. Heading due north at 10 m/s, the boat’s distance from the bank is y = 10t, whatever the river does.\n\n2. The river carries it east at (5 + 0.05y) m/s, which grows as it moves out.\n\n3. Sideways drift per metre across = (river speed)/(10). Add this up from y = 0 to 100 m: drift = (1/10) × ∫(5 + 0.05y) dy = (1/10)(500 + 250) = 75 m. (D)\n\n4. Check with the average river speed: it rises linearly from 5 to 10 m/s, average 7.5 m/s, for 10 s: 75 m.\n\n**No-pen route: average flow.** The river speed rises linearly with y, and y rises uniformly in time, so the average river speed over the trip is (5 + 10)/2 = 7.5 m/s. The trip takes 100/10 = 10 s, so the drift is 75 m.",
+  "conventional": "![](asset:P000282-sol-1)\n\n$y = 10t$, so $dt = dy/10$ and\n\n$$x = \\int v_{r}\\, dt = \\frac{1}{10}\\int_{0}^{100}(5 + 0.05y)\\, dy = \\frac{1}{10}\\left\\lbrack 5y + 0.025y^{2} \\right\\rbrack_{0}^{100} = \\frac{500 + 250}{10} = 75\\unit{m}.$$",
+  "mistakes": [
+    "Using the speed at the start (5 m/s) gives 50 m; at the far side (10 m/s), 100 m. The average applies only because the speed varies linearly in time.",
+    "The boat aims north throughout, so its across speed stays 10 m/s."
+  ],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "solved_answer": "(D) 75 m.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": "04MIP_Solutions_v1",
+    "date": "2026-11-12"
+  },
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 04MIP_Solutions_v1.docx"
+  }
+}

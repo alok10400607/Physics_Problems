@@ -1,0 +1,68 @@
+{
+  "id": "P000541",
+  "status": "reviewed",
+  "version": 1,
+  "type": "mcq_single",
+  "topic_code": "0610",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000541-stem-1)A block of mass M lies on a rough surface of coefficient of friction μ. A force is applied on it at an angle θ to the horizontal as shown, and the block is at rest. The frictional force acting on the block will be",
+  "options": {
+    "A": "F cosθ",
+    "B": "μ(mg + F sinθ)",
+    "C": "μ (mg − F sinθ)",
+    "D": "μmg"
+  },
+  "answer": {
+    "keys": [
+      "A"
+    ]
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "06FRI_v1",
+      "qno": 7
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000541-stem-1",
+      "role": "stem",
+      "file": "P000/P000541-stem-1.png",
+      "format": "png",
+      "width": 352,
+      "height": 279,
+      "alt": "A block of mass M on a rough horizontal floor with coefficient μ, pushed by a force F acting downward at angle θ to the horizontal on its top right corner.",
+      "origin": "docx",
+      "needs_redraw": true
+    },
+    {
+      "id": "P000541-sol-1",
+      "role": "solution",
+      "file": "P000/P000541-sol-1.png",
+      "format": "png",
+      "width": 750,
+      "height": 382,
+      "alt": "A block M at rest on a floor pushed down and to the left by F at θ below the horizontal; friction f = F cos θ to the left. Note: at rest, static friction equals what is needed.",
+      "origin": "docx",
+      "needs_redraw": false
+    }
+  ],
+  "rights": "unverified",
+  "content_hash": "165fd1e11587895b",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-12",
+  "updated": "2026-11-12"
+}

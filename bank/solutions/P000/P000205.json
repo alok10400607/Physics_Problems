@@ -1,23 +1,33 @@
 {
   "id": "P000205",
   "problem_version": 1,
-  "status": "draft",
+  "status": "reviewed",
   "hints": [
-    "> Maximum range $R \\propto u^{2}$ and area $A \\propto R^{2}$ hence $A \\propto u^{4}$"
+    "Firing in all directions, the bullets land anywhere inside a circle. What sets its radius, and how does that radius grow with speed?"
   ],
-  "worded": null,
-  "conventional": null,
-  "mistakes": [],
+  "worded": "1. Fired in every direction, the bullets land anywhere within a circle whose radius is the maximum range u²/g.\n\n2. Area = π(u²/g)², which grows as u⁴.\n\n3. B is twice as fast as A, so its area is 2⁴ = 16 times larger.\n\n4. Ratio A : B = 1 : 16. (D)\n\n5. Check: doubling the speed quadruples the range, and area goes as range squared, so 4² = 16.",
+  "conventional": "![](asset:P000205-sol-1)\n\n$$R_{\\max} = \\frac{u^{2}}{g},\\quad\\quad A = \\pi R_{\\max}^{2} = \\frac{\\pi u^{4}}{g^{2}}.$$\n\n$$\\frac{A_{A}}{A_{B}} = \\left( \\frac{u_{A}}{u_{B}} \\right)^{4} = \\left( \\frac{1}{2} \\right)^{4} = \\frac{1}{16}.$$",
+  "mistakes": [
+    "Range goes as u², and area as range², so area goes as u⁴; 1 : 4 stops one step too early.",
+    "The “area covered” is a filled disc on the ground, not the area under one trajectory."
+  ],
   "distractors": {},
   "extension": null,
   "check": {
+    "solved_answer": "(D) 1 : 16.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
     "issues": []
   },
   "generated_by": {
     "author": "worksheet",
     "model": null,
-    "prompt_version": null,
-    "date": "2026-11-08"
+    "prompt_version": "04MIP_Solutions_v1",
+    "date": "2026-11-12"
   },
-  "reviewed_by": null
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 04MIP_Solutions_v1.docx"
+  }
 }

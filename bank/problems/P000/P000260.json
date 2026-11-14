@@ -1,6 +1,6 @@
 {
   "id": "P000260",
-  "status": "imported",
+  "status": "reviewed",
   "version": 1,
   "type": "mcq_single",
   "topic_code": "0435",
@@ -35,11 +35,23 @@
       "qno": 80
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "id": "P000260-sol-1",
+      "role": "solution",
+      "file": "P000/P000260-sol-1.png",
+      "format": "png",
+      "width": 863,
+      "height": 508,
+      "alt": "A square route of side 16 km flown with a 60 m/s wind from the west: east 100 + 60 = 160 m/s, north √(100² − 60²) = 80 m/s, west 100 − 60 = 40 m/s, south 80 m/s.",
+      "origin": "docx",
+      "needs_redraw": false
+    }
+  ],
   "rights": "unverified",
   "content_hash": "3ee2b70fbd3d9529",
   "duplicate_of": null,
   "variant_of": null,
   "created": "2026-11-08",
-  "updated": "2026-11-08"
+  "updated": "2026-11-12"
 }

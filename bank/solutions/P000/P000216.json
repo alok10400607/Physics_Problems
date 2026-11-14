@@ -1,23 +1,33 @@
 {
   "id": "P000216",
   "problem_version": 1,
-  "status": "draft",
+  "status": "reviewed",
   "hints": [
-    "> For uniformly accelerated motion: $\\mathrm{\\Delta}\\overrightarrow{v} = \\overrightarrow{a}(\\mathrm{\\Delta}t)$"
+    "With constant acceleration $\\vec{g}$, how is the change in velocity over any interval related to $\\vec{g}$ and the time?"
   ],
-  "worded": null,
-  "conventional": null,
-  "mistakes": [],
+  "worded": "1. The acceleration is constant ($\\vec{g}$, downward), so the change in velocity over Δt is $\\vec{g}$Δt, whatever the launch speed or angle.\n\n2. |Δv| = 10 × 0.5 = 5 m/s, directed vertically downward. (C)\n\n3. The launch data (20 m/s at 30°) are not needed. They only check that the body is still in the air at 0.5 s: its flight lasts 2 s.",
+  "conventional": "![](asset:P000216-sol-1)\n\n$$\\Delta\\vec{v} = \\vec{a}\\,\\Delta t = \\vec{g}\\,\\Delta t\\  \\Rightarrow \\ \\left| \\Delta\\vec{v} \\right| = 10 \\times 0.5 = 5\\unit{m/s}\\ (downward).$$",
+  "mistakes": [
+    "Δv is not the change in speed; the speed changes by less than 5 m/s here.",
+    "The launch speed and angle are distractors (they only confirm the flight lasts more than 0.5 s)."
+  ],
   "distractors": {},
   "extension": null,
   "check": {
+    "solved_answer": "(C) 5 m/s.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
     "issues": []
   },
   "generated_by": {
     "author": "worksheet",
     "model": null,
-    "prompt_version": null,
-    "date": "2026-11-08"
+    "prompt_version": "04MIP_Solutions_v1",
+    "date": "2026-11-12"
   },
-  "reviewed_by": null
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 04MIP_Solutions_v1.docx"
+  }
 }

@@ -16,7 +16,7 @@
   },
   "time_estimate_s": null,
   "passage_id": null,
-  "stem": "A body is released from the top of a tower of height H metre (H \\> 40 m). After 2 seconds it is stopped and then instantaneously released. What will be its height after next 2 seconds?",
+  "stem": "A body is released from the top of a tower of height H metre (H > 40 m). After 2 seconds it is stopped and then instantaneously released. What will be its height after next 2 seconds?",
   "answer": {
     "text": "H-40"
   },

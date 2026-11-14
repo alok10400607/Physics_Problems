@@ -1,6 +1,6 @@
 {
   "id": "P000209",
-  "status": "imported",
+  "status": "reviewed",
   "version": 1,
   "type": "mcq_single",
   "topic_code": "0410",
@@ -46,11 +46,23 @@
       "year": 2021
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "id": "P000209-sol-1",
+      "role": "solution",
+      "file": "P000/P000209-sol-1.png",
+      "format": "png",
+      "width": 652,
+      "height": 280,
+      "alt": "A projectile path with tan θ = α at launch, maximum height H = α²/4β, and range R = α/β (the roots of y = 0).",
+      "origin": "docx",
+      "needs_redraw": false
+    }
+  ],
   "rights": "past-paper",
   "content_hash": "8908326b9c502180",
   "duplicate_of": null,
   "variant_of": null,
   "created": "2026-11-08",
-  "updated": "2026-11-08"
+  "updated": "2026-11-12"
 }

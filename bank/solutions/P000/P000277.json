@@ -1,0 +1,33 @@
+{
+  "id": "P000277",
+  "problem_version": 1,
+  "status": "reviewed",
+  "hints": [
+    "The shortest path is straight across. What is the boat’s speed along that path once part of its velocity is used to cancel the river?"
+  ],
+  "worded": "1. The boat (10 km/h) is faster than the river (5 km/h), so the shortest path, straight across, is possible.\n\n2. Part of the boat’s velocity cancels the river; the rest, √(10² − 5²) = √75 = 5√3 km/h, carries it across.\n\n3. Time = 2/(5√3) h ≈ 0.23 h ≈ 14 min. (A)",
+  "conventional": "![](asset:P000277-sol-1)\n\n$$t = \\frac{W}{\\sqrt{v_{b}^{2} - v_{r}^{2}}} = \\frac{2}{\\sqrt{100 - 25}} = \\frac{2}{5\\sqrt{3}}\\unit{h}.$$",
+  "mistakes": [
+    "The shortest-path crossing is slower than the fastest crossing (0.2 h).",
+    "Use √(v_b² − v_r²), not v_b − v_r."
+  ],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "solved_answer": "(A) $\\frac{2}{5\\sqrt{3}}$ h.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": "04MIP_Solutions_v1",
+    "date": "2026-11-12"
+  },
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 04MIP_Solutions_v1.docx"
+  }
+}

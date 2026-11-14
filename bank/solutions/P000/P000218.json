@@ -1,21 +1,33 @@
 {
   "id": "P000218",
   "problem_version": 1,
-  "status": "draft",
-  "hints": [],
-  "worded": null,
-  "conventional": "> The original time of flight is 6 s (as $H = 45m)$; hence $u_{x} = 15$ m/s\n\n>\n\n> The horizontal acceleration will not change time of flight or the maximum height.\n\n>\n\n> Horizontal displacement with $a_{x} = 1$ : $s_{x} = u_{x}T + \\frac{1}{2}a_{x}T^{2} = 108$",
-  "mistakes": [],
+  "status": "reviewed",
+  "hints": [
+    "Which quantities depend only on the vertical motion? The wind changes only the horizontal motion, from uniform to uniformly accelerated."
+  ],
+  "worded": "1. H = 45 m gives u_y = √(2 × 10 × 45) = 30 m/s and a time of flight of 6 s.\n\n2. R = 90 m in 6 s gives u_x = 15 m/s.\n\n3. The wind adds a horizontal acceleration only. Time of flight and maximum height depend only on the vertical motion, so they stay 6 s and 45 m.\n\n4. New range = u_xT + ½aT² = 90 + ½ × 1 × 36 = 108 m. (C)\n\n5. Check: (A) and (B) add only 9 m (half the extra), and (B) wrongly changes H.",
+  "conventional": "![](asset:P000218-sol-1)\n\n$$H = \\frac{u_{y}^{2}}{2g} = 45 \\Rightarrow u_{y} = 30\\unit{m/s},\\quad T = \\frac{2u_{y}}{g} = 6\\unit{s},\\quad u_{x} = \\frac{90}{6} = 15\\unit{m/s}.$$\n\nWith $a_{x} = g/10 = 1$ m/s²:\n\n$$R\\prime = u_{x}T + \\frac{1}{2}a_{x}T^{2} = 90 + \\frac{1}{2}(1)(36) = 108\\unit{m},\\quad\\quad H\\prime = H = 45\\unit{m}.$$",
+  "mistakes": [
+    "A horizontal wind does not change the height or the time of flight.",
+    "Add ½aT², not ½aT² with T = 3 s (the time to the top)."
+  ],
   "distractors": {},
   "extension": null,
   "check": {
+    "solved_answer": "(C) 108 m and 45 m.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
     "issues": []
   },
   "generated_by": {
     "author": "worksheet",
     "model": null,
-    "prompt_version": null,
-    "date": "2026-11-08"
+    "prompt_version": "04MIP_Solutions_v1",
+    "date": "2026-11-12"
   },
-  "reviewed_by": null
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 04MIP_Solutions_v1.docx"
+  }
 }

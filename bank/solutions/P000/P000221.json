@@ -1,23 +1,33 @@
 {
   "id": "P000221",
   "problem_version": 1,
-  "status": "draft",
+  "status": "reviewed",
   "hints": [
-    "> $$u_{y}^{2} = v_{y}^{2} + 2gh = 12$$"
+    "The horizontal component is the same as at launch. For the vertical component, how does v_y² change with height?"
   ],
-  "worded": null,
-  "conventional": null,
-  "mistakes": [],
+  "worded": "1. Horizontal component is unchanged: u_x = 6 m/s.\n\n2. Vertically, v_y² falls by 2g for every metre risen. So u_y² = v_y² + 2gh = 4 + 2 × 10 × 0.4 = 12, u_y = 2√3 m/s.\n\n3. tan θ = 2√3/6 = 1/√3, θ = 30°. (C)\n\n4. Check: (A) tan⁻¹(⅓) = tan⁻¹(2/6) uses the velocity at 0.4 m, not at launch; the launch is steeper.",
+  "conventional": "![](asset:P000221-sol-1)\n\n$$u_{x} = 6\\unit{m/s},\\quad\\quad u_{y}^{2} = v_{y}^{2} + 2gh = 2^{2} + 2(10)(0.4) = 12\\  \\Rightarrow \\ u_{y} = 2\\sqrt{3}\\unit{m/s}.$$\n\n$$\\tan\\theta = \\frac{2\\sqrt{3}}{6} = \\frac{1}{\\sqrt{3}}\\  \\Rightarrow \\ \\theta = 30^{\\circ}.$$",
+  "mistakes": [
+    "The given velocity is at 0.4 m, not at launch: correct v_y for the height.",
+    "Do not change the horizontal component; only v_y changes."
+  ],
   "distractors": {},
   "extension": null,
   "check": {
+    "solved_answer": "(C) 30°.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
     "issues": []
   },
   "generated_by": {
     "author": "worksheet",
     "model": null,
-    "prompt_version": null,
-    "date": "2026-11-08"
+    "prompt_version": "04MIP_Solutions_v1",
+    "date": "2026-11-12"
   },
-  "reviewed_by": null
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 04MIP_Solutions_v1.docx"
+  }
 }

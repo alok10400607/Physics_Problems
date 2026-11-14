@@ -1,6 +1,6 @@
 {
   "id": "P000232",
-  "status": "imported",
+  "status": "reviewed",
   "version": 1,
   "type": "numerical",
   "topic_code": "0420",
@@ -29,11 +29,23 @@
       "qno": 52
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "id": "P000232-sol-1",
+      "role": "solution",
+      "file": "P000/P000232-sol-1.png",
+      "format": "png",
+      "width": 561,
+      "height": 486,
+      "alt": "A ball thrown at 20 m/s from 10 m in front of a 25 m wall hits the wall at a height of 7.5 m.",
+      "origin": "docx",
+      "needs_redraw": true
+    }
+  ],
   "rights": "unverified",
   "content_hash": "092ce595eb3f7ad4",
   "duplicate_of": null,
   "variant_of": null,
   "created": "2026-11-08",
-  "updated": "2026-11-08"
+  "updated": "2026-11-12"
 }

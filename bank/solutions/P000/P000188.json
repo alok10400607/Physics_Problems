@@ -1,23 +1,33 @@
 {
   "id": "P000188",
   "problem_version": 1,
-  "status": "draft",
+  "status": "reviewed",
   "hints": [
-    "> $\\overrightarrow{v} = (2t - 4)\\widehat{i} + (2t)\\widehat{j}$ $\\overrightarrow{a} = 2\\widehat{i} + 2\\widehat{j}$\n\n>\n\n> Mutually perpendicular when the dot product is zero"
+    "Perpendicular vectors have zero dot product. Write $\\vec{v}(t)$ and $\\vec{a}$, then ask when $\\vec{v} \\cdot \\vec{a} = 0$."
   ],
-  "worded": null,
-  "conventional": null,
-  "mistakes": [],
+  "worded": "1. Asked: the instant when $\\vec{v}\\bot\\vec{a}$. Two vectors are perpendicular exactly when their dot product is zero.\n\n2. Differentiate: $\\vec{v}$ = (2t − 4) î + 2t ĵ; differentiate again: $\\vec{a}$ = 2 î + 2 ĵ, a constant.\n\n3. Dot product: 2(2t − 4) + 2(2t) = 8t − 8. This is zero at t = 1 s. (A)\n\n4. Meaning: at t = 1 s the speed is momentarily not changing. Before it the velocity has a component against $\\vec{a}$ (speed falling); after it, along $\\vec{a}$ (speed rising). So t = 1 s is the instant of minimum speed.\n\n5. Check: at t = 1, $\\vec{v}$ = (−2, 2) and $\\vec{a}$ = (2, 2): clearly at right angles.\n\n**Another way: minimum speed.** Speed² = (2t − 4)² + 4t² = 8t² − 16t + 16 = 8(t − 1)² + 8. It is least at t = 1 s, and at the minimum of speed the acceleration has no component along $\\vec{v}$, so $\\vec{v}\\bot\\vec{a}$.",
+  "conventional": "![](asset:P000188-sol-1)\n\n$$\\vec{v} = \\frac{d\\vec{r}}{dt} = (2t - 4)\\ihat  + 2t\\,\\jhat ,\\quad\\quad\\vec{a} = \\frac{d\\vec{v}}{dt} = 2\\ihat  + 2\\jhat .$$\n\n$$\\vec{v} \\cdot \\vec{a} = 2(2t - 4) + 2(2t) = 8t - 8 = 0\\  \\Rightarrow \\ t = 1\\unit{s}.$$",
+  "mistakes": [
+    "Setting $\\vec{v} = 0$ (no solution, since the y-part 2t and x-part 2t − 4 never vanish together) is not the condition.",
+    "t = 2 s makes only $v_{x}$ zero; then $\\vec{v}$ = 4 ĵ, which is not perpendicular to 2 î + 2 ĵ."
+  ],
   "distractors": {},
   "extension": null,
   "check": {
+    "solved_answer": "(A) 1 s.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
     "issues": []
   },
   "generated_by": {
     "author": "worksheet",
     "model": null,
-    "prompt_version": null,
-    "date": "2026-11-08"
+    "prompt_version": "04MIP_Solutions_v1",
+    "date": "2026-11-12"
   },
-  "reviewed_by": null
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 04MIP_Solutions_v1.docx"
+  }
 }

@@ -1,0 +1,33 @@
+{
+  "id": "P000279",
+  "problem_version": 1,
+  "status": "reviewed",
+  "hints": [
+    "The least-time crossing gives you two facts: width ÷ boat speed = 10 min, and river speed × 10 min = 120 m. The shortest-route time gives a third."
+  ],
+  "worded": "1. Least time: heading straight across, 10 min, with drift 120 m. So the river speed is 120/10 = 12 m/min, and the width is 10 v_b.\n\n2. Shortest route: across speed √(v_b² − 144), time 12.5 min: 10 v_b = 12.5 √(v_b² − 144).\n\n3. Square: 100 v_b² = 156.25 (v_b² − 144), so 56.25 v_b² = 22 500, v_b² = 400, v_b = 20 m/min. (D)\n\n4. Check: across speed √(400 − 144) = 16; width 200 m; 200/16 = 12.5 min ✓.\n\n**No-pen route: ratio of times.** The ratio of the two times is v_b/√(v_b² − v_r²) = 12.5/10 = 5/4, so the across speed is ⅘ of v_b and the river is ⅗ of v_b (a 3-4-5 triangle). With v_r = 12 m/min, v_b = 20 m/min.",
+  "conventional": "![](asset:P000279-sol-1)\n\n$$v_{r} = \\frac{120}{10} = 12\\unit{m}/min,\\quad\\quad W = 10v_{b}.$$\n\n$$\\frac{10v_{b}}{\\sqrt{v_{b}^{2} - 144}} = 12.5\\  \\Rightarrow \\ \\frac{v_{b}}{\\sqrt{v_{b}^{2} - 144}} = \\frac{5}{4}\\  \\Rightarrow \\ v_{b} = 20\\unit{m}/min.$$",
+  "mistakes": [
+    "The drift in the least-time crossing is v_r × t, which gives the river speed directly.",
+    "Do not assume the width; it follows from W = 10 v_b."
+  ],
+  "distractors": {},
+  "extension": null,
+  "check": {
+    "solved_answer": "(D) 20 m/min.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
+    "issues": []
+  },
+  "generated_by": {
+    "author": "worksheet",
+    "model": null,
+    "prompt_version": "04MIP_Solutions_v1",
+    "date": "2026-11-12"
+  },
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 04MIP_Solutions_v1.docx"
+  }
+}

@@ -1,6 +1,6 @@
 {
   "id": "P000182",
-  "status": "imported",
+  "status": "reviewed",
   "version": 1,
   "type": "mcq_single",
   "topic_code": "0405",
@@ -35,11 +35,23 @@
       "qno": 2
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "id": "P000182-sol-1",
+      "role": "solution",
+      "file": "P000/P000182-sol-1.png",
+      "format": "png",
+      "width": 766,
+      "height": 540,
+      "alt": "Vector triangle: ut = 4î along x, then ½at² = 2î + 2√3ĵ at 60° to x, giving the resultant s = 6î + 2√3ĵ from the origin. Scale: 1 cm = 1.5 m.",
+      "origin": "docx",
+      "needs_redraw": false
+    }
+  ],
   "rights": "unverified",
   "content_hash": "850db66e77809e73",
   "duplicate_of": null,
   "variant_of": null,
   "created": "2026-11-08",
-  "updated": "2026-11-08"
+  "updated": "2026-11-12"
 }

@@ -1,0 +1,60 @@
+{
+  "id": "P000573",
+  "status": "reviewed",
+  "version": 1,
+  "type": "subjective",
+  "topic_code": "0625",
+  "concepts": [],
+  "exams": [],
+  "difficulty": {
+    "worksheet": null,
+    "ai": null,
+    "ai_scores": null,
+    "ai_reason": null,
+    "ai_confidence": null,
+    "expert": null
+  },
+  "time_estimate_s": null,
+  "passage_id": null,
+  "stem": "![](asset:P000573-stem-1)Two blocks are connected over a massless pulley as shown in figure. The mass of block A is 10 kg and the coefficient of kinetic friction is 0.2. Block A slides down the incline at constant speed.\n(i) The mass of the block B in kg is?\n(ii) What should be the mass of B if A slides up the slope with constant velocity?",
+  "answer": {
+    "text": "(i) 3.27 kg (ii) 6.73 kg"
+  },
+  "sources": [
+    {
+      "kind": "worksheet",
+      "ref": "06FRI_v1",
+      "qno": 39
+    }
+  ],
+  "assets": [
+    {
+      "id": "P000573-stem-1",
+      "role": "stem",
+      "file": "P000/P000573-stem-1.png",
+      "format": "png",
+      "width": 502,
+      "height": 262,
+      "alt": "A 10 kg block A on a 30° incline with μ = 0.2, tied by a string over a pulley at the top to block B hanging down the vertical side.",
+      "origin": "docx",
+      "needs_redraw": true
+    },
+    {
+      "id": "P000573-sol-1",
+      "role": "solution",
+      "file": "P000/P000573-sol-1.png",
+      "format": "png",
+      "width": 963,
+      "height": 330,
+      "alt": "Block A on a 30° incline: T up the slope, 50 N down it, kinetic friction 17.3 N. Notes: (i) A down: T = 50 − 17.3; (ii) A up: T = 50 + 17.3; T = m_B g.",
+      "origin": "docx",
+      "needs_redraw": false
+    }
+  ],
+  "rights": "unverified",
+  "content_hash": "5de8dda5f6f751f5",
+  "duplicate_of": null,
+  "variant_of": null,
+  "created": "2026-11-12",
+  "updated": "2026-11-12"
+}

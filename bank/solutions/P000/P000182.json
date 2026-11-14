@@ -1,23 +1,33 @@
 {
   "id": "P000182",
   "problem_version": 1,
-  "status": "draft",
+  "status": "reviewed",
   "hints": [
-    "> Let the initial velocity be $2\\widehat{i}$ then acceleration: $\\widehat{i} + \\sqrt{3}\\widehat{j}$\n\n>\n\n> Final velocity: $4\\widehat{i} + 2\\sqrt{3}\\widehat{j}$ Average velocity: 3$\\widehat{i} + \\sqrt{3}\\widehat{j}$"
+    "Choose the x-axis along the initial velocity. Then write the acceleration as two components and treat x and y as two separate straight-line motions."
   ],
-  "worded": null,
-  "conventional": null,
-  "mistakes": [],
+  "worded": "1. Asked: the speed and the magnitude of displacement after 2 s. The acceleration is constant, so the vector equations of motion apply component by component.\n\n2. Put x along the initial velocity: $\\vec{u}$ = 2 along x. The acceleration of 2 at 60° has components 2 cos 60° = 1 along x and 2 sin 60° = √3 along y.\n\n3. Velocity after 2 s: x goes 2 → 2 + 1 × 2 = 4; y goes 0 → √3 × 2 = 2√3. Speed = √(16 + 12) = √28 = 2√7 m/s.\n\n4. Displacement: with constant acceleration the average velocity is the mean of the start and end velocities, (3, √3). Times 2 s gives (6, 2√3).\n\n5. Its magnitude is √(36 + 12) = √48 = 4√3 m. (B)\n\n6. Check: the speed grows from 2 to about 5.3, so the distance covered must exceed 2 × 2 = 4 m but be less than 5.3 × 2 = 10.6 m; 4√3 ≈ 6.9 m fits.\n\n**Another way: average velocity.** For constant $\\vec{a}$, $\\vec{v}_{avg} = \\left( \\vec{u} + \\vec{v} \\right)/2 = \\left( 3\\ihat  + \\sqrt{3}\\jhat  \\right)$ m/s, so $\\vec{s} = 2\\vec{v}_{avg} = 6\\ihat  + 2\\sqrt{3}\\jhat $ m. This is the route in the worksheet hint.",
+  "conventional": "![](asset:P000182-sol-1)\n\nTake $\\ihat $ along the initial velocity. Then $\\vec{u} = 2\\ihat $ and $\\vec{a} = 2\\cos 60^{\\circ}\\,\\ihat  + 2\\sin 60^{\\circ}\\,\\jhat  = \\ihat  + \\sqrt{3}\\,\\jhat $ (in m/s²).\n\n$$\\vec{v} = \\vec{u} + \\vec{a}t = 2\\ihat  + 2\\left( \\ihat  + \\sqrt{3}\\jhat  \\right) = 4\\ihat  + 2\\sqrt{3}\\,\\jhat ,\\quad\\quad\\left| \\vec{v} \\right| = \\sqrt{16 + 12} = 2\\sqrt{7}\\unit{m/s}.$$\n\n$$\\vec{s} = \\vec{u}t + \\frac{1}{2}\\vec{a}t^{2} = 4\\ihat  + 2\\left( \\ihat  + \\sqrt{3}\\jhat  \\right) = 6\\ihat  + 2\\sqrt{3}\\,\\jhat ,\\quad\\quad\\left| \\vec{s} \\right| = \\sqrt{36 + 12} = 4\\sqrt{3}\\unit{m}.$$",
+  "mistakes": [
+    "Using |s| = ut + ½at² = 4 + 4 = 8 m treats u and a as parallel. They are at 60°.",
+    "(A) pairs the right speed with 2√3, which is only the y-part of the displacement."
+  ],
   "distractors": {},
   "extension": null,
   "check": {
+    "solved_answer": "(B) $2\\sqrt{7}$ m/s and $4\\sqrt{3}$ m.",
+    "resolve_answer": null,
+    "agrees_with_key": true,
     "issues": []
   },
   "generated_by": {
     "author": "worksheet",
     "model": null,
-    "prompt_version": null,
-    "date": "2026-11-08"
+    "prompt_version": "04MIP_Solutions_v1",
+    "date": "2026-11-12"
   },
-  "reviewed_by": null
+  "reviewed_by": {
+    "name": "Owner (solutions file)",
+    "date": "2026-11-12",
+    "notes": "Reviewed in 04MIP_Solutions_v1.docx"
+  }
 }

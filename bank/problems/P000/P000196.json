@@ -1,6 +1,6 @@
 {
   "id": "P000196",
-  "status": "imported",
+  "status": "reviewed",
   "version": 1,
   "type": "integer",
   "topic_code": "0410",
@@ -28,11 +28,23 @@
       "qno": 16
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "id": "P000196-sol-1",
+      "role": "solution",
+      "file": "P000/P000196-sol-1.png",
+      "format": "png",
+      "width": 777,
+      "height": 466,
+      "alt": "A projectile launched at 45° from the ground: a vertical arrow h = u²/2g marks the height for a straight-up throw; the 45° arc reaches h/2 at its top and lands at R_max = u²/g = 2h.",
+      "origin": "docx",
+      "needs_redraw": false
+    }
+  ],
   "rights": "unverified",
   "content_hash": "94c40ef5af5b3dd1",
   "duplicate_of": null,
   "variant_of": null,
   "created": "2026-11-08",
-  "updated": "2026-11-08"
+  "updated": "2026-11-12"
 }

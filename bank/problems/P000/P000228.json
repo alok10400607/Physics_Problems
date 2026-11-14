@@ -1,6 +1,6 @@
 {
   "id": "P000228",
-  "status": "imported",
+  "status": "reviewed",
   "version": 1,
   "type": "mcq_single",
   "topic_code": "0415",
@@ -46,6 +46,17 @@
       "alt": "A person at A on a cliff 26 m high throws a ball horizontally with speed u. Its curved path just reaches point B on top of a hill 16 m high, 40 m away horizontally.",
       "origin": "docx",
       "needs_redraw": true
+    },
+    {
+      "id": "P000228-sol-1",
+      "role": "solution",
+      "file": "P000/P000228-sol-1.png",
+      "format": "png",
+      "width": 721,
+      "height": 369,
+      "alt": "A body moving horizontally from A falls 10 m while travelling 40 m across to B, the top of a post.",
+      "origin": "docx",
+      "needs_redraw": false
     }
   ],
   "rights": "unverified",
@@ -53,5 +64,5 @@
   "duplicate_of": null,
   "variant_of": null,
   "created": "2026-11-08",
-  "updated": "2026-11-08"
+  "updated": "2026-11-12"
 }
